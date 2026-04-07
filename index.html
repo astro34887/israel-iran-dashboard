@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Middle East Conflict Monitor | 2026</title>
-    <meta name="description" content="Live statistics and intel regarding the 2026 Israel-Iran war.">
+    <title>Israel OSINT Tension Monitor</title>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
@@ -17,56 +16,58 @@
         <header class="header panel glass">
             <div class="branding">
                 <div class="live-indicator"></div>
-                <h1>Middle East Conflict Monitor</h1>
+                <h1>OSINT Tension Monitor</h1>
             </div>
             <div class="date-display">
-                STATUS: <span class="highlight">ACTIVE CONFLICT</span> | <span id="currentDate">April 2026</span>
+                LAST UPDATED: <span id="lastUpdated" class="highlight">Loading...</span><br>
+                <span class="subtext">Data strictly derived from real-time Telegram OSINT analysis.</span>
             </div>
         </header>
 
         <main class="main-content">
             <section class="stats-grid">
-                <div class="stat-card glass hover-lift">
-                    <h3>Duration</h3>
-                    <div class="stat-value" id="stat-duration">0</div>
-                    <div class="stat-label">Days since Operation Epic Fury (Feb 28)</div>
+                <!-- Tension Level -->
+                <div class="stat-card glass hover-lift attention" id="tensionCard">
+                    <h3>Overall Tension Level</h3>
+                    <div class="stat-value" id="tensionLevel">...</div>
+                    <div class="stat-label" id="tensionDesc">Awaiting Data</div>
                 </div>
+
+                <!-- Trending Topics -->
                 <div class="stat-card glass hover-lift">
-                    <h3>Casualties (Iran)</h3>
-                    <div class="stat-value" id="stat-cas-iran">0</div>
-                    <div class="stat-label">Reported Fatalities</div>
+                    <h3>Trending Topics (Last Hour)</h3>
+                    <div class="topics-list" id="topTopics">
+                        <!-- Filled by JS -->
+                    </div>
                 </div>
+
+                <!-- Sentiment/Future -->
                 <div class="stat-card glass hover-lift">
-                    <h3>Casualties (Lebanon)</h3>
-                    <div class="stat-value" id="stat-cas-leb">0</div>
-                    <div class="stat-label">Reported Fatalities</div>
-                </div>
-                <div class="stat-card glass hover-lift critical">
-                    <h3>Strait of Hormuz</h3>
-                    <div class="stat-value text-red">CONTESTED</div>
-                    <div class="stat-label">Critical Chokepoint Status</div>
+                    <h3>Estimated Sentiment</h3>
+                    <div class="stat-value text-blue">V2</div>
+                    <div class="stat-label">Detailed algorithmic sentiment analysis arriving soon.</div>
                 </div>
             </section>
 
             <div class="lower-grid">
                 <section class="chart-section panel glass">
-                    <h2>Casualties Over Time (Estimated)</h2>
+                    <h2>OSINT Reporting Volume (Volume vs Window)</h2>
                     <div class="chart-container">
-                        <canvas id="casualtyChart"></canvas>
+                        <canvas id="volumeChart"></canvas>
                     </div>
                 </section>
 
-                <section class="intel-feed panel glass">
-                    <h2>Live Intel Feed</h2>
-                    <ul class="intel-list" id="intelList">
-                        <!-- Populated by JS -->
-                    </ul>
+                <section class="chart-section panel glass">
+                    <h2>Keyword Frequencies</h2>
+                    <div class="chart-container">
+                        <canvas id="keywordChart"></canvas>
+                    </div>
                 </section>
             </div>
         </main>
         
         <footer class="footer panel glass">
-            <p>Data gathered by Autonomous Agent Astro. Powered by publicly available intelligence as of April 7, 2026.</p>
+            <p>Intelligence updated autonomously every hour via GitHub Actions.</p>
         </footer>
     </div>
 

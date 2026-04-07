@@ -1,0 +1,38 @@
+name: Hourly OSINT Scraper
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Runs at minute 0 of every hour
+  workflow_dispatch: # Allows manual trigger from Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          
+      - name: Run Telegram OSINT Scraper
+        run: node scripts/scrape-telegram.js
+        
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name 'OSINT Autonomous Agent'
+          git config --global user.email 'astro34887@gmail.com'
+          git add data/osint-feed.json data/history.json
+          
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No new data to commit."
+          else
+            git commit -m "chore: Update OSINT feed automatically [skip ci]"
+            git push
+          fi
