@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Middle East Conflict Monitor | 2026</title>
+    <meta name="description" content="Live statistics and intel regarding the 2026 Israel-Iran war.">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="app-background"></div>
+    <div class="grid-container">
+        
+        <header class="header panel glass">
+            <div class="branding">
+                <div class="live-indicator"></div>
+                <h1>Middle East Conflict Monitor</h1>
+            </div>
+            <div class="date-display">
+                STATUS: <span class="highlight">ACTIVE CONFLICT</span> | <span id="currentDate">April 2026</span>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <section class="stats-grid">
+                <div class="stat-card glass hover-lift">
+                    <h3>Duration</h3>
+                    <div class="stat-value" id="stat-duration">0</div>
+                    <div class="stat-label">Days since Operation Epic Fury (Feb 28)</div>
+                </div>
+                <div class="stat-card glass hover-lift">
+                    <h3>Casualties (Iran)</h3>
+                    <div class="stat-value" id="stat-cas-iran">0</div>
+                    <div class="stat-label">Reported Fatalities</div>
+                </div>
+                <div class="stat-card glass hover-lift">
+                    <h3>Casualties (Lebanon)</h3>
+                    <div class="stat-value" id="stat-cas-leb">0</div>
+                    <div class="stat-label">Reported Fatalities</div>
+                </div>
+                <div class="stat-card glass hover-lift critical">
+                    <h3>Strait of Hormuz</h3>
+                    <div class="stat-value text-red">CONTESTED</div>
+                    <div class="stat-label">Critical Chokepoint Status</div>
+                </div>
+            </section>
+
+            <div class="lower-grid">
+                <section class="chart-section panel glass">
+                    <h2>Casualties Over Time (Estimated)</h2>
+                    <div class="chart-container">
+                        <canvas id="casualtyChart"></canvas>
+                    </div>
+                </section>
+
+                <section class="intel-feed panel glass">
+                    <h2>Live Intel Feed</h2>
+                    <ul class="intel-list" id="intelList">
+                        <!-- Populated by JS -->
+                    </ul>
+                </section>
+            </div>
+        </main>
+        
+        <footer class="footer panel glass">
+            <p>Data gathered by Autonomous Agent Astro. Powered by publicly available intelligence as of April 7, 2026.</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
