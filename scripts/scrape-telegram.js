@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const CHANNELS = ['abualiexpress', 'amitsegal']; // Telegram channels to monitor
+const CHANNELS = ['abualiexpress', 'amitsegal', 'kann_news', 'ynetalerts', 'N12_news'];
 const DATA_DIR = path.join(__dirname, '../data');
 const HISTORY_FILE = path.join(DATA_DIR, 'history.json');
 const FEED_FILE = path.join(DATA_DIR, 'osint-feed.json');
@@ -16,12 +16,16 @@ const KEYWORDS = {
     'לבנון': 'Lebanon',
     'איראן': 'Iran',
     'משא ומתן': 'Negotiations',
-    'צבא': 'Army/IDF'
+    'צבא': 'Army/IDF',
+    'נפילות': 'Impacts',
+    'חירום': 'Emergency',
+    'הרוגים': 'Fatalities',
+    'פצועים': 'Injured'
 };
 
 function fetchChannelHtml(channelId) {
     return new Promise((resolve, reject) => {
-        https.get(`https://t.me/s/${channelId}`, (res) => {
+        https.get(`https://t.me/s/${channelId}`, { timeout: 5000 }, (res) => {
             let data = '';
             res.on('data', chunk => data += chunk);
             res.on('end', () => resolve(data));
@@ -32,12 +36,9 @@ function fetchChannelHtml(channelId) {
 async function fetchChannelMessages(channelId) {
     try {
         const html = await fetchChannelHtml(channelId);
-        
-        // Extract message texts
         const matches = html.match(/<div class="tgme_widget_message_text[^>]*>(.*?)<\/div>/gs) || [];
-        // Clean HTML tags and replace br with space
         const texts = matches.map(m => m.replace(/<br\s*[\/]?>/gi, " ").replace(/<\/?[^>]+(>|$)/g, ""));
-        return texts;
+        return texts.map(text => ({ channel: channelId, text: text }));
     } catch (error) {
         console.error(`Failed to fetch ${channelId}:`, error);
         return [];
@@ -51,42 +52,51 @@ async function generateAlertFeed() {
         allMessages = allMessages.concat(messages);
     }
     
-    // Count keywords
     const keywordCounts = {};
     Object.keys(KEYWORDS).forEach(k => keywordCounts[k] = 0);
     
-    allMessages.forEach(msg => {
+    let caughtMessages = []; // For semantic analysis logging
+
+    allMessages.forEach(msgObj => {
+        let keywordHits = 0;
+        let matchedWords = [];
+
         Object.keys(KEYWORDS).forEach(keyword => {
-            if (msg.includes(keyword)) {
+            if (msgObj.text.includes(keyword)) {
                 keywordCounts[keyword]++;
+                keywordHits++;
+                matchedWords.push(keyword);
             }
         });
+
+        // Semantic Engine: Flag message if it contains highly sensitive words or multiple tension keywords
+        if (keywordHits >= 2 || (msgObj.text.includes('חיסול') && msgObj.text.includes('בכיר')) || msgObj.text.includes('חירום')) {
+            caughtMessages.push({
+                channel: msgObj.channel,
+                text: msgObj.text,
+                matched_keywords: matchedWords,
+                severity: keywordHits >= 3 ? 'CRITICAL' : 'HIGH'
+            });
+        }
     });
 
-    const currentVolume = allMessages.length; // Approximating volume from recent page
+    const currentVolume = allMessages.length; 
     
-    // Load sliding window history
     if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
     let history = [];
     if (fs.existsSync(HISTORY_FILE)) {
         try {
             history = JSON.parse(fs.readFileSync(HISTORY_FILE, 'utf-8'));
-        } catch (e) {
-            console.error('Error reading history, resetting.', e);
-        }
+        } catch (e) {}
     }
 
-    // Keep last 72 hours (assuming hourly runs)
     const timestamp = new Date().toISOString();
     history.push({ time: timestamp, volume: currentVolume });
     if (history.length > 72) history.shift();
-
     fs.writeFileSync(HISTORY_FILE, JSON.stringify(history, null, 2));
 
-    // Calculate Sliding Window Average
     const avgVolume = history.length > 0 ? history.reduce((sum, entry) => sum + entry.volume, 0) / history.length : currentVolume;
     
-    // Determine Tension Gauge
     let tensionLevel = "LOW";
     let tensionDesc = "Routine News Volume";
     const ratio = avgVolume > 0 ? currentVolume / avgVolume : 1;
@@ -102,11 +112,8 @@ async function generateAlertFeed() {
         tensionDesc = "Extreme breaking news event detected";
     }
 
-    // Add sentiment placeholder (as requested for future)
-    const sentiment = {
-        score: "TBD",
-        note: "Sentiment analysis will be added in v2"
-    };
+    // Keep only the most recent/interesting caught messages (max 20)
+    caughtMessages = caughtMessages.slice(-20).reverse();
 
     const payload = {
         last_updated: timestamp,
@@ -119,12 +126,12 @@ async function generateAlertFeed() {
         },
         keywords: keywordCounts,
         top_topics: Object.keys(keywordCounts).sort((a,b) => keywordCounts[b] - keywordCounts[a]).slice(0, 5),
-        sentiment: sentiment,
+        semantic_logs: caughtMessages,
         history_window: history
     };
 
     fs.writeFileSync(FEED_FILE, JSON.stringify(payload, null, 2));
-    console.log(`Successfully generated OSINT feed. Tension: ${tensionLevel}`);
+    console.log(`Successfully generated OSINT feed V2. Tension: ${tensionLevel}`);
 }
 
 generateAlertFeed();

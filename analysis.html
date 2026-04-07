@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis & Audi Log | OSINT Monitor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-background"></div>
+    <div class="grid-container">
+        
+        <header class="header panel glass">
+            <div class="branding">
+                <div class="live-indicator"></div>
+                <h1>Analysis & Audit Log</h1>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html" class="nav-btn">← Back to Dashboard</a>
+            </nav>
+        </header>
+
+        <main class="main-content">
+            <div class="panel glass">
+                <h2>Semantic Analysis Engine</h2>
+                <p style="color: var(--text-muted); margin-bottom: 2rem; font-size: 0.95rem;">
+                    For full transparency, this tab displays the real-time intercepted Hebrew messages that algorithmically increased the OSINT Tension score. Messages are flagged as "Extreme" based on keyword combinations (e.g., Target Assassination + Emergency) or high-density tension terminology.
+                </p>
+                
+                <section class="log-grid" id="auditLog">
+                    <!-- Loaded dynamically via JS -->
+                </section>
+            </div>
+        </main>
+        
+        <footer class="footer panel glass">
+            <p>Intelligence updated autonomously every hour via GitHub Actions.</p>
+        </footer>
+    </div>
+    
+    <script src="analysis.js"></script>
+</body>
+</html>
