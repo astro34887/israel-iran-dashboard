@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-08T23:14:06.288Z",
+  "last_updated": "2026-04-08T23:55:28.014Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.55",
-    "global_norm_sentiment": "-0.35"
+    "global_norm_sentiment": "-0.37"
   },
   "timeline": [
     {
@@ -112,6 +112,57 @@
           "sentiment": -0.167
         }
       }
+    },
+    {
+      "time": "2026-04-08T23:55:28.014Z",
+      "danger": 0.55,
+      "sentiment": -0.373,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.473,
+          "sentiment": -0.567
+        },
+        "OSINTdefender": {
+          "danger": 0.411,
+          "sentiment": -0.5
+        },
+        "Tasnimnews": {
+          "danger": 0.481,
+          "sentiment": -0.633
+        },
+        "irna_1313": {
+          "danger": 0.577,
+          "sentiment": -0.767
+        },
+        "sepah_pasdaran": {
+          "danger": 0.492,
+          "sentiment": -0.633
+        },
+        "almanarnews": {
+          "danger": 0.476,
+          "sentiment": 0.133
+        },
+        "C_Military1": {
+          "danger": 0.748,
+          "sentiment": -0.3
+        },
+        "almayadeen": {
+          "danger": 0.61,
+          "sentiment": -0.7
+        },
+        "QudsN": {
+          "danger": 0.828,
+          "sentiment": 0
+        }
+      }
     }
   ],
   "channel_data": {
@@ -142,20 +193,20 @@
     "Tasnimnews": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.3995838848024428
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.48092612470789986
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.5609768210508251
+      "raw_sentiment": -0.7666666666666667,
+      "knn_danger_metric": 0.5770127181133036
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.5258638362775174
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.4918950057381449
     },
     "almanarnews": {
       "name": "Hezbollah",
@@ -167,19 +218,19 @@
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.7477526371794799
+      "knn_danger_metric": 0.7477600094124646
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.8333333333333334,
-      "knn_danger_metric": 0.6659530212006729
+      "raw_sentiment": -0.7,
+      "knn_danger_metric": 0.6101582395031706
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.7898690704313707
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.8284838813595408
     }
   },
   "semantic_logs": [
@@ -214,20 +265,6 @@
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": " ️هواپیماهای جنگی صهیونیست ها و دشمن اماراتی در حریم هوایی پایتخت بغداد و برخی استان های عراق ✅ ️ @sepah_pasdaran",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "☑️  جمعیت خیره کننده و سینه زنی بوشهری‌ها با سرود معروف «ایران جوان»، در شب اربعین شهادت رهبر انقلاب ☑️ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
       "text": " ️تصاویری از حمله به بیروت ✅ ️ @sepah_pasdaran",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
@@ -237,6 +274,13 @@
       "channel": "IRGC",
       "text": " ️منابع خبری از تجاوز مجدد رژیم صهیونیستی به ضاحیه در جنوب بیروت خبر می‌دهند ✅ ️ @sepah_pasdaran",
       "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️منابع اسرائیلی از اصابت موشک حزب‌الله در شهرک المناره در شمال فلسطین اشغالی خبر می‌دهند. ✅ ️ @sepah_pasdaran",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -270,13 +314,6 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: وكالة تسنيم: حشود من السفن لا تزال متوقفة في مضيق هرمز",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "لبنان: مراسل الميادين: سلسلة من 21 غارة إسرائيلية على قرى القطاع الأوسط في قضاء بنت جبيل",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
@@ -286,6 +323,20 @@
       "channel": "Arab_Axis",
       "text": "لبنان: مراسل الميادين: غارة إسرائيلية تستهدف للمرة الثالثة جسر القاسمية في قضاء صور",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فرنسا: ماكرون: أدين بأشد العبارات الممكنة الغارات الإسرائيلية على لبنان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فرنسا: ماكرون: أؤكد مجدداً على ضرورة الحفاظ على وحدة الأراضي اللبنانية",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     }
   ]
