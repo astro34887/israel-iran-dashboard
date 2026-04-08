@@ -1,115 +1,86 @@
 document.addEventListener('DOMContentLoaded', async () => {
-
     try {
-        // Fetch real-time data scraped by GitHub actions
         const response = await fetch('data/osint-feed.json');
-        if (!response.ok) throw new Error("Data fetch failed");
+        if (!response.ok) throw new Error("Fetch failed");
         
         const data = await response.json();
         
-        // 1. Update Timestamp
-        const dateObj = new Date(data.last_updated);
-        document.getElementById('lastUpdated').innerText = dateObj.toLocaleString('he-IL', { timeZone: 'Asia/Jerusalem' });
+        // 1. Update Gauge
+        const gaugeEl = document.getElementById('tension-gauge');
+        const descEl = document.getElementById('tension-desc');
+        const statusEl = document.getElementById('overall-status');
 
-        // 2. Update Tension UI
-        const tensionValueObj = document.getElementById('tensionLevel');
-        const tensionDescObj = document.getElementById('tensionDesc');
+        let level = data.tension.level;
+        let dangerStr = data.tension.global_knn_danger;
         
-        tensionValueObj.innerText = data.tension.level;
-        tensionDescObj.innerText = `${data.tension.description} (Ratio: ${data.tension.ratio}x vs Avg)`;
+        if (level === 'PEAK_DANGER') {
+            statusEl.textContent = 'PEAK ESCALATION';
+            statusEl.className = 'status-text tension-peak';
+            gaugeEl.style.transform = 'rotate(150deg)';
+        } else if (level === 'ESCALATING') {
+            statusEl.textContent = 'ELEVATED/ESCALATING';
+            statusEl.className = 'status-text tension-high';
+            gaugeEl.style.transform = 'rotate(90deg)';
+        } else {
+            statusEl.textContent = 'CALM / CEASEFIRE';
+            statusEl.className = 'status-text tension-low';
+            gaugeEl.style.transform = 'rotate(-30deg)';
+        }
         
-        const lvl = data.tension.level.toLowerCase();
-        tensionValueObj.className = `stat-value tension-${lvl}`;
+        descEl.innerHTML = `Global KNN Semantic Danger Score: <b>${dangerStr}</b> (1.0 = Max Escalation, 0.0 = Ceasefire)`;
 
-        // 3. Render Top Topics
-        const topicsList = document.getElementById('topTopics');
-        data.top_topics.forEach(topic => {
-            const span = document.createElement('span');
-            span.className = 'topic-tag';
-            span.innerText = topic;
-            topicsList.appendChild(span);
-        });
-
-        // 4. Volume History Chart
-        const volCtx = document.getElementById('volumeChart').getContext('2d');
-        const times = data.history_window.map(item => {
-            const hDate = new Date(item.time);
-            return hDate.getHours() + ':00';
-        });
-        const volumes = data.history_window.map(item => item.volume);
+        // 2. Official Network Overview
+        const topicBox = document.getElementById('trending-topics');
+        topicBox.innerHTML = '';
         
-        // Add current hourly average as a straight line
-        const avgArray = Array(data.history_window.length).fill(data.tension.avg_volume);
+        // Populate the channel averages
+        for (const [channelName, stats] of Object.entries(data.channel_data)) {
+            const el = document.createElement('div');
+            el.innerHTML = `<strong>${channelName}:</strong> KNN Danger: ${stats.knn_danger_metric.toFixed(2)} | Sent. Shift: ${stats.normalized_sentiment > 0 ? '+' : ''}${stats.normalized_sentiment.toFixed(2)}`;
+            el.className = 'topic-tag';
+            topicBox.appendChild(el);
+        }
 
-        new Chart(volCtx, {
-            type: 'line',
+        // 3. Build Multi-Channel Graph (Replacing old OSINT volume chart)
+        const ctxVol = document.getElementById('volumeChart').getContext('2d');
+        
+        const channels = Object.keys(data.channel_data);
+        const sentiments = channels.map(c => data.channel_data[c].normalized_sentiment);
+        const dangers = channels.map(c => data.channel_data[c].knn_danger_metric);
+
+        new Chart(ctxVol, {
+            type: 'bar',
             data: {
-                labels: times,
+                labels: channels,
                 datasets: [
                     {
-                        label: 'OSINT Messages',
-                        data: volumes,
-                        borderColor: '#3b82f6',
-                        backgroundColor: 'rgba(59, 130, 246, 0.1)',
-                        borderWidth: 2,
-                        fill: true,
-                        tension: 0.4
-                    },
-                    {
-                        label: 'Sliding Avg',
-                        data: avgArray,
-                        borderColor: 'rgba(148, 163, 184, 0.5)',
-                        borderWidth: 1,
-                        borderDash: [5, 5],
-                        fill: false,
-                        pointRadius: 0
+                        label: 'Normalized Sentiment Shift',
+                        data: sentiments,
+                        backgroundColor: sentiments.map(s => s > 0 ? 'rgba(34, 197, 94, 0.8)' : 'rgba(239, 68, 68, 0.8)'),
+                        borderColor: 'transparent',
+                        borderWidth: 1
                     }
                 ]
             },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: { legend: { labels: { color: '#94a3b8' } } },
-                scales: {
-                    y: { grid: { color: 'rgba(60, 70, 90, 0.4)' }, ticks: { color: '#94a3b8' } },
-                    x: { grid: { color: 'rgba(60, 70, 90, 0.4)' }, ticks: { color: '#94a3b8' } }
-                }
-            }
+            options: { responsive: true, maintainAspectRatio: false, scales: { y: { min: -1, max: 1 } } }
         });
 
-        // 5. Keyword Bar Chart
-        const kwCtx = document.getElementById('keywordChart').getContext('2d');
-        const keywords = Object.keys(data.keywords);
-        const counts = Object.values(data.keywords);
-
-        new Chart(kwCtx, {
+        // 4. Build KNN Chart (Replacing Keyword chart)
+        const ctxKey = document.getElementById('keywordChart').getContext('2d');
+        new Chart(ctxKey, {
             type: 'bar',
             data: {
-                labels: keywords,
+                labels: channels,
                 datasets: [{
-                    label: 'Mentions in Last 24hrs',
-                    data: counts,
-                    backgroundColor: 'rgba(239, 68, 68, 0.7)',
-                    borderColor: '#ef4444',
-                    borderWidth: 1,
-                    borderRadius: 4
+                    label: 'KNN Escalation Distance (0.0 to 1.0)',
+                    data: dangers,
+                    backgroundColor: dangers.map(d => d > 0.6 ? 'rgba(239, 68, 68, 0.8)' : 'rgba(59, 130, 246, 0.8)')
                 }]
             },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: { legend: { labels: { color: '#94a3b8' } } },
-                scales: {
-                    y: { grid: { color: 'rgba(60, 70, 90, 0.4)' }, ticks: { color: '#94a3b8' } },
-                    x: { grid: { display: false }, ticks: { color: '#94a3b8', font: {family: 'Outfit'} } }
-                }
-            }
+            options: { responsive: true, maintainAspectRatio: false, scales: { y: { min: 0, max: 1 } } }
         });
 
     } catch (err) {
-        console.error("Dashboard Error:", err);
-        document.getElementById('tensionLevel').innerText = "ERROR";
-        document.getElementById('tensionDesc').innerText = "Failed to load OSINT stream.";
+        console.error("Dashboard Feed Error:", err);
     }
-
 });
