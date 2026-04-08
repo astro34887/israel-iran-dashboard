@@ -143,8 +143,8 @@ async function scrapeAll() {
 
 async function run() {
     console.log("Loading Multilingual Xenova Sentiment Model...");
-    // nlptown maps stars 1-5
-    const classifier = await pipeline('sentiment-analysis', 'nlptown/bert-base-multilingual-uncased-sentiment');
+    // Xenova maps stars 1-5 natively in JS
+    const classifier = await pipeline('sentiment-analysis', 'Xenova/bert-base-multilingual-uncased-sentiment');
     
     let messages = await scrapeAll();
     console.log(`Scraped ${messages.length} official messages. Analyzing...`);

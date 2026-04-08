@@ -32,7 +32,7 @@ jobs:
         run: |
           git config --global user.name 'OSINT Autonomous Agent'
           git config --global user.email 'astro34887@gmail.com'
-          git add data/osint-feed.json data/history.json
+          git add data/*.json
           
           # Check if there are changes to commit
           if git diff --staged --quiet; then
