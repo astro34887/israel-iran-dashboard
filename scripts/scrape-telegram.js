@@ -240,6 +240,10 @@ async function run() {
 
     fs.writeFileSync(FEED_FILE, JSON.stringify(payload, null, 2));
     console.log("V3 Analysis complete! Overall Danger Score:", combinedDanger.toFixed(2));
+    process.exit(0);
 }
 
-run().catch(console.error);
+run().catch(err => {
+    console.error(err);
+    process.exit(1);
+});
