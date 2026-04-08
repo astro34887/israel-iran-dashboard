@@ -5,32 +5,31 @@ document.addEventListener('DOMContentLoaded', async () => {
         
         const data = await response.json();
         
-        // 1. Update Gauge
-        const gaugeEl = document.getElementById('tension-gauge');
-        const descEl = document.getElementById('tension-desc');
-        const statusEl = document.getElementById('overall-status');
+        // 1. Update Core Stats
+        const statusEl = document.getElementById('tensionLevel');
+        const descEl = document.getElementById('tensionDesc');
+        const dateEl = document.getElementById('lastUpdated');
 
         let level = data.tension.level;
         let dangerStr = data.tension.global_knn_danger;
         
+        if (dateEl) dateEl.textContent = new Date(data.last_updated).toLocaleString();
+        
         if (level === 'PEAK_DANGER') {
             statusEl.textContent = 'PEAK ESCALATION';
-            statusEl.className = 'status-text tension-peak';
-            gaugeEl.style.transform = 'rotate(150deg)';
+            statusEl.className = 'stat-value text-red';
         } else if (level === 'ESCALATING') {
             statusEl.textContent = 'ELEVATED/ESCALATING';
-            statusEl.className = 'status-text tension-high';
-            gaugeEl.style.transform = 'rotate(90deg)';
+            statusEl.className = 'stat-value text-orange';
         } else {
             statusEl.textContent = 'CALM / CEASEFIRE';
-            statusEl.className = 'status-text tension-low';
-            gaugeEl.style.transform = 'rotate(-30deg)';
+            statusEl.className = 'stat-value text-green';
         }
         
         descEl.innerHTML = `Global KNN Semantic Danger Score: <b>${dangerStr}</b> (1.0 = Max Escalation, 0.0 = Ceasefire)`;
 
         // 2. Official Network Overview
-        const topicBox = document.getElementById('trending-topics');
+        const topicBox = document.getElementById('topTopics');
         topicBox.innerHTML = '';
         
         // Populate the channel averages
