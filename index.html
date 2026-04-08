@@ -49,23 +49,16 @@
                 </div>
             </section>
 
-            <div class="lower-grid">
-                <!-- Volume/Sentiment Chart -->
-                <div class="panel glass chart-section">
-                    <h2>CHANNEL NORMALIZED SENTIMENT SHIFT</h2>
-                    <div class="chart-container">
-                        <canvas id="volumeChart"></canvas>
+            <!-- Charts Section -->
+            <section style="margin-top: 2rem;">
+                <!-- Timeline Chart -->
+                <div class="stat-card glass hover-lift" style="width: 100%; min-height: 400px;">
+                    <h3 class="text-blue">GLOBAL ESCALATION TIMELINE (48HR KNN HISTORY)</h3>
+                    <div style="position: relative; height: 350px; width: 100%;">
+                        <canvas id="timelineChart"></canvas>
                     </div>
                 </div>
-
-                <!-- Frequency/KNN Chart -->
-                <div class="panel glass chart-section">
-                    <h2>KNN SEMANTIC ESCALATION DISTANCE</h2>
-                    <div class="chart-container">
-                        <canvas id="keywordChart"></canvas>
-                    </div>
-                </div>
-            </div>
+            </section>
         </main>
         
         <footer class="footer panel glass">

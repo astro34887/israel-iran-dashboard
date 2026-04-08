@@ -1,7 +1,9 @@
-document.addEventListener('DOMContentLoaded', async () => {
+let timelineChartInstance = null;
+
+async function updateDashboard() {
     try {
         const response = await fetch('data/osint-feed.json');
-        if (!response.ok) throw new Error("Fetch failed");
+        if (!response.ok) throw new Error('Data not ready');
         
         const data = await response.json();
         
@@ -28,58 +30,99 @@ document.addEventListener('DOMContentLoaded', async () => {
         
         descEl.innerHTML = `Global KNN Semantic Danger Score: <b>${dangerStr}</b> (1.0 = Max Escalation, 0.0 = Ceasefire)`;
 
-        // 2. Official Network Overview
+        // 2. Official Network Overview (Top Topics equivalent)
         const topicBox = document.getElementById('topTopics');
-        topicBox.innerHTML = '';
-        
-        // Populate the channel averages
-        for (const [channelName, stats] of Object.entries(data.channel_data)) {
-            const el = document.createElement('div');
-            el.innerHTML = `<strong>${channelName}:</strong> KNN Danger: ${stats.knn_danger_metric.toFixed(2)} | Sent. Shift: ${stats.normalized_sentiment > 0 ? '+' : ''}${stats.normalized_sentiment.toFixed(2)}`;
-            el.className = 'topic-tag';
-            topicBox.appendChild(el);
+        if (topicBox) {
+            topicBox.innerHTML = '';
+            
+            Object.entries(data.channel_data || {}).forEach(([id, c]) => {
+                let topicHtml = `
+                    <div style="margin-bottom: 1rem; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 0.5rem;">
+                        <strong>${c.name} (${id})</strong>: Scraped ${c.num_messages} messages<br/>
+                        <small style="opacity: 0.8">Raw Sentiment: ${c.raw_sentiment.toFixed(2)} | KNN Escalation: ${c.knn_danger_metric.toFixed(2)}</small>
+                    </div>
+                `;
+                topicBox.innerHTML += topicHtml;
+            });
         }
 
-        // 3. Build Multi-Channel Graph (Replacing old OSINT volume chart)
-        const ctxVol = document.getElementById('volumeChart').getContext('2d');
-        
-        const channels = Object.keys(data.channel_data);
-        const sentiments = channels.map(c => data.channel_data[c].normalized_sentiment);
-        const dangers = channels.map(c => data.channel_data[c].knn_danger_metric);
+        // 3. Render Timeline Chart
+        renderTimelineChart(data.timeline || []);
 
-        new Chart(ctxVol, {
-            type: 'bar',
-            data: {
-                labels: channels,
-                datasets: [
-                    {
-                        label: 'Normalized Sentiment Shift',
-                        data: sentiments,
-                        backgroundColor: sentiments.map(s => s > 0 ? 'rgba(34, 197, 94, 0.8)' : 'rgba(239, 68, 68, 0.8)'),
-                        borderColor: 'transparent',
-                        borderWidth: 1
-                    }
-                ]
-            },
-            options: { responsive: true, maintainAspectRatio: false, scales: { y: { min: -1, max: 1 } } }
-        });
-
-        // 4. Build KNN Chart (Replacing Keyword chart)
-        const ctxKey = document.getElementById('keywordChart').getContext('2d');
-        new Chart(ctxKey, {
-            type: 'bar',
-            data: {
-                labels: channels,
-                datasets: [{
-                    label: 'KNN Escalation Distance (0.0 to 1.0)',
-                    data: dangers,
-                    backgroundColor: dangers.map(d => d > 0.6 ? 'rgba(239, 68, 68, 0.8)' : 'rgba(59, 130, 246, 0.8)')
-                }]
-            },
-            options: { responsive: true, maintainAspectRatio: false, scales: { y: { min: 0, max: 1 } } }
-        });
-
-    } catch (err) {
-        console.error("Dashboard Feed Error:", err);
+    } catch(e) {
+        console.error('Error fetching data:', e);
+        if (document.getElementById('tensionLevel')) {
+            document.getElementById('tensionLevel').textContent = "ERROR";
+        }
     }
-});
+}
+
+function renderTimelineChart(timeline) {
+    if (timeline.length === 0) return;
+    
+    // Map timeline payload to axes
+    const labels = timeline.map(t => {
+        let d = new Date(t.time);
+        return `${d.getHours()}:${d.getMinutes().toString().padStart(2, '0')}`;
+    });
+    
+    const dangerData = timeline.map(t => t.danger);
+    const sentimentData = timeline.map(t => t.sentiment);
+
+    const ctx = document.getElementById('timelineChart');
+    if(!ctx) return;
+    
+    if (timelineChartInstance) {
+        timelineChartInstance.destroy();
+    }
+    
+    timelineChartInstance = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [
+                {
+                    label: 'Global KNN Danger Score',
+                    data: dangerData,
+                    borderColor: '#f87171',
+                    backgroundColor: 'rgba(248, 113, 113, 0.2)',
+                    borderWidth: 3,
+                    tension: 0.4,
+                    fill: true
+                },
+                {
+                    label: 'Global Normalized Sentiment',
+                    data: sentimentData,
+                    borderColor: '#60a5fa',
+                    backgroundColor: 'rgba(96, 165, 250, 0)',
+                    borderWidth: 2,
+                    borderDash: [5, 5],
+                    tension: 0.4,
+                    fill: false
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    max: 1.0,
+                    grid: { color: 'rgba(255,255,255,0.1)' },
+                    ticks: { color: '#94a3b8' }
+                },
+                x: {
+                    grid: { color: 'rgba(255,255,255,0.1)' },
+                    ticks: { color: '#94a3b8' }
+                }
+            },
+            plugins: {
+                legend: { labels: { color: '#fff' } }
+            }
+        }
+    });
+}
+
+setInterval(updateDashboard, 60000); // 1-minute auto-refresh
+updateDashboard();

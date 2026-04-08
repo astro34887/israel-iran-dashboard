@@ -11,35 +11,32 @@ const __dirname = path.dirname(__filename);
 env.allowLocalModels = false;
 env.useBrowserCache = false;
 
-// We pull exclusively from official state organs / affiliates
 const CHANNELS = {
     'idfonline': 'IDF',
-    'almanarnews': 'Hezbollah_Affiliate',
-    'FarsNewsAgency': 'IRGC_Affiliate'
+    'israeldefenseforces': 'IDF',
+    'abualiexpress': 'Israel_OSINT',
+    'OSINTdefender': 'Global_OSINT',
+    'FarsNewsAgency': 'IRGC',
+    'Tasnimnews': 'IRGC',
+    'irna_1313': 'IRGC',
+    'sepah_pasdaran': 'IRGC',
+    'almanarnews': 'Hezbollah',
+    'C_Military1': 'Hezbollah',
+    'almayadeen': 'Arab_Axis',
+    'QudsN': 'Arab_Axis'
 };
 
 const DATA_DIR = path.join(__dirname, '../data');
-const HISTORICAL_STATS_FILE = path.join(DATA_DIR, 'v3-channel-stats.json');
-const FEED_FILE = path.join(DATA_DIR, 'osint-feed.json'); // We overwrite to maintain frontend routing
-
-// 5 Calm and 5 Danger anchors across exact language sets (Hebrew, Arabic, Persian)
-const CALM_ANCHORS = [
-    "הפסקת אש הושגה, שני הצדדים מסכימים למשא ומתן להסכם. חזרה חלקית לשגרה", // HE
-    "רוגע ביטחוני, תיווך בינלאומי להפסקת הלחימה והעברת סיוע הומניטרי לתושבים", // HE
-    "وقف إطلاق النار وبدء المفاوضات للسلام والهدوء", // AR
-    "هدنة إنسانية وعودة النازحين وتوقف العمليات العسكرية تماما", // AR
-    "آتش‌بس و مذاکرات برای صلح و توافق با رفع تحریم‌ها" // FA
-];
-
-const DANGER_ANCHORS = [
-    "תקיפה נרחבת מאוד, שיגור עשרות טילים ובליסטיים. מלחמה כוללת", // HE
-    "זמן לחירום. חיסול של בכיר, איום מלחמתי ותגובה קשה ללא תנאים", // HE
-    "إطلاق صواريخ وتدمير العدو. الحرب مستمرة والانتقام العظيم حتمي", // AR
-    "هجوم عنيف وسقوط قتلى وتصعيد عسكري كبير جدا", // AR
-    "حمله موشکی سنگین پهپاد و انتقام سخت نظامی و جنگ" // FA
-];
+const FEED_FILE = path.join(DATA_DIR, 'osint-feed.json');
+const ANCHORS_FILE = path.join(DATA_DIR, 'channel_anchors.json');
 
 // --- NATIVE LIGHTWEIGHT K-NEAREST NEIGHBOR (TF-IDF Cosine Distance) ---
+
+let channelAnchorsMap = {};
+if (fs.existsSync(ANCHORS_FILE)) {
+    channelAnchorsMap = JSON.parse(fs.readFileSync(ANCHORS_FILE, 'utf-8'));
+}
+
 function tokenize(text) {
     return text.toString().toLowerCase().replace(/[.,!؟"']/g, "").split(/\s+/).filter(w => w.length > 2);
 }
@@ -47,15 +44,15 @@ function tokenize(text) {
 function calculateTf(tokens) {
     const tf = {};
     tokens.forEach(t => tf[t] = (tf[t] || 0) + 1);
-    const maxFreq = Math.max(...Object.values(tf));
+    const maxFreq = Math.max(...Object.values(tf), 1);
     for (let t in tf) tf[t] = tf[t] / maxFreq;
     return tf;
 }
 
-const anchorTokens = [...CALM_ANCHORS, ...DANGER_ANCHORS].map(tokenize);
 function computeIdf(globalDocsTokens) {
     const idf = {};
     const N = globalDocsTokens.length;
+    if (N === 0) return idf;
     globalDocsTokens.forEach(tokens => {
         const unique = new Set(tokens);
         unique.forEach(t => idf[t] = (idf[t] || 0) + 1);
@@ -63,13 +60,30 @@ function computeIdf(globalDocsTokens) {
     for (let t in idf) idf[t] = Math.log(N / idf[t]);
     return idf;
 }
-const globalIdf = computeIdf(anchorTokens);
 
-function extractVector(text) {
+const nlpModels = {};
+
+// Build isolated NLP models for each channel based on their active dynamic anchors
+Object.keys(CHANNELS).forEach(cId => {
+    let anchors = channelAnchorsMap[cId] || { calm: [], danger: [] };
+    let calmTokens = anchors.calm.map(tokenize);
+    let dangerTokens = anchors.danger.map(tokenize);
+    let allTokens = [...calmTokens, ...dangerTokens];
+    
+    let idf = computeIdf(allTokens);
+    
+    nlpModels[cId] = {
+        idf: idf,
+        calm: anchors.calm,
+        danger: anchors.danger
+    };
+});
+
+function extractVector(text, idfMap) {
     const tf = calculateTf(tokenize(text));
     const vec = {};
     for (let t in tf) {
-        if (globalIdf[t]) vec[t] = tf[t] * globalIdf[t];
+        if (idfMap[t]) vec[t] = tf[t] * idfMap[t];
     }
     return vec;
 }
@@ -84,19 +98,22 @@ function cosineSimilarity(v1, v2) {
     return dot / (Math.sqrt(mag1) * Math.sqrt(mag2));
 }
 
-// Gives a 0-1 score (1 = Danger) based on distance to danger vs calm anchors
-function getSemanticDangerScore(text) {
-    const vec = extractVector(text);
+// Gives a 0-1 score (1 = Danger) based on distance to channel specific danger vs calm anchors
+function getSemanticDangerScore(text, channelId) {
+    let model = nlpModels[channelId];
+    if (!model || [...model.calm, ...model.danger].length === 0) return 0.5;
+    
+    const vec = extractVector(text, model.idf);
     if (Object.keys(vec).length === 0) return 0.5; // Neutral noise baseline
     
     let maxDangerSim = 0;
     let maxCalmSim = 0;
     
-    CALM_ANCHORS.forEach(anchor => {
-        maxCalmSim = Math.max(maxCalmSim, cosineSimilarity(vec, extractVector(anchor)));
+    model.calm.forEach(anchor => {
+        maxCalmSim = Math.max(maxCalmSim, cosineSimilarity(vec, extractVector(anchor, model.idf)));
     });
-    DANGER_ANCHORS.forEach(anchor => {
-        maxDangerSim = Math.max(maxDangerSim, cosineSimilarity(vec, extractVector(anchor)));
+    model.danger.forEach(anchor => {
+        maxDangerSim = Math.max(maxDangerSim, cosineSimilarity(vec, extractVector(anchor, model.idf)));
     });
 
     if (maxDangerSim === 0 && maxCalmSim === 0) return 0.5;
@@ -105,21 +122,20 @@ function getSemanticDangerScore(text) {
 
 // --- SCRAPING ROUTINE ---
 function fetchChannelHtml(channelId) {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
         https.get(`https://t.me/s/${channelId}`, { timeout: 8000 }, (res) => {
-            // FarsNewsAgency sometimes redirects dynamically
             if (res.statusCode === 301 || res.statusCode === 302) {
                 https.get(res.headers.location, { timeout: 8000 }, (redirectRes) => {
                     let data = '';
                     redirectRes.on('data', chunk => data += chunk);
                     redirectRes.on('end', () => resolve(data));
-                });
+                }).on('error', () => resolve(''));
             } else {
                 let data = '';
                 res.on('data', chunk => data += chunk);
                 res.on('end', () => resolve(data));
             }
-        }).on('error', err => reject(err));
+        }).on('error', () => resolve(''));
     });
 }
 
@@ -143,7 +159,6 @@ async function scrapeAll() {
 
 async function run() {
     console.log("Loading Multilingual Xenova Sentiment Model...");
-    // Xenova maps stars 1-5 natively in JS
     const classifier = await pipeline('sentiment-analysis', 'Xenova/bert-base-multilingual-uncased-sentiment');
     
     let messages = await scrapeAll();
@@ -151,31 +166,17 @@ async function run() {
 
     if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
     
-    let channelStats = {};
-    if (fs.existsSync(HISTORICAL_STATS_FILE)) {
-        try { channelStats = JSON.parse(fs.readFileSync(HISTORICAL_STATS_FILE, 'utf-8')); } catch (e) {}
-    }
-    
-    // Initialize stats
-    Object.keys(CHANNELS).forEach(key => {
-        if (!channelStats[key]) channelStats[key] = { avgSentiment: 0, count: 0 };
-    });
-
     let analyzedMessages = [];
 
     for (let msg of messages) {
-        // Run neural model
-        let result = await classifier(msg.text.substring(0, 500)); // Limit to avoid hitting token length limits
-        let label = result[0].label; // e.g., '1 star'
-        let numStars = parseInt(label.split(' ')[0]);
+        let result = await classifier(msg.text.substring(0, 500)); 
+        let numStars = parseInt(result[0].label.split(' ')[0]);
+        let absoluteSentiment = ((numStars - 3) / 2); 
         
-        // Map 1-5 stars to -1.0 to 1.0 Sentiment
-        let absoluteSentiment = ((numStars - 3) / 2); // 1 = -1, 3 = 0, 5 = 1
-        
-        // Semantic Danger calculation (KNN approximation)
-        let dangerScore = getSemanticDangerScore(msg.text);
+        let dangerScore = getSemanticDangerScore(msg.text, msg.channelId);
         
         analyzedMessages.push({
+            channelId: msg.channelId,
             channel: msg.channelName,
             text: msg.text,
             absolute_sentiment: absoluteSentiment,
@@ -183,49 +184,54 @@ async function run() {
         });
     }
 
-    // Now, calculate the current channel averages and normalize individual stats over the history
     let channelAggregates = {};
-    
     for (const [id, label] of Object.entries(CHANNELS)) {
-        let msgs = analyzedMessages.filter(m => m.channel === label);
+        let msgs = analyzedMessages.filter(m => m.channelId === id);
         if (msgs.length === 0) continue;
 
         let curAvgSent = msgs.reduce((sum, m) => sum + m.absolute_sentiment, 0) / msgs.length;
         let curDanger = msgs.reduce((sum, m) => sum + m.semantic_danger_knn, 0) / msgs.length;
         
-        // Normalize using historical running baseline
-        let histAvg = channelStats[id].avgSentiment;
-        let normalizedSentiment = curAvgSent - histAvg;
-        
-        // Update historical baseline
-        let histCount = channelStats[id].count;
-        let newCount = histCount + msgs.length;
-        channelStats[id].avgSentiment = ((histAvg * histCount) + (curAvgSent * msgs.length)) / newCount;
-        channelStats[id].count = newCount;
-        
-        channelAggregates[label] = {
+        channelAggregates[id] = {
+            name: label,
             num_messages: msgs.length,
-            normalized_sentiment: normalizedSentiment,
             raw_sentiment: curAvgSent,
             knn_danger_metric: curDanger
         };
     }
     
-    fs.writeFileSync(HISTORICAL_STATS_FILE, JSON.stringify(channelStats, null, 2));
-
-    // Determine extreme "caught" messages for explainability dashboard based on High KNN Danger
     let semanticLogs = analyzedMessages
         .filter(m => m.semantic_danger_knn > 0.6 || Math.abs(m.absolute_sentiment) > 0.8)
         .sort((a,b) => b.semantic_danger_knn - a.semantic_danger_knn)
-        .slice(0, 10); // Keep top 10 most extreme
+        .slice(0, 15);
 
     const timestamp = new Date().toISOString();
     
     // Overall network calculations
-    const combinedDanger = Object.values(channelAggregates).reduce((sum, c) => sum + c.knn_danger_metric, 0) / Object.keys(channelAggregates).length;
-    const combinedNormSent = Object.values(channelAggregates).reduce((sum, c) => sum + c.normalized_sentiment, 0) / Object.keys(channelAggregates).length;
+    const combinedDanger = Object.values(channelAggregates).reduce((sum, c) => sum + c.knn_danger_metric, 0) / Math.max(1, Object.keys(channelAggregates).length);
+    const combinedNormSent = Object.values(channelAggregates).reduce((sum, c) => sum + c.raw_sentiment, 0) / Math.max(1, Object.keys(channelAggregates).length);
 
     let tensionLevel = combinedDanger > 0.7 ? "PEAK_DANGER" : (combinedDanger > 0.5 ? "ESCALATING" : "CALM_CEASEFIRE");
+    
+    // Maintain Timeline Graph state
+    let pastTimeline = [];
+    if (fs.existsSync(FEED_FILE)) {
+        try { 
+            let oldFeed = JSON.parse(fs.readFileSync(FEED_FILE, 'utf-8')); 
+            if (oldFeed.timeline) pastTimeline = oldFeed.timeline;
+        } catch (e) {}
+    }
+    
+    pastTimeline.push({
+        time: timestamp,
+        danger: parseFloat(combinedDanger.toFixed(3)),
+        sentiment: parseFloat(combinedNormSent.toFixed(3))
+    });
+    
+    // Kept to latest 48 points
+    if (pastTimeline.length > 48) {
+        pastTimeline = pastTimeline.slice(pastTimeline.length - 48);
+    }
     
     const payload = {
         last_updated: timestamp,
@@ -234,12 +240,13 @@ async function run() {
             global_knn_danger: combinedDanger.toFixed(2),
             global_norm_sentiment: combinedNormSent.toFixed(2),
         },
+        timeline: pastTimeline,
         channel_data: channelAggregates,
         semantic_logs: semanticLogs
     };
 
     fs.writeFileSync(FEED_FILE, JSON.stringify(payload, null, 2));
-    console.log("V3 Analysis complete! Overall Danger Score:", combinedDanger.toFixed(2));
+    console.log("V4 Neural Analysis complete! Overall Danger Score:", combinedDanger.toFixed(2));
     process.exit(0);
 }
 

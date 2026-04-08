@@ -1,84 +1,190 @@
 {
-  "last_updated": "2026-04-08T21:34:02.459Z",
+  "last_updated": "2026-04-08T22:31:02.522Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.59",
-    "global_norm_sentiment": "0.00"
+    "global_knn_danger": "0.54",
+    "global_norm_sentiment": "-0.35"
   },
+  "timeline": [
+    {
+      "time": "2026-04-08T22:31:02.522Z",
+      "danger": 0.537,
+      "sentiment": -0.345
+    }
+  ],
   "channel_data": {
-    "IDF": {
+    "idfonline": {
+      "name": "IDF",
       "num_messages": 15,
-      "normalized_sentiment": 0,
       "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.7342111346329908
+      "knn_danger_metric": 0.4495848927539366
     },
-    "Hezbollah_Affiliate": {
-      "num_messages": 15,
-      "normalized_sentiment": 0,
+    "israeldefenseforces": {
+      "name": "IDF",
+      "num_messages": 3,
       "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.4430998496873818
+      "knn_danger_metric": 0.5
+    },
+    "abualiexpress": {
+      "name": "Israel_OSINT",
+      "num_messages": 15,
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.47264122719219304
+    },
+    "OSINTdefender": {
+      "name": "Global_OSINT",
+      "num_messages": 15,
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.4110138525708552
+    },
+    "Tasnimnews": {
+      "name": "IRGC",
+      "num_messages": 15,
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.4174937823587555
+    },
+    "irna_1313": {
+      "name": "IRGC",
+      "num_messages": 15,
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.5438669546002158
+    },
+    "sepah_pasdaran": {
+      "name": "IRGC",
+      "num_messages": 15,
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.5471644604042758
+    },
+    "almanarnews": {
+      "name": "Hezbollah",
+      "num_messages": 15,
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.4481442676381725
+    },
+    "C_Military1": {
+      "name": "Hezbollah",
+      "num_messages": 15,
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.7477526371794799
+    },
+    "almayadeen": {
+      "name": "Arab_Axis",
+      "num_messages": 15,
+      "raw_sentiment": -0.8333333333333334,
+      "knn_danger_metric": 0.6959249621307623
+    },
+    "QudsN": {
+      "name": "Arab_Axis",
+      "num_messages": 15,
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.6695145763591293
     }
   },
   "semantic_logs": [
     {
+      "channelId": "idfonline",
       "channel": "IDF",
-      "text": "״יש לנו יכולת לפגוע באיראן. אנחנו לא אדישים למה שאיראן מנסה לבנות מסביב לנו, ולאיראן קשה להיות אדישה לנוכח הקו בו אנו נוקטים״  On May 23, 2023 at 02:04PM Read more via Twitter @idfonline @idfonline",
+      "text": "״אני קורא לאכולוסייה החרדית ולהנהגה החרדית לעודד כל פעם קצת יותר לגיוס. יש לנו מסלולים יוצאים מן הכלל, השתחררו מהם אנשים לא פחות חרדים ואזרחים טובים יותר למדינה. זה טוב לכולם״  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "תיעוד מרשים של תקיפות צה&quot;ל היום בביירות.  תגובה אחת",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "המבנה שהותקף בתלה אלח&#39;יאט בביירות לפני זמן קצר - המבנה (בן עשר קומות) קרס - לא היתה התרעת פינוי.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channel": "IDF",
-      "text": "״חיזבאללה מורתע מאוד ממלחמה כוללת מול ישראל. הוא חושב שהוא מבין איך אנחנו חושבים. המחשבה הזאת מביאה אותו להעז ולאתגר אותנו איפה שהוא בטוח שזה לא יוביל למלחמה. אני רואה בדבר הזה מסילה טובה לייצר הפתעות במקרה הצורך. יש לנו מוכנות טובה בזירה צפונית״  On May 23, 2023 at 02:10PM Read more via Twitter @idfonline @idfonline",
+      "channelId": "Tasnimnews",
+      "channel": "IRGC",
+      "text": "تجاوز مجدد رژیم صهیونیستی به ضاحیه بیروت   🔹 منابع خبری از تجاوز مجدد رژیم صهیونیستی به ضاحیه در جنوب بیروت خبر می‌دهند. @JahanTasnim",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️پدافند هوایی کشور یک پهپاد اسرائیلی دیگر را در شوشتر، استان خوزستان سرنگون کرد، دومین پهپاد سرنگون شده امروز ✅ ️ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️هواپیماهای جنگی صهیونیست ها و دشمن اماراتی در حریم هوایی پایتخت بغداد و برخی استان های عراق ✅ ️ @sepah_pasdaran",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channel": "IDF",
-      "text": "״מערכה בזירה הצפונית בעורף תהיה קשה. אנחנו נדע להתמודד איתה אבל היא תהיה קשה. ללבנון היא תהיה קשה שבעתיים, ולחיזבאללה אפילו יותר מכך״  On May 23, 2023 at 02:10PM Read more via Twitter @idfonline @idfonline",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "☑️  جمعیت خیره کننده و سینه زنی بوشهری‌ها با سرود معروف «ایران جوان»، در شب اربعین شهادت رهبر انقلاب ☑️ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channel": "IDF",
-      "text": "״איראן משתמשת בסוריה כמרחב לחימה פוטנציאלי עם ישראל. אנחנו לא אדישים לכך. הייתי מזכיר לבאשר אל אסד נתון אחד מאוד מעניין בעידן שבו מדברים על דאטה: המדינות שנצמדו לאיראן כשלו. אם הוא רוצה לבנות אחרי מלחמת האזרחים, שייקח את זה לתשומת ליבו״  On May 23, 2023 at 02:11PM Read more via Twitter @idfonline @idfonline",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channel": "IDF",
-      "text": "״בנוגע ליהודה ושומרון, כל חוליה וכל מחבל שביצע פיגוע, או מתכנן פיגוע - בסופו של דבר יפגוש בכוחותינו.הכוחות מנצחים בזכות יכולות מקצועיות וערכיות מאוד גבוהות. יש מקום להביע הערכה רבה מאוד ליחידות צה״ל, משמר הגבול ושירות הביטחון הכללי״  On May 23, 2023 at 02:14PM Read more via Twitter @idfonline @idfonline",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️تصاویری از حمله به بیروت ✅ ️ @sepah_pasdaran",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channel": "IDF",
-      "text": "״ מבצע &quot;מגן וחץ&quot; התחיל ביוזמה. פגענו בתחילתו בבכירי ארגון הג’יהאד האסלאמי הפלסטיני - לא רק על מה שעשו, גם על כוונות שהיו והתפתחו. ברגע שיש פעיל טרור בכיר שמכין כל מה שהוא יכול כדי להרוג אזרחים ישראלים, הוא הופך לגורם שצריך להוציא אותו מהתמונה״  On May 23, 2023 at 02:21PM Read more via Twitter @idfonline @idfonline",
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "وزارة الصحة: 182 شهيدًا و890 جريحًا في حصيلة ثانية للغارات الإسرائيلية اليوم https://almanar.com.lb/article/738572/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channel": "IDF",
-      "text": "״אסור לעשות בשירות המילואים למטרות שאינן ביטחון.בחודשיים האחרונים אנחנו ב-95 אחוזי התייצבות מילואים לאימונים. זה אחוז מאוד מרשים והוא מחמם את הלב. זה לא מובן מאליו״  On May 23, 2023 at 02:39PM Read more via Twitter @idfonline @idfonline",
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 اتحاد بلديات الضاحية الجنوبية ينعي الاعلامية في قناة المنار الشهيدة سوزان الخليل https://almanar.com.lb/article/738657/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 15 العبرية:  تفاصيل الحادثة:  - قوّة من الكتيبة 13 في لواء غولاني، تعمل تحت اللواء 7 في إحدى القرى بجنوب لبنان، رصدت عددًا من المسلحين من مسافة قريبة. وخلال لحظات، اندلعت اشتباكات بالأسلحة النارية في المكان.  - أثناء تبادل إطلاق النار،…",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channel": "IDF",
-      "text": "״צבא העם, שמדובר עליו הרבה לאחרונה - אני רוצה לומר כאן בצורה מאוד ברורה: הוא זה שמאפשר לצה&quot;ל שדרת פיקוד איכותית בדגש על הלחימה. מי שחושב שאפשר להפסיק את מודל גיוס החובה שייקח בחשבון שנחווה ירידה באיכות המשרתים בצבא. יהיה נזק לא אחראי במרחב בו אנו חיים״  On May 23, 2023 at 02:27PM Read more via Twitter @idfonline @idfonline",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.513167019494862
-    },
-    {
-      "channel": "IDF",
-      "text": "״אני קורא לאכולוסייה החרדית ולהנהגה החרדית לעודד כל פעם קצת יותר לגיוס. יש לנו מסלולים יוצאים מן הכלל, השתחררו מהם אנשים לא פחות חרדים ואזרחים טובים יותר למדינה. זה טוב לכולם״  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.5
-    },
-    {
-      "channel": "IDF",
-      "text": "אני רוצה להגיד כאן דבר ברור – ישראל לא תנהל את המלחמה הזו כפי שהיא מנהלת לחימה מול זירה אחת בהינתן משחק מול חמישה שחקנים, עוצמת הכוח שלנו תהיה גדולה יותר״  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: الوكالة الوطنية للإعلام: شهيد وجريح في استهداف مسيرة إسرائيلية دراجة نارية في بلدة قلاويه في قضاء بنت جبيل جنوبي البلاد",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.5
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: وكالة تسنيم: حشود من السفن لا تزال متوقفة في مضيق هرمز",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: سلسلة من 21 غارة إسرائيلية على قرى القطاع الأوسط في قضاء بنت جبيل",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: غارة إسرائيلية تستهدف للمرة الثالثة جسر القاسمية في قضاء صور",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
     }
   ]
 }
