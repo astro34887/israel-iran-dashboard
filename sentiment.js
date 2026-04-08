@@ -13,7 +13,7 @@ async function updateDashboard() {
         const dateEl = document.getElementById('lastUpdated');
 
         let level = data.tension.level;
-        let dangerStr = data.tension.global_knn_danger;
+        let sentStr = data.tension.global_norm_sentiment;
         
         if (dateEl) dateEl.textContent = new Date(data.last_updated).toLocaleString();
         
@@ -28,7 +28,7 @@ async function updateDashboard() {
             statusEl.className = 'stat-value text-green';
         }
         
-        descEl.innerHTML = `Global KNN Semantic Danger Score: <b>${dangerStr}</b> (1.0 = Max Escalation, 0.0 = Ceasefire)`;
+        descEl.innerHTML = `Global Normalized Sentiment: <b>${sentStr}</b> (1.0 = Highly Positive, -1.0 = Highly Negative)`;
 
         // 2. Extract History Arrays
         const timeline = data.timeline || [];
@@ -40,8 +40,8 @@ async function updateDashboard() {
         });
         
         // Render Global Chart
-        const globalDanger = timeline.map(t => t.global_danger !== undefined ? t.global_danger : t.danger);
-        renderSparkline('timelineChartGlobal', labels, globalDanger, 'rgba(244, 63, 94, 1)', 'rgba(244, 63, 94, 0.2)');
+        const globalSentiment = timeline.map(t => t.global_sentiment !== undefined ? t.global_sentiment : t.sentiment);
+        renderSparkline('timelineChartGlobal', labels, globalSentiment, 'rgba(168, 85, 247, 1)', 'rgba(168, 85, 247, 0.2)');
 
         // Render Individual 12 Channels
         const internalChannels = [
@@ -52,8 +52,8 @@ async function updateDashboard() {
         
         internalChannels.forEach(ch => {
             let chData = timeline.map(t => {
-                if (t.channels && t.channels[ch]) return t.channels[ch].danger;
-                return t.danger; // fallback to global if undefined historically
+                if (t.channels && t.channels[ch]) return t.channels[ch].sentiment;
+                return t.sentiment; // fallback to global if undefined historically
             });
             
             // Map colors per faction
@@ -108,7 +108,7 @@ function renderSparkline(canvasId, labels, dataPoints, borderColor, fillColor) {
             plugins: { legend: { display: false } },
             scales: {
                 y: {
-                    min: 0,
+                    min: -1.0,
                     max: 1.0,
                     grid: { color: 'rgba(255,255,255,0.05)' },
                     ticks: { color: '#64748b', maxTicksLimit: 5 }

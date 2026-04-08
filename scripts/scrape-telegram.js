@@ -222,10 +222,19 @@ async function run() {
         } catch (e) {}
     }
     
+    let channelsCurrentPoint = {};
+    Object.keys(channelAggregates).forEach(id => {
+        channelsCurrentPoint[id] = {
+            danger: parseFloat(channelAggregates[id].knn_danger_metric.toFixed(3)),
+            sentiment: parseFloat(channelAggregates[id].raw_sentiment.toFixed(3))
+        };
+    });
+    
     pastTimeline.push({
         time: timestamp,
         danger: parseFloat(combinedDanger.toFixed(3)),
-        sentiment: parseFloat(combinedNormSent.toFixed(3))
+        sentiment: parseFloat(combinedNormSent.toFixed(3)),
+        channels: channelsCurrentPoint
     });
     
     // Kept to latest 48 points

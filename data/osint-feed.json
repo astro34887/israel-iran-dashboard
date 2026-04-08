@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-04-08T22:34:58.130Z",
+  "last_updated": "2026-04-08T23:11:56.652Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.54",
+    "global_knn_danger": "0.55",
     "global_norm_sentiment": "-0.35"
   },
   "timeline": [
@@ -12,9 +12,55 @@
       "sentiment": -0.345
     },
     {
-      "time": "2026-04-08T22:34:58.130Z",
-      "danger": 0.535,
-      "sentiment": -0.348
+      "time": "2026-04-08T23:11:56.652Z",
+      "danger": 0.545,
+      "sentiment": -0.345,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.473,
+          "sentiment": -0.567
+        },
+        "OSINTdefender": {
+          "danger": 0.411,
+          "sentiment": -0.5
+        },
+        "Tasnimnews": {
+          "danger": 0.4,
+          "sentiment": -0.5
+        },
+        "irna_1313": {
+          "danger": 0.561,
+          "sentiment": -0.667
+        },
+        "sepah_pasdaran": {
+          "danger": 0.526,
+          "sentiment": -0.267
+        },
+        "almanarnews": {
+          "danger": 0.476,
+          "sentiment": 0.133
+        },
+        "C_Military1": {
+          "danger": 0.748,
+          "sentiment": -0.3
+        },
+        "almayadeen": {
+          "danger": 0.666,
+          "sentiment": -0.833
+        },
+        "QudsN": {
+          "danger": 0.79,
+          "sentiment": -0.167
+        }
+      }
     }
   ],
   "channel_data": {
@@ -45,26 +91,26 @@
     "Tasnimnews": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.4174937823587555
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.3995838848024428
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.5643964762400074
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.5609768210508251
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.5471644604042758
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.5258638362775174
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.4481442676381725
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.4763479619497024
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -76,13 +122,13 @@
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.8333333333333334,
-      "knn_danger_metric": 0.6959249621307623
+      "knn_danger_metric": 0.6659530212006729
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.6361812430257959
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.7898690704313707
     }
   },
   "semantic_logs": [
@@ -157,16 +203,16 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
+      "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 15 العبرية:  تفاصيل الحادثة:  - قوّة من الكتيبة 13 في لواء غولاني، تعمل تحت اللواء 7 في إحدى القرى بجنوب لبنان، رصدت عددًا من المسلحين من مسافة قريبة. وخلال لحظات، اندلعت اشتباكات بالأسلحة النارية في المكان.  - أثناء تبادل إطلاق النار،…",
-      "absolute_sentiment": -1,
+      "text": "🔵 البحرية التابعة للحرس الثوري الإيراني تعلن عن مسارات بديلة للملاحة في مضيق هرمز https://almanar.com.lb/article/738732/?s=tg",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: الوكالة الوطنية للإعلام: شهيد وجريح في استهداف مسيرة إسرائيلية دراجة نارية في بلدة قلاويه في قضاء بنت جبيل جنوبي البلاد",
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 15 العبرية:  تفاصيل الحادثة:  - قوّة من الكتيبة 13 في لواء غولاني، تعمل تحت اللواء 7 في إحدى القرى بجنوب لبنان، رصدت عددًا من المسلحين من مسافة قريبة. وخلال لحظات، اندلعت اشتباكات بالأسلحة النارية في المكان.  - أثناء تبادل إطلاق النار،…",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },

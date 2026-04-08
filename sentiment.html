@@ -10,16 +10,16 @@
 <body>
     <div class="container">
         <header>
-            <h1><div class="pulsing-dot"></div> OSINT Danger Monitor</h1>
+            <h1><div class="pulsing-dot"></div> OSINT Sentiment Monitor</h1>
             <div style="text-align: right;">
                 <div style="font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase;">Last Updated: <span id="lastUpdated" style="color: white; font-weight: 600;">Loading...</span></div>
-                <div style="font-size: 0.75rem; color: var(--accent-blue);">AI-derived from 500-level Semantic extraction</div>
+                <div style="font-size: 0.75rem; color: var(--accent-blue);">AI-derived from Xenova Multi-lingual transformers</div>
             </div>
         </header>
 
         <nav class="nav-tabs">
-            <a href="index.html" class="nav-tab active">KNN Escalation (Danger)</a>
-            <a href="sentiment.html" class="nav-tab">Neural Sentiment</a>
+            <a href="index.html" class="nav-tab">KNN Escalation (Danger)</a>
+            <a href="sentiment.html" class="nav-tab active">Neural Sentiment</a>
             <a href="analysis.html" class="nav-tab">AI Logs</a>
         </nav>
 
@@ -36,7 +36,7 @@
             <!-- Global Timeline Chart -->
             <section style="margin-bottom: 2rem;">
                 <div class="stat-card glass hover-lift" style="width: 100%; min-height: 400px;">
-                    <h3 class="text-blue">GLOBAL ESCALATION TIMELINE (Avg of all 12 Nodes)</h3>
+                    <h3 class="text-blue">GLOBAL NEURAL SENTIMENT (Avg of all 12 Nodes)</h3>
                     <div style="position: relative; height: 350px; width: 100%;">
                         <canvas id="timelineChartGlobal"></canvas>
                     </div>
@@ -67,6 +67,6 @@
             </section>
         </main>
     </div>
-    <script src="app.js"></script>
+    <script src="sentiment.js"></script>
 </body>
 </html>
