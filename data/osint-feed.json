@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-08T23:55:28.014Z",
+  "last_updated": "2026-04-09T06:02:12.481Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.55",
-    "global_norm_sentiment": "-0.37"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.50",
+    "global_norm_sentiment": "-0.36"
   },
   "timeline": [
     {
@@ -163,6 +163,57 @@
           "sentiment": 0
         }
       }
+    },
+    {
+      "time": "2026-04-09T06:02:12.481Z",
+      "danger": 0.497,
+      "sentiment": -0.365,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.346,
+          "sentiment": -0.467
+        },
+        "OSINTdefender": {
+          "danger": 0.398,
+          "sentiment": -0.5
+        },
+        "Tasnimnews": {
+          "danger": 0.422,
+          "sentiment": -0.4
+        },
+        "irna_1313": {
+          "danger": 0.496,
+          "sentiment": -0.591
+        },
+        "sepah_pasdaran": {
+          "danger": 0.384,
+          "sentiment": -0.5
+        },
+        "almanarnews": {
+          "danger": 0.456,
+          "sentiment": -0.167
+        },
+        "C_Military1": {
+          "danger": 0.795,
+          "sentiment": -0.4
+        },
+        "almayadeen": {
+          "danger": 0.723,
+          "sentiment": -0.7
+        },
+        "QudsN": {
+          "danger": 0.499,
+          "sentiment": -0.154
+        }
+      }
     }
   ],
   "channel_data": {
@@ -181,56 +232,56 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.47264122719219304
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.34646475579173547
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.4110138525708552
+      "knn_danger_metric": 0.3976736221473196
     },
     "Tasnimnews": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.48092612470789986
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.4220162524279603
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.7666666666666667,
-      "knn_danger_metric": 0.5770127181133036
+      "num_messages": 11,
+      "raw_sentiment": -0.5909090909090909,
+      "knn_danger_metric": 0.4960529864949757
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.4918950057381449
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.38427855403381633
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.4763479619497024
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.4562155185178354
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.7477600094124646
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.7948006474009893
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.7,
-      "knn_danger_metric": 0.6101582395031706
+      "knn_danger_metric": 0.723200851382574
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.8284838813595408
+      "num_messages": 13,
+      "raw_sentiment": -0.15384615384615385,
+      "knn_danger_metric": 0.49872130142488
     }
   },
   "semantic_logs": [
@@ -242,51 +293,9 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "תיעוד מרשים של תקיפות צה&quot;ל היום בביירות.  תגובה אחת",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "המבנה שהותקף בתלה אלח&#39;יאט בביירות לפני זמן קצר - המבנה (בן עשר קומות) קרס - לא היתה התרעת פינוי.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "Tasnimnews",
       "channel": "IRGC",
-      "text": "تجاوز مجدد رژیم صهیونیستی به ضاحیه بیروت   🔹 منابع خبری از تجاوز مجدد رژیم صهیونیستی به ضاحیه در جنوب بیروت خبر می‌دهند. @JahanTasnim",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": " ️تصاویری از حمله به بیروت ✅ ️ @sepah_pasdaran",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": " ️منابع خبری از تجاوز مجدد رژیم صهیونیستی به ضاحیه در جنوب بیروت خبر می‌دهند ✅ ️ @sepah_pasdaran",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": " ️منابع اسرائیلی از اصابت موشک حزب‌الله در شهرک المناره در شمال فلسطین اشغالی خبر می‌دهند. ✅ ️ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "وزارة الصحة: 182 شهيدًا و890 جريحًا في حصيلة ثانية للغارات الإسرائيلية اليوم https://almanar.com.lb/article/738572/?s=tg",
+      "text": "صدای آژير در شمال فلسطین اشغالی به صدا در آمد  🔹 منابع رسانه‌ای از به صدا در آمدن آژیر هشدار در منطقه اویویم در شمال فلسطین اشغالی خبر دادند.  @TasnimNews",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -305,6 +314,13 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "بحرية الحرس الثوري تحدد مسارات بديلة للملاحة في مضيق هرمز وسط تصاعد التوتر https://almanar.com.lb/article/739127/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#إعلام_العدو   القناة 15 العبرية:  تفاصيل الحادثة:  - قوّة من الكتيبة 13 في لواء غولاني، تعمل تحت اللواء 7 في إحدى القرى بجنوب لبنان، رصدت عددًا من المسلحين من مسافة قريبة. وخلال لحظات، اندلعت اشتباكات بالأسلحة النارية في المكان.  - أثناء تبادل إطلاق النار،…",
@@ -314,29 +330,64 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: سلسلة من 21 غارة إسرائيلية على قرى القطاع الأوسط في قضاء بنت جبيل",
+      "text": "فلسطين المحتلة: محافظة القدس: مستعمرون اقتحموا صباح اليوم المسجد الأقصى المبارك مع بدء تطبيق التمديد الجديد على فترة الاقتحامات الصباحية",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: وزارة الصحة: 182 شهيداً و890 جريحاً في حصيلة غير نهائية لمجازر الاحتلال الإسرائيلي المتنقلة يوم أمس",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: غارة إسرائيلية تستهدف للمرة الثالثة جسر القاسمية في قضاء صور",
+      "text": "لبنان: الوكالة الوطنية: طيران الاحتلال الإسرائيلي يعتدي على منزل من طبقتين ويدمّره في بلدة الدوير جنوب البلاد",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فرنسا: ماكرون: أدين بأشد العبارات الممكنة الغارات الإسرائيلية على لبنان",
+      "text": "لبنان: مراسل الميادين: شهداء وجرحى في عدوان شنّه طيران الاحتلال فجر اليوم على حي سكني وسط بلدة الزرارية جنوبي البلاد",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فرنسا: ماكرون: أؤكد مجدداً على ضرورة الحفاظ على وحدة الأراضي اللبنانية",
-      "absolute_sentiment": 0,
+      "text": "لبنان: مراسل الميادين: شهداء وجرحى بعدوان طيران الاحتلال فجر اليوم على مبنى في بلدة العباسية جنوبي البلاد",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: استشهاد فلسطيني وإصابة مستوطن بجروح خطيرة أثناء تصدي الأهالي للمستوطنين في بلدة تياسير قضاء طوباس شمال الضفة الغربية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: العميد محمد أكرمي نيا: الأميركيون وخاصة ترامب أثبتوا أنهم غير جديرين بالثقة إطلاقاً لذا  أيدينا على الزناد وننتظر أوامر القيادة",
+      "absolute_sentiment": -0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: الشرطة الإيرانية في سيستان وبلوشستان جنوب شرق البلاد: استشهاد عنصر من الشرطة الإيرانية في  مدينة إيرانشهر إثر هجوم مسلح إرهابي على نقطة للشرطة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تنفذ حملة اعتقالات واسعة في قرية تياسير شرق مدينة طوباس.",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
   ]
