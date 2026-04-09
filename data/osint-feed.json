@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-09T06:02:12.481Z",
+  "last_updated": "2026-04-09T10:45:52.481Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.50",
-    "global_norm_sentiment": "-0.36"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.11"
   },
   "timeline": [
     {
@@ -214,6 +214,57 @@
           "sentiment": -0.154
         }
       }
+    },
+    {
+      "time": "2026-04-09T10:45:52.481Z",
+      "danger": 0.518,
+      "sentiment": -0.106,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.396,
+          "sentiment": -0.767
+        },
+        "OSINTdefender": {
+          "danger": 0.473,
+          "sentiment": -0.267
+        },
+        "Tasnimnews": {
+          "danger": 0.556,
+          "sentiment": 0
+        },
+        "irna_1313": {
+          "danger": 0.632,
+          "sentiment": 0.167
+        },
+        "sepah_pasdaran": {
+          "danger": 0.448,
+          "sentiment": -0.1
+        },
+        "almanarnews": {
+          "danger": 0.518,
+          "sentiment": 0.467
+        },
+        "C_Military1": {
+          "danger": 0.681,
+          "sentiment": 0.1
+        },
+        "almayadeen": {
+          "danger": 0.554,
+          "sentiment": -0.133
+        },
+        "QudsN": {
+          "danger": 0.494,
+          "sentiment": -0.5
+        }
+      }
     }
   ],
   "channel_data": {
@@ -232,56 +283,56 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.34646475579173547
+      "raw_sentiment": -0.7666666666666667,
+      "knn_danger_metric": 0.39559598056397266
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.3976736221473196
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.47320694095200444
     },
     "Tasnimnews": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.4220162524279603
+      "num_messages": 11,
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.5563051910822169
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 11,
-      "raw_sentiment": -0.5909090909090909,
-      "knn_danger_metric": 0.4960529864949757
+      "num_messages": 15,
+      "raw_sentiment": 0.16666666666666666,
+      "knn_danger_metric": 0.6321363254232623
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.38427855403381633
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.4483194906439722
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.4562155185178354
+      "raw_sentiment": 0.4666666666666667,
+      "knn_danger_metric": 0.5176403657926257
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.7948006474009893
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.6811606532628678
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.7,
-      "knn_danger_metric": 0.723200851382574
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.5536548862207887
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 13,
-      "raw_sentiment": -0.15384615384615385,
-      "knn_danger_metric": 0.49872130142488
+      "num_messages": 15,
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.49350540119272795
     }
   },
   "semantic_logs": [
@@ -295,100 +346,100 @@
     {
       "channelId": "Tasnimnews",
       "channel": "IRGC",
-      "text": "صدای آژير در شمال فلسطین اشغالی به صدا در آمد  🔹 منابع رسانه‌ای از به صدا در آمدن آژیر هشدار در منطقه اویویم در شمال فلسطین اشغالی خبر دادند.  @TasnimNews",
-      "absolute_sentiment": -1,
+      "text": "نوای دایه دایه در مراسم چهلم امام شهید در خرم‌آباد @TasnimNews",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "☑️رئیس جمهور هم اکنون در خیابان   ☑️ @sepah_pasdaran",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "🔵 اتحاد بلديات الضاحية الجنوبية ينعي الاعلامية في قناة المنار الشهيدة سوزان الخليل https://almanar.com.lb/article/738657/?s=tg",
+      "text": "🔵 الحرس الثوري الايراني في أربعين الشهيد السيد علي الخامنئي: نهاية الحقبة السوداء للإستعمار في المنطقة جاءت ببركة دماء الشهيد القائد https://almanar.com.lb/article/739617/?s=tg",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "🔵 البحرية التابعة للحرس الثوري الإيراني تعلن عن مسارات بديلة للملاحة في مضيق هرمز https://almanar.com.lb/article/738732/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "بحرية الحرس الثوري تحدد مسارات بديلة للملاحة في مضيق هرمز وسط تصاعد التوتر https://almanar.com.lb/article/739127/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 15 العبرية:  تفاصيل الحادثة:  - قوّة من الكتيبة 13 في لواء غولاني، تعمل تحت اللواء 7 في إحدى القرى بجنوب لبنان، رصدت عددًا من المسلحين من مسافة قريبة. وخلال لحظات، اندلعت اشتباكات بالأسلحة النارية في المكان.  - أثناء تبادل إطلاق النار،…",
+      "text": "🔵 السيد: بالتزامن مع موقف سلام وموقف وزارة الخارجية &quot;إسرائيل&quot; تمادت لتضرب  ولأوّل مرة مناطق متعددة في بيروت https://almanar.com.lb/article/740192/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: محافظة القدس: مستعمرون اقتحموا صباح اليوم المسجد الأقصى المبارك مع بدء تطبيق التمديد الجديد على فترة الاقتحامات الصباحية",
+      "text": "إيران: وزارة الخارجية: عراقتشي ناقش في اتصال هاتفي مع نظيره الكوري الجنوبي آخر المستجدات الإقليمية والدولية",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: وزارة الصحة: 182 شهيداً و890 جريحاً في حصيلة غير نهائية لمجازر الاحتلال الإسرائيلي المتنقلة يوم أمس",
+      "text": "لبنان: مراسل الميادين: طيران الاحتلال يعتدي على سيارة في بلدة الخرايب قضاء صيدا جنوب لبنان",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: الوكالة الوطنية: طيران الاحتلال الإسرائيلي يعتدي على منزل من طبقتين ويدمّره في بلدة الدوير جنوب البلاد",
+      "text": "فلسطين: مراسل الميادين: إصابة سيدة مسنّة بعدوان مدفعية الاحتلال على منزل شرقي مخيم المغازي وسط قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: شهداء وجرحى في عدوان شنّه طيران الاحتلال فجر اليوم على حي سكني وسط بلدة الزرارية جنوبي البلاد",
-      "absolute_sentiment": -1,
+      "text": "لبنان: مراسل الميادين: إطلاق صلية صاروخية من جنوب لبنان باتجاه الأراضي الفلسطينية المحتلة وصفارات الإنذار تدوي في كريات شمونة",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: شهداء وجرحى بعدوان طيران الاحتلال فجر اليوم على مبنى في بلدة العباسية جنوبي البلاد",
-      "absolute_sentiment": -1,
+      "text": "لبنان: مراسل الميادين: مجدداً.. إطلاق صلية صاروخية من جنوب لبنان وصفارات الإنذار تدوي في مستوطنات الجليل المحتل",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
+      "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: استشهاد فلسطيني وإصابة مستوطن بجروح خطيرة أثناء تصدي الأهالي للمستوطنين في بلدة تياسير قضاء طوباس شمال الضفة الغربية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: العميد محمد أكرمي نيا: الأميركيون وخاصة ترامب أثبتوا أنهم غير جديرين بالثقة إطلاقاً لذا  أيدينا على الزناد وننتظر أوامر القيادة",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: الشرطة الإيرانية في سيستان وبلوشستان جنوب شرق البلاد: استشهاد عنصر من الشرطة الإيرانية في  مدينة إيرانشهر إثر هجوم مسلح إرهابي على نقطة للشرطة",
+      "text": "قوة من جيش الاحتلال تقتحم كفر عقب شمال القدس المحتلة، قبل قليل",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تنفذ حملة اعتقالات واسعة في قرية تياسير شرق مدينة طوباس.",
+      "text": "آليات الاحتلال تقتحم حي أم الشرايط في البيرة قبل قليل",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 15 العبرية: أعلنت الشرطة وجهاز الأمن العام (الشاباك) اليوم عن اعتقال مواطن إسرائيلي، مقيم في حيفا، للاشتباه في قيامه بمهام أمنية لصالح أجهزة المخابرات الإيرانية. وتشير التفاصيل التي سُمح بنشرها، من بين أمور أخرى، إلى أن المشتبه به قام بتصنيع متفجرات بقصد إلحاق الأذى بشخصية رفيعة المستوى. وأعلن رئيس قسم التحقيقات الجنائية لأول مرة أن الشخصية المستهدفة هي نفتالي بينيت.  #الإعلام_الحربي",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9961486516080662
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صفارات الإنذار تدوي في كريات شمونه ومحيطها.  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.956418427463877
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صفارات الإنذار تدوي في زرعيت وشوميراه بالجليل الغربي.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.956418427463877
     }
   ]
 }
