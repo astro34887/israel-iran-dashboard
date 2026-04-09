@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-09T20:09:14.106Z",
+  "last_updated": "2026-04-09T23:26:06.534Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.22"
+    "global_knn_danger": "0.50",
+    "global_norm_sentiment": "-0.26"
   },
   "timeline": [
     {
@@ -367,6 +367,53 @@
           "sentiment": -0.333
         }
       }
+    },
+    {
+      "time": "2026-04-09T23:26:06.534Z",
+      "danger": 0.501,
+      "sentiment": -0.259,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.408,
+          "sentiment": -0.433
+        },
+        "OSINTdefender": {
+          "danger": 0.482,
+          "sentiment": -0.167
+        },
+        "irna_1313": {
+          "danger": 0.522,
+          "sentiment": 0.107
+        },
+        "sepah_pasdaran": {
+          "danger": 0.292,
+          "sentiment": -0.233
+        },
+        "almanarnews": {
+          "danger": 0.262,
+          "sentiment": -0.567
+        },
+        "C_Military1": {
+          "danger": 0.661,
+          "sentiment": -0.5
+        },
+        "almayadeen": {
+          "danger": 0.67,
+          "sentiment": -0.233
+        },
+        "QudsN": {
+          "danger": 0.767,
+          "sentiment": -0.433
+        }
+      }
     }
   ],
   "channel_data": {
@@ -385,56 +432,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.44729420994643926
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.4076470411839088
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.4277843470385776
-    },
-    "Tasnimnews": {
-      "name": "IRGC",
-      "num_messages": 13,
-      "raw_sentiment": -0.46153846153846156,
-      "knn_danger_metric": 0.5469377620822076
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.48206855410880023
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.6280970636987518
+      "num_messages": 14,
+      "raw_sentiment": 0.10714285714285714,
+      "knn_danger_metric": 0.5218747372282347
     },
     "sepah_pasdaran": {
       "name": "IRGC",
-      "num_messages": 14,
-      "raw_sentiment": -0.6071428571428571,
-      "knn_danger_metric": 0.4416114113143993
+      "num_messages": 15,
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.2919089944172796
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.32336367583267295
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.26231063613875716
     },
     "C_Military1": {
       "name": "Hezbollah",
-      "num_messages": 15,
-      "raw_sentiment": 0.43333333333333335,
-      "knn_danger_metric": 0.6884732489382147
+      "num_messages": 14,
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.66055990340985
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.632941500170097
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.6704068198410568
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.6695734933735743
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.7671302199359258
     }
   },
   "semantic_logs": [
@@ -446,100 +487,100 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "Tasnimnews",
-      "channel": "IRGC",
-      "text": "🔹 شنیده شدن صدای انفجار در حیفای اشغالی   @TasnimNews",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "📹 سموتريتش يعلن صراحةً في سياق التوسع الاستيطاني: &quot;حدودنا ستكون نهر الليطاني&quot; https://almanar.com.lb/article/742052/?s=tg",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: ممثل قائد الثورة في حرس الثورة: توقيت الرد وكيفيته تقررهما القيادة ولن نسمح بأن يفرضهما الأعداء علينا",
+      "text": "وسائل إعلام إسرائيلية: رصد إطلاق صواريخ بعيدة المدى من لبنان نحو منطقة ساحل &quot;أشدود&quot;",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: صادقي: لقد شهدنا منهم 3 موارد لنقض العهد ولدينا خطة للرد على هذا الأمر أيضاً ولكن في مكانه وزمانه المناسبين",
-      "absolute_sentiment": 0,
+      "text": "وسائل إعلام إسرائيلية: صافرات الإنذار تدوي في مناطق واسعة في الوسط والجنوب بعد اطلاق رشقة صاروخية من لبنان",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: ممثل قائد الثورة في حرس الثورة: نحن نجهز أنفسنا ونعدها لتكون أكثر صلابة وقوة خلال هذه الفترة",
+      "text": "إيران: بحرية حرس الثورة: أدرك الجميع بمن فيهم الأصدقاء والخصوم أن إدارة مضيق هرمز دخلت مرحلة جديدة خلال اليومين الماضيين",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: مقاومون يستهدفون دبابة &quot;ميركافا&quot; وجرافة تابعتين للاحتلال في الحي الغربي لمدينة الخيام",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "&quot;رويترز&quot;: مدير منظمة الصحة العالمية يحث &quot;إسرائيل&quot; على إلغاء تحذير إخلاء منطقة الجناح في بيروت",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "&quot;رويترز&quot; عن مدير منظمة الصحة العالمية: إصدار &quot;إسرائيل&quot; تحذيراً لإخلاء منطقة الجناح في العاصمة اللبنانية بيروت يشمل مستشفيين رئيسيين وإخلاؤهما غير ممكن",
+      "text": "وسائل إعلام إسرائيلية: انفجار قوي في الوسط بعد اطلاق صواريخ من لبنان",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: انكفاء القوة الإسرائيلية باتجاه وادي العصافير في الخيام بعد المواجهات الضارية مع المقاومين",
+      "text": "لبنان: مراسل الميادين في الجنوب: غارة إسرائيلية معادية تستهدف أطراف بلدة البابلية في قضاء صيدا",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل| مراسل شبكة قدس: مدفعية الاحتلال تطلق نيرانها شرق غزة",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة اماتين شرق قلقيلية",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "لحظة وصول شهيدين ارتقيا بقصف من طائرات الاحتلال في خانيونس اليوم.",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة عقابا شمال طوباس.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل | المدير الإقليمي لبرنامج الأمم المتحدة الإنمائي:   - تراجع الاقتصادات العربية بنحو 7% بسبب صدمة الحرب  - منطقة الخليج تعرضت للنسبة الأكبر من تراجع الناتج",
+      "text": "مصادر محلية: قوات الاحتلال تداهم المنازل خلال اقتحام قرية النبي إلياس شرق قلقيلية.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9753639863943435
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم مخيم عقبة جبر، في مدينة أريحا.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عائلة الشهيد علاء صبيح، من قرية تياسير شرق طوباس، تتحدث عن نجلها الذي ارتقى برصاص الاحتلال واحتجاز جثمانه، خلال مواجهات مع المستوطنين.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تداهم المنازل خلال اقتحام قرية صرة غرب نابلس.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تعتقل الشقيقين عصام وجهاد رضوان خلال اقتحام قرية النبي إلياس شرق قلقيلية.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
     },
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صفارات الإنذار تدوي في حيفا ومحيطها.  #الإعلام_الحربي",
+      "text": "#إعلام_العدو   صفارات الإنذار تدوي في أسدود ومحيطها.  #الإعلام_الحربي",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 0.956418427463877
     },
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صفارات الإنذار تدوي في نهاريا ومحيطها.  #الإعلام_الحربي",
+      "text": "#إعلام_العدو   صفارات الإنذار تدوي في تل أبيب ومحيطها.  #الإعلام_الحربي",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 0.956418427463877
     }
