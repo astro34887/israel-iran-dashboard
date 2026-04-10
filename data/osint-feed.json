@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-09T23:26:06.534Z",
+  "last_updated": "2026-04-10T06:19:40.221Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.50",
-    "global_norm_sentiment": "-0.26"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.42",
+    "global_norm_sentiment": "-0.21"
   },
   "timeline": [
     {
@@ -414,6 +414,53 @@
           "sentiment": -0.433
         }
       }
+    },
+    {
+      "time": "2026-04-10T06:19:40.221Z",
+      "danger": 0.419,
+      "sentiment": -0.207,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.375,
+          "sentiment": -0.533
+        },
+        "OSINTdefender": {
+          "danger": 0.47,
+          "sentiment": -0.167
+        },
+        "irna_1313": {
+          "danger": 0.499,
+          "sentiment": -0.367
+        },
+        "sepah_pasdaran": {
+          "danger": 0.307,
+          "sentiment": -0.6
+        },
+        "almanarnews": {
+          "danger": 0.168,
+          "sentiment": -0.167
+        },
+        "C_Military1": {
+          "danger": 0.527,
+          "sentiment": -0.136
+        },
+        "almayadeen": {
+          "danger": 0.344,
+          "sentiment": 0
+        },
+        "QudsN": {
+          "danger": 0.552,
+          "sentiment": 0.033
+        }
+      }
     }
   ],
   "channel_data": {
@@ -432,50 +479,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.4076470411839088
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.37549647221847776
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.48206855410880023
+      "knn_danger_metric": 0.47035024867585495
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 14,
-      "raw_sentiment": 0.10714285714285714,
-      "knn_danger_metric": 0.5218747372282347
+      "num_messages": 15,
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.49866494294063923
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.2919089944172796
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.3072332723838659
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.26231063613875716
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.16790362927919145
     },
     "C_Military1": {
       "name": "Hezbollah",
-      "num_messages": 14,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.66055990340985
+      "num_messages": 11,
+      "raw_sentiment": -0.13636363636363635,
+      "knn_danger_metric": 0.526887506472321
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.6704068198410568
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.34446495193515064
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.7671302199359258
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.5522551478425568
     }
   },
   "semantic_logs": [
@@ -487,102 +534,102 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: رصد إطلاق صواريخ بعيدة المدى من لبنان نحو منطقة ساحل &quot;أشدود&quot;",
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 بحرية الحرس الثوري: مضيق هرمز يدخل مرحلة جديدة من الإدارة الميدانية https://almanar.com.lb/article/743122/?s=tg",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: صافرات الإنذار تدوي في مناطق واسعة في الوسط والجنوب بعد اطلاق رشقة صاروخية من لبنان",
-      "absolute_sentiment": 0.5,
+      "text": "وسائل إعلام إسرائيلية: عدد موجات هجمات حزب الله على &quot;إسرائيل&quot; بلغ 1178 هجوماً حتى 8 نيسان/أبريل",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
+      "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "إيران: بحرية حرس الثورة: أدرك الجميع بمن فيهم الأصدقاء والخصوم أن إدارة مضيق هرمز دخلت مرحلة جديدة خلال اليومين الماضيين",
+      "text": "صلاة فجر اليوم في الحرم الإبراهيمي الشريف بالبلدة القديمة في الخليل.",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
+      "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: انفجار قوي في الوسط بعد اطلاق صواريخ من لبنان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: غارة إسرائيلية معادية تستهدف أطراف بلدة البابلية في قضاء صيدا",
+      "text": "خلال مظاهرة في تبريز.. تضامن واسع من الإيرانيين مع الشعب اللبناني الذي يواجه عدوانا مستمرا من الاحتلال.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة اماتين شرق قلقيلية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة عقابا شمال طوباس.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم المنازل خلال اقتحام قرية النبي إلياس شرق قلقيلية.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم مخيم عقبة جبر، في مدينة أريحا.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عائلة الشهيد علاء صبيح، من قرية تياسير شرق طوباس، تتحدث عن نجلها الذي ارتقى برصاص الاحتلال واحتجاز جثمانه، خلال مواجهات مع المستوطنين.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم المنازل خلال اقتحام قرية صرة غرب نابلس.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تعتقل الشقيقين عصام وجهاد رضوان خلال اقتحام قرية النبي إلياس شرق قلقيلية.",
+      "text": "عاجل| زوارق الاحتلال الحربية تطلق النار بشكل مكثف في عرض بحر خانيونس.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صفارات الإنذار تدوي في أسدود ومحيطها.  #الإعلام_الحربي",
+      "text": "#إعلام_العدو   صفارات الإنذار تدوي في مسكافعام والمطلة في إصبع الجليل.  #الإعلام_الحربي",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 0.956418427463877
     },
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صفارات الإنذار تدوي في تل أبيب ومحيطها.  #الإعلام_الحربي",
+      "text": "#إعلام_العدو   صفارات الإنذار تدوي في كريات شمونه ومحيطها.  #الإعلام_الحربي",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 0.956418427463877
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صفارات الإنذار تدوي في دوفيف وبرعام بالجليل الغربي.  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.956418427463877
+    },
+    {
+      "channelId": "idfonline",
+      "channel": "IDF",
+      "text": "תצפיות צה&quot;ל זיהו הבוקר תנועה חשודה סמוך ליישוב חמדיה שבמרחב חטיבת הבקעה והעמקים.לוחמי צה&quot;ל ולוחמי יחידת יג&quot;ל של משטרת ישראל הוזנקו לנקודה ועצרו רכב ובו שלושה חשודים https://t.co/gZaMaQbju7  On May 23, 2023 at 04:52PM Read more via Twitter @idfonline @idfonline",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.819613420621686
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🎥 ارومیه در سوگ اربعین رهبر شهید؛ خروش اشک و فریاد همدلی  🔹هزارن نفر از مردم ارومیه در شب اربعین رهبر شهید انقلاب اسلامی به خیابان‌ها آمدند و با اشک چشم و قلبی پر از اندوه، فریاد همدلی و اتحاد سر دادند.   @IRNA_1313",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.811941475955708
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "وسائل إعلام إسرائيلية: &quot;الصحة&quot; الإسرائيلية تتحدث عن 7993 إصابة خلال الحرب على إيران ولبنان",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.8012933664974451
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "بيان صادر عن المقاومة الإسلامية (8):&rlm;  بِسْمِ اللَّـهِ الرحمن الرَّحِيمِ &rlm;﴿أُذِنَ لِلَّذِينَ يُقَاتَلُونَ بِأَنَّهُمْ ظُلِمُوا وَإِنَّ اللَّهَ عَلَىٰ نَصْرِهِمْ لَقَدِيرٌ﴾&rlm; صَدَقَ اللهُ العَلِيّ العَظِيم  دفاعًا عن لبنان وشعبه، وردًّا على خرق العدوّ لاتفاق وقف إطلاق النار، واعتداءاته المتكررة على قرى الجنوب، وبعدما التزمت المقاومة بوقف النار ولم يلتزم به العدوّ، استهدف مجاهدو المُقاومة الإسلاميّة عند السّاعة 02:15 الجمعة 10-04-2026 ثكنة يعرا بسربٍ من المُسيّرات الانقضاضيّة. إنّ هذا الردّ سيستمرّ إلى أنّ يتوقّف العدوان الإسرائيليّ الأمريكيّ على بلدنا وشعبنا.  ﴿وَمَا النَّصْرُ إِلاَّ مِنْ عِندِ اللّهِ الْعَزِيزِ الْحَكِيم﴾&rlm; الجمعة 10-04-2026&rlm; 21 شوال 1447 هـ  #معركة_العصف_المأكول  #دفاعا_عن_لبنان_وشعبه  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.791172060966278
+    },
+    {
+      "channelId": "OSINTdefender",
+      "channel": "Global_OSINT",
+      "text": "#ME  It&#39;s time to pay the price. Saudi Arabia has halted operations at several energy facilities, including a pumping station on the East-West (Petroline) pipeline, which has cut about 700,000 barrels per day in throughput. This disruption follows recent attacks on the pipeline amid ongoing regional tensions.  Subscribe to @OSINTdefender Chat room",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.7864330737884293
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️#فوری | شلیک ۶ موشک از جنوب لبنان به شمال فلسطین اشغالی  🔹 خبرنگار الجزیره گزارش داد که ۶ موشک از جنوب لبنان به سمت الجلیل در شمال فلسطین اشغالی شلیک شد.  ✅  @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.760203501947724
     }
   ]
 }
