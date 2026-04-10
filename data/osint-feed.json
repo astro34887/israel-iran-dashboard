@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-10T19:58:44.344Z",
+  "last_updated": "2026-04-10T21:57:37.402Z",
   "tension": {
     "level": "CALM_CEASEFIRE",
     "global_knn_danger": "0.48",
-    "global_norm_sentiment": "-0.27"
+    "global_norm_sentiment": "-0.22"
   },
   "timeline": [
     {
@@ -649,6 +649,53 @@
           "sentiment": -0.233
         }
       }
+    },
+    {
+      "time": "2026-04-10T21:57:37.402Z",
+      "danger": 0.483,
+      "sentiment": -0.22,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.475,
+          "sentiment": -0.633
+        },
+        "OSINTdefender": {
+          "danger": 0.54,
+          "sentiment": -0.667
+        },
+        "irna_1313": {
+          "danger": 0.408,
+          "sentiment": -0.067
+        },
+        "sepah_pasdaran": {
+          "danger": 0.329,
+          "sentiment": 0.1
+        },
+        "almanarnews": {
+          "danger": 0.271,
+          "sentiment": -0.233
+        },
+        "C_Military1": {
+          "danger": 0.754,
+          "sentiment": -0.5
+        },
+        "almayadeen": {
+          "danger": 0.586,
+          "sentiment": -0.167
+        },
+        "QudsN": {
+          "danger": 0.518,
+          "sentiment": 0.1
+        }
+      }
     }
   ],
   "channel_data": {
@@ -667,8 +714,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.7666666666666667,
-      "knn_danger_metric": 0.5309531798499776
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.4754252862103562
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -679,38 +726,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.23333333333333334,
-      "knn_danger_metric": 0.3585623565587945
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.4078732227117301
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.3826443181788013
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.32897251243830145
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.2879291574688013
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.2714031452171753
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.6640195030752005
+      "knn_danger_metric": 0.7536608754553742
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.5519414153301437
+      "knn_danger_metric": 0.5859838130893661
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.5202024442308666
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.5182466878587649
     }
   },
   "semantic_logs": [
@@ -719,13 +766,6 @@
       "channel": "IDF",
       "text": "״אני קורא לאכולוסייה החרדית ולהנהגה החרדית לעודד כל פעם קצת יותר לגיוס. יש לנו מסלולים יוצאים מן הכלל, השתחררו מהם אנשים לא פחות חרדים ואזרחים טובים יותר למדינה. זה טוב לכולם״  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "מנגנון ביטחון המדינה הלבנוני:   13 מאנשינו נהרגו היום בנבטיה בתקיפה ישראלית.  תגובה אחת",
-      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -750,44 +790,72 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "بیانیه وزارت امور خارجه درباره شهادت دکتر خرازی رئیس شورای راهبردی روابط خارجی  @sepah_pasdaran",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: إطلاق 10 صواريخ من لبنان باتجاه &quot;كريات شمونة&quot;",
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#لبنان   أمين عام حزب الله سماحة حجة الاسلام الشيخ نعيم قاسم في رسالته بذكرى شهادة أربعين الامام القائد الاعلى السيد علي الخامنئي :   - الامام الشهيد هو الذي أكّد على مواكبة العصر والتقدم العلمي والاكتفاء الذاتي والحق بالاستقلال وعدم التبعيّة للشرق أو الغرب…",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: صلية صاروخية تنطلق من لبنان باتجاه الأراضي المحتلة",
-      "absolute_sentiment": 0,
+      "text": "إيران: طباطبائي: عيون رجال الدبلوماسية الثاقبة تترقب اقتناص النصر لإيران",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: منذ ساعات الصباح تم تسجيل حوالى 50 إطلاقاً من لبنان باتجاه مستوطنات الشمال",
+      "text": "إيران: استمرار التظاهرات الإيرانية الحاشدة دعماً للقيادة وتضامناً مع لبنان",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: عارف: كما كنا بالحرب سنداً للمقاتلين نحن اليوم أيضاً في الشوارع والميادين سند للمفاوضين ليتمكنوا من متابعة المهمة الموكلة إليهم",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: غارة إسرائيلية استهدفت بلدة كفررمان في النبطية جنوبي البلاد",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي بالقرب من منطقة النادي ببيت لاهيا شمالي قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "&quot;لا تطبيع ولا سلام&quot;.. استمرار التظاهرات ضد الحكومة اللبنانية رفضًا لعقد أي مفاوضات تطبيعية مع الاحتلال",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة عرابة جنوبي جنين",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام جيش الاحتلال لمخيم الفوار جنوب الخليل",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب آخر من اقتحام قوات الاحتلال بلدة دير سامت بمدينة دورا، جنوبي الخليل.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "القناة 13 العبرية:  شرطة الاحتلال تقرر إنشاء وحدة خاصة لملاحقة العملاء المرتبطين بإيران.",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة عزون شرق مدينة قلقيلية بالضفة الغربية",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
@@ -796,27 +864,6 @@
       "channel": "Hezbollah",
       "text": "#إعلام_العدو   صفارات الإنذار تدوي في كريات شمونه ومحيطها.  #الإعلام_الحربي",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.956418427463877
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   تجدد دوي صفارات الإنذار في كريات شمونه ومحيطها.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.956418427463877
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صفارات الإنذار تدوي في المطلة في إصبع الجليل.  #الإعلام_الحربي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.956418427463877
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   تجدد دوي صفارات الإنذار في كريات شمونه ومحيطها.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
       "semantic_danger_knn": 0.956418427463877
     }
   ]
