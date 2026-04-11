@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-11T05:19:48.085Z",
+  "last_updated": "2026-04-11T08:02:31.906Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.48",
-    "global_norm_sentiment": "-0.24"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.50",
+    "global_norm_sentiment": "-0.37"
   },
   "timeline": [
     {
@@ -790,6 +790,53 @@
           "sentiment": -0.1
         }
       }
+    },
+    {
+      "time": "2026-04-11T08:02:31.906Z",
+      "danger": 0.502,
+      "sentiment": -0.365,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.475,
+          "sentiment": -0.633
+        },
+        "OSINTdefender": {
+          "danger": 0.547,
+          "sentiment": -0.567
+        },
+        "irna_1313": {
+          "danger": 0.463,
+          "sentiment": -0.467
+        },
+        "sepah_pasdaran": {
+          "danger": 0.314,
+          "sentiment": 0.133
+        },
+        "almanarnews": {
+          "danger": 0.396,
+          "sentiment": 0.033
+        },
+        "C_Military1": {
+          "danger": 0.621,
+          "sentiment": -0.455
+        },
+        "almayadeen": {
+          "danger": 0.534,
+          "sentiment": -0.633
+        },
+        "QudsN": {
+          "danger": 0.718,
+          "sentiment": -0.933
+        }
+      }
     }
   ],
   "channel_data": {
@@ -809,49 +856,49 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.435780857628075
+      "knn_danger_metric": 0.4753040420327122
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.5047949197216952
+      "knn_danger_metric": 0.5473844907212485
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 7,
-      "raw_sentiment": 0.42857142857142855,
-      "knn_danger_metric": 0.38169544624256346
+      "num_messages": 15,
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.46312425006047037
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.2561890089641651
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.31375314085437794
     },
     "almanarnews": {
       "name": "Hezbollah",
-      "num_messages": 14,
-      "raw_sentiment": -0.5714285714285714,
-      "knn_danger_metric": 0.34775975060699454
+      "num_messages": 15,
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.3957287811081352
     },
     "C_Military1": {
       "name": "Hezbollah",
-      "num_messages": 14,
-      "raw_sentiment": -0.6071428571428571,
-      "knn_danger_metric": 0.7528134985711171
+      "num_messages": 11,
+      "raw_sentiment": -0.45454545454545453,
+      "knn_danger_metric": 0.6214973993964634
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.509360104392451
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.5343405862054339
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.6772340723618272
+      "raw_sentiment": -0.9333333333333333,
+      "knn_danger_metric": 0.7184049592345225
     }
   },
   "semantic_logs": [
@@ -870,81 +917,67 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "☑️ ساکنان روستایی در مالاگای اسپانیا آدمک نتانیاهو را به آتش کشیدند  @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "🔵 وصول الوفد الإيراني إلى باكستان... قاليباف من إسلام آباد: نملك حسن النية ولا نملك الثقة وجاهزون لانتزاع حقوقنا https://almanar.com.lb/article/746887/?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "بالفيديو : قاليباف ينشر صورته وهو يقف أمام مقاعد الطائرة التي تضم الوفد المرافق وقد وضع عليها صور وحقائب الاطفال الشهداء في مدرسة ميناب https://almanar.com.lb/article/746922/?s=tg",
+      "text": "المديرية العامة لأمن الدولة تنعى ١٣ شهيدًا من عناصرها https://almanar.com.lb/article/747262/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: دوي صفارات الإنذار في عرب العرامشة ومستوطنات الجليل الغربي بسبب إطلاق مسيرة من لبنان",
-      "absolute_sentiment": 1,
+      "text": "لبنان: مراسل الميادين في الجنوب: غارة إسرائيلية استهدفت بلدة دير الزهراني",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: غارة إسرائيلية استهدفت مدينة النبطية",
+      "text": "وسائل إعلام إسرائيلية: نحن ضحايا الوهم السياسي إذ لا حسم في غزة ولا في لبنان رغم الحرب",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: طائرات الاحتلال الإسرائيلي تخرق جدار الصوت فوق العديد من المناطق اللبنانية",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل: آليات الاحتلال تطلق نيرانها تجاه المناطق الشرقية لمدينة غزة",
+      "text": "قوات الاحتلال تقتحم بناية في بلدة سلواد شمال شرق رام الله",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "أذان الفجر اليوم في المسجد الأقصى المبارك",
-      "absolute_sentiment": 1,
+      "text": "عاجل| طيران الاحتلال يخرق جدار الصوت في الأجواء اللبنانية.",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "رغم الظروف الصعبة.. شبان يلعبون كرة الطائرة في مدرسة أحرقها وقصفا ودمرها الاحتلال في مخيم جباليا شمال قطاع غزة.",
-      "absolute_sentiment": -0.5,
+      "text": "قتلهم الاحتلال ونكل بجثامينهم في قباطية.. رئيس كوريا الجنوبية ينشر فيديو لتمثيل جنوب الاحتلال بجثمان شهيد فلسطيني ويتساءل عن المحاسبة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل| طيران الاحتلال يخترق جدار الصوت في أجواء العاصمة اللبنانية بيروت.",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صفارات الإنذار تدوي في كريات شمونه ومحيطها.  #الإعلام_الحربي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.956418427463877
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صفارات الإنذار تدوي في مسكافعام في إصبع الجليل.  #الإعلام_الحربي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.956418427463877
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   تجدد دوي صفارات الإنذار في مسكافعام في إصبع الجليل.  #الإعلام_الحربي",
+      "text": "#إعلام_العدو   مراسل القناة 12 العبرية: يواصل حزب الله إطلاق الصواريخ والطائرات بدون طيار اتجاه المستوطنات الشمالية منذ صباح اليوم.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.956418427463877
+      "semantic_danger_knn": 0.9973354161980501
     },
     {
       "channelId": "C_Military1",
@@ -952,6 +985,20 @@
       "text": "#إعلام_العدو   صفارات الإنذار تدوي في كريات شمونه ومحيطها خشية تسلل طائرات مسيّرة.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.956418427463877
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صفارات الإنذار تدوي في المطلة في إصبع الجليل خشية تسلل طائرات مسيّرة.  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.956418427463877
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "غارات جوية اسرائيلية على بلدات جنوب لبنان تسفر عن شهداء وتدمير مبانٍ سكنية ومنشآت حيوية https://almanar.com.lb/article/747217/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9077598178072934
     },
     {
       "channelId": "abualiexpress",
