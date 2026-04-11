@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-11T10:59:20.268Z",
+  "last_updated": "2026-04-11T11:58:18.062Z",
   "tension": {
     "level": "CALM_CEASEFIRE",
     "global_knn_danger": "0.46",
-    "global_norm_sentiment": "-0.30"
+    "global_norm_sentiment": "-0.21"
   },
   "timeline": [
     {
@@ -884,13 +884,60 @@
           "sentiment": -0.321
         }
       }
+    },
+    {
+      "time": "2026-04-11T11:58:18.062Z",
+      "danger": 0.463,
+      "sentiment": -0.208,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.39,
+          "sentiment": -0.346
+        },
+        "OSINTdefender": {
+          "danger": 0.543,
+          "sentiment": -0.433
+        },
+        "irna_1313": {
+          "danger": 0.442,
+          "sentiment": 0.067
+        },
+        "sepah_pasdaran": {
+          "danger": 0.323,
+          "sentiment": -0.567
+        },
+        "almanarnews": {
+          "danger": 0.37,
+          "sentiment": 0.2
+        },
+        "C_Military1": {
+          "danger": 0.632,
+          "sentiment": -0.033
+        },
+        "almayadeen": {
+          "danger": 0.339,
+          "sentiment": -0.5
+        },
+        "QudsN": {
+          "danger": 0.638,
+          "sentiment": -0.333
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -902,8 +949,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 13,
-      "raw_sentiment": -0.7307692307692307,
-      "knn_danger_metric": 0.4919243762439815
+      "raw_sentiment": -0.34615384615384615,
+      "knn_danger_metric": 0.3895791124369872
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -914,38 +961,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.4766144396211542
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.44218155878802107
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.2596397799899904
+      "knn_danger_metric": 0.32294982494852637
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": 0.2,
-      "knn_danger_metric": 0.30799050125605054
+      "knn_danger_metric": 0.37013589940064767
     },
     "C_Military1": {
       "name": "Hezbollah",
-      "num_messages": 13,
-      "raw_sentiment": -0.2692307692307692,
-      "knn_danger_metric": 0.5778495024607366
+      "num_messages": 15,
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.6315619187134757
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.4688791296825106
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.3391855146034542
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 14,
-      "raw_sentiment": -0.32142857142857145,
-      "knn_danger_metric": 0.48234242986220466
+      "num_messages": 15,
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.6379305663195983
     }
   },
   "semantic_logs": [
@@ -966,28 +1013,35 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي استهدف بلدة المنصوري",
+      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي استهدف بلدة القليلة في قضاء صور",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: غارة إسرائيلية مُعادية استهدفت بلدة قانا",
+      "text": "فرنسا: الرئيس إيمانويل ماكرون: ناقشت مع إردوغان الوضع في &quot;الشرق الأوسط&quot;",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قناة &quot;الإخبارية السورية&quot;: جيش الاحتلال يعتقل شخصين خلال عملية توغل في بلدة كودنة بريف القنيطرة",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة عنبتا شرق طولكرم",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: جرافة الاحتلال تقتلع أشجار الزيتون عند مدخل بلدة عورتا جنوب شرق نابلس.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل| قائد شرطة الاحتلال يقتحم كنيسة القيامة في مدينة القدس المحتلة تزامنا مع إحياء المسيحيين لـ&quot;سبت النور&quot;.",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية دير دبوان شمال شرق رام الله",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -1008,9 +1062,37 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 12 العبرية: في خط المواجهة يتم التحديث: نظرًا للتوتر على الحدود الشمالية ووفقًا للتوجيه الذي تم استلامه من الجيش الإسرائيلي، سيتم تأجيل فتح مراكز التعلم في المستوطنات التي كان من المقرر أن تبدأ غدًا. سيكون التعلم في المدارس عبر &quot;زوم&quot;.  #الإعلام_الحربي",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9957890513813449
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
       "text": "#إعلام_العدو   صفارات الإنذار تدوي في المطلة في إصبع الجليل خشية تسلل طائرات مسيّرة.  #الإعلام_الحربي",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 0.956418427463877
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صفارات الإنذار تدوي في أفيفيم بالجليل الغربي.  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.956418427463877
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 وزارة الصحة: 3 شهداء و3 جرحى في الغارة على تول https://almanar.com.lb/article/748297/?s=tg",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9490029583342011
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل| شرطة الاحتلال تعتدي على الفلسطينيين بالبلدة القديمة في القدس المحتلة خلال إحياء &quot;سبت النور&quot;.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9262731058775845
     },
     {
       "channelId": "OSINTdefender",
@@ -1018,41 +1100,6 @@
       "text": "#USA #Iran #China   US intelligence reports indicate that China is supplying Iran with advanced air defense systems, including the YLC-8B radar, which enhances Iran&#39;s ability to detect and track stealth aircraft. This military cooperation is part of a broader strategy to strengthen Iran&#39;s defense capabilities amid ongoing tensions in the region.  Subscribe to @OSINTdefender Chat room",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 0.8636346185874995
-    },
-    {
-      "channelId": "idfonline",
-      "channel": "IDF",
-      "text": "תצפיות צה&quot;ל זיהו הבוקר תנועה חשודה סמוך ליישוב חמדיה שבמרחב חטיבת הבקעה והעמקים.לוחמי צה&quot;ל ולוחמי יחידת יג&quot;ל של משטרת ישראל הוזנקו לנקודה ועצרו רכב ובו שלושה חשודים https://t.co/gZaMaQbju7  On May 23, 2023 at 04:52PM Read more via Twitter @idfonline @idfonline",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.819613420621686
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "بيان صادر عن المقاومة الإسلامية (4):&rlm;  بِسْمِ اللَّـهِ الرحمن الرَّحِيمِ &rlm;﴿أُذِنَ لِلَّذِينَ يُقَاتَلُونَ بِأَنَّهُمْ ظُلِمُوا وَإِنَّ اللَّهَ عَلَىٰ نَصْرِهِمْ لَقَدِيرٌ﴾&rlm; صَدَقَ اللهُ العَلِيّ العَظِيم  دفاعًا عن لبنان وشعبه، وردًّا على خرق العدوّ لاتفاق وقف إطلاق النار، واعتداءاته المتكرّرة على قرى الجنوب، وبعدما التزمت المقاومة بوقف النار ولم يلتزم به العدوّ، استهدف مجاهدو المُقاومة الإسلاميّة عند الساعة 06:20 السبت 11-04-2026 ثكنة يعرا بصليةٍ صاروخيّة.  إنّ هذا الردّ سيستمرّ إلى أنّ يتوقّف العدوان الإسرائيليّ الأمريكيّ على بلدنا وشعبنا.  ﴿وَمَا النَّصْرُ إِلاَّ مِنْ عِندِ اللّهِ الْعَزِيزِ الْحَكِيم﴾&rlm; السبت 11-04-2026&rlm; 22 شوال 1447 هـ  #معركة_العصف_المأكول  #دفاعا_عن_لبنان_وشعبه  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.7911720609662779
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "بيان صادر عن المقاومة الإسلامية (7):&rlm;  بِسْمِ اللَّـهِ الرحمن الرَّحِيمِ &rlm;﴿أُذِنَ لِلَّذِينَ يُقَاتَلُونَ بِأَنَّهُمْ ظُلِمُوا وَإِنَّ اللَّهَ عَلَىٰ نَصْرِهِمْ لَقَدِيرٌ﴾&rlm; صَدَقَ اللهُ العَلِيّ العَظِيم  دفاعًا عن لبنان وشعبه، وردًّا على خرق العدوّ لاتفاق وقف إطلاق النار، واعتداءاته المتكرّرة على قرى الجنوب، وبعدما التزمت المقاومة بوقف النار ولم يلتزم به العدوّ، استهدف مجاهدو المُقاومة الإسلاميّة عند السّاعة 08:45 السبت 11-04-2026 تجمّعًا لجنود وآليات جيش العدوّ الإسرائيليّ في موقع المطلة بسربٍ من المسيّرات الانقضاضيّة.  إنّ هذا الردّ سيستمرّ إلى أنّ يتوقّف العدوان الإسرائيليّ الأمريكيّ على بلدنا وشعبنا.  ﴿وَمَا النَّصْرُ إِلاَّ مِنْ عِندِ اللّهِ الْعَزِيزِ الْحَكِيم﴾&rlm; السبت 11-04-2026&rlm; 22 شوال 1447 هـ  #معركة_العصف_المأكول  #دفاعا_عن_لبنان_وشعبه  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.7911720609662779
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: علي أكبر ولايتي: على رئيس حكومة لبنان أن يعلم أن تجاهل الدور الاستثنائي للمقاومة وحزب الله البطل سيعرض لبنان لمخاطر أمنية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.7881654726982534
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "האיראנים משקמים את קו מסילת הרכבת ליד העיר קום לאחר שהופצץ בשבוע שעבר על ידי ישראל.  3 תגובות",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 0.7864547996997273
     }
   ]
 }
