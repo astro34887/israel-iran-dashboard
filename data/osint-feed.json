@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-11T08:02:31.906Z",
+  "last_updated": "2026-04-11T10:59:20.268Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.50",
-    "global_norm_sentiment": "-0.37"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.46",
+    "global_norm_sentiment": "-0.30"
   },
   "timeline": [
     {
@@ -837,13 +837,60 @@
           "sentiment": -0.933
         }
       }
+    },
+    {
+      "time": "2026-04-11T10:59:20.268Z",
+      "danger": 0.456,
+      "sentiment": -0.295,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.492,
+          "sentiment": -0.731
+        },
+        "OSINTdefender": {
+          "danger": 0.543,
+          "sentiment": -0.433
+        },
+        "irna_1313": {
+          "danger": 0.477,
+          "sentiment": -0.367
+        },
+        "sepah_pasdaran": {
+          "danger": 0.26,
+          "sentiment": -0.567
+        },
+        "almanarnews": {
+          "danger": 0.308,
+          "sentiment": 0.2
+        },
+        "C_Military1": {
+          "danger": 0.578,
+          "sentiment": -0.269
+        },
+        "almayadeen": {
+          "danger": 0.469,
+          "sentiment": -0.3
+        },
+        "QudsN": {
+          "danger": 0.482,
+          "sentiment": -0.321
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -854,51 +901,51 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.4753040420327122
+      "num_messages": 13,
+      "raw_sentiment": -0.7307692307692307,
+      "knn_danger_metric": 0.4919243762439815
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.5473844907212485
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.5425155274278405
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.46312425006047037
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.4766144396211542
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.31375314085437794
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.2596397799899904
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.3957287811081352
+      "raw_sentiment": 0.2,
+      "knn_danger_metric": 0.30799050125605054
     },
     "C_Military1": {
       "name": "Hezbollah",
-      "num_messages": 11,
-      "raw_sentiment": -0.45454545454545453,
-      "knn_danger_metric": 0.6214973993964634
+      "num_messages": 13,
+      "raw_sentiment": -0.2692307692307692,
+      "knn_danger_metric": 0.5778495024607366
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.5343405862054339
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.4688791296825106
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.9333333333333333,
-      "knn_danger_metric": 0.7184049592345225
+      "num_messages": 14,
+      "raw_sentiment": -0.32142857142857145,
+      "knn_danger_metric": 0.48234242986220466
     }
   },
   "semantic_logs": [
@@ -912,65 +959,44 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "דובר צה&quot;ל :ניתן לקבוע כי צה&quot;ל חיסל יותר מ-180 מחבלים מארגון הטרור חיזבאללה במתקפה הרחבה ביום רביעי האחרון . הספירה נמשכת גם ברגעים אלו.   הותקפו כ-100 מטרות בשלושה מרחבים במקביל, בהן: יותר מ-45 מפקדות מרכזיות של ארגון הטרור חיזבאללה, כ-40 מבנים צבאיים ששימשו…",
+      "text": "רצועת עזה: 6 מחבלים חוסלו הלילה בתקיפת כטב&quot;מ של צה&quot;ל על שתי נקודות של כוחות חמאס בסמוך למסגד אבו מדין במחנה הפליטים אלבריג&#39; במרכז הרצועה.  אחד המחבלים שחוסל - מחמד עלי אלמבחוח (שורה שנייה מימין בתמונה) היה מפקד פלוגת א-נור בזרוע הצבאית של חמאס במרכז הרצועה.  כולם היו תושבי מחנה הפליטים אלבריג&#39;.  תגובה אחת",
+      "absolute_sentiment": -0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي استهدف بلدة المنصوري",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: غارة إسرائيلية مُعادية استهدفت بلدة قانا",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قناة &quot;الإخبارية السورية&quot;: جيش الاحتلال يعتقل شخصين خلال عملية توغل في بلدة كودنة بريف القنيطرة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل| قائد شرطة الاحتلال يقتحم كنيسة القيامة في مدينة القدس المحتلة تزامنا مع إحياء المسيحيين لـ&quot;سبت النور&quot;.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "المديرية العامة لأمن الدولة تنعى ١٣ شهيدًا من عناصرها https://almanar.com.lb/article/747262/?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: غارة إسرائيلية استهدفت بلدة دير الزهراني",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: نحن ضحايا الوهم السياسي إذ لا حسم في غزة ولا في لبنان رغم الحرب",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: طائرات الاحتلال الإسرائيلي تخرق جدار الصوت فوق العديد من المناطق اللبنانية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم بناية في بلدة سلواد شمال شرق رام الله",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل| طيران الاحتلال يخرق جدار الصوت في الأجواء اللبنانية.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قتلهم الاحتلال ونكل بجثامينهم في قباطية.. رئيس كوريا الجنوبية ينشر فيديو لتمثيل جنوب الاحتلال بجثمان شهيد فلسطيني ويتساءل عن المحاسبة.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل| طيران الاحتلال يخترق جدار الصوت في أجواء العاصمة اللبنانية بيروت.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
+      "text": "#إعلام_العدو   صحيفة &quot;يديعوت أحرونوت&quot; العبرية: حتى بعد مرور أربعين يوماً على عمليات القصف والهجمات المكثفة، لا تزال إيران تمتلك آلاف الصواريخ الباليستية في ترسانتها، والتي يمكنها استخدامها عن طريق إزالة منصات الإطلاق من مواقع التخزين تحت الأرض. هذا ما خلص إليه أحدث تقييمات الاستخبارات الأمريكية. وأشارت بعض المصادر إلى مخاوفها من أن تستغل إيران وقف إطلاق النار لإعادة بناء جزء من ترسانتها الصاروخية.  #الإعلام_الحربي",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 0.9990786846311146
     },
     {
       "channelId": "C_Military1",
@@ -982,30 +1008,51 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صفارات الإنذار تدوي في كريات شمونه ومحيطها خشية تسلل طائرات مسيّرة.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.956418427463877
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
       "text": "#إعلام_العدو   صفارات الإنذار تدوي في المطلة في إصبع الجليل خشية تسلل طائرات مسيّرة.  #الإعلام_الحربي",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 0.956418427463877
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "غارات جوية اسرائيلية على بلدات جنوب لبنان تسفر عن شهداء وتدمير مبانٍ سكنية ومنشآت حيوية https://almanar.com.lb/article/747217/?s=tg",
+      "channelId": "OSINTdefender",
+      "channel": "Global_OSINT",
+      "text": "#USA #Iran #China   US intelligence reports indicate that China is supplying Iran with advanced air defense systems, including the YLC-8B radar, which enhances Iran&#39;s ability to detect and track stealth aircraft. This military cooperation is part of a broader strategy to strengthen Iran&#39;s defense capabilities amid ongoing tensions in the region.  Subscribe to @OSINTdefender Chat room",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9077598178072934
+      "semantic_danger_knn": 0.8636346185874995
+    },
+    {
+      "channelId": "idfonline",
+      "channel": "IDF",
+      "text": "תצפיות צה&quot;ל זיהו הבוקר תנועה חשודה סמוך ליישוב חמדיה שבמרחב חטיבת הבקעה והעמקים.לוחמי צה&quot;ל ולוחמי יחידת יג&quot;ל של משטרת ישראל הוזנקו לנקודה ועצרו רכב ובו שלושה חשודים https://t.co/gZaMaQbju7  On May 23, 2023 at 04:52PM Read more via Twitter @idfonline @idfonline",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.819613420621686
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "بيان صادر عن المقاومة الإسلامية (4):&rlm;  بِسْمِ اللَّـهِ الرحمن الرَّحِيمِ &rlm;﴿أُذِنَ لِلَّذِينَ يُقَاتَلُونَ بِأَنَّهُمْ ظُلِمُوا وَإِنَّ اللَّهَ عَلَىٰ نَصْرِهِمْ لَقَدِيرٌ﴾&rlm; صَدَقَ اللهُ العَلِيّ العَظِيم  دفاعًا عن لبنان وشعبه، وردًّا على خرق العدوّ لاتفاق وقف إطلاق النار، واعتداءاته المتكرّرة على قرى الجنوب، وبعدما التزمت المقاومة بوقف النار ولم يلتزم به العدوّ، استهدف مجاهدو المُقاومة الإسلاميّة عند الساعة 06:20 السبت 11-04-2026 ثكنة يعرا بصليةٍ صاروخيّة.  إنّ هذا الردّ سيستمرّ إلى أنّ يتوقّف العدوان الإسرائيليّ الأمريكيّ على بلدنا وشعبنا.  ﴿وَمَا النَّصْرُ إِلاَّ مِنْ عِندِ اللّهِ الْعَزِيزِ الْحَكِيم﴾&rlm; السبت 11-04-2026&rlm; 22 شوال 1447 هـ  #معركة_العصف_المأكول  #دفاعا_عن_لبنان_وشعبه  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.7911720609662779
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "بيان صادر عن المقاومة الإسلامية (7):&rlm;  بِسْمِ اللَّـهِ الرحمن الرَّحِيمِ &rlm;﴿أُذِنَ لِلَّذِينَ يُقَاتَلُونَ بِأَنَّهُمْ ظُلِمُوا وَإِنَّ اللَّهَ عَلَىٰ نَصْرِهِمْ لَقَدِيرٌ﴾&rlm; صَدَقَ اللهُ العَلِيّ العَظِيم  دفاعًا عن لبنان وشعبه، وردًّا على خرق العدوّ لاتفاق وقف إطلاق النار، واعتداءاته المتكرّرة على قرى الجنوب، وبعدما التزمت المقاومة بوقف النار ولم يلتزم به العدوّ، استهدف مجاهدو المُقاومة الإسلاميّة عند السّاعة 08:45 السبت 11-04-2026 تجمّعًا لجنود وآليات جيش العدوّ الإسرائيليّ في موقع المطلة بسربٍ من المسيّرات الانقضاضيّة.  إنّ هذا الردّ سيستمرّ إلى أنّ يتوقّف العدوان الإسرائيليّ الأمريكيّ على بلدنا وشعبنا.  ﴿وَمَا النَّصْرُ إِلاَّ مِنْ عِندِ اللّهِ الْعَزِيزِ الْحَكِيم﴾&rlm; السبت 11-04-2026&rlm; 22 شوال 1447 هـ  #معركة_العصف_المأكول  #دفاعا_عن_لبنان_وشعبه  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.7911720609662779
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: علي أكبر ولايتي: على رئيس حكومة لبنان أن يعلم أن تجاهل الدور الاستثنائي للمقاومة وحزب الله البطل سيعرض لبنان لمخاطر أمنية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.7881654726982534
     },
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "ע&quot;פ סרטון שפרסם היום חזבאללה, אחד מניצולי מתקפת הביפרים הוא זה ששיגר רקטות לעבר עין שמר ורגבים.  5 תגובות",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.8932339206501293
+      "text": "האיראנים משקמים את קו מסילת הרכבת ליד העיר קום לאחר שהופצץ בשבוע שעבר על ידי ישראל.  3 תגובות",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 0.7864547996997273
     }
   ]
 }
