@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-11T18:02:22.250Z",
+  "last_updated": "2026-04-11T20:00:18.036Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.51",
-    "global_norm_sentiment": "-0.35"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.48",
+    "global_norm_sentiment": "-0.24"
   },
   "timeline": [
     {
@@ -1072,13 +1072,60 @@
           "sentiment": -0.885
         }
       }
+    },
+    {
+      "time": "2026-04-11T20:00:18.036Z",
+      "danger": 0.479,
+      "sentiment": -0.24,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.45,
+          "sentiment": -0.567
+        },
+        "OSINTdefender": {
+          "danger": 0.521,
+          "sentiment": -0.133
+        },
+        "irna_1313": {
+          "danger": 0.326,
+          "sentiment": 0.133
+        },
+        "sepah_pasdaran": {
+          "danger": 0.413,
+          "sentiment": -0.333
+        },
+        "almanarnews": {
+          "danger": 0.268,
+          "sentiment": -0.133
+        },
+        "C_Military1": {
+          "danger": 0.614,
+          "sentiment": -0.567
+        },
+        "almayadeen": {
+          "danger": 0.697,
+          "sentiment": -0.133
+        },
+        "QudsN": {
+          "danger": 0.549,
+          "sentiment": -0.5
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -1090,50 +1137,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.7,
-      "knn_danger_metric": 0.5054583867341784
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.45038851035769273
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.5195735355801934
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.5210231633272095
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.385438947208477
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.3255773381596236
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.41173146027942187
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.41313613363842
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.25147355597694004
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.26829331758789027
     },
     "C_Military1": {
       "name": "Hezbollah",
-      "num_messages": 13,
-      "raw_sentiment": -0.6923076923076923,
-      "knn_danger_metric": 0.7712828572822469
+      "num_messages": 15,
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.6143574892524228
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.6320300112761025
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.6966320327025912
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 13,
-      "raw_sentiment": -0.8846153846153846,
-      "knn_danger_metric": 0.6673463277174427
+      "num_messages": 15,
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.5490264377798559
     }
   },
   "semantic_logs": [
@@ -1147,100 +1194,100 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: الحاج حسن للميادين: المخرجات السياسية للمفاوضات يجب أن تكون عادلة وتحفظ السيادة والكرامة",
+      "text": "إيران: بزشكيان لماكرون: هجمات الكيان الصهيوني على لبنان هي المصدر الرئيس للتوتر",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: بزشكيان لماكرون: قتل المئات من أبناء الشعب اللبناني المظلوم والهجوم على الأماكن المدنية هو مصداق بارز لجرائم الحرب",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: بزشكيان لماكرون: لا نتردد في الدفاع عن حقوقنا المشروعة ووحدة أراضينا وقدراتنا الصاروخية هي أداة دفاعية ضد اعتداءات المعتدين",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في جنوب لبنان: اشتباكات مستمرة في مدينة بنت جبيل",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان:  الحاج حسن للميادين: حزب الله يتابع بدقة وتفصيل ولن نستبق النتائج ونقطة الضعف هي أداء السلطة اللبنانية",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: الحاج حسن للميادين: السلطة اللبنانية لم تضغط لتحقق شيئاً للشعب بل تقدم التنازلات تلو التنازلات وهذا ليس عن ضعف بل عن قرار",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل اعلام اسرائيلية: تظاهرات اسرائيلية عند جسر &quot;كفار يهوشوع&quot; في الشمال للمطالبة بإنهاء الحرب في لبنان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: غارة إسرائيلية تستهدف بلدة قانا جنوبي البلاد",
-      "absolute_sentiment": -1,
+      "text": "لبنان: مراسل الميادين في جنوب لبنان: غارة اسرائيلية على بلدة حاريص في قضاء بنت جبيل",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "شرطة الاحتلال تعتقل عدداً من النشطاء خلال مظاهرة منددة بقانون إعدام الأسرى، في مدينة أم الفحم بالداخل المحتل.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "الاحتلال يقمع المسيحيين الفلسطينيين في القدس، خلال إحياء &quot;سبت النور&quot;  إليكم تفاصيل ما جرى اليوم:",
+      "text": "&quot;لينكد إن&quot; و&quot;إن درايف&quot; تواجهان اتهامات بالتجسس لصالح &quot;إسرائيل&quot;  التفاصيل:   https://qudsn.co/post/215192/",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة &quot;معاريف&quot; العبرية: عناصر في الإدارة الأمريكية يقفون وراء الهجوم على رئيس الموساد بعد فشل خطته في إسقاط النظام الإيراني.  #الإعلام_الحربي",
+      "text": "#الجمهورية_الإسلامية   المتحدث باسم مقر خاتم الأنبياء المركزي:   ننفي بشدة مزاعم قائد &quot;سنتكوم&quot; بشأن اقتراب ودخول قطع بحرية أميركية إلى مضيق هرمز.  زمام المبادرة في عبور أي قطعة بحرية ومرورها هو بيد القوات المسلحة الإيرانية.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9982465977927695
+      "semantic_danger_knn": 0.9977128856617157
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: بالتزامن مع كلمة نتنياهو..حزب الله يطلق طائرات بدون طيار نحو كريات شمونه.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9966993106587395
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   عضو الكنيست ووزير الزراعة آفي ديختر (من حزب الليكود)  للقناة 12 العبرية: أعتقد أنه إذا لم يتغيّر النظام في إيران فسنكون في ورطة.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9961486516080662
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   مراسل القناة 12 العبرية: يدرك نتنياهو أن الجمهور لم يقتنع بتصريحه الأول حول تحقيق إنجازات هائلة («ضخمة» على حدّ وصفه) في إيران، وأن هناك حاجة لتصوير تصريح آخر. وبالطبع، فإن الخشية من الأسئلة هي التي تفرض النبرة هذه المرة أيضًا، لذا فهو تصريح من دون أسئلة من الصحفيين.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9957890513813449
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "الصحة اللبنانية: 2020 شهيداً و6436 جريحاً؛ جراء عدوان الاحتلال على لبنان، منذ 2 مارس الماضي.",
+      "text": "عاجل | حزب الله: هاجمنا بسرب مسيرات ثكنة مستوطنة &quot;كريات شمونة&quot;، مساء اليوم.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9874503263235882
+      "semantic_danger_knn": 0.9785929365999773
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل | إصابة عدد من الفلسطينيين بإطلاق نار من دبابات الاحتلال قرب مسجد &quot;التوبة&quot; بمخيم جباليا، شمال قطاع غزة.",
+      "text": "عاجل | قوات الاحتلال تنسف بالمتفجرات عددًا من منازل الفلسطينيين في شمال قطاع غزة.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9596045227592704
     },
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صفارات الإنذار تدوي في يرؤون بالجليل الغربي.  #الإعلام_الحربي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.956418427463877
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صفارات الإنذار تدوي في المطلة في إصبع الجليل.  #الإعلام_الحربي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.956418427463877
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   المتحدث باسم جيش العدو الإسرائيلي: إصابة ضابط بجروح خطيرة جراء حادث عملياتي وسط قطاع غزة.  #الإعلام_الحربي",
+      "text": "#إعلام_العدو   صفارات الإنذار تدوي في كريات شمونه ومحيطها خشية تسلل طائرات مسيّرة.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.8863136466900846
+      "semantic_danger_knn": 0.956418427463877
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": " ️خبرنگار اعزامی به پاکستان: ایران و آمریکا در حال تبادل پیام مکتوب هستند و این تبادل پیام ادامه دارد. ✅  @sepah_pasdaran",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.8754079491250212
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   مراسل القناة 12 العبرية: يدرك نتنياهو أن الجمهور لم يقتنع بتصريحه الأول حول تحقيق إنجازات هائلة («ضخمة» على حدّ وصفه) في إيران، وأن هناك حاجة لتصوير تصريح آخر. وبالطبع، فإن الخشية من الأسئلة هي التي تفرض النبرة هذه المرة أيضًا، لذا فهو تصريح من دون أسئلة من الصحفيين.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9096811083910463
     }
   ]
 }
