@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-04-12T19:55:18.201Z",
+  "last_updated": "2026-04-12T21:52:38.721Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.55",
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.44",
     "global_norm_sentiment": "-0.32"
   },
   "timeline": [
@@ -1495,13 +1495,60 @@
           "sentiment": -0.167
         }
       }
+    },
+    {
+      "time": "2026-04-12T21:52:38.721Z",
+      "danger": 0.443,
+      "sentiment": -0.317,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.463,
+          "sentiment": -0.667
+        },
+        "OSINTdefender": {
+          "danger": 0.468,
+          "sentiment": 0.033
+        },
+        "irna_1313": {
+          "danger": 0.495,
+          "sentiment": 0
+        },
+        "sepah_pasdaran": {
+          "danger": 0.324,
+          "sentiment": -0.333
+        },
+        "almanarnews": {
+          "danger": 0.144,
+          "sentiment": -1
+        },
+        "C_Military1": {
+          "danger": 0.535,
+          "sentiment": -0.833
+        },
+        "almayadeen": {
+          "danger": 0.544,
+          "sentiment": -0.1
+        },
+        "QudsN": {
+          "danger": 0.506,
+          "sentiment": -0.1
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -1513,8 +1560,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.7666666666666667,
-      "knn_danger_metric": 0.5732110678473139
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.4632471204058245
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -1524,39 +1571,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 13,
-      "raw_sentiment": -0.038461538461538464,
-      "knn_danger_metric": 0.4605401434786385
+      "num_messages": 15,
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.494862383630979
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.8666666666666667,
-      "knn_danger_metric": 0.35320717808755636
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.3241165298527323
     },
     "almanarnews": {
       "name": "Hezbollah",
-      "num_messages": 15,
-      "raw_sentiment": -0.8,
-      "knn_danger_metric": 0.40721358149701337
+      "num_messages": 14,
+      "raw_sentiment": -1,
+      "knn_danger_metric": 0.1435403181247342
     },
     "C_Military1": {
       "name": "Hezbollah",
-      "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.8686658669480214
+      "num_messages": 12,
+      "raw_sentiment": -0.8333333333333334,
+      "knn_danger_metric": 0.5353365090107377
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.6865620764654168
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.5437770447647604
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.7155322063796379
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.505786856214009
     }
   },
   "semantic_logs": [
@@ -1568,102 +1615,102 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "אורסולה פון דר ליין, נשיאת נציבות האיחוד האירופאי חוגגת את ההפסד של אורבן בהונגריה:  הונגריה בחרה באירופה. האיחוד האירופאי התחזק.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "☑️شناسایی و دستگیری اعضای گروه تلگرامی جاسوسی در تهران  اعضای یک گروه تلگرامی که با درخواست مدیران گروه اقدام به ارسال اطلاعات حساس کشور می‌کردند، توسط پلیس شناسایی و دستگیر شدند.   @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 وحدة إدارة مخاطر الكوارث: عدد الشهداء هذا اليوم بلغ 35 والجرحى 152 https://almanar.com.lb/article/752822/?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 بحرية الحرس الثوري: اقتراب اي سفينة حربية من مضيق هرمز تحت أي ذريعة يعتبر خرقًا لوقف إطلاق النار https://almanar.com.lb/article/752957/?s=tg",
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: وزارة الصحة: 9 شهداء و13 جريحاً في العدوان الإسرائيلي على بلدة تفاحتا قضاء صيدا أمس",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: رضائي: اذا نفذ ترامب حصاره على مضيق هرمز فإن ذلك يُعتبر عملية حربية وسنقوم بالرد عليه",
+      "text": "وسائل إعلام إسرائيلية: إصابة جنديين من &quot;الكتيبة 890&quot; مظليين أمس من جراء سقوط صاروخ لحزب الله جنوبي لبنان",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: رضائي: قد نكشف عن أوراقنا الأخرى التي لم نستخدمها بعد في هذه اللعبة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: رضائي لأعداء بلاده: إذا كنتم تريدون تحسين الظروف فعليكم احترام الإيرانيين وقبول هزيمتكم",
+      "text": "إيران: عراقتشي: لم تُستخلص أي دروس إذ إن حسن النوايا يولد حسن نوايا والعداء يولد العداء",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
+      "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: قصف مدفعي إسرائيلي يستهدف المناطق الشمالية الغربية للقطاع",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: بابائي: مضيق هرمز والجماهير في الشوارع هما قنبلتنا الذرية",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: استمرار التظاهرات الايرانية الحاشدة دعما للقيادة",
+      "text": "متابعة | جيش الاحتلال يطلق قنابل الغاز والصوت خلال اقتحام مخيم الفوار، جنوب الخليل.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم منطقة راس شحادة في بلدة عناتا شمال شرق القدس المحتلة",
+      "text": "قوات الاحتلال تواصل اقتحام مخيم الفوار، جنوب الخليل.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل| قوات الاحتلال تعتقل شابين من الحي الشرقي بمدينة جنين.",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة صوريف شمال الخليل.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | خلال 24 ساعة.. حزب الله ينفذ 43 عملية ضد مواقع الاحتلال.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
+      "semantic_danger_knn": 0.9596045227592704
     },
     {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل| قوات الاحتلال تقتحم بلدة عنبتا شرق طُولكرم",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "&rlm;לשכת ראש הממשלה:  הוועדה המייעצת למינויים לתפקידים בכירים בראשות נשיא ביהמ&quot;ש העליון (בדימוס) אשר גרוניס, אישרה הערב את מועמדותו של האלוף רומן גופמן לתפקיד ראש המוסד למודיעין ולתפקידים מיוחדים.  עם קבלת אישור הוועדה, חתם ראש הממשלה בנימין נתניהו על כתב המינוי של ראש המוסד הבא, האלוף רומן גופמן, שייכנס לתפקידו ביום ה-2 ליוני 2026 לתקופה של 5 שנים.  4 תגובות",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
+      "semantic_danger_knn": 0.9177295162382316
     },
     {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مشاهد من اقتحام الاحتلال للحي الشرقي في جنين",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "☑️سردار قاآنی خطاب به متجاوزان: همانطور که یمن از دریای سرخ فراریتان داد، جبهه مقاومت شما را از منطقه اخراج می‌کند  فرمانده نیروی قدس سپاه: جبهه یکپارچه مقاومت در کل منطقه حضور قدرتمند و موثر دارد و در انتظار دشمنان انسانیت نشسته است.   آمریکا و رژیم صهیونی یادشان باشد که چگونه دست خالی از یمن قهرمان و باب المندب و دریای سرخ فرار کردند.   حالا هم بدون هیچ دستاوردی منطقه را ترک خواهند کرد.   @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9154041049279641
+    },
+    {
+      "channelId": "OSINTdefender",
+      "channel": "Global_OSINT",
+      "text": "#UAE #Iran   The Emirates may face serious economic difficulties if they continue relying on military encirclement against a missile power like Iran. Modern warfare, characterized by advanced missile and drone technology, poses a significant threat that traditional military bases cannot effectively counter.  Subscribe to @OSINTdefender Chat room",
+      "absolute_sentiment": -0.5,
+      "semantic_danger_knn": 0.8491516662743681
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   المتحدث باسم جيش العدو الإسرائيلي: إصابة جنديين من الكتيبة 890 مظليين جراء سقوط صاروخ لحزب الله جنوبي لبنان.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.8380744594183117
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️آشوک سووین، استاد دانشگاه سوئد: آمریکا به شدت خواهان حفظ آبرویش است، نتانیاهو قصد دارد صحنه را به هم بزند و اختیار عمل در دست ایران است.   ✅  @sepah_pasdaran",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.8367427637217602
+    },
+    {
+      "channelId": "idfonline",
+      "channel": "IDF",
+      "text": "תצפיות צה&quot;ל זיהו הבוקר תנועה חשודה סמוך ליישוב חמדיה שבמרחב חטיבת הבקעה והעמקים.לוחמי צה&quot;ל ולוחמי יחידת יג&quot;ל של משטרת ישראל הוזנקו לנקודה ועצרו רכב ובו שלושה חשודים https://t.co/gZaMaQbju7  On May 23, 2023 at 04:52PM Read more via Twitter @idfonline @idfonline",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.819613420621686
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "بيان صادر عن المقاومة الإسلامية (41):&rlm;  بِسْمِ اللَّـهِ الرحمن الرَّحِيمِ &rlm;﴿أُذِنَ لِلَّذِينَ يُقَاتَلُونَ بِأَنَّهُمْ ظُلِمُوا وَإِنَّ اللَّهَ عَلَىٰ نَصْرِهِمْ لَقَدِيرٌ﴾&rlm; صَدَقَ اللهُ العَلِيّ العَظِيم  دفاعًا عن لبنان وشعبه، وردًّا على خرق العدوّ لاتفاق وقف إطلاق النار، واعتداءاته المتكرّرة على قرى الجنوب، وبعدما التزمت المقاومة بوقف النار ولم يلتزم به العدوّ، استهدف مجاهدو المُقاومة الإسلاميّة عند السّاعة 18:00 و 18:20 و 18:40 الأحد 12-04-2026 تجمعات لآليات وجنود جيش العدوّ الإسرائيليّ في محيط مدرسة الإشراق في بنت جبيل ومثلث التحرير بصلياتٍ صاروخيّة على دفعات.  إنّ هذا الردّ سيستمرّ إلى أن يتوقّف العدوان الإسرائيليّ الأمريكيّ على بلدنا وشعبنا.  ﴿وَمَا النَّصْرُ إِلاَّ مِنْ عِندِ اللّهِ الْعَزِيزِ الْحَكِيم﴾&rlm; الأحد 12-04-2026&rlm; 23 شوال 1447 هـ  #معركة_العصف_المأكول  #دفاعا_عن_لبنان_وشعبه  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.8121146571025472
     }
   ]
 }
