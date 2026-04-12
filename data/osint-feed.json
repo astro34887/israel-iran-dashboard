@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-12T09:33:32.408Z",
+  "last_updated": "2026-04-12T11:49:47.754Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.48",
-    "global_norm_sentiment": "-0.20"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.50",
+    "global_norm_sentiment": "-0.18"
   },
   "timeline": [
     {
@@ -1307,6 +1307,53 @@
           "sentiment": -0.167
         }
       }
+    },
+    {
+      "time": "2026-04-12T11:49:47.754Z",
+      "danger": 0.502,
+      "sentiment": -0.18,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.421,
+          "sentiment": -0.133
+        },
+        "OSINTdefender": {
+          "danger": 0.487,
+          "sentiment": -0.133
+        },
+        "irna_1313": {
+          "danger": 0.524,
+          "sentiment": -0.333
+        },
+        "sepah_pasdaran": {
+          "danger": 0.366,
+          "sentiment": -0.233
+        },
+        "almanarnews": {
+          "danger": 0.301,
+          "sentiment": 0.233
+        },
+        "C_Military1": {
+          "danger": 0.809,
+          "sentiment": 0
+        },
+        "almayadeen": {
+          "danger": 0.619,
+          "sentiment": -0.467
+        },
+        "QudsN": {
+          "danger": 0.547,
+          "sentiment": -0.6
+        }
+      }
     }
   ],
   "channel_data": {
@@ -1325,50 +1372,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.3656062302013886
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.42093427488170926
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.4726728505939423
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.48749925750662854
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.4469881065378496
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.5243364770375163
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.22040531820088838
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.36616746199266803
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.3964468711967729
+      "raw_sentiment": 0.23333333333333334,
+      "knn_danger_metric": 0.30140153872293757
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.7288056567413492
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.809287685039125
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.6671554930482978
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.6186215652107995
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.5211635496687046
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.5466979938732379
     }
   },
   "semantic_logs": [
@@ -1380,101 +1427,101 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "حزب الله ينفي الاتهامات الصادرة عن وزارة الداخلية السورية https://almanar.com.lb/article/751162/?s=tg",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "האם כבר הוכרע גורלה של  בנת ג&#39;ביל - סמל &quot;ההתנגדות&quot; של חזבאללה?   מקורות לבנוניים המזוהים עם מתנגדי חזבאללה מדווחים הלילה כי כוחות צה&quot;ל קרובים להשלים את כיבוש בנת ג&#39;ביל.  בנת ג&#39;ביל, העיר השנייה בגודלה במחוז נבטיה, בה מתגוררים למעלה מ 30 אלף איש היתה במשך שנים…",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️هزاران نفر در چهلمین روز شهادت امام خامنه‌ای در اسکاردو پاکستان تجمع کردند   ✅  @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: غارة إسرائيلية استهدفت بلدة الشعيتية في قضاء صور",
+      "text": "إيران: نيكزاد: في هذه الأيام أيضاً سيتعلمون أن الدبلوماسية مجال للاحترام والتفاعل وقبول الحقائق وليست لإملاء الأمنيات",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: صفارات الإنذار تدوي في المطلة و&quot;مسكاف عام&quot; خشية تسلل طائرات مسيرة",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: صفارات الإنذار تدوي في &quot;كريات شمونة&quot; ومحيطها خشية تسلل طائرات مسيرة",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: غارة معادية إسرائيلية استهدفت بلدة الحنية في قضاء صور",
+      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي استهدف بلدة المنصوري",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: قاليباف: لن نتوقف لحظة عن السعي لتثبيت إنجازات الأربعين يوماً من الدفاع الوطني للإيرانيين",
+      "text": "لبنان: مراسل الميادين في الجنوب: صلية صاروخية ثقيلة من لبنان وصفارات الإنذار تدوي في عدد من مستوطنات الجليل الأعلى",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب عن مصادر في وزارة الصحة: 24 شهيداً في حصيلة أولية للعدوان الإسرائيلي على الجنوب منذ فجر اليوم",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي استهدف بلدة صريفا",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل| الهلال الأحمر: إصابة طفل (14 عاما) برصاص الاحتلال الحي بالفخد خلال اقتحام البلدة القديمة بمدينة نابلس.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "حزب الله يعلن استهداف آلية عسكرية لجيش الاحتلال تحوي طاقما قياديا في بلدة الطيبة بمحلقة انقضاضية.",
+      "text": "قوات الاحتلال تقتحم قرية عابا شرق جنين",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة &quot;معاريف&quot; العبرية - بن كاسبيت:  ما يهم نتنياهو هو الفوز في الانتخابات وإذا لم يكن هناك نصر على إيران وحزب الله وحماس، فلن يكون هناك أيضًا فوز في الانتخابات. لذلك أرسل أمس تسجيلًا آخر &quot;مُتعرّقًا&quot; إلى الاستوديوهات، يكرر فيه مرة أخرى، للمرة التي لا تُحصى، مفهوم &quot;أمرتُ، وجّهتُ، انتصرتُ&quot;، في محاولة لإقناعنا مجددًا بعظمته الأبدية.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9983660049992394
+      "text": "#إعلام_العدو   صحيفة &quot;معاريف&quot; العبرية:  لم يُنظر إلى المفاوضات المباشرة والاستثنائية التي جرت بين الولايات المتحدة وإيران في إسلام أباد وانتهت دون اتفاق أو إجماع في &quot;إسرائيل&quot; على أنها انهيار نهائي للمحادثات - ولكن لم يُنظر إليها أيضاً على أنها مجرد حدث تقني هامشي.  تشير مصادر إسرائيلية إلى أن حقيقة انتهاء جولة المحادثات بعد حوالي 21 ساعة دون تحقيق أي اختراق، وبلهجة أمريكية قاسية بشكل خاص، تدل على عمق الخلافات بين الطرفين، وأن العقبة الحقيقية لم تكن لفترة طويلة القضية النووية فحسب، بل أيضاً مسألة مضيق هرمز والثمن السياسي الذي سيتعين على ترامب دفعه في انتخابات التجديد النصفي، إذا استمرت أسعار النفط في الارتفاع.  ترى مصادر إسرائيلية أنه من السابق لأوانه الجزم بانهيار المفاوضات نهائياً. فحتى بعد فشل الجولة الأخيرة، لا يُستبعد إجراء محاولات أخرى، ربما حتى خلال فترة وقف إطلاق النار الهشّ الذي حُدّد لأسبوعين. مع ذلك، في هذه المرحلة، ليس من المؤكد إطلاقاً عقد جولة أخرى، وقد تُتخذ القرارات في البيت الأبيض بسرعة كبيرة - في غضون ساعات، وليس بالضرورة أياماً.  #الإعلام_الحربي",
+      "absolute_sentiment": -0.5,
+      "semantic_danger_knn": 0.9993018398376897
     },
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة &quot;يديعوت أحرونوت&quot; العبرية - مايكل ميلستين: لا بدّ لنا من الاعتراف بأن &quot;إسرائيل&quot; وجدت نفسها في مأزق. فهي عاجزة عن القضاء على حزب الله رغم الضربات القاسية التي تلقاها والضغط الذي تمارسه على لبنان، ورغم الاستيلاء على الأراضي، الأمر الذي يُثبت مجدداً هشاشة مقولة &quot;لا يفهم العرب إلا عندما تُسلب أرضهم&quot;. وفي الوقت نفسه، تتواصل معاناة سكان الشمال وإحباطهم من عدم الاستجابة لمطلبهم بالعيش بأمان.  #الإعلام_الحربي",
+      "text": "#إعلام_العدو   القناة 15 العبرية: رئيس هيئة الأركان يوجّه الجيش الإسرائيلي: حالة تأهب فورية للعودة إلى الحرب مع إيران. لم يتم اتخاذ قرار بعد باستئناف القصف.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.998351414879686
+      "semantic_danger_knn": 0.9979853054910217
     },
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة &quot;معاريف&quot; العبرية - بن كاسبيت: سؤال إلى نتنياهو، إذا كنا قد دمّرنا تقريبًا كل الصواريخ والقذائف التي بحوزة حزب الله، فماذا يطلقون الآن؟ مفرقعات؟ بحسب معطيات الجيش الإسرائيلي، في هذه الجولة أطلقوا بالفعل 6500 صاروخ وطائرات مسيّرة اتجاه الشمال.  #الإعلام_الحربي",
+      "text": "#إعلام_العدو   القناة 12 العبرية: قصف استهدف المنطقة الحدودية المقابلة لمستوطنة المطلة.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9978012870524409
+      "semantic_danger_knn": 0.9957890513813449
     },
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   رئيس بلدية كريات شمونه &quot;أفيخاي شتيرن&quot;: مستقبلنا يقرر في واشنطن وليس في القدس، منذ بداية الحرب لم أتحدث مع وزير الحرب أو رئيس الحكومة.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9945654842736754
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صفارات الإنذار تدوي في المطلة في إصبع الجليل خشية تسلل طائرات مسيّرة.  #الإعلام_الحربي",
+      "text": "#إعلام_العدو   صفارات الإنذار تدوي في المطلة في إصبع الجليل.  #الإعلام_الحربي",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 0.956418427463877
     },
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صفارات الإنذار تدوي في المطلة ومسكافعام خشية تسلل طائرات مسيّرة.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
+      "text": "#إعلام_العدو   صفارات الإنذار تدوي في المطلة في إصبع الجليل.  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.956418427463877
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صفارات الإنذار تدوي في بيت هلل في إصبع الجليل.  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 0.956418427463877
     }
   ]
