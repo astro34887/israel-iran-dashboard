@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-12T21:52:38.721Z",
+  "last_updated": "2026-04-12T23:54:46.545Z",
   "tension": {
     "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.44",
-    "global_norm_sentiment": "-0.32"
+    "global_knn_danger": "0.49",
+    "global_norm_sentiment": "-0.39"
   },
   "timeline": [
     {
@@ -1542,13 +1542,60 @@
           "sentiment": -0.1
         }
       }
+    },
+    {
+      "time": "2026-04-12T23:54:46.545Z",
+      "danger": 0.486,
+      "sentiment": -0.394,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.457,
+          "sentiment": -0.667
+        },
+        "OSINTdefender": {
+          "danger": 0.468,
+          "sentiment": 0.033
+        },
+        "irna_1313": {
+          "danger": 0.46,
+          "sentiment": -0.367
+        },
+        "sepah_pasdaran": {
+          "danger": 0.276,
+          "sentiment": -0.4
+        },
+        "almanarnews": {
+          "danger": 0.227,
+          "sentiment": -1
+        },
+        "C_Military1": {
+          "danger": 0.635,
+          "sentiment": -0.708
+        },
+        "almayadeen": {
+          "danger": 0.546,
+          "sentiment": -0.3
+        },
+        "QudsN": {
+          "danger": 0.841,
+          "sentiment": -0.4
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -1561,7 +1608,7 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.4632471204058245
+      "knn_danger_metric": 0.45714961287249867
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -1572,38 +1619,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.494862383630979
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.4600326797209868
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.3241165298527323
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.27615879331080784
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 14,
       "raw_sentiment": -1,
-      "knn_danger_metric": 0.1435403181247342
+      "knn_danger_metric": 0.22661810538226204
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 12,
-      "raw_sentiment": -0.8333333333333334,
-      "knn_danger_metric": 0.5353365090107377
+      "raw_sentiment": -0.7083333333333334,
+      "knn_danger_metric": 0.63485722780624
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.5437770447647604
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.5463336310061611
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.505786856214009
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.841371017501063
     }
   },
   "semantic_logs": [
@@ -1617,100 +1664,100 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: وزارة الصحة: 9 شهداء و13 جريحاً في العدوان الإسرائيلي على بلدة تفاحتا قضاء صيدا أمس",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: إصابة جنديين من &quot;الكتيبة 890&quot; مظليين أمس من جراء سقوط صاروخ لحزب الله جنوبي لبنان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "إيران: عراقتشي: لم تُستخلص أي دروس إذ إن حسن النوايا يولد حسن نوايا والعداء يولد العداء",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: عدوان إسرائيلي بغارة يستهدف مركز الهيئة الصحية في صير الغربية قضاء النبطية",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: وزارة الصحة: 4 شهداء من بينهم امرأة و3 جرحى في العداون الإسرائيلي على بلدة معروب قضاء صور صباح أمس",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: 3 شهداء ومصابون من جراء استهداف مسيرة إسرائيلية لمجموعة من المواطنين في مدينة دير البلح وسط قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "متابعة | جيش الاحتلال يطلق قنابل الغاز والصوت خلال اقتحام مخيم الفوار، جنوب الخليل.",
+      "text": "جانب من اقتحام قوات الاحتلال بلدة صوريف شمال الخليل.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تواصل اقتحام مخيم الفوار، جنوب الخليل.",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية عين يبرود، شمال شرق رام الله.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة عتيل، شمال طولكرم.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "متابعة | قوات الاحتلال تداهم المنازل خلال اقتحام بلدة طمون جنوب طوباس",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة صوريف شمال الخليل.",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة حبلة، جنوب قلقيلية.",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل | خلال 24 ساعة.. حزب الله ينفذ 43 عملية ضد مواقع الاحتلال.",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة تقوع جنوب شرق بيت لحم",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم مخيم العروب شمال الخليل.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | تحديث: 3 شهداء ومصابون جراء استهداف طيران الاحتلال المسير مجموعة من الأهالي شرق دير البلح وسط قطاع غزة.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9596045227592704
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "&rlm;לשכת ראש הממשלה:  הוועדה המייעצת למינויים לתפקידים בכירים בראשות נשיא ביהמ&quot;ש העליון (בדימוס) אשר גרוניס, אישרה הערב את מועמדותו של האלוף רומן גופמן לתפקיד ראש המוסד למודיעין ולתפקידים מיוחדים.  עם קבלת אישור הוועדה, חתם ראש הממשלה בנימין נתניהו על כתב המינוי של ראש המוסד הבא, האלוף רומן גופמן, שייכנס לתפקידו ביום ה-2 ליוני 2026 לתקופה של 5 שנים.  4 תגובות",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9177295162382316
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "☑️سردار قاآنی خطاب به متجاوزان: همانطور که یمن از دریای سرخ فراریتان داد، جبهه مقاومت شما را از منطقه اخراج می‌کند  فرمانده نیروی قدس سپاه: جبهه یکپارچه مقاومت در کل منطقه حضور قدرتمند و موثر دارد و در انتظار دشمنان انسانیت نشسته است.   آمریکا و رژیم صهیونی یادشان باشد که چگونه دست خالی از یمن قهرمان و باب المندب و دریای سرخ فرار کردند.   حالا هم بدون هیچ دستاوردی منطقه را ترک خواهند کرد.   @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9154041049279641
-    },
-    {
-      "channelId": "OSINTdefender",
-      "channel": "Global_OSINT",
-      "text": "#UAE #Iran   The Emirates may face serious economic difficulties if they continue relying on military encirclement against a missile power like Iran. Modern warfare, characterized by advanced missile and drone technology, poses a significant threat that traditional military bases cannot effectively counter.  Subscribe to @OSINTdefender Chat room",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 0.8491516662743681
-    },
-    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   المتحدث باسم جيش العدو الإسرائيلي: إصابة جنديين من الكتيبة 890 مظليين جراء سقوط صاروخ لحزب الله جنوبي لبنان.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.8380744594183117
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": " ️آشوک سووین، استاد دانشگاه سوئد: آمریکا به شدت خواهان حفظ آبرویش است، نتانیاهو قصد دارد صحنه را به هم بزند و اختیار عمل در دست ایران است.   ✅  @sepah_pasdaran",
+      "text": "#إعلام_العدو   صفارات الإنذار تدوي في كريات شمونه ومحيطها.  #الإعلام_الحربي",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.8367427637217602
-    },
-    {
-      "channelId": "idfonline",
-      "channel": "IDF",
-      "text": "תצפיות צה&quot;ל זיהו הבוקר תנועה חשודה סמוך ליישוב חמדיה שבמרחב חטיבת הבקעה והעמקים.לוחמי צה&quot;ל ולוחמי יחידת יג&quot;ל של משטרת ישראל הוזנקו לנקודה ועצרו רכב ובו שלושה חשודים https://t.co/gZaMaQbju7  On May 23, 2023 at 04:52PM Read more via Twitter @idfonline @idfonline",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.819613420621686
+      "semantic_danger_knn": 0.956418427463877
     },
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "بيان صادر عن المقاومة الإسلامية (41):&rlm;  بِسْمِ اللَّـهِ الرحمن الرَّحِيمِ &rlm;﴿أُذِنَ لِلَّذِينَ يُقَاتَلُونَ بِأَنَّهُمْ ظُلِمُوا وَإِنَّ اللَّهَ عَلَىٰ نَصْرِهِمْ لَقَدِيرٌ﴾&rlm; صَدَقَ اللهُ العَلِيّ العَظِيم  دفاعًا عن لبنان وشعبه، وردًّا على خرق العدوّ لاتفاق وقف إطلاق النار، واعتداءاته المتكرّرة على قرى الجنوب، وبعدما التزمت المقاومة بوقف النار ولم يلتزم به العدوّ، استهدف مجاهدو المُقاومة الإسلاميّة عند السّاعة 18:00 و 18:20 و 18:40 الأحد 12-04-2026 تجمعات لآليات وجنود جيش العدوّ الإسرائيليّ في محيط مدرسة الإشراق في بنت جبيل ومثلث التحرير بصلياتٍ صاروخيّة على دفعات.  إنّ هذا الردّ سيستمرّ إلى أن يتوقّف العدوان الإسرائيليّ الأمريكيّ على بلدنا وشعبنا.  ﴿وَمَا النَّصْرُ إِلاَّ مِنْ عِندِ اللّهِ الْعَزِيزِ الْحَكِيم﴾&rlm; الأحد 12-04-2026&rlm; 23 شوال 1447 هـ  #معركة_العصف_المأكول  #دفاعا_عن_لبنان_وشعبه  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.8121146571025472
+      "text": "#إعلام_العدو   صفارات الإنذار تدوي في دوفيف بالجليل الغربي.  #الإعلام_الحربي",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.956418427463877
     }
   ]
 }
