@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-12T11:49:47.754Z",
+  "last_updated": "2026-04-12T14:11:04.560Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.50",
-    "global_norm_sentiment": "-0.18"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.49",
+    "global_norm_sentiment": "-0.28"
   },
   "timeline": [
     {
@@ -1354,6 +1354,53 @@
           "sentiment": -0.6
         }
       }
+    },
+    {
+      "time": "2026-04-12T14:11:04.560Z",
+      "danger": 0.494,
+      "sentiment": -0.279,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.524,
+          "sentiment": -0.733
+        },
+        "OSINTdefender": {
+          "danger": 0.487,
+          "sentiment": -0.133
+        },
+        "irna_1313": {
+          "danger": 0.576,
+          "sentiment": 0.1
+        },
+        "sepah_pasdaran": {
+          "danger": 0.354,
+          "sentiment": -0.4
+        },
+        "almanarnews": {
+          "danger": 0.171,
+          "sentiment": -0.6
+        },
+        "C_Military1": {
+          "danger": 0.773,
+          "sentiment": -0.767
+        },
+        "almayadeen": {
+          "danger": 0.662,
+          "sentiment": 0.2
+        },
+        "QudsN": {
+          "danger": 0.446,
+          "sentiment": -0.321
+        }
+      }
     }
   ],
   "channel_data": {
@@ -1372,8 +1419,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.42093427488170926
+      "raw_sentiment": -0.7333333333333333,
+      "knn_danger_metric": 0.5244162603030244
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -1384,38 +1431,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.5243364770375163
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.5757179473515684
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.36616746199266803
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.3540824029636725
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.23333333333333334,
-      "knn_danger_metric": 0.30140153872293757
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.17107138108123113
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.809287685039125
+      "raw_sentiment": -0.7666666666666667,
+      "knn_danger_metric": 0.7726805241707294
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.6186215652107995
+      "raw_sentiment": 0.2,
+      "knn_danger_metric": 0.6623878959505749
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.5466979938732379
+      "num_messages": 14,
+      "raw_sentiment": -0.32142857142857145,
+      "knn_danger_metric": 0.4456155849457297
     }
   },
   "semantic_logs": [
@@ -1429,6 +1476,13 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
+      "text": "רצועת עזה: 6 מחבלים חוסלו הלילה בתקיפת כטב&quot;מ של צה&quot;ל על שתי נקודות של כוחות חמאס בסמוך למסגד אבו מדין במחנה הפליטים אלבריג&#39; במרכז הרצועה.  אחד המחבלים שחוסל - מחמד עלי אלמבחוח (שורה שנייה מימין בתמונה) היה מפקד פלוגת א-נור בזרוע הצבאית של חמאס במרכז הרצועה.…",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
       "text": "האם כבר הוכרע גורלה של  בנת ג&#39;ביל - סמל &quot;ההתנגדות&quot; של חזבאללה?   מקורות לבנוניים המזוהים עם מתנגדי חזבאללה מדווחים הלילה כי כוחות צה&quot;ל קרובים להשלים את כיבוש בנת ג&#39;ביל.  בנת ג&#39;ביל, העיר השנייה בגודלה במחוז נבטיה, בה מתגוררים למעלה מ 30 אלף איש היתה במשך שנים…",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
@@ -1436,91 +1490,84 @@
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": " ️هزاران نفر در چهلمین روز شهادت امام خامنه‌ای در اسکاردو پاکستان تجمع کردند   ✅  @sepah_pasdaran",
+      "text": " ️روزنامه بیلد: جی دی ونس بدون خبر در رامشتاین فرود آمد.   ✅  @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️#فوری |  خبرهایی درباره «حادثه امنیتی» در ۵۴ مایلی بندر «الحدیده» یمن ✅  @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: نيكزاد: في هذه الأيام أيضاً سيتعلمون أن الدبلوماسية مجال للاحترام والتفاعل وقبول الحقائق وليست لإملاء الأمنيات",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي استهدف بلدة المنصوري",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: صلية صاروخية ثقيلة من لبنان وصفارات الإنذار تدوي في عدد من مستوطنات الجليل الأعلى",
+      "text": "لبنان: مراسل الميادين في الجنوب: صلية صاروخية باتجاه تجمعات &quot;جيش&quot; الاحتلال في القطاع الأوسط",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب عن مصادر في وزارة الصحة: 24 شهيداً في حصيلة أولية للعدوان الإسرائيلي على الجنوب منذ فجر اليوم",
+      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي استهدف مدينة النبطية",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي استهدف بلدة صريفا",
-      "absolute_sentiment": -1,
+      "text": "دوي صفارات الإنذار في كتسرين جنوبي الجولان المحتل",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: قيادة القوة البحرية لحرس الثورة: كافة التحركات هي تحت السيطرة الكاملة للقوات المسلحة",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: قيادة القوة البحرية لحرس الثورة تنشر فيديو رصد بالمسيرات للوضع الحقيقي في مضيق هرمز",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: حرس الثورة: التحركات كافة تحت السيطرة الكاملة للقوات المسلحة في مضيق هرمز",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم قرية عابا شرق جنين",
-      "absolute_sentiment": 0.5,
+      "text": "ماذا حقق نهج نتنياهو لـ &quot;إسرائيل&quot; وأين ذهبت وعوده بهزيمة حزب الله وحماس وإيران؟  التفاصيل: https://qudsn.co/post/215200",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة &quot;معاريف&quot; العبرية:  لم يُنظر إلى المفاوضات المباشرة والاستثنائية التي جرت بين الولايات المتحدة وإيران في إسلام أباد وانتهت دون اتفاق أو إجماع في &quot;إسرائيل&quot; على أنها انهيار نهائي للمحادثات - ولكن لم يُنظر إليها أيضاً على أنها مجرد حدث تقني هامشي.  تشير مصادر إسرائيلية إلى أن حقيقة انتهاء جولة المحادثات بعد حوالي 21 ساعة دون تحقيق أي اختراق، وبلهجة أمريكية قاسية بشكل خاص، تدل على عمق الخلافات بين الطرفين، وأن العقبة الحقيقية لم تكن لفترة طويلة القضية النووية فحسب، بل أيضاً مسألة مضيق هرمز والثمن السياسي الذي سيتعين على ترامب دفعه في انتخابات التجديد النصفي، إذا استمرت أسعار النفط في الارتفاع.  ترى مصادر إسرائيلية أنه من السابق لأوانه الجزم بانهيار المفاوضات نهائياً. فحتى بعد فشل الجولة الأخيرة، لا يُستبعد إجراء محاولات أخرى، ربما حتى خلال فترة وقف إطلاق النار الهشّ الذي حُدّد لأسبوعين. مع ذلك، في هذه المرحلة، ليس من المؤكد إطلاقاً عقد جولة أخرى، وقد تُتخذ القرارات في البيت الأبيض بسرعة كبيرة - في غضون ساعات، وليس بالضرورة أياماً.  #الإعلام_الحربي",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 0.9993018398376897
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 15 العبرية: رئيس هيئة الأركان يوجّه الجيش الإسرائيلي: حالة تأهب فورية للعودة إلى الحرب مع إيران. لم يتم اتخاذ قرار بعد باستئناف القصف.  #الإعلام_الحربي",
+      "text": "#إعلام_العدو   القناة 14 العبرية: سيتم إلغاء احتفالات يوم &quot;الاستقلال&quot;، وستقام فعاليات يوم الذكرى وفقاً لتوجيهات قيادة الجبهة الداخلية.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9979853054910217
+      "semantic_danger_knn": 0.9979853054910216
     },
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 12 العبرية: قصف استهدف المنطقة الحدودية المقابلة لمستوطنة المطلة.  #الإعلام_الحربي",
+      "text": "#إعلام_العدو   القناة 13 العبرية: سيُعقد اجتماع الكابينت المصغّر هذا المساء.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9957890513813449
+      "semantic_danger_knn": 0.996238247963218
     },
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صفارات الإنذار تدوي في المطلة في إصبع الجليل.  #الإعلام_الحربي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.956418427463877
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صفارات الإنذار تدوي في المطلة في إصبع الجليل.  #الإعلام_الحربي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.956418427463877
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صفارات الإنذار تدوي في بيت هلل في إصبع الجليل.  #الإعلام_الحربي",
+      "text": "#إعلام_العدو   صفارات الإنذار تدوي في يرؤون بالجليل الغربي.  #الإعلام_الحربي",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 0.956418427463877
     }
