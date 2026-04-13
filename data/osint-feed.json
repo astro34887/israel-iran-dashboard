@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-13T20:14:41.097Z",
+  "last_updated": "2026-04-13T23:29:50.047Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.49",
-    "global_norm_sentiment": "-0.27"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.51",
+    "global_norm_sentiment": "-0.29"
   },
   "timeline": [
     {
@@ -1777,6 +1777,53 @@
           "sentiment": -0.267
         }
       }
+    },
+    {
+      "time": "2026-04-13T23:29:50.047Z",
+      "danger": 0.506,
+      "sentiment": -0.293,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.55,
+          "sentiment": -1
+        },
+        "OSINTdefender": {
+          "danger": 0.425,
+          "sentiment": -0.433
+        },
+        "irna_1313": {
+          "danger": 0.494,
+          "sentiment": -0.467
+        },
+        "sepah_pasdaran": {
+          "danger": 0.355,
+          "sentiment": 0.1
+        },
+        "almanarnews": {
+          "danger": 0.335,
+          "sentiment": -0.367
+        },
+        "C_Military1": {
+          "danger": 0.674,
+          "sentiment": -0.429
+        },
+        "almayadeen": {
+          "danger": 0.458,
+          "sentiment": -0.1
+        },
+        "QudsN": {
+          "danger": 0.815,
+          "sentiment": -0.1
+        }
+      }
     }
   ],
   "channel_data": {
@@ -1796,7 +1843,7 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -1,
-      "knn_danger_metric": 0.5380632035255503
+      "knn_danger_metric": 0.550441536763374
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -1807,38 +1854,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.560384940046195
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.4938631031112012
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.23176442591294769
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.35462151806381265
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.30778861499176685
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.3347357505918598
     },
     "C_Military1": {
       "name": "Hezbollah",
-      "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.6689842961643452
+      "num_messages": 14,
+      "raw_sentiment": -0.42857142857142855,
+      "knn_danger_metric": 0.6742402261747662
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.49793532167533433
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.45802196274124657
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.7083081205272332
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.8149936059945281
     }
   },
   "semantic_logs": [
@@ -1852,100 +1899,100 @@
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": " ️رویترز: قیمت نفت خام آمریکا با ۲.۵۱ دلار یا ۲.۶ درصد افزایش به ۹۹.۰۸ دلار در هر بشکه رسید. ✅  @sepah_pasdaran",
-      "absolute_sentiment": -1,
+      "text": "☑️اینجا میدان انقلاب؛ دمامه‌زنی در شب شهادت امام صادق(ع)   @sepah_pasdaran",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "الرئيس الإيراني مسعود بزشكيان يعلن تضامنه مع البابا ليو الرابع عشر ويدين الإساءة إليه https://almanar.com.lb/article/757042/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: قاليباف: قيادة البابا ليو الرابع عشر تلهم الملايين",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️نوحه‌خوانی حاج محمود کریمی در جوار مزار شهدای دانش‌آموز میناب، در شب شهادت امام صادق علیه‌السلام   ✅  @sepah_pasdaran",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: دوي صفارات الإنذار على الحدود مع لبنان جراء صلية صاروخية",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: بزشكيان: المقاربات القائمة على التهديد والضغط والعمل العسكري ليست غير مجدية فحسب بل إنها تزيد القضايا تعقيداً",
+      "text": "لبنان: مراسل الميادين في الجنوب: غارة معادية إسرائيلية على منطقة الخردلي",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: بزشكيان: أي تهديد لأمن مضيق هرمز سيحمل تبعات واسعة على التجارة العالمية",
+      "text": "لبنان: مراسل الميادين في الجنوب: غارة إسرائيلية من مسيرة استهدفت سيارة على طريق المصيلح",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي شرقي مدينة غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم بلدة &quot;عرابة&quot; جنوب جنين، وبلدة &quot;صوريف&quot; شمال الخليل.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "الشهيد إسلام هشام قنيطة، الذي ارتقى بقصف الاحتلال لمقهى في مدينة غزة.",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم الحي الشرقي في جنين.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "متابعة | قوات الاحتلال تداهم المنازل خلال اقتحام قرية زيتا، شمال طولكرم.",
+      "text": "متابعة | قوات الاحتلال تداهم المنازل خلال اقتحام مخيم العروب شمال الخليل.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "أبرز ما جاء في كلمة حجة الإسلام والمسلمين الأمين العام لحزب الله سماحة الشيخ نعيم قاسم:  - شكراً لإيران على دعمها وضغطها على أميركا و&quot;إسرائيل&quot;، وشكراً لليمن والعراق وكل من ساعد.  -  يجب أن تصحّح الدولة اللبنانية موقفها من إيران، وكل دولة تريد أن تدعمنا نقول لها: أهلاً وسهلاً.  -  صحيح أن الضغط كبير، لكن المهمة كبيرة وأمانة الشهداء ودماؤهم أمانة في أعناقنا.  -  عدوان &quot;إسرائيل&quot; الغاصبة على بيروت الذي أدى إلى أكثر من 300 شهيد وشهيدة و2000 جريح، هؤلاء في مصاف الأمانة في أعناقنا.  - أحيي كل المدنيين والمجاهدين والشهداء في كل المعارك، وأسأل الله أن يتغمدهم برحمته وهم في العز.  - وأحيي القائد الشهيد يوسف إسماعيل هاشم، الذي كان دائمًا في المواقع الأمامية، وانتقل إلى رحمة الله عزيزًا.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9990553013019516
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "أبرز ما جاء في كلمة حجة الإسلام والمسلمين الأمين العام لحزب الله سماحة الشيخ نعيم قاسم:  - أحيّي سماحة الشيخ الشهيد صادق النابلسي، وشهداء الصحافة في المنار والنور والميادين، وكل القنوات، وخصوصًا عميد الصحفيين المقاومين الشهيد علي شعيب، ومحمد شري، وفاطمة ومحمد فتوني، وسوزان الخليل، وكل الصحفيين.  -  أحيّي شهداء أمن الدولة والجيش، والجسم الطبي والتمريضي والإسعافي، فكل هؤلاء مع مختلف نماذج الشهداء في موقع المقاومة، ولو كانوا في مواقع مدنية، لأن &quot;إسرائيل&quot; تستهدف الجميع وليس فقط من يقاتل على الجبهة.  -  هذا الكيان يجب أن نواجهه جميعًا.  #الإعلام_الحربي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9983066549557928
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام قوات الاحتلال منطقة جبل أبو ظهير في مدينة جنين",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل | حزب الله: هاجمنا بمسيرة تجمّعا لجنود الاحتلال في موقع &quot;حانيتا&quot;، وحققنا إصابة مباشرة.",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9596045227592704
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية كوبر شمال رام الله، وبلدة إذنا غرب الخليل.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل | هجوم صاروخي من لبنان، وصافرات الإنذار تدوي في مستوطنتي &quot;راموت نفتالي&quot; و&quot;يفتاح&quot; قرب الحدود اللبنانية الفلسطينية.",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية زبوبا غرب جنين.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "متابعة | قوات الاحتلال تداهم المنازل خلال اقتحام بلدة إذنا غرب الخليل.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة دير الغصون، شمال طولكرم.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "متابعة | قوات الاحتلال تقتحم منطقة الدوحة في مدينة بيت لحم",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة دير سامت غرب مدينة دورا جنوب الخليل.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة بلعا، شرق طولكرم.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
     }
   ]
 }
