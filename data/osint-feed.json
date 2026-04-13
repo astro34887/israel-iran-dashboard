@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-13T07:27:02.794Z",
+  "last_updated": "2026-04-13T11:57:36.720Z",
   "tension": {
     "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.46",
-    "global_norm_sentiment": "-0.25"
+    "global_knn_danger": "0.43",
+    "global_norm_sentiment": "-0.29"
   },
   "timeline": [
     {
@@ -1636,6 +1636,53 @@
           "sentiment": -0.393
         }
       }
+    },
+    {
+      "time": "2026-04-13T11:57:36.720Z",
+      "danger": 0.431,
+      "sentiment": -0.291,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.344,
+          "sentiment": -0.567
+        },
+        "OSINTdefender": {
+          "danger": 0.381,
+          "sentiment": -0.133
+        },
+        "irna_1313": {
+          "danger": 0.431,
+          "sentiment": -0.3
+        },
+        "sepah_pasdaran": {
+          "danger": 0.367,
+          "sentiment": -0.6
+        },
+        "almanarnews": {
+          "danger": 0.319,
+          "sentiment": -0.133
+        },
+        "C_Military1": {
+          "danger": 0.614,
+          "sentiment": -0.607
+        },
+        "almayadeen": {
+          "danger": 0.436,
+          "sentiment": -0.1
+        },
+        "QudsN": {
+          "danger": 0.47,
+          "sentiment": -0.333
+        }
+      }
     }
   ],
   "channel_data": {
@@ -1653,51 +1700,51 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 11,
-      "raw_sentiment": -0.2727272727272727,
-      "knn_danger_metric": 0.45078372789143123
+      "num_messages": 15,
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.34439483789233805
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.41212522336695606
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.3807598111208288
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.4250349556127075
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.431441391230475
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.21937976725767447
+      "knn_danger_metric": 0.36726478169053356
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.31340027677708915
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.3186927275379799
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 14,
-      "raw_sentiment": -0.25,
-      "knn_danger_metric": 0.5559491113688837
+      "raw_sentiment": -0.6071428571428571,
+      "knn_danger_metric": 0.6141061304785568
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.5996512837181434
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.43634246607479527
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 14,
-      "raw_sentiment": -0.39285714285714285,
-      "knn_danger_metric": 0.6636583102712936
+      "num_messages": 15,
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.4700616030465941
     }
   },
   "semantic_logs": [
@@ -1709,88 +1756,60 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "☑️اصابت موشک حزب‌الله به شهرک صهیونیست‌نشین کرمئیل   @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: صلية صاروخية من لبنان وصافرات الإنذار تدوي في عدد من مستوطنات اصبع الجليل",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء بغارة من مسيّرة إسرائيلية استهدف سيارة من نوع &quot;رابيد&quot; في جويا",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل| 5 شهداء وصلوا مستشفيات غزة جراء استهدافات الاحتلال.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "وزارة الصحة: 72,333 شهيداً في غزة منذ 7 أكتوبر 2023",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تقتحم قرية المزرعة الشرقية شمال شرق رام الله",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تهدم منزلين في عزبة شوفة شرق طولكرم.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "قيادة الجيش تنعى المعاون الأول الشهيد عباس حسن قاسم https://almanar.com.lb/article/753802/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: وزارة التربية: العدوان الأميركي الحق أضراراً ودمر 933 مدرسة و54 منشأة إدارية و17 مركزاً ثقافياً و46 صالة رياضية",
+      "text": "#إعلام_العدو   صفارات الإنذار تدوي في نهاريا ومحيطها خشية تسلل طائرات مسيّرة.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: مقر خاتم الأنبياء المركزي: سنواصل بحزم تأمين الأمن في المياه الإقليمية الإيرانية",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: مقر خاتم الأنبياء المركزي: إذا تم تهديد أمن الموانئ الإيرانية فلن يكون أي ميناء في الخليج وبحر عمان في مأمن",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "الصين: الخارجية: الحفاظ على أمن مضيق هرمز وسلامته يخدم المصالح المشتركة للمجتمع الدولي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: طيران الاحتلال يعتدي على بلدة شقرا",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تصدر قرارًا بإبعاد مسؤول قسم النظافة في المسجد الأقصى المبارك رائد زعير عن المسجد لمدة أسبوع عقب اعتقاله من داخل باحاته يوم أمس.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تغلق مدخل مدينة يطا جنوب الخليل.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "حجارة الضفة في مواجهة الـ &quot;M16&quot;: الأمان لدى المستوطنين لم يعد كما كان  التفاصيل: https://qudsn.co/post/215210",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تداهم محلاً تجارياً في منطقة جامعة القدس المفتوحة غرب نابلس.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تعتقل 4 شبان خلال اقتحام بلدة جيوس شمال شرق قلقيلية فجر اليوم، وهم:  &rlm;- سامح سمحة  &rlm;- ليث سليم  &rlm;- علاء الفهيم شماسنة  &rlm;- الشيخ مراد قدومي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "من بينها ارتقاء شهيدين وعشرات الإصابات.. 1846 اعتداءً للاحتلال ومستوطنيه في الضفة منذ بداية أبريل الجاري  التفاصيل: https://qudsn.co/post/215211/",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
+      "semantic_danger_knn": 0.956418427463877
     },
     {
       "channelId": "C_Military1",
@@ -1802,9 +1821,37 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صفارات الإنذار تدوي في دوفيف بالجليل الغربي.  #الإعلام_الحربي",
-      "absolute_sentiment": 0.5,
+      "text": "#إعلام_العدو   صفارات الإنذار تدوي في دوفيف وبرعام بالجليل الغربي.  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 0.956418427463877
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "آثار غارات الاحتلال على بلدة البازورية جنوب لبنان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9077598178072934
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "דרום לבנון: מפת התמצאות בנת ג&#39;ביל  מצורפת מפת גוגל עם מיקומים שעולים הרבה בדיווחים הלבנונים על בנת ג&#39;ביל.  סימנתי את האיצטדיון שלידו כבר תועדו טנקים של צה&quot;ל בתמונות לווין מלפני ימים אחדים.  דובר צה&quot;ל הודיע שהושלם הכיתור והחלה המתקפה. אפשר להניח שמדובר במתקפה על מרכז בנת ג&#39;ביל - שטח עירוני צפוף שם עדיין נמצאים עשרות מחבלי חזבאללה שדינם כבר נחרץ : למוות או לשבי.  2 תגובות",
+      "absolute_sentiment": -0.5,
+      "semantic_danger_knn": 0.8479668715055193
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "بابا الفاتيكان ليو الرابع عشر ردا على الإساءة العلنية التي وجهّها له الرئيس الأمريكي دونالد ترامب:   سأواصل ⁠رفع صوتي عاليًا ضد الحـ. .رب و‌الرسالة ⁠المسيحية تتعرض &quot;لإساءة الاستخدام&quot;.   يقـ. .ـتل الكثير من الأبرياء، وأعتقد بأنه يجب على أحدهم أن ‌يقف ويقول إن هناك طريقًا أفضل لحل الخلافات",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.8450663180997527
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️حملات سایبری حنظله به زیرساخت‌های صنعتی عربستان  🔹 ️ گروه هکری حنظله در پیامی اعلام کرد که درحال انجام حملات سایبری سنگین علیه زیرساخت‌های صنعتی عربستان سعودی به‌عنوان اقدامی پیشگیرانه و هشداردهنده است. ✅  @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.8440346936690911
     }
   ]
 }
