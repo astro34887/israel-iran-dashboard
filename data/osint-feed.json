@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-12T23:54:46.545Z",
+  "last_updated": "2026-04-13T07:27:02.794Z",
   "tension": {
     "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.49",
-    "global_norm_sentiment": "-0.39"
+    "global_knn_danger": "0.46",
+    "global_norm_sentiment": "-0.25"
   },
   "timeline": [
     {
@@ -1589,6 +1589,53 @@
           "sentiment": -0.4
         }
       }
+    },
+    {
+      "time": "2026-04-13T07:27:02.794Z",
+      "danger": 0.459,
+      "sentiment": -0.252,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.451,
+          "sentiment": -0.273
+        },
+        "OSINTdefender": {
+          "danger": 0.412,
+          "sentiment": 0
+        },
+        "irna_1313": {
+          "danger": 0.425,
+          "sentiment": -0.4
+        },
+        "sepah_pasdaran": {
+          "danger": 0.219,
+          "sentiment": -0.6
+        },
+        "almanarnews": {
+          "danger": 0.313,
+          "sentiment": -0.167
+        },
+        "C_Military1": {
+          "danger": 0.556,
+          "sentiment": -0.25
+        },
+        "almayadeen": {
+          "danger": 0.6,
+          "sentiment": -0.3
+        },
+        "QudsN": {
+          "danger": 0.664,
+          "sentiment": -0.393
+        }
+      }
     }
   ],
   "channel_data": {
@@ -1606,51 +1653,51 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.45714961287249867
+      "num_messages": 11,
+      "raw_sentiment": -0.2727272727272727,
+      "knn_danger_metric": 0.45078372789143123
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.46768343362112247
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.41212522336695606
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.4600326797209868
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.4250349556127075
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.27615879331080784
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.21937976725767447
     },
     "almanarnews": {
       "name": "Hezbollah",
-      "num_messages": 14,
-      "raw_sentiment": -1,
-      "knn_danger_metric": 0.22661810538226204
+      "num_messages": 15,
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.31340027677708915
     },
     "C_Military1": {
       "name": "Hezbollah",
-      "num_messages": 12,
-      "raw_sentiment": -0.7083333333333334,
-      "knn_danger_metric": 0.63485722780624
+      "num_messages": 14,
+      "raw_sentiment": -0.25,
+      "knn_danger_metric": 0.5559491113688837
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.5463336310061611
+      "knn_danger_metric": 0.5996512837181434
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.841371017501063
+      "num_messages": 14,
+      "raw_sentiment": -0.39285714285714285,
+      "knn_danger_metric": 0.6636583102712936
     }
   },
   "semantic_logs": [
@@ -1662,88 +1709,88 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: عراقتشي: لم تُستخلص أي دروس إذ إن حسن النوايا يولد حسن نوايا والعداء يولد العداء",
-      "absolute_sentiment": 1,
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "قيادة الجيش تنعى المعاون الأول الشهيد عباس حسن قاسم https://almanar.com.lb/article/753802/?s=tg",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: عدوان إسرائيلي بغارة يستهدف مركز الهيئة الصحية في صير الغربية قضاء النبطية",
+      "text": "إيران: وزارة التربية: العدوان الأميركي الحق أضراراً ودمر 933 مدرسة و54 منشأة إدارية و17 مركزاً ثقافياً و46 صالة رياضية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: مقر خاتم الأنبياء المركزي: سنواصل بحزم تأمين الأمن في المياه الإقليمية الإيرانية",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: وزارة الصحة: 4 شهداء من بينهم امرأة و3 جرحى في العداون الإسرائيلي على بلدة معروب قضاء صور صباح أمس",
-      "absolute_sentiment": -1,
+      "text": "إيران: مقر خاتم الأنبياء المركزي: إذا تم تهديد أمن الموانئ الإيرانية فلن يكون أي ميناء في الخليج وبحر عمان في مأمن",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: 3 شهداء ومصابون من جراء استهداف مسيرة إسرائيلية لمجموعة من المواطنين في مدينة دير البلح وسط قطاع غزة",
+      "text": "الصين: الخارجية: الحفاظ على أمن مضيق هرمز وسلامته يخدم المصالح المشتركة للمجتمع الدولي",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: طيران الاحتلال يعتدي على بلدة شقرا",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال بلدة صوريف شمال الخليل.",
+      "text": "قوات الاحتلال تصدر قرارًا بإبعاد مسؤول قسم النظافة في المسجد الأقصى المبارك رائد زعير عن المسجد لمدة أسبوع عقب اعتقاله من داخل باحاته يوم أمس.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تغلق مدخل مدينة يطا جنوب الخليل.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "حجارة الضفة في مواجهة الـ &quot;M16&quot;: الأمان لدى المستوطنين لم يعد كما كان  التفاصيل: https://qudsn.co/post/215210",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تداهم محلاً تجارياً في منطقة جامعة القدس المفتوحة غرب نابلس.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية عين يبرود، شمال شرق رام الله.",
+      "text": "قوات الاحتلال تعتقل 4 شبان خلال اقتحام بلدة جيوس شمال شرق قلقيلية فجر اليوم، وهم:  &rlm;- سامح سمحة  &rlm;- ليث سليم  &rlm;- علاء الفهيم شماسنة  &rlm;- الشيخ مراد قدومي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة عتيل، شمال طولكرم.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "متابعة | قوات الاحتلال تداهم المنازل خلال اقتحام بلدة طمون جنوب طوباس",
+      "text": "من بينها ارتقاء شهيدين وعشرات الإصابات.. 1846 اعتداءً للاحتلال ومستوطنيه في الضفة منذ بداية أبريل الجاري  التفاصيل: https://qudsn.co/post/215211/",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة حبلة، جنوب قلقيلية.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة تقوع جنوب شرق بيت لحم",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم مخيم العروب شمال الخليل.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | تحديث: 3 شهداء ومصابون جراء استهداف طيران الاحتلال المسير مجموعة من الأهالي شرق دير البلح وسط قطاع غزة.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
     },
     {
       "channelId": "C_Military1",
