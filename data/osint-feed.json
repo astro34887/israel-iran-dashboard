@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-14T06:19:45.857Z",
+  "last_updated": "2026-04-14T10:51:40.952Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.51",
-    "global_norm_sentiment": "-0.36"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.48",
+    "global_norm_sentiment": "-0.24"
   },
   "timeline": [
     {
@@ -1871,6 +1871,53 @@
           "sentiment": -0.433
         }
       }
+    },
+    {
+      "time": "2026-04-14T10:51:40.952Z",
+      "danger": 0.479,
+      "sentiment": -0.245,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.421,
+          "sentiment": -0.567
+        },
+        "OSINTdefender": {
+          "danger": 0.453,
+          "sentiment": -0.333
+        },
+        "irna_1313": {
+          "danger": 0.475,
+          "sentiment": -0.467
+        },
+        "sepah_pasdaran": {
+          "danger": 0.374,
+          "sentiment": -0.467
+        },
+        "almanarnews": {
+          "danger": 0.467,
+          "sentiment": -0.2
+        },
+        "C_Military1": {
+          "danger": 0.625,
+          "sentiment": -0.179
+        },
+        "almayadeen": {
+          "danger": 0.37,
+          "sentiment": -0.1
+        },
+        "QudsN": {
+          "danger": 0.656,
+          "sentiment": 0
+        }
+      }
     }
   ],
   "channel_data": {
@@ -1889,50 +1936,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.7666666666666667,
-      "knn_danger_metric": 0.6290880709986022
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.42141866811546697
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.4376061536084822
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.4528215349464913
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.4357544193876593
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.47527762312050126
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.3874409444478246
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.3737470604970097
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.4009282428846696
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.46696938640107816
     },
     "C_Military1": {
       "name": "Hezbollah",
-      "num_messages": 12,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.5015353329597535
+      "num_messages": 14,
+      "raw_sentiment": -0.17857142857142858,
+      "knn_danger_metric": 0.6250193818775559
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.7133285756323621
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.3699044128831349
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.6587138144648352
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.6557588471707447
     }
   },
   "semantic_logs": [
@@ -1944,100 +1991,100 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "גדוד 9217 של חטיבת הנגב עומד בצפירה של יום השואה - בח&#39;אן יונס.  תגובה אחת",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "הכתב הצבאי הלל ביטון רוזן מדווח ששלושה מחבלי חזבאללה נכנעו אתמול בבנת ג&#39;ביל והסגירו עצמם לידי לוחמי גבעתי.  ## &quot;בירת ההתנגדות&quot; הופכת לבירת הכניעה של ההתנגדות.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": " ️نوحه‌خوانی حاج محمود کریمی در جوار مزار شهدای دانش‌آموز میناب، در شب شهادت امام صادق علیه‌السلام   ✅  @sepah_pasdaran",
+      "text": " ️ تصاویری از حمله پهپادی حزب‌الله به تجمع نظامیان رژیم صهیونیستی در پادگان یفتاح ✅  @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️احتمال شنیده شدن صدای انفجارهای کنترل شده در شهر اصفهان   ✅  @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " سلام بر آن امامی که پایان صهیون، وعده صادق اوست ✅  ️ @sepah_pasdaran",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": " ️یک پیام تصویری پربازدید درباره مردمی که از بعثت‌شان بیش از چهل روز گذشته   ✅  @sepah_pasdaran",
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: مجدداً عدوان إسرائيلي استهدف بلدة جويا شرق مدينة صور",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: عدوان إسرائيلي يستهدف بلدة جباع",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: الطيران الحربي الإسرائيلي بعتدي على بلدة جباع",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "&quot;جيش&quot; الاحتلال الإسرائيلي: أصيب 10 من جنود &quot;الكتيبة 101&quot; التابعة لوحدة المظليين، بينهم 3 بجروح خطيرة، خلال اشتباك من مسافة قريبة مع عناصر حزب الله جنوبي لبنان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "&quot;جيش&quot; الاحتلال: الاشتباك الذي أصيب فيه 10 من وحدة المظليين وقع داخل نطاق بنت جبيل التي تعد حالياً محور القتال الرئيسي لـ&quot;الجيش&quot;",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "متابعة: قوات الاحتلال تنصب حاجزاً عسكرياً داخل قرية الطبقة جنوب مدينة دورا",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "وزارة التربية: الإعلان عن ملحق نتائج الدورة الثالثة 2024 و2025  للطلبة داخل قطاع غزة يوم الأربعاء الساعة 12 ظهرا.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مستوطنون يحتفلون بذكرى ما يسمى &quot;المحرقة&quot; بطقوس تلمودية في المسجد الأقصى اليوم",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "لافروف لعراقجي: لا حل عسكرياً للأزمة واستعداد روسي للمساهمة في التسوية https://almanar.com.lb/article/758557/?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 حاملة الطائرات “بوش” تتجنب البحر الأحمر وباب المندب وتسلك مساراً أطول حول أفريقيا https://almanar.com.lb/article/758752/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "الرئيس الصيني شي جين بينغ لرئيس الحكومة الإسبانية بيدرو سانشيز: على بكين ومدريد الدفاع عن التعددية الحقيقية",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: عدوان إسرائيلي بغارة على بلدة عدلون",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: صفارات الإنذار تدوي في المطلة في الشمال خشية تسلل طائرة مسيرة",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: عدوان إسرائيلي يستهدف بلدة شبعا بقضاء حاصبيا",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: عدوان إسرائيلي يستهدف عربصاليم قضاء النبطية",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين شرق البلاد: 4 شهداء في حصيلة غير نهائية جرّاء 3 غارات معادية للاحتلال استهدفت بلدة سحمر",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الشرق: غارة للاحتلال الآن على بلدة سَحمر",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "الاحتلال يعتقل طفلا وفتى في كفر مالك شرق رام الله",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تعتقل جمال الصابر من مدينة نابلس فجر اليوم.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل| قوات الاحتلال تقتحم العبيدية في بيت لحم.",
+      "text": "تشييع الصحفي الشهيد إسلام قنيطة الذي اغتاله الاحتلال في أحد مقاهي مدينة غزة أمس.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
