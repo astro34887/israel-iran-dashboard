@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-14T19:55:47.532Z",
+  "last_updated": "2026-04-14T22:32:53.743Z",
   "tension": {
     "level": "CALM_CEASEFIRE",
     "global_knn_danger": "0.49",
-    "global_norm_sentiment": "-0.19"
+    "global_norm_sentiment": "-0.28"
   },
   "timeline": [
     {
@@ -2012,6 +2012,53 @@
           "sentiment": -0.233
         }
       }
+    },
+    {
+      "time": "2026-04-14T22:32:53.743Z",
+      "danger": 0.495,
+      "sentiment": -0.283,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.553,
+          "sentiment": -0.067
+        },
+        "OSINTdefender": {
+          "danger": 0.45,
+          "sentiment": 0
+        },
+        "irna_1313": {
+          "danger": 0.394,
+          "sentiment": -0.533
+        },
+        "sepah_pasdaran": {
+          "danger": 0.236,
+          "sentiment": -0.567
+        },
+        "almanarnews": {
+          "danger": 0.185,
+          "sentiment": 0.167
+        },
+        "C_Military1": {
+          "danger": 0.562,
+          "sentiment": -0.233
+        },
+        "almayadeen": {
+          "danger": 0.774,
+          "sentiment": -0.9
+        },
+        "QudsN": {
+          "danger": 0.843,
+          "sentiment": -0.567
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2030,50 +2077,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.4954474852097454
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.5528160572650594
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
       "raw_sentiment": 0,
-      "knn_danger_metric": 0.441505000466962
+      "knn_danger_metric": 0.4502893703432209
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.43932296027922335
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.39382711034114865
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.3278689593204519
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.23607470839406922
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.36666666666666664,
-      "knn_danger_metric": 0.20793041489477118
+      "raw_sentiment": 0.16666666666666666,
+      "knn_danger_metric": 0.1851688470239302
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.6620416056398828
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.5615662297529719
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.5757528125348502
+      "raw_sentiment": -0.9,
+      "knn_danger_metric": 0.7743842345869029
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.7513651364546753
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.8433884878463488
     }
   },
   "semantic_logs": [
@@ -2092,6 +2139,13 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "עיתונאי עזתי מדווח שבתקיפה במחנה הפליטים שאטי👆 נפגע גנרטור שמזין את כל אזור מערב העיר עזה בחשמל.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
       "text": "📹 قراءة في تطورات الشأن الإيراني https://almanar.com.lb/article/663542/?s=tg",
@@ -2101,86 +2155,79 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: اعتداء إسرائيلي بغارة على مدينة صور جنوبي لبنان",
+      "text": "لبنان: مراسل الميادين في جنوب لبنان: غارة إسرائيلية استهدفت بلدة باريش في قضاء صور",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: على مدار اليوم تهبط مروحيات &quot;الجيش&quot; الإسرائيلي في المستشفى وعلى متنها جرحى من الجبهة في لبنان",
+      "text": "فلسطين المحتلة: مراسل الميادين: 11 شهيد جراء العدوان الإسرائيلي على قطاع غزة منذ فجر اليوم",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: إصابة قائد الكتيبة 52 بجراح خطيرة اليوم في معارك بنت جبيل جنوبي لبنان",
+      "text": "لبنان: مراسل الميادين في جنوب لبنان: قوة من &quot;جيش&quot; الاحتلال الإسرائيلي وقعت في كمين محكم في مدينة بنت جبيل",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في جنوب لبنان: الكمين في بنت جبيل الحدث الأمني الذي تحدث عنه الإعلام الاسرائيلي",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: حتى اللحظة لم يتمكن &quot;الجيش&quot; الاسرائيلي من الوصول لأي نقطة من معالم مدينة بنت جبيل",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: &quot;الجيش&quot; الإسرائيلي عمد الى تقنين حركته وخفض عدد افراده وآلياته لتفادي الخسائر",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: غارة إسرائيلية معادية استهدفت بلدة جباع في قضاء النبطية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: غارة إسرائيلية استهدفت اطراف بلدة البابلية قضاء صيدا",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: 4 شهداء من عائلة واحدة جراء العدوان الاسرائيلي على بلدة جباع قضاء النبطية",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "نادي الأسير: مع اقتراب يوم الأسير الفلسطيني.. أكثر من 9600 أسير فلسطيني في سجون الاحتلال، بينهم 86 أسيرة و350 طفلًا و3500 معتقل إداري، وسط تحذيرات من استمرار تصاعد الانتهاكات داخل السجون",
-      "absolute_sentiment": -1,
+      "text": "بحماية جيش الاحتلال.. مستوطنون يغلقون الطريق ويدمرون خط المياه في خربة المراجم قرب قرية دوما",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "5 شهداء وعدد من الجرحى بقصف طيران الاحتلال لمخيم الشاطئ، غرب مدينة غزة.",
+      "text": "مصادر محلية: قوات الاحتلال تغلق مداخل قرية زبوبا غرب جنين، بالسواتر الترابية",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة &quot;يديعوت أحرونوت&quot; العبرية عن الدكتور أفي فايسمان، نائب مدير مستشفى رمبام في حيفا: &quot;كثير جدًا من الجرحى لدينا هنا يعانون من إصابات في الأطراف جراء المعارك الشرسة في لبنان، إلى جانب إصابات أخرى&quot;.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9961486516080662
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   قناة كان العبرية: اجتماع للكابينيت عند الساعة الثامنة من مساء يوم غد.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9960376738431209
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | 10 شهداء جرّاء عدوان الاحتلال على قطاع غزة، منذ فجر اليوم.",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.978972388535392
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | &quot;ترجمة قدس&quot; عن إعلام الاحتلال: شبان يلقون زجاجة حارقة تجاه مركبة للمستوطنين قرب بلدة &quot;تقوع&quot; جنوب شرق بيت لحم، مساء اليوم.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9785929365999773
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | مصادر سورية: مدفعية الاحتلال تقصف &quot;تل أحمر شرقي&quot; ومحيط سد بريقة في ريف القنيطرة.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | جرافة لجيش الاحتلال تشرع بتجريف أراضٍ فلسطينية لشق طريقٍ قرب جبل &quot;بئر قوزا&quot; في بلدة بيتا، جنوب نابلس.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | في أحدث حصيلة: 5 شهداء وعدد من الجرحى بقصف طيران الاحتلال لمخيم الشاطئ، غرب مدينة غزة.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
     }
   ]
 }
