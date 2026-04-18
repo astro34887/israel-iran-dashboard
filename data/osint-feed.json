@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-04-18T19:55:50.796Z",
+  "last_updated": "2026-04-18T21:52:16.635Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.48",
-    "global_norm_sentiment": "-0.29"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.54",
+    "global_norm_sentiment": "-0.28"
   },
   "timeline": [
-    {
-      "time": "2026-04-11T11:58:18.062Z",
-      "danger": 0.463,
-      "sentiment": -0.208,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.39,
-          "sentiment": -0.346
-        },
-        "OSINTdefender": {
-          "danger": 0.543,
-          "sentiment": -0.433
-        },
-        "irna_1313": {
-          "danger": 0.442,
-          "sentiment": 0.067
-        },
-        "sepah_pasdaran": {
-          "danger": 0.323,
-          "sentiment": -0.567
-        },
-        "almanarnews": {
-          "danger": 0.37,
-          "sentiment": 0.2
-        },
-        "C_Military1": {
-          "danger": 0.632,
-          "sentiment": -0.033
-        },
-        "almayadeen": {
-          "danger": 0.339,
-          "sentiment": -0.5
-        },
-        "QudsN": {
-          "danger": 0.638,
-          "sentiment": -0.333
-        }
-      }
-    },
     {
       "time": "2026-04-11T14:07:23.452Z",
       "danger": 0.453,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.25
         }
       }
+    },
+    {
+      "time": "2026-04-18T21:52:16.635Z",
+      "danger": 0.543,
+      "sentiment": -0.28,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.438,
+          "sentiment": -0.667
+        },
+        "OSINTdefender": {
+          "danger": 0.489,
+          "sentiment": -0.267
+        },
+        "irna_1313": {
+          "danger": 0.547,
+          "sentiment": -0.636
+        },
+        "sepah_pasdaran": {
+          "danger": 0.359,
+          "sentiment": -0.067
+        },
+        "almanarnews": {
+          "danger": 0.329,
+          "sentiment": -0.467
+        },
+        "C_Military1": {
+          "danger": 0.655,
+          "sentiment": -0.033
+        },
+        "almayadeen": {
+          "danger": 0.792,
+          "sentiment": -0.167
+        },
+        "QudsN": {
+          "danger": 0.87,
+          "sentiment": -0.367
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2280,7 +2280,7 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.4935834109576086
+      "knn_danger_metric": 0.43821280004550994
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.7,
-      "knn_danger_metric": 0.46974546179110066
+      "num_messages": 11,
+      "raw_sentiment": -0.6363636363636364,
+      "knn_danger_metric": 0.5468288388455699
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.18601393556734994
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.3587235592252559
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.33689705031225686
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.3291994113570738
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.6276700228706679
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.6546328611872229
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.6403195862526497
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.7919862147835174
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 14,
-      "raw_sentiment": -0.25,
-      "knn_danger_metric": 0.6546600574590995
+      "num_messages": 15,
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.8702216243402822
     }
   },
   "semantic_logs": [
@@ -2334,102 +2334,102 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: سيتم إغلاق مضيق هرمز اعتباراً من عصر اليوم وحتى رفع هذا الحصار",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "☑️ گفتگوی تلویزیونی دکتر قالیباف رئیس مجلس شورای اسلامی از شبکه خبر آغاز شد.   @sepah_pasdaran",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: نحذر أنواع السفن كافة من القيام بأي تحرك من مراسيها في الخليج وبحر عُمان",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: قاليباف: قرار الأميركيين فرض الحصار أخرق ونابع عن جهل",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: قاليباف: من غير الممكن أن يتمكن الآخرون من عبور مضيق هرمز بينما لا نستطيع نحن ذلك",
+      "text": "إيران: قاليباف: استهدفنا 180 مسيرة وهي قدرة لم تكن نمتلكها في مجال الدفاع الجوي خلال الحرب السابقة وهذه التطورات حدثت في أشهر قليلة",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: سنصافح بحرارة كل من يبدي الاحترام وسنحطم بشدة عنق كل معتد ولقد أثبتنا ذلك من قبل",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم قرى: كفر مالك، أبو فلاح، والمغير (قضاء رام الله).",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "تسجيل صوتي لناقلة النفط الهندية &quot;سانمار هيرالد&quot; وهي تناشد الحرس الثوري الإيراني بالتوقف عن إطلاق النار عليها في مضيق هرمز والسماح لها بالعودة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "منصة للمستوطنين: مشاهد من نقل جندي إسرائيلي قتيل وآخرين جرحى؛ جراء &quot;حدث أمني&quot; في جنوب لبنان، مساء اليوم.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إيران   حرس الثورة الإسلامية: سنصافح بحرارة كل من يبدي الاحترام وسنحطم بشدة عنق كل معتد ولقد أثبتنا ذلك من قبل.  #الإعلام_الحربي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9954409552297614
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "ترقبوا بيان من حجة الإسلام والمسلمين الأمين العام لحزب الله سماحة الشيخ نعيم قاسم اليوم السبت 18-04-2026 عند الساعة 09:00 مساءً عبر شاشة قناة المنار وأثير إذاعة النور تتناول آخر التطورات.  #الإعلام_الحربي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9950924429953772
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   رئيس مجلس الشورى الإيراني:   - نعلن لشعبنا أن مضيق هرمز تحت سيطرتنا  - تعاملنا بحزم مع محاولة أمريكا إزالة الألغام في مضيق هرمز  - قلت لوفد أمريكا في إسلام آباد إذا تقدمت كاسحة الألغام فسنستهدفها وطلبوا مهلة للأمر بعودتها وفعلوا ذلك.  - إذا كان الحركة السيرية تجري حاليًا في المضيق، فذلك لأن السيطرة على المضيق بأيدينا.  - &rlm;أعلن الأمريكيون عن حصار في الأيام الأخيرة—هذا قرار متهور وجاهل. من المستحيل أن يمر الآخرون عبر المضيق بينما لا نستطيع نحن ذلك.  - &rlm;إذا لم ترفع الولايات المتحدة الحصار، فسيتم بالتأكيد تقييد الحركة عبر مضيق هرمز.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9914631632524533
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | قيادي في بحرية الحرس الثوري الإيراني: سنستهدف أي سفينة لا تملك تصريحا بالعبور من مضيق هرمز ولا تستجيب لتحذيرنا، ونحذر أمريكا بأن أي تحرك ضد سفننا سيواجَه برد حازم.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9753639863943435
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تحتجز شاباً على حاجز عورتا، قرب نابلس.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9262731058775845
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "לבנון: הכפר יחמר באזור אלבקאע המערבי - אחד מתושבי המקום הצית היום את תמונת הענק של חסן נסראללה.  עיריית יחמר גינתה בחריפות את האירוע.  יחמר באזור אלבקאע המערבי הוא כפר שיעי עם רוב מובהק התומך בחזבאללה ובתנועת אמל השיעית.  3 תגובות",
+      "text": "إيران: قاليباف: استهداف طائرة أف 35 ليس مجرد صدفة بل هو عملية ذات أبعاد فنية وتصميمية مختلفة",
       "absolute_sentiment": 0,
-      "semantic_danger_knn": 0.9211499056651152
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: قاليباف: كانوا يقولون إنهم سيقضون على قدراتنا الصاروخية ولكن مهما بلغ حجم القصف لم يتمكنوا من تدمير قدراتنا",
+      "absolute_sentiment": -0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: قاليباف: في الحرب السابقة كنا معرضين للاستهداف في موضوع منصات الإطلاق لكننا لم نكن كذلك في هذه الحرب",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: قاليباف: كانوا يتوقعون إشغالنا من حدودنا الغربية وقالوا إنهم قدموا السلاح لكن مهما فعلوا فإنهم لم ينجحوا",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: قاليباف: سعوا وراء إثارة فوضى داخلية ولم يفلحوا واتخذوا قراراً بالهجوم البري ولم ينجحوا",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: قاليباف: دعا ترامب الناتو للمشاركة في فتح مضيق هرمز لكن لم يستجب له أحد ومن الواضح أننا المنتصرون في الحرب",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: قاليباف: من المؤكد أن الشارع اليوم هو السبب في وقوفنا بقوة في الميدان",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل: مراسل قدس… آليات الاحتلال تطلق نيرانها تجاه المناطق الشرقية لمدينة غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام قوات الاحتلال لبلدة بيت فوريك شرق مدينة نابلس.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "وحوش بشرية.. اعترافات جنود الاحتلال بجرائم سادية وفاشية في غزة تُطاردهم كالكوابيس  https://qudsn.co/post/215305",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية روجيب شرق نابلس",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تداهم منزلاً خلال اقتحام بلدة عزون شرق قلقيلية",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
     }
   ]
 }
