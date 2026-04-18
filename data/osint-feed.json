@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-04-18T11:09:28.874Z",
+  "last_updated": "2026-04-18T14:11:34.624Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.50",
-    "global_norm_sentiment": "-0.17"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.51",
+    "global_norm_sentiment": "-0.27"
   },
   "timeline": [
-    {
-      "time": "2026-04-11T05:19:48.085Z",
-      "danger": 0.482,
-      "sentiment": -0.245,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.436,
-          "sentiment": -0.633
-        },
-        "OSINTdefender": {
-          "danger": 0.505,
-          "sentiment": -0.567
-        },
-        "irna_1313": {
-          "danger": 0.382,
-          "sentiment": 0.429
-        },
-        "sepah_pasdaran": {
-          "danger": 0.256,
-          "sentiment": -0.133
-        },
-        "almanarnews": {
-          "danger": 0.348,
-          "sentiment": -0.571
-        },
-        "C_Military1": {
-          "danger": 0.753,
-          "sentiment": -0.607
-        },
-        "almayadeen": {
-          "danger": 0.509,
-          "sentiment": -0.133
-        },
-        "QudsN": {
-          "danger": 0.677,
-          "sentiment": -0.1
-        }
-      }
-    },
     {
       "time": "2026-04-11T08:02:31.906Z",
       "danger": 0.502,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.4
         }
       }
+    },
+    {
+      "time": "2026-04-18T14:11:34.624Z",
+      "danger": 0.512,
+      "sentiment": -0.267,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.426,
+          "sentiment": -0.733
+        },
+        "OSINTdefender": {
+          "danger": 0.449,
+          "sentiment": -0.233
+        },
+        "irna_1313": {
+          "danger": 0.477,
+          "sentiment": -0.3
+        },
+        "sepah_pasdaran": {
+          "danger": 0.401,
+          "sentiment": -0.367
+        },
+        "almanarnews": {
+          "danger": 0.425,
+          "sentiment": -0.067
+        },
+        "C_Military1": {
+          "danger": 0.716,
+          "sentiment": 0.067
+        },
+        "almayadeen": {
+          "danger": 0.593,
+          "sentiment": -0.533
+        },
+        "QudsN": {
+          "danger": 0.683,
+          "sentiment": -0.367
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.7666666666666667,
-      "knn_danger_metric": 0.31049688891912625
+      "raw_sentiment": -0.7333333333333333,
+      "knn_danger_metric": 0.4257271752547817
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.478376651710182
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.47720628011499056
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.2756538110019273
+      "knn_danger_metric": 0.40135923433838605
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.42469046581825143
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.425301199187547
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.8548813275720548
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.7156810123801909
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.3,
-      "knn_danger_metric": 0.6750474876816646
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.5930238950802947
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.548996840092089
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.6826886382600283
     }
   },
   "semantic_logs": [
@@ -2334,102 +2334,102 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "📹&nbsp;تقرير مصور | الأهالي يتفقدون بلداتهم في الجنوب والنبطية في اليوم الثاني لوقف إطلاق النار المؤقت https://almanar.com.lb/article/773717/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "هيئة عمليات التجارة البحرية البريطانية: تقارير عن حادثة على بعد 20 ميلاً بحرياً شمال شرقي سلطنة عمان",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "&quot;פרחים בקנה ובנות בצריח&quot; - הגרסה האיראנית (אתמול בטהרן).  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: نهاية أسبوع دامية في جنوب لبنان.. تحديث إضافي لاحقاً عن حدث أمس",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "&quot;رويترز&quot; عن مصادر: سفينتان تجاريتان على الأقل أبلغتا عن تعرضهما لإطلاق نار خلال محاولتهما عبور مضيق هرمز اليوم السبت",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: قصف مدفعي وتمشيط في حانين بعد تحرك 3 دبابات &quot;ميركافا&quot; عند أطراف البلدة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مؤتمر صحافي لعضو كتلة الوفاء للمقاومة النائب حسين الحاج حسن",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: النائب حسين الحاج حسن: لا شكر لأميركا داعمة &quot;إسرائيل&quot; بالسلاح والمواقف",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️ روایت فرار آمریکا از دشت مهیار اصفهان و شهادت مسعود زارع   ✅  @sepah_pasdaran",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة &quot;معاريف&quot; العبرية - ألون بن دافيد: لا يزال من المبكر التكهن بالخطوط العريضة النهائية للاتفاق بين الولايات المتحدة وإيران. ومن المرجح أيضاً أن تتطلب المفاوضات جولات أخرى قبل التوصل إلى اتفاق. لكن ثمة اتجاهان واضحان سيؤثران على هذا الاتفاق: فكل من الأمريكيين والإيرانيين حريصون جداً على التوصل إلى اتفاق، وإيران، رغم ما تعانيه من ضغوط، تدخل هذه المفاوضات بصفتها الطرف الأقوى، ولا يضغط عليها الوقت، على عكس الأمريكيين.  #الإعلام_الحربي",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 0.9988141607169955
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة &quot;معاريف&quot; العبرية - ألون بن دافيد: رغم أن النظام فقد قائده الأعلى وشخصياته الرئيسية، إلا أنه يخرج من هذه الحرب أقوى. نظامٌ اهتزّ وضعفَ في 28 فبراير/شباط، وبعد الحرب، يحظى بشرعية واعتراف أمريكيين كاملين. النظام، الذي يقوده اليوم الحرس الثوري، يجلس الآن للتفاوض مع نائب الرئيس الأمريكي. لا يوجد دليل أقوى على تأييده من هذا.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9976922097644289
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   قيادة القوة البحرية في حرس الثورة: ما دامت حركة السفن من وإلى إيران مهددة سيبقى وضع مضيق هرمز على حاله السابق.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9971738898694222
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة &quot;معاريف&quot; العبرية - ألون بن دافيد: حتى قبل صياغة الاتفاقية النهائية، كان من الواضح أنها لن تحقق الأهداف التي حددها الأمريكيون والإسرائيليون لحرب الأربعين يومًا. كان هدف الحرب، الذي أعلنه كل من الرئيس دونالد ترامب ورئيس الوزراء بنيامين نتنياهو ، هو الإطاحة بالنظام ، أو على الأقل تقويضه. أما المخططون العسكريون فكانوا أكثر تواضعًا، إذ عرّفوها بأنها &quot;تهيئة الظروف لتغيير النظام&quot;.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9970031300855665
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   قيادة القوة البحرية في حرس الثورة: كل خرق للعهود من قبل الولايات المتحدة سيقابل برد مناسب.  #الإعلام_الحربي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9954409552297614
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "|| سرايا القدس تنعى كوكبة من قادة الاختصاصات العسكرية الذين ارتقوا شهداء خلال الملاحم البطولية في معركة #طوفان_الأقصى المباركة.  - الشهيد القائد/ محمد سعيد نطط   قائد فصيل – وحدة النخبة - لواء رفح  - الشهيد القائد/ رائد عبد الحميد خضير   قائد فصيل - لواء خانيونس  - الشهيد القائد/ صالح محمد الشاعر   قائد فصيل - لواء خانيونس  - الشهيد القائد/ محمد مهدي أبو معروف   قائد فصيل - الوحدة الصاروخية - لواء خانيونس  - الشهيد القائد/ سعيد عبد الناصر الطويل   قائد فصيل - سلاح الإشارة - لواء الوسطى  - الشهيد القائد/ محمد جبر مزهر   قائد فصيل - الوحدة الصاروخية - لواء الوسطى  - الشهيد القائد/ عصام أحمد أحمد   قائد في وحدة القنص - لواء الوسطى  - الشهيد القائد/ إبراهيم أحمد أحمد   قائد فصيل - وحدة القنص - لواء الوسطى  - الشهيد القائد/ محمد علي اللوح   قائد فصيل - وحدة المعلومات المركزية - لواء الوسطى  - الشهيد القائد/ محمد يحيى أبو العطا   قائد فصيل - الوحدة الصاروخية - لواء غزة  - الشهيد القائد/ باجس محمد جندية   قائد فصيل - أمن الموقع العسكري - لواء غزة  - الشهيد القائد/ أحمد عبد المصري   قائد فصيل - الوحدة الصاروخية - لواء غزة  - الشهيد القائد/ أحمد محمود الخضري   قائد فصيل - وحدة التعبئة المركزية - لواء غزة  - الشهيد القائد/ محمود أحمد مشتهى   قائد فصيل - الوحدة الصاروخية - لواء غزة  - الشهيد القائد/ عمر جميل أبو عصر   قائد فصيل - ملف البنية - لواء غزة  - الشهيد القائد/ محمود سليم الغفري   قائد فصيل - الوحدة الصاروخية - لواء غزة  - الشهيد القائد/ أحمد جمال البهتيني   نائب قائد كتيبة التفاح والدرج - لواء غزة  - الشهيد القائد/ زياد محمد المقيد قائد فصيل - الوحدة الصاروخية - لواء الشمال  - الشهيد القائد/ محمد نافذ فلفل   قائد فصيل - وحدة النخبة - لواء الشمال  - الشهيد القائد/ أيوب محمد  عسلية   قائد فصيل - وحدة التعبئة المركزية - لواء الشمال  سرايا القدس الجناح العسكري لحركة الجهاد الإسلامي في فلسطين السبت 1 ذو القعدة 1447 هجري -  18 أبريل 2026م",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9728674469306797
-    },
-    {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "📹&nbsp;تقرير مصور | أهالي قانا الجنوبية يتفقدون منازلهم رغم صعوبة الطرق في جنوب لبنان https://almanar.com.lb/article/773777/?s=tg",
+      "text": "الحرس الثوري: تفكيك خلايا تجسسية تابعة للاعداء في 3 محافظات ايرانية https://almanar.com.lb/article/774222/?s=tg",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: المجلس الأعلى للأمن القومي: المقترح الأميركي الجديد قيد الدرس ولم يتم الرد عليه بعد",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: المجلس الأعلى للأمن القومي: وفدنا المفاوض لن يقدم أدنى قدر من التنازل أو التراجع أو التساهل وسيدافع عن مصالح شعبنا",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: المجلس الأعلى للأمن القومي: قررنا فتح المضيق للسفن التجارية بإشراف وترخيص من قواتنا المسلحة وعبر المسارات التي نحددها",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: المجلس الأعلى للأمن القومي: مصممون على ممارسة السيطرة على الحركة في المضيق حتى النهاية القطعية للحرب وتحقيق السلام",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تقتحم بلدة عصيرة الشمالية، شمال نابلس.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تقتحم شارع عمان، شرق مدينة نابلس.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إيران   الأمانة العامة للمجلس الأعلى للأمن القومي الإيراني: الوفد المفاوض الإيراني، الذي دخل ساحة النزال السياسي متوكلاً على الله تعالى ومستنداً إلى دعم الشعب وإرادته الصلبة وقوة سلاح المقاتلين، بهدف تثبيت الانتصارات العظيمة والتاريخية للشعب الإيراني في هذه الحرب الظالمة المفروضة، لن يُقدم على أي قدر من التنازل أو التراجع أو التساهل، وسيبذل كل ما في وسعه للدفاع عن مصالح الشعب الإيراني وصون دماء الشهداء الغالية التي سُفكت من أجل حفظ استقلال إيران وعزتها وكرامتها، ولا سيما الدم الطاهر لقائدنا العزيز.  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.9985839523124961
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | مصادر محلية: إطلاق نار يستهدف قوات الاحتلال في بلدة بيت أمر، شمال الخليل.",
       "absolute_sentiment": 0,
-      "semantic_danger_knn": 0.9451672518425872
+      "semantic_danger_knn": 0.9753639863943435
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | قوات الاحتلال تقتحم المنطقة الشرقية في مدينة نابلس.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9596045227592704
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | قوات الاحتلال تداهم منزل الأسير المحرر المهندس يزن جبر، وتطلق قنابل الغاز وتمنع استقبال المهنئين في قرية &quot;عراق التايه&quot; شرق مدينة نابلس.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9596045227592704
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "فلسطينيون يتجمعون للحصول على مياه الشرب في مدينة خان يونس، مع استمرار أزمة نقص المياه.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9496207460821101
     }
   ]
 }
