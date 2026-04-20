@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-04-20T07:28:27.648Z",
+  "last_updated": "2026-04-20T11:58:11.851Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.53",
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.47",
     "global_norm_sentiment": "-0.21"
   },
   "timeline": [
-    {
-      "time": "2026-04-12T17:03:28.853Z",
-      "danger": 0.516,
-      "sentiment": -0.225,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.506,
-          "sentiment": -0.467
-        },
-        "OSINTdefender": {
-          "danger": 0.468,
-          "sentiment": 0.033
-        },
-        "irna_1313": {
-          "danger": 0.521,
-          "sentiment": -0.333
-        },
-        "sepah_pasdaran": {
-          "danger": 0.186,
-          "sentiment": -0.4
-        },
-        "almanarnews": {
-          "danger": 0.407,
-          "sentiment": -0.267
-        },
-        "C_Military1": {
-          "danger": 0.848,
-          "sentiment": -0.321
-        },
-        "almayadeen": {
-          "danger": 0.598,
-          "sentiment": -0.233
-        },
-        "QudsN": {
-          "danger": 0.678,
-          "sentiment": -0.133
-        }
-      }
-    },
     {
       "time": "2026-04-12T19:55:18.201Z",
       "danger": 0.548,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.167
         }
       }
+    },
+    {
+      "time": "2026-04-20T11:58:11.851Z",
+      "danger": 0.472,
+      "sentiment": -0.21,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.377,
+          "sentiment": -0.3
+        },
+        "OSINTdefender": {
+          "danger": 0.534,
+          "sentiment": -0.1
+        },
+        "irna_1313": {
+          "danger": 0.477,
+          "sentiment": -0.367
+        },
+        "sepah_pasdaran": {
+          "danger": 0.365,
+          "sentiment": -0.333
+        },
+        "almanarnews": {
+          "danger": 0.329,
+          "sentiment": 0.067
+        },
+        "C_Military1": {
+          "danger": 0.598,
+          "sentiment": -0.267
+        },
+        "almayadeen": {
+          "danger": 0.374,
+          "sentiment": -0.333
+        },
+        "QudsN": {
+          "danger": 0.72,
+          "sentiment": -0.333
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.49443276754436843
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.37732434642476986
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.5615463282159044
+      "knn_danger_metric": 0.5341679119184878
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.5274479507240513
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.47657459758073023
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.4866732341637213
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.36488403966834526
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.43354266778038536
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.3287712320871631
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.5941382040019151
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.5984116790708109
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.5305312579974699
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.37400267480683075
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.7389154611946219
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.7204913383513598
     }
   },
   "semantic_logs": [
@@ -2334,102 +2334,102 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "זה המיקום בו יירטו האמריקאים את הספינה האיראנית - בכניסה למפרץ עומאן.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": " ️ رئیس سازمان پزشکی قانونی: ۳۳۷۵ نفر در جنگ تحمیلی آمریکا و رژیم صهیونیستی به شهادت رسیدند. ✅  @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "مقتل مدني وحريق في ميناء توابسي الروسي بهجوم مسيّرات أوكرانية https://almanar.com.lb/article/778162/?s=tg",
+      "text": "🔸يورو : 180,800 🔸دلار آمريکا : 153,700 🔸تتر : 152,460 🔸پوند انگليس : 207,400 🔸درهم امارات : 41,830 🔸يوآن چين : 22,540 🔸لير ترکيه : 3,490 🔸دینار کویت : 498,160  🔹طلاي 18 عيار هر گرم : 17,738,000 🔹سکه امامي : 173,424,000 🔹سکه بهار آزادي : 173,424,000 🔹نيم سکه…",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: السلطة القضائية: تنفيذ حكم الإعدام بجاسوسين للموساد الإسرائيلي",
+      "text": "فلسطين المحتلة: مراسل الميادين: شهيد وعدد من الجرحى من جرّاء استهداف قوات الاحتلال مجموعة من المواطنين قرب مفترق دولة بحي الزيتون جنوب شرقي مدينة غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: مصابون برصاص قوات الاحتلال في منطقة الفالوجا في جباليا",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "اعتصام مفتوح للجرحى الفلسطينيين أمام مجلس الوزراء في مدينة رام الله للمطالبة بصرف رواتبهم المقطوعة منذ شهور.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "منذ الصباح.. طيران الاحتلال الحربي يحلق بكثافة في الأجواء الفلسطينية.",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
+      "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "إيران: بزشكيان: الحرب لا تصب في مصلحة أحد ومع الثبات أمام التهديدات يجب الاستفادة من كل السبل العقلانية والدبلوماسية لتقليل التوترات",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: شهيد من جراء استهداف الاحتلال مجموعة مواطنين في مخيم البريج صباح اليوم",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: مصابون في قصف مسيرة إسرائيلية وسط مدينة خانيونس جنوبي القطاع",
+      "text": "الفلسطيني مصعب أبو طيبة يواجه خطر فقدان أطرافه بسبب حالة طبية وتتدهور حالته الصحية ويناشد بتأمين سفره خارج قطاع غزة من أجل العلاج.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "الوكالة الوطنية اللبنانية: فرق الدفاع المدني تباشر الغطس تحت جسر القاسمية بحثًا عن جثامين شهداء مفقودين خلال العدوان.",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية دير غسانة شمال رام الله.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال برفقة آليات الهدم تقتحم حي البستان في سلوان بالقدس المحتلة.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "جرافات بلدية الاحتلال تشرع بعمليات تجريف لركام منازل الأهالي التي هدمت في الأسابيع الماضية بحي البستان في سلوان بالقدس المحتلة",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تهدم منزلا في منطقة &quot;الثغرة&quot; ببلدة ترقوميا غرب مدينة الخليل",
+      "text": "محافظة القدس: &quot;جماعات الهيكل&quot; المتطرفة تحشد أنصارها لاقتحام المسجد الأقصى ورفع علم الاحتلال داخله، يوم الأربعاء المقبل، تحت ذريعة ما يسمى &quot;يوم الاستقلال&quot;",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تعتقل شقيقين خلال حملة الاعتقالات الواسعة والمستمرة في بلدة عنبتا شرق طولكرم",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   المتحدث بإسم الخارجية الإيرانية:   حماية المصالح الوطنية ستستمر ما دامت الحاجة قائمة، وأنه في حال أي مغامرة جديدة من قبل الولايات المتحدة أو الكيان الصهيوني، فإن القوات المسلحة سترد بكل قوة وحزم.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9977128856617156
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صحيفة &quot;معاريف&quot; العبرية: في البداية، اعتقدت المؤسسة العسكرية أن مدى طيران هذه الطائرات يقتصر على كيلومترين. إلا أنه خلال المعارك، اتضح أن مداها يتجاوز عشرة كيلومترات.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9975689707464532
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 15 العبرية: فضيحة تجسس أخرى تنكشف: جهاز الشاباك والشرطة اعتقلوا إسرائيليين اثنين بشبهة عملهم لصالح جهات استخبارات إيرانية، وأحدهم كان ينوي الذهاب للتدريب في إحدى الدول العربية.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9957890513813449
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تعتقل الشاب محمود رمزي تيم خلال اقتحامها لمدينة قلقيلية صباح اليوم.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
+      "text": "قوات الاحتلال تعتدي على رئيس مجلس قروي بيت دجن شرق نابلس وتحطم زجاج مركبته.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9262731058775845
     },
     {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم مدخل قرية اللبن الشرقية جنوب نابلس وتشرع بعمليات تجريف في أراضي المزارعين.",
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   المتحدث باسم مقرّ خاتم الأنبياء:  أقدمت الولايات المتحدة المعتدية، عبر خرق وقف إطلاق النار وارتكاب عمل من أعمال القرصنة البحرية، على إطلاق النار نحو إحدى السفن التجارية الإيرانية في مياه بحر عُمان، وتعطيل نظام الملاحة فيها، وذلك بإنزال عدد من عناصر مشاة البحرية التابعة لها على متن السفينة المذكورة، في اعتداء سافر عليها.  ونحذّر بأنّ القوات المسلحة للجمهورية الإسلامية الإيرانية ستردّ قريباً على هذا العمل الإجرامي من القرصنة المسلحة للجيش الأميركي، وستقوم بالردّ والتصعيد المناسب  #الإعلام_الحربي",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
+      "semantic_danger_knn": 0.914612061604623
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 رئيس بلدية بيت ليف يناشد الرؤساء العمل على وقف أعمال الهدم الإسرائيلية في البلدة https://almanar.com.lb/article/779077/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9029549282365815
     }
   ]
 }
