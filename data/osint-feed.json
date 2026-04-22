@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-04-22T06:13:44.228Z",
+  "last_updated": "2026-04-22T10:52:59.103Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.51",
-    "global_norm_sentiment": "-0.33"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.47",
+    "global_norm_sentiment": "-0.12"
   },
   "timeline": [
-    {
-      "time": "2026-04-14T10:51:40.952Z",
-      "danger": 0.479,
-      "sentiment": -0.245,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.421,
-          "sentiment": -0.567
-        },
-        "OSINTdefender": {
-          "danger": 0.453,
-          "sentiment": -0.333
-        },
-        "irna_1313": {
-          "danger": 0.475,
-          "sentiment": -0.467
-        },
-        "sepah_pasdaran": {
-          "danger": 0.374,
-          "sentiment": -0.467
-        },
-        "almanarnews": {
-          "danger": 0.467,
-          "sentiment": -0.2
-        },
-        "C_Military1": {
-          "danger": 0.625,
-          "sentiment": -0.179
-        },
-        "almayadeen": {
-          "danger": 0.37,
-          "sentiment": -0.1
-        },
-        "QudsN": {
-          "danger": 0.656,
-          "sentiment": 0
-        }
-      }
-    },
     {
       "time": "2026-04-14T15:52:10.574Z",
       "danger": 0.501,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.423
         }
       }
+    },
+    {
+      "time": "2026-04-22T10:52:59.103Z",
+      "danger": 0.469,
+      "sentiment": -0.115,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.513,
+          "sentiment": -0.533
+        },
+        "OSINTdefender": {
+          "danger": 0.573,
+          "sentiment": -0.267
+        },
+        "irna_1313": {
+          "danger": 0.454,
+          "sentiment": -0.467
+        },
+        "sepah_pasdaran": {
+          "danger": 0.38,
+          "sentiment": -0.167
+        },
+        "almanarnews": {
+          "danger": 0.242,
+          "sentiment": 0.467
+        },
+        "C_Military1": {
+          "danger": 0.652,
+          "sentiment": -0.133
+        },
+        "almayadeen": {
+          "danger": 0.582,
+          "sentiment": -0.167
+        },
+        "QudsN": {
+          "danger": 0.345,
+          "sentiment": 0.25
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.7333333333333333,
-      "knn_danger_metric": 0.4613830695294048
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.5126741363370536
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.5483109131925514
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.5728546808946351
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 11,
-      "raw_sentiment": -0.4090909090909091,
-      "knn_danger_metric": 0.5083290994428894
+      "num_messages": 15,
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.4537835046016049
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.37480262519958785
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.37966692313375444
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.27468778100531577
+      "raw_sentiment": 0.4666666666666667,
+      "knn_danger_metric": 0.24238643361281428
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.6020174280666045
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.652325024091372
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.7986281775803358
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.5815370744965732
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 13,
-      "raw_sentiment": -0.4230769230769231,
-      "knn_danger_metric": 0.5617240736169518
+      "num_messages": 8,
+      "raw_sentiment": 0.25,
+      "knn_danger_metric": 0.3454531360513286
     }
   },
   "semantic_logs": [
@@ -2343,72 +2343,37 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: المجال لا يزال مفتوحاً ومهيأً لضرب النقاط الحيوية ونقاط الردع للعدو",
+      "text": "بوليتيكو: خطوة البيت الأبيض تمثل أحدث مؤشر على أن ترامب ينوي تنفيذ تهديداته ضد الحلفاء الذين لا يلتزمون بالعمل وفق رغباته",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: القوات المسلحة الإيرانية لن تسمح للعدو من جديد بأي نوع من الاستعراض",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: اليوم تحطمت الهيبة الزائفة للقوة العسكرية الأميركية الإسرائيلية",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: مع إيجاد بيئة مستقرة وآمنة ستزداد إنجازات هذه الانتصارات للمنطقة والعالم الإسلامي أكثر من أي وقت مضى",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: العمليات المركبة من 100 موجة صاروخية وطائرات مسيرة شلت وأعمت القدرة العسكرية للعدو وألحقت ضربات مدمرة ببناه",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: الوكالة الوطنية للإعلام: شهيد وجريحان من جراء غارة نفذتها مسيّرة معادية فجراً على أطراف الجبور في البقاع الغربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: إصابات من جراء عدوان إسرائيلي على جباليا شمالي قطاع غزة",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل| الاحتلال يغلق عدداً من الشوارع الرئيسية في مدينة القدس بسبب فعاليات ما يسمى &quot;عيد الاستقلال&quot;.",
+      "text": "إيران: وزارة الطاقة الإيرانية: تم إصلاح الانقطاعات الكهربائية في أقل من ساعة خلال العدوان الأميركي الإسرائيلي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "إصابات واعتقالات.. اقتحامات لجيش الاحتلال في الضفة والمستوطنون يحرقون منزلا في نابلس  التفاصيل: https://qudsn.co/post/215348",
+      "text": "ترجمة قدس| القناة 12 العبرية: رئيس الاحتلال يجتمع بممثلي دول العالم لدى الاحتلال بمناسبة ما يسمى &quot;يوم الاستقلال&quot;، وقد شارك ممثلان عن الإمارات والبحرين في الحدث بينما غاب مندوبا مصر والأردن.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 12 العبرية: صفارات الإنذار دوت في الجليل الأعلى بعد تشخيص خاطئ.  #الإعلام_الحربي",
+      "text": "وسائل إعلام أجنبية عن الهيئة البحرية البريطانية: تلقينا بلاغا عن تعرض سفينة شحن لإطلاق نار على بعد 8 أميال غرب سواحل إيران.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9957890513813449
+      "semantic_danger_knn": 0.9971738898694222
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إيران   قيادة القوة البحرية للحرس الثوري: تم احتجاز سفينتين مخالفتين هما &quot;MSC-FRANCESCA&quot; (مرتبطة بالكيان الصهيوني) و&quot;EPAMINODES&quot;، وذلك بسبب إبحارهما دون التصاريح اللازمة وقيامهما بالتلاعب بأنظمة الملاحة بما عرّض أمن الملاحة البحرية للخطر، حيث جرى توقيفهما من قبل القوة البحرية للحرس الثوري واقتيادهما إلى السواحل الإيرانية.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9958018373673665
     },
     {
       "channelId": "C_Military1",
@@ -2418,11 +2383,11 @@
       "semantic_danger_knn": 0.9908637620933594
     },
     {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل| الوكالة الوطنية اللبنانية: شهيد وجريحان من جراء غارة نفذتها مسيّرة للاحتلال فجر اليوم على أطراف الجبور في البقاع الغربي.",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "המשטר האיראני מציג: נערות חמושות בעיר אהר במחוז אזרביג&#39;אן בצפון מערב איראן.  תגובה אחת",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9520024566027644
+      "semantic_danger_knn": 0.9655025263884096
     },
     {
       "channelId": "OSINTdefender",
@@ -2430,6 +2395,41 @@
       "text": "#USA  The final GPS III satellite was launched by SpaceX on April 21, 2026, marking a significant achievement for the U.S. Space Force. This satellite enhances the GPS constellation, making it the most advanced ever built.  Subscribe to @OSINTdefender Chat room",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 0.9379401871836315
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   المتحدث باسم مقر خاتم الأنبياء:  قواتنا الكفؤة والقوية على أهبة الاستعداد التام منذ فترة طويلة، وجاهزة للتدخل الفوري، بحيث إذا ما تعرض إيران الإسلامية لأي عدوان أو عمل، فإنها ستهاجم الأهداف المحددة بقوة، وتلقن المعتدي أمريكا والكيان الصهيوني القاتل للأطفال درساً قاسياً لا يُنسى و أقسى من ذي قبل.  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.8951315953991453
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: حرس الثورة: نؤكد مجدداً أن أي محاولة لتعطيل القوانين المعلنة من قبل إيران لعبور هرمز ستواجه بإجراءات قانونية صارمة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.8872856038067946
+    },
+    {
+      "channelId": "OSINTdefender",
+      "channel": "Global_OSINT",
+      "text": "#USA  The U.S. Army is testing the Bunker Rupture and Kinetic Explosive Round (BRAKER) warhead, which is delivered by UAVs, to enhance its capabilities in targeting fortified positions. This development reflects the Army&#39;s focus on integrating advanced munitions with drone technology for effective combat operations.  Subscribe to @OSINTdefender Chat room",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.8567499986476186
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "ספינת מכולות הותקפה הבוקר על ידי סירה עם מקלעים של משמרות המהפכה האיראנים באזור מפרץ עומאן.  נזק כבד נגרם לגשר הפיקוד של הספינה.  הצוות בריא ושלם.  3 תגובות",
+      "absolute_sentiment": -0.5,
+      "semantic_danger_knn": 0.8565069429279084
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   صادر عن حرس الثورة الإسلامية   يعتزّ الشعب الإيراني البطل والشريف اليوم بما يمتلكه الحرس الثوري – إلى جانب سائر القوات المسلحة – من قدرات استراتيجية شاملة، حيث تمكّن، في ذروة الشجاعة والصلابة والبسالة، من خلال ضربات صاروخية وطائرات مسيّرة مدمّرة، من دفع العدو الصهيوني والولايات المتحدة الإرهابية والإجرامية إلى حالة من العجز والاستنزاف. كما أن حضور الشعب لأكثر من 50 يومًا متواصلة في الشوارع، دون أن يتخلّى لحظة عن دعم الميدان ومساندة القوات المسلحة، شكّل ظاهرة مدهشة وحدثًا فريدًا في التاريخ المعاصر.   وأكد البيان أن سبب الحملات الإعلامية المكثفة والعمليات النفسية المستمرة التي يشنّها إعلام العدو ضد هذا الكيان الثوري، يعود إلى الدور الريادي والتاريخي للحرس الثوري في مختلف ميادين المهام الصعبة ونصف الصعبة والناعمة، لا سيما في ساحة الحرب المعرفية، حيث أدّت إنجازاته إلى هزائم متكررة لجبهة الاستكبار. كما أن هذه الأدوار الاستراتيجية، التي لبّت احتياجات الشعب والبلاد، أسهمت في تسهيل مسار النمو والتطور والبناء في إيران، ما أثار غضب الأعداء من هذا الكيان العقائدي والشعبي والثوري، بوصفه العائق الأكبر أمام مخططاتهم المعادية لإيران.   وأشار البيان إلى أن منظومة «100 موجة» من العمليات المركبة الصاروخية – المسيّرة، كمنظومة متكاملة وذات هدف واضح، تمكّنت من شلّ قدرات العدو وإعماء منظومته العسكرية، وتوجيه ضربات مدمّرة إلى بنيته التحتية ومراكزه الاستراتيجية وقدراته اللوجستية، ما أدى إلى «فراغ إدراكي» لدى الجبهة المعتدية، وأخطاء في الحسابات، انتهت بطلب وقف إطلاق النار من إيران القوية والمعتزّة.   وأضاف أن معظم البنى التحتية العسكرية للعدو الصهيوني والأمريكي في المنطقة قد تعرّضت، بفضل الله وبمبادرة القوات المسلحة وخاصة الحرس الثوري، لضربات قاسية أدّت إلى انهيارها. وأكد أن الحرس الثوري في أعلى درجات الجهوزية والإرادة لمواصلة المواجهة، ومستعد لردّ حاسم وفوري على أي تهديد أو عدوان جديد، وأن أي مواجهة محتملة قادمة ستشهد ضربات ساحقة تفوق تصوّر العدو.   كما شدد على أن الميدان لا يزال مفتوحًا لاستهداف النقاط الحيوية ورموز الردع لدى العدو، وأن حماة الثورة، بالتكامل مع باقي القوات المسلحة والمدافعين عن الوطن، لن يسمحوا بإعادة بناء قدراته الاستراتيجية أو استعادة زمام المبادرة.   وختم البيان بالتأكيد على أن تراجع الهيمنة العسكرية الأمريكية والكيان الصهيوني يمهّد للدخول في نظام إقليمي جديد في غرب آسيا، قائم على الاستقرار والأمن دون تدخل القوى الأجنبية والاستكبارية، خاصة الولايات المتحدة، وأن إنجازات هذه الانتصارات ستتعزز أكثر بفضل التوجيهات والقيادة العليا.  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.8475016486196894
     }
   ]
 }
