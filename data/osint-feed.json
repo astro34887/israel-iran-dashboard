@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-04-23T20:14:37.355Z",
+  "last_updated": "2026-04-23T23:32:17.253Z",
   "tension": {
     "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.48",
-    "global_norm_sentiment": "-0.29"
+    "global_knn_danger": "0.49",
+    "global_norm_sentiment": "-0.40"
   },
   "timeline": [
-    {
-      "time": "2026-04-15T21:39:04.932Z",
-      "danger": 0.454,
-      "sentiment": -0.259,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.345,
-          "sentiment": -0.533
-        },
-        "OSINTdefender": {
-          "danger": 0.515,
-          "sentiment": -0.033
-        },
-        "irna_1313": {
-          "danger": 0.454,
-          "sentiment": 0.111
-        },
-        "sepah_pasdaran": {
-          "danger": 0.285,
-          "sentiment": -0.6
-        },
-        "almanarnews": {
-          "danger": 0.24,
-          "sentiment": -0.367
-        },
-        "C_Military1": {
-          "danger": 0.524,
-          "sentiment": -0.3
-        },
-        "almayadeen": {
-          "danger": 0.604,
-          "sentiment": -0.2
-        },
-        "QudsN": {
-          "danger": 0.624,
-          "sentiment": -0.533
-        }
-      }
-    },
     {
       "time": "2026-04-16T00:06:20.490Z",
       "danger": 0.488,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.3
         }
       }
+    },
+    {
+      "time": "2026-04-23T23:32:17.253Z",
+      "danger": 0.489,
+      "sentiment": -0.403,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.515,
+          "sentiment": -0.833
+        },
+        "OSINTdefender": {
+          "danger": 0.423,
+          "sentiment": -0.3
+        },
+        "irna_1313": {
+          "danger": 0.495,
+          "sentiment": -0.3
+        },
+        "sepah_pasdaran": {
+          "danger": 0.304,
+          "sentiment": -0.533
+        },
+        "almanarnews": {
+          "danger": 0.197,
+          "sentiment": -0.433
+        },
+        "C_Military1": {
+          "danger": 0.676,
+          "sentiment": -0.5
+        },
+        "almayadeen": {
+          "danger": 0.385,
+          "sentiment": -0.433
+        },
+        "QudsN": {
+          "danger": 0.948,
+          "sentiment": -0.567
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.7333333333333333,
-      "knn_danger_metric": 0.47591578765641457
+      "raw_sentiment": -0.8333333333333334,
+      "knn_danger_metric": 0.5147835812692271
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 9,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.42204134509167357
+      "num_messages": 15,
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.4948949389563707
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.2822968567190824
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.3035151196940243
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.49342261875182414
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.1965712238149044
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.7078496223151276
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.6760144347407059
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.425124875926939
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.38496705833586276
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.588043000012033
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.9484376669619964
     }
   },
   "semantic_logs": [
@@ -2334,23 +2334,37 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "ערוצים לבנוניים מדווחים לפני זמן קצר על לפחות 2 נפגעים בתקיפת כטב&quot;מ ישראלי על רכב בכפר שוכין בדרום לבנון(נפת נבטיה).  תגובה אחת",
-      "absolute_sentiment": -1,
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: حدث يخضع للرقابة، التفاصيل لاحقًا.  #ا��إعلام_الحربي",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": " ️شنیده شدن صدای انفجارهای قوی در اربیل  🔹 رسانه‌های عراقی از شنیده شدن مجدد صدای انفجارهای قوی در داخل مقرهای احزاب کُرد ضدایرانی در مناطقی از اربیل خبر می‌دهند. ✅  @sepah_pasdaran",
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: اطلاق صلية صاروخية باتجاه شمال فلسطين المحتلة وصفارات الانذار تدوي في شتولا",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: &quot;فارس&quot;: السفينة وصلت بسلام رغم محاولات البحرية الأميركية احتجازها",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: قصف مدفعي إسرائيلي يستهدف شرقي مدينة غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تداهم منزلا خلال اقتحام قرية كفر جمال غرب طولكرم",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مجددا… آليات الاحتلال تقصف المناطق الشرقية لمدينة خان يونس جنوب قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2364,72 +2378,58 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "جيش الاحتلال يكشف عن فجوات في كفاءة جنوده   التفاصيل:   https://qudsn.co/post/215380",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية المغير شمال شرق رام الله.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تعتقل  شاب خلال اقتحام قرية المغير شمال شرقي رام الله",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: جيش الاحتلال يداهم منازل الأهالي خلال اقتحامه قرية المغير شمال شرق رام الله",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل: قوات الاحتلال تقتحم بلدة الرام شمال القدس المحتلة",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: جيش الاحتلال يقتحم قرية قبيا قضاء مدينة رام الله",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تقتحم بلدة حزما شمال القدس المحتلة",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل: مصابون برصاص قوات الاحتلال أثناء وجودهم داخل مدرسة خليفة التي تؤوي نازحين في مشروع بيت لاهيا شمالي قطاع غزة",
+      "text": "عاجل: زوارق الاحتلال الحربية تطلق نيرانها تجاه ساحل مدينة خان يونس جنوب قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: تلقت المستشفيات في &quot;إسرائيل&quot; توجيهاً للاستعداد للعودة إلى وضع الطوارئ.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9979853054910217
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 13 العبرية: بعد ساعة سيدخل رئيس الوزراء جلسة تقييم وضع مصغّرة عبر الهاتف. مسؤول إسرائيلي رفيع: يجري الاستعداد للحصول على موافقة من إدارة دونالد ترامب على استئناف القتال ضد إيران.  #الإعلام_الحربي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9979630785221281
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة &quot;هآرتس&quot; العبرية: تتمتع محلّقات حزب الله بحصانة ضد التشويش، ولن توقفها المنطقة الأمنية الجديدة.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9970527839735491
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 13 العبرية - أور هيلر: يجب أن نعترف بالحقيقة ونقول إنه حتى اليوم، لا يوجد حل مثالي في الأفق، وقد تكون &quot;إسرائيل&quot; قد تورطت مرة أخرى في الوحل اللبناني. نفس الوحل الذي استغرق منها 18 عامًا للخروج منه في المرة السابقة.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.996238247963218
-    },
-    {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل | دبابات الاحتلال تُطلق الرصاص الثقيل تجاه مناطق في شرق مدينة خان يونس، جنوب قطاع غزة.",
+      "text": "عاجل| قوات الاحتلال تقتحم مدينة نابلس من حاجز الطور.",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9596045227592704
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "📹 مراسلنا سامر حاج علي ينقل لنا المشهد من جنوب لبنان https://almanar.com.lb/article/789237/?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9451672518425872
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "סוכנות הידיעות האיראנית &quot;פארס&quot;:  מבין הכטב&quot;מים והרחפנים שנצפו בשמי טהרן וערים נוספות באיראן הלילה היו גם כטב&quot;מים מסוג &quot;אורביטר&quot;.    (אורביטר הוא חימוש משוטט מתוצרת ישראל - א&quot;ע).  2 תגובות",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 0.9177295162382317
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 الانتهاكات الإسرائيلية في لبنان تتحدى القانون الدولي.. كيف تتحول إلى قضية رأي عام عالمي؟ https://almanar.com.lb/article/788867/?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9079145491352126
+      "semantic_danger_knn": 1
     }
   ]
 }
