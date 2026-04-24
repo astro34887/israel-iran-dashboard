@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-04-24T17:57:01.355Z",
+  "last_updated": "2026-04-24T20:07:44.775Z",
   "tension": {
     "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.49",
-    "global_norm_sentiment": "-0.33"
+    "global_knn_danger": "0.43",
+    "global_norm_sentiment": "-0.22"
   },
   "timeline": [
-    {
-      "time": "2026-04-16T20:06:40.425Z",
-      "danger": 0.469,
-      "sentiment": -0.427,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.389,
-          "sentiment": -0.467
-        },
-        "OSINTdefender": {
-          "danger": 0.515,
-          "sentiment": -0.5
-        },
-        "irna_1313": {
-          "danger": 0.54,
-          "sentiment": -0.033
-        },
-        "sepah_pasdaran": {
-          "danger": 0.322,
-          "sentiment": -0.667
-        },
-        "almanarnews": {
-          "danger": 0.144,
-          "sentiment": -1
-        },
-        "C_Military1": {
-          "danger": 0.678,
-          "sentiment": -0.533
-        },
-        "almayadeen": {
-          "danger": 0.603,
-          "sentiment": -0.433
-        },
-        "QudsN": {
-          "danger": 0.547,
-          "sentiment": -0.5
-        }
-      }
-    },
     {
       "time": "2026-04-16T23:11:53.161Z",
       "danger": 0.47,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.367
         }
       }
+    },
+    {
+      "time": "2026-04-24T20:07:44.775Z",
+      "danger": 0.426,
+      "sentiment": -0.22,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.426,
+          "sentiment": -0.733
+        },
+        "OSINTdefender": {
+          "danger": 0.413,
+          "sentiment": -0.6
+        },
+        "irna_1313": {
+          "danger": 0.44,
+          "sentiment": -0.333
+        },
+        "sepah_pasdaran": {
+          "danger": 0.331,
+          "sentiment": -0.433
+        },
+        "almanarnews": {
+          "danger": 0.313,
+          "sentiment": 0.133
+        },
+        "C_Military1": {
+          "danger": 0.162,
+          "sentiment": 0.333
+        },
+        "almayadeen": {
+          "danger": 0.562,
+          "sentiment": -0.233
+        },
+        "QudsN": {
+          "danger": 0.663,
+          "sentiment": -0.2
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.7666666666666667,
-      "knn_danger_metric": 0.49345659905249
+      "raw_sentiment": -0.7333333333333333,
+      "knn_danger_metric": 0.42622747799054184
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.4992989273147003
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.4400974473328697
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.3570043860167073
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.3314178628680674
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.32630567025247814
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.3126915555158069
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.5278224858838466
+      "raw_sentiment": 0.3333333333333333,
+      "knn_danger_metric": 0.1615209210385796
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.4983076245683012
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.561625673754939
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.7921012137982276
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.6630614283339763
     }
   },
   "semantic_logs": [
@@ -2334,102 +2334,102 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: المصدر للميادين: انكشفت لدينا القيود الجسيمة للعدو وتأثره الثقيل بهذه الضغوط بحجم التكاليف الاقتصادية الباهظة للحرب",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: المصدر للميادين: مؤتمر الطاقة الدولي بكوالالمبور أظهر حسابات معقدة وتوصية شركات كبرى بتفادي خيار زعزعة الاستقرار الاقليمي",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران:  المصدر للميادين: الملايين الـ30 الذين سجلوا أسماءهم للانخراط ليسوا أرقاماً استعراضية بل عنوان ملحمة مواجهة وانتصار فعليين",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تقتحم بلدة تقوع، جنوب شرق بيت لحم.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تقتحم بلدة جيوس، شمال شرق قلقيلية.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | 13 شهيدًا في قطاع غزة، منذ فجر اليوم.",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.9895225387360314
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | زوارق الاحتلال تطلق الرصاص نحو ساحل مدينة غزة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9753639863943435
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | في أحدث حصيلة: 3 شهداء بقصف مدفعية الاحتلال منزلاً لعائلة &quot;الطناني&quot; بجوار مستشفى كمال عدوان، شمال قطاع غزة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9596045227592704
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "📹 آخر المستجدات من جنوب لبنان يطلعنا عليها مراسلنا سامر حاج علي https://almanar.com.lb/article/788467/?s=tg",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9451672518425872
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "حزب الله: مشاهد من هجوم محلقة انقضاضية على آلية هندسيّة (D9) تابعة لجيش الاحتلال في مدينة بنت جبيل.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9262731058775845
+    },
+    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": " ️ ناگفته‌هایی از زندگی و نحوهٔ شهادت وزیر شهید اطلاعات از زبان فرزندش   ✅  @sepah_pasdaran",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: تظاهرة حاشدة في ميدان هفت حوض بطهران دعماً للقيادة والقوات المسلحة الإيرانية",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: وكالة &quot;تسنيم&quot;: بعد هذا الإعلان سارعت وسائل إعلام أميركية لنشر موضوعات مثيرة للدهشة باعتبارها &quot;أخباراً حصرية&quot; ومن &quot;مصادر مطلعة&#33;&quot;",
+      "text": " ️افزایش مجدد قیمت نفت به بالای ۱۰۵ دلار  قیمت نفت برنت که ساعتی پیش درپی خبر دروغ رسانه‌های آمریکا از مذاکره ایران کاهش یافته بود، پس از افشای دروغ مجدد به بالای ۱۰۵ دلار افزایش یافت. ✅  @sepah_pasdaran",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
+      "semantic_danger_knn": 0.912064442354559
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: &quot;تسنيم&quot;: موقع أكسيوس المعروف بالأخبار الكاذبة كتب نقلاً عن مصادر مطلعة أن قاليباف لن يرافق عراقتشي&#33; هذه التغطية غباء محض&#33;",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: &quot;تسنيم&quot;: عندما تقوم وسيلة إعلام أميركية مرتبطة بـ&quot;الموساد&quot; بالإعلان عن عدم مرافقة قاليباف له كخبر مهم وخاص فإن الأمر يبدو مضحكا",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قبيل إبحار الأسطول نحو قطاع غزة؛ لكسر الحصار..  نشطاء &quot;أسطول الصمود&quot; يؤدون صلاة الجمعة داخل ميناء سيراكوزا في جزيرة صقلية.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "معاناة مريرة للمزارعين الفلسطينيين؛ بسبب الاستيطان الرعوي داخل أراضي تجمع &quot;العتماوية&quot; في الأغوار الوسطى بالضفة الغربية.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "وسط مواجهات مع الشبان.. قوات الاحتلال تواصل اقتحام بلدة بيتا، جنوب نابلس.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "يوم دامٍ في غزة.. 9 شهداء في غارات متفرقة للاحتلال  https://qudsn.co/post/215394",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "إبادة مستمرة..   مشاهد لنقل شهيدين أحدهما طفل؛ جراء قصف قصف مدفعية الاحتلال منزلاً لعائلة &quot;الطناني&quot; بجوار مستشفى ك��ال عدوان، شمال قطاع غزة.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
+      "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: مقتل مستوطِنة متأثرة بجراحها جراء سقوط صاروخ إيراني أثناء الحرب.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9958768668438669
+      "text": "📹 مراسلنا علي عواضة يطلعنا على أجواء الضاحية الجنوبية لبيروت اليوم https://almanar.com.lb/article/791327/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9029549282365815
     },
     {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | اندلاع مواجهات بمخيم &quot;العروب&quot; شمال الخليل، وقوات الاحتلال تطلق الرصاص الحي وقنابل الصوت والغاز.",
+      "channelId": "idfonline",
+      "channel": "IDF",
+      "text": "תצפיות צה&quot;ל זיהו הבוקר תנועה חשודה סמוך ליישוב חמדיה שבמרחב חטיבת הבקעה והעמקים.לוחמי צה&quot;ל ולוחמי יחידת יג&quot;ל של משטרת ישראל הוזנקו לנקודה ועצרו רכב ובו שלושה חשודים https://t.co/gZaMaQbju7  On May 23, 2023 at 04:52PM Read more via Twitter @idfonline @idfonline",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
+      "semantic_danger_knn": 0.819613420621686
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "عاجل | في أحدث حصيلة: 7 شهداء بقصف طيران الاحتلال مركبة للشرطة بمنطقة &quot;بئر 19&quot; في مواصي مدينة خان يونس، جنوب قطاع غزة.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | مدفعية الاحتلال تقصف مناطق في شمال مخيم البريج، وسط قطاع غزة.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
+      "text": "إيران:  المصدر للميادين: رغم ثرثراتهم الممجوجة أدرك المحور الأميركي الإسرائيلي مدى التماسك المجتمعي داخل إيران",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 0.8151344856121179
     }
   ]
 }
