@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-04-24T06:29:58.450Z",
+  "last_updated": "2026-04-24T10:56:10.892Z",
   "tension": {
     "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.47",
-    "global_norm_sentiment": "-0.42"
+    "global_knn_danger": "0.50",
+    "global_norm_sentiment": "-0.28"
   },
   "timeline": [
-    {
-      "time": "2026-04-16T07:10:51.335Z",
-      "danger": 0.48,
-      "sentiment": -0.293,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.489,
-          "sentiment": -0.333
-        },
-        "OSINTdefender": {
-          "danger": 0.478,
-          "sentiment": -0.167
-        },
-        "irna_1313": {
-          "danger": 0.492,
-          "sentiment": -0.233
-        },
-        "sepah_pasdaran": {
-          "danger": 0.283,
-          "sentiment": -0.3
-        },
-        "almanarnews": {
-          "danger": 0.247,
-          "sentiment": -0.133
-        },
-        "C_Military1": {
-          "danger": 0.742,
-          "sentiment": -0.867
-        },
-        "almayadeen": {
-          "danger": 0.507,
-          "sentiment": -0.567
-        },
-        "QudsN": {
-          "danger": 0.608,
-          "sentiment": -0.167
-        }
-      }
-    },
     {
       "time": "2026-04-16T11:41:18.776Z",
       "danger": 0.51,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.35
         }
       }
+    },
+    {
+      "time": "2026-04-24T10:56:10.892Z",
+      "danger": 0.496,
+      "sentiment": -0.281,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.606,
+          "sentiment": -0.433
+        },
+        "OSINTdefender": {
+          "danger": 0.404,
+          "sentiment": -0.433
+        },
+        "irna_1313": {
+          "danger": 0.537,
+          "sentiment": -0.5
+        },
+        "sepah_pasdaran": {
+          "danger": 0.237,
+          "sentiment": -0.467
+        },
+        "almanarnews": {
+          "danger": 0.617,
+          "sentiment": -0.033
+        },
+        "C_Military1": {
+          "danger": 0.667,
+          "sentiment": -0.433
+        },
+        "almayadeen": {
+          "danger": 0.464,
+          "sentiment": -0.3
+        },
+        "QudsN": {
+          "danger": 0.478,
+          "sentiment": -0.077
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.7666666666666667,
-      "knn_danger_metric": 0.47921981935759084
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.6059166215851113
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.8,
-      "knn_danger_metric": 0.46883122165479774
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.5371693712331187
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.2673191186657393
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.2374771778937263
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.4174395209922616
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.616785151491433
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.698916891462244
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.6669722431315888
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.5169785064796518
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.4641946797099233
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 10,
-      "raw_sentiment": -0.35,
-      "knn_danger_metric": 0.5061106835183679
+      "num_messages": 13,
+      "raw_sentiment": -0.07692307692307693,
+      "knn_danger_metric": 0.47791101694135973
     }
   },
   "semantic_logs": [
@@ -2336,49 +2336,77 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "סוכנות הידיעות האיראנית &quot;מהר&quot; (מזוהה עם המשטר):  מערכות ההגנה האווירית האיראניות הופעלו בשמי טהרן כנגד מטרות עוינות.  ## מצורף תיעוד מערוצים המזוהים עם המשטר האיראני.  תגובה אחת",
+      "text": "אזהרת צפיה - מראות קשים  סוריה: נעצר אחד מהרוצחים השפלים ביותר של משטר אסד  כוחות הביטחון של המשטר הסורי הצליחו לתפוס הלילה במבצע בעיר חמאה את אמג&#39;ד אליוסף - אחד המבוקשים המפורסמים ביותר בסוריה.  אליוסף תועד בסרטון כשהוא מוביל את &quot;טבח שכו��ת א-תצ&#39;אמן&quot; בדמשק…",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "לבנון: הסונים בטריפולי חוגגים בירי וחלוקת מיני מתיקה את תפיסתו של הרוצח הסורי אמג&#39;ד יוסף - החייל ממשטר אסד שביצע את הטבח ב 2013 בשכונת א-תצ&#39;אמן בדמשק.  תגובה אחת",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "פיקוד מרכז של ארה&quot;ב: לראשונה מזה עשורים 3 נושאות מטוסים אמריקאיות פועלות במקביל במזה&quot;ת. על סיפונן יש יותר מ 200 מטוסים ויותר מ 15 אלף חיילים.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: الطائرات الحربية الإسرائيلية استهدفت بلدتي تولين وخربة سلم جنوبي لبنان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: صحيفة &quot;معاريف&quot;: لنبدأ من النهاية... على جميع الجبهات وضع &quot;إسرائيل&quot; أسوأ مما كان عليه قبل &quot;زئير الأسد&quot;",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "&quot;ذا إنترسبت&quot;: الحكومة الأميركية قامت بتغيير إحصاءاتها للخسائر الأميركية، حيث حذفت بشكل غير مبرر أسماء 15 جندياً جريحاً من قائمة الإصابات",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "&quot;ذا إنترسبت&quot;: الإحصاءات الرسمية لـ&quot;البنتاغون&quot; حول القتلى والجرحى العسكريين تمثل تقليلاً كبيراً للواقع، بحسب ما وصفه أحد المسؤولين الحكوميين الأميركيين بأنه &quot;تغطية على الخسائر&quot;",
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "قاآني: وحدة الداخل الإيراني سند للمقاومة في مواجهة واشنطن وتل أبيب https://almanar.com.lb/article/790217/?s=tg",
       "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "تحذير دولي: تدمير جسر القاسمية قد يرقى إلى جريمة حرب ويهدد حياة آلاف المدنيين جنوب الليطاني https://almanar.com.lb/article/790182/?s=tg",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "السفير الإيراني في موسكو: ملتزمون بالدبلوماسية رغم غياب جدية الطرف الآخر https://almanar.com.lb/article/790272/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "الحرس الثوري: جاهزون للمواجهة ووحدة الداخل سندنا https://almanar.com.lb/article/790362/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: فياض: كل إعتداء إسرائيلي ضد أي هدف لبناني يعطي الحق للمقاومة بالرد المتناسب وفقاً للسياق الميداني",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "وسائل إعلام إسرائيلية: إصابة 3 جنود إسرائيليين من جراء &quot;حادث عملياتي&quot; في جنوب لبنان",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "صلاة فجر اليوم في المسجد الأقصى المبارك..",
+      "text": "صور من المسجد الأقصى المبارك تزامنا مع خطبة وصلاة الجمعة اليوم..",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "لليوم الثاني.. جيش الاحتلال يواصل إغلاق قرية مادما جنوب نابلس ويفرض حظر التجوال فيها.",
+      "text": "قوات الاحتلال تقتحم حي المراح في مدينة جنين.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
@@ -2402,34 +2430,6 @@
       "text": "#إعلام_العدو   وزير الحرب السابق أفيغدور ليبرمان: مرة أخرى، يضطر سكان الشمال إلى معرفة مصيرهم عبر قنوات الأخبار الناطقة باللغة الإنجليزية. حكومة 7 أكتوبر تخلّت عن الشمال. هذا ببساطة لا يُحتمل.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9961486516080662
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 14 العبرية: تفعيل الدفاعات الجوية في شتولا بالجليل الغربي.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9957890513813449
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صفارات الإنذار تدوي في شتولا بالجليل الغربي.  #الإعلام_الحربي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.956418427463877
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: حدث يخضع للرقابة، التفاصيل لاحقًا.  #الإعلام_الحربي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.956418427463877
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "وزارة الداخلية السورية: القبض على المجرم أمجد يوسف المتهم الأول بارتكاب مجزرة التضامن خلال عملية أمنية نفذت في ريف حماة.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9450175548115881
     }
   ]
 }
