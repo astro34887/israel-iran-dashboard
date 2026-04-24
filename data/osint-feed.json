@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-04-24T20:07:44.775Z",
+  "last_updated": "2026-04-24T23:10:29.020Z",
   "tension": {
     "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.43",
-    "global_norm_sentiment": "-0.22"
+    "global_knn_danger": "0.46",
+    "global_norm_sentiment": "-0.33"
   },
   "timeline": [
-    {
-      "time": "2026-04-16T23:11:53.161Z",
-      "danger": 0.47,
-      "sentiment": -0.257,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.34,
-          "sentiment": -0.433
-        },
-        "OSINTdefender": {
-          "danger": 0.535,
-          "sentiment": -0.533
-        },
-        "irna_1313": {
-          "danger": 0.484,
-          "sentiment": -0.267
-        },
-        "sepah_pasdaran": {
-          "danger": 0.387,
-          "sentiment": -0.267
-        },
-        "almanarnews": {
-          "danger": 0.233,
-          "sentiment": -0.4
-        },
-        "C_Military1": {
-          "danger": 0.479,
-          "sentiment": -0.6
-        },
-        "almayadeen": {
-          "danger": 0.465,
-          "sentiment": 0.067
-        },
-        "QudsN": {
-          "danger": 0.828,
-          "sentiment": 0
-        }
-      }
-    },
     {
       "time": "2026-04-17T06:24:11.856Z",
       "danger": 0.459,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.2
         }
       }
+    },
+    {
+      "time": "2026-04-24T23:10:29.020Z",
+      "danger": 0.458,
+      "sentiment": -0.328,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.426,
+          "sentiment": -0.867
+        },
+        "OSINTdefender": {
+          "danger": 0.413,
+          "sentiment": -0.6
+        },
+        "irna_1313": {
+          "danger": 0.514,
+          "sentiment": -0.433
+        },
+        "sepah_pasdaran": {
+          "danger": 0.362,
+          "sentiment": -0.5
+        },
+        "almanarnews": {
+          "danger": 0.284,
+          "sentiment": 0
+        },
+        "C_Military1": {
+          "danger": 0.275,
+          "sentiment": 0.3
+        },
+        "almayadeen": {
+          "danger": 0.595,
+          "sentiment": -0.667
+        },
+        "QudsN": {
+          "danger": 0.759,
+          "sentiment": -0.375
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,7 +2279,7 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.7333333333333333,
+      "raw_sentiment": -0.8666666666666667,
       "knn_danger_metric": 0.42622747799054184
     },
     "OSINTdefender": {
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.4400974473328697
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.5137625212222343
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.3314178628680674
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.36207385048507984
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.3126915555158069
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.28404905184372303
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.3333333333333333,
-      "knn_danger_metric": 0.1615209210385796
+      "raw_sentiment": 0.3,
+      "knn_danger_metric": 0.27542589137536183
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.561625673754939
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.5950527460916114
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.6630614283339763
+      "num_messages": 12,
+      "raw_sentiment": -0.375,
+      "knn_danger_metric": 0.7589294245035755
     }
   },
   "semantic_logs": [
@@ -2334,102 +2334,102 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: المصدر للميادين: انكشفت لدينا القيود الجسيمة للعدو وتأثره الثقيل بهذه الضغوط بحجم التكاليف الاقتصادية الباهظة للحرب",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️بهای نفت در هر بشکه به ۱۰۶ دلار افزایش یافت.   ✅  @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: المصدر للميادين: مؤتمر الطاقة الدولي بكوالالمبور أظهر حسابات معقدة وتوصية شركات كبرى بتفادي خيار زعزعة الاستقرار الاقليمي",
+      "text": "إيران: قاليباف: إذا تصاعدت الأمور قد يغلق الباب.. اخرجوا بينما لا يزال الباب مفتوحاً",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: تصريحات قاليباف تأتي تعليقاً على تقارير تتحدث عن فرض قيود على بيع السندات الأميركية من قبل الإمارات وبعض الدول العربية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: وزارة الداخلية والأمن الوطني في قطاع غزة: استمرار الاحتلال في استهداف الشرطة يمثل انتهاكاً صارخاً للقانون الدولي",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران:  المصدر للميادين: الملايين الـ30 الذين سجلوا أسماءهم للانخراط ليسوا أرقاماً استعراضية بل عنوان ملحمة مواجهة وانتصار فعليين",
+      "text": "فلسطين المحتلة: وسائل إعلام محلية: استشهاد طفل جراء استهداف طيران الاحتلال مركبة للشرطة في مواصي خان يونس جنوبي قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: &quot;جيش&quot; الاحتلال الإسرائيلي ينفذ عملية نسف شرقي مدينة غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم بلدة تقوع، جنوب شرق بيت لحم.",
-      "absolute_sentiment": 0.5,
+      "text": "مصادر محلية: قوات الاحتلال تداهم منزلاً خلال اقتحام منطقة واد العماير ببلدة السموع في الخليل.",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم بلدة جيوس، شمال شرق قلقيلية.",
-      "absolute_sentiment": 0.5,
+      "text": "مصادر محلية: قوات الاحتلال تقتحم مدينة أريحا بالضفة الغربية",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل | 13 شهيدًا في قطاع غزة، منذ فجر اليوم.",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9895225387360314
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية البرج غربي دورا، جنوب الخليل.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إيران   الحرس الثوري: توقيف سفينة يُشتبه في تعاونها مع الجيش الأمريكي.  - السفينة &quot;EPAMINODES&quot; يُشتبه في تعاونها مع الجيش الأمريكي المصنَّف إرهابيًا.  - بعد عمليات متابعة ورصد استخباراتي من قبل القوة البحرية للحرس الثوري خلال الأشهر الستة الماضية، تبيّن أن هذه السفينة قامت بعدة رحلات إلى موانئ أمريكية، وقد تم توقيفها بسبب تجاهلها التحذيرات وارتكابها مخالفات بحرية متعددة من قبل القوة البحرية للحرس الثوري.  #الإعلام_الحربي",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9981606940505746
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   وزارة الدفاع الإيرانية: استخدمنا جزءا من قدراتنا الصاروخية خلال الحرب والجزء الأكبر لم يستخدم بعد.  #الإعلام_الحربي",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9908637620933594
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل | زوارق الاحتلال تطلق الرصاص نحو ساحل مدينة غزة.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9753639863943435
+      "text": "عاجل | استشهاد الطفل &quot;حمدي إبراهيم الشاعر&quot; جراء استهداف طيران الاحتلال مركبة للشرطة الفلسطينية في مواصي مدينة خان يونس جنوب قطاع غزة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9596045227592704
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل | في أحدث حصيلة: 3 شهداء بقصف مدفعية الاحتلال منزلاً لعائلة &quot;الطناني&quot; بجوار مستشفى كمال عدوان، شمال قطاع غزة.",
+      "text": "عاجل | جيش الاحتلال ينسف مبانٍ شرق مدينة غزة.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9596045227592704
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "📹 آخر المستجدات من جنوب لبنان يطلعنا عليها مراسلنا سامر حاج علي https://almanar.com.lb/article/788467/?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9451672518425872
-    },
-    {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "حزب الله: مشاهد من هجوم محلقة انقضاضية على آلية هندسيّة (D9) تابعة لجيش الاحتلال في مدينة بنت جبيل.",
+      "text": "عاجل | مصادر صحفية: قوات الاحتلال تتوغل في بلدة جباتا الخشب بريف القنيطرة جنوب سوريا، وتداهم المنازل.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9262731058775845
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": " ️افزایش مجدد قیمت نفت به بالای ۱۰۵ دلار  قیمت نفت برنت که ساعتی پیش درپی خبر دروغ رسانه‌های آمریکا از مذاکره ایران کاهش یافته بود، پس از افشای دروغ مجدد به بالای ۱۰۵ دلار افزایش یافت. ✅  @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.912064442354559
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "📹 مراسلنا علي عواضة يطلعنا على أجواء الضاحية الجنوبية لبيروت اليوم https://almanar.com.lb/article/791327/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9029549282365815
-    },
-    {
-      "channelId": "idfonline",
-      "channel": "IDF",
-      "text": "תצפיות צה&quot;ל זיהו הבוקר תנועה חשודה סמוך ליישוב חמדיה שבמרחב חטיבת הבקעה והעמקים.לוחמי צה&quot;ל ולוחמי יחידת יג&quot;ל של משטרת ישראל הוזנקו לנקודה ועצרו רכב ובו שלושה חשודים https://t.co/gZaMaQbju7  On May 23, 2023 at 04:52PM Read more via Twitter @idfonline @idfonline",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.819613420621686
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران:  المصدر للميادين: رغم ثرثراتهم الممجوجة أدرك المحور الأميركي الإسرائيلي مدى التماسك المجتمعي داخل إيران",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 0.8151344856121179
+      "semantic_danger_knn": 0.9596045227592704
     }
   ]
 }
