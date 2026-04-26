@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-04-25T23:57:45.279Z",
+  "last_updated": "2026-04-26T06:30:22.837Z",
   "tension": {
     "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.48",
-    "global_norm_sentiment": "-0.24"
+    "global_knn_danger": "0.45",
+    "global_norm_sentiment": "-0.23"
   },
   "timeline": [
-    {
-      "time": "2026-04-18T11:09:28.874Z",
-      "danger": 0.497,
-      "sentiment": -0.173,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.31,
-          "sentiment": -0.767
-        },
-        "OSINTdefender": {
-          "danger": 0.449,
-          "sentiment": -0.233
-        },
-        "irna_1313": {
-          "danger": 0.478,
-          "sentiment": 0.067
-        },
-        "sepah_pasdaran": {
-          "danger": 0.276,
-          "sentiment": -0.367
-        },
-        "almanarnews": {
-          "danger": 0.425,
-          "sentiment": -0.2
-        },
-        "C_Military1": {
-          "danger": 0.855,
-          "sentiment": 0
-        },
-        "almayadeen": {
-          "danger": 0.675,
-          "sentiment": 0.3
-        },
-        "QudsN": {
-          "danger": 0.549,
-          "sentiment": -0.4
-        }
-      }
-    },
     {
       "time": "2026-04-18T14:11:34.624Z",
       "danger": 0.512,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.1
         }
       }
+    },
+    {
+      "time": "2026-04-26T06:30:22.837Z",
+      "danger": 0.454,
+      "sentiment": -0.231,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.342,
+          "sentiment": -0.3
+        },
+        "OSINTdefender": {
+          "danger": 0.457,
+          "sentiment": -0.7
+        },
+        "irna_1313": {
+          "danger": 0.524,
+          "sentiment": 0.133
+        },
+        "sepah_pasdaran": {
+          "danger": 0.307,
+          "sentiment": -0.367
+        },
+        "almanarnews": {
+          "danger": 0.294,
+          "sentiment": -0.433
+        },
+        "C_Military1": {
+          "danger": 0.488,
+          "sentiment": -0.133
+        },
+        "almayadeen": {
+          "danger": 0.448,
+          "sentiment": 0.033
+        },
+        "QudsN": {
+          "danger": 0.73,
+          "sentiment": -0.409
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2280,7 +2280,7 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.3583669769717122
+      "knn_danger_metric": 0.34161293345689775
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.548694015846999
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.523906737296849
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.3263873560161734
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.3069644707702565
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.26666666666666666,
-      "knn_danger_metric": 0.357379648625183
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.2939701734072948
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.372064929560546
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.487584512716666
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.581386919405067
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.44831685535488985
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.8296118003098312
+      "num_messages": 11,
+      "raw_sentiment": -0.4090909090909091,
+      "knn_danger_metric": 0.729524252734368
     }
   },
   "semantic_logs": [
@@ -2334,10 +2334,17 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "📹 خروقات متواصلة جنوبًا…والدولة اللبنانية في مرمى التساؤلات https://almanar.com.lb/article/794597/?s=tg",
-      "absolute_sentiment": 0.5,
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "ובמעבר חד לבחירות המקומיות הפלסטיניות שנערכו אתמול:  רשימת עצמאים המזוהה עם הפת&quot;ח זכתה אתמול בבחירות המקומיות שנערכו בדיר אלבלח במרכז רצועת עזה. מבין כל הרשויות המקומיות ברצועה - הבחירות נערכו רק בדיר אלבלח - שיעור ההצבעה הסופי עמד על 21%.  ## גם באיו&quot;ש רשימות הפת&quot;ח ניצחו ע&quot;פ רוב. הפת&quot;ח חגגה ופרסמה כרוז לפיו תוצאות הבחירות הן למעשה משאל עם שהראה את התמיכה בפת&quot;ח.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️عامر رامش، عضو گروهک تروریستی جیش‌الظلم که در عملیات ضدتروریستی چابهار دستگیر شده بود، بامداد امروز پس از تأیید حکم در دیوان عالی کشور، به دار مجازات آویخته شد.   ✅  @sepah_pasdaran",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2350,86 +2357,79 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: الطيران الحربي الإسرائيلي يستهدف بلدة البازورية في قضاء صور",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي بغارة تستهدف أطراف بلدة زبقين",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي شرقي مدينة خان يونس جنوبي قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "&quot;سي أن أن&quot;: &quot;إسرائيل&quot; سوّت هذا الشهر قرى كاملة في جنوب لبنان بالأرض بحسب صور أقمار صناعية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: إطلاق نار من آليات الاحتلال شرقي مدينة غزة",
+      "text": "فلسطين المحتلة: مراسل الميادين: استشهاد 3 فلسطينيين برصاص قوات الاحتلال الإسرائيلي في اعتداءين منفصلين جنوب مدينة غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال بلدة عتيل، شمال طولكرم.",
+      "text": "المستوطنون يقتلعون الليلة نحو 400 شجرة زيتون في أراضي المزارعين في سهل ترمسعيا شمال رام الله.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل| وصول 3 شهداء اثنين منهم بالقرب من دوار الكويت وشهيد بالقرب من مسجد السقا بمنطقة المغراقة جراء استهدافهم من الاحتلال جنوب مدينة غزة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "الوكالة الوطنية اللبنانية: طيران الاحتلال استهدف ليلا بلدتي الشعيتية والقليلة ونفذ تفجيرات في الخيام والطيبة  واستهدف بالقذائف المدفعية أطراف بلدة شمع.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة تقوع جنوب شرق بيت لحم، برفقة جرافة عسكرية",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تواصل اقتحام مخيم عسكر الجديد شرق نابلس.",
+      "text": "إصابات واعتقالات خلال مداهمات الاحتلال لمناطق الضفة  https://qudsn.co/post/215412",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال مخيم عسكر القديم شرق نابلس",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تغلق بالسواتر الترابية مداخل بلدة تقوع، جنوب شرق بيت لحم.",
+      "text": "صحيفة &quot;هآرتس&quot;: انتحار أكثر من 10 جنود من جيش الاحتلال منذ بداية العام، ومن بينهم 6 هذا الشهر لوحده.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم مدينة نابلس من حاجز دير شرف.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صحيفة &quot;إسرائيل اليوم&quot; العبرية - يوآف ليمور: من الصعب الافتراض أن الهجمات الآن ستردع حزب الله، الذي يثبت قدرة تحمل وتصميم أعلى مما كان متوقعاً قبل الحرب. التنظيم يدرك أن &quot;إسرائيل&quot; هي التي تتعرض للضغط حالياً، ويستغل ذلك لمصلحته.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9961486516080662
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صفارات الإنذار تدوي في المالكية بالجليل الأعلى خشية تسلل طائرات مسيّرة.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.956418427463877
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   حرس الثورة: أعددنا معسكرات أسرى لجنود العدو   أعلن حرس الثورة الإسلامية في بيان بمناسبة ذكرى فشل العملية العسكرية الأمريكية في طبس، أن الهزائم المتكررة للولايات المتحدة تمثل امتدادًا لما وصفه بـ«إخفاقات البيت الأبيض» أمام إيران.   وأكد أن أي اعتداء جديد سيُواجَه بردّ يتجاوز توقعات العدو، وعلى مستوى ردع استراتيجي.   وأشار البيان إلى الجهوزية الكاملة للقوات المسلحة، لافتًا إلى أن مستوى التخطيط والاستعداد يشمل حتى تجهيز معسكرات لأسرى الحرب تحسّبًا لأي هجوم بري محتمل.   كما دعا الولايات المتحدة إلى مواجهة الواقع، وعدم الانجرار خلف سياسات الحكومة الإسرائيلية، مشيرًا إلى أن قواعدها في المنطقة تعرّضت لضربات قاسية ولم تعد قابلة لإعادة التأهيل.   وشدد البيان على أن السيطرة على مضيق هرمز ستبقى جزءًا أساسيًا من الاستراتيجية الإيرانية، مع استمرار السماح بمرور السفن التجارية، باستثناء السفن التابعة للولايات المتحدة وحلفائها.  #الإعلام_الحربي",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.8931242105844449
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   المتحدث باسم جيش العدو الإسرائيلي: في أعقاب الإنذار الذي تم تفعيله في منطقة المالكية، تم تحديد هدف جوي مشبوه وفُقد الاتصال به. انتهى الحدث.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.8863136466900846
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم مخيم العين، غرب نابلس.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
+      "text": "&quot;يسرائيل هيوم&quot; عن مسؤول رفيع لدى الاحتلال:  - نشكّ في وجود أي فائدة عسكرية من تجديد الحرب على حزب الله، ولا حلّ عسكري يمكنه منع قصف حزب الله لنا.  - الكابينيت الأمني والسياسي لم يوعز للجيش بالقضاء على القوة العسكرية لحزب الله بخلاف كل ما نشر عن الأمر وأي خطط عسكرية للقضاء على حزب الله غير واقعة لما تتطلبه من زيادة القوى البشرية في الجيش.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.8653682847151783
     }
   ]
 }
