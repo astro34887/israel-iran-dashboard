@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-04-28T07:57:13.616Z",
+  "last_updated": "2026-04-28T16:13:48.357Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.47",
-    "global_norm_sentiment": "-0.37"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.54",
+    "global_norm_sentiment": "-0.31"
   },
   "timeline": [
-    {
-      "time": "2026-04-19T21:52:57.902Z",
-      "danger": 0.49,
-      "sentiment": -0.247,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.511,
-          "sentiment": -0.8
-        },
-        "OSINTdefender": {
-          "danger": 0.483,
-          "sentiment": -0.2
-        },
-        "irna_1313": {
-          "danger": 0.489,
-          "sentiment": -0.233
-        },
-        "sepah_pasdaran": {
-          "danger": 0.392,
-          "sentiment": -0.633
-        },
-        "almanarnews": {
-          "danger": 0.396,
-          "sentiment": 0.133
-        },
-        "C_Military1": {
-          "danger": 0.44,
-          "sentiment": -0.2
-        },
-        "almayadeen": {
-          "danger": 0.547,
-          "sentiment": 0.1
-        },
-        "QudsN": {
-          "danger": 0.69,
-          "sentiment": -0.5
-        }
-      }
-    },
     {
       "time": "2026-04-19T23:55:59.879Z",
       "danger": 0.482,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.375
         }
       }
+    },
+    {
+      "time": "2026-04-28T16:13:48.357Z",
+      "danger": 0.541,
+      "sentiment": -0.31,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.536,
+          "sentiment": -0.533
+        },
+        "OSINTdefender": {
+          "danger": 0.509,
+          "sentiment": -0.5
+        },
+        "irna_1313": {
+          "danger": 0.495,
+          "sentiment": -0.533
+        },
+        "sepah_pasdaran": {
+          "danger": 0.414,
+          "sentiment": -0.3
+        },
+        "almanarnews": {
+          "danger": 0.453,
+          "sentiment": -0.133
+        },
+        "C_Military1": {
+          "danger": 0.589,
+          "sentiment": -0.2
+        },
+        "almayadeen": {
+          "danger": 0.873,
+          "sentiment": -0.5
+        },
+        "QudsN": {
+          "danger": 0.591,
+          "sentiment": -0.267
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2280,7 +2280,7 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.4680865212389004
+      "knn_danger_metric": 0.5357659537600199
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.5194341703544155
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.4952912478402853
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.3729920043470244
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.41406241037016595
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.32828218044663615
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.45264296383546654
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.8666666666666667,
-      "knn_danger_metric": 0.6520037612548463
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.5893285251621138
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.369827648138181
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.8729639411330177
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 12,
-      "raw_sentiment": -0.375,
-      "knn_danger_metric": 0.5025099043159544
+      "num_messages": 15,
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.5910351569443777
     }
   },
   "semantic_logs": [
@@ -2334,102 +2334,102 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "الاحتلال يعتقل فلسطينياً وزوجته ويُخطر بهدم 5 منازل وحظيرة أغنام في الخليل https://almanar.com.lb/article/801122/?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "&quot;جيش&quot; الاحتلال يعترف بإصابة جنديين أحدهما بحالة خطيرة نتيجة سقوط محلقة مفخخة في جنوب لبنان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: غارة إسرائيلية استهدفت بلدة جبال البطم",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: مهاجراني: الحكومة الإيرانية تبذل كل جهودها لدعم مسار الدبلوماسية كما أنها مستعدة لأي حرب",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: مهاجراني: هناك من يغرد 13 مرة في اليوم على وسائل التواصل الاجتماعي لإثارة القلق وتشتيت الرأي العام",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "هآرتس: انتحار 11 جنديا بجيش الاحتلال خلال 30 يوما.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "معطيات إسرائيلية: مليشيات المستوطنين نفذت 350 اعتداء في الضفة منذ بداية 2026   https://qudsn.co/post/215442",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة &quot;معاريف&quot; العبرية - آفي أشكينازي: عاد حزب الله إلى أيام المعادلات، وعادت &quot;إسرائيل&quot; إلى أيام ما قبل 7 أكتوبر 2023.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9986358496212903
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: مئات الآلاف من الإسرائيليين تلقوا رسائل تهديد من إيران: &quot;استعد لقصف صاروخي&quot;.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.956418427463877
-    },
-    {
-      "channelId": "irna_1313",
+      "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "🎥مهاجرانی: محکومیت حمله آمریکا به زیرساخت‌های ایران توسط کشورهای دنیا حاصل دیپلماسی فعال در این حوزه است  سخنگوی دولت در نشست خبری:   🔹کشورهای دنیا در نشستی که ۲۷ آوریل یعنی هفت اردیبهشت ماه در پایتخت قرقیزستان برگزار شد، حمله به زیرساخت‌های ارتباطی یک کشور از جمله ایران را مغایر با اصول حقوق بین‌الملل و منشور سازمان ملل دانستند و این موضوع ناشی از دیپلماسی فعالی است که در همه حوزه‌ها شکل گرفته است.  🔹وزارت ارتباطات و فناوری اطلاعات در این اجلاس توانست علاوه بر تقویت همکاری‌های دوجانبه و چند جانبه در حوزه فناوری‌های نوین، افزایش تاب آوری زیرساخت‌های دیجیتال و حفاظت از حاکمیت ملی و ایجاد هم افزایی در توسعه هوش مصنوعی در مراکز داده منطقه‌ای، این محکومیت(حمله به زیرساخت‌های ایران) را هم &nbsp;درج کند که بسیار اتفاق مبارکی است.  📌اخبار ایرنا را در بله | روبیکا | سروش پلاس | ایتا&nbsp;| جهان دنبال کنید @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.8632444057467678
+      "text": " ️ سخنگوی ارتش: در ابتدای جنگ، جنگنده‌های ارتش به پایگاه‌های آمریکا در کویت، قطر و اربیل عراق حمله کردند.   ✅  @sepah_pasdaran",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "idfonline",
-      "channel": "IDF",
-      "text": "תצפיות צה&quot;ל זיהו הבוקר תנועה חשודה סמוך ליישוב חמדיה שבמרחב חטיבת הבקעה והעמקים.לוחמי צה&quot;ל ולוחמי יחידת יג&quot;ל של משטרת ישראל הוזנקו לנקודה ועצרו רכב ובו שלושה חשודים https://t.co/gZaMaQbju7  On May 23, 2023 at 04:52PM Read more via Twitter @idfonline @idfonline",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.819613420621686
-    },
-    {
-      "channelId": "irna_1313",
+      "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "🔸 افزایش تعداد آمریکایی‌هایِ خواستار تغییر تابعیت/«نمی خواهیم بخشی از رژیم خودکامه باشیم»  🔹روزنامه گاردین نوشت، هزاران شهروند آمریکایی به دلیل سیاست های دونالد ترامپ رئیس جمهوری این کشور در خودکامگی به دنبال تغییر تابعیت خود هستند.    🔹به نوشته گاردین، در دهه اول قرن جدید، تعداد شهروندان آمریکایی که از تابعیت خود صرف نظر می کردند، سالانه صدها نفر بود؛ از سال ۲۰۱۴، این تعداد به هزاران نفر رسیده است. انتظار می ‌رود امسال تعداد بیشتری اقدام کنند.  مشروح این گزارش را در سایت ایرنا بخوانید:  https://irna.ir/xjXbt6  📌اخبار ایرنا را در بله | روبیکا | سروش پلاس | ایتا&nbsp;| جهان دنبال کنید @IRNA_1313",
+      "text": "☑️فعال شدن آژیر هشدار در شمال فلسطین اشغالی  رسانه‌های عبری از فعال شدن آژیرهای هشدار در شهرک «مسگاف عام» در شمال فلسطین اشغالی خبر دادند.   @sepah_pasdaran",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.8013055075945905
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   إذاعة جيش العدو الإسرائيلي: أطلق حزب الله قبل قليل طائرة بدون طيار هي الثانية لهذا اليوم اتجاه قواتنا جنوبي لبنان.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.7763013683158743
-    },
-    {
-      "channelId": "irna_1313",
+      "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "🎥مهاجرانی: نیروگاه نکا را در مدت ۹۹ روز به مدار تولید برق وارد کردیم  سخنگوی دولت در نشست خبری: 🔹ما امروز در نیروگاه طرشت حضور داریم؛ نیروگاهی که در سال ۱۳۳۸ افتتاح شد. طبیعی است که در طول این سال‌ها باید خداقوت بگوییم به همه کسانی که کمک کردند دانش این حوزه در کشور ما بومی شود.  🔹امروز به لطف تلاش همه عزیزان توانستیم رکوردی قابل توجه ثبت کنیم. یک واحد جدید نیروگاهی در نکا را تنها در مدت ۹۹ روز به مدار تولید برق وارد کردیم؛ رکوردی که واقعاً از شگفتی‌های مهندسی به شمار می‌آید.  🔹در روزهای جنگ، نیروگاه‌ها از جمله مکان‌هایی بودند که به‌شدت در معرض تهدید قرار داشتند. با این حال، یکی از افتخارات این صنعت آن بود که چراغ هیچ خانه‌ای خاموش نشد؛ حتی در شرایطی که بیش از دو هزار حمله به صنعت آب و برق صورت گرفت.   🔹نقش خبرنگاران تنها اطلاع‌رسانی نیست، بلکه روایت دستاوردها و انعکاس مسیر بومی‌سازی دانش در کشور است.   🔹افرادی از گروه‌های جهادی گرفته تا مهندسان، کارگران و تکنسین‌ها، بی‌وقفه و بی‌صدا تلاش کردند.  📌اخبار ایرنا را در بله | روبیکا | سروش پلاس | ایتا&nbsp;| جهان دنبال کنید @IRNA_1313",
+      "text": "☑️ قیمت نفت برنت دوباره به مرز ۱۱۲ دلار رسید   @sepah_pasdaran",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.7619147289894375
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: قصف إسرائيلي فسفوري على يحمر شقيف",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: إطلاق رشقة صاروخية باتجاه تحشدات قوات الاحتلال في القطاع الشرقي جنوبي لبنان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: عدوان إسرائيلي بغارة على بلدة جويا",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: عدوان إسرائيلي بغارة استهدفت بلدة الطيري",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: عدوان إسرائيلي بغارتين على بلدة الشهابية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: 4 شهداء ومصابون من جراء استهداف طائرات الاحتلال مركبة قرب دوار حيدر غربي مدينة غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: حرس الثورة: تفكيك خلية ارهابية انفصالية شمال غربي البلاد وضبط أسلحة ومعدات اتصال متطورة كانت بحوزتها",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: الوكالة اللبنانية: إصابات في عدوان طيران الاحتلال على بلدتي جويا وطيردبا جنوب البلاد",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "وسائل إعلام إسرائيلية: تظاهرة &quot;للحريديم&quot; في شرق &quot;تل أبيب&quot; احتجاجاً على اعتقال متهربين من التجنيد في &quot;الجيش&quot;",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: الوكالة اللبنانية: طيران الاحتلال يقصف بالفسفور بلدتي برعشيت وشقرا جنوب البلاد",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: الوكالة اللبنانية: طيران الاحتلال يعتدي على بلدات كونين والغندورية وتولين والصوانة وقبريخا جنوب البلاد",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
     }
   ]
 }
