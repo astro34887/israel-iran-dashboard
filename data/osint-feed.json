@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-04-29T00:08:20.254Z",
+  "last_updated": "2026-04-29T09:23:25.447Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.19"
+    "global_knn_danger": "0.56",
+    "global_norm_sentiment": "-0.32"
   },
   "timeline": [
-    {
-      "time": "2026-04-20T11:58:11.851Z",
-      "danger": 0.472,
-      "sentiment": -0.21,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.377,
-          "sentiment": -0.3
-        },
-        "OSINTdefender": {
-          "danger": 0.534,
-          "sentiment": -0.1
-        },
-        "irna_1313": {
-          "danger": 0.477,
-          "sentiment": -0.367
-        },
-        "sepah_pasdaran": {
-          "danger": 0.365,
-          "sentiment": -0.333
-        },
-        "almanarnews": {
-          "danger": 0.329,
-          "sentiment": 0.067
-        },
-        "C_Military1": {
-          "danger": 0.598,
-          "sentiment": -0.267
-        },
-        "almayadeen": {
-          "danger": 0.374,
-          "sentiment": -0.333
-        },
-        "QudsN": {
-          "danger": 0.72,
-          "sentiment": -0.333
-        }
-      }
-    },
     {
       "time": "2026-04-20T16:02:42.845Z",
       "danger": 0.486,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.1
         }
       }
+    },
+    {
+      "time": "2026-04-29T09:23:25.447Z",
+      "danger": 0.555,
+      "sentiment": -0.323,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.522,
+          "sentiment": -0.533
+        },
+        "OSINTdefender": {
+          "danger": 0.443,
+          "sentiment": -0.333
+        },
+        "irna_1313": {
+          "danger": 0.456,
+          "sentiment": 0.067
+        },
+        "sepah_pasdaran": {
+          "danger": 0.348,
+          "sentiment": -0.5
+        },
+        "almanarnews": {
+          "danger": 0.457,
+          "sentiment": -0.267
+        },
+        "C_Military1": {
+          "danger": 0.736,
+          "sentiment": -0.4
+        },
+        "almayadeen": {
+          "danger": 0.9,
+          "sentiment": -0.6
+        },
+        "QudsN": {
+          "danger": 0.74,
+          "sentiment": -0.5
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.37809785184737277
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.5220328875391421
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.4486526375026314
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.44318349573031895
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.48786669704513
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.45580599944518946
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.34339883761961815
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.34839166081185396
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.45422426805583066
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.4567957719019297
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.5408433412517749
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.7362794078442445
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.6305099593081593
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.9
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.9353013289396379
+      "num_messages": 10,
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.7400892452351221
     }
   },
   "semantic_logs": [
@@ -2334,101 +2334,101 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "الحرس الثوري الإيراني يعلن اعتقال 4 من عناصر “جماعات انفصالية” https://almanar.com.lb/article/803197/?s=tg",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "דובר צה&quot;ל על החיסול אתמול בעיר עזה👆: חוסל איאד א-שנבארי רמ&quot;ח מבצעים במטה המודיעין של חמאס. הוא לקח חלק בתכנון טבח ה 7.10.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️ شهرهای موشکی سپاه چگونه ساخته شد؟   ✅  @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة:  إطلاق نار من آليات الاحتلال شرقي مخيم جباليا شمالي القطاع",
+      "text": "فلسطين المحتلة: مراسل الميادين: إصابة مواطنة برصاص جيش الاحتلال في بلدة بيت لاهيا شمالي قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي شمال شرقي مدينة غزة",
+      "text": "فلسطين المحتلة: مراسل الميادين: إصابة شاب بشظايا قنبلة كواد كابتر في محيط حي الشيخ ناصر شرقي مدينة خان يونس جنوبي قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: &quot;جيش&quot; الاحتلال ينفذ تفجيراً في بلدة الناقورة في قضاء صور جنوبي لبنان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيرواني: يجب محاسبة المسؤولين عن الانتهاكات الجسيمة للقانون الدولي وجرائم الحرب التي ارتكبت بحق الفلسطينيين",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي شرقي خان يونس جنوبي قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال لمخيم بلاطة شرق نابلس.",
+      "text": "فلسطين المحتلة: مراسل الميادين: استشهاد مسعف في عدوان طيران الاحتلال قرب دوار التوام شمال غربي قطاع غزة",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال لمخيم العروب، شمال الخليل.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة كفر قدوم شرق قلقيلية",
+      "text": "لبنان: مراسل الميادين في الجنوب: طيران الاحتلال يعتدي على بلدة رشاف",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال لبلدة كفر قدوم شرق قلقيلية",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة عناتا، شرق مدينة القدس المحتلة.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم منطقة إسكان اكتابا شرق طولكرم",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم مخيم عقبة جبر، في مدينة أريحا.",
+      "text": "لبنان: الوكالة الوطنية للإعلام: طيران الاحتلال يعتدي على بلدتي الطيري وكفرا في قضاء بنت جبيل جنوب البلاد",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "متابعة | قوات الاحتلال تداهم منزلاً خلال اقتحام مخيم عقبة جبر، في مدينة أريحا.",
+      "text": "لبنان: مراسل الميادين: طيران الاحتلال يعتدي على أطراف بلدة الشعيتية جنوبي البلاد",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: مدفعية الاحتلال تعتدي على بلدة كونين في قضاء بنت جبيل جنوبي البلاد",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: شهيدان في عدوان طيران الاحتلال على طريق بلدة الشعيتية جنوبي البلاد",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: طيران الاحتلال يعتدي على دراجة نارية في بلدة خربة سلم جنوبي البلاد",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: قصف مدفعي إسرائيلي يستهدف بلدة بيت ياحون",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: غارة معادية من الطيران الحربي الإسرائيلي تستهدف بلدة برعشيت",
       "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: غارة معادية من مسيّرة إسرائيلية استهدفت مدخل بلدة المنصوري جنوبي مدينة صور",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
   ]
