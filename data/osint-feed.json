@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-04-30T15:57:27.872Z",
+  "last_updated": "2026-04-30T20:17:29.048Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.28"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.48",
+    "global_norm_sentiment": "-0.37"
   },
   "timeline": [
-    {
-      "time": "2026-04-21T15:55:08.140Z",
-      "danger": 0.463,
-      "sentiment": -0.22,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.45,
-          "sentiment": -0.467
-        },
-        "OSINTdefender": {
-          "danger": 0.57,
-          "sentiment": -0.1
-        },
-        "irna_1313": {
-          "danger": 0.462,
-          "sentiment": -0.433
-        },
-        "sepah_pasdaran": {
-          "danger": 0.339,
-          "sentiment": -0.633
-        },
-        "almanarnews": {
-          "danger": 0.394,
-          "sentiment": -0.2
-        },
-        "C_Military1": {
-          "danger": 0.487,
-          "sentiment": -0.033
-        },
-        "almayadeen": {
-          "danger": 0.519,
-          "sentiment": 0
-        },
-        "QudsN": {
-          "danger": 0.458,
-          "sentiment": -0.2
-        }
-      }
-    },
     {
       "time": "2026-04-21T19:54:26.733Z",
       "danger": 0.497,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.233
         }
       }
+    },
+    {
+      "time": "2026-04-30T20:17:29.048Z",
+      "danger": 0.478,
+      "sentiment": -0.37,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.34,
+          "sentiment": -0.7
+        },
+        "OSINTdefender": {
+          "danger": 0.526,
+          "sentiment": -0.8
+        },
+        "irna_1313": {
+          "danger": 0.385,
+          "sentiment": 0
+        },
+        "sepah_pasdaran": {
+          "danger": 0.36,
+          "sentiment": -0.133
+        },
+        "almanarnews": {
+          "danger": 0.45,
+          "sentiment": -0.167
+        },
+        "C_Military1": {
+          "danger": 0.64,
+          "sentiment": -1
+        },
+        "almayadeen": {
+          "danger": 0.454,
+          "sentiment": -0.6
+        },
+        "QudsN": {
+          "danger": 0.671,
+          "sentiment": -0.167
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.45596232802787723
+      "raw_sentiment": -0.7,
+      "knn_danger_metric": 0.34040568218457457
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.5257923397482223
+      "raw_sentiment": -0.8,
+      "knn_danger_metric": 0.5256191141749599
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": 0,
-      "knn_danger_metric": 0.45057317372820027
+      "knn_danger_metric": 0.3851229317737133
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.47707883480833563
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.3601008273128573
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.4893589710484781
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.44961980116289546
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.7666666666666667,
-      "knn_danger_metric": 0.7037033313604323
+      "raw_sentiment": -1,
+      "knn_danger_metric": 0.6399834476041577
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.6874269632363014
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.45375349135143384
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.531118893135083
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.6711651316012591
     }
   },
   "semantic_logs": [
@@ -2334,73 +2334,45 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": " ️قیمت نفت به رقم تاریخی ۱۲۶ دلار رسید. ✅   @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 15 العبرية: حزب الله نفذ عملية صباح اليوم حيث أطلق 8 محلّقات مفخخة اتجاه القوات الإسرائيلية في وقت واحد من أماكن مختلفة.  #الإعلام_الحربي",
+      "text": "#إعلام_العدو   مراسل القناة 15 العبرية: حزب الله يتبنى 10 عمليات ضد قوات الجيش الإسرائيلي خلال اليوم وهو أعلى رقم منذ إعلان وقف إطلاق النار.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "&quot;جيش&quot; الاحتلال الإسرائيلي: مقتل جندي في لواء &quot;غولاني&quot; وإصابة آخر خلال معارك في جنوب لبنان في إثر هجوم بمحلقة مفخخة",
+      "text": "إيران:  قاليباف ساخراً من تصريحات هيغسيث: في ضوء ذلك .. حظاً موفقاً لكم في محاصرة دولة بهذه الحدود.. مع ملاحظة أن 1 كم = 0.62 ميل",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: عدوان إسرائيلي على بلدة النبطية الفوقا",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: الجندي الذي قتل اليوم هو الثالث في خلال أيام بسبب محلقات مفخخة في جنوب لبنان",
+      "text": "إيران:  بقائي: الأميركيون يرتكبون ما هو أسوء من تشديد العقوبات وهو القرصنة والسطو البحري ضد السفن الإيرانية",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
+      "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: نحن أمام سلسلة متواصلة من الأحداث التي ينجح فيها حزب الله في إلحاق الأذى بنا تدريجياً في جنوب لبنان",
+      "text": "وزارة المالية تعلن عن أسعار المحروقات والغاز لشهر 5 المقبل",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
+      "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: اعتداءات إسرائيلية على بلدات حناويه والحميري والبازورية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: إصابة جنديين إسرائيليين أحدهما جروحه خطرة بمحلّقة مفخخة في محور بنت جبيل جنوبي لبنان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: عدوان إسرائيلي على بلدة عربصاليم في قضاء النبطية",
+      "text": "جانب من اقتحام قوات الاحتلال لبلدة بيت فوريك، شرق نابلس",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "وداع حزين للشهيد عبد ربه يوسف أبو مسامح، الذي ارتقى بقصف الاحتلال أثناء التصدي لإحدى عصابات العملاء في جنوب مدينة خان يونس، جنوب قطاع غزة.",
-      "absolute_sentiment": 1,
+      "text": "مصادر محلية: قوات الاحتلال تقتحم مخيم الجلزون شمال رام الله",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2413,23 +2385,51 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة &quot;معاريف&quot; العبرية: نجح حزب الله ببراعة في إلحاق أضرار جسيمة ببطارية مدفعية داخل الأراضي الإسرائيلية.  #الإعلام_الحربي",
+      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: من الضربة التي نفذها حزب الله صباح اليوم في شوميراه.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9979930747339437
+      "semantic_danger_knn": 0.9929755215884677
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: حتى الآن، منظومات القبة الحديدية، والرادارات، والقواعد الحساسة، ومجموعة من الأهداف الأخرى مكشوفة لهجمات حزب الله.  #الإعلام_الحربي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9929755215884677
+      "channelId": "OSINTdefender",
+      "channel": "Global_OSINT",
+      "text": "#EU #Russia   Ursula von der Leyen&#39;s statement reflects the EU&#39;s view that Russia&#39;s government restricts its citizens&#39; access to information, creating a digital iron curtain. This analogy suggests that such barriers, like historical walls, are unsustainable in the long term.  Subscribe to @OSINTdefender Chat room",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9755278300071598
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل | منصة للمستوطنين: مقتل أحد جنود الاحتلال وإصابة عدد من الجنود بينهم اثنان بحالة خطيرة؛ جرّاء انفجار محلّقة لحزب الله في قوة لجيش الاحتلال، صباح اليوم.",
+      "text": "مسيرة نحو القنصلية الإسرائيلية في إسطنبول احتجاجا على اعتراض أسطول الصمود",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9676318739878256
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | إصابة شاب برصاص الاحتلال قرب الجدار الفاصل في بلدة الرام، شمال القدس المحتلة.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.98312035001572
+      "semantic_danger_knn": 0.9596045227592704
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "📹 آخر التطورات في جنوب لبنان مع مراسلنا سامر الحاج علي https://almanar.com.lb/article/746102/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9451672518425872
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | طيران الاحتلال يشن غارات على بلدات ومناطق في جنوب لبنان: تبنين، أطراف تولين، أطراف سلعا ودير كيفا،",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.941966998463743
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 15 العبرية: حزب الله نفذ عملية صباح اليوم حيث أطلق 8 محلّقات مفخخة اتجاه القوات الإسرائيلية في وقت واحد من أماكن مختلفة.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9221248212972659
     }
   ]
 }
