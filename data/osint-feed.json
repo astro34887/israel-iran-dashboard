@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-01T19:55:35.589Z",
+  "last_updated": "2026-05-01T22:35:58.366Z",
   "tension": {
     "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.48",
-    "global_norm_sentiment": "-0.09"
+    "global_knn_danger": "0.46",
+    "global_norm_sentiment": "-0.28"
   },
   "timeline": [
-    {
-      "time": "2026-04-22T19:56:01.194Z",
-      "danger": 0.485,
-      "sentiment": -0.36,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.594,
-          "sentiment": -0.667
-        },
-        "OSINTdefender": {
-          "danger": 0.481,
-          "sentiment": -0.5
-        },
-        "irna_1313": {
-          "danger": 0.445,
-          "sentiment": -0.667
-        },
-        "sepah_pasdaran": {
-          "danger": 0.286,
-          "sentiment": -0.367
-        },
-        "almanarnews": {
-          "danger": 0.373,
-          "sentiment": -0.233
-        },
-        "C_Military1": {
-          "danger": 0.49,
-          "sentiment": -0.433
-        },
-        "almayadeen": {
-          "danger": 0.605,
-          "sentiment": -0.467
-        },
-        "QudsN": {
-          "danger": 0.623,
-          "sentiment": -0.133
-        }
-      }
-    },
     {
       "time": "2026-04-22T22:34:00.814Z",
       "danger": 0.537,
@@ -2261,6 +2214,53 @@
           "sentiment": 0.4
         }
       }
+    },
+    {
+      "time": "2026-05-01T22:35:58.366Z",
+      "danger": 0.46,
+      "sentiment": -0.283,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.486,
+          "sentiment": -0.533
+        },
+        "OSINTdefender": {
+          "danger": 0.448,
+          "sentiment": -0.267
+        },
+        "irna_1313": {
+          "danger": 0.507,
+          "sentiment": -0.5
+        },
+        "sepah_pasdaran": {
+          "danger": 0.292,
+          "sentiment": -0.667
+        },
+        "almanarnews": {
+          "danger": 0.506,
+          "sentiment": 0.133
+        },
+        "C_Military1": {
+          "danger": 0.39,
+          "sentiment": 0.1
+        },
+        "almayadeen": {
+          "danger": 0.308,
+          "sentiment": -0.6
+        },
+        "QudsN": {
+          "danger": 0.71,
+          "sentiment": -0.367
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2280,7 +2280,7 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.48380293972442473
+      "knn_danger_metric": 0.4855001609501209
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 11,
+      "num_messages": 15,
       "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.5096072732672852
+      "knn_danger_metric": 0.5067834420438964
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.48759801144632076
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.2921710371628697
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.23333333333333334,
-      "knn_danger_metric": 0.4469698534900306
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.5060875583641027
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.3703035252035158
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.3903018399224641
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.5798645475365773
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.3076347933734559
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.4,
-      "knn_danger_metric": 0.5691022982674533
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.7100372285773499
     }
   },
   "semantic_logs": [
@@ -2341,59 +2341,66 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": " ️گردان‌های قسام با انتشار کلیپ جدیدی، اتحاد مقدس محور مقاومت را به نمایش گذاشتند.  ویدئویی که ضربات موشکی سپاه را با عملیات های انفرادی در فلسطین در هم می‌آمیزد و عجز دشمن را از قدس تا خلیج فارس به تصویر می‌کشد.(با زیرنویس فارسی)  ✅ ️ @sepah_pasdaran",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": " ️  ویدیوی جدید از لحظه اصابت موشک ایرانی به پایگاه آمریکا در بحرین قبل از توافق آتش بس   ✅  @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": " ️ تصویر تازه‌منتشرشده از لحظه اصابت پهپاد ایرانی به پایگاه آمریکا در کویت   ✅  @sepah_pasdaran",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في جنوب لبنان: غارة إسرائيلية استهدفت بلدة مجدل سلم",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: قيادة بحرية حرس الثورة: تم تحديد معادلات وقواعد الإدارة الجديدة لمنطقة الخليج وفقاً لأوامر قائد الثورة والجمهورية",
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 أوكرانيا | زيلينسكي يعلن زيادة رواتب العسكريين وخطة لتسريح تدريجي ضمن إصلاحات الجيش https://almanar.com.lb/article/812897/?s=tg",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية عن مسؤول سابق في &quot;أمان&quot;: لا يوجد حل للتهديدات في لبنان وينبغي سحب الجنود فوراً لأننا لن نهزم حزب الله",
+      "text": "فلسطين المحتلة: وزارة الصحة الإسرائيلية: الإصابات التي تم تسجيلها في مستشفيات &quot;إسرائيل&quot; من الجبهة الشمالية بعد &quot;وقف إطلاق النار&quot; مع لبنان 245 إصابة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اعتقال مجندة بجيش الاحتلال في تركيا يشعل أزمة دبلوماسية ويستدعي تدخلاً أمريكياً  تفاصيل أكثر:",
+      "text": "وسائل إعلام إسرائيلية: تفعيل صفارات الإنذار في 24 مستوطنة وإطلاق عدد من صواريخ الإعتراض في شمال الجولان خشية من تسلل مسيرة",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم بلدة تقوع، جنوب شرق بيت لحم.",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة بيت أمر شمال الخليل",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام قوات الاحتلال مخيم العروب شمال الخليل",
       "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل: آليات الاحتلال تطلق نيرانها تجاه المناطق الشرقية لمدينة خان يونس جنوب قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل: حزب الله يعلن تنفيذ 9 عمليات ضد جيش الاحتلال خلال اليوم، شملت إطلاق مسيّرات وقصف تجمعات واستهداف دبابات",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مجددا… آليات الاحتلال تطلق نيرانها تجاه حي التفاح شرقي مدينة غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تقتحم بلدة عنبتا شرق مدينة طولكرم",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2404,11 +2411,11 @@
       "semantic_danger_knn": 0.9914631632524534
     },
     {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "الاحتلال يعتدي بوحشية على نشطاء &quot;أسطول الصمود&quot; الذين اختطفهم، قبيل إطلاق سراحهم في جزيرة كريت اليونانية.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.94962074608211
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صفارات الإنذار تدوي في كريات شمونه ومحيطها وشمالي الجولان المحتل خشية تسلل طائرات مسيّرة.  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.956418427463877
     },
     {
       "channelId": "almanarnews",
@@ -2423,13 +2430,6 @@
       "text": "#الجمهورية_الإسلامية   رسالة قائد الثورة الإسلامية آية الله السيد القائد مجتبى الخامنئي بمناسبة عيد العمال وعيد المعلم  بسم الله الرحمن الرحيم  يُحتفى في يومي ١١ و١٢ مايو بمكانة العامل والمعلم. فإلى جانب الاحتفاء اللفظي والرمزي، وهو أمر محمود في حد ذاته، فإن تقدم أي بلد مرهون بجناحي العلم والعمل. للمعلم دور محوري في المرحلة الأولى من تحقيق هذا الهدف، فهو يتحمل مسؤولية جسيمة في تعليم المعرفة وتنمية المهارات، وله دور مهم في بناء وعي الجيل القادم وتشكيل هويته. إن الطلاب والتلاميذ الذين ينشؤون جنبًا إلى جنب مع كل معلم، سيطبقون في المستقبل القريب المهارات والمعارف التي اكتسبوها، وربما يعكسون سلوكيات وأقوال معلميهم في طباعهم وتصرفاتهم وكلامهم في مختلف المجالات، من محيط الأسرة الدافئ إلى مكان العمل والشارع، كمرآة تعكس تلك التربية.  من جهة أخرى، يُعد ميدان العمل ساحة واسعة تمتد في أنحاء البلاد، من المنازل والمكاتب والوحدات التجارية والمساجد إلى المزارع والورش والمصانع والمناجم ومختلف المهن الخدمية. وكلما ازداد هذا المجال اتصافًا بالجد والاجتهاد والالتزام، وهما من ركائز كل نجاح كبير، كان تقدم البلاد أكثر وأفضل.  ونعلم أن العامل، في ظل التزامه وحسن أدائه، قد يبلغ أحيانًا مكانة يستحق معها أن تُقبَّل يده الماهرة تقديرًا وامتنانًا، كما تُقبَّل يد المعلم والمربي. وهذا الأمر يتأتى من التربية الأولى على يد الوالدين، ثم من خلال التعلم على يد المعلم. والآن، وبعد أكثر من سبعة وأربعين عامًا من الكفاح، استطاعت الجمهورية الإسلامية الإيرانية، بالاعتماد على توفيق الله، أن تثبت للعالم في المواجهة العسكرية مع أعداء تقدمها جانبًا من قدراتها الملحوظة، وعليها اليوم أن تُحبطهم وتهزمهم أيضًا في ميدان الجهاد الاقتصادي والثقافي. المعلمون هم الحلقة الأكثر تأثيرًا في المواجهة الثقافية، والعمال من أبرز العناصر في المواجهة الاقتصادية، حتى يمكن القول إنهما يشكلان العمود الفقري للمجالين الثقافي والاقتصادي. لذلك، من الضروري أن يدركوا أهمية دورهم الذي يتجاوز كونه مجرد وظيفة يتقاضون عليها أجرًا. وبالتوازي مع ذلك، ينبغي التأكيد على أن التكريم اللفظي السنوي، رغم كونه مناسبًا، لا يكفي، بل يجب أن يكون التقدير عمليًا وأعمق. وكما يُظهر الشعب الإيراني دعمه لقواته المسلحة من خلال حضوره في الساحات، فمن المناسب أن يُظهر دعمًا قويًا كذلك للمعلمين والعمال.  ومن ذلك، ينبغي تعزيز مشاركة أسر الطلاب في إدارة المدارس والجامعات، ودعم العمال المنتجين عبر إعطاء الأولوية لاستهلاك المنتجات المحلية. كما ينبغي على أصحاب الأعمال، خاصة المتضررين، تجنب تسريح العمال قدر الإمكان، واعتبار كل عامل ثروة للمؤسسة، وعلى الحكومة دعم هذا التوجه قدر المستطاع.  يا إيران العزيزة، كما أصبحتِ قوة عسكرية بعد سنوات من الجهد، فإنكِ بإذن الله ستواصلين طريق التقدم والازدهار عبر ترسيخ الهوية الإيرانية الإسلامية في نفوس الشباب على يد المعلمين، ومن خلال دعم الإنتاج المحلي الذي هو ثمرة جهود العمال، لتصلي إلى قمم التقدم والتميز بإذن الله.  والسلام عليكم ورحمة الله وبركاته  السيد مجتبى حسيني الخامنئي  #الإعلام_الحربي",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 0.8917744874822854
-    },
-    {
-      "channelId": "idfonline",
-      "channel": "IDF",
-      "text": "תצפיות צה&quot;ל זיהו הבוקר תנועה חשודה סמוך ליישוב חמדיה שבמרחב חטיבת הבקעה והעמקים.לוחמי צה&quot;ל ולוחמי יחידת יג&quot;ל של משטרת ישראל הוזנקו לנקודה ועצרו רכב ובו שלושה חשודים https://t.co/gZaMaQbju7  On May 23, 2023 at 04:52PM Read more via Twitter @idfonline @idfonline",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.819613420621686
     }
   ]
 }
