@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-02T14:15:46.308Z",
+  "last_updated": "2026-05-02T17:32:46.477Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.51",
-    "global_norm_sentiment": "-0.25"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.49",
+    "global_norm_sentiment": "-0.29"
   },
   "timeline": [
-    {
-      "time": "2026-04-23T16:54:56.567Z",
-      "danger": 0.516,
-      "sentiment": -0.413,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.565,
-          "sentiment": -0.767
-        },
-        "OSINTdefender": {
-          "danger": 0.423,
-          "sentiment": -0.267
-        },
-        "irna_1313": {
-          "danger": 0.569,
-          "sentiment": -0.429
-        },
-        "sepah_pasdaran": {
-          "danger": 0.302,
-          "sentiment": -0.8
-        },
-        "almanarnews": {
-          "danger": 0.583,
-          "sentiment": -0.2
-        },
-        "C_Military1": {
-          "danger": 0.542,
-          "sentiment": -0.467
-        },
-        "almayadeen": {
-          "danger": 0.572,
-          "sentiment": -0.667
-        },
-        "QudsN": {
-          "danger": 0.658,
-          "sentiment": -0.367
-        }
-      }
-    },
     {
       "time": "2026-04-23T20:14:37.355Z",
       "danger": 0.477,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.733
         }
       }
+    },
+    {
+      "time": "2026-05-02T17:32:46.477Z",
+      "danger": 0.493,
+      "sentiment": -0.287,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.491,
+          "sentiment": -0.667
+        },
+        "OSINTdefender": {
+          "danger": 0.468,
+          "sentiment": -0.033
+        },
+        "irna_1313": {
+          "danger": 0.47,
+          "sentiment": -0.5
+        },
+        "sepah_pasdaran": {
+          "danger": 0.312,
+          "sentiment": -0.4
+        },
+        "almanarnews": {
+          "danger": 0.467,
+          "sentiment": 0
+        },
+        "C_Military1": {
+          "danger": 0.415,
+          "sentiment": -0.333
+        },
+        "almayadeen": {
+          "danger": 0.697,
+          "sentiment": -0.133
+        },
+        "QudsN": {
+          "danger": 0.656,
+          "sentiment": -0.667
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.7666666666666667,
-      "knn_danger_metric": 0.5331545772979187
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.4909701546767345
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 11,
-      "raw_sentiment": -0.22727272727272727,
-      "knn_danger_metric": 0.5350393424834059
+      "num_messages": 9,
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.47003171561689366
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.4579665930614256
+      "knn_danger_metric": 0.31179060370551404
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.40082191129539346
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.4671019290368304
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.3755459547341642
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.4154782688054883
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.7127400677095335
+      "knn_danger_metric": 0.6965165702023182
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.7333333333333333,
-      "knn_danger_metric": 0.698244601428249
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.6556295228140556
     }
   },
   "semantic_logs": [
@@ -2334,102 +2334,102 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "הלילה סמוך לחצות תקף צה&quot;ל באינטנסיביות את אזור הכפרים זוטר א-שרקיה וזוטר אלע&#39;רביה הנמצאים על הגדה הצפונית של הליטאני (לא רחוק מ 9 הכפרים 👆שקיבלו התרעת פינוי הבוקר).  ע&quot;פ מקורות לבנוניים חיל האוויר ביצע כ 15-20 תקיפות באזור, בוצע ירי ארטילרי וכן ירי פצצות זרחן.…",
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: رضائي: بناءً على خطة إدارة مضيق هرمز سيتم استخدام 30% من الرسوم المحصلة من السفن لتعزيز البنية التحتية العسكرية",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين: مراسل الميادين في غزة: شهيد من جراء استهداف مسيّرة إسرائيلية محيط أبراج القسطل شرق مدينة دير البلح وسط القطاع",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: الرئيس بري: المنتصر الوحيد في تفرّق اللبنانيين عن حقهم هو من تجرأ على هدم دير الراهبات في يارون ومسجد بنت جبيل وحسينية الدوير",
+      "text": "فلسطين: مراسل الميادين في غزة: &quot;جيش&quot; الاحتلال الإسرائيلي ينفذ عملية نسف ضخمة شرق مدينة خان يونس جنوب قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: قائد قوة القدس في حرس الثورة العميد إسماعيل قاآني: اعتراض واختطاف &quot;أساطيل الصمود&quot; من قبل المجرمين الصهاينة مصداق للإرهاب الدولي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: قاآني: حراك أحرار &quot;الصمود&quot; لكسر الحصار عن شعب غزة يمثل تصاعداً في نهضة نضال شعوب العالم ضد الصهاينة قتلة الأطفال",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: غارة للاحتلال في محيط بلدة ياطر",
-      "absolute_sentiment": 0,
+      "text": "إيران: قاآني: الجرائم الجبانة التي يرتكبها الصهاينة ستجعل إرادة الأحرار في كافة أنحاء العالم أكثر عزماً على كسر الحصار عن شعب غزة",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: وزارة الصحة اللبنانية: 2659 شهيداً و8183 جريحاً منذ بداية العدوان الإسرائيلي في 2 آذار/مارس الماضي",
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الاسلامية  نائب رئيس البرلمان الإيراني:   - أعددنا مشروع قانون لإدارة مضيق هرمز يمنع السفن الإسرائيلية من العبور في أي وقت.  - مشروع القانون يمنع سفن الدول المعادية من عبور المضيق ما لم تدفع تعويضات عن الحرب.  - مشروع القانون يسمح لباقي السفن بالعبور بعد الحصول على تصريح وموافقة إيران.  - مشروع القانون بشأن المضيق سيتم اعتماده بمراعاة القوانين الدولية وحقوق دول الجوار.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: غارة للاحتلال استهدفت بلدة المنصوري",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب : الاحتلال منع فرق الصليب الأحمر من انتشال الشهداء وسحب الجرحى في بلدة مجدل سلم",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: غارة إسرائيلية على أطراف بلدة مجدل زون",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: غارتان اسرائيليتان على بلدتي الجميجمة والغندورية",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "البعثة الايرانية: قانونياً لا يوجد أي قيد على مستوى تخصيب اليورانيوم طالما يتم ذلك تحت إشراف الوكالة الدولية للطاقة الذرية",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
+      "semantic_danger_knn": 0.9971738898694221
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل| قوات الاحتلال تقتحم بلدة الرام، شمال القدس المحتلة.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "رئيسة اللجنة الدولية للصليب الأحمر: غزة مكان غير قابل للعيش، وسكانها يواجهون ظروفا معيشية قاهرة.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تنكل بعدد من الشبان في بلدة أبو ديس، شرق القدس المحتلة.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال في مُستوطنة &quot;جانيم&quot; المُخلاة، فوق الحي الشرقي في جنين.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | اندلاع مواجهات بمخيم &quot;العروب&quot; شمال الخليل، وقوات الاحتلال تطلق قنابل الصوت.",
+      "text": "عاجل | مدفعية الاحتلال تقصف مناطق شرق مدينة غزة.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9596045227592704
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | قوات الاحتلال تنسف مبانٍ سكنية شرق خان يونس، جنوب قطاع غزة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9596045227592704
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | اندلاع مواجهات في قرية &quot;المغير&quot; شمال شرق رام الله، وقوات الاحتلال تُطلق قنابل الصوت.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9596045227592704
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صفارات الإنذار تدوي في يفتاح في الجليل الأعلى خشية تسلل طائرات مسيّرة.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.956418427463877
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#فلسطين_المحتلة   عضو المكتب السياسي لحركة حماس باسم نعيم:   - لا يمكن أن نتحدث بعد 200 يوم عن وقف إطلاق النار في غزة بسبب الخروقات &quot;الإسرائيلية&quot;.  - نواجه في غزة نصف حرب واستمراراً للإبادة &quot;الإسرائيلية&quot; رغم التزام المقاومة باتفاق وقف إطلاق النار.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9145462221045059
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | طيران الاحتلال يشن غارة على بلدة سلعا اللبنانية.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9007355464821191
+    },
+    {
+      "channelId": "OSINTdefender",
+      "channel": "Global_OSINT",
+      "text": "#USA  The U.S. Air Force has contracted for seven E-7A Wedgetail aircraft to replace the aging E-3 Sentry fleet, despite the program lacking funding in the FY2027 budget request. Congress is actively supporting the E-7 program amid ongoing debates about prioritizing space-based alternatives for airborne surveillance.  Subscribe to @OSINTdefender Chat room",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.8376750916845302
     }
   ]
 }
