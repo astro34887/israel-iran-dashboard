@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-05T18:02:17.959Z",
+  "last_updated": "2026-05-05T22:15:59.004Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.46",
-    "global_norm_sentiment": "-0.15"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.51",
+    "global_norm_sentiment": "-0.20"
   },
   "timeline": [
-    {
-      "time": "2026-04-25T23:57:45.279Z",
-      "danger": 0.478,
-      "sentiment": -0.24,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.358,
-          "sentiment": -0.3
-        },
-        "OSINTdefender": {
-          "danger": 0.457,
-          "sentiment": -0.7
-        },
-        "irna_1313": {
-          "danger": 0.549,
-          "sentiment": -0.667
-        },
-        "sepah_pasdaran": {
-          "danger": 0.326,
-          "sentiment": -0.533
-        },
-        "almanarnews": {
-          "danger": 0.357,
-          "sentiment": 0.267
-        },
-        "C_Military1": {
-          "danger": 0.372,
-          "sentiment": 0.1
-        },
-        "almayadeen": {
-          "danger": 0.581,
-          "sentiment": -0.333
-        },
-        "QudsN": {
-          "danger": 0.83,
-          "sentiment": -0.1
-        }
-      }
-    },
     {
       "time": "2026-04-26T06:30:22.837Z",
       "danger": 0.454,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.133
         }
       }
+    },
+    {
+      "time": "2026-05-05T22:15:59.004Z",
+      "danger": 0.514,
+      "sentiment": -0.203,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.43,
+          "sentiment": -0.267
+        },
+        "OSINTdefender": {
+          "danger": 0.518,
+          "sentiment": -0.233
+        },
+        "irna_1313": {
+          "danger": 0.47,
+          "sentiment": -0.367
+        },
+        "sepah_pasdaran": {
+          "danger": 0.357,
+          "sentiment": -0.433
+        },
+        "almanarnews": {
+          "danger": 0.346,
+          "sentiment": 0.1
+        },
+        "C_Military1": {
+          "danger": 0.55,
+          "sentiment": -0.3
+        },
+        "almayadeen": {
+          "danger": 0.736,
+          "sentiment": -0.033
+        },
+        "QudsN": {
+          "danger": 0.789,
+          "sentiment": -0.367
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.4644698222628905
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.4295672703392588
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.5239575443625678
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.46974626592334034
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.3577967595525073
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.3567579230366898
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.3333333333333333,
-      "knn_danger_metric": 0.38828711240528724
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.3461658144701364
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.41279605194784535
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.5496494826488808
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.6615909735165016
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.7360002685111052
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.37136717462878616
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.7890809759159859
     }
   },
   "semantic_logs": [
@@ -2334,102 +2334,102 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "☑️فیلمی از بازسازی پل عظیم بی‌۱ کرج، پس از حمله ناجوانمردانه آمریکا و اسرائیل، که حالا با دستان پرتوان مردان کشورمان دارد جان دوباره می‌گیرد.   @sepah_pasdaran",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": " ️ علی مطهری: شهید لاریجانی در حال عبادت به شهادت رسید   ✅  @sepah_pasdaran",
-      "absolute_sentiment": 1,
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: الخارجية: نؤكد أن الإجراءات الدفاعية للقوات المسلحة الإيرانية في هذه المرحلة كانت موجهة حصراً لصد الشرور الأميركية",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: غارات إسرائيلية على بلدتي حبوش في قضاء النبطية وبرج قلاوية في قضاء بنت جبيل جنوبي البلاد",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: نتنياهو يجري اتصالاً برئيس الإمارات محمد بن زايد آل نهيان وقادة آخرين في الخليج على خلفية الأحداث الأخيرة",
+      "text": "إيران: المستشار العسكري لقائد الثورة اللواء محسن رضائي: ترامب ووزير الحرب ورئيس الأركان يتشاركون في الترويج لأوهامهم على أنها إنجازات",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: حزب الله: ننفي بنحو قاطع الاتهامات الباطلة الصادرة عن الداخلية السورية حول تفكيك خلية تابعة لنا كانت تخطط لتنفيذ أعمال أمنية",
+      "text": "إيران: اللواء محسن رضائي: القوات المسلحة الإيرانية المقتدرة على أهبة الاستعداد",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي يستهدف المناطق الشرقية لدير البلح وسط قطاع غزة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: قصف مدفعي إسرائيلي استهدف أطراف القنطرة وعدشيت القصير",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: وكالة &quot;برس تي في&quot;: السفن التي تعتزم عبور مضيق هرمز تتلقى رسالة بريد إلكتروني تبلغهم بلوائح العبور",
+      "text": "مراسل الميادين في جنوب لبنان: غارة إسرائيلية استهدفت بلدة برعشيت",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: وكالة &quot;برس تي في&quot;: بعد ذلك تقوم السفن بتكييف أوضاعها مع هذا الإطار وتحصل على تصريح بالعبور",
-      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "صحيفة &quot;يديعوت أحرونوت&quot;: جنود الاحتلال يختبئون في ملاجئ قرب الحدود اللبنانية؛ خوفًا من مُسيّرات حزب الله التي تبحث عنهم.",
-      "absolute_sentiment": 1,
+      "text": "جرافات الاحتلال تغلق بالسواتر الترابية مدخل بلدة الخضر جنوب بيت لحم",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام قوات الاحتلال قرية المغير، شمال شرق رام الله.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية أبو فلاح شمال شرق رام الله، وتطلق قنابل الغاز.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تداهم منزلاً خلال اقتحام مخيم العروب، شمال الخليل.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تعتقل الشاب &quot;معتز كمال الدنبر&quot; خلال اقتحام مخيم العروب شمال الخليل",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من تواجد قوات الاحتلال عند مدخل بلدة بيت عوا جنوب الخليل",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#الجمهورية_الاسلامية    مستشار قائد الثورة والجمهورية للشؤون السياسية علي أكبر ولايتي يوجه رسالة لبحارة السفينة الحربية الأميركية &quot;يو إس إس تريبولي&quot;  - أنتم مجرد &quot;كومبارس&quot; في عرض سينمائي مخصص لانتخابات ترامب الرئاسية القادمة  - رئيسكم لم يكن قادراً على إنقاذ القوات الأميركية في الحرب السابقة  - تم تكليفكم الآن بحماية &quot;صناديق الأموال&quot; في منطقتنا لكن المطاف ينتهي بكم في &quot;مسلخ&quot;  - التاريخ معلم جيد وأسطورة &quot;تريبولي&quot; لن تتكرر في الخليج بل ستتحول إلى كابوس يقوض أمنكم.  #الإعلام_الحربي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9971738898694222
+      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: أقرت الحكومة تمديد حالة الطوارئ في الجبهة الداخلية حتى تاريخ 19.5  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9979853054910217
     },
     {
-      "channelId": "almanarnews",
+      "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "📹 آخر التطورات في جنوب لبنان مع مراسلنا سامر حاج علي https://almanar.com.lb/article/824027/?s=tg",
+      "text": "#الجمهورية_الاسلامية   المستشار العسكري لقائد الثورة اللواء محسن رضائي:  -  ترامب ووزير الحرب ورئيس الأركان يتشاركون في الترويج لأوهامهم على أنها إنجازات.  - القوات المسلحة الإيرانية المقتدرة على أهبة الاستعداد.  - ما ينتظر القوات الأميركية لن يكون &quot;نورماندي&quot; أو &quot;صقلية&quot; بل سيشبه إلى حد كبير &quot;طبس&quot; و&quot;أصفهان&quot; فلا تنغمسوا في الأوهام.  #الإعلام_الحربي",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9451672518425872
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | قناة &quot;كان&quot; العبرية عن مصادر: &quot;إسرائيل&quot; بعثت برسالة لواشنطن أن القيادة الأمنية والعسكرية الإسرائيلية تريد استئناف الهجمات على إيران.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9081436722086594
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "حزب الله رداً على وزارة الداخلية السورية: لا تواجد لنا في سوريا ونريد كل الخير لها ولشعبها https://almanar.com.lb/article/824512/?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9029549282365815
-    },
-    {
-      "channelId": "idfonline",
-      "channel": "IDF",
-      "text": "תצפיות צה&quot;ל זיהו הבוקר תנועה חשודה סמוך ליישוב חמדיה שבמרחב חטיבת הבקעה והעמקים.לוחמי צה&quot;ל ולוחמי יחידת יג&quot;ל של משטרת ישראל הוזנקו לנקודה ועצרו רכב ובו שלושה חשודים https://t.co/gZaMaQbju7  On May 23, 2023 at 04:52PM Read more via Twitter @idfonline @idfonline",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.819613420621686
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: وكالة &quot;برس تي في&quot;: إيران قامت بتصميم وتنفيذ آلية جديدة لممارسة سيادتها على مضيق هرمز",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.8151344856121179
+      "semantic_danger_knn": 0.9978700158505528
     }
   ]
 }
