@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-06T23:36:51.551Z",
+  "last_updated": "2026-05-07T09:45:02.984Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.51",
-    "global_norm_sentiment": "-0.34"
+    "global_norm_sentiment": "-0.24"
   },
   "timeline": [
-    {
-      "time": "2026-04-26T17:11:55.357Z",
-      "danger": 0.471,
-      "sentiment": -0.305,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.397,
-          "sentiment": -0.567
-        },
-        "OSINTdefender": {
-          "danger": 0.5,
-          "sentiment": -0.633
-        },
-        "irna_1313": {
-          "danger": 0.423,
-          "sentiment": 0.1
-        },
-        "sepah_pasdaran": {
-          "danger": 0.3,
-          "sentiment": -0.5
-        },
-        "almanarnews": {
-          "danger": 0.317,
-          "sentiment": -0.133
-        },
-        "C_Military1": {
-          "danger": 0.566,
-          "sentiment": -0.267
-        },
-        "almayadeen": {
-          "danger": 0.597,
-          "sentiment": -0.5
-        },
-        "QudsN": {
-          "danger": 0.663,
-          "sentiment": -0.417
-        }
-      }
-    },
     {
       "time": "2026-04-26T19:59:53.960Z",
       "danger": 0.456,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.267
         }
       }
+    },
+    {
+      "time": "2026-05-07T09:45:02.984Z",
+      "danger": 0.513,
+      "sentiment": -0.243,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.525,
+          "sentiment": -0.5
+        },
+        "OSINTdefender": {
+          "danger": 0.462,
+          "sentiment": -0.467
+        },
+        "irna_1313": {
+          "danger": 0.616,
+          "sentiment": 0.3
+        },
+        "sepah_pasdaran": {
+          "danger": 0.506,
+          "sentiment": -0.533
+        },
+        "almanarnews": {
+          "danger": 0.416,
+          "sentiment": 0.1
+        },
+        "C_Military1": {
+          "danger": 0.581,
+          "sentiment": -0.5
+        },
+        "almayadeen": {
+          "danger": 0.621,
+          "sentiment": -0.7
+        },
+        "QudsN": {
+          "danger": 0.45,
+          "sentiment": 0
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.6095234799811113
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.5247213265078868
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.48035824910755515
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.46154686130653233
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.48812227523369134
+      "raw_sentiment": 0.3,
+      "knn_danger_metric": 0.6160596925126824
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.33234676455103157
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.5062876937317383
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.7666666666666667,
-      "knn_danger_metric": 0.3376394249629583
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.41644358730126574
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.4950146195487724
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.5805441796511153
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.5105216200375237
+      "raw_sentiment": -0.7,
+      "knn_danger_metric": 0.6211012883867864
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.9033312525736856
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.4503136380755153
     }
   },
   "semantic_logs": [
@@ -2334,102 +2334,102 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "מקורות עזתיים לא רשמיים :  עזאם ח&#39;ליל אלחיה, בנו של היו&quot;ר החדש של הלשכה המדינית של חמאס (ח&#39;ליל אלחיה) - חוסל הערב בתקיפה ישראלית ברחוב א-צחאבה בעיר עזה.  עזאם הוא הבן הרביעי של ח&#39;ליל אלחיה שנהרג ב&quot;נסיבות מלחמתיות&quot; (הקודם בתור חוסל בתקיפה הישראלית בדוחה בירת…",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": " ️ اصابت پهپاد انتحاری به مقر تروریست‌های تجزیه‌طلب در اربیل عراق   ✅  @sepah_pasdaran",
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صحيفة &quot;يديعوت أحرونوت&quot; العبرية:  - قيادة الجبهة الداخلية في الجيش الإسر��ئيلي حظرت الوصول إلى نظام &quot;شوعال&quot; (نظام تحديد مناطق السقوط المتوقعة) عن السلطات المحلية وقادة الأمن في الشمال، خوفاً من تسريب المعلومات إلى إيران وحزب الله.  - مخاوف أمنية…",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: طيران الاحتلال يغير على أطراف بلدة النبطية الفوقا وبلدة أرزي في قضاء صيدا",
+      "text": "وسائل إعلام إسرائيلية: القناة 14 الإسرائيلية: نحن عالقون ميدانياً واستراتيجياً في لبنان وحزب الله يفرض المعادلة وكل يوم يصاب أو يقتل جنود",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: غارة للاحتلال استهدفت بلدة برعشيت",
+      "text": "لبنان: الوكالة اللبنانية: طيران الاحتلال يعتدي على بلدة ديركيفا في قضاء صور جنوب لبنان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: الوكالة اللبنانية: طيران الاحتلال يعتدي على مركبة في بلدة حناويه قضاء صور جنوب لبنان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: طيران الاحتلال يعتدي على بلدة الجميجمة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: مدفعية الاحتلال تعتدي على بلدة برعشيت",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "البحرين: مجلس النواب البحريني يسقط عضوية 3 نواب اعترضوا على الأحكام الصادرة بحق مواطنين بحرينيين بذريعة &quot;التعاطف مع إيران&quot;",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة بيت أمر شمال الخليل",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم مخيم شعفاط، شمال القدس المحتلة.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم منزلاً خلال اقتحام منطقة البالوع قرب بلدة الخضر، جنوب غرب بيت لحم.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال برفقة جرافة عسكرية تقتحم بلدة قصرة، جنوب نابلس.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم بناية سكنية خلال اقتحام مدينة البيرة بالضفة الغربية.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تعتقل الأسير المحرر &quot;محمد زغلول&quot; خلال اقتحام قرية دورا القرع شمال رام الله.",
+      "text": "الاحتلال يواصل عمليات التجريف لبيوت بلاستيكية قرب بردلة بالأغوار الشمالية.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية أبو قش وبلدة بيرزيت، شمال رام الله.",
+      "text": "مصادر محلية: مخابرات السلطة تواصل منذ نحو 222 يوما اعتقال الشاب وسيم إياد حسن مطاحن من مدينة جنين في سجن أريحا رام صدور قرار بالإفراج عنه.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "جرافة الاحتلال تغلق طرقًا بالسواتر الترابية في بلدة بيت أمر شمال الخليل",
-      "absolute_sentiment": -1,
+      "text": "جنود الاحتلال يطردون رعاة الأغنام من أراضيهم في منطقة &quot;أم القبور&quot; بمسافر يطا، جنوب الخليل.",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم المنازل خلال اقتحام بلدة عزون شرق قلقيلية.",
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صحيفة &quot;يديعوت أحرونوت&quot; العبرية: رئيس المجلس الإقليمي للجليل الأعلى: هذه سخافة، حزب الله يعرف أين يطلق النار.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
+      "semantic_danger_knn": 0.9970527839735491
     },
     {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم مدينة طوباس",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صفارات الإنذار تدوي في مستوطنتي المنارة ومرغليوت في إصبع الجليل.  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.956418427463877
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صفارات الإنذار تدوي في كريات شمونه ومحيطها خشية تسلل طائرات مسيّرة.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.956418427463877
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "📹&nbsp;تقارير مصورة | آخر التطورات الميدانية في جنوب لبنان https://almanar.com.lb/article/829232/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9451672518425872
     }
   ]
 }
