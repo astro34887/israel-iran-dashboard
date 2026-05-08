@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-07T23:58:14.805Z",
+  "last_updated": "2026-05-08T03:29:16.194Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.29"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.47",
+    "global_norm_sentiment": "-0.28"
   },
   "timeline": [
-    {
-      "time": "2026-04-27T23:39:05.037Z",
-      "danger": 0.494,
-      "sentiment": -0.303,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.441,
-          "sentiment": -0.433
-        },
-        "OSINTdefender": {
-          "danger": 0.527,
-          "sentiment": -0.5
-        },
-        "irna_1313": {
-          "danger": 0.471,
-          "sentiment": -0.333
-        },
-        "sepah_pasdaran": {
-          "danger": 0.304,
-          "sentiment": -0.267
-        },
-        "almanarnews": {
-          "danger": 0.402,
-          "sentiment": -0.3
-        },
-        "C_Military1": {
-          "danger": 0.384,
-          "sentiment": -0.333
-        },
-        "almayadeen": {
-          "danger": 0.52,
-          "sentiment": -0.567
-        },
-        "QudsN": {
-          "danger": 0.938,
-          "sentiment": -0.133
-        }
-      }
-    },
     {
       "time": "2026-04-28T07:57:13.616Z",
       "danger": 0.467,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.4
         }
       }
+    },
+    {
+      "time": "2026-05-08T03:29:16.194Z",
+      "danger": 0.467,
+      "sentiment": -0.277,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.616,
+          "sentiment": -0.833
+        },
+        "OSINTdefender": {
+          "danger": 0.411,
+          "sentiment": -0.133
+        },
+        "irna_1313": {
+          "danger": 0.476,
+          "sentiment": -0.1
+        },
+        "sepah_pasdaran": {
+          "danger": 0.347,
+          "sentiment": -0.6
+        },
+        "almanarnews": {
+          "danger": 0.424,
+          "sentiment": -0.5
+        },
+        "C_Military1": {
+          "danger": 0.524,
+          "sentiment": -0.1
+        },
+        "almayadeen": {
+          "danger": 0.355,
+          "sentiment": -0.133
+        },
+        "QudsN": {
+          "danger": 0.565,
+          "sentiment": -0.233
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2280,7 +2280,7 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.8333333333333334,
-      "knn_danger_metric": 0.6227785255670193
+      "knn_danger_metric": 0.6161369809713403
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,20 +2291,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.48399126632441797
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.4760337885619469
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.37095566503183136
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.3468841224955623
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.499963542873873
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.4239488252836627
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.5942787252887628
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.3547893820897139
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.7111228965725972
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.5654638792979192
     }
   },
   "semantic_logs": [
@@ -2357,57 +2357,15 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: قيادة القوة البحرية لحرس الثورة: استخدمنا في عملية الرد صواريخ باليستية وصواريخ كروز المضادة للسفن وطائرات مسيرة انتحارية برؤوس حربية شديدة الانفجار",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: عدوان إسرائيلي بغارة استهدفت بلدة المنصوري جنوب صور",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: الطيران الحربي الإسرائيلي يعتدي بلدة مجدل زون",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي مدفعي يستهدف المنصوري وبيوت السياد جنوب مدينة صور",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: عدوان إسرائيلي بغارة يستهدف بلدة مجدل زون مجدداً",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "لبنان: مراسل الميادين في الجنوب: عدوان إسرائيلي مدفعي مكثف ومستمر باتجاه بلدتي المنصوري ومجدل زون",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم المنازل خلال اقتحام بلدة دير سامت غرب مدينة دورا جنوب الخليل.",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: قصف مدفعي إسرائيلي شرقي مدينة خان يونس جنوبي قطاع غزة",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة سلواد شمال شرق رام الله",
-      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
@@ -2430,6 +2388,48 @@
       "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة حزما شمال القدس المحتلة",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "متابعة | قوات الاحتلال تداهم المنازل خلال اقتحام مخيم بلاطة شرق نابلس.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تعتقل الشاب &quot;لؤي جمعة&quot; عقب مداهمة منزله في قرية كفر قدوم، شرق قلقيلية.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام قوات الاحتلال لحي رفيديا في مدينة نابلس",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 15 العبرية عن مصدر إسرائيلي: لم نهاجم في إيران.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.996238247963218
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "بالفيديو | مشاهد من الرد الإيراني على انتهاك القوات الأمريكية لوقف إطلاق النار في مضيق هرمز",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9067009535999014
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الاسلامية   المتحدث باسم الخارجية الإيرانية إسماعيل بقائي:   أدان إسماعيل بقائي، المتحدث باسم وزارة الخارجية، بشدة الهجمات الإرهابية التي شنّها الكيان الصهيوني على المناطق السكنية في الضاحية الجنوبية لبيروت، والتي أدت إلى استشهاد وإصابة عدد من المواطنين اللبنانيين وتدمير البنى التحتية في لبنان.  وقدّم بقائي تعازيه لعائلات الشهداء، وأعرب عن تضامن الجمهورية الإسلامية الإيرانية مع لبنان في مواجهة اعتداءات الكيان الصهيوني، متمنيًا الشفاء العاجل لجرحى هذا الهجوم الإرهابي.   وأشار المتحدث باسم وزارة الخارجية إلى استمرار الاعتداءات العسكرية للكيان الصهيوني ضد لبنان، واستخدامه المتكرر للأسلحة المحظورة، بما فيها القنابل الفوسفورية، معتبرًا أن هذا الوضع هو نتيجة مباشرة للدعم والتواطؤ الأمريكي وبعض الدول الأخرى، منها ألمانيا وبريطانيا، مع هذا الكيان في انتهاك القوانين وارتكاب الإبادة الجماعية وجرائم الحرب بحق شعوب المنطقة.  كما شدد على مسؤولية مجلس الأمن الدولي وجميع الدول في محاسبة ومعاقبة مرتكبي هذه الجرائم.  #الإعلام_الحربي",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.845709163000842
     }
   ]
 }
