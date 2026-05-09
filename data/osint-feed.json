@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-09T19:56:22.326Z",
+  "last_updated": "2026-05-09T20:41:31.757Z",
   "tension": {
     "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.45",
-    "global_norm_sentiment": "-0.33"
+    "global_knn_danger": "0.47",
+    "global_norm_sentiment": "-0.31"
   },
   "timeline": [
-    {
-      "time": "2026-05-03T11:07:38.714Z",
-      "danger": 0.521,
-      "sentiment": -0.326,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.368,
-          "sentiment": -0.567
-        },
-        "OSINTdefender": {
-          "danger": 0.481,
-          "sentiment": -0.133
-        },
-        "irna_1313": {
-          "danger": 0.593,
-          "sentiment": -0.227
-        },
-        "sepah_pasdaran": {
-          "danger": 0.428,
-          "sentiment": -0.733
-        },
-        "almanarnews": {
-          "danger": 0.321,
-          "sentiment": 0.033
-        },
-        "C_Military1": {
-          "danger": 0.685,
-          "sentiment": -0.6
-        },
-        "almayadeen": {
-          "danger": 0.621,
-          "sentiment": -0.2
-        },
-        "QudsN": {
-          "danger": 0.761,
-          "sentiment": -0.7
-        }
-      }
-    },
     {
       "time": "2026-05-03T14:38:49.417Z",
       "danger": 0.511,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.467
         }
       }
+    },
+    {
+      "time": "2026-05-09T20:41:31.757Z",
+      "danger": 0.466,
+      "sentiment": -0.31,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.388,
+          "sentiment": -0.4
+        },
+        "OSINTdefender": {
+          "danger": 0.42,
+          "sentiment": -0.267
+        },
+        "irna_1313": {
+          "danger": 0.474,
+          "sentiment": -0.233
+        },
+        "sepah_pasdaran": {
+          "danger": 0.352,
+          "sentiment": -0.3
+        },
+        "almanarnews": {
+          "danger": 0.418,
+          "sentiment": -0.567
+        },
+        "C_Military1": {
+          "danger": 0.48,
+          "sentiment": -0.667
+        },
+        "almayadeen": {
+          "danger": 0.616,
+          "sentiment": -0.233
+        },
+        "QudsN": {
+          "danger": 0.561,
+          "sentiment": -0.3
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2280,7 +2280,7 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.38715606068162234
+      "knn_danger_metric": 0.38837061754442265
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 12,
-      "raw_sentiment": -0.20833333333333334,
-      "knn_danger_metric": 0.45991737984117403
+      "num_messages": 15,
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.4736427180353768
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.36797004304211806
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.35194571331566527
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.7,
-      "knn_danger_metric": 0.4200525790510035
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.4182704262174524
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.4779862169544371
+      "knn_danger_metric": 0.4803225326736756
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.5170331587109954
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.616120402380122
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.5192225837874261
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.5612719129160664
     }
   },
   "semantic_logs": [
@@ -2355,11 +2355,53 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: إصابة بقنبلة من مسيرة إسرائيلية في منطقة الشاكوش شمالي مدينة رفح جنوبي قطاع غزة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "لجنة المتابعة للقوى الوطنية والإسلامية في غزة:  - نعتمد شعار ذكرى النكبة لهذا العام: &quot;لن نرحل.. جذورنا أعمق من دماركم&quot;، وندعو لحشد واسع في الفعالية المركزية بمدينة خانيونس يوم الاثنين 11 مايو 2026  - نؤكد رفض محاولات شطب وكالة (الأونروا) أو استبدالها بأي مسميات أخرى  - نعتبر وحدة الموقف والعمل الوطني المشترك ضرورة لمواجهة الاحتلال ومخططات التهجير",
-      "absolute_sentiment": -1,
+      "text": "مصادر محلية: قوات الاحتلال تقتحم مدينة حلحول شمال الخليل.",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة صوريف شمال الخليل.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "متابعة | قوات الاحتلال تداهم منزلاً خلال اقتحام بلدة صوريف شمال الخليل.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة السيلة الحارثية في جنين، وتداهم منزلاً.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الاسلامية   قائد قوات الجوفضائية التابعة لحرس الثورة  الإسلامية: الصواريخ والطائرات المسيّرة التابعة للقوات الجوفضائية تم تثبيت أهدافها على العدو، ونحن بانتظار أمر الإطلاق.  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.9914631632524533
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | شهيدان بقصف الاحتلال لحي الراهبات في مدينة النبطية بجنوب لبنان، مساء اليوم.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9831203500157198
     },
     {
       "channelId": "QudsN",
@@ -2367,27 +2409,6 @@
       "text": "وزارة الصحة: وفاة 50 من مرضى &quot;الثلاسيميا&quot; خلال الحرب الإسرائيلية على قطاع غزة.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9776859215431125
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | حزب الله: هاجمنا بمسيرة انقضاضية تجمّعاً لآليّات الاحتلال وجنوده قرب المسبح في بلدة الناقورة.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | حزب الله: هاجمنا بمسيرات انقضاضية تجمّعاً لآليّات الاحتلال وجنوده بلدة رشاف.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صفارات الإنذار تدوي في شلومي وليمان وبتست بالجليل الغربي خشية تسلل طائرات مسيّرة.  #الإعلام_الحربي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.956418427463877
     },
     {
       "channelId": "sepah_pasdaran",
@@ -2404,32 +2425,11 @@
       "semantic_danger_knn": 0.8485845428911735
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": " ️انصراف دختر ایرانی از رویارویی با نماینده رژیم صهیونی در فینال تنیس ‌  هانا شعبانپور در اقدامی قهرمانانه برای همدردی با کودکان شهید میناب و دیگر شهدا، از حضور در فینال تور جهانی تنیس ترکیه و رویارویی با نماینده رژیم صهیونی انصراف داد. ✅  @sepah_pasdaran",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.8207824928570105
-    },
-    {
       "channelId": "idfonline",
       "channel": "IDF",
       "text": "תצפיות צה&quot;ל זיהו הבוקר תנועה חשודה סמוך ליישוב חמדיה שבמרחב חטיבת הבקעה והעמקים.לוחמי צה&quot;ל ולוחמי יחידת יג&quot;ל של משטרת ישראל הוזנקו לנקודה ועצרו רכב ובו שלושה חשודים https://t.co/gZaMaQbju7  On May 23, 2023 at 04:52PM Read more via Twitter @idfonline @idfonline",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.819613420621686
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "🚨 הילדים של היום לא יתחרו רק על ציונים. הם יתחרו על מי התחיל מוקדם יותר.  בזמן שרוב הילדים רק “מעבירים זמן” מול המסך — יש ילדים שכבר לומדים סייבר, חושבים כמו אנשי מודיעין, ובונים לעצמם יתרון אמיתי לעתיד.  הפער הזה מתחיל להיווצר כבר עכשיו, ומי שמתחיל מאוחר — ינסה אחר כך להדביק שנים של יתרון.  השאלה היא לא אם הילד שלכם משתמש במסכים. השאלה היא — מה הוא בונה באמצעותם.  🇮🇱 דור העתיד של לוחמי הסייבר מתחיל כאן.  🎓 ISRAEL CYBER CAMPUS קורסי סייבר לנוער וילדים  ✔ ללא צורך בידע קודם ✔ נשיא הקמפוס – יגאל אונא, ראש מערך הסייבר של מדינת ישראל לשעבר ✔ מדריכים יוצאי יחידות 8200 ו־81 ✔ הכנה לעולמות המודיעין, הסייבר והטכנולוגיה של המחר  📚 מסלולים של 4–6 חודשים | מפגש שבועי 💻 אונליין בזום או פרונטלי ב־אוניברסיטת תל אביב  👧👦 קבוצות גיל:  • 13–17 | לוחמי הסייבר של העתיד • 9–12 | מבוא לעולם הסייבר לילדים  היתרון של הילד שלכם מתחיל עכשיו — או שמישהו אחר יתפוס אותו לפניו.  👇 לפרטים והרשמה  נוער 13–17: https://tinyurl.com/israelcybercampus  ילדים 9–12: https://www.israelcybercampus.co.il//young-cyber",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.8055716367677818
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸انصراف نماینده ایران از رویارویی با نماینده رژیم صهیونی در فینال تور جهانی تنیس  🔹«هانا شعبانپور» در اقدامی قهرمانانه از حضور در فینال تور جهانی J۶۰ ترکیه و رویارویی با نماینده رژیم غاصب صهیونی انصراف داد تا اعتراض خود را به جنایات اخیر این رژیم و شهادت جمعی از کودکان و زنان بیگناه نشان بدهد. لینک خبر  📌اخبار ایرنا را در بله | روبیکا | سروش پلاس | ایتا&nbsp;| جهان دنبال کنید @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.7888809257405766
     }
   ]
 }
