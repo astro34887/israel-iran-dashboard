@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-10T14:49:09.780Z",
+  "last_updated": "2026-05-10T15:49:55.195Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.50",
-    "global_norm_sentiment": "-0.25"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.26"
   },
   "timeline": [
-    {
-      "time": "2026-05-05T18:02:17.959Z",
-      "danger": 0.465,
-      "sentiment": -0.15,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.464,
-          "sentiment": -0.367
-        },
-        "OSINTdefender": {
-          "danger": 0.518,
-          "sentiment": -0.233
-        },
-        "irna_1313": {
-          "danger": 0.524,
-          "sentiment": -0.233
-        },
-        "sepah_pasdaran": {
-          "danger": 0.358,
-          "sentiment": -0.533
-        },
-        "almanarnews": {
-          "danger": 0.388,
-          "sentiment": 0.333
-        },
-        "C_Military1": {
-          "danger": 0.413,
-          "sentiment": 0.067
-        },
-        "almayadeen": {
-          "danger": 0.662,
-          "sentiment": -0.267
-        },
-        "QudsN": {
-          "danger": 0.371,
-          "sentiment": -0.133
-        }
-      }
-    },
     {
       "time": "2026-05-05T22:15:59.004Z",
       "danger": 0.514,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.2
         }
       }
+    },
+    {
+      "time": "2026-05-10T15:49:55.195Z",
+      "danger": 0.523,
+      "sentiment": -0.257,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.407,
+          "sentiment": 0.233
+        },
+        "OSINTdefender": {
+          "danger": 0.526,
+          "sentiment": -0.133
+        },
+        "irna_1313": {
+          "danger": 0.466,
+          "sentiment": -0.467
+        },
+        "sepah_pasdaran": {
+          "danger": 0.37,
+          "sentiment": -0.433
+        },
+        "almanarnews": {
+          "danger": 0.448,
+          "sentiment": -0.433
+        },
+        "C_Military1": {
+          "danger": 0.556,
+          "sentiment": -0.633
+        },
+        "almayadeen": {
+          "danger": 0.73,
+          "sentiment": -0.467
+        },
+        "QudsN": {
+          "danger": 0.778,
+          "sentiment": -0.1
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.4483623222459562
+      "raw_sentiment": 0.23333333333333334,
+      "knn_danger_metric": 0.4065943405539352
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.5150363278207687
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.526197808323848
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.5700501024996333
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.46587609007270286
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.49217544196002266
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.3697903719194476
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.44681271865026073
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.448366518831597
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.48551601953433593
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.5562756998127074
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.5193626451631665
+      "knn_danger_metric": 0.7302925863359448
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.5470497762190303
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.7777686470419
     }
   },
   "semantic_logs": [
@@ -2336,15 +2336,8 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "פיקוד דרום בונה עוד מוצב צה״לי על הריסות אזור כיכר בני סוהילה לשעבר",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "כיכר בני סהילא במזרח ח&#39;אן יונס - לפני ואחרי.  תגובה אחת",
-      "absolute_sentiment": 0,
+      "text": "שכונה של פעם בדור בלב בירת הסייבר של תל אביב: החל ה-Pre-Sale של פרויקט The Square Tel aviv בלב העיר&#33;  הפרויקט נבנה בלב בירת הסייבר של העיר, בלוקיישן שאין שני לו, שכונה חדשה שקמה מ-אפס המגדירה מחדש את הסיטי של תל אביב לצד משרדי Google ו-CheckPoint. הפרויקט נבנה לצד פארק ירוק ענק, קרית חינוך חדשה, קאנטרי וחיי קהילה ומתחם קניות, באחד מהמיקומים הכי מרכזיים בת&quot;א.  הפרויקט כולל Roof Top אורבני עם חדר כושר, אמבטיות קרח, מגרש פיקלבול ולאונג&#39; מפואר. בפרויקט דירות 2-6 חד&#39; לצד פנטהאוזים מפוארים.  מספר דירות מצומצם במחירי השקה – מ-41,000 ₪ למ&quot;ר בלבד &gt;&gt; https://kata.ussl.co.il/the-square-tel-aviv/?utm_source=telegram",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2355,80 +2348,87 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "📹 حزب الله يدعو الدولة اللبنانية لتعزيز عناصر القوة والحذر من الفتنة الداخلية https://almanar.com.lb/article/839432/?s=tg",
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: غريب آبادي: نؤكد أن وجود السفن الفرنسية والبريطانية أو أي دولة أخرى لمواكبة الإجراءات الأميركية سيواجه برد حاسم وفوري",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: غريب آبادي: نوصي فرنسا وبريطانيا وأي دولة ترسل سفنا لمواكبة الإجراءات الأميركية غير القانونية بعدم جعل الأوضاع أكثر تعقيداً",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "القناة 13 عن العقيد احتياط كوبي ماروم: الخسائر والإصابات التي يتكبدها الجيش الإسرائيلي في لبنان حاليا ليست مقبولة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "موقع حدشوت هبيزك الإسرائيلي: انفجار طائرة مسيرة قبل قليل في كيبوتس المنارة عند الحدود اللبنانية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "منصة إعلامية إسرائيلية: الجيش الإسرائيلي يختار إخفاء الوضع عن الجمهور على الحدود الشمالية",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: قصف مدفعي إسرائيلي يستهدف بلدة كفرمان",
+      "text": "منصة إعلامية إسرائيلية: الجيش الإسرائيلي يفرض رقابة على أحداث ذات خطورة منخفضة ومتوسطة في الشمال مع طلب إزالة تقارير وأخبار",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
+      "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "إيران: وكالة فارس عن مصادر مطلعة بشأن صور بقعة النفط قرب جزيرة خارك: قوانين إدارة مضيق هرمز لا تقتصر على الحصول على تصاريح العبور",
-      "absolute_sentiment": -1,
+      "text": "مشروع قانون لدى الاحتلال لإسقاط اتفاقية أوسلو ومنع قيام دولة فلسطينية",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
+      "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "إيران: مصادر وكالة فارس: أصحاب السفن والشحنات التي تتسبب في اختلالات أو مشكلات بيئية في المضيق يتوجب عليهم دفع تعويضات لإيران",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: غارة إسرائيلية على بلدة زبقين",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: قصف مدفعي إسرائيلي استهدف بلدة كفرجوز",
+      "text": "قوات الاحتلال تقتحم بلدة كفر قليل شرق مدينة نابلس.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تعتقل فلسطينيا هددت بهدم منشأة له في منطقة المشتل ببلدة العيزرية شرق القدس المحتلة.",
+      "text": "مليشيات المستوطنين تقتحم منزلا وتسرقه في منطقة ظهر الرياح بأراضي بلدة الخضر جنوب بيت لحم",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تقتحم جنين.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تحتجز فلسطينيين في بلدة بيت حنينا، قرب مستوطنة &quot;عطروت&quot; شمال القدس المحتلة.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تداهم عددا من المحال التجارية في الدوحة غرب بيت لحم",
+      "text": "آليات الاحتلال تُجرف أراض قرب تجمع عرب السعايدة غرب مدينة جنين.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "&quot;حنظلة&quot; تنشر بيانات &quot;نخبة&quot; من المسؤولين العسكريين في جيش الاحتلال التفاصيل: https://qudsn.co/post/215614",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "صحيفة لوس أنجلوس تايمز: &quot;إسرائيل&quot; تستخدم منظومات ذكاء اصطناعي متقدمة، مدعومة ببيانات المراقبة والاتصالات ومنصات مثل &quot;مافن&quot; التابعة لـPalantir Technologies، لتعقب واغتيال أهداف مرتبطة بحزب الله خلال ثوان.",
-      "absolute_sentiment": 1,
+      "text": "صورة من اقتحام الاحتلال لمدينة جنين",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
   ]
