@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-10T17:48:56.937Z",
+  "last_updated": "2026-05-10T18:57:08.901Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.50",
-    "global_norm_sentiment": "-0.40"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.48",
+    "global_norm_sentiment": "-0.44"
   },
   "timeline": [
-    {
-      "time": "2026-05-06T20:53:43.413Z",
-      "danger": 0.513,
-      "sentiment": -0.323,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.627,
-          "sentiment": -0.467
-        },
-        "OSINTdefender": {
-          "danger": 0.48,
-          "sentiment": -0.333
-        },
-        "irna_1313": {
-          "danger": 0.498,
-          "sentiment": -0.5
-        },
-        "sepah_pasdaran": {
-          "danger": 0.426,
-          "sentiment": -0.6
-        },
-        "almanarnews": {
-          "danger": 0.504,
-          "sentiment": 0
-        },
-        "C_Military1": {
-          "danger": 0.442,
-          "sentiment": -0.1
-        },
-        "almayadeen": {
-          "danger": 0.609,
-          "sentiment": -0.3
-        },
-        "QudsN": {
-          "danger": 0.595,
-          "sentiment": -0.8
-        }
-      }
-    },
     {
       "time": "2026-05-06T23:36:51.551Z",
       "danger": 0.511,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.467
         }
       }
+    },
+    {
+      "time": "2026-05-10T18:57:08.901Z",
+      "danger": 0.479,
+      "sentiment": -0.44,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.517,
+          "sentiment": -0.6
+        },
+        "OSINTdefender": {
+          "danger": 0.526,
+          "sentiment": -0.133
+        },
+        "irna_1313": {
+          "danger": 0.533,
+          "sentiment": -0.8
+        },
+        "sepah_pasdaran": {
+          "danger": 0.377,
+          "sentiment": -0.933
+        },
+        "almanarnews": {
+          "danger": 0.491,
+          "sentiment": -0.367
+        },
+        "C_Military1": {
+          "danger": 0.406,
+          "sentiment": -0.633
+        },
+        "almayadeen": {
+          "danger": 0.303,
+          "sentiment": -0.267
+        },
+        "QudsN": {
+          "danger": 0.688,
+          "sentiment": -0.533
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.5209368195499404
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.5165190071719346
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.5252909833137385
+      "raw_sentiment": -0.8,
+      "knn_danger_metric": 0.5331024842631165
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.9333333333333333,
-      "knn_danger_metric": 0.3723848243451476
+      "knn_danger_metric": 0.37668940056132194
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.401416063303788
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.49131658617703333
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.7666666666666667,
-      "knn_danger_metric": 0.37594243370821356
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.40550789571374085
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.5856978280037446
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.3026766462961235
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.7426931976366302
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.6884671160491703
     }
   },
   "semantic_logs": [
@@ -2341,65 +2341,9 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: غارات إسرائيلية على بلدة دير الزهراني",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: حزب الله: استهداف تجمّع لجنود جيش العدوّ الإسرائيليّ عند مجرى النهر في أطراف بلدة دير سريان بمحلّقة انقضاضيّة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "القناة 13 الإسرائيلية: نحن أمام يوم معقد جدًا على الجبهة اللبنانية للأسف مع سلسلة طويلة من الأحداث والتطورات الميدانية",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "القناة 13 الإسرائيلية: الأخطر أن حزب الله بدأ يركز على استهداف بطاريات القبة الحديدية نفسها",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: رضائي: البحرين والإمارات لا تزالان تسلكان طريقاً خاطئاً",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تحتجز عدداً من الفلسطينيين خلال اقتحامها لبلدة كفر مالك شمال شرق مدينة رام الله.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "الاحتلال يصادر أراضي داخل مناطق سيادة السلطة في جنين",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم بلدة جبع في جنين",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "اقتحام مستمر من الاحتلال لمدينة جنين",
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "📹 قراءة في آخر مستجدات الرد الإيراني مع الدكتور حسن حيدر المختص بالشأن الإيراني https://almanar.com.lb/article/756782/?s=tg",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
@@ -2418,18 +2362,74 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صفارات الإنذار تدوي في زرعيت وشوميراه بالجليل الغربي خشية تسلل طائرات مسيّرة.  #الإعلام_الحربي",
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "بينهن 3 أسيرات حوامل.. الاحتلال يصعد جرائمه بحق الأسيرات في سجن &quot;الدامون&quot; التفاصيل: https://qudsn.co/post/215619",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.956418427463877
+      "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قناة i24 الإسرائيلية: اعتقال عدد من الأشخاص بينهم جنديان على خلفية سرقة أسلحة من قواعد تابعة لجيش الاحتلال.",
+      "text": "وزارة الصحة بغزة: 4 شهداء بنيران وقصف الاحتلال في قطاع غزة اليوم.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.94962074608211
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل| حزب الله: استهدف مجاهدونا مقرًّا قياديًّا مستحدثًا تابعًا لجيش الاحتلال الإسرائيليّ في البيّاضة بصلية صاروخيّة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو  مراسل القناة 14 العبرية:  سكان شلومي غاضبون. منذ أكثر من 50 دقيقة تلقّى سكان شلومي تعليمات من أمن البلدة بالدخول إلى المناطق المحمية: «طائرة مسيّرة داخل البلدة — ادخلوا إلى المنطقة المحمية».  ومنذ ذلك الحين لم يتلقوا أي تعليمات إضافية.   إحدى السكان كتبت عن هذا الإخفاق: «نحن داخل الغرفة المحصنة من دون أي قدرة على معرفة ما الذي سيحدث لاحقًا... وماذا لو كان ذلك في منتصف الليل ولم نرَ الرسالة أصلًا؟؟؟ ما الذي يحدث؟؟».  غضب سكان شلومي مبرّر تجاه قيادة الجبهة الداخلية الإسرائيلية.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9990786846311146
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "📹 آخر التطورات في جنوب لبنان مع مراسلنا سامر حاج علي https://almanar.com.lb/article/824027/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9451672518425872
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "ضمن سلسلة أقمار الطوفان.. كتائب القسام تنشر مشاهد من نصب عبوات ناسفة لآليات الاحتلال في شمال قطاع غزة على يد الشهيد بلال الحاطوم والشهيد عبدالقادر صالح",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9262731058775845
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸معاریو: هدف قرار گرفتن «گنبد آهنین» ضربه‌ای سنگین به اعتبار پدافند اسرائیل است  🔹 یک رسانه صهیونیستی اذعان کرد که حمله پهپادی اخیر حزب‌الله به یکی از سامانه‌های پدافندی رژیم صهیونیستی، آسیب قابل‌توجهی به اعتبار سامانه دفاع هوایی این رژیم وارد کرده است؛ زیرا پهپاد مهاجم پیش از اصابت، شناسایی یا رهگیری نشده است.  لینک خبر  📌اخبار ایرنا را در بله | روبیکا | سروش پلاس | ایتا&nbsp;| جهان دنبال کنید @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.8287839929427111
+    },
+    {
+      "channelId": "idfonline",
+      "channel": "IDF",
+      "text": "תצפיות צה&quot;ל זיהו הבוקר תנועה חשודה סמוך ליישוב חמדיה שבמרחב חטיבת הבקעה והעמקים.לוחמי צה&quot;ל ולוחמי יחידת יג&quot;ל של משטרת ישראל הוזנקו לנקודה ועצרו רכב ובו שלושה חשודים https://t.co/gZaMaQbju7  On May 23, 2023 at 04:52PM Read more via Twitter @idfonline @idfonline",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.819613420621686
+    },
+    {
+      "channelId": "OSINTdefender",
+      "channel": "Global_OSINT",
+      "text": "#USA #China #Iran   The United States has imposed sanctions on Chang Guang Satellite Technology Co. for allegedly providing critical intelligence to Iran that facilitated military strikes against U.S. forces.  Subscribe to @OSINTdefender Chat room",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.7624470031652245
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️معاریو: حمله پهپادی حزب‌الله، اعتبار گنبد آهنین را از بین برد  روزنامه صهیونیستی معاریو امروز یکشنبه اذعان کرد حمله پهپادی اخیر حزب‌الله به سکوی سامانه ضدموشکی گنبد آهنین، ضربه بسیار سختی به اعتبار این سامانه محسوب می‌شود.  معاریو با اشاره به اینکه گنبد آهنین نتوانست پهپاد را از قبل شناسایی کرده و آن را رهگیری کند، تأکید کرد، این واقعیت که آسیب جدی به آتش‌بار وارد شده، شدت آسیب به سامانه دفاع هوایی را افزایش می‌دهد. ✅  @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.7621168864265282
     }
   ]
 }
