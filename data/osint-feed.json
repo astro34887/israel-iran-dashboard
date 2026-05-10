@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-10T02:37:12.390Z",
+  "last_updated": "2026-05-10T06:08:14.719Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.35"
+    "global_norm_sentiment": "-0.46"
   },
   "timeline": [
-    {
-      "time": "2026-05-04T09:06:45.151Z",
-      "danger": 0.511,
-      "sentiment": -0.237,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.535,
-          "sentiment": -0.567
-        },
-        "OSINTdefender": {
-          "danger": 0.486,
-          "sentiment": -0.467
-        },
-        "irna_1313": {
-          "danger": 0.493,
-          "sentiment": -0.433
-        },
-        "sepah_pasdaran": {
-          "danger": 0.442,
-          "sentiment": -0.6
-        },
-        "almanarnews": {
-          "danger": 0.48,
-          "sentiment": 0.033
-        },
-        "C_Military1": {
-          "danger": 0.814,
-          "sentiment": -0.267
-        },
-        "almayadeen": {
-          "danger": 0.514,
-          "sentiment": 0.133
-        },
-        "QudsN": {
-          "danger": 0.396,
-          "sentiment": -0.067
-        }
-      }
-    },
     {
       "time": "2026-05-04T16:20:58.914Z",
       "danger": 0.46,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.05
         }
       }
+    },
+    {
+      "time": "2026-05-10T06:08:14.719Z",
+      "danger": 0.519,
+      "sentiment": -0.463,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.544,
+          "sentiment": -0.7
+        },
+        "OSINTdefender": {
+          "danger": 0.42,
+          "sentiment": -0.267
+        },
+        "irna_1313": {
+          "danger": 0.53,
+          "sentiment": -0.364
+        },
+        "sepah_pasdaran": {
+          "danger": 0.372,
+          "sentiment": -0.733
+        },
+        "almanarnews": {
+          "danger": 0.489,
+          "sentiment": -0.867
+        },
+        "C_Military1": {
+          "danger": 0.468,
+          "sentiment": -0.667
+        },
+        "almayadeen": {
+          "danger": 0.808,
+          "sentiment": -0.6
+        },
+        "QudsN": {
+          "danger": 0.61,
+          "sentiment": -0.3
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,32 +2279,32 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.3532560947581576
+      "raw_sentiment": -0.7,
+      "knn_danger_metric": 0.5435059255675175
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
+      "raw_sentiment": -0.26666666666666666,
       "knn_danger_metric": 0.42012837285378674
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 12,
-      "raw_sentiment": 0.041666666666666664,
-      "knn_danger_metric": 0.518011804229391
+      "num_messages": 11,
+      "raw_sentiment": -0.36363636363636365,
+      "knn_danger_metric": 0.5297686031585752
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.7,
-      "knn_danger_metric": 0.31085194816233225
+      "raw_sentiment": -0.7333333333333333,
+      "knn_danger_metric": 0.3720547738963876
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.4485842249623214
+      "raw_sentiment": -0.8666666666666667,
+      "knn_danger_metric": 0.4893492481245319
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.9184753477987382
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.808372903863754
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 10,
-      "raw_sentiment": -0.05,
-      "knn_danger_metric": 0.7657137922620335
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.6101293738871832
     }
   },
   "semantic_logs": [
@@ -2331,6 +2331,13 @@
       "channel": "IDF",
       "text": "״אני קורא לאכולוסייה החרדית ולהנהגה החרדית לעודד כל פעם קצת יותר לגיוס. יש לנו מסלולים יוצאים מן הכלל, השתחררו מהם אנשים לא פחות חרדים ואזרחים טובים יותר למדינה. זה טוב לכולם״  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
       "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "ישראל צפויה לשחרר ולגרש את סיף אבו כשכ וטיאגו אבלה - שניים ממארגני המשט לעזה שנעצרו בסיכול המשט האחרון.  ארגוני המשט:  &quot;אנו מברכים על שחרורם הקרב של סיף וטיאגו מהשבי הישראלי. שחרורם מהווה ניצחון מול ניסיונה של ישראל להפליל את תנועת המשטים ולהכפיש את הסולידריות עם פלסטין. מיליוני פלסטינים החיים תחת הכיבוש ועשרת אלפים פלסטינים הכלואים בישראל אינם זוכים לתמיכה לה זכו טיאגו וסיף. למענם אנו ממשיכים. &quot;  ## בעיניי זו טעות גדולה לשחררם אחרי פרק זמן כה קצר. אפס הרתעה. הם לא יפסיקו. הם כבר מתכננים את המשט הבא. נתראה במעצר (והשחרור) הבא.  תגובה אחת",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2344,27 +2351,6 @@
       "channelId": "almanarnews",
       "channel": "Hezbollah",
       "text": "🔵 “حشد”: قلق من تصاعد الهجمات الإسرائيلية في غزة وتوسّع المناطق المحظورة إلى 64% من القطاع https://almanar.com.lb/article/838182/?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: إصابة بقنبلة من مسيرة إسرائيلية في منطقة الشاكوش شمالي مدينة رفح جنوبي قطاع غزة",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: تم قبل وقت قصير إطلاق عدد من الصواريخ الاعتراضية من شمال &quot;إسرائيل&quot; باتجاه جنوب لبنان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: تم قبل وقت قصير إطلاق عدد من الصواريخ الاعتراضية من شمال &quot;إسرائيل&quot; باتجاه جنوب لبنان",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2429,6 +2415,20 @@
       "channel": "Arab_Axis",
       "text": "لبنان: مراسل الميادين في الجنوب: عدوان إسرائيلي يستهدف بلدة جبشيت",
       "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين في قطاع غزة: شهيد ومصابون من جراء قصف إسرائيلي استهدف مجموعة من المواطنين في مخيم المغازي وسط القطاع",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "المسجد الأقصى المبارك فجر اليوم..",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     }
   ]
