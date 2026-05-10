@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-10T20:55:45.316Z",
+  "last_updated": "2026-05-10T21:44:04.962Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.29"
+    "global_knn_danger": "0.55",
+    "global_norm_sentiment": "-0.32"
   },
   "timeline": [
-    {
-      "time": "2026-05-07T16:27:00.472Z",
-      "danger": 0.482,
-      "sentiment": -0.317,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.49,
-          "sentiment": -0.45
-        },
-        "OSINTdefender": {
-          "danger": 0.479,
-          "sentiment": -0.433
-        },
-        "irna_1313": {
-          "danger": 0.424,
-          "sentiment": -0.167
-        },
-        "sepah_pasdaran": {
-          "danger": 0.309,
-          "sentiment": -0.167
-        },
-        "almanarnews": {
-          "danger": 0.418,
-          "sentiment": -0.2
-        },
-        "C_Military1": {
-          "danger": 0.4,
-          "sentiment": -0.367
-        },
-        "almayadeen": {
-          "danger": 0.636,
-          "sentiment": -0.633
-        },
-        "QudsN": {
-          "danger": 0.716,
-          "sentiment": -0.615
-        }
-      }
-    },
     {
       "time": "2026-05-07T18:21:22.629Z",
       "danger": 0.471,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.3
         }
       }
+    },
+    {
+      "time": "2026-05-10T21:44:04.962Z",
+      "danger": 0.547,
+      "sentiment": -0.32,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.544,
+          "sentiment": -0.7
+        },
+        "OSINTdefender": {
+          "danger": 0.526,
+          "sentiment": -0.133
+        },
+        "irna_1313": {
+          "danger": 0.538,
+          "sentiment": -0.3
+        },
+        "sepah_pasdaran": {
+          "danger": 0.387,
+          "sentiment": -0.333
+        },
+        "almanarnews": {
+          "danger": 0.418,
+          "sentiment": -0.367
+        },
+        "C_Military1": {
+          "danger": 0.496,
+          "sentiment": -0.333
+        },
+        "almayadeen": {
+          "danger": 0.811,
+          "sentiment": -0.667
+        },
+        "QudsN": {
+          "danger": 0.801,
+          "sentiment": -0.233
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.5468315280207354
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.53787148880196
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.3415097465490307
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.3871230853635226
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.4536357362023422
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.4184709683960829
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.5638776062468884
+      "knn_danger_metric": 0.49625346776307533
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.7666887483263791
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.8109286499454471
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.6013751476565933
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.801462752567741
     }
   },
   "semantic_logs": [
@@ -2355,17 +2355,17 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️روابط عمومی ارتش: یک فروند پهپاد دشمن متجاوز، توسط سامانه‌های شبکه یکپارچه پدافند هوایی منهدم شد. ✅  @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
       "text": "📹 قراءة في آخر مستجدات الرد الإيراني مع الدكتور حسن حيدر المختص بالشأن الإيراني https://almanar.com.lb/article/756782/?s=tg",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "منصة إعلامية إسرائيلية: حادثة صعبة في قاعدة للجيش بالقرب من الحدود مع لبنان عقب استهداف بمحلقة متفجرة لحزب الله",
-      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
@@ -2411,24 +2411,24 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "عاجل| ترجمة قدس: صافرات الإنذار تدوي في مستوطنات شمال فلسطين المحتلة جراء إطلاق رشقة صاروخية من حزب الله.",
+      "text": "لبنان: مراسل الميادين في الجنوب: غارة إسرائيلية جديدة تستهدف بلدة كفرا",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "وزارة الصحة الإسرائيلية تقر بـ8 إصابات بنيران حزب الله أمس",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية عورتا، جنوب شرق نابلس.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم مخيم شعفاط، شمال القدس المحتلة.",
-      "absolute_sentiment": 0,
+      "text": "متابعة | قوات الاحتلال تقتحم قرية تياسير شرق طوباس",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
   ]
