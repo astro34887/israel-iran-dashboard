@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-09T23:43:34.270Z",
+  "last_updated": "2026-05-10T02:37:12.390Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.38"
+    "global_norm_sentiment": "-0.35"
   },
   "timeline": [
-    {
-      "time": "2026-05-03T23:29:16.341Z",
-      "danger": 0.473,
-      "sentiment": -0.367,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.46,
-          "sentiment": -0.6
-        },
-        "OSINTdefender": {
-          "danger": 0.494,
-          "sentiment": -0.433
-        },
-        "irna_1313": {
-          "danger": 0.411,
-          "sentiment": -0.433
-        },
-        "sepah_pasdaran": {
-          "danger": 0.291,
-          "sentiment": -0.467
-        },
-        "almanarnews": {
-          "danger": 0.526,
-          "sentiment": -0.1
-        },
-        "C_Military1": {
-          "danger": 0.449,
-          "sentiment": -0.567
-        },
-        "almayadeen": {
-          "danger": 0.313,
-          "sentiment": -0.467
-        },
-        "QudsN": {
-          "danger": 0.84,
-          "sentiment": -0.467
-        }
-      }
-    },
     {
       "time": "2026-05-04T09:06:45.151Z",
       "danger": 0.511,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.7
         }
       }
+    },
+    {
+      "time": "2026-05-10T02:37:12.390Z",
+      "danger": 0.515,
+      "sentiment": -0.351,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.353,
+          "sentiment": -0.433
+        },
+        "OSINTdefender": {
+          "danger": 0.42,
+          "sentiment": -0.233
+        },
+        "irna_1313": {
+          "danger": 0.518,
+          "sentiment": 0.042
+        },
+        "sepah_pasdaran": {
+          "danger": 0.311,
+          "sentiment": -0.7
+        },
+        "almanarnews": {
+          "danger": 0.449,
+          "sentiment": -0.667
+        },
+        "C_Military1": {
+          "danger": 0.468,
+          "sentiment": -0.667
+        },
+        "almayadeen": {
+          "danger": 0.918,
+          "sentiment": -0.633
+        },
+        "QudsN": {
+          "danger": 0.766,
+          "sentiment": -0.05
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,32 +2279,32 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
+      "raw_sentiment": -0.43333333333333335,
       "knn_danger_metric": 0.3532560947581576
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
+      "raw_sentiment": -0.23333333333333334,
       "knn_danger_metric": 0.42012837285378674
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.49317180343088274
+      "num_messages": 12,
+      "raw_sentiment": 0.041666666666666664,
+      "knn_danger_metric": 0.518011804229391
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.3162680267506034
+      "raw_sentiment": -0.7,
+      "knn_danger_metric": 0.31085194816233225
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.3085022331808218
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.4485842249623214
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2320,9 +2320,9 @@
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.7,
-      "knn_danger_metric": 0.9594038112305856
+      "num_messages": 10,
+      "raw_sentiment": -0.05,
+      "knn_danger_metric": 0.7657137922620335
     }
   },
   "semantic_logs": [
@@ -2331,6 +2331,20 @@
       "channel": "IDF",
       "text": "״אני קורא לאכולוסייה החרדית ולהנהגה החרדית לעודד כל פעם קצת יותר לגיוס. יש לנו מסלולים יוצאים מן הכלל, השתחררו מהם אנשים לא פחות חרדים ואזרחים טובים יותר למדינה. זה טוב לכולם״  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
       "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 &quot;أكسيوس&quot;: روبيو وويتكوف بحثا الملف الإيراني مع رئيس وزراء قطر في ميامي https://almanar.com.lb/article/838067/?s=tg",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 “حشد”: قلق من تصاعد الهجمات الإسرائيلية في غزة وتوسّع المناطق المحظورة إلى 64% من القطاع https://almanar.com.lb/article/838182/?s=tg",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2415,20 +2429,6 @@
       "channel": "Arab_Axis",
       "text": "لبنان: مراسل الميادين في الجنوب: عدوان إسرائيلي يستهدف بلدة جبشيت",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في قطاع غزة: شهيد ومصابون من جراء قصف إسرائيلي استهدف مجموعة من المواطنين في مخيم المغازي وسط القطاع",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم مدينة أريحا بالضفة الغربية",
-      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     }
   ]
