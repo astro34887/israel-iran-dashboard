@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-10T19:58:57.063Z",
+  "last_updated": "2026-05-10T20:55:45.316Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.50",
-    "global_norm_sentiment": "-0.32"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.29"
   },
   "timeline": [
-    {
-      "time": "2026-05-07T09:45:02.984Z",
-      "danger": 0.513,
-      "sentiment": -0.243,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.525,
-          "sentiment": -0.5
-        },
-        "OSINTdefender": {
-          "danger": 0.462,
-          "sentiment": -0.467
-        },
-        "irna_1313": {
-          "danger": 0.616,
-          "sentiment": 0.3
-        },
-        "sepah_pasdaran": {
-          "danger": 0.506,
-          "sentiment": -0.533
-        },
-        "almanarnews": {
-          "danger": 0.416,
-          "sentiment": 0.1
-        },
-        "C_Military1": {
-          "danger": 0.581,
-          "sentiment": -0.5
-        },
-        "almayadeen": {
-          "danger": 0.621,
-          "sentiment": -0.7
-        },
-        "QudsN": {
-          "danger": 0.45,
-          "sentiment": 0
-        }
-      }
-    },
     {
       "time": "2026-05-07T16:27:00.472Z",
       "danger": 0.482,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.3
         }
       }
+    },
+    {
+      "time": "2026-05-10T20:55:45.316Z",
+      "danger": 0.529,
+      "sentiment": -0.293,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.544,
+          "sentiment": -0.7
+        },
+        "OSINTdefender": {
+          "danger": 0.526,
+          "sentiment": -0.133
+        },
+        "irna_1313": {
+          "danger": 0.547,
+          "sentiment": -0.133
+        },
+        "sepah_pasdaran": {
+          "danger": 0.342,
+          "sentiment": -0.567
+        },
+        "almanarnews": {
+          "danger": 0.454,
+          "sentiment": -0.233
+        },
+        "C_Military1": {
+          "danger": 0.564,
+          "sentiment": -0.333
+        },
+        "almayadeen": {
+          "danger": 0.767,
+          "sentiment": -0.4
+        },
+        "QudsN": {
+          "danger": 0.601,
+          "sentiment": -0.3
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2280,7 +2280,7 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.7,
-      "knn_danger_metric": 0.5274085001605279
+      "knn_danger_metric": 0.5436896378793902
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,14 +2291,14 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.506594449901393
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.5468315280207354
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.7333333333333333,
-      "knn_danger_metric": 0.33017857946370993
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.3415097465490307
     },
     "almanarnews": {
       "name": "Hezbollah",
@@ -2309,20 +2309,20 @@
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.5421393330848108
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.5638776062468884
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.5783313418638744
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.7666887483263791
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.5429016866424945
+      "knn_danger_metric": 0.6013751476565933
     }
   },
   "semantic_logs": [
@@ -2341,24 +2341,24 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "מקורות לבנוניים מדווחים שתקיפה של צה&quot;ל לפני זמן קצר באזור סג&#39;ד (סוג&#39;וד) גרמה להפסקת חשמל אזורית בכל נפת ג&#39;זין.  מוקדם יותר היום הותקפה תחנת חשמל בכפר רמאן ליד העיר נבטיה.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "דובר צה&quot;ל: בתקיפה מדויקת בדאחייה שבביירות: צה&quot;ל חיסל את מפקד יחידת &#39;כוח רדואן&#39; בארגון הטרור חיזבאללה  צה&quot;ל תקף וחיסל אתמול (ד&#39;) את אחמד ע&#39;אלב בלוט, מפקד יחידת &#39;כוח רדואן&#39; - יחידת הקומנדו העילית של ארגון הטרור חיזבאללה בדאחייה שבביירות.  במשך שנים, ע&#39;אלב בלוט…",
+      "absolute_sentiment": -0.5,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
       "text": "📹 قراءة في آخر مستجدات الرد الإيراني مع الدكتور حسن حيدر المختص بالشأن الإيراني https://almanar.com.lb/article/756782/?s=tg",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: غارات إسرائيلية استهدفت كفرا وحاريص",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: غارات إسرائيلية استهدفت كفرا وحاريص",
-      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2390,17 +2390,24 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "وزارة الصحة بغزة: 4 شهداء بنيران وقصف الاحتلال في قطاع غزة اليوم.",
+      "text": "لبنان: مراسل الميادين: غارة لطائرات الاحتلال تستهدف بلدة كفرا جنوب البلاد",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "عاجل| حزب الله: استهدف مجاهدونا مقرًّا قياديًّا مستحدثًا تابعًا لجيش الاحتلال الإسرائيليّ في البيّاضة بصلية صاروخيّة.",
-      "absolute_sentiment": -1,
+      "text": "إيران: تسنيم عن مصدر مطلع: بطبيعة الحال عندما لا يكون ترامب راضياً فهذا هو الأفضل",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: غارة إسرائيلية جديدة تستهدف بلدة كفرا",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2411,25 +2418,18 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو  مراسل القناة 14 العبرية:  سكان شلومي غاضبون. منذ أكثر من 50 دقيقة تلقّى سكان شلومي تعليمات من أمن البلدة بالدخول إلى المناطق المحمية: «طائرة مسيّرة داخل البلدة — ادخلوا إلى المنطقة المحمية».  ومنذ ذلك الحين لم يتلقوا أي تعليمات إضافية.   إحدى السكان كتبت عن هذا الإخفاق: «نحن داخل الغرفة المحصنة من دون أي قدرة على معرفة ما الذي سيحدث لاحقًا... وماذا لو كان ذلك في منتصف الليل ولم نرَ الرسالة أصلًا؟؟؟ ما الذي يحدث؟؟».  غضب سكان شلومي مبرّر تجاه قيادة الجبهة الداخلية الإسرائيلية.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9990786846311146
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية عورتا، جنوب شرق نابلس.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: يعقد الكابينيت المصغر الآن اجتماعًا عبر الهاتف.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.956418427463877
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صفارات الإنذار تدوي في دان في إصبع الجليل خشية تسلل طائرات مسيّرة.  #الإعلام_الحربي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.956418427463877
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم مخيم شعفاط، شمال القدس المحتلة.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
     }
   ]
 }
