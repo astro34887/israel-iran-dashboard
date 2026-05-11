@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-11T06:36:35.925Z",
+  "last_updated": "2026-05-11T10:35:23.879Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.48",
-    "global_norm_sentiment": "-0.43"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.50",
+    "global_norm_sentiment": "-0.25"
   },
   "timeline": [
-    {
-      "time": "2026-05-07T23:58:14.805Z",
-      "danger": 0.517,
-      "sentiment": -0.287,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.623,
-          "sentiment": -0.833
-        },
-        "OSINTdefender": {
-          "danger": 0.411,
-          "sentiment": -0.133
-        },
-        "irna_1313": {
-          "danger": 0.484,
-          "sentiment": -0.3
-        },
-        "sepah_pasdaran": {
-          "danger": 0.371,
-          "sentiment": -0.567
-        },
-        "almanarnews": {
-          "danger": 0.5,
-          "sentiment": -0.1
-        },
-        "C_Military1": {
-          "danger": 0.524,
-          "sentiment": -0.1
-        },
-        "almayadeen": {
-          "danger": 0.594,
-          "sentiment": -0.3
-        },
-        "QudsN": {
-          "danger": 0.711,
-          "sentiment": -0.4
-        }
-      }
-    },
     {
       "time": "2026-05-08T03:29:16.194Z",
       "danger": 0.467,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.667
         }
       }
+    },
+    {
+      "time": "2026-05-11T10:35:23.879Z",
+      "danger": 0.505,
+      "sentiment": -0.245,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.527,
+          "sentiment": -0.667
+        },
+        "OSINTdefender": {
+          "danger": 0.49,
+          "sentiment": -0.4
+        },
+        "irna_1313": {
+          "danger": 0.533,
+          "sentiment": -0.3
+        },
+        "sepah_pasdaran": {
+          "danger": 0.423,
+          "sentiment": -0.633
+        },
+        "almanarnews": {
+          "danger": 0.334,
+          "sentiment": 0.267
+        },
+        "C_Military1": {
+          "danger": 0.469,
+          "sentiment": -0.133
+        },
+        "almayadeen": {
+          "danger": 0.739,
+          "sentiment": -0.167
+        },
+        "QudsN": {
+          "danger": 0.585,
+          "sentiment": -0.286
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.29492682073237236
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.5269269252685639
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.56720895024949
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.5327524678613701
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.32885130476631125
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.42315040968384326
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.38721580651386006
+      "raw_sentiment": 0.26666666666666666,
+      "knn_danger_metric": 0.33352027168047227
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.7333333333333333,
-      "knn_danger_metric": 0.42613966476338044
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.46895487219590676
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.7046515035432539
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.7391261512180026
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.6088146357304747
+      "num_messages": 14,
+      "raw_sentiment": -0.2857142857142857,
+      "knn_danger_metric": 0.5849703185796101
     }
   },
   "semantic_logs": [
@@ -2334,102 +2334,102 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "תיעוד ממצלמות התנועה של תאונת האופנוע בקנדה - שבעקבותיה נתלה האופנוע על רמזור 👆.  ##  בתיעוד נראה האופנוע קופא  בעוד שהתנועה נמשכת בסרטון - ע&quot;פ גרוק מדובר בתכונה של מצלמות תנועה שמאפשרת צפיה בלוחית זיהוי במקרה של אירוע חריג.  תגובה אחת",
+      "absolute_sentiment": -0.5,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": " ️روابط عمومی ارتش: یک فروند پهپاد دشمن متجاوز، توسط سامانه‌های شبکه یکپارچه پدافند هوایی منهدم شد. ✅  @sepah_pasdaran",
+      "text": "☑️ شما نماینده مجلسا چرا اینجورین... سرباز میبینین دستتون شل میشه&#33;؟ سریال &quot;کلینیک رویا&quot; هرشب ساعت ۲۰:۳۰ شبکه ۳ سیما ☑️ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: &quot;الجيش&quot; لا يروي كل ما يحدث على طول &quot;الخط الأصفر&quot; جنوبي لبنان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: طيران الاحتلال يعتدي بسلسلة غارات على بلدة يحمر شقيف الجنوبية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: طيران الاحتلال يعتدي على بلدتي شوكين وكفرتبنيت في قضاء النبطية جنوب لبنان",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: إصابة برصاص قوات الاحتلال في بيت لاهيا شمالي قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: السلطة القضائية: تنفيذ حكم الإعدام بعميل مشترك للموساد الإسرائيلي والاستخبارات الأميركية",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️حمله پهپادی حزب‌الله به دوربین رصد و مراقبت ارتش صهیونیستی   ✅  @sepah_pasdaran",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "سوريا: مصادر محلية سورية: دورية إسرائيلية تتوغل في بلدة جباتا الخشب بريف القنيطرة الشمالي وتنصب حاجزاً على مدخل البلدة",
+      "text": "وسائل إعلام إسرائيلية: &quot;معاريف&quot;: حرب الاستنزاف هدفها الوحيد تقويض وتعطيل منظومة الأمن الإسرائيلية على الحدود الشمالية ونحن في وضع لا يُطاق",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "وسائل إعلام إسرائيلية: &quot;معاريف&quot;: الوضع الراهن على الحدود اللبنانية بالغ الخطورة و&quot;إسرائيل&quot; تتكتم على الأمر",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: غارة من مسيرة إسرائيلية تستهدف بلدة زبدين",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: حماس: التقارير التي يتداولها الإعلام الإسرائيلي حول تطوير الحركة لقدراتها تأتي في إطار محاولات لتبرير تصعيد العدوان ضد غزة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: غارة إسرائيلية على بلدة صديقين",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: شهيدان من جراء الغارة الاسرائيلية على بلدة زبدين في قضاء النبطية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: غارة اسرائيلية على أطراف بلدة زبقين",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: مستوطنون بلباس جيش الاحتلال اقتحموا منطقة حواره بمسافر يطا جنوب الخليل وفتشوا أحد المساكن وهددوا الأهالي.",
+      "text": "الهلال الأحمر: إصابة بالرصاص الحي خلال اقتحام الاحتلال في قلنديا شمال القدس المحتلة وجاري نقلها للمستشفى.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال برفقة آليات الهدم تقتحم حي واد قدوم في بلدة سلوان بالقدس المحتلة",
-      "absolute_sentiment": 0.5,
+      "text": "الشهيدان علاء إبراهيم أبو عياد ومنير عيد الجطلي اللذان ارتقيا بقصف الاحتلال وسط قطاع غزة وانتُشل جثمانيهما اليوم.",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "جيش الاحتلال يشرع بتنفيذ عمليات هدم في ضاحية الزراعة بمخيم الجلزون شمال رام الله ويطرد الصحفيين من المكان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تنفذ عمليات هدم في قرية الرماضين جنوب مدينة الخليل.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل| مخابرات الاحتلال تحقق في خلفية عملية إطلاق نار وقعت صباح اليوم في الرملة بالداخل المحتل أسفرت عن قتيل وعدد من الجرحى.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل| مصادر عبرية: مروحية نقل جرحى لجيش الاحتلال قادمة من الحدود الفلسطينية اللبنانية تهبط في مشفى &quot;زيف&quot; بمدينة صفد.",
+      "text": "عاجل| الهيئة العامة للشؤون المدنية تبلغ وزارة الصحة باستشهاد الشاب أيمن رفيق محمد الهشلمون (30 عامًا) برصاص الاحتلال في مخيم قلنديا شمالي القدس&nbsp;واحتجاز جثمانه.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: هبوط مروحية عسكرية إسرائيلية في مستشفى بلينسون في تل أبيب.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.956418427463877
+      "text": "|| سرايا القدس تنعى كوكبة من قادة الاختصاصات العسكرية الذين ارتقوا شهداء خلال الملاحم البطولية في معركة #طوفان_الأقصى المباركة.  الشهيد القائد/ كرم جابر حماد (قائد في الوحدة الصاروخية - لواء رفح)  الشهيد القائد/ ثائر عوض الله العوضية (قائد في وحدة أمن السرايا المركزية - لواء الشمال)  الشهيد القائد/ جابر سميح رويشد (قائد فصيل - الوحدة البحرية - لواء الشمال)  الشهيد القائد/ معين عادل أبو العيش (قائد فصيل ميداني - كتيبة الشهيد مقلد حميد - لواء الشمال)  الشهيد القائد/ أحمد ياسر زريد (قائد فصيل - وحدة الاتصالات المركزية - لواء الوسطى)  الشهيد القائد/ عبد الله محمود قرعة (قائد فصيل - وحدة الإعلام الحربي المركزية - لواء الوسطى)  الشهيد القائد/ راني صالح أبو علي (قائد فصيل - وحدة الإعلام الحربي المركزية - لواء الوسطى)  الشهيد القائد/ أحمد شحدة أبو طير (قائد فصيل - وحدة الدعم - لواء خانيونس)  الشهيد القائد/ محمد سالم حبيب (قائد فصيل - وحدة التصنيع الحربي - لواء غزة )  الشهيد القائد/ علاء حسن شاهين (قائد فصيل - وحدة أمن السرايا المركزية - لواء غزة)  الشهيد القائد/ يوسف محمد عاشور (قائد فصيل - ملف البنية - لواء غزة)  الشهيد القائد/ محمد سلمان البطش (قائد فصيل - وحدة التصنيع الحربي - لواء غزة)  الشهيد القائد/ علي محمد البطش (قائد فصيل - قسم الإسعاف الحربي - لواء غزة)  الشهيد القائد/ يحيى حمدان شراب (قائد فصيل - وحدة العمليات المركزية - لواء رفح)  الشهيد القائد/ يحيى عماد العاجز (قائد فصيل - وحدة التصنيع الحربي - لواء رفح)  الشهيد القائد/ فرحان مسعود ضهير (قائد فصيل - ملف التسليح - لواء رفح)  سرايا القدس الجناح العسكري لحركة الجهاد الإسلامي في فلسطين الإثنين 24 ذو القعدة 1447 هجري – 11 مايو 2026م",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9668672778767208
     }
   ]
 }
