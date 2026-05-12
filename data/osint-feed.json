@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-12T14:13:17.840Z",
+  "last_updated": "2026-05-12T17:07:46.741Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
+    "level": "ESCALATING",
     "global_knn_danger": "0.50",
-    "global_norm_sentiment": "-0.21"
+    "global_norm_sentiment": "-0.26"
   },
   "timeline": [
-    {
-      "time": "2026-05-08T23:00:09.454Z",
-      "danger": 0.479,
-      "sentiment": -0.39,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.654,
-          "sentiment": -0.767
-        },
-        "OSINTdefender": {
-          "danger": 0.375,
-          "sentiment": -0.267
-        },
-        "irna_1313": {
-          "danger": 0.424,
-          "sentiment": -0.231
-        },
-        "sepah_pasdaran": {
-          "danger": 0.295,
-          "sentiment": -0.4
-        },
-        "almanarnews": {
-          "danger": 0.357,
-          "sentiment": -0.433
-        },
-        "C_Military1": {
-          "danger": 0.298,
-          "sentiment": -0.633
-        },
-        "almayadeen": {
-          "danger": 0.499,
-          "sentiment": -0.767
-        },
-        "QudsN": {
-          "danger": 0.937,
-          "sentiment": -0.267
-        }
-      }
-    },
     {
       "time": "2026-05-09T00:03:18.716Z",
       "danger": 0.47,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.267
         }
       }
+    },
+    {
+      "time": "2026-05-12T17:07:46.741Z",
+      "danger": 0.504,
+      "sentiment": -0.26,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.461,
+          "sentiment": -0.6
+        },
+        "OSINTdefender": {
+          "danger": 0.541,
+          "sentiment": -0.4
+        },
+        "irna_1313": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "sepah_pasdaran": {
+          "danger": 0.358,
+          "sentiment": -0.333
+        },
+        "almanarnews": {
+          "danger": 0.386,
+          "sentiment": 0.1
+        },
+        "C_Military1": {
+          "danger": 0.554,
+          "sentiment": -0.133
+        },
+        "almayadeen": {
+          "danger": 0.633,
+          "sentiment": -0.467
+        },
+        "QudsN": {
+          "danger": 0.702,
+          "sentiment": -0.333
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.47049316325808704
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.46098051860399986
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 10,
-      "raw_sentiment": -0.15,
-      "knn_danger_metric": 0.37635945914152885
+      "num_messages": 15,
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.4501116064326703
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.4681722201154327
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.3583049523962948
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.3722934959439423
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.3860028653457705
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.5138546234910126
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.5540287467834005
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.7411663752243762
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.6333333333333333
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.5357626093017843
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.701607259160684
     }
   },
   "semantic_logs": [
@@ -2341,95 +2341,95 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "دراسة في “فورين بوليسي”: فقدان الثقة بالدولة اللبنانية يدفع شريحة واسعة إلى دعم بقاء سلاح حزب الله https://almanar.com.lb/article/846622/?s=tg",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: استخبارات حرس الثورة في محافظة طهران: تفكيك 5 شبكات تهدف لزعزعة الأمن تضم 20 عنصراً مرتبطين بجماعات إرهابية وبمهربي أسلحة",
+      "text": "وسائل إعلام إسرائيلية: هبوط مروحية عسكرية في مستشفى رمبام في حيفا وعلى متنها جنود مصابون في جنوب لبنان",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: استخبارات حرس الثورة في محافظة طهران: ضُبط بحوزة أفراد الشبكات أكثر من 50 قطعة من مختلف أنواع الأسلحة النارية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: استخبارات حرس الثورة في محافظة طهران: ضبط مع عناصر الشبكات 70 كيلوغراماً من المواد المتفجرة وكميات كبيرة من الذخائر",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: &quot;فارس&quot;: تُظهر بيانات تتبع الشحنات البحرية أن ناقلة النفط &quot;محمزم&quot; التي تحمل شحنة من ميناء رأس لفان القطري تتواجد في بحر عمان",
+      "text": "&quot;الجبهة الداخلية&quot; الإسرائيلية: إطلاق صفارات إنذار في مرغليوت والمنارة في القطاع الشرقي للحدود مع لبنان للمرة الرابعة",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي بغارة تستهدف بلدة يحمر الشقيف",
-      "absolute_sentiment": -1,
+      "text": "&quot;الغارديان&quot;: الاعتماد المتزايد على المسيرات لا يعكس تكتيكات جديدة في ساحة المعركة فحسب بل يعكس أيضاً الشكل الجديد لحزب الله",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "&quot;جيش&quot; الاحتلال الإسرائيلي: سلاح الجو اعترض قبل قليل مسيرة أُطلقت من جهة الشرق ولم تُفعل صفارات الإنذار",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: طلائي: أي تهديد أو عدوان سيواجه برد فوري يبعث على الندم",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: بعد الخلاف حول قانون التجنيد..قال الحاخام دوف لاندو، الذي يُنظر إليه كأحد أبرز القادة الروحيين للحريديم، لأعضاء الكنيست من حزب ديغل هتوراه: &quot;لم تعد لدينا أي ثقة ببنيامين نتنياهو. ومن الآن فصاعدًا سنفعل فقط ما فيه مصلحة اليهودية الحريدية وعالم المدارس الدينية. يجب العمل على حلّ الكنيست بأسرع وقت ممكن. ومفهوم «الكتلة السياسية» لم يعد قائمًا بالنسبة لنا.&quot;  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9930623958555118
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: الطائرة بدون طيار التي تم إطلاقها اتجاه إيلات، مصدرها اليمن.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9927844350711195
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: الأربعاء القادم: التصويت على القراءة التمهيدية لقانون حل الكنيست.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9927844350711195
-    },
-    {
-      "channelId": "OSINTdefender",
-      "channel": "Global_OSINT",
-      "text": "#EU  #Russia   Vladimir Putin stated that he believes the war in Ukraine is &quot;coming to an end.&quot; This remark was made during a press conference following a scaled-back Victory Day parade in Moscow.  Subscribe to @OSINTdefender Chat room",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9713937211511998
-    },
-    {
-      "channelId": "OSINTdefender",
-      "channel": "Global_OSINT",
-      "text": "#NK  North Korea&#39;s constitution now mandates an automatic nuclear strike if Kim Jong Un is assassinated or incapacitated. This change was adopted during a session of the Supreme People&#39;s Assembly on March 22, 2026, reflecting heightened security concerns following recent global events.  Subscribe to @OSINTdefender Chat room",
+      "text": "&quot;الغارديان&quot;: إذا تم استخدام طائرات FPV المسيرة بذكاء فهي قادرة على تغيير ميزان القوى في ساحة المعركة",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9713937211511998
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي بغارة استهدفت بلدة كفرا",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "وسائل إعلام إسرائيلية: &quot;القناة 14&quot;: الواقع على هذا النحو في الشمال لا يحتمل",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "&quot;جيش&quot; الاحتلال الإسرائيلي: أطلق حزب الله محلقات مفخخة انفجرت &quot;داخل الأراضي الإسرائيلية&quot; بالقرب من الحدود مع لبنان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي بغارة تستهدف بلدة المنصوري",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل | قوات الاحتلال تجرف أراض فلسطينية في قرية &quot;واد الرشا&quot; جنوب شرق قلقيلية.",
+      "text": "قوات الاحتلال تعتقل شابًا من بلدة حزما، شمال شرق القدس المحتلة.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تشرع بتجريف أراض في بلدة بيت عوا، جنوب الخليل.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "ضربه الاحتلال عند الإفراج عنه&#33;   الأسير المحرر &quot;قصي مرعي&quot; من مخيم جنين، يعانق الحرية.  - يذكر أنه أحد مساعدي منفذي عملية &quot;نفق الحرية&quot;، واعتقل لمدة 6 سنوات من الأسر، 4 سنوات منها في العزل الانفرادي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "لحظة اعتقال قوات الاحتلال فتى في مدينة قلقيلية.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
     }
   ]
 }
