@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-11T23:54:59.011Z",
+  "last_updated": "2026-05-12T02:39:18.109Z",
   "tension": {
     "level": "CALM_CEASEFIRE",
     "global_knn_danger": "0.46",
-    "global_norm_sentiment": "-0.30"
+    "global_norm_sentiment": "-0.31"
   },
   "timeline": [
-    {
-      "time": "2026-05-08T15:19:00.444Z",
-      "danger": 0.513,
-      "sentiment": -0.31,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.611,
-          "sentiment": -0.867
-        },
-        "OSINTdefender": {
-          "danger": 0.437,
-          "sentiment": -0.167
-        },
-        "irna_1313": {
-          "danger": 0.482,
-          "sentiment": -0.2
-        },
-        "sepah_pasdaran": {
-          "danger": 0.432,
-          "sentiment": -0.3
-        },
-        "almanarnews": {
-          "danger": 0.442,
-          "sentiment": -0.2
-        },
-        "C_Military1": {
-          "danger": 0.427,
-          "sentiment": -0.6
-        },
-        "almayadeen": {
-          "danger": 0.721,
-          "sentiment": -0.333
-        },
-        "QudsN": {
-          "danger": 0.625,
-          "sentiment": -0.3
-        }
-      }
-    },
     {
       "time": "2026-05-08T17:12:42.061Z",
       "danger": 0.506,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.533
         }
       }
+    },
+    {
+      "time": "2026-05-12T02:39:18.109Z",
+      "danger": 0.457,
+      "sentiment": -0.312,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.358,
+          "sentiment": -0.533
+        },
+        "OSINTdefender": {
+          "danger": 0.522,
+          "sentiment": -0.3
+        },
+        "irna_1313": {
+          "danger": 0.504,
+          "sentiment": -1
+        },
+        "sepah_pasdaran": {
+          "danger": 0.243,
+          "sentiment": -0.533
+        },
+        "almanarnews": {
+          "danger": 0.411,
+          "sentiment": -0.3
+        },
+        "C_Military1": {
+          "danger": 0.354,
+          "sentiment": 0.167
+        },
+        "almayadeen": {
+          "danger": 0.404,
+          "sentiment": -0.133
+        },
+        "QudsN": {
+          "danger": 0.829,
+          "sentiment": -0.318
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2290,9 +2290,9 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.515496203805506
+      "num_messages": 3,
+      "raw_sentiment": -1,
+      "knn_danger_metric": 0.5038874550754359
     },
     "sepah_pasdaran": {
       "name": "IRGC",
@@ -2303,26 +2303,26 @@
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.28295980220220923
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.41066725053285524
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
+      "raw_sentiment": 0.16666666666666666,
       "knn_danger_metric": 0.35356447576936617
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.504027401710119
+      "knn_danger_metric": 0.4040274017101189
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.8474627823376294
+      "num_messages": 11,
+      "raw_sentiment": -0.3181818181818182,
+      "knn_danger_metric": 0.828781121224864
     }
   },
   "semantic_logs": [
@@ -2343,13 +2343,6 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: &quot;هآرتس&quot; عن مسؤول كبير في منظومة الاحتياط البرية في الشمال: لا يوجد حل تكنولوجي للطائرات المسيرة المعتمدة على الألياف البصرية",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "فلسطين المحتلة: قوات الاحتلال انسحبت من بلدة العيزرية جنوب شرق القدس المحتلة بعد تنفيذ عملية هدم واسعة طالت نحو 40 منشأة صناعية وتجارية",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
@@ -2365,41 +2358,6 @@
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
       "text": "فنزويلا: وزارة الخارجية: الإبادة الجماعية ضد الفلسطينيين مستمرة والحروب تتوسع ويجري تطبيق الإجراءات القسرية الأحادية ضد الشعوب",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "جرافات الاحتلال تهدم عددًا كبيرًا من المحلات التجارية في منطقة “المشتل” شرق العيزرية، جنوب شرق القدس المحتلة.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم بناية سكنية وتعتقل شابًا خلال اقتحام مدينة حلحول شمال الخليل.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة كفر راعي جنوب مدينة جنين.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم وسط مدينة رام الله بالضفة الغربية.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم مدينة نابلس من حاجز حوارة.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
@@ -2428,8 +2386,50 @@
       "channelId": "QudsN",
       "channel": "Arab_Axis",
       "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة عتيل، شمال طولكرم.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية; قوات الاحتلال قوات الاحتلال تعتقل الشابين &quot;وليد الاشقر وعزمي منصور&quot; خلال اقتحام حي الضاحية بمدينة نابلس.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "متابعة | قوات الاحتلال تقتحم قرية سالم شرق نابلس.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تعتقل الشاب &quot;فؤاد الزربا&quot; عقب مداهمة منزله في حي الضاحية شرق نابلس.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   رئيس مجلس الشورى الإسلامي محمد باقر قاليباف:  - قواتنا المسلحة مستعدة لتقديم ردٍّ رادع ومُلقِّن على أي اعتداء.  - الاستراتيجية الخاطئة والقرارات الخاطئة تؤدي دائمًا إلى نتائج خاطئة، وقد أدرك العالم بأسره ذلك مسبقًا.  - نحن مستعدون لجميع الخيارات؛ وسوف يُفاجَؤون.  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.9971738898694222
+    },
+    {
+      "channelId": "OSINTdefender",
+      "channel": "Global_OSINT",
+      "text": "#EU  #Russia   Vladimir Putin stated that he believes the war in Ukraine is &quot;coming to an end.&quot; This remark was made during a press conference following a scaled-back Victory Day parade in Moscow.  Subscribe to @OSINTdefender Chat room",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9713937211511998
+    },
+    {
+      "channelId": "OSINTdefender",
+      "channel": "Global_OSINT",
+      "text": "#NK  North Korea&#39;s constitution now mandates an automatic nuclear strike if Kim Jong Un is assassinated or incapacitated. This change was adopted during a session of the Supreme People&#39;s Assembly on March 22, 2026, reflecting heightened security concerns following recent global events.  Subscribe to @OSINTdefender Chat room",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9713937211511998
     }
   ]
 }
