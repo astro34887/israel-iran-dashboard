@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-13T23:53:33.166Z",
+  "last_updated": "2026-05-14T02:47:05.323Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.50",
-    "global_norm_sentiment": "-0.31"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.47",
+    "global_norm_sentiment": "-0.30"
   },
   "timeline": [
-    {
-      "time": "2026-05-09T20:41:31.757Z",
-      "danger": 0.466,
-      "sentiment": -0.31,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.388,
-          "sentiment": -0.4
-        },
-        "OSINTdefender": {
-          "danger": 0.42,
-          "sentiment": -0.267
-        },
-        "irna_1313": {
-          "danger": 0.474,
-          "sentiment": -0.233
-        },
-        "sepah_pasdaran": {
-          "danger": 0.352,
-          "sentiment": -0.3
-        },
-        "almanarnews": {
-          "danger": 0.418,
-          "sentiment": -0.567
-        },
-        "C_Military1": {
-          "danger": 0.48,
-          "sentiment": -0.667
-        },
-        "almayadeen": {
-          "danger": 0.616,
-          "sentiment": -0.233
-        },
-        "QudsN": {
-          "danger": 0.561,
-          "sentiment": -0.3
-        }
-      }
-    },
     {
       "time": "2026-05-09T21:39:28.305Z",
       "danger": 0.502,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.133
         }
       }
+    },
+    {
+      "time": "2026-05-14T02:47:05.323Z",
+      "danger": 0.467,
+      "sentiment": -0.297,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.481,
+          "sentiment": -0.733
+        },
+        "OSINTdefender": {
+          "danger": 0.581,
+          "sentiment": -0.167
+        },
+        "irna_1313": {
+          "danger": 0.521,
+          "sentiment": -0.375
+        },
+        "sepah_pasdaran": {
+          "danger": 0.417,
+          "sentiment": -0.167
+        },
+        "almanarnews": {
+          "danger": 0.256,
+          "sentiment": -0.267
+        },
+        "C_Military1": {
+          "danger": 0.275,
+          "sentiment": -0.733
+        },
+        "almayadeen": {
+          "danger": 0.395,
+          "sentiment": -0.267
+        },
+        "QudsN": {
+          "danger": 0.796,
+          "sentiment": -0.125
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2290,9 +2290,9 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.49615029906145175
+      "num_messages": 12,
+      "raw_sentiment": -0.375,
+      "knn_danger_metric": 0.5206462207790169
     },
     "sepah_pasdaran": {
       "name": "IRGC",
@@ -2303,8 +2303,8 @@
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.3562423239295472
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.2558552608278274
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.71815350970801
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.39513755587261346
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.7697935353154819
+      "num_messages": 12,
+      "raw_sentiment": -0.125,
+      "knn_danger_metric": 0.796495799355298
     }
   },
   "semantic_logs": [
@@ -2331,48 +2331,6 @@
       "channel": "IDF",
       "text": "״אני קורא לאכולוסייה החרדית ולהנהגה החרדית לעודד כל פעם קצת יותר לגיוס. יש לנו מסלולים יוצאים מן הכלל, השתחררו מהם אנשים לא פחות חרדים ואזרחים טובים יותר למדינה. זה טוב לכולם״  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "الإمارات: وزارة الخارجية: العلاقات لا تقوم على السرية وأي ادعاءات عن زيارات غير معلنة لا أساس لها ما لم تصدر عن الجهات الرسمية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: وزارة الصحة: استشهاد 10 أشخاص إثر اعتداءات إسرائيلية على مناطق في جنوب لبنان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "زيف أغمون: الشيخ محمد بن زايد وأفراد عائلته وشخصيات مرموقة استقبلونا وكانوا سعداء برؤية نتنياهو على أرضهم",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: الطيران الحربي الإسرائيلي يعتدي بغارة على بلدة عيتيت",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: مدفعية الاحتلال تستهدف بلدة جحر الديك وسط قطاع غزة",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: غارة من مُسيّرة إسرائيلية على بلدة دبعال",
-      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2399,37 +2357,79 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة إذنا غرب الخليل",
-      "absolute_sentiment": 0,
+      "text": "قوات الاحتلال تعتقل الأسير المحرر الدكتور غانم ارزيقات من بلدة تفوح غربي الخليل",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم المنازل خلال اقتحام قرية برقة، شمال غرب نابلس.",
-      "absolute_sentiment": 0,
+      "text": "مصادر محلية: قوات الاحتلال تقتحم حي سطح مرحبا بمدينة البيرة",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال مخيم الجلزون، شمال رام الله.",
+      "text": "قوة خاصة من جيش الاحتلال تحاصر منزلاً بلدة اليامون غرب مدينة جنين.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تواصل اقتحام بلدة عزون شرق قلقيلية، وسط حملة مداهمات للمنازل.",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم مخيم قلنديا، شمال القدس المحتلة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام قوات الاحتلال بلدة اليامون غرب مدينة جنين.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم مدينة نابلس من حاجز حوارة.",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "متابعة | قوات الاحتلال تداهم منزلاً خلال اقتحام بلدة إذنا، غرب الخليل.",
+      "text": "متابعة | قوات الاحتلال تقتحم منطقة الجبل الشمالي في مدينة نابلس.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تعتقل الطبيبين غانم ارزيقات وأسامة الطردة، خلال اقتحام بلدة تفوح غرب الخليل.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | قوات الاحتلال تواصل اقتحام قرية برقة شمال غرب نابلس، وسط حملة مداهمات واعتقالات",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9596045227592704
+    },
+    {
+      "channelId": "OSINTdefender",
+      "channel": "Global_OSINT",
+      "text": "#ME  The time when you don&#39;t trust your neighbors.  Subscribe to @OSINTdefender Chat room",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9561736701638766
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "🚄 המדינה משקיעה מיליארדים - אתם קוצרים את הרווח&#33;  כשמדינת ישראל מחליטה להשקיע בפרויקט לאומי של 3 סוגי רכבות במקום אחד, היא לא רק בונה תשתית – היא מקפיצה את מחירי הנדל&quot;ן באזור בבת אחת. 📈  כולנו ראינו מה קרה למחירים בתל אביב כשהתחילו לחפור. עכשיו, המהפכה הזו מגיעה לבאר יעקב, וזו ההזדמנות שלכם להיכנס רגע לפני שהמחירים הופכים לבלתי אפשריים.  ◀️ למה פרויקט MetroLife הוא &quot;הדבר הבא&quot;? 👈 הצומת האסטרטגי של ישראל: שילוב חסר תקדים של רכבת כבדה, רכבת קלה והמטרו (תמ&quot;א 70) – הכל בנקודה אחת. 🚉  👈העיר שצומחת הכי מהר: באר יעקב דורגה במקום ה-2 בישראל בקצב הצמיחה (לפי מדד גלובס).  👈מחיר של פעם בחיים: השקעה בקרקע למגורים (תקן 22) ב-330,000 ₪ בלבד&#33;  👈פוטנציאל השבחה אדיר: בטווח של 4-5 שנים, השכונה החדשה תשנה את פניה והשווי יזנק.  🎬 צפו ברות אלדד, מנכ&quot;לית &#39;Lighter Life&#39;, מסבירה איך פרויקט המטרו הופך את הקרקע שלכם לזהב.  אל תחכו שהמסילה תושלם – כי אז המחיר כבר יהיה בשמיים. ⏱️💎  👇 לפרטים נוספים: https://wa.me/972534859716?text=שלום+לייטר+לייף+אשמח+לפרטים+הגעתי+מאבועלי",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.8529540540964253
     }
   ]
 }
