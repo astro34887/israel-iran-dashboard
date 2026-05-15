@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-15T06:31:32.714Z",
+  "last_updated": "2026-05-15T09:44:47.042Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.44",
-    "global_norm_sentiment": "-0.33"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.51",
+    "global_norm_sentiment": "-0.25"
   },
   "timeline": [
-    {
-      "time": "2026-05-10T16:50:57.391Z",
-      "danger": 0.548,
-      "sentiment": -0.367,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.493,
-          "sentiment": -0.067
-        },
-        "OSINTdefender": {
-          "danger": 0.526,
-          "sentiment": -0.133
-        },
-        "irna_1313": {
-          "danger": 0.421,
-          "sentiment": -0.367
-        },
-        "sepah_pasdaran": {
-          "danger": 0.393,
-          "sentiment": -0.733
-        },
-        "almanarnews": {
-          "danger": 0.521,
-          "sentiment": -0.7
-        },
-        "C_Military1": {
-          "danger": 0.544,
-          "sentiment": -0.733
-        },
-        "almayadeen": {
-          "danger": 0.739,
-          "sentiment": -0.5
-        },
-        "QudsN": {
-          "danger": 0.889,
-          "sentiment": -0.3
-        }
-      }
-    },
     {
       "time": "2026-05-10T17:48:56.937Z",
       "danger": 0.5,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.067
         }
       }
+    },
+    {
+      "time": "2026-05-15T09:44:47.042Z",
+      "danger": 0.513,
+      "sentiment": -0.253,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.464,
+          "sentiment": -0.733
+        },
+        "OSINTdefender": {
+          "danger": 0.405,
+          "sentiment": -0.233
+        },
+        "irna_1313": {
+          "danger": 0.544,
+          "sentiment": -0.067
+        },
+        "sepah_pasdaran": {
+          "danger": 0.354,
+          "sentiment": -0.8
+        },
+        "almanarnews": {
+          "danger": 0.497,
+          "sentiment": 0.067
+        },
+        "C_Military1": {
+          "danger": 0.688,
+          "sentiment": -0.567
+        },
+        "almayadeen": {
+          "danger": 0.625,
+          "sentiment": -0.233
+        },
+        "QudsN": {
+          "danger": 0.606,
+          "sentiment": 0.167
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.5231743369663489
+      "raw_sentiment": -0.7333333333333333,
+      "knn_danger_metric": 0.46366897178034816
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.40559832642903904
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.5436876584659047
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.8666666666666667,
-      "knn_danger_metric": 0.3027371045005246
+      "raw_sentiment": -0.8,
+      "knn_danger_metric": 0.3535511532017283
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.35881863787070467
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.49692997337815953
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.5838987103666459
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.6882491199326815
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.3349604974554487
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.6248475880296991
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.5191838522875833
+      "num_messages": 12,
+      "raw_sentiment": 0.16666666666666666,
+      "knn_danger_metric": 0.6055621957234567
     }
   },
   "semantic_logs": [
@@ -2336,8 +2336,15 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "פספסתם את ההזדמנות של באר שבע?  המבצע שמציע לכם &quot;מחירים של פעם&quot; בשכונת נחל הפארק המבוקשת&#33;  פרץ בוני הנגב במבצע מיוחד לארגון המורים, קרנות השוטרים והסוהרים ומקורביהם עם מחירים מיוחדים.  דירות 3-5 חדרים ומיני פנטהאוזים   החל מ-1.385 מיליון ש&quot;ח בלבד  הפרויקט מציע חוויית מגורים אקסקלוסיבית בבנייני בוטיק בני 4 קומות בלבד   רק 10-11 דיירים בבניין&#33;  איכות חיים, פרטיות מקסימלית, חדר כוש�� מאובזר, מועדון דיירים וחניה פרטית לכל דירה.  ובמרחק הליכה מגני ילדים, בתי ספר ומרכזים מסחריים.  לפרטים &gt;&gt; https://negevbuilders.ussl.co.il/negev-builders/?utm_source=telegram",
-      "absolute_sentiment": -0.5,
+      "text": "הודו: אדם מתעופף לגובה רב בסופה בעיר ההודית אוטר פרדש. הוא שבר את ידיו ורגליו אך באופן מדהים נותר בחיים.  כ 80 איש נהרגו באוטר פרדש כתוצאה מהרוחות העזות ביומיים האחרונים.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "ובינתיים ביום &quot;הנכבה&quot;, בעיר העתיקה בירושלים....  ערוצים פלסטינים:  لأول مرة منذ احتلال الأقصى..  المستوطنون يقيمون صلوات تلمودية احتفالا بذكرى احتلال القدس أمام باب الأسباط، صباح اليوم الجمعة ويرفعون رايات &quot;الهيكل&quot; المزعوم.  תרגום : לראשונה מאז כיבוש מסגד אלאקצא  המתנחלים מקיימים תפילות תלמודיות לרגל חגיגות יום כיבוש ירושלים, מול שער האריות, הבוקר ומניפים את דגלי בית המקדש.  תגובה אחת",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2348,88 +2355,81 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️ احتمال دارد پوتین طی چند روز آتی، در سفری از پیش برنامه‌ریزی‌نشده، به پکن برود.   ✅  @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "عراقجي: صمود الشعب الإيراني شكّل رادعًا استراتيجيًا وأثبت فشل رهانات الأعداء https://almanar.com.lb/article/854012/?s=tg",
+      "text": "الوزيرة حنين السيد: نحن اليوم في الجنوب في القرى الأمامية لدعم صمود أهلنا والتأكيد أن الدولة إلى جانبهم https://almanar.com.lb/article/854332/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: بيان علماء أهل السنة في سيستان وبلوشستان: مضيق هرمز ليس ممراً مائياً دولياً يحق لأي دولة معتدية استخدامه دون قيد أو شرط",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "الصين: مراسل الميادين: الرئيس الأميركي دونالد ترامب يغادر بكين مختتماً زيارة استمرت ليومين",
-      "absolute_sentiment": 0,
+      "text": "إيران: بيان علماء أهل السنة في سيستان وبلوشستان: مستعدون لدعم القوات البحرية التابعة لحرس الثورة والجيش بكل السبل",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "الصين: وكالة الأنباء الصينية عن الرئيس شي: اتفقنا على تعزيز التواصل والتنسيق بشأن القضايا الدولية والإقليمية",
+      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي استهدف مبنى قرب مفرق معركة في محيط مدينة صور",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي استهدف منطقة المساكن شرق صور",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "الفتى الشهيد فهد زيدان عويس (16 عاماً) الذي ارتقى برصاص جيش الاحتلال في بلدة اللبن الشرقية جنوب نابلس الليلة.",
+      "text": "قوات الاحتلال تقتحم قرية دير جرير شمال شرق رام الله.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام المستوطنين برفقة قوات الاحتلال لمنطقة طاروسا غرب مدينة دورا جنوب الخليل",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة &quot;معاريف&quot; العبرية: حوالي الساعة العاشرة مساءً، أطلق عناصر حزب الله قذائف هاون على القوة. سقطت إحدى القذائف وانفجرت بالقرب من جزء من القوة، ما أسفر عن إصابة الجندي حيث تلقى العلاج الطبي في الموقع، لكنه فارق الحياة بعد وقت قصير.  #الإعلام_الحربي",
+      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: حزب الله يهاجم في الجليل الغربي بسرب من المحلّقات المفخخة.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9987748362995478
+      "semantic_danger_knn": 0.9929755215884677
     },
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صفارات الإنذار تدوي في كريات شمونه ومحيطها.  #الإعلام_الحربي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.956418427463877
+      "text": "#إعلام_العدو   رئيس مجلس معالي يوسف في الجليل الغربي: حزب الله استهدف منطقة عسكرية داخل حدود المجلس بمحلّقات مفخخة.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9929755215884677
     },
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صفارات الإنذار تدوي في الجليل الأسفل.  #الإعلام_الحربي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.956418427463877
-    },
-    {
-      "channelId": "OSINTdefender",
-      "channel": "Global_OSINT",
-      "text": "#ME  The time when you don&#39;t trust your neighbors.  Subscribe to @OSINTdefender Chat room",
+      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: حزب الله يهاجم في الجليل الغربي بسرب من المحلّقات المفخخة.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9561736701638766
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   المتحدث باسم جيش العدو الإسرائيلي: الإعلان عن مقتل جندي في الكتيبة 12 في لواء غولاني جراء إصابته بقذيفة هاون يوم أمس في جنوب لبنان.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.8677623741712063
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   المتحدث باسم جيش العدو الإسرائيلي: الإعلان عن مقتل جندي في الكتيبة 12 في لواء غولاني جراء إصابته بقذيفة هاون يوم أمس في جنوب لبنان.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.8677623741712063
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "כפי שפורסם הערב בערוצי התקשורת הישראלים השונים, וכאן☝️ בסוף החודש שעבר- הפיתרון הנוכחי לרחפני הנפץ של חזבאללה הוא רשתות, כלובים וחיילות טובה.  3 תגובות",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.8479668715055193
-    },
-    {
-      "channelId": "idfonline",
-      "channel": "IDF",
-      "text": "תצפיות צה&quot;ל זיהו הבוקר תנועה חשודה סמוך ליישוב חמדיה שבמרחב חטיבת הבקעה והעמקים.לוחמי צה&quot;ל ולוחמי יחידת יג&quot;ל של משטרת ישראל הוזנקו לנקודה ועצרו רכב ובו שלושה חשודים https://t.co/gZaMaQbju7  On May 23, 2023 at 04:52PM Read more via Twitter @idfonline @idfonline",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.819613420621686
+      "semantic_danger_knn": 0.9929755215884677
     }
   ]
 }
