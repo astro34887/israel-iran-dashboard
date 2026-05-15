@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-15T20:13:44.259Z",
+  "last_updated": "2026-05-15T21:56:56.661Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.51",
-    "global_norm_sentiment": "-0.15"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.50",
+    "global_norm_sentiment": "-0.42"
   },
   "timeline": [
-    {
-      "time": "2026-05-10T22:42:29.800Z",
-      "danger": 0.525,
-      "sentiment": -0.333,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.477,
-          "sentiment": -0.7
-        },
-        "OSINTdefender": {
-          "danger": 0.526,
-          "sentiment": -0.133
-        },
-        "irna_1313": {
-          "danger": 0.507,
-          "sentiment": -0.2
-        },
-        "sepah_pasdaran": {
-          "danger": 0.355,
-          "sentiment": -0.3
-        },
-        "almanarnews": {
-          "danger": 0.435,
-          "sentiment": -0.7
-        },
-        "C_Military1": {
-          "danger": 0.496,
-          "sentiment": -0.333
-        },
-        "almayadeen": {
-          "danger": 0.711,
-          "sentiment": -0.733
-        },
-        "QudsN": {
-          "danger": 0.792,
-          "sentiment": -0.1
-        }
-      }
-    },
     {
       "time": "2026-05-10T23:48:32.061Z",
       "danger": 0.526,
@@ -2261,6 +2214,53 @@
           "sentiment": 0.233
         }
       }
+    },
+    {
+      "time": "2026-05-15T21:56:56.661Z",
+      "danger": 0.496,
+      "sentiment": -0.417,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.652,
+          "sentiment": -0.8
+        },
+        "OSINTdefender": {
+          "danger": 0.461,
+          "sentiment": 0.1
+        },
+        "irna_1313": {
+          "danger": 0.496,
+          "sentiment": -0.333
+        },
+        "sepah_pasdaran": {
+          "danger": 0.35,
+          "sentiment": -0.533
+        },
+        "almanarnews": {
+          "danger": 0.364,
+          "sentiment": -0.8
+        },
+        "C_Military1": {
+          "danger": 0.379,
+          "sentiment": -0.933
+        },
+        "almayadeen": {
+          "danger": 0.557,
+          "sentiment": -0.4
+        },
+        "QudsN": {
+          "danger": 0.75,
+          "sentiment": -0.333
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.8333333333333334,
-      "knn_danger_metric": 0.7085388407318576
+      "raw_sentiment": -0.8,
+      "knn_danger_metric": 0.6520514448341609
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.5426260897071533
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.49632423045720253
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.38981482117203103
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.34969262555836994
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.4485970393692744
+      "raw_sentiment": -0.8,
+      "knn_danger_metric": 0.3641173787345535
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.4153640423515443
+      "raw_sentiment": -0.9333333333333333,
+      "knn_danger_metric": 0.37888781392606286
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.5330555562119442
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.557032186781124
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.23333333333333334,
-      "knn_danger_metric": 0.6494658178880048
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.7501122104908469
     }
   },
   "semantic_logs": [
@@ -2348,88 +2348,88 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "ערוצים עזתיים על ההרוגים בתקיפה בעזה : 8 شهداء من بينهم ثلاث سيدات، واشلاء مقطعة الطواقم الطبية غير قادرة على تحديد طبيعتها.  תרגום: 8 הרוגים, בהם שלוש נשים, לצד חלקי גופות מבותרים שהצוותים הרפואיים אינם מצליחים לקבוע את טיבם.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "️تجاوزات وحشیانه شامگاه جمعه رژیم صهیونیستی به مناطق مسکونی غزه  ☑️ @sepah_pasdaran",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "📹 وليد جنبلاط يحذر : نزع سلاح حزب الله بالقوة “مستحيل عسكرياً ولبنانياً” https://almanar.com.lb/article/856727/?s=tg",
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: وزارة الصحة: 6 شهداء بينهم 3 مسعفين و22 جريحاً حصيلة الغارة الإسرائيلية على مركز الهيئة الصحية في بلدة حاروف جنوب لبنان",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: تظاهرات حاشدة في ميدان الثورة بطهران دعماً للقيادة والقوات المسلحة الإيرانية",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي بغارة على مبنى في مدينة صور",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي بغارة على بلدة المنصوري",
+      "text": "وزارة الصحة الإسرائيلية تقر بـ17 إصابة بنيران حزب الله يوم أمس",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم بلدة الخضر وتتوجه نحو مخيم الدهيشة في بيت لحم.",
+      "text": "مصادر محلية: قوات الاحتلال تحتجز عددًا من الأهالي خلال اقتحام بلدة نحالين غرب مدينة بيت لحم",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "الاحتلال زعم استهداف عز الدين الحداد.. 7 شهداء وعشرات المصابين في قصف إسرائيلي بغزة  https://qudsn.co/post/215698/",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تقتحم ضاحية ذنابة شرق طولكرم.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "&quot;في فلسطين، مَن يعيش النكبة مرة تلو أخرى&quot;..  التقرير الصحفي الأخير للصحفية الشهيدة &quot;شيرين أبو عاقلة&quot; قبل اغتيال الاحتلال لها بيومين.",
+      "text": "فلسطينيون يتجمّعون حول مبنى سكني اشتعلت فيه النيران إثر قصف نفذته طائرات الاحتلال في مدينة غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم قرية شقبا، غرب رام الله.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "جانب من اقتحام آليات الاحتلال مدينة بيت لحم.",
+      "text": "جانب من اقتحام قوات الاحتلال لمدينة قلقيلية برفقة قوات خاصة داخل مركبات مدنية",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: قبل قليل، بالتزامن مع الإنذارات في إصبع الجليل، يبلغ السكان عن محاولات اعتراض تم رصدها في منطقة شلومي بالجليل الغربي.  #الإعلام_الحربي",
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "وزارة الصحة اللبنانية: 6 شهداء بينهم 3 مسعفين و22 جريحا في الغارة الإسرائيلية على بلدة حاروف",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9958174570708113
+      "semantic_danger_knn": 0.9849680067759768
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | قوات الاحتلال تقتحم مدينة قلقيلية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9596045227592704
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "فلسطينيون يحاولون إخماد حريق اندلع في مركبة عقب قصف نفذته طائرات الاحتلال على شارع الوحدة بمدينة غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9262731058775845
     },
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "ערוצי אופוזיציה איראנים טוענים היום כי נזק אקולוגי משמעותי נגרם באי ח&#39;ארג&#39; ממנו מייצאת איראן יותר מ 90 אחוז מהנפט שלה - זאת בעקבות דליפות הנפט מהאי.  תגובה אחת",
+      "text": "ערוצים עזתיים על ההרוגים בתקיפה בעזה : 8 شهداء من بينهم ثلاث سيدات، واشلاء مقطعة الطواقم الطبية غير قادرة على تحديد طبيعتها.  תרגום: 8 הרוגים, בהם שלוש נשים, לצד חלקי גופות מבותרים שהצוותים הרפואיים אינם מצליחים לקבוע את טיבם.  2 תגובות",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9437967898207139
+      "semantic_danger_knn": 0.8728784971545467
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "وزارة الصحة اللبنانية: 3 شهداء من المسعفين إثر غارة إسرائيلية على مركزهم في حاروف جنوبي البلاد",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.8503061728126856
     }
   ]
 }
