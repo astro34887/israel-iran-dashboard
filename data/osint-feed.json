@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-15T09:44:47.042Z",
+  "last_updated": "2026-05-15T11:52:30.838Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.51",
-    "global_norm_sentiment": "-0.25"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.48",
+    "global_norm_sentiment": "-0.15"
   },
   "timeline": [
-    {
-      "time": "2026-05-10T17:48:56.937Z",
-      "danger": 0.5,
-      "sentiment": -0.4,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.521,
-          "sentiment": -0.233
-        },
-        "OSINTdefender": {
-          "danger": 0.526,
-          "sentiment": -0.133
-        },
-        "irna_1313": {
-          "danger": 0.525,
-          "sentiment": -0.5
-        },
-        "sepah_pasdaran": {
-          "danger": 0.372,
-          "sentiment": -0.933
-        },
-        "almanarnews": {
-          "danger": 0.401,
-          "sentiment": -0.5
-        },
-        "C_Military1": {
-          "danger": 0.376,
-          "sentiment": -0.767
-        },
-        "almayadeen": {
-          "danger": 0.586,
-          "sentiment": -0.333
-        },
-        "QudsN": {
-          "danger": 0.743,
-          "sentiment": -0.467
-        }
-      }
-    },
     {
       "time": "2026-05-10T18:57:08.901Z",
       "danger": 0.479,
@@ -2261,13 +2214,60 @@
           "sentiment": 0.167
         }
       }
+    },
+    {
+      "time": "2026-05-15T11:52:30.838Z",
+      "danger": 0.481,
+      "sentiment": -0.154,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.518,
+          "sentiment": -0.4
+        },
+        "OSINTdefender": {
+          "danger": 0.405,
+          "sentiment": -0.233
+        },
+        "irna_1313": {
+          "danger": 0.492,
+          "sentiment": -0.267
+        },
+        "sepah_pasdaran": {
+          "danger": 0.25,
+          "sentiment": -0.267
+        },
+        "almanarnews": {
+          "danger": 0.442,
+          "sentiment": -0.067
+        },
+        "C_Military1": {
+          "danger": 0.682,
+          "sentiment": -0.567
+        },
+        "almayadeen": {
+          "danger": 0.555,
+          "sentiment": 0.367
+        },
+        "QudsN": {
+          "danger": 0.516,
+          "sentiment": 0.063
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.7333333333333333,
-      "knn_danger_metric": 0.46366897178034816
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.5178626038428699
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.5436876584659047
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.49240571668934346
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.8,
-      "knn_danger_metric": 0.3535511532017283
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.2502330892891839
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.49692997337815953
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.441765590004891
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.6882491199326815
+      "knn_danger_metric": 0.681802950665001
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.6248475880296991
+      "raw_sentiment": 0.36666666666666664,
+      "knn_danger_metric": 0.5547968086438235
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 12,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.6055621957234567
+      "num_messages": 8,
+      "raw_sentiment": 0.0625,
+      "knn_danger_metric": 0.5161740954234184
     }
   },
   "semantic_logs": [
@@ -2336,78 +2336,57 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "הודו: אדם מתעופף לגובה רב בסופה בעיר ההודית אוטר פרדש. הוא שבר את ידיו ורגליו אך באופן מדהים נותר בחיים.  כ 80 איש נהרגו באוטר פרדש כתוצאה מהרוחות העזות ביומיים האחרונים.  תגובה אחת",
-      "absolute_sentiment": -1,
+      "text": "עימותים ברחוב הגיא ברובע המוסלמי בעיר העתיקה בירושלים (סמוך להר הבית).  תגובה אחת",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "ובינתיים ביום &quot;הנכבה&quot;, בעיר העתיקה בירושלים....  ערוצים פלסטינים:  لأول مرة منذ احتلال الأقصى..  المستوطنون يقيمون صلوات تلمودية احتفالا بذكرى احتلال القدس أمام باب الأسباط، صباح اليوم الجمعة ويرفعون رايات &quot;الهيكل&quot; المزعوم.  תרגום : לראשונה מאז כיבוש מסגד אלאקצא  המתנחלים מקיימים תפילות תלמודיות לרגל חגיגות יום כיבוש ירושלים, מול שער האריות, הבוקר ומניפים את דגלי בית המקדש.  תגובה אחת",
+      "text": "קו החוף במערב העיר עזה 2023 אל מול 2026.  בצד ימין ניתן להבחין במסגד על שם ח&#39;ליל אלוזיר שנראה כאילו עוצב בהשראת קונסולת המשחקים פלייסטישן 5.  יכול לשמש מזכרת מרתיעה למה קורה למי שפותח במלחמה על ישראל.  תגובה אחת",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "דובר צה&quot;ל בערבית הנחה הבוקר על פינוי ממוקד של 5 כפרים במרחב צור בגזרה המערבית בטווח של 16-21 ק&quot;מ מהגבול עם ישראל.  אלחוש - הכפר הדרומי ביותר ברשימת הפינוי נמצא במרחק של 8 ק&quot;מ צפונית לאזור אלביאצ&#39;ה (על קו החוף) - אזור שנמצא במוקד תקיפות רחפני הנפץ של חזבאללה…",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": " ️️ سخنگوی ارتش رژیم صهیونیستی از هلاکت یک سرباز صهیونیست در درگیری با حزب‌الله خبر داد ✅  @sepah_pasdaran",
+      "text": "️ احتمال دارد پوتین طی چند روز آتی، در سفری از پیش برنامه‌ریزی‌نشده، به پکن برود. ✅  @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": " ️ احتمال دارد پوتین طی چند روز آتی، در سفری از پیش برنامه‌ریزی‌نشده، به پکن برود.   ✅  @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "الوزيرة حنين السيد: نحن اليوم في الجنوب في القرى الأمامية لدعم صمود أهلنا والتأكيد أن الدولة إلى جانبهم https://almanar.com.lb/article/854332/?s=tg",
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في البقاع: غارة من مسيّرة إسرائيلية تستهدف بلدة سحمر في البقاع الغربي",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: بيان علماء أهل السنة في سيستان وبلوشستان: مضيق هرمز ليس ممراً مائياً دولياً يحق لأي دولة معتدية استخدامه دون قيد أو شرط",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: بيان علماء أهل السنة في سيستان وبلوشستان: مستعدون لدعم القوات البحرية التابعة لحرس الثورة والجيش بكل السبل",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي استهدف مبنى قرب مفرق معركة في محيط مدينة صور",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي استهدف منطقة المساكن شرق صور",
+      "text": "&quot;بلومبرغ&quot;: الجمهوريون يتعثرون في مسألة القدرة على تحمل التكاليف مع تزايد مخاوف الناخبين",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم قرية دير جرير شمال شرق رام الله.",
+      "text": "متابعة| اعتقلت قوات الاحتلال تسعة فلسطينيين بينهم سيدة من المسجد الأقصى المبارك وبلدة القدس القديمة، تزامناً مع تشديد الإجراءات العسكرية وانتشار قوات الاحتلال في المنطقة.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "جانب من اقتحام المستوطنين برفقة قوات الاحتلال لمنطقة طاروسا غرب مدينة دورا جنوب الخليل",
-      "absolute_sentiment": 0.5,
+      "text": "مسجد ومركبات أحرقها إرهاب مليشيات المستوطنين فجر اليوم في قرية جيبيا شمال رام الله..   شاهد عيان يتحدث عن الهجوم:",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2430,6 +2409,27 @@
       "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: حزب الله يهاجم في الجليل الغربي بسرب من المحلّقات المفخخة.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9929755215884677
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صفارات الإنذار تدوي في إفن مناحيم بالجليل الغربي خشية تسلل طائرات مسيّرة.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.956418427463877
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صفارات الإنذار تدوي في شوميراه بالجليل الغربي خشية تسلل طائرات مسيّرة.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.956418427463877
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صفارات الإنذار تدوي في زرعيت بالجليل الغربي خشية تسلل طائرات مسيّرة.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.956418427463877
     }
   ]
 }
