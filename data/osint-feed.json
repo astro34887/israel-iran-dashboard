@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-16T14:53:21.903Z",
+  "last_updated": "2026-05-16T15:55:30.472Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.25"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.50",
+    "global_norm_sentiment": "-0.19"
   },
   "timeline": [
-    {
-      "time": "2026-05-12T02:39:18.109Z",
-      "danger": 0.457,
-      "sentiment": -0.312,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.358,
-          "sentiment": -0.533
-        },
-        "OSINTdefender": {
-          "danger": 0.522,
-          "sentiment": -0.3
-        },
-        "irna_1313": {
-          "danger": 0.504,
-          "sentiment": -1
-        },
-        "sepah_pasdaran": {
-          "danger": 0.243,
-          "sentiment": -0.533
-        },
-        "almanarnews": {
-          "danger": 0.411,
-          "sentiment": -0.3
-        },
-        "C_Military1": {
-          "danger": 0.354,
-          "sentiment": 0.167
-        },
-        "almayadeen": {
-          "danger": 0.404,
-          "sentiment": -0.133
-        },
-        "QudsN": {
-          "danger": 0.829,
-          "sentiment": -0.318
-        }
-      }
-    },
     {
       "time": "2026-05-12T06:11:58.368Z",
       "danger": 0.485,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.467
         }
       }
+    },
+    {
+      "time": "2026-05-16T15:55:30.472Z",
+      "danger": 0.497,
+      "sentiment": -0.187,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.637,
+          "sentiment": -0.6
+        },
+        "OSINTdefender": {
+          "danger": 0.466,
+          "sentiment": 0.3
+        },
+        "irna_1313": {
+          "danger": 0.444,
+          "sentiment": -0.067
+        },
+        "sepah_pasdaran": {
+          "danger": 0.404,
+          "sentiment": -0.767
+        },
+        "almanarnews": {
+          "danger": 0.531,
+          "sentiment": 0
+        },
+        "C_Military1": {
+          "danger": 0.437,
+          "sentiment": -0.1
+        },
+        "almayadeen": {
+          "danger": 0.54,
+          "sentiment": -0.033
+        },
+        "QudsN": {
+          "danger": 0.563,
+          "sentiment": -0.467
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2278,9 +2278,9 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 14,
-      "raw_sentiment": -0.6071428571428571,
-      "knn_danger_metric": 0.610764228966527
+      "num_messages": 15,
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.6367132803687585
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2292,37 +2292,37 @@
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.4470716814391594
+      "knn_danger_metric": 0.4438962671863404
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.4634638401705681
+      "raw_sentiment": -0.7666666666666667,
+      "knn_danger_metric": 0.40372722818111406
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.5363057554103449
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.5309602187703295
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.4251178384255748
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.4370799187025076
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.7783589350941919
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.5403832317135709
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.6676894850190194
+      "knn_danger_metric": 0.5632798675593226
     }
   },
   "semantic_logs": [
@@ -2355,23 +2355,16 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": " ️ نصب پرچم سیاه عزا بر فراز گنبد حرم مطهر رضوی به مناسبت فرارسیدن ایام شهادت امام جواد (ع)   ✅  @sepah_pasdaran",
-      "absolute_sentiment": 1,
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "חמאס בכרוז רשמי:  חמאס ערכה סבב בחירות לראשות התנועה, אך התוצאה לא הוכרעה בסיבוב הראשון.  בהתאם לכך, ייערך סיבוב שני במועד מאוחר יותר, בהתאם לתקנון ולנהלי התנועה. ## בכרוז נוסף אישרה חמאס באופן רשמי את מותו של עז א-דין אלחדאד, מפקד הזרוע הצבאית של חמאס.  תגובה אחת",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": " ️توقیف اموال ۵۱ نفر از خائنین به کشور در یزد   اموال ۵۱ نفر از خائنین به وطن و افراد تاثیرگذار در شبکهٔ همکاران دشمن در راستای اجرای قانون تشدید مجازات جاسوسی و همکاری با رژیم صهیونسیتی علیه امنیت و منافع ملی در یزد توقیف شد. ✅  @sepah_pasdaran",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": " ️ حملهٔ پهپادی حزب‌الله به یک بولدوزر رژیم صهیونیستی   ✅  @sepah_pasdaran",
+      "text": "️ حملهٔ پهپادی حزب‌الله به یک بولدوزر رژیم صهیونیستی  ☑️ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2390,46 +2383,53 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "واشنطن وأبوجا تعلنان مقتل قيادي بارز في تنظيم داعش بعملية مشتركة شمال شرق نيجيريا https://almanar.com.lb/article/858902/?s=tg",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "قاضٍ فرنسي يتعهد التحقيق في شكوى ضد محمد بن سلمان بشأن مقتل جمال خاشقجي عام 2018 https://almanar.com.lb/article/858977/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: اعتداء إسرائيلي بقصف مدفعي على بلدتي قانا وكفرتبنيت جنوبي لبنان",
+      "text": "لبنان: حزب الله: نحذر السلطة اللبنانية من تقديم تنازلات مجانية أو الانخراط في مسارات سياسية وأمنية تمس السيادة والحقوق الوطنية",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي على منطقة الحوش جنوب مدينة صور وقصف مدفعي للاحتلال على بلدة الشعيتية",
+      "text": "لبنان: مراسل الميادين في الجنوب: غارة إسرائيلية تستهدف بلدة زوطر الشرقية في قضاء النبطية",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "استهدفت المرشحين المؤيدين لفلسطين.. &quot;إسرائيل&quot; تواجه اتهامات بالتدخل في الانتخابات الداخلية الفرنسية  التفاصيل:   https://qudsn.co/post/215706",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي بغارة على بلدة القليلة بالتزامن مع اعتداء بقصف مدفعي على بلدتي الشعيتية والرمادية في قضاء صور",
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صحيفة &quot;معاريف&quot; العبرية - ألون بن دافيد: انتشرت معلومات مضللة كثيرة عن المرشد الأعلى الإيراني الجديد، ولكن بعد انقشاع غبار المعركة، اتضح أن جميع أجهزة النظام الإيراني تقبل سلطة (السيد) مجتبى دون أدنى شك.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
+      "semantic_danger_knn": 0.9970031300855664
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "سوريا: مصادر محلية من القنيطرة: توغل 5 آليات إسرائيلية في بلدة جباتا الخشب وتتجه نحو قرية أوفانيا بريف القنيطرة الشمالي جنوب سوريا",
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 14 العبرية: سماع دوي انفجارات في الجليل الغربي.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: وزارة الصحة: 2969 شهيداً و9112 جريحاً بنيران الاحتلال منذ 2 آذار/ مارس وحتى 16 أيار/ مايو",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي بغارة على منطقة المعشوق في قضاء صور",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
+      "semantic_danger_knn": 0.9957890513813449
     }
   ]
 }
