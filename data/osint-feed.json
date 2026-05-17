@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-17T06:19:44.437Z",
+  "last_updated": "2026-05-17T09:02:01.690Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.46",
-    "global_norm_sentiment": "-0.25"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.50",
+    "global_norm_sentiment": "-0.19"
   },
   "timeline": [
-    {
-      "time": "2026-05-13T04:05:59.376Z",
-      "danger": 0.473,
-      "sentiment": -0.321,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.421,
-          "sentiment": -0.5
-        },
-        "OSINTdefender": {
-          "danger": 0.547,
-          "sentiment": -0.033
-        },
-        "irna_1313": {
-          "danger": 0.539,
-          "sentiment": -0.542
-        },
-        "sepah_pasdaran": {
-          "danger": 0.328,
-          "sentiment": -0.367
-        },
-        "almanarnews": {
-          "danger": 0.394,
-          "sentiment": -0.633
-        },
-        "C_Military1": {
-          "danger": 0.255,
-          "sentiment": -0.767
-        },
-        "almayadeen": {
-          "danger": 0.645,
-          "sentiment": -0.267
-        },
-        "QudsN": {
-          "danger": 0.65,
-          "sentiment": 0.033
-        }
-      }
-    },
     {
       "time": "2026-05-13T07:46:35.110Z",
       "danger": 0.512,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.4
         }
       }
+    },
+    {
+      "time": "2026-05-17T09:02:01.690Z",
+      "danger": 0.502,
+      "sentiment": -0.193,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.499,
+          "sentiment": -0.467
+        },
+        "OSINTdefender": {
+          "danger": 0.514,
+          "sentiment": -0.033
+        },
+        "irna_1313": {
+          "danger": 0.476,
+          "sentiment": 0.067
+        },
+        "sepah_pasdaran": {
+          "danger": 0.392,
+          "sentiment": -0.333
+        },
+        "almanarnews": {
+          "danger": 0.433,
+          "sentiment": 0
+        },
+        "C_Military1": {
+          "danger": 0.488,
+          "sentiment": -0.3
+        },
+        "almayadeen": {
+          "danger": 0.83,
+          "sentiment": -0.267
+        },
+        "QudsN": {
+          "danger": 0.435,
+          "sentiment": -0.467
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2280,49 +2280,49 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.4592022456899268
+      "knn_danger_metric": 0.4992449369747422
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.512622059543498
+      "knn_danger_metric": 0.5140573911516899
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.26666666666666666,
-      "knn_danger_metric": 0.43937095996438896
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.47604633008706504
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.5058441231710601
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.39187547017228186
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.44636953211929437
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.43349657026783006
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.7333333333333333,
-      "knn_danger_metric": 0.37627429775084825
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.48842983297800574
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.26762808284180334
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.8303471419768049
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 5,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.6309675430431201
+      "num_messages": 15,
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.43497690647837944
     }
   },
   "semantic_logs": [
@@ -2331,13 +2331,6 @@
       "channel": "IDF",
       "text": "״אני קורא לאכולוסייה החרדית ולהנהגה החרדית לעודד כל פעם קצת יותר לגיוס. יש לנו מסלולים יוצאים מן הכלל, השתחררו מהם אנשים לא פחות חרדים ואזרחים טובים יותר למדינה. זה טוב לכולם״  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "אחרי ש 5 משריו התפטרו וכ 90 מחברי מפלגתו קראו לו &quot;לפנות את הבמה&quot;, ואחרי הפגנת ימין גדולה נגדו אתמול 👆, קיר סטארמר ראש ממשלת בריטניה מתכנן להתפטר בחודש הקרוב, כך לטענת העיתון הבריטי הדיילי מייל.  ע&quot;פ הדיווח סטארמר רוצה לעשות זאת באופן מסודר, בתנאיו ובמהלך החודש הקרוב (עד ה 18 ליוני).  אין עדיין הודעה רשמית בנושא מטעמו.  תגובה אחת",
-      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2357,79 +2350,86 @@
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "اعتداءات للمستوطنين في الخليل ورام الله تشمل إحراق مركبة واقتحام سنجل https://almanar.com.lb/article/860652/?s=tg",
+      "text": "تجمع دعم خيار المقاومة: استنزاف متواصل في المؤسسة العسكرية الإسرائيلية https://almanar.com.lb/article/860907/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: الطيران الحربي الإسرائيلي اعتدى بـ 3 غارات متتالية على محيط بلدة يحمر في البقاع الغربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم عدة منازل عند المدخل الشمالي لبلدة عزون شرق قلقيلية.",
+      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء بغارة من مسيرة إسرائيلية استهدفت بلدة جبشيت",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: اعتداء بغارة من مسيرة إسرائيلية على أطراف بلدة سحمر في البقاع الغربي شرقي البلاد",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "وسائل إعلام إسرائيلية: صفارات الإنذار تدوي في المنارة ومرغليوت بمنطقة الجليل خشية تسلل طائرة مسيرة",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: غارة إسرائيلية معادية تستهدف بلدة جبشيت",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: 3 غارات إسرائيلية تستهدف طيردبا والبرج الشمالي",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تغلق حاجز &quot;المربعة&quot; جنوب غرب نابلس.",
+      "text": "لبنان: مراسل الميادين في الجنوب: غارة إسرائيلية معادية تستهدف بلدة زبقين",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: شهيد ومصابون في قصف مسيرة إسرائيلية مجموعة من المواطنين وسط خان يونس جنوبي قطاع غزة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: استشهاد مواطن متأثراً بإصابته في قصف إسرائيلي سابق على بيت لاهيا شمالي قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو  وسائل إعلام إسرائيلية: قبل قليل، دوى انفجار كبير في منطقة بيت شيمش غربي القدس.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9958174570708113
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 هيئة البث &quot;الإسرائيلية&quot;: لن نستطيع إيقاف هجمات حزب الله لو احتللنا جنوب لبنان بأكمله https://almanar.com.lb/article/860667/?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9451672518425872
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: غارات إسرائيلية معادية على بلدات طيردبا وزبقين ودير عامص",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عدوان متواصل.. مليشيات المستوطنين تهاجم فجر اليوم منطقة &quot;الدرجة&quot; القريبة من بلدة سعير شمال الخليل وتعتدي على الأهالي والنساء والمنازل.",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.8899090980904186
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸ناقوس مرگ تدریجی هیرکانی  🔹جنگل‌های شمال به‌ویژه در مازندران سال‌هاست با پدیده‌ای مزمن قطع غیرمجاز درختان دست‌وپنجه نرم می‌کنند و انتقال شبانه چوب با اسب و قاطر درد مشترک هیرکانی است.  🔹با این حال در حالی کارکنان اداره منابع طبیعی بابل با امضای طوماری خواستار افزایش حقوق کارکنان این اداره شدند که کارشناسان حقوق های اندک این قشر زحمت کش و اثر گذار را برای حراست از جنگل‌های هیرکانی ناکافی می دانند، چرا که این امر رغبتی را برای حفاظت از این میراث ارزشمند باقی نمی گذارد.  مشروح این گزارش را در سایت ایرنا بخوانید  https://irna.ir/xjXkrX  📌اخبار ایرنا را در بله | روبیکا | سروش پلاس | ایتا&nbsp;| جهان دنبال کنید @IRNA_1313",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 0.8361818202652826
-    },
-    {
-      "channelId": "OSINTdefender",
-      "channel": "Global_OSINT",
-      "text": "#USA #Israel #Iran   Trump: &quot;It was the calm before the storm&quot;.  Subscribe to @OSINTdefender Chat room",
+      "text": "عاجل| إصابة فلسطيني بجراح خطيرة برصاص الاحتلال عند الجدار الفاصل قرب بلدة بيت أولا شمال غرب الخليل.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.8266116456653837
-    },
-    {
-      "channelId": "idfonline",
-      "channel": "IDF",
-      "text": "תצפיות צה&quot;ל זיהו הבוקר תנועה חשודה סמוך ליישוב חמדיה שבמרחב חטיבת הבקעה והעמקים.לוחמי צה&quot;ל ולוחמי יחידת יג&quot;ל של משטרת ישראל הוזנקו לנקודה ועצרו רכב ובו שלושה חשודים https://t.co/gZaMaQbju7  On May 23, 2023 at 04:52PM Read more via Twitter @idfonline @idfonline",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.819613420621686
-    },
-    {
-      "channelId": "OSINTdefender",
-      "channel": "Global_OSINT",
-      "text": "#USA #China #Iran   President Trump has stated that the U.S. military&#39;s objectives in Iran include destroying its missile capabilities, annihilating its navy, and ensuring it never acquires a nuclear weapon. This reflects his administration&#39;s commitment to dismantling the Iranian regime&#39;s ability to threaten the U.S. and its allies.  Subscribe to @OSINTdefender Chat room",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.7987159461007877
-    },
-    {
-      "channelId": "OSINTdefender",
-      "channel": "Global_OSINT",
-      "text": "#EU #Ukraine   The Council of Europe has approved the establishment of a Steering Committee for the Special Tribunal for the Crime of Aggression against Ukraine, marking a significant step toward holding Russian leaders accountable. This decision was supported by 34 Council of Europe member states, the European Union, Australia, and Costa Rica during a meeting in Chisinau, Moldova.  Subscribe to @OSINTdefender Chat room",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.7714587788715934
+      "semantic_danger_knn": 1
     }
   ]
 }
