@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-17T11:02:09.295Z",
+  "last_updated": "2026-05-17T13:12:17.618Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.15"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.47",
+    "global_norm_sentiment": "-0.19"
   },
   "timeline": [
-    {
-      "time": "2026-05-13T10:21:50.210Z",
-      "danger": 0.542,
-      "sentiment": -0.236,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.545,
-          "sentiment": -0.7
-        },
-        "OSINTdefender": {
-          "danger": 0.527,
-          "sentiment": 0.267
-        },
-        "irna_1313": {
-          "danger": 0.431,
-          "sentiment": -0.136
-        },
-        "sepah_pasdaran": {
-          "danger": 0.446,
-          "sentiment": -0.333
-        },
-        "almanarnews": {
-          "danger": 0.536,
-          "sentiment": -0.2
-        },
-        "C_Military1": {
-          "danger": 0.432,
-          "sentiment": -0.433
-        },
-        "almayadeen": {
-          "danger": 0.824,
-          "sentiment": -0.333
-        },
-        "QudsN": {
-          "danger": 0.73,
-          "sentiment": -0.321
-        }
-      }
-    },
     {
       "time": "2026-05-13T13:08:18.641Z",
       "danger": 0.457,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.333
         }
       }
+    },
+    {
+      "time": "2026-05-17T13:12:17.618Z",
+      "danger": 0.471,
+      "sentiment": -0.187,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.583,
+          "sentiment": -0.533
+        },
+        "OSINTdefender": {
+          "danger": 0.518,
+          "sentiment": -0.133
+        },
+        "irna_1313": {
+          "danger": 0.448,
+          "sentiment": -0.033
+        },
+        "sepah_pasdaran": {
+          "danger": 0.384,
+          "sentiment": -0.167
+        },
+        "almanarnews": {
+          "danger": 0.31,
+          "sentiment": 0.3
+        },
+        "C_Military1": {
+          "danger": 0.422,
+          "sentiment": -0.467
+        },
+        "almayadeen": {
+          "danger": 0.729,
+          "sentiment": -0.7
+        },
+        "QudsN": {
+          "danger": 0.366,
+          "sentiment": 0
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2280,49 +2280,49 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.5382831439879288
+      "knn_danger_metric": 0.5827926902774602
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.5140573911516899
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.5180095344891933
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.5922618379856156
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.4482149874863116
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.40659305797652423
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.3840697392011351
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.2,
-      "knn_danger_metric": 0.3177573464187425
+      "raw_sentiment": 0.3,
+      "knn_danger_metric": 0.31016891129358765
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.5108842097663711
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.4223942350192186
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.7521212700484298
+      "raw_sentiment": -0.7,
+      "knn_danger_metric": 0.7286474112142735
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.7242779588472339
+      "num_messages": 10,
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.365548768441158
     }
   },
   "semantic_logs": [
@@ -2334,9 +2334,9 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸 واژگونی اتوبوس در محور عسلویه - سیراف ۷ فوتی برجای گذاشت   مدیرکل دفتر مدیریت بحران استانداری بوشهر:  🔹صبح امروز یک دستگاه اتوبوس مسافربری در محور جاده‌ای عسلویه – سیراف واژگون شد که براساس گزارش‌های اولیه، تاکنون ۷ تن در این سانحه جان خود را از دست داده‌اند.…",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "עלה ל 3 מספר ההרוגים בתקיפת הכטב&quot;מ הישראלי על המטבח של אגודת הצדקה הטורקית בדיר אלבלח במרכז רצועת עזה ☝️.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2357,79 +2357,79 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: بقائي رداً على التصريحات الأميركية: يخلقون الخراب ثم يسمون ذلك سلاماً",
+      "text": "إيران: مصادر في فارس للميادين: ترامب تراجع عن نسبة الـ25% من الأصول الإيرانية المجمدة التي تعهد بالإفراج عنها في الجولة الأولى",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: شهيد على الأقل وإصابتان في استهداف إسرائيلي لتكية في أرض مجاورة لمستشفى الأقصى وسط قطاع غزة",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: قصف مدفعي إسرائيلي يستهدف أطراف بلدتي زوطر الشرقية ويحمر في قضاء النبطية",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: غارة إسرائيلية تستهدف بلدة كفرا",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "الإمارات: مكتب أبو ظبي: الحريق لم يسفر عن تسجيل أي إصابات أو تأثير على مستويات السلامة الإشعاعية وتم اتخاذ كافة الإجراءات الاحترازية",
+      "text": "لبنان: مراسل الميادين في الجنوب: غارة إسرائيلية معادية استهدفت بلدة يحمر الشقيف في قضاء النبطية",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: القائد العام لحرس الثورة: على العلاقات العامة مواصلة خط المواجهة بالتعرف على العمليات النفسية للعدو ومواجهة الأخبار الكاذبة",
+      "text": "لبنان: مراسل الميادين في الجنوب: غارة إسرائيلية معادية استهدفت بلدة دبعال في قضاء صور",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي بغارة على بلدة دبين في قضاء مرجعيون",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي على بلدة صديقين",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: غارة إسرائيلية معادية على بلدة يحمر الشقيف في قضاء النبطية",
+      "text": "فلسطين المحتلة: حماس: استهداف الاحتلال لتكية طعام في دير البلح جريمة مكتملة الأركان ومشهد متجدد من مشاهد الإبادة الجماعية بحق شعبنا في غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي بغارة استهدفت بلدة البيسارية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: غارة إسرائيلية استهدفت بلدة تبنين",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 13 العبرية: سيجتمع المجلس الوزاري المصغر هذا المساء.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.996238247963218
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صفارات الإنذار تدوي في افن مناحم وشتولا وزرعيت وشوميرا بالجليل الغربي خشية تسلل طائرات مسيّرة.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.956418427463877
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸انفجار بمب در جنوب لبنان و زخمی شدن ۴ نظامی صهیونیست  🔹شبکه «العربیه» گزارش داد در اثر انفجار یک بمب دست‌ساز در جنوب لبنان، چهار نظامی رژیم صهیونیستی زخمی شده‌اند که حال دو نفر از آنها وخیم است.  🔹در همین حال، ارتش رژیم صهیونیستی نیز با صدور بیانیه‌ای اعلام کرد که در این حادثه دو افسر و دو نظامی آن بر اثر انفجار یک مین در جنوب لبنان در شب گذشته زخمی شده‌اند.  🔹جزئیات بیشتری از محل دقیق انفجار و شرایط مجروحان منتشر نشده است، اما این رویداد در ادامه تنش‌های مرزی میان رژیم صهیونیستی و حزب‌الله لبنان رخ داده است.  لینک خبر 📌اخبار ایرنا را در بله | روبیکا | سروش پلاس | ایتا&nbsp;| جهان دنبال کنید @IRNA_1313",
       "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "تجربة اجتماعية في إسبانيا تكشف حجم الألم… صوت بكاء طفل من تحت الأرض يهز المارة، لتنهار الدموع عندما يكتشفون أن الصوت لأطفال فلسطينيين قُتلوا برصاص الاحتلال",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "بأدوات بدائية وفي ظروف صعبة.. طالبات يواصلن تلقي التعليم داخل مدرسة أقيمت في منزل مدمر بصواريخ الاحتلال في جباليا شمال قطاع غزة.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل| شهيد وعدد من الجرحى جراء قصف الاحتلال لتكية خيرية قرب مستشفى شهداء الأقصى بدير البلح وسط قطاع غزة.",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل| مستشفيات غزة: 6 شهداء في القطاع منذ صباح اليوم بغارات الاحتلال واستهدافاته.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
+      "semantic_danger_knn": 0.8811698068145363
     }
   ]
 }
