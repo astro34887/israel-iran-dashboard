@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-17T23:54:29.106Z",
+  "last_updated": "2026-05-18T02:54:41.917Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.56",
-    "global_norm_sentiment": "-0.30"
+    "global_norm_sentiment": "-0.32"
   },
   "timeline": [
-    {
-      "time": "2026-05-14T11:48:52.745Z",
-      "danger": 0.476,
-      "sentiment": -0.174,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.618,
-          "sentiment": -0.536
-        },
-        "OSINTdefender": {
-          "danger": 0.554,
-          "sentiment": -0.2
-        },
-        "irna_1313": {
-          "danger": 0.44,
-          "sentiment": -0.2
-        },
-        "sepah_pasdaran": {
-          "danger": 0.29,
-          "sentiment": -0.3
-        },
-        "almanarnews": {
-          "danger": 0.457,
-          "sentiment": -0.1
-        },
-        "C_Military1": {
-          "danger": 0.409,
-          "sentiment": -0.367
-        },
-        "almayadeen": {
-          "danger": 0.603,
-          "sentiment": 0.067
-        },
-        "QudsN": {
-          "danger": 0.444,
-          "sentiment": 0.033
-        }
-      }
-    },
     {
       "time": "2026-05-14T14:01:36.538Z",
       "danger": 0.434,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.231
         }
       }
+    },
+    {
+      "time": "2026-05-18T02:54:41.917Z",
+      "danger": 0.558,
+      "sentiment": -0.318,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.631,
+          "sentiment": -0.6
+        },
+        "OSINTdefender": {
+          "danger": 0.487,
+          "sentiment": -0.533
+        },
+        "irna_1313": {
+          "danger": 0.494,
+          "sentiment": -0.375
+        },
+        "sepah_pasdaran": {
+          "danger": 0.585,
+          "sentiment": -0.533
+        },
+        "almanarnews": {
+          "danger": 0.358,
+          "sentiment": -0.367
+        },
+        "C_Military1": {
+          "danger": 0.451,
+          "sentiment": 0.133
+        },
+        "almayadeen": {
+          "danger": 0.85,
+          "sentiment": -0.533
+        },
+        "QudsN": {
+          "danger": 0.776,
+          "sentiment": -0.208
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,37 +2279,37 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
+      "raw_sentiment": -0.6,
       "knn_danger_metric": 0.6310289223649433
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
+      "raw_sentiment": -0.5333333333333333,
       "knn_danger_metric": 0.48699241104591046
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.5194683422390168
+      "num_messages": 12,
+      "raw_sentiment": -0.375,
+      "knn_danger_metric": 0.4936061313378981
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.5544365145710175
+      "knn_danger_metric": 0.5854285276162597
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.32146181236848936
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.3575264173894396
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
+      "raw_sentiment": 0.13333333333333333,
       "knn_danger_metric": 0.4508823530847755
     },
     "almayadeen": {
@@ -2320,9 +2320,9 @@
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 13,
-      "raw_sentiment": -0.23076923076923078,
-      "knn_danger_metric": 0.8028386566642881
+      "num_messages": 12,
+      "raw_sentiment": -0.20833333333333334,
+      "knn_danger_metric": 0.7755297368607245
     }
   },
   "semantic_logs": [
@@ -2359,6 +2359,13 @@
       "channel": "IRGC",
       "text": "️پیام سردار قاآنی در پی شهادت عزالدین الحداد  ✅  @sepah_pasdaran",
       "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️قیمت نفت ۱۱۱ دلار شد  قیمت نفت برنت لحظاتی پیش در ادامه روند صعودی به ۱۱۱ دلار در هر بشکه رسید. ✅  @sepah_pasdaran",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2422,13 +2429,6 @@
       "channel": "Arab_Axis",
       "text": "وسائل إعلام إسرائيلية: &quot;يديعوت أحرونوت&quot;: كرواتيا لا تصادق على تعيين السفير الإسرائيلي لديها منذ 7 اشهر",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: قصف مدفعي إسرائيلي متواصل في محيط بلدة كفررمان",
-      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
   ]
