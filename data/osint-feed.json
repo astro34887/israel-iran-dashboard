@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-20T19:21:38.613Z",
+  "last_updated": "2026-05-20T21:48:49.951Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.47",
-    "global_norm_sentiment": "-0.30"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.20"
   },
   "timeline": [
-    {
-      "time": "2026-05-16T11:00:05.693Z",
-      "danger": 0.526,
-      "sentiment": -0.077,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.69,
-          "sentiment": -0.633
-        },
-        "OSINTdefender": {
-          "danger": 0.466,
-          "sentiment": 0.3
-        },
-        "irna_1313": {
-          "danger": 0.573,
-          "sentiment": -0.167
-        },
-        "sepah_pasdaran": {
-          "danger": 0.427,
-          "sentiment": -0.167
-        },
-        "almanarnews": {
-          "danger": 0.373,
-          "sentiment": 0.367
-        },
-        "C_Military1": {
-          "danger": 0.455,
-          "sentiment": -0.5
-        },
-        "almayadeen": {
-          "danger": 0.715,
-          "sentiment": 0.2
-        },
-        "QudsN": {
-          "danger": 0.614,
-          "sentiment": 0
-        }
-      }
-    },
     {
       "time": "2026-05-16T11:58:54.629Z",
       "danger": 0.519,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.5
         }
       }
+    },
+    {
+      "time": "2026-05-20T21:48:49.951Z",
+      "danger": 0.532,
+      "sentiment": -0.203,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.636,
+          "sentiment": -0.3
+        },
+        "OSINTdefender": {
+          "danger": 0.518,
+          "sentiment": -0.4
+        },
+        "irna_1313": {
+          "danger": 0.581,
+          "sentiment": -0.3
+        },
+        "sepah_pasdaran": {
+          "danger": 0.427,
+          "sentiment": -0.1
+        },
+        "almanarnews": {
+          "danger": 0.313,
+          "sentiment": 0.3
+        },
+        "C_Military1": {
+          "danger": 0.402,
+          "sentiment": -0.6
+        },
+        "almayadeen": {
+          "danger": 0.707,
+          "sentiment": -0.267
+        },
+        "QudsN": {
+          "danger": 0.789,
+          "sentiment": -0.231
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.614236690711594
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.6357336246960279
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 11,
-      "raw_sentiment": -0.45454545454545453,
-      "knn_danger_metric": 0.5365638392996265
+      "num_messages": 15,
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.581025827307149
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.29478535372857256
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.42722991681340333
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.2722107424098023
+      "raw_sentiment": 0.3,
+      "knn_danger_metric": 0.3130990941355414
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.8,
-      "knn_danger_metric": 0.354306865348332
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.4016486438037887
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.6252450004642575
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.7066019844746019
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 14,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.57703418391221
+      "num_messages": 13,
+      "raw_sentiment": -0.23076923076923078,
+      "knn_danger_metric": 0.7889843690833278
     }
   },
   "semantic_logs": [
@@ -2348,88 +2348,88 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "سوريا: الإخبارية السورية: قوات الاحتلال المتمركزة في التل الأحمر الغربي تستهدف بـ 3 قذائف مدفعية محيط التل الأحمر الشرقي بريف القنيطرة",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️حمله هوایی رژیم صهیونیستی به یک منزل مسکونی در نوار غزه  منابع خبری از حمله هوایی رژیم صهیونیستی به یک منزل مسکونی در اردوگاه المغازی در مرکز نوار غزه گزارش می‌دهد. ✅  @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: &quot;تسنيم&quot; عن قائد قوة القدس العميد إسماعيل قاآني: إنجازات أسطول الصمود مستمرة في هدم جدران تزوير الحريات في الحضارة الغربية",
+      "text": "لبنان: مراسل الميادين في الجنوب: غارة اسرائيلية تستهدف بلدة حبوش قضاء النبطية",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: إصابة شاب برصاص &quot;جيش&quot; الاحتلال شمالي مخيم البريج وسط قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: غارتان اسرائيليتان تستهدفان بلدتي طيردبا وصربين",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: طائرات الاحتلال الاسرائيلي تعتدي على بلدتي فرون وكفردونين",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: مساعد قائد القوات البحرية لحرس الثورة: ترامب الذي يعتقد أنه قادر على فتح مضيق هرمز فليعلم أن البحرية التي زعم أنها تلاشت ستغرقه",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: العميد قاآني: إنجازات أسطول الصمود مستمرة في هدَم جدران تزوير الحريات في الحضارة الغربية وفضح الفاشية الصهيونية",
+      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي بغارة شنها الطيران الحربي استهدفت بلدة المنصوري في قضاء صور",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: قصف مدفعي إسرائيلي يستهدف بلدتي ميفدون وشوكين في قضاء النبطية",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: العميد قاآني: إنجازات أسطول الصمود أعادت فلسطين مجدداً لتكون محط أنظار العالم",
+      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء من الطيران الحربي الإسرائيلي بغارة على مرتفعات الريحان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مشاهد جديدة توثق جزءًا من آثار الدمار الكبير في مخيم طولكرم؛ جرّاء عدوان الاحتلال المستمر.",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تحتجز نساء وأطفال في حارة جابر، بمدينة الخليل.",
+      "text": "آثار الدمار التي خلّفها قصف الاحتلال منزلًا في مخيم المغازي وسط قطاع غزة.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل | قناة &quot;كان&quot; العبرية: الضباط والجنود السبعة الذين أصيبوا بانفجار محلّقة لحزب الله، كانوا أيضًا يعملون ضمن منطقة عمليات اللواء 401 الذي أصيب قائده بجروح خطيرة صباح اليوم.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9919380908475067
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | مصادر سورية: مدفعية الاحتلال تقصف محيط &quot;تل أحمر شرقي&quot; في ريف القنيطرة الجنوبي.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | طيران الاحتلال يقصف منزلًا في مخيم المغازي، وسط قطاع غزة.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | جرحى بقصف طيران الاحتلال منزلًا في مخيم المغازي، وسط قطاع غزة.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "📹 آخر التطورات في جنوب لبنان مع مراسلنا سامر الحاج علي https://almanar.com.lb/article/871842/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9451672518425872
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "در حمله هوایی به جنوب لبنان، ۱۴ تن شهید شدند  🔹 وزارت بهداشت عمومی لبنان آخرین آمار شهدای بمباران وحشیانه روز گذشته ارتش رژیم صهیونیستی در جنوب این کشور را اعلام کرد و افزود که در این حمله تاکنون ۱۴ تن شهید شدند.  🔹 به گزارش شبکه الجزیره، این وزارتخانه تأیید کرد که این افراد در پی حمله هوایی روز گذشته جنگنده‌های ارتش اسرائیل به شهرک «دیر قانون النهر» در جنوب لبنان، به شهادت رسیده‌اند. بر اساس این بیانیه رسمی، در میان شهدا، اجساد ۴ کودک نیز دیده می شود.  لینک خبر  📌اخبار ایرنا را در بله | روبیکا | سروش پلاس | ایتا&nbsp;| جهان دنبال کنید @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.893915718717611
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": " ️بقائی: تبادل پیام‌ها بین ایران و آمریکا از طریق پاکستان ادامه دارد  سخنگوی وزارت امور خارجه امشب گفت که تبادل پیام‌ها همچنان بین ایران و آمریکا از طریق واسطه پاکستانی ادامه دارد و نقطه نظرات طرف آمریکایی را دریافت کردیم و در حال بررسی است. ✅  @sepah_pasdaran",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.8490705472811318
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية تل جنوب غرب نابلس.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
     }
   ]
 }
