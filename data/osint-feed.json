@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-20T05:01:10.965Z",
+  "last_updated": "2026-05-20T09:24:15.101Z",
   "tension": {
     "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.43",
-    "global_norm_sentiment": "-0.36"
+    "global_knn_danger": "0.50",
+    "global_norm_sentiment": "-0.30"
   },
   "timeline": [
-    {
-      "time": "2026-05-16T02:36:03.169Z",
-      "danger": 0.512,
-      "sentiment": -0.357,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.683,
-          "sentiment": -0.733
-        },
-        "OSINTdefender": {
-          "danger": 0.461,
-          "sentiment": 0.1
-        },
-        "irna_1313": {
-          "danger": 0.433,
-          "sentiment": -0.542
-        },
-        "sepah_pasdaran": {
-          "danger": 0.362,
-          "sentiment": -0.567
-        },
-        "almanarnews": {
-          "danger": 0.342,
-          "sentiment": -0.233
-        },
-        "C_Military1": {
-          "danger": 0.426,
-          "sentiment": -0.933
-        },
-        "almayadeen": {
-          "danger": 0.498,
-          "sentiment": -0.267
-        },
-        "QudsN": {
-          "danger": 0.967,
-          "sentiment": -0.267
-        }
-      }
-    },
     {
       "time": "2026-05-16T05:51:31.905Z",
       "danger": 0.494,
@@ -2261,6 +2214,53 @@
           "sentiment": 0.077
         }
       }
+    },
+    {
+      "time": "2026-05-20T09:24:15.101Z",
+      "danger": 0.496,
+      "sentiment": -0.296,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.495,
+          "sentiment": -0.286
+        },
+        "OSINTdefender": {
+          "danger": 0.521,
+          "sentiment": -0.233
+        },
+        "irna_1313": {
+          "danger": 0.521,
+          "sentiment": -0.133
+        },
+        "sepah_pasdaran": {
+          "danger": 0.372,
+          "sentiment": -0.467
+        },
+        "almanarnews": {
+          "danger": 0.513,
+          "sentiment": 0.167
+        },
+        "C_Military1": {
+          "danger": 0.524,
+          "sentiment": -0.667
+        },
+        "almayadeen": {
+          "danger": 0.467,
+          "sentiment": -0.5
+        },
+        "QudsN": {
+          "danger": 0.601,
+          "sentiment": -0.708
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2278,9 +2278,9 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 15,
-      "raw_sentiment": -0.7333333333333333,
-      "knn_danger_metric": 0.4506740710305505
+      "num_messages": 14,
+      "raw_sentiment": -0.2857142857142857,
+      "knn_danger_metric": 0.49495279789062696
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 13,
-      "raw_sentiment": -0.3076923076923077,
-      "knn_danger_metric": 0.45028363397627724
+      "num_messages": 15,
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.5210597058262522
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.8666666666666667,
-      "knn_danger_metric": 0.2663202590631693
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.3719546182812293
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.3851510776154155
+      "raw_sentiment": 0.16666666666666666,
+      "knn_danger_metric": 0.5133668497720026
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.8333333333333334,
-      "knn_danger_metric": 0.32910973099522156
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.5243910896443852
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.3325775819326618
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.4665707019983441
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 13,
-      "raw_sentiment": 0.07692307692307693,
-      "knn_danger_metric": 0.6140354889600061
+      "num_messages": 12,
+      "raw_sentiment": -0.7083333333333334,
+      "knn_danger_metric": 0.6009537960254105
     }
   },
   "semantic_logs": [
@@ -2334,60 +2334,95 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "התגברות תקיפות צה&quot;ל ברצועת עזה  הלילה תקף ברצועה צה&quot;ל פעמיים באמצעות מטוסי קרב ופעם נוספת באמצעות כטב&quot;מ:  1. תקיפת מטוסי קרב על בית משפחת אבו שמאלה במחנה הפליטים אלבריג&#39; במרכז הרצועה - אחרי התרעת פינוי (הקש בגג).  2. תקיפת מבנה ליד בית מרקחת אבו לילה בשכונת נצר במערב העיר עזה (מצורף תיעוד) - באמצעות מטוסי קרב.   3. תקיפת נקודת משטרה של חמאס ברחוב 5 במואצי של ח&#39;אן יונס בדרום הרצועה - באמצעות כטב&quot;מ.   ## אין הרוגים בתקיפות אלו -יש רק פצועים.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "חודש מודעות סרטן שלפוחית השתן בישראל  סרטן השלפוחית הינה המחלה הרביעית בשכיחותה בקרב גברים והשמינית בשכיחותה בקרב נשים. בישראל מתגלים כ-1,800 מקרים חדשים בשנה, וכ-12,000 אנשים חיים עם המחלה. שילוב של טיפול לצד מעקב רפואי קפדני הוא בעל חשיבות משמעותית בהתמודדות עם המחלה.  למידע נוסף, כנסו לאתר 👇  https://www.synergo-medical.com/he/patient-info",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "🔵 فوكس نيوز: وزارة العدل الأمريكية قد توجه اتهامات ضد راؤول كاسترو في 20 ايار/ مايو https://almanar.com.lb/article/869272/?s=tg",
+      "text": "اثناء اطلاق صفارات الانذار صباح اليوم في كريات شمونة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "الصين: بوتين: نحن والصين نصر على التطور السيادي الحر للبلدان في نظام أكثر عدالة",
-      "absolute_sentiment": 0,
+      "text": "لبنان: مراسل الميادين: طيران الاحتلال يعتدي على بلدة الغندورية الجنوبية",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "الصين: شي جين بينغ: مقترحي للحفاظ على السلام والاستقرار في &quot;الشرق الأوسط&quot; هدفه المساهمة في تخفيف حدة التوترات وخفض التصعيد ودعم السلام",
+      "text": "الصين: بيان مشترك: روسيا والصين ستعملان معاً على منع الهجمات الإرهابية ومكافحة استخدام الجماعات الإرهابية لتحقيق أهداف سياسية",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "جانب آخر من اقتحام قوات الاحتلال بلدة قباطية جنوب جنين",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تعتقل &quot;علي الصفدي&quot; عقب مداهمة منزله في حي رفيديا غرب نابلس، فجر اليوم.",
+      "text": "سوريا: مصادر محلية سورية: دورية تابعة للاحتلال الإسرائيلي توغلت في بلدة كودنة بريف القنيطرة الجنوبي ونصبت حاجزاً",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "لحظة اعتقال قوات الاحتلال أحد الشبان خلال اقتحام بلدة حزما شمال القدس المحتلة",
+      "text": "محكمة الاحتلال العليا ترفض الالتماس المقدّم ضد مشروع الاحتلال الذي ينوي تسقيف الساحة الداخلية في الحرم الإبراهيمي الشريف ومصادرة ٢٨٨ متر من الحرم ومصادرة صلاحيات التخطيط وتحويلها لسلطات الاحتلال.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل| مدفعية الاحتلال تستهدف شرقي بيت لاهيا شمال قطاع غزة.",
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: حزب الله استهدف مجموعة ضباط بينهم قائد اللواء 401 مدرعات بطائرة بدون طيار.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9929755215884677
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "|| سرايا القدس تنعى كوكبة من قادة الاختصاصات العسكرية الذين ارتقوا شهداء خلال الملاحم البطولية في معركة #طوفان_الأقصى المباركة.  الشهيد القائد/ يوسف عوني خطاب (قائد سلاح المدفعية - لو��ء الوسطى)  الشهيد القائد/ صلاح شعبان إسماعيل (قائد وحدة القنص - لواء الوسطى)  الشهيد القائد/ إيهاب فؤاد صالح (قائد في وحدة أمن السرايا المركزية - لواء الشمال)  الشهيد القائد/ هاشم محمد حرب عفانة (قائد فصيل - وحدة أمن السرايا المركزية - لواء الشمال)  الشهيد القائد/ حمودة شفيق قشطه (قائد فصيل - وحدة أمن السرايا المركزية - لواء رفح)  الشهيد القائد/ نائل محمد الدالي (قائد فصيل إسناد - كتيبة القرارة - لواء خانيونس)  الشهيد القائد/ حسن مروان البنا (قائد فصيل - وحدة التصنيع الحربي - لواء غزة)   الشهيد القائد/ إسماعيل خضر شلوف (قائد فصيل - وحدة التنظيم والإدارة المركزية - لواء غزة)  الشهيد القائد/ إبراهيم جمال الشيخ علي (قائد فصيل - وحدة العمليات المركزية - لواء الوسطى)  الشهيد القائد/ زهير رجب العمصي (قائد فصيل - وحدة المعلومات المركزية - لواء رفح)  الشهيد القائد/ طارق أنيس الدحدوح (قائد فصيل - ملف التسليح - لواء غزة)  الشهيد القائد/ نهاد منير السمك (قائد فصيل - ملف التسليح - لواء غزة)  الشهيد القائد/ زياد عادل دهليز (قائد فصيل - أمن الموقع العسكري - لواء رفح)  سرايا القدس الجناح العسكري لحركة الجهاد الإسلامي في فلسطين الأربعاء 3 ذو الحجة 1447 هجري – 20 مايو 2026م",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
+      "semantic_danger_knn": 0.9574598237147571
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صفارات الإنذار دوت في المالكية بالجليل الأعلى خشية تسلل طائرات مسيّرة.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.956418427463877
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صفارات الإنذار تدوي في كريات شمونه ومحيطها خشية تسلل طائرات مسيّرة.   #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.956418427463877
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تشن حملة اعتقالات واسعة في بلدة حزما شمال شرق القدس المحتلة وتعتقل حتى اللحظة 18 شابا وتداهم المنازل وتخضع أصحابها للتحقيق.",
+      "text": "الاحتلال صادق على قرار تهجير ساكنيه.. صور من تجمع الخان الأحمر شرقي القدس المحتلة.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.8735832632748798
+      "semantic_danger_knn": 0.9262731058775845
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "آثار هجوم مليشيات المستوطنين فجر اليوم على بلدة حلحول شمال شرق",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.8899090980904186
     },
     {
       "channelId": "idfonline",
@@ -2395,41 +2430,6 @@
       "text": "תצפיות צה&quot;ל זיהו הבוקר תנועה חשודה סמוך ליישוב חמדיה שבמרחב חטיבת הבקעה והעמקים.לוחמי צה&quot;ל ולוחמי יחידת יג&quot;ל של משטרת ישראל הוזנקו לנקודה ועצרו רכב ובו שלושה חשודים https://t.co/gZaMaQbju7  On May 23, 2023 at 04:52PM Read more via Twitter @idfonline @idfonline",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.819613420621686
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸 یک شهید و چندین زخمی در حمله رژیم صهیونیستی در شهر غزه  🔹در حمله هوایی رژیم اسرائیل به یک خودرو غیرنظامی در غرب شهر غزه، یک فلسطینی شهید و تعدادی دیگر زخمی شدند.  لینک خبر  📌اخبار ایرنا را در بله | روبیکا | سروش پلاس | ایتا&nbsp;| جهان دنبال کنید @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.8141388998019584
-    },
-    {
-      "channelId": "OSINTdefender",
-      "channel": "Global_OSINT",
-      "text": "#Pakistan   Pakistan has deployed 8,000 troops, a squadron of fighter jets, and an air defense system to Saudi Arabia as part of a mutual defense pact amid the ongoing Iran war. This deployment is intended to support Saudi Arabia&#39;s military if it comes under attack.  Subscribe to @OSINTdefender Chat room",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.8002815013602623
-    },
-    {
-      "channelId": "OSINTdefender",
-      "channel": "Global_OSINT",
-      "text": "#Iran  Iran is preparing for a potential war with the United States, placing its forces on high alert and positioning missile launchers, according to recent reports. The US military is also preparing for a possible weeks-long campaign against Iran, with the Pentagon sending additional forces to the Middle East.  Subscribe to @OSINTdefender Chat room",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.7906893607233187
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "ערוצים עזתיים מדווחים על הודעה שהגיעה למספר תושבים במזרח ח׳אן יונס בזו הלשון :  &quot;עליכם להתפנות מהמקום בו אתם שוהים באופן מיידי ולנוע מערבה.  למען ביטחונכם, עליכם לפנות את אזור אלכתיבה, מבית אלעריאן ועד ג׳עביר וא-זקזוק - זאת לקראת תקיפת מטרות באזור.  חמאס הטרוריסטית פועלת באזורכם.  קפטן אבו עלי&quot;   ##  באמת שאני לא מכיר את הקפטן הזה.  כדי להגיב לכתבה לחצו כאן",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 0.7546853455070778
-    },
-    {
-      "channelId": "idfonline",
-      "channel": "IDF",
-      "text": "״יש לנו היום יכולות מול איראן – הן טובות. צריך לחזק אותן יותר כדי שנוכל לעשות מערכה רחבה מול איראן. לעניין התרחיש הרב זירתי, מקרה בו אנו נלחמים סימולטנית בכמה זירות - זה תרחיש מורכב יותר &gt;&gt;  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 0.7341912238941296
     }
   ]
 }
