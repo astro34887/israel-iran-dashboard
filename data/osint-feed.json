@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-21T21:24:24.611Z",
+  "last_updated": "2026-05-21T23:00:12.646Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.50",
-    "global_norm_sentiment": "-0.35"
+    "global_knn_danger": "0.54",
+    "global_norm_sentiment": "-0.36"
   },
   "timeline": [
-    {
-      "time": "2026-05-16T21:43:41.909Z",
-      "danger": 0.518,
-      "sentiment": -0.387,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.497,
-          "sentiment": -0.567
-        },
-        "OSINTdefender": {
-          "danger": 0.475,
-          "sentiment": 0.1
-        },
-        "irna_1313": {
-          "danger": 0.558,
-          "sentiment": -0.233
-        },
-        "sepah_pasdaran": {
-          "danger": 0.453,
-          "sentiment": -0.5
-        },
-        "almanarnews": {
-          "danger": 0.391,
-          "sentiment": -0.5
-        },
-        "C_Military1": {
-          "danger": 0.383,
-          "sentiment": -0.733
-        },
-        "almayadeen": {
-          "danger": 0.683,
-          "sentiment": -0.6
-        },
-        "QudsN": {
-          "danger": 0.794,
-          "sentiment": -0.7
-        }
-      }
-    },
     {
       "time": "2026-05-16T22:41:07.820Z",
       "danger": 0.527,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.6
         }
       }
+    },
+    {
+      "time": "2026-05-21T23:00:12.646Z",
+      "danger": 0.543,
+      "sentiment": -0.356,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.52,
+          "sentiment": -0.857
+        },
+        "OSINTdefender": {
+          "danger": 0.491,
+          "sentiment": -0.333
+        },
+        "irna_1313": {
+          "danger": 0.581,
+          "sentiment": -0.533
+        },
+        "sepah_pasdaran": {
+          "danger": 0.314,
+          "sentiment": -0.133
+        },
+        "almanarnews": {
+          "danger": 0.389,
+          "sentiment": -0.133
+        },
+        "C_Military1": {
+          "danger": 0.55,
+          "sentiment": -0.733
+        },
+        "almayadeen": {
+          "danger": 0.774,
+          "sentiment": -0.733
+        },
+        "QudsN": {
+          "danger": 0.86,
+          "sentiment": 0.033
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2280,7 +2280,7 @@
       "name": "Israel_OSINT",
       "num_messages": 14,
       "raw_sentiment": -0.8571428571428571,
-      "knn_danger_metric": 0.5251223974097148
+      "knn_danger_metric": 0.5195050454630281
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,14 +2291,14 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.5036525740153535
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.580662162354019
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.26750203782218507
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.3138930036034456
     },
     "almanarnews": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.5820980001835985
+      "raw_sentiment": -0.7333333333333333,
+      "knn_danger_metric": 0.7744644320396719
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.7442225018162968
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.8597521519873262
     }
   },
   "semantic_logs": [
@@ -2341,9 +2341,9 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: حزب الله: استهداف الضباط اللبنانيين بالعقوبات عشية اللقاءات في &quot;البنتاغون&quot; هو محاولة مكشوفة لترهيب مؤسساتنا الأمنية",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️منابع خبری از شنیده‌شدن صدای انفجارهای مهیب در دیرالزور سوریه خبر دادند.   ✅  @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2369,6 +2369,34 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: عدوان إسرائيلي بغارة على زوطر",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: الاحتلال الإسرئيلي شن غارات على بلدات زوطر وكفرا وحناويه",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "وزارة الصحة الإسرائيلية تقر بـ8 إصابات بنيران حزب الله أمس",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: &quot;جيش&quot; الاحتلال ينفذ عملية نسف شمال شرقي مدينة خان يونس جنوبي القطاع",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
       "text": "قوات الاحتلال تداهم منزلاً خلال اقتحام المنطقة الشرقية بمدينة جنين.",
@@ -2390,46 +2418,18 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة &quot;يديعوت أحرونوت&quot; العبرية: تُظهر صور الأقمار الصناعية حريقًا هائلًا اندلع في معسكر شمشون قرب طبريا بدءًا من 10 مارس/آذار، وهو اليوم الذي أعلن فيه حزب الله عن هجومه على الموقع باستخدام سرب من الطائرات المسيّرة. ووفقًا لتحليل الصور، استمر الحريق لعدة أيام، وامتد على مساحة تقارب 200 متر داخل القاعدة.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9979930747339436
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة &quot;يديعوت أحرونوت&quot; العبرية: تُظهر صور الأقمار الصناعية بأن قاعدة رامات ديفيد الجوية تعرضت لقصف في منطقتين خلال الحرب مع إيران. ويبدو أيضاً أن إحدى المنطقتين كانت تُستخدم على الأرجح لمركبات ومعدات الإغاثة، بينما كانت الأخرى نقطة للتزود بالوقود وصيانة الطائرات المقاتلة.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9973354161980501
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة &quot;يديعوت أحرونوت&quot; العبرية:  تشير صور الأقمار الصناعية إلى وجود أضرار في موقع دفاعي بقاعدة نيفاتيم الجوية. ووفقًا لتحليل الصور، كانت الأضرار واضحة في موقع دفاعي داخل القاعدة، بتاريخ 25 مارس جراء هجوم إيراني.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9961486516080662
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة &quot;يديعوت أحرونوت&quot; العبرية: تشير صور الأقمار الصناعية إلى أضرار داخل قاعدة الاستخبارات العسكرية في الشمال &quot;ميشار&quot; بالقرب من صفد جراء وقوع هجوم.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9961486516080662
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تواصل اقتحام المنطقة الشرقية بمدينة جنين.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل | قوات الاحتلال تقتحم بلدة &quot;نعلين&quot; غرب رام الله، وقرية &quot;كفر قدوم&quot; شرق قلقيلية.",
+      "text": "مشاهد مؤثرة توثق استقبال نشطاء &quot;أسطول الصمود&quot; عقب الإفراج عنهم من سجون الاحتلال",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | إصابة شاب برصاص الاحتلال خلال مواجهات عنيفة في بلدة عنبتا، شرق طولكرم.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
+      "semantic_danger_knn": 1
     }
   ]
 }
