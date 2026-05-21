@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-21T06:51:23.313Z",
+  "last_updated": "2026-05-21T10:37:31.677Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.36"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.48",
+    "global_norm_sentiment": "-0.22"
   },
   "timeline": [
-    {
-      "time": "2026-05-16T15:55:30.472Z",
-      "danger": 0.497,
-      "sentiment": -0.187,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.637,
-          "sentiment": -0.6
-        },
-        "OSINTdefender": {
-          "danger": 0.466,
-          "sentiment": 0.3
-        },
-        "irna_1313": {
-          "danger": 0.444,
-          "sentiment": -0.067
-        },
-        "sepah_pasdaran": {
-          "danger": 0.404,
-          "sentiment": -0.767
-        },
-        "almanarnews": {
-          "danger": 0.531,
-          "sentiment": 0
-        },
-        "C_Military1": {
-          "danger": 0.437,
-          "sentiment": -0.1
-        },
-        "almayadeen": {
-          "danger": 0.54,
-          "sentiment": -0.033
-        },
-        "QudsN": {
-          "danger": 0.563,
-          "sentiment": -0.467
-        }
-      }
-    },
     {
       "time": "2026-05-16T16:55:34.280Z",
       "danger": 0.468,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.423
         }
       }
+    },
+    {
+      "time": "2026-05-21T10:37:31.677Z",
+      "danger": 0.483,
+      "sentiment": -0.218,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.347,
+          "sentiment": -0.2
+        },
+        "OSINTdefender": {
+          "danger": 0.518,
+          "sentiment": -0.4
+        },
+        "irna_1313": {
+          "danger": 0.491,
+          "sentiment": -0.267
+        },
+        "sepah_pasdaran": {
+          "danger": 0.418,
+          "sentiment": -0.267
+        },
+        "almanarnews": {
+          "danger": 0.392,
+          "sentiment": -0.067
+        },
+        "C_Military1": {
+          "danger": 0.571,
+          "sentiment": -0.533
+        },
+        "almayadeen": {
+          "danger": 0.657,
+          "sentiment": -0.033
+        },
+        "QudsN": {
+          "danger": 0.482,
+          "sentiment": -0.25
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.6175979741937928
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.3466276697863231
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.5174666365357105
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.4905609156931885
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.47943308830409087
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.41790862158343944
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.39427363023152456
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.39246720240132377
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.9,
-      "knn_danger_metric": 0.5393275997206679
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.5711907610602306
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.6231903341309799
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.6567891669662117
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 13,
-      "raw_sentiment": -0.4230769230769231,
-      "knn_danger_metric": 0.6087746184508798
+      "num_messages": 14,
+      "raw_sentiment": -0.25,
+      "knn_danger_metric": 0.48234051686855095
     }
   },
   "semantic_logs": [
@@ -2336,29 +2336,8 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "הדירה הגדולה ביותר בירושלים   שבנויה על מפלס אחד מוצעת למכירה:  ווילה ב&quot;ארנונה החדשה&quot;   לצד השגרירות האמריקאית וקיבוץ רמת רחל  כוללת 6 חדרים   (עם אפשרות לחלוקה ל-7)  ✔️ 4 מרפסות עם נוף עוצר נשימה   ✔️ גג ענק עם הכנה לג&#39;קוזי   ✔️ אפשרות לחדר כושר פרטי   ✔️ מטבח חוץ עם עמדת ברביקיו  הווילה נמכרת ב-6.2 מיליון ₪  ורוכשים בחודש הקרוב יקבלו   300,000 ₪ לריהוט לבחירתם   בליווי מעצבת פנים מובילה.  לפרטים &gt;&gt;   https://arnona-hills.gl-re.co.il/?utm_source=Telegram&amp;campaign=Alios_10733_Telegram_Villa_May26",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "רצועת עזה: מטוסי קרב של צה&quot;ל תקפו לפני זמן קצר את בית משפחת בהג&#39;ת אסמאעיל במזרח מחנה הפליטים אלמע&#39;אזי במרכז הרצועה - אחרי התרעת פינוי.  למרות התרעת הפינוי ישנם דיווחים על נפגעים רבים.  כמו כן דווח על התרעת פינוי חדשה באזור זה.  תגובה אחת",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "&quot;כיפת הפלדה&quot; של טורקיה  במסגרת התרגיל הצבאי הגדול - EFES-2026 שעורכת טורקיה בימים אלה הוצגו אלמנטים מתוך מערכת ההגנה האווירית הטורקית הרב שכבתית - כיפת פלדה שעל פיתוחה הכריזה טורקיה לראשונה ביולי 2024.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": " ️حمله هوایی رژیم صهیونیستی به یک منزل مسکونی در نوار غزه  منابع خبری از حمله هوایی رژیم صهیونیستی به یک منزل مسکونی در اردوگاه المغازی در مرکز نوار غزه گزارش می‌دهد. ✅  @sepah_pasdaran",
-      "absolute_sentiment": -1,
+      "text": "SOUTH GATE SEA EDITION  💎💎 פרויקט היוקרה של פרשקובסקי בהרצליה פיתוח משיק את קומות הים&#33;  מהדורה מוגבלת של משרדים ודירות מיקרו ליבינג למכירה   עם נוף 360 מעל כולם:  🌅 נוף פתוח לים   🔏 Private Sky Lobby   🏊 בריכה, חדר כושר ולאונג&#39; עסקים  פריסייל ל-15 דירות ראשונות בלבד  היה שווה לחכות&#33;  לפרטים: https://did.li/Qfjba",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2369,67 +2348,88 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 بوليفيا | الرئيس باث يعلن تعديلًا وزاريًا ويشكّل مجلسًا اقتصاديًا &quot;تعاونيًا&quot; لاحتواء الاحتجاجات العنيفة https://almanar.com.lb/article/872947/?s=tg",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️ ۲ تروریست تجزیه‌طلب اعدام شدند  رامین زله فرزند کمال و کریم معروف‌پور فرزند کمال عضویت در گروهک‌های تروریستی تجزیه‌طلب، به جرم تشکیل گروه با هدف برهم زدن امنیت کشور، قیام مسلحانه از طریق تشکیل گروه‌های مجرمانه، تیراندازی و اقدام به ترور در راستای اهداف گروهک تروریستی به دار مجازات آویخته شدند. ✅  @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: &quot;هآرتس&quot;: جنود &quot;الجيش&quot; الإسرائيلي في جنوب لبنان يختبئون في النهار خوفاً من محلّقات حزب الله",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: الوكالة اللبنانية: الطيران المعادي يستهدف بلدة تبنين جنوب البلاد",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "كولومبيا: بوغوتا تطرد السفير البوليفي رداً على اتخاذ بوليفيا إجراء مماثلاً بحق السفيرة الكولومبية بتهمة &quot;التدخل بالشؤون الداخلية&quot;",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: يديعوت أحرنوت: محلقات حزب الله المفخخة تحلّق فوق الجليل الأعلى بلا إنذار وتترك خلفها أليافا بصرية على أسطح المنازل والسيارات",
+      "text": "لبنان: كتلة الوفاء للمقاومة: عالمنا يشهد اليوم محاولة أميركية بالحديد والنار وبالاقتصاد لفرض قواعد جديدة على العلاقات الدولية",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: وكالة ميزان التابعة للسلطة القضائية: تنفيذ حكم الإعدام بحق إرهابيين اثنين من العناصر المنتمية للمجموعات الإرهابية",
+      "text": "لبنان: كتلة الوفاء للمقاومة: عالمنا يشهد اليوم محاولة أميركية لتحديد مصير الدول والشعوب بقوة القهر والتسلط",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: كتلة الوفاء للمقاومة: نتنياهو صعّد من عدوانه على بلدنا بعد 15 شهراً من القتل والتدمير واستباحة السيادة اللبنانية",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: وكالة ميزان: الشخصان أدينا بتهم تشكيل مجموعة بهدف الإخلال بالأمن والتمرد المسلح والاغتيال",
+      "text": "لبنان: كتلة الوفاء للمقاومة: الانتهاكات ترافقت مع مواصلة التهديدات الرسمية الإسرائيلية بالسيطرة على جنوب لبنان وفرض شروطها بالقوة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: كتلة الوفاء للمقاومة: التهديدات صدرت بتصريحات علنية عن نتنياهو بإقامة منطقة عازلة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء بغارة إسرائيلية استهدفت أطراف بلدة تولين",
+      "text": "لبنان: كتلة الوفاء للمقاومة: آلة القتل الإسرائيلية لم تتوقف عن مواصلة جرائمها ضد المدنيين اللبنانيين",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تغلق مقر لجنة أموال الزكاة في مدينة جنين وتصادر أموالا ومقتنيات منه صباح اليوم .",
+      "text": "قوات الاحتلال تقتحم بلدة دير سامت غرب دورا جنوب الخليل",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "هيئة المعابر والحدود في غزة: بلغ إجمالي عدد المسافرين 77 مسافرًا اليوم الخميس.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صحيفة &quot;يديعوت أحرونوت&quot; العبرية: في زرعيت في الجليل الأعلى، حتى مهمة بسيطة مثل لشراء الحاجات تتم بخوف. طائرات حزب الله المسيّرة المفخخة تحلّق فوق المستوطنة دون إنذار، وتترك خلفها أليافاً بصرية على أسطح المنازل والسيارات ومحطات الانتظار.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9972021172607135
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صفارات الإنذار تدوي في مسكافعام في إصبع الجليل خشية تسلل طائرات مسيّرة.  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.956418427463877
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: كتلة الوفاء للمقاومة: تم الكشف داخل الكيان عن وجود مخطَط أُعد لتنفيذ هجمات إسرائيلية استباقية على لبنان قبل العدوان على إيران",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9127669622795518
     }
   ]
 }
