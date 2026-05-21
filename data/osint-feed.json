@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-21T02:55:11.612Z",
+  "last_updated": "2026-05-21T06:51:23.313Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.34"
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.36"
   },
   "timeline": [
-    {
-      "time": "2026-05-16T14:53:21.903Z",
-      "danger": 0.534,
-      "sentiment": -0.247,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.611,
-          "sentiment": -0.607
-        },
-        "OSINTdefender": {
-          "danger": 0.466,
-          "sentiment": 0.3
-        },
-        "irna_1313": {
-          "danger": 0.447,
-          "sentiment": -0.067
-        },
-        "sepah_pasdaran": {
-          "danger": 0.463,
-          "sentiment": -0.433
-        },
-        "almanarnews": {
-          "danger": 0.536,
-          "sentiment": -0.4
-        },
-        "C_Military1": {
-          "danger": 0.425,
-          "sentiment": -0.167
-        },
-        "almayadeen": {
-          "danger": 0.778,
-          "sentiment": -0.5
-        },
-        "QudsN": {
-          "danger": 0.668,
-          "sentiment": -0.467
-        }
-      }
-    },
     {
       "time": "2026-05-16T15:55:30.472Z",
       "danger": 0.497,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.267
         }
       }
+    },
+    {
+      "time": "2026-05-21T06:51:23.313Z",
+      "danger": 0.525,
+      "sentiment": -0.362,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.618,
+          "sentiment": -0.467
+        },
+        "OSINTdefender": {
+          "danger": 0.518,
+          "sentiment": -0.4
+        },
+        "irna_1313": {
+          "danger": 0.517,
+          "sentiment": -0.067
+        },
+        "sepah_pasdaran": {
+          "danger": 0.479,
+          "sentiment": -0.367
+        },
+        "almanarnews": {
+          "danger": 0.394,
+          "sentiment": -0.367
+        },
+        "C_Military1": {
+          "danger": 0.539,
+          "sentiment": -0.9
+        },
+        "almayadeen": {
+          "danger": 0.623,
+          "sentiment": -0.5
+        },
+        "QudsN": {
+          "danger": 0.609,
+          "sentiment": -0.423
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.6216897733626818
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.6175979741937928
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 12,
-      "raw_sentiment": -0.75,
-      "knn_danger_metric": 0.6317394706217697
+      "num_messages": 15,
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.5174666365357105
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.4487895040801096
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.47943308830409087
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.3565404407269677
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.39427363023152456
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.7333333333333333,
-      "knn_danger_metric": 0.43306002064466437
+      "raw_sentiment": -0.9,
+      "knn_danger_metric": 0.5393275997206679
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.46126661263640584
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.6231903341309799
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.941707134867704
+      "num_messages": 13,
+      "raw_sentiment": -0.4230769230769231,
+      "knn_danger_metric": 0.6087746184508798
     }
   },
   "semantic_logs": [
@@ -2348,9 +2348,23 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "&quot;כיפת הפלדה&quot; של טורקיה  במסגרת התרגיל הצבאי הגדול - EFES-2026 שעורכת טורקיה בימים אלה הוצגו אלמנטים מתוך מערכת ההגנה האווירית הטורקית הרב שכבתית - כיפת פלדה שעל פיתוחה הכריזה טורקיה לראשונה ביולי 2024.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
       "text": " ️حمله هوایی رژیم صهیونیستی به یک منزل مسکونی در نوار غزه  منابع خبری از حمله هوایی رژیم صهیونیستی به یک منزل مسکونی در اردوگاه المغازی در مرکز نوار غزه گزارش می‌دهد. ✅  @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️۲ تروریست تجزیه‌طلب اعدام شدند  🔹 رامین زله فرزند کمال و کریم معروف‌پور فرزند کمال عضویت در گروهک‌های تروریستی تجزیه‌طلب، به جرم تشکیل گروه با هدف برهم زدن امنیت کشور، قیام مسلحانه از طریق تشکیل گروه‌های مجرمانه، تیراندازی و اقدام به ترور در راستای اهداف گروهک تروریستی به دار مجازات آویخته شدند. ✅  @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2364,71 +2378,57 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "استراليا: وزيرة الخارجية: الصور التي شاهدناها والتي نشرها الوزير الإسرائيلي بن غفير الذي فرضت أستراليا عليه عقوبات صادمة",
+      "text": "وسائل إعلام إسرائيلية: &quot;هآرتس&quot;: جنود &quot;الجيش&quot; الإسرائيلي في جنوب لبنان يختبئون في النهار خوفاً من محلّقات حزب الله",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "استراليا: وزيرة الخارجية: ندين أفعال بن غفير وندين أيضاً الممارسات المهينة التي تمارسها السلطات الإسرائيلية بحق المعتقلين",
+      "text": "لبنان: الوكالة اللبنانية: الطيران المعادي يستهدف بلدة تبنين جنوب البلاد",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: &quot;جيش&quot; الاحتلال الاسرائيلي ينفذ عملية نسف للمنازل شرق مدينة خان يونس جنوبي قطاع غزة",
+      "text": "كولومبيا: بوغوتا تطرد السفير البوليفي رداً على اتخاذ بوليفيا إجراء مماثلاً بحق السفيرة الكولومبية بتهمة &quot;التدخل بالشؤون الداخلية&quot;",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "كولومبيا: وزارة الخارجية: طرد السفير البوليفي بناءً على مبدأ المعاملة بالمثل",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: &quot;هآرتس&quot;: &quot;إسرائيل&quot; تتصرف كـ &quot;بلطجي الحي&quot; في لبنان وفي الضفة الغربية وفي غزة",
+      "text": "وسائل إعلام إسرائيلية: يديعوت أحرنوت: محلقات حزب الله المفخخة تحلّق فوق الجليل الأعلى بلا إنذار وتترك خلفها أليافا بصرية على أسطح المنازل والسيارات",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مشاهد من اقتحام قوات الاحتلال مخيم الجلزون شمال رام الله",
-      "absolute_sentiment": 0.5,
+      "text": "إيران: وكالة ميزان التابعة للسلطة القضائية: تنفيذ حكم الإعدام بحق إرهابيين اثنين من العناصر المنتمية للمجموعات الإرهابية",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم مدينة الخليل، جنوب الضفة الغربية.",
-      "absolute_sentiment": 0,
+      "text": "إيران: وكالة ميزان: الشخصان أدينا بتهم تشكيل مجموعة بهدف الإخلال بالأمن والتمرد المسلح والاغتيال",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة بيت كاحل شمال غرب الخليل.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "لحظة اعتقال قوات الاحتلال مدير جمعية مديد &quot;أحمد دويكات&quot; خلال اقتحام عسكر البلد شرق نابلس.",
+      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء بغارة إسرائيلية استهدفت أطراف بلدة تولين",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم المنازل خلال اقتحامها المستمر لمخيم الجلزون شمال رام الله",
-      "absolute_sentiment": 0,
+      "text": "مصادر محلية: قوات الاحتلال تغلق مقر لجنة أموال الزكاة في مدينة جنين وتصادر أموالا ومقتنيات منه صباح اليوم .",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
   ]
