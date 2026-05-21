@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-21T17:29:18.752Z",
+  "last_updated": "2026-05-21T19:49:03.492Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.46",
-    "global_norm_sentiment": "-0.32"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.34"
   },
   "timeline": [
-    {
-      "time": "2026-05-16T18:59:29.231Z",
-      "danger": 0.468,
-      "sentiment": -0.275,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.488,
-          "sentiment": -0.467
-        },
-        "OSINTdefender": {
-          "danger": 0.475,
-          "sentiment": 0.1
-        },
-        "irna_1313": {
-          "danger": 0.428,
-          "sentiment": -0.154
-        },
-        "sepah_pasdaran": {
-          "danger": 0.312,
-          "sentiment": -0.333
-        },
-        "almanarnews": {
-          "danger": 0.381,
-          "sentiment": 0.033
-        },
-        "C_Military1": {
-          "danger": 0.429,
-          "sentiment": -0.6
-        },
-        "almayadeen": {
-          "danger": 0.4,
-          "sentiment": -0.433
-        },
-        "QudsN": {
-          "danger": 0.814,
-          "sentiment": -0.767
-        }
-      }
-    },
     {
       "time": "2026-05-16T20:04:17.975Z",
       "danger": 0.509,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.767
         }
       }
+    },
+    {
+      "time": "2026-05-21T19:49:03.492Z",
+      "danger": 0.518,
+      "sentiment": -0.338,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.505,
+          "sentiment": -0.846
+        },
+        "OSINTdefender": {
+          "danger": 0.491,
+          "sentiment": -0.333
+        },
+        "irna_1313": {
+          "danger": 0.494,
+          "sentiment": -0.1
+        },
+        "sepah_pasdaran": {
+          "danger": 0.377,
+          "sentiment": -0.333
+        },
+        "almanarnews": {
+          "danger": 0.5,
+          "sentiment": -0.467
+        },
+        "C_Military1": {
+          "danger": 0.587,
+          "sentiment": -0.867
+        },
+        "almayadeen": {
+          "danger": 0.606,
+          "sentiment": -0.067
+        },
+        "QudsN": {
+          "danger": 0.669,
+          "sentiment": -0.233
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2278,9 +2278,9 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 12,
-      "raw_sentiment": -0.75,
-      "knn_danger_metric": 0.5099844797036716
+      "num_messages": 13,
+      "raw_sentiment": -0.8461538461538461,
+      "knn_danger_metric": 0.5048879800709569
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.4883719994147432
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.4938076087787843
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.3035475411790925
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.3772355679464463
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.3799121665366952
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.5001975680124969
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.338321767340242
+      "raw_sentiment": -0.8666666666666667,
+      "knn_danger_metric": 0.5866229589834485
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.48863484126744644
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.6064490495324032
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.7666666666666667,
-      "knn_danger_metric": 0.6522547195723374
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.6687950001566486
     }
   },
   "semantic_logs": [
@@ -2341,95 +2341,95 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: &quot;إسرائيل هيوم&quot;: حزب الله هاجم أجهزة الاستشعار التي نصبتها &quot;إسرائيل&quot; في المعركة السابقة على الحدود مع لبنان بصواريخ دقيقة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: إصابة مواطن بالرقبة برصاص مسيرة إسرائيلية &quot;كواد كوبتر&quot; في حي الزيتون جنوب شرقي مدينة غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: مصابان برصاص مسيرة إسرائيلية &quot;كواد كوبتر&quot; بحي الزيتون جنوب شرقي مدينة غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | إصابة ثانية برصاص الاحتلال في حي الزيتون، جنوب شرق مدينة غزة.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | حزب الله: هاجمنا بمسيرتين مربضين لمدفعية الاحتلال في بلدة رشاف ومدينة بنت جبيل.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "آثار اعتداء الاحتلال على أحد النشطاء المشاركين في &quot;أسطول الصمود&quot; عقب اختطافهم وتنكيل قوات الاحتلال بهم بمشاركة الوزير &quot;إيتمار بن غفير&quot;.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9586956385209068
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صفارات الإنذار تدوي في المنارة في إصبع الجليل خشية تسلل طائرات مسيّرة.  #الإعلام_الحربي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.956418427463877
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صفارات الإنذار تدوي في كريات شمونه خشية تسلل طائرات مسيّرة.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.956418427463877
-    },
-    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "☑️حوادث ناشناخته در زیرساخت‌های نفتی آمریکا از ابتدای جنگ با ایران ☑️ @sepah_pasdaran",
+      "text": "☑️شهید رئیسی، از تربیت‌یافته‌ی مکتب خمینی کبیر و خامنه‌ای عزیز بود  بخشی از پیام رهبر انقلاب اسلامی به‌مناسبت دومین سالگرد شهادت شهید رئیسی و بزرگداشت شهدای خدمت  ۳۰/اردیبهشت/۱۴۰۵  @sepah_pasdaran",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.8477112187975085
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: حزب الله رداً على العقوبات الأميركية: العقوبات طالت نواباً وضباطاً ومسؤولين في حزب الله وحركة أمل هو محاولة ترهيب أميركية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: حزب الله: هذه العقوبات هي وسام شرف على صدر المشمولين بها وتأكيد إضافي على صوابية خيارنا",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: حزب الله: مفاعيل العقوبات لا تساوي الحبر الذي كتبت به ولن يكون لها أي تأثير عملي على خياراتنا",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: حزب الله: استهداف الضباط اللبنانيين بالعقوبات عشية اللقاءات في &quot;البنتاغون&quot; هو محاولة مكشوفة لترهيب مؤسساتنا الأمنية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل | الخارجية الأمريكية ومسؤول أمريكي، للجزيرة:   - أمريكا تفرض عقوبات جديدة على 9 أفراد بتهمة دعم حزب الله وتقويض سيادة لبنان، وعرقلة جهود نزع سلاح الحزب وخدمة أجندة إيران  - واشنطن تعلن مكافأة 10 ملايين دولار مقابل معلومات تعطل آليات حزب الله المالية  - حزب الله يعتمد على شبكة مسؤولين سياسيين بينهم نواب لخدمة مصالحه، وتشمل العقوبات النواب حسن فضل الله وإبراهيم الموسوي وحسين الحاج حسن وأيضا محمد فنيش  - عقوبات واشنطن تشمل أيضا رئيس مكتب مخابرات الجيش اللبناني بالضاحية الجنوبية العقيد سامر حمادة  - العقوبات تشمل العميد خطار ناصر الدين، رئيس دائرة التحليل بالأمن العام اللبناني  - العقوبات تستهدف أيضا مسؤول الأمن بحركة أمل أحمد بعلبكي، وقائد الحركة بالجنوب أحمد صفاوي  - العقوبات تشمل نوابا بالبرلمان ودبلوماسيا إيرانيا ومسؤولين أمنيين لبنانيين",
+      "text": "عاصفة دبلوماسية تضرب &quot;إسرائيل&quot; بسبب فيديو تنكيل بن غفير بنشطاء أسطول الصمود  التفاصيل:   https://qudsn.co/post/215793",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.8248599941519377
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "idfonline",
-      "channel": "IDF",
-      "text": "תצפיות צה&quot;ל זיהו הבוקר תנועה חשודה סמוך ליישוב חמדיה שבמרחב חטיבת הבקעה והעמקים.לוחמי צה&quot;ל ולוחמי יחידת יג&quot;ל של משטרת ישראל הוזנקו לנקודה ועצרו רכב ובו שלושה חשודים https://t.co/gZaMaQbju7  On May 23, 2023 at 04:52PM Read more via Twitter @idfonline @idfonline",
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "ترجمة قدس| صحيفة &quot;يديعوت أحرونوت&quot; العبرية: صور الأقمار الاصطناعية تظهر تضرر قاعدة &quot;رمات دافيد&quot; وإصابات محتملة في قاعدة &quot;نيفاتيم&quot; وأخرى تابعة للوحدة 8200 وقواعد إضافية؛ جراء القصف الإيراني.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.819613420621686
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "أمضى 44 عامًا من حياته في الاعتقالات..  الإفراج عن النائب بالمجلس التشريعي والمبعد، الشيخ &quot;محمد أبو طير&quot; من سجون الاحتلال",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
     },
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   إذاعة جيش العدو الإسرائيلي: صفارات الإنذار دوت في كريات شمونه نتيجة تحديد خاطئ.  #الإعلام_الحربي",
+      "text": "#إعلام_العدو   صحيفة &quot;يديعوت أحرونوت&quot; العبرية: تُظهر صور الأقمار الصناعية حريقًا هائلًا اندلع في معسكر شمشون قرب طبريا بدءًا من 10 مارس/آذار، وهو اليوم الذي أعلن فيه حزب الله عن هجومه على الموقع باستخدام سرب من الطائرات المسيّرة. ووفقًا لتحليل الصور، استمر الحريق لعدة أيام، وامتد على مساحة تقارب 200 متر داخل القاعدة.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.8145624773857006
+      "semantic_danger_knn": 0.9979930747339436
     },
     {
-      "channelId": "OSINTdefender",
-      "channel": "Global_OSINT",
-      "text": "#EU #Ukraine #Russia   Ukrainian drone strikes that accidentally hit Latvian territory led to the resignation of Latvia&#39;s Defense Minister Andris Spruds and subsequently Prime Minister Evika Silina, triggering a political crisis. This incident exposed significant weaknesses in Latvia&#39;s air defense capabilities and raised concerns about the country&#39;s preparedness against aerial threats.  Subscribe to @OSINTdefender Chat room",
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صحيفة &quot;يديعوت أحرونوت&quot; العبرية: تُظهر صور الأقمار الصناعية بأن قاعدة رامات ديفيد الجوية تعرضت لقصف في منطقتين خلال الحرب مع إيران. ويبدو أيضاً أن إحدى المنطقتين كانت تُستخدم على الأرجح لمركبات ومعدات الإغاثة، بينما كانت الأخرى نقطة للتزود بالوقود وصيانة الطائرات المقاتلة.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.8110536649191131
+      "semantic_danger_knn": 0.9973354161980501
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صحيفة &quot;يديعوت أحرونوت&quot; العبرية:  تشير صور الأقمار الصناعية إلى وجود أضرار في موقع دفاعي بقاعدة نيفاتيم الجوية. ووفقًا لتحليل الصور، كانت الأضرار واضحة في موقع دفاعي داخل القاعدة، بتاريخ 25 مارس جراء هجوم إيراني.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9961486516080662
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صحيفة &quot;يديعوت أحرونوت&quot; العبرية: تشير صور الأقمار الصناعية إلى أضرار داخل قاعدة الاستخبارات العسكرية في الشمال &quot;ميشار&quot; بالقرب من صفد جراء وقوع هجوم.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9961486516080662
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | صحيفة &quot;يديعوت أحرونوت&quot; العبرية: صور الأقمار الصناعية تثبت وقوع أضرار داخل قاعدة الاستخبارات العسكرية في الشمال &quot;ميشار&quot; قرب صفد؛ جراء وقوع هجوم سابق خلال الفترة الماضية.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 0.9753639863943435
     }
   ]
 }
