@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-25T21:02:26.900Z",
+  "last_updated": "2026-05-25T22:57:30.532Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.50",
-    "global_norm_sentiment": "-0.29"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.46",
+    "global_norm_sentiment": "-0.49"
   },
   "timeline": [
-    {
-      "time": "2026-05-21T14:12:28.707Z",
-      "danger": 0.461,
-      "sentiment": -0.217,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.458,
-          "sentiment": -0.8
-        },
-        "OSINTdefender": {
-          "danger": 0.518,
-          "sentiment": -0.4
-        },
-        "irna_1313": {
-          "danger": 0.481,
-          "sentiment": -0.333
-        },
-        "sepah_pasdaran": {
-          "danger": 0.341,
-          "sentiment": 0.033
-        },
-        "almanarnews": {
-          "danger": 0.344,
-          "sentiment": 0.133
-        },
-        "C_Military1": {
-          "danger": 0.23,
-          "sentiment": 0.233
-        },
-        "almayadeen": {
-          "danger": 0.399,
-          "sentiment": -0.4
-        },
-        "QudsN": {
-          "danger": 0.892,
-          "sentiment": -0.5
-        }
-      }
-    },
     {
       "time": "2026-05-21T17:29:18.752Z",
       "danger": 0.46,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.6
         }
       }
+    },
+    {
+      "time": "2026-05-25T22:57:30.532Z",
+      "danger": 0.456,
+      "sentiment": -0.493,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.559,
+          "sentiment": -0.5
+        },
+        "OSINTdefender": {
+          "danger": 0.426,
+          "sentiment": -0.467
+        },
+        "irna_1313": {
+          "danger": 0.523,
+          "sentiment": -0.633
+        },
+        "sepah_pasdaran": {
+          "danger": 0.355,
+          "sentiment": -0.467
+        },
+        "almanarnews": {
+          "danger": 0.354,
+          "sentiment": -0.767
+        },
+        "C_Military1": {
+          "danger": 0.353,
+          "sentiment": -0.867
+        },
+        "almayadeen": {
+          "danger": 0.424,
+          "sentiment": -0.6
+        },
+        "QudsN": {
+          "danger": 0.615,
+          "sentiment": -0.5
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2278,51 +2278,51 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 14,
-      "raw_sentiment": -0.6071428571428571,
-      "knn_danger_metric": 0.5230740811772662
+      "num_messages": 13,
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.5592051991660126
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.3977519623958768
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.42630376433431255
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.49798212300678624
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.5231037992407607
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.38036015740494455
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.35503818319744845
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.3197556512348226
+      "raw_sentiment": -0.7666666666666667,
+      "knn_danger_metric": 0.3542789533418065
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.4346360041612287
+      "raw_sentiment": -0.8666666666666667,
+      "knn_danger_metric": 0.3534765380078769
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.738184391208772
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.42385438956514887
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.7728844192893536
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.6146007008223571
     }
   },
   "semantic_logs": [
@@ -2341,95 +2341,95 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي بغارة على بلدة الريحان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: قصف مدفعي يستهدف بلدة كفرا جنوبي البلاد",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء بغارة للطيران الحربي الإسرائيلي استهدفت بلدة قعقعية الجسر في قضاء النبطية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء من الطيران الحربي الإسرائيلي استهدف الحوش في مدينة صور",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة بيت فوريك شرق نابلس",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جيش الاحتلال يطلق قنابل إنارة محيط مستشفى كمال عدوان شمال قطاع غزة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام قوات الاحتلال بلدة بيت فوريك شرق نابلس",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "idfonline",
+      "channel": "IDF",
+      "text": "תצפיות צה&quot;ל זיהו הבוקר תנועה חשודה סמוך ליישוב חמדיה שבמרחב חטיבת הבקעה והעמקים.לוחמי צה&quot;ל ולוחמי יחידת יג&quot;ל של משטרת ישראל הוזנקו לנקודה ועצרו רכב ובו שלושה חשודים https://t.co/gZaMaQbju7  On May 23, 2023 at 04:52PM Read more via Twitter @idfonline @idfonline",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.819613420621686
+    },
+    {
+      "channelId": "OSINTdefender",
+      "channel": "Global_OSINT",
+      "text": "#Iran   Completely destroying Iran&#39;s military capabilities is indeed challenging due to its decentralized and underground missile production facilities, which allow for continued operations even under heavy bombardment. Despite significant damage from U.S. and Israeli strikes, Iran retains a substantial portion of its missile arsenal and the ability to rebuild its military capabilities.  Subscribe to @OSINTdefender Chat room",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.7790490317791449
+    },
+    {
+      "channelId": "irna_1313",
       "channel": "IRGC",
-      "text": "️استقبال لی کیانگ، نخست‌وزیر چین &nbsp;از شهباز شریف، نخست‌وزیر پاکستان در تالار بزرگ خلق در پکن  ✅  @sepah_pasdaran",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: غارة جوية إسرائيلية تستهدف منزلا في مخيم النصيرات وسط قطاع غزة",
+      "text": "🔸خودکشی یک سرباز رژیم صهیونیستی در میامی آمریکا  🔹منابع خبری از خودکشی یک سرباز رژیم صهیونیستی در میامی در ایالت فلوریدا آمریکا خبر دادند.  🔹دلیل خودکشی این سرباز، تأثر شدید ناشی از کشته شدن یکی از دوستان نزدیکش در نوار غزه اعلام شده است.  لینک خبر  📌اخبار ایرنا را در بله | روبیکا | سروش پلاس | ایتا&nbsp;| جهان دنبال کنید @IRNA_1313",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
+      "semantic_danger_knn": 0.7752472752141665
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: غارة إسرائيلية معادية على بلدة اللويزة قضاء جزين",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: الطيران الحربي الإسرائيلي يعتدي على بلدة عدشيت في الجنوب",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: عزيزي: الخطوات هي إنهاء الحرب على جميع الجبهات وانهاء الحصار البحري وتعليق العقوبات لمدة 30 أو 60 يوماً والأموال المجمدة",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في جنوب لبنان: الطيران الحربي الإسرائيلي أغار مستهدفاً محيط بلدتي ميفدون وزوطر الشرقية في قضاء النبطية",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي وقنابل إنارة في محيط مستشفى كمال عدوان شمالي قطاع غزة",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "מקורות המזוהים עם הציר האיראני מדווחים לפני זמן קצר כי 4 מאנשי הכוח הימי של משמרות המהפכה האיראנים נהרגו  כתוצאה מתקיפה של כלי טיס אמריקאי (ככל הנראה מטוס קרב) על שתי סירות מהירות איראניות ליד האי לאראכ בקרבת בנדר עבאס בדרום איראן.  במקביל דווח כי מערכות ההגנה האווירית האיראניות הופעלו כנגד כלי טיס עוינים באזור בנדר עבאס. ##  מזמן לא נהרגו פעילים ממשמרות המהפכה האיראנים כתוצאה מאש אמריקאית... מעניין כיצד תגיב איראן.  כדי להגיב לכתבה לחצו כאן",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
+      "semantic_danger_knn": 0.7590455554898621
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في جنوب لبنان: الطيران الحربي الإسرائيلي أغار مجدداً مستهدفا حي السراي في مدينة النبطية",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: وكالة &quot;تسنيم&quot; عن مصادر: سماع صوت دوي ثلاثة انفجارات في بندر عباس جنوب ايران والجهات المعنية تتحقق من الأسباب",
+      "channelId": "idfonline",
+      "channel": "IDF",
+      "text": "״יש לנו היום יכולות מול איראן – הן טובות. צריך לחזק אותן יותר כדי שנוכל לעשות מערכה רחבה מול איראן. לעניין התרחיש הרב זירתי, מקרה בו אנו נלחמים סימולטנית בכמה זירות - זה תרחיש מורכב יותר &gt;&gt;  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
       "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
+      "semantic_danger_knn": 0.7341912238941296
     },
     {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "دمار واسع في المنازل المجاورة لمنزل عائلة &quot;الطويل&quot; الذي قصفه طيران الاحتلال بمخيم &quot;النصيرات&quot; وسط قطاع غزة، قبل قليل.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية قريوت، جنوب شرق نابلس.",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "הזרוע הצבאית של חמאס חושפת היום כי סלמאן ע&#39;אנם, מפקד פלוגה בגדוד שג&#39;אעיה שנהרג בעזה ביולי 2025 היה אחד מהמחבלים שתקפו את מוצב נחל עוז ביולי 2014 במהלך מבצע צוק איתן. באירוע נפלו 5 לוחמי צה&quot;ל וסוכלה חטיפת גופת אחד הלוחמים.  ע&#39;אנם נראה בסרטון המצורף כשהוא לוקח את נשקו של הלוחם אותו ניסו פעילי הזרוע הצבאית של חמאס לחטוף באירוע.  באירוע כ 20 מחבלי הזרוע הצבאית של חמאס יצאו ממנהרה והפתיעו מאחור את הלוחמים שתיצפתו מהפילבוקס לכיוון מערב לעבר רצועת עזה. בזכות תושייתו של לוחם בתוך הפילבוקס שירה לעבר המחבלים נמנעה חטיפת גופת אחד הלוחמים.  כדי להגיב לכתבה לחצו כאן",
       "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "نزوح واسع للأهالي من مخيم النصيرات وسط قطاع غزة، عقب تهديدات الاحتلال بقصف منزل سكني",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية فقوعة شرق جنين.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
+      "semantic_danger_knn": 0.713891128817683
     }
   ]
 }
