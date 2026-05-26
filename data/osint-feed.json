@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-26T08:39:21.541Z",
+  "last_updated": "2026-05-26T16:39:35.538Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.56",
-    "global_norm_sentiment": "-0.19"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.46",
+    "global_norm_sentiment": "-0.41"
   },
   "timeline": [
-    {
-      "time": "2026-05-21T23:00:12.646Z",
-      "danger": 0.543,
-      "sentiment": -0.356,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.52,
-          "sentiment": -0.857
-        },
-        "OSINTdefender": {
-          "danger": 0.491,
-          "sentiment": -0.333
-        },
-        "irna_1313": {
-          "danger": 0.581,
-          "sentiment": -0.533
-        },
-        "sepah_pasdaran": {
-          "danger": 0.314,
-          "sentiment": -0.133
-        },
-        "almanarnews": {
-          "danger": 0.389,
-          "sentiment": -0.133
-        },
-        "C_Military1": {
-          "danger": 0.55,
-          "sentiment": -0.733
-        },
-        "almayadeen": {
-          "danger": 0.774,
-          "sentiment": -0.733
-        },
-        "QudsN": {
-          "danger": 0.86,
-          "sentiment": 0.033
-        }
-      }
-    },
     {
       "time": "2026-05-22T00:11:28.169Z",
       "danger": 0.54,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.607
         }
       }
+    },
+    {
+      "time": "2026-05-26T16:39:35.538Z",
+      "danger": 0.462,
+      "sentiment": -0.41,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.424,
+          "sentiment": -0.6
+        },
+        "OSINTdefender": {
+          "danger": 0.436,
+          "sentiment": -0.567
+        },
+        "irna_1313": {
+          "danger": 0.527,
+          "sentiment": -0.071
+        },
+        "sepah_pasdaran": {
+          "danger": 0.295,
+          "sentiment": -0.4
+        },
+        "almanarnews": {
+          "danger": 0.451,
+          "sentiment": -0.433
+        },
+        "C_Military1": {
+          "danger": 0.311,
+          "sentiment": -1
+        },
+        "almayadeen": {
+          "danger": 0.584,
+          "sentiment": -0.533
+        },
+        "QudsN": {
+          "danger": 0.646,
+          "sentiment": -0.367
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.5826545355060874
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.4238245707221998
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": 0.3,
-      "knn_danger_metric": 0.48091865905705145
+      "num_messages": 14,
+      "raw_sentiment": -0.07142857142857142,
+      "knn_danger_metric": 0.5272441021502495
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.26666666666666666,
-      "knn_danger_metric": 0.4559403026332501
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.2952099525491589
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.4986104322844651
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.4513576075116436
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.6237726742051113
+      "raw_sentiment": -1,
+      "knn_danger_metric": 0.3106512614562312
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.7726146049464933
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.5838540974315493
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 14,
-      "raw_sentiment": -0.6071428571428571,
-      "knn_danger_metric": 0.7584555934900983
+      "num_messages": 15,
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.646084010826748
     }
   },
   "semantic_logs": [
@@ -2336,100 +2336,100 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "SOUTH GATE SEA EDITION  💎💎 פרויקט היוקרה של פרשקובסקי בהרצליה פיתוח משיק את קומות הים&#33;  מהדורה מוגבלת של משרדים ודירות מיקרו ליבינג למכירה   עם נוף 360 מעל כולם:  🌅 נוף פתוח לים   🔏 Private Sky Lobby   🏊 בריכה, חדר כושר ולאונג&#39; עסקים  פריסייל ל-15 דירות ראשונות בלבד  היה שווה לחכות&#33;  לפרטים: https://did.li/Qfjba",
-      "absolute_sentiment": 0.5,
+      "text": "Yes מציגה: חבילת הטלוויזיה המשתלמת בישראל&#33; 📺🥁🪇📢💥 עכשיו במבצע רק 49 ₪ בחודש לשנה שלמה&#33;  👈 יותר סדרות 👈 יותר סרטים 👈 יותר עונות חדשות 👈 יותר הטבות ופינוקים 🤏 בפחות כסף&#33;  כולל ממיר, VOD ענק והתקנה מהיום להיום בחינם&#33;&#33;  ובנוסף +Disney וגם HBO Max ללא עלות ל-3 חודשים&#33; 🎁  אל תתלבטו, השאירו פרטים ותקבלו הצעה משתלמת עוד היום&#33; ⏱️👇🛒  https://yes.ussl.co/sting/?utm_source=telegram&amp;utm_medium=Alios-telegram-sting49-abuali",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "צה&quot;ל תקף לפני זמן קצר מספר מבנים ליד צומת לולו במחנה הפליטים נציראת במרכז רצועת עזה - אחרי התרעת פינוי.  תגובה אחת",
+      "text": "נכון לשעה זו קיבל חזבאללה אחריות על 6 תקיפות נגד כוחות צה&quot;ל מאז שעות הבוקר.  כולן נגד מטרות של צה&quot;ל בכפר זוטר א-שרקיה מצפון לליטאני.  ע&quot;פ הדיווח של חזבאללה כוחות קרקעיים של צה&quot;ל מתקדמים באזור זוטר א-שרקיה אחרי תקיפות משמעותיות של מטוסי קרב באזור זה ביממה שקדמה…",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️قیمت نفت به دنبال اختلال در مذاکرات، بار دیگر صعودی شد و از ۱۰۰ دلار گذشت.   ✅  @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "السفير الإيراني في موسكو: التناقضات الأميركية تعكس غياب التنسيق داخل واشنطن https://almanar.com.lb/article/888347/?s=tg",
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: عدوان بغارة جديدة من مسيرة إسرائيلية في محيط سد القرعون في البقاع",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: عضو المجلس السياسي في حزب الله غالب أبو زينب للميادين: الإدارة الأميركية تغطي غطاء كاملاً العدوان الإسرائيلي على لبنان",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "حزب الله: يجب تطبيق الإصلاحات الدستورية التي أقرّها اتفاق الطائف وفي طليعتها إلغاء الطائفية السياسية https://almanar.com.lb/article/888387/?s=tg",
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: أبو زينب للميادين: هناك من ينصح الإدارة الأميركية بدس السم في الداخل اللبناني لإثارة الفتنة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: في سياق الدفاع عن السيادة والأجواء الوطنية وبعد عمليات رصد استخبارية دقيقة أسقطنا طائرة مسيّرة من طراز MQ-9",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: 5 شهداء وجرحى في عدوان الاحتلال استهدف مجموعة من المواطنين بمخيم المغازي وسط قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: &quot;القناة 12&quot; الإسرائيلية: المحلقة التي اطلقها حزب الله اليوم انفجرت في منطقة عسكرية بالقرب من الحدود مع لبنان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: السلطة القضائية في إيران: تنفيذ حكم الإعدام بعميل لـ&quot;الموساد&quot; الإسرائيلي صباح اليوم",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: طيران الاحتلال يعتدي على دراجة نارية في بلدة دير قانون رأس العين جنوب لبنان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: مروحيات الاحتلال تعتدي على مخيم النصيرات وسط قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: طيران الاحتلال يعتدي على بلدة الريحان قضاء جزين جنوب لبنان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: طيران الاحتلال يعتدي على بلدة الريحان قضاء جزين جنوب لبنان",
+      "text": "لبنان: أبو زينب للميادين: السلطة في لبنان لا تستطيع رفض أي طلب أميركي بأيّ شكل من الأشكال",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم مخيم قلنديا في القدس المحتلة",
+      "text": "عاجل | حزب الله: هاجمنا بمُسيّرة انقضاضية تجمعًا لآليات الاحتلال وجنوده ثكنة &quot;برانيت&quot;، ظهر اليوم.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
+      "semantic_danger_knn": 0.991473512586189
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: ارتقاء 4 شهداء وإصابة آخرين جراء قصف الاحتلال لمحاولة تصد للعصابات العميلة التي حاولت اقتحام المنازل شرق مخيم المغازي وسط قطاع غزة.",
+      "text": "عاجل | حزب الله: هاجمنا منصّة القبّة الحديديّة في ثكنة &quot;برانيت&quot; بمحلّقة أبابيل، ظهر اليوم.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
+      "semantic_danger_knn": 0.9895225387360314
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | حزب الله: قصفنا برشقة صاروخية تجمعًا لآليات الاحتلال وجنوده في بلدة شمع، صباح اليوم.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.973265114960625
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | حزب الله: استهدفنا دبابتيّ ميركافا بمحلقتي &quot;أبابيل&quot; في بلدة رشاف بجنوب لبنان، صباح اليوم.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.973265114960625
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | دبابات الاحتلال تفتح نيران أسلحة رشاشة تجاه شرق حي الزيتون، جنوب شرق مدينة غزة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9596045227592704
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | حزب الله: هاجمنا بقذائف المدفعية تجمّعًا لآليّات الاحتلال وجنوده عند مجرى النهر في بلدة زوطر الشرقية.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9596045227592704
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | حزب الله: هاجمنا برشقة صاروخية تجمّعًا لآليّات الاحتلال وجنوده في بلدة رشاف.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9596045227592704
     }
   ]
 }
