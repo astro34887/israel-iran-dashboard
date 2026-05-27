@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-26T23:06:15.759Z",
+  "last_updated": "2026-05-27T03:25:10.170Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.31"
+    "global_knn_danger": "0.51",
+    "global_norm_sentiment": "-0.25"
   },
   "timeline": [
-    {
-      "time": "2026-05-22T11:43:15.072Z",
-      "danger": 0.48,
-      "sentiment": -0.307,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.473,
-          "sentiment": -0.5
-        },
-        "OSINTdefender": {
-          "danger": 0.456,
-          "sentiment": -0.467
-        },
-        "irna_1313": {
-          "danger": 0.479,
-          "sentiment": -0.833
-        },
-        "sepah_pasdaran": {
-          "danger": 0.366,
-          "sentiment": -0.3
-        },
-        "almanarnews": {
-          "danger": 0.42,
-          "sentiment": 0
-        },
-        "C_Military1": {
-          "danger": 0.619,
-          "sentiment": -0.133
-        },
-        "almayadeen": {
-          "danger": 0.496,
-          "sentiment": -0.2
-        },
-        "QudsN": {
-          "danger": 0.54,
-          "sentiment": -0.5
-        }
-      }
-    },
     {
       "time": "2026-05-22T14:31:25.095Z",
       "danger": 0.497,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.067
         }
       }
+    },
+    {
+      "time": "2026-05-27T03:25:10.170Z",
+      "danger": 0.509,
+      "sentiment": -0.25,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.714,
+          "sentiment": -0.6
+        },
+        "OSINTdefender": {
+          "danger": 0.478,
+          "sentiment": -0.6
+        },
+        "irna_1313": {
+          "danger": 0.56,
+          "sentiment": -0.467
+        },
+        "sepah_pasdaran": {
+          "danger": 0.474,
+          "sentiment": -0.733
+        },
+        "almanarnews": {
+          "danger": 0.179,
+          "sentiment": 0.167
+        },
+        "C_Military1": {
+          "danger": 0.451,
+          "sentiment": -0.233
+        },
+        "almayadeen": {
+          "danger": 0.627,
+          "sentiment": -0.267
+        },
+        "QudsN": {
+          "danger": 0.654,
+          "sentiment": 0.367
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2280,7 +2280,7 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.7357943500536134
+      "knn_danger_metric": 0.7144047147251221
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,20 +2291,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.5454587354028917
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.5598243277997615
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.7333333333333333,
-      "knn_danger_metric": 0.43713235776168363
+      "knn_danger_metric": 0.47405436718159893
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.11224036924146007
+      "raw_sentiment": 0.16666666666666666,
+      "knn_danger_metric": 0.17903786106864913
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2316,13 +2316,13 @@
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.859872639705003
+      "knn_danger_metric": 0.6273751590024841
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.7385099038517726
+      "raw_sentiment": 0.36666666666666664,
+      "knn_danger_metric": 0.6541691257193983
     }
   },
   "semantic_logs": [
@@ -2362,13 +2362,6 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "מקורות לא רשמיים מזוהי חמאס:  הערב הושלם חיסול המועצה הצבאית  של הזרוע הצבאית של חמאס.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "سرايا القدس: أبناء شعبنا العظيم, بمناسبة عيد الأضحى المبارك، نُعايدكم وأنتم تحملون فوق أكتافكم تعب السنين، لكنكم ما انحنيتم إلا لله، وما خبت فيكم روح الصمود رغم القهر والحصار والفقد، ونسأل الله في هذه الأيام المباركة أن يربط على قلوب الثكالى، وأن يرحم الشهداء رحمةً تليق بمقامهم، وأن يجعل دموع الأمهات نوراً وفرجاً قريباً، وأن يكتب لنا نصراً يداوي الوجع ويعيد للأرض عزّتها وللمقدسات حريتها.",
@@ -2378,56 +2371,63 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: الصحة اللبنانية: 31 شهيداً و40 جريحاً بينهم أطفال ونساء من جراء سلسلة الاعتداءات الإسرائيلية اليوم",
+      "text": "لبنان: مراسل الميادين: ست غارات تستهدف بلدة سحمر في البقاع الغربي",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في جنوب لبنان: غارة على كفرمان في قضاء النبطية",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "وسائل إعلام إسرائيلية: إطلاق صواريخ باتجاه جنودنا في جنوب لبنان",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي شرقي مدينة غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: غارة للطيران الحربي الإسرائيلي على بلدة ميفدون",
+      "text": "لبنان: مراسل الميادين في جنوب لبنان: قصف مدفعي إسرائيلي تتعرض له بلدتي المنصوري في قضاء صور وكفرمان في قضاء النبطية",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "بوليفيا: تصاعد الاحتجاجات العمالية المطالبة باستقالة الرئيس اليميني على خلفية الأزمة الاقتصادية",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام قوات الاحتلال بلدة قباطية جنوب جنين",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
+      "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: غارة للطيران الحربي الإسرائيلي على بلدة كفر رمان في قضاء النبطية",
+      "text": "متابعة | قوات الاحتلال تداهم المنازل وتعتقل عددًا من الشبان خلال اقتحامها المستمر لمخيم العروب شمال الخليل.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
+      "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: غارة ثانية للطيران الحربي الإسرائيلي على بلدة ميفدون",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في جنوب لبنان: غارتين للطيران الحربي الإسرائيلي على النبطية الفوقا",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في جنوب لبنان: غارة للطيران الحربي الإسرائيلي على بلدة زبدين",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: غارة من مسيرة إسرائيلية على محيط سد القرعون في البقاع الغربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: قصف مدفعي إسرائيلي على بلدات المنصوري والحنية واطراف زبقين",
+      "text": "مصادر محلية: قوات الاحتلال تعتقل الشابين &quot;غالب نوفل وتوفيق حمزة&quot; خلال اقتحام قرية تل جنوب غرب نابلس",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
