@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-29T17:33:25.361Z",
+  "last_updated": "2026-05-29T20:15:49.870Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.50",
-    "global_norm_sentiment": "-0.32"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.54",
+    "global_norm_sentiment": "-0.39"
   },
   "timeline": [
-    {
-      "time": "2026-05-23T22:49:33.855Z",
-      "danger": 0.463,
-      "sentiment": -0.363,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.376,
-          "sentiment": -0.5
-        },
-        "OSINTdefender": {
-          "danger": 0.517,
-          "sentiment": -0.433
-        },
-        "irna_1313": {
-          "danger": 0.51,
-          "sentiment": -0.533
-        },
-        "sepah_pasdaran": {
-          "danger": 0.38,
-          "sentiment": -0.333
-        },
-        "almanarnews": {
-          "danger": 0.279,
-          "sentiment": -0.467
-        },
-        "C_Military1": {
-          "danger": 0.23,
-          "sentiment": -0.2
-        },
-        "almayadeen": {
-          "danger": 0.476,
-          "sentiment": -0.467
-        },
-        "QudsN": {
-          "danger": 0.91,
-          "sentiment": -0.567
-        }
-      }
-    },
     {
       "time": "2026-05-23T23:54:03.958Z",
       "danger": 0.46,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.583
         }
       }
+    },
+    {
+      "time": "2026-05-29T20:15:49.870Z",
+      "danger": 0.54,
+      "sentiment": -0.388,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.463,
+          "sentiment": -0.6
+        },
+        "OSINTdefender": {
+          "danger": 0.641,
+          "sentiment": -0.1
+        },
+        "irna_1313": {
+          "danger": 0.628,
+          "sentiment": -0.583
+        },
+        "sepah_pasdaran": {
+          "danger": 0.479,
+          "sentiment": -0.367
+        },
+        "almanarnews": {
+          "danger": 0.415,
+          "sentiment": -0.4
+        },
+        "C_Military1": {
+          "danger": 0.364,
+          "sentiment": -0.7
+        },
+        "almayadeen": {
+          "danger": 0.635,
+          "sentiment": -0.633
+        },
+        "QudsN": {
+          "danger": 0.827,
+          "sentiment": -0.367
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2280,49 +2280,49 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.5004495172872487
+      "knn_danger_metric": 0.46349982184185745
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.5673189119198211
+      "knn_danger_metric": 0.6414972116346849
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.626701446868126
+      "num_messages": 12,
+      "raw_sentiment": -0.5833333333333334,
+      "knn_danger_metric": 0.627966372042693
     },
     "sepah_pasdaran": {
       "name": "IRGC",
-      "num_messages": 14,
-      "raw_sentiment": -0.6071428571428571,
-      "knn_danger_metric": 0.36184729378045005
+      "num_messages": 15,
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.47926224660323113
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.274663676888461
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.4154498478715868
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.3088670288190622
+      "raw_sentiment": -0.7,
+      "knn_danger_metric": 0.3643680088782568
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.7692835754958353
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.6353390415474419
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 12,
-      "raw_sentiment": -0.5833333333333334,
-      "knn_danger_metric": 0.59301786745425
+      "num_messages": 15,
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.8273193268200851
     }
   },
   "semantic_logs": [
@@ -2334,102 +2334,102 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "אחרי התרעות הפינוי של דובר צה&quot;ל, חיל האוויר תוקף בצרפנד, ביסאריה וח&#39;ראיב👆.  תגובה אחת",
-      "absolute_sentiment": -1,
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "️ تصویر هوایی از مراسم روز عرفه در گلزار شهدای مدرسهٔ شجرهٔ طیبهٔ میناب  ✅  @sepah_pasdaran",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: غارة جوية إسرائيلية غربي مدينة غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: مصابون من جراء قصف إسرائيلي استهدف مجموعة من المواطنين محيط مفترق بالميرا في شارع الوحدة غربي مدينة غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: بقائي بشأن ادعاء ترامب &quot;رفع الحصار&quot;: يجب أن نرى ما سيحدث على أرض الواقع، هل هذا إجراء حقيقي أم دعائي",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "️ نوحه‌سرایی محمدرضا طاهری در جوار محل شهادت رهبر انقلاب در رواق کشوردوست  ✅  @sepah_pasdaran",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: حماس: نستنكر صمت &quot;مجلس السلام&quot; تجاه مخطط السيطرة على غزة وتهجير سكانها",
+      "text": "إيران: عزيزي: النقد مقابل النقد أو &quot;الكاش مقابل الكاش&quot; الآجل مقابل الآجل لا شيء مقابل لا شيء",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: بقائي: مضيق هرمز خضع لتدابير إيرانية خاصة وهو مغلق أمام السفن العسكرية المعادية",
+      "text": "لبنان: مراسل الميادين في الجنوب: عدوان بغارة إسرائيلية على بلدة بلاط في قضاء مرجعيون",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: عدوان بغارة إسرائيلية على مدينة النبطية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: عدوان بغارة إسرائيلية على بلدة دبين",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: تسنيم: استهداف مسيّرة صغيرة تابعة للعدو الأميركي الإسرائيلي في محيط قشم من قبل الدفاع الجوي للجيش وتدميرها في عملية ناجحة",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: بقائي: مضيق هرمز يقع ضمن نطاق المياه الإقليمية لإيران وعمان وقد واجهنا وضعاً خاصاً لا يمكننا معه تجاهل هذه التجربة",
-      "absolute_sentiment": -1,
+      "text": "اليمن: مصادر إعلامية ومحلية في محافظة مأرب: إسقاط طائرة أميركية من طراز MQ9 في أجواء مأرب شمال شرق البلاد",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: شهيد وعدد من الإصابات في استهداف مجموعة مواطنين داخل فناء أحد المنازل بجانب مطعم بالميرا وسط مدينة غزة",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: الطيران الحربي الإسرائيلي اعتدى بغارة مستهدفاً بلدة ياطر",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "گل اول ایران توسط آریا یوسفی در دقیقه ۴۷ ایران ۱ - گامبیا ۱   @IRNA_1313",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9900416935917431
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "گل دوم ایران توسط رامین رضاییان در دقیقه ۵۹ ایران ۲ - گامبیا ۱  @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9900416935917431
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "گل سوم ایران توسط مهدی طارمی در دقیقه ۶۸ ایران ۳ - گامبیا ۱  @IRNA_1313",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9900416935917431
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "گل سوم ایران توسط مهدی طارمی در دقیقه ۶۸ ایران ۳ - گامبیا ۱  @IRNA_1313",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9900416935917431
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل | طيران الاحتلال يشن غارة محيط شارع الوحدة غرب مدينة غزة.",
+      "text": "جيش الاحتلال يدفع بتعزيزات عسكرية باتجاه بلدة ميثلون، جنوب مدينة جنين.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية دير جرير شمال شرق رام الله",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تقتحم بلدة تقوع، جنوب شرق بيت لحم.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "متابعة | قوات الاحتلال تحاصر منزلًا وتداهم آخر خلال اقتحام بلدة ميثلون جنوب جنين",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة كفر عقب شمال مدينة القدس المحتلة.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام قوات الاحتلال بلدة ميثلون جنوب جنين",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
     }
   ]
 }
