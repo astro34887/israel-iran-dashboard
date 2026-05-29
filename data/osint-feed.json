@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-29T13:56:49.088Z",
+  "last_updated": "2026-05-29T17:33:25.361Z",
   "tension": {
-    "level": "ESCALATING",
+    "level": "CALM_CEASEFIRE",
     "global_knn_danger": "0.50",
-    "global_norm_sentiment": "-0.25"
+    "global_norm_sentiment": "-0.32"
   },
   "timeline": [
-    {
-      "time": "2026-05-23T21:51:14.245Z",
-      "danger": 0.452,
-      "sentiment": -0.342,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.376,
-          "sentiment": -0.533
-        },
-        "OSINTdefender": {
-          "danger": 0.517,
-          "sentiment": -0.433
-        },
-        "irna_1313": {
-          "danger": 0.51,
-          "sentiment": -0.154
-        },
-        "sepah_pasdaran": {
-          "danger": 0.475,
-          "sentiment": -0.633
-        },
-        "almanarnews": {
-          "danger": 0.319,
-          "sentiment": -0.367
-        },
-        "C_Military1": {
-          "danger": 0.225,
-          "sentiment": -0.067
-        },
-        "almayadeen": {
-          "danger": 0.372,
-          "sentiment": -0.333
-        },
-        "QudsN": {
-          "danger": 0.775,
-          "sentiment": -0.767
-        }
-      }
-    },
     {
       "time": "2026-05-23T22:49:33.855Z",
       "danger": 0.463,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.6
         }
       }
+    },
+    {
+      "time": "2026-05-29T17:33:25.361Z",
+      "danger": 0.495,
+      "sentiment": -0.319,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.5,
+          "sentiment": -0.6
+        },
+        "OSINTdefender": {
+          "danger": 0.567,
+          "sentiment": -0.1
+        },
+        "irna_1313": {
+          "danger": 0.627,
+          "sentiment": 0.167
+        },
+        "sepah_pasdaran": {
+          "danger": 0.362,
+          "sentiment": -0.607
+        },
+        "almanarnews": {
+          "danger": 0.275,
+          "sentiment": -0.3
+        },
+        "C_Military1": {
+          "danger": 0.309,
+          "sentiment": -0.667
+        },
+        "almayadeen": {
+          "danger": 0.769,
+          "sentiment": -0.367
+        },
+        "QudsN": {
+          "danger": 0.593,
+          "sentiment": -0.583
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.5406167895863228
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.5004495172872487
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.45970161496112255
+      "raw_sentiment": 0.16666666666666666,
+      "knn_danger_metric": 0.626701446868126
     },
     "sepah_pasdaran": {
       "name": "IRGC",
-      "num_messages": 13,
-      "raw_sentiment": -0.15384615384615385,
-      "knn_danger_metric": 0.2664425740635118
+      "num_messages": 14,
+      "raw_sentiment": -0.6071428571428571,
+      "knn_danger_metric": 0.36184729378045005
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.4611293744689415
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.274663676888461
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.5397058286535302
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.3088670288190622
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.6970744631984819
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.7692835754958353
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.5549068242476561
+      "num_messages": 12,
+      "raw_sentiment": -0.5833333333333334,
+      "knn_danger_metric": 0.59301786745425
     }
   },
   "semantic_logs": [
@@ -2336,100 +2336,100 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "חודש מודעות - סרטן שלפוחית השתן  על אף הטיפולים הנהוגים כיום לגידולים בכיס השתן, בקרב חלק מהחולים (חולים בסיכון בינוני או גבוה לחזרת הגידול) אחוזי חזרת הגידול או התקדמות המחלה גבוהים ביותר. טכנולוגיית סינרגו&nbsp;הינה טכנולוגיה מתקדמת ומוכחת מדעית וקלינית כבר למעלה מ 20 שנה, לטיפול בסרטן שלפוחית השתן.  הטיפולים מבוצעים במסגרת מרפאות בית-החולים ולאחריהם חוזר המטופל לשגרת יומו. 📍 לרשימת בתי החולים המטפלים ולפרטים נוספים – בקרו בעמוד המלא. 🩺 חשוב: לפני כל החלטה על אפשרויות טיפול יש לדון עם הרופא המטפל.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
       "text": "אחרי התרעות הפינוי של דובר צה&quot;ל, חיל האוויר תוקף בצרפנד, ביסאריה וח&#39;ראיב👆.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "📹&nbsp;تقارير مصورة | الجمعيات الإسعافية تواصل عملها جنوباً رغم الاستهدافات الصهيونية https://almanar.com.lb/article/899427/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: غارة من مسيّرة إسرائيلية استهدفت بلدة العباسية جنوبي البلاد",
+      "text": "فلسطين المحتلة: مراسل الميادين: غارة جوية إسرائيلية غربي مدينة غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: &quot;تسنيم&quot; عن مصادر: حتى هذه اللحظة لم يُستكمل تلخيص النص النهائي لمذكرة التفاهم وإذا جرى اعتماده نهائياً فسيعلن عنه رسمياً",
+      "text": "فلسطين المحتلة: مراسل الميادين: مصابون من جراء قصف إسرائيلي استهدف مجموعة من المواطنين محيط مفترق بالميرا في شارع الوحدة غربي مدينة غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: &quot;تسنيم&quot; عن مصادر: نص مذكرة التفاهم المحتملة شهد خلال الأيام القليلة الماضية بعض التغييرات",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: قاليباف: لا نثق بالوعود أو الأقوال فالأفعال هي المعيار ولن نتخذ أي إجراء قبل أن يبادر الطرف الآخر",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: مصابون من جراء استهداف طائرات الاحتلال مجموعة من المواطنين في ساحة الشوا شرق مدينة غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: الطائرات الحربية الإسرائيلية تعتدي بغارة على بلدة البيسارية في قضاء صيدا",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: شهيد ومصابون من جراء استهداف طائرات الاحتلال مجموعة من المواطنين في ساحة الشوا شرق مدينة غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مستوطنون برفقة جنود الاحتلال يعرقلون عمل المزارعين في منطقة وادي الرخيم بمسافر يطا جنوب الخليل",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم بلدة بيت فوريك شرق نابلس",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صفارات الإنذار تدوي في حانيتا بالجليل الغربي خشية تسلل طائرات مسيّرة.  #الإعلام_الحربي",
+      "text": "إيران: بقائي بشأن ادعاء ترامب &quot;رفع الحصار&quot;: يجب أن نرى ما سيحدث على أرض الواقع، هل هذا إجراء حقيقي أم دعائي",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.956418427463877
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: هبوط مروحية عسكرية قادمة من الشمال في مستشفى ايخيلوف.  #الإعلام_الحربي",
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: حماس: نستنكر صمت &quot;مجلس السلام&quot; تجاه مخطط السيطرة على غزة وتهجير سكانها",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: بقائي: مضيق هرمز خضع لتدابير إيرانية خاصة وهو مغلق أمام السفن العسكرية المعادية",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.956418427463877
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: بقائي: مضيق هرمز يقع ضمن نطاق المياه الإقليمية لإيران وعمان وقد واجهنا وضعاً خاصاً لا يمكننا معه تجاهل هذه التجربة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: شهيد وعدد من الإصابات في استهداف مجموعة مواطنين داخل فناء أحد المنازل بجانب مطعم بالميرا وسط مدينة غزة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: الطيران الحربي الإسرائيلي اعتدى بغارة مستهدفاً بلدة ياطر",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "گل اول ایران توسط آریا یوسفی در دقیقه ۴۷ ایران ۱ - گامبیا ۱   @IRNA_1313",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.9900416935917431
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "گل دوم ایران توسط رامین رضاییان در دقیقه ۵۹ ایران ۲ - گامبیا ۱  @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9900416935917431
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "گل سوم ایران توسط مهدی طارمی در دقیقه ۶۸ ایران ۳ - گامبیا ۱  @IRNA_1313",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.9900416935917431
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "گل سوم ایران توسط مهدی طارمی در دقیقه ۶۸ ایران ۳ - گامبیا ۱  @IRNA_1313",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.9900416935917431
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | طيران الاحتلال يشن غارة محيط شارع الوحدة غرب مدينة غزة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9596045227592704
     }
   ]
 }
