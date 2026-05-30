@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-05-30T07:38:18.218Z",
+  "last_updated": "2026-05-30T09:56:23.546Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.38"
+    "global_knn_danger": "0.55",
+    "global_norm_sentiment": "-0.24"
   },
   "timeline": [
-    {
-      "time": "2026-05-24T11:13:19.242Z",
-      "danger": 0.475,
-      "sentiment": -0.187,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.489,
-          "sentiment": -0.4
-        },
-        "OSINTdefender": {
-          "danger": 0.48,
-          "sentiment": -0.3
-        },
-        "irna_1313": {
-          "danger": 0.528,
-          "sentiment": -0.067
-        },
-        "sepah_pasdaran": {
-          "danger": 0.341,
-          "sentiment": 0
-        },
-        "almanarnews": {
-          "danger": 0.296,
-          "sentiment": -0.1
-        },
-        "C_Military1": {
-          "danger": 0.625,
-          "sentiment": -0.433
-        },
-        "almayadeen": {
-          "danger": 0.454,
-          "sentiment": -0.033
-        },
-        "QudsN": {
-          "danger": 0.584,
-          "sentiment": -0.4
-        }
-      }
-    },
     {
       "time": "2026-05-24T13:18:08.397Z",
       "danger": 0.495,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.3
         }
       }
+    },
+    {
+      "time": "2026-05-30T09:56:23.546Z",
+      "danger": 0.546,
+      "sentiment": -0.243,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.649,
+          "sentiment": -0.733
+        },
+        "OSINTdefender": {
+          "danger": 0.613,
+          "sentiment": -0.2
+        },
+        "irna_1313": {
+          "danger": 0.475,
+          "sentiment": -0.1
+        },
+        "sepah_pasdaran": {
+          "danger": 0.491,
+          "sentiment": -0.5
+        },
+        "almanarnews": {
+          "danger": 0.472,
+          "sentiment": 0.133
+        },
+        "C_Military1": {
+          "danger": 0.525,
+          "sentiment": -0.233
+        },
+        "almayadeen": {
+          "danger": 0.576,
+          "sentiment": -0.4
+        },
+        "QudsN": {
+          "danger": 0.71,
+          "sentiment": -0.267
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.45032179439576286
+      "raw_sentiment": -0.7333333333333333,
+      "knn_danger_metric": 0.6485460654974597
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.48863553610887084
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.4753906846060943
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.37943611846820463
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.4914800375948051
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.4461349633800922
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.47205438764372054
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.8,
-      "knn_danger_metric": 0.4338588102240974
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.5245064937672193
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.7917430611574381
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.5762192022761791
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.6556678066678214
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.7099343494297047
     }
   },
   "semantic_logs": [
@@ -2341,6 +2341,34 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "התקדמות כוחות צה&quot;ל מעבר לליטאני   עיתון אלאח&#39;באר הלבנוני המזוהה עם חזבאללה מדווח הבוקר כי כוחות צה&quot;ל מנסים להשיג אחיזה בנקודות הבאות:   1. באזור הבופור - יחמר א-שקיף   2. באזור דבין - בלאט   3. ברכס עלי א-טאהר והגבעות השולטות על העיר נבטיה.  (הכפר זוטר נמצא…",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "בשעות האחרונות תקף צה&quot;ל בכפרים הבאים: כפר תבנית זבדין שוכין פרון חבוש   ## כולם באזור הנצפה במפה שצירפתי קודם👆 - חיל האוויר ממקד פעילות באזור זה.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "ירידה בשימוש ברחפני נפץ של חזבאללה אתמול   ע&quot;פ דיווחי חזבאללה הארגון תקף אתמול באמצעות רחפני נפץ רק 3 פעמים.  זו ירידה דרמטית בהשוואה לימים שקדמו לכך: ב 27.5 נעשה שימוש ב 9 רחפני נפץ.  ב 26.5 נעשה שימוש ב 13 רחפני נפץ. ב 25.5 נעשה שימוש ב 11 רחפני נפץ.  הכל…",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "ע&quot;פ דיווחי חזבאללה, שיגר הארגון אתמול לאורך היום 4 רחפני נפץ - מתוך סך של 22 מתקפות שביצע נגד צה&quot;ל ומטרות ישראליות.  ## באופן יחסי זו כמות נמוכה של שיגורי רחפנים👆👆.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
       "text": " ️ نفت برنت بیش از ۹ درصد ریخت و طلا با رشد ۰.۸ درصدی به ۴۵۹۳ دلار رسید. ✅  @sepah_pasdaran",
@@ -2348,88 +2376,60 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: القناة &quot;الـ12&quot;: سقوط صاروخ أطلق من لبنان وسط &quot;كريات شمونة&quot;",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " تصاویری از اصابت مستقیم موشک حزب الله به یک مرکز تجاری در «کریات شمونه‌»  ✅ ️ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "وزارة المالية توضح أرقام المساعدات المخصصة لمتضرري الاعتداءات الإسرائيلية وتنفي ما نُشر من معلومات مغلوطة https://almanar.com.lb/article/901877/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: إصابات في غارة إسرائيلية على محيط مستشفى النبطية الحكومي",
+      "text": "إيران: &quot;تسنيم&quot;: الحصار البحري الأميركي لا يزال قائماً و&quot;سنتكوم&quot; تصدر تحذيرات على خط الحصار في محاولة لوقف السفن الإيرانية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: شهيد ومصابان في غارة إسرائيلية استهدفت نقطة للشرطة شمالي مدينة دير البلح وسط قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء بغارة من مسيرة إسرائيلية تستهدف بلدة عبا في قضاء النبطية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: الطائرات الحربية الإسرائيلية تعتدي على بلدة دبين في قضاء مرجعيون",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: الطائرات الحربية الإسرائيلية تعتدي على بلدات السلطانية وقبريخا وتولين",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: إصابات في غارة من مسيرة إسرائيلية على مركبة مدنية في بلدة حبوش بقضاء النبطية",
-      "absolute_sentiment": 0.5,
+      "text": "&quot;المونيتور&quot; عن مصدر استخباراتي إسرائيلي: الأميركيون كانوا على دراية تامة بالخطة لأنهم تلقوا إحاطة شاملة",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: &quot;القناة 12&quot;: حزب الله أطلق نحو 15 صاروخا على الشمال الليلة الماضية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي بغارة تستهدف بلدة أنصار",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي بغارة تستهدف بلدة كفردونين",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي بغارة تستهدف بلدة فرون",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي بغارة تستهدف بلدة كفرتبنيت",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي ثان بغارة تستهدف بلدة كفرتبنيت",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "موقع &quot;واي نت&quot; العبري: إصابة ضابط بجيش الاحتلال بجروح خطيرة؛ جرّاء &quot;حادث طرق&quot; في قاعدة للجيش شمال فلسطين المحتلة.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | متابعة شبكة قدس: طيران الاحتلال شن أكثر من 20 غارة على جنوب لبنان، منذ منتصف الليلة الماضية وحتى الآن.",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9769642920269314
-    },
-    {
-      "channelId": "OSINTdefender",
-      "channel": "Global_OSINT",
-      "text": "#Germany #Romania #Russia   German Chancellor Friedrich Merz emphasized that Germany is prepared to defend the territory of NATO allies, particularly in light of recent security concerns, including the drone strike in Romania. This statement reflects Germany&#39;s commitment to collective defense within the alliance.  Subscribe to @OSINTdefender Chat room",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9765734118948234
     }
   ]
 }
