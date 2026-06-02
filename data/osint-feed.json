@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-02T17:18:29.502Z",
+  "last_updated": "2026-06-02T20:43:21.568Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.49",
-    "global_norm_sentiment": "-0.23"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.36"
   },
   "timeline": [
-    {
-      "time": "2026-05-27T23:13:57.102Z",
-      "danger": 0.512,
-      "sentiment": -0.397,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.555,
-          "sentiment": -0.733
-        },
-        "OSINTdefender": {
-          "danger": 0.514,
-          "sentiment": -0.533
-        },
-        "irna_1313": {
-          "danger": 0.495,
-          "sentiment": -0.267
-        },
-        "sepah_pasdaran": {
-          "danger": 0.441,
-          "sentiment": -0.433
-        },
-        "almanarnews": {
-          "danger": 0.406,
-          "sentiment": -0.533
-        },
-        "C_Military1": {
-          "danger": 0.412,
-          "sentiment": -0.667
-        },
-        "almayadeen": {
-          "danger": 0.581,
-          "sentiment": -0.3
-        },
-        "QudsN": {
-          "danger": 0.767,
-          "sentiment": -0.367
-        }
-      }
-    },
     {
       "time": "2026-05-28T02:46:53.464Z",
       "danger": 0.52,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.269
         }
       }
+    },
+    {
+      "time": "2026-06-02T20:43:21.568Z",
+      "danger": 0.531,
+      "sentiment": -0.362,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.521,
+          "sentiment": -0.533
+        },
+        "OSINTdefender": {
+          "danger": 0.519,
+          "sentiment": -0.133
+        },
+        "irna_1313": {
+          "danger": 0.47,
+          "sentiment": -0.4
+        },
+        "sepah_pasdaran": {
+          "danger": 0.369,
+          "sentiment": -0.667
+        },
+        "almanarnews": {
+          "danger": 0.393,
+          "sentiment": -0.1
+        },
+        "C_Military1": {
+          "danger": 0.665,
+          "sentiment": -0.333
+        },
+        "almayadeen": {
+          "danger": 0.741,
+          "sentiment": -0.7
+        },
+        "QudsN": {
+          "danger": 0.684,
+          "sentiment": -0.615
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.5564409994670996
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.5205057385032164
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.49993247327498513
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.47022438420629437
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.3482979051387854
+      "knn_danger_metric": 0.3685366626575419
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.3389130573339363
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.3933325313720624
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.6082034579814567
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.6647716855299354
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.45370621886448587
+      "raw_sentiment": -0.7,
+      "knn_danger_metric": 0.7413812917241361
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 13,
-      "raw_sentiment": -0.2692307692307692,
-      "knn_danger_metric": 0.62266062357498
+      "raw_sentiment": -0.6153846153846154,
+      "knn_danger_metric": 0.6843092991685567
     }
   },
   "semantic_logs": [
@@ -2336,71 +2336,85 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "🔥 שכונת מגורים חדשה בגוש עציון — זה האירוע שכולם חיכו לו&#33; 🏘️  אנחנו מזמינים אתכם לאירוע ההשקה הגדול של השכונה המערבית בכרמי צור – גוש עציון&#33;  📍 יום שישי | 12.6 | 08:30 בבוקר | כרמי צור  ✨ הזדמנות נדירה להצטרף לקהילה מיוחדת, איכותית וחמה   🏡 דירות גדולות ומרוווחות במחירי השקה מיוחדים   💰 תנאי מימון מעולים והטבות בלעדיות   🚗 דרכי גישה נוחות ומהירות לירושלים   🌄 וכל זה מול נוף עוצר נשימה הנשקף לכל אזור השפלה  🎁 משתתפי אירוע ההשקה יקבלו הטבות מיוחדות ושוות במיוחד&#33;  ⚠️ מספר המקומות מוגבל —  היכנסו עכשיו לקישור והירשמו 👇   https://karmei-tzur.co.il/03/",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
       "text": "חוסל מחבל חמאס נוסף שהיה מעורב בחטיפת ישראלים מהעוטף ב - 7.10  כוחות צה&quot;ל בפיקוד הדרום תקפו אתמול (שני) במרכז רצועת עזה וחיסלו את המחבל יוסף עאיש עואד רמצ&#39;אן, סגן מפקד חוליית מחבלי נוח&#39;בה בחמאס.  רמצ&#39;אן פשט לשטח הארץ במהלך טבח 7 באוקטובר ולקח חלק בחטיפה של…",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": " ️تصاویری از اصابت پهپاد انتحاری حزب‌الله به یک لانچر گنبد آهنین در شهر الخیام ✅  @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "📹 التهديدات الإسرائيلية بتوسيع “الخط الأصفر” تثير قلقاً واسعاً ونزوحاً جديداً للفلسطينيين https://almanar.com.lb/article/912467/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "بإمكانكم التقاط بث خطاب الناطق العسكري باسم كتائب الشهيد عز الدين القسام &quot;أبو عبيدة&quot; على التردد التالي:   &rlm;Satellite: Eutelsat70b &rlm;Freq : 12513V S/r: 2220 Fec:auto",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: الطائرات الحربية الإسرائيلية تعتدي على بلدتي الطيري وحداثا",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: إطلاق نار مكثف من زوارق الاحتلال الحربية جنوبي مواصي رفح جنوبي قطاع غزة",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "Yes מציגה: חבילת הטלוויזיה המשתלמת בישראל&#33; 📺🥁🪇📢💥 עכשיו במבצע רק 49 ₪ בחודש לשנה שלמה&#33;  👈 יותר סדרות 👈 יותר סרטים 👈 יותר עונות חדשות 👈 יותר הטבות ופינוקים 🤏 בפחות כסף&#33;  כולל ממיר, VOD ענק והתקנה מהיום להיום בחינם&#33;&#33;  ובנוסף +Disney וגם HBO Max ללא עלות ל-3 חודשים&#33; 🎁  אל תתלבטו, השאירו פרטים ותקבלו הצעה משתלמת עוד היום&#33; ⏱️👇🛒  https://yes.ussl.co/sting/?utm_source=telegram&amp;utm_medium=Alios-telegram-sting49-abuali",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: وزارة الصحة في غزة: سجّل شهر أيار/مايو استشهاد 119 فلسطينيا وهو أعلى عدد من الشهداء سُجّل منذ بداية العام الجاري",
+      "text": "تونس: وكالة الأنباء التونسية: الحكم على قيادات بحركة النهضة بينهم راشد الغنوشي بالسجن مدى الحياة",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: &quot;جيش&quot; الاحتلال الإسرائيلي ينفذ عملية نسف شرقي مدينة خان يونس جنوبي قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي وإطلاق نار من آليات الاحتلال في شارع السكة بحي الزيتون جنوبي مدينة غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "&quot;نيويورك تايمز&quot;: طائرات حزب الله المسيرة أطاحت بالاستراتيجية الإسرائيلية في لبنان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "&quot;نيويورك تايمز&quot;: أمر نتنياهو بقصف الضاحية الجنوبية لبيروت كان بمثابة اعتراف بأن الاستراتيجية الإسرائيلية في الحرب قد واجهت الفشل",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "&quot;نيويورك تايمز&quot;: أصبح الجنود الإسرائيليون في جنوب لبنان أشبه بأهداف متحركة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: الوفد اللبناني المفاوض اطلع الرئيس جوزاف عون على نتائج الجلسة الأولى ضمن المرحلة الرابعة من التفاوض  المباشر مع الجانب الإسرائيلي",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم مخيم الفوار، جنوب الخليل.",
-      "absolute_sentiment": 0.5,
+      "text": "عاجل: جيش الاحتلال يقوم بعمليات نسف لمبان سكنية شرقي خان يونس جنوب قطاع غزة",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "الفلسطيني عطية مقداد وأفراد من عائلته يرممون قوارب متضررة؛ جراء الحرب، في ميناء غزة باستخدام أخشاب مستخرجة من مبانٍ مدمرة، في ظل نقص المواد الأساسية وارتفاع تكاليف الترميم؛ بسبب إغلاق المعابر واستمرار الحصار وعدوان الاحتلال.",
-      "absolute_sentiment": -1,
+      "text": "للمرة الثالثة… جيش الاحتلال يقوم بعمليات نسف شرقي مدينة خان يونس جنوب قطاع غزة",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: جيش الاحتلال يقتحم بلدة صوريف شمالي الخليل بالضفة الغربية",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
@@ -2416,20 +2430,6 @@
       "text": "#إعلام_العدو   صحيفة &quot;معاريف&quot; العبرية: القلق في الجيش الإسرائيلي: حزب الله يطور المحلقات المفخخة بحيث تصبح قادرة على اختراق الدروع التابعة لآلية نامير ودبابة المركافاه.  #الإعلام_الحربي",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 0.9979930747339437
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة &quot;معاريف&quot; العبرية: القلق في الجيش الإسرائيلي: حزب الله يطور المحلقات المفخخة بحيث تصبح قادرة على اختراق الدروع التابعة لآلية نامير ودبابة المركافاه.  #الإعلام_الحربي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9979930747339437
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#فلسطين_المحتلة   الناطق العسكري باسم كتائب القسام أبو عبيدة:  -  لقد بقي منا قادة منا نشؤوا في ميادين الرباط والإعداد.  - جرائم الاغتيال وكل ما يشهده قطاع غزة من جرائم تضع الوسطاء والضامنين أمام لحظة الحقيقة.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9954409552297614
     }
   ]
 }
