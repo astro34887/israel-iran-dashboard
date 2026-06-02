@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-01T23:24:54.864Z",
+  "last_updated": "2026-06-02T03:35:16.482Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.33"
+    "global_knn_danger": "0.56",
+    "global_norm_sentiment": "-0.38"
   },
   "timeline": [
-    {
-      "time": "2026-05-27T07:59:20.385Z",
-      "danger": 0.505,
-      "sentiment": -0.154,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.543,
-          "sentiment": -0.367
-        },
-        "OSINTdefender": {
-          "danger": 0.467,
-          "sentiment": -0.6
-        },
-        "irna_1313": {
-          "danger": 0.492,
-          "sentiment": -0.333
-        },
-        "sepah_pasdaran": {
-          "danger": 0.38,
-          "sentiment": 0.333
-        },
-        "almanarnews": {
-          "danger": 0.387,
-          "sentiment": -0.133
-        },
-        "C_Military1": {
-          "danger": 0.543,
-          "sentiment": -0.233
-        },
-        "almayadeen": {
-          "danger": 0.694,
-          "sentiment": -0.467
-        },
-        "QudsN": {
-          "danger": 0.591,
-          "sentiment": 0.389
-        }
-      }
-    },
     {
       "time": "2026-05-27T15:31:01.470Z",
       "danger": 0.477,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.2
         }
       }
+    },
+    {
+      "time": "2026-06-02T03:35:16.482Z",
+      "danger": 0.562,
+      "sentiment": -0.382,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.484,
+          "sentiment": -0.567
+        },
+        "OSINTdefender": {
+          "danger": 0.547,
+          "sentiment": 0.067
+        },
+        "irna_1313": {
+          "danger": 0.627,
+          "sentiment": -0.583
+        },
+        "sepah_pasdaran": {
+          "danger": 0.394,
+          "sentiment": -0.567
+        },
+        "almanarnews": {
+          "danger": 0.512,
+          "sentiment": -0.533
+        },
+        "C_Military1": {
+          "danger": 0.546,
+          "sentiment": -0.4
+        },
+        "almayadeen": {
+          "danger": 0.751,
+          "sentiment": -0.733
+        },
+        "QudsN": {
+          "danger": 0.813,
+          "sentiment": -0.367
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,7 +2279,7 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
+      "raw_sentiment": -0.5666666666666667,
       "knn_danger_metric": 0.4842639903252573
     },
     "OSINTdefender": {
@@ -2290,9 +2290,9 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.4767148582648471
+      "num_messages": 12,
+      "raw_sentiment": -0.5833333333333334,
+      "knn_danger_metric": 0.6272865556422141
     },
     "sepah_pasdaran": {
       "name": "IRGC",
@@ -2303,26 +2303,26 @@
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.42218314038293925
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.5122662855369569
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.5689408753846162
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.5459093358059641
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.645710816594347
+      "raw_sentiment": -0.7333333333333333,
+      "knn_danger_metric": 0.7505614699421563
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.8307013157562857
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.8127540330774282
     }
   },
   "semantic_logs": [
@@ -2348,10 +2348,17 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: الوكالة الوطنية: استشهاد 4 أشخاص في حصيلة أولية بالغارة الإسرائيلية على بلدة المروانية جنوب البلاد",
-      "absolute_sentiment": 0.5,
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 زلزال بقوة 6.2 درجة يضرب جنوب إيطاليا https://almanar.com.lb/article/910517/?s=tg",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 الأمم المتحدة: التقدم الإسرائيلي داخل الأراضي اللبنانية يهدد وقف الأعمال العدائية ويقوض القرار 1701 https://almanar.com.lb/article/910577/?s=tg",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2390,17 +2397,17 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم المنازل خلال اقتحام بلدة &quot;بيت أمر&quot; شمال الخليل.",
+      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء بغارة للطيران الحربي الإسرائيلي على بلدة السلطانية قضاء بنت جبيل",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم مدينة نابلس شمال الضفة الغربية، من حاجز المربعة.",
-      "absolute_sentiment": 0,
+      "text": "وسائل إعلام إسرائيلية: موقع &quot;روترنت&quot;: الصين تقول إنه يجب على &quot;إسرائيل&quot; أن تخرج من الأرض اللبنانية فوراً",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2422,13 +2429,6 @@
       "channel": "Arab_Axis",
       "text": "مصادر محلية: جيش الاحتلال يصادر مركبة فلسطينية خلال اقتحام منطقة جبل بئر قوزا في بلدة بيتا جنوب نابلس",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "متابعة | قوات الاحتلال تقتحم قرية صرة، جنوب غرب نابلس.",
-      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
   ]
