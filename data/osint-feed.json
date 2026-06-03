@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-02T22:59:38.560Z",
+  "last_updated": "2026-06-03T01:43:46.026Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.59",
-    "global_norm_sentiment": "-0.41"
+    "global_knn_danger": "0.56",
+    "global_norm_sentiment": "-0.39"
   },
   "timeline": [
-    {
-      "time": "2026-05-28T06:52:01.680Z",
-      "danger": 0.528,
-      "sentiment": -0.473,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.73,
-          "sentiment": -0.8
-        },
-        "OSINTdefender": {
-          "danger": 0.518,
-          "sentiment": -0.433
-        },
-        "irna_1313": {
-          "danger": 0.543,
-          "sentiment": -0.567
-        },
-        "sepah_pasdaran": {
-          "danger": 0.429,
-          "sentiment": -0.8
-        },
-        "almanarnews": {
-          "danger": 0.446,
-          "sentiment": -0.467
-        },
-        "C_Military1": {
-          "danger": 0.509,
-          "sentiment": -0.9
-        },
-        "almayadeen": {
-          "danger": 0.435,
-          "sentiment": -0.1
-        },
-        "QudsN": {
-          "danger": 0.722,
-          "sentiment": -0.533
-        }
-      }
-    },
     {
       "time": "2026-05-28T10:52:46.708Z",
       "danger": 0.567,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.4
         }
       }
+    },
+    {
+      "time": "2026-06-03T01:43:46.026Z",
+      "danger": 0.556,
+      "sentiment": -0.39,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.537,
+          "sentiment": -0.633
+        },
+        "OSINTdefender": {
+          "danger": 0.519,
+          "sentiment": -0.133
+        },
+        "irna_1313": {
+          "danger": 0.576,
+          "sentiment": -0.4
+        },
+        "sepah_pasdaran": {
+          "danger": 0.545,
+          "sentiment": -0.433
+        },
+        "almanarnews": {
+          "danger": 0.47,
+          "sentiment": -0.3
+        },
+        "C_Military1": {
+          "danger": 0.584,
+          "sentiment": -0.8
+        },
+        "almayadeen": {
+          "danger": 0.604,
+          "sentiment": -0.5
+        },
+        "QudsN": {
+          "danger": 0.77,
+          "sentiment": -0.567
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2280,7 +2280,7 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.558072981411828
+      "knn_danger_metric": 0.5372490144793616
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,14 +2291,14 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.6176264583393937
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.5760832691114193
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.5870624874917235
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.5445824098937809
     },
     "almanarnews": {
       "name": "Hezbollah",
@@ -2309,20 +2309,20 @@
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.7,
-      "knn_danger_metric": 0.6261200381309838
+      "raw_sentiment": -0.8,
+      "knn_danger_metric": 0.5840631889600332
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.7776541984011391
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.6044867407070951
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.7549620024643872
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.7702032144687095
     }
   },
   "semantic_logs": [
@@ -2350,64 +2350,57 @@
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": " ️موشک‌های پدافند هوایی آمریکا پس از ناکامی در رهگیری، در کویت فرود آمدند ✅  @sepah_pasdaran",
+      "text": " ️#فوری | صدای انفجار مهیبی در شهر قامشلی سوریه شنیده شد. ✅  @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️قیمت نفت صعودی شد و به حدود ۹۷ دلار رسید.  ✅  @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️#فوری | فعالیت پدافند هوایی در اصفهان گزارش شد. ✅  @sepah_pasdaran",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: وزارة الصحة للاحتلال: 18 إصابة وصلت المستشفيات الإسرائيلية من الجبهة الشمالية يوم أمس الثلاثاء",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️#الله_اکبر| لحظه اصابت موشک ایرانی به مقر ناوگان پنجم آمریکا در بحرین ✅  @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: عدوان إسرائيلي بغارة جوية على بلدة تبنين جنوبي البلاد",
+      "text": "إيران: حرس الثورة الإيراني: في أواخر ليلة أمس استهدف الجيش الأميركي المعتدي ناقلة نفط إيرانية بمقذوف جوي بالقرب من مضيق هرمز مما أسفر عن إلحاق أضرار بغرفة المحركات في هذه الناقلة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: &quot;جيش&quot; الاحتلال ينفذ عملية نسف شرقي مدينة خان يونس جنوبي قطاع غزة",
+      "text": "إيران: حرس الثورة: رداً على هذا الاعتداء وانتهاك القوانين في مضيق هرمز استهدفت صواريخ القوات البحرية التابعة للحرس الثوري سفينة &quot;بانايا&quot; التابعة للعدو الأميركي الصهيوني",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي وإطلاق نار من الآليات الإسرائيلية شرقي مخيم جباليا شمالي قطاع غزة",
+      "text": "إيران: حرس الثورة: نكرر ونؤكد أن زعزعة الأمن في مضيق هرمز ستكون لها عواقب وخيمة ودفع ثمن باهظ للجيش الأميركي المعتدي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: وكالة &quot;مهر&quot; الإيرانية: سماع دوي انفجارات في منطقة جزيرة قشم الإيرانية في خلال الساعة الماضية",
+      "text": "إيران: وكالة &quot;تسنيم&quot;: حزب &quot;كومله&quot; الانفصالي يؤكد استهداف مقره في منطقة &quot;وادي آلانه&quot; شمال شرقي أربيل بضربة صاروخية إيرانية",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: إطلاق نار من آليات الاحتلال شرقي خان يونس جنوبي قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل: آليات الاحتلال تطلق نيرانها تجاه المناطق الشرقية لمدينة خان يونس جنوب قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية| قوات الاحتلال تقتحم مدينة طوباس",
-      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2428,6 +2421,13 @@
       "channelId": "QudsN",
       "channel": "Arab_Axis",
       "text": "جانب آخر من إطلاق قوات الاحتلال النار بشكل كثيف تجاه منازل الأهالي في مخيم جباليا شمال قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مجددا… آليات الاحتلال تطلق نيرانها تجاه المناطق الشرقية لمدينة خان يونس جنوب قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
