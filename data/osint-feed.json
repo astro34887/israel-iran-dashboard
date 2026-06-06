@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-06T17:08:00.725Z",
+  "last_updated": "2026-06-06T19:15:58.831Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.36"
+    "global_knn_danger": "0.54",
+    "global_norm_sentiment": "-0.35"
   },
   "timeline": [
-    {
-      "time": "2026-05-30T20:06:35.634Z",
-      "danger": 0.527,
-      "sentiment": -0.24,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.605,
-          "sentiment": -0.033
-        },
-        "OSINTdefender": {
-          "danger": 0.623,
-          "sentiment": -0.267
-        },
-        "irna_1313": {
-          "danger": 0.381,
-          "sentiment": -0.167
-        },
-        "sepah_pasdaran": {
-          "danger": 0.423,
-          "sentiment": -0.333
-        },
-        "almanarnews": {
-          "danger": 0.267,
-          "sentiment": -0.2
-        },
-        "C_Military1": {
-          "danger": 0.524,
-          "sentiment": -0.5
-        },
-        "almayadeen": {
-          "danger": 0.68,
-          "sentiment": 0
-        },
-        "QudsN": {
-          "danger": 0.823,
-          "sentiment": -0.767
-        }
-      }
-    },
     {
       "time": "2026-05-30T21:58:04.934Z",
       "danger": 0.533,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.273
         }
       }
+    },
+    {
+      "time": "2026-06-06T19:15:58.831Z",
+      "danger": 0.54,
+      "sentiment": -0.349,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.555,
+          "sentiment": -0.423
+        },
+        "OSINTdefender": {
+          "danger": 0.586,
+          "sentiment": -0.6
+        },
+        "irna_1313": {
+          "danger": 0.424,
+          "sentiment": -0.231
+        },
+        "sepah_pasdaran": {
+          "danger": 0.511,
+          "sentiment": -0.7
+        },
+        "almanarnews": {
+          "danger": 0.482,
+          "sentiment": -0.3
+        },
+        "C_Military1": {
+          "danger": 0.518,
+          "sentiment": -0.5
+        },
+        "almayadeen": {
+          "danger": 0.638,
+          "sentiment": -0.3
+        },
+        "QudsN": {
+          "danger": 0.734,
+          "sentiment": -0.3
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2278,9 +2278,9 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 8,
-      "raw_sentiment": -0.375,
-      "knn_danger_metric": 0.5575269936656262
+      "num_messages": 13,
+      "raw_sentiment": -0.4230769230769231,
+      "knn_danger_metric": 0.5548117474657192
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 12,
-      "raw_sentiment": -0.125,
-      "knn_danger_metric": 0.32335279589349564
+      "num_messages": 13,
+      "raw_sentiment": -0.23076923076923078,
+      "knn_danger_metric": 0.4236196897018871
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.7333333333333333,
-      "knn_danger_metric": 0.48515223696187
+      "raw_sentiment": -0.7,
+      "knn_danger_metric": 0.5106203342251959
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.5136849116734561
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.482440940352002
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.8333333333333334,
-      "knn_danger_metric": 0.4824206957014498
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.5176976747283399
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.6469832534064442
+      "knn_danger_metric": 0.6382619695196529
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 11,
-      "raw_sentiment": -0.2727272727272727,
-      "knn_danger_metric": 0.6348470917188028
+      "num_messages": 15,
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.7336164573233633
     }
   },
   "semantic_logs": [
@@ -2334,20 +2334,6 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "מטוסי קרב של צה&quot;ל תוקפים בשעתיים האחרונות בגזרת נבטיה בכפרים הבאים:  מיפדון חארוף נבטיה ארנון כפר תבנית  תגובה אחת",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": " ️مراسم دردناک تشییع کودک هفت ماهه فلسطینی که توسط تروریستهای ارتش رژیم صهیونیستی با شلیک گلوله به شهادت رسید‌ ✅  @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
       "text": " ️در حملۀ رژیم صهیونیستی به شهرک‌های جویا و معرکه ۲ لبنانی به شهادت رسیدند. ✅  @sepah_pasdaran",
@@ -2355,59 +2341,80 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: حزب الله: تصدينا لمسيرة إسرائيلية من نوع &quot;هرمز 450 - زيك&quot; في أجواء منطقة الزهراني بصاروخ أرض جو وأجبرناها على التراجع",
-      "absolute_sentiment": 1,
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️ حمله هوایی رژیم صهیونیستی به یک منزل مسکونی در خان‌یونس ✅  @sepah_pasdaran",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: غارة إسرائيلية تستهدف مدينة النبطية جنوبي البلاد",
+      "text": "&quot;نيويورك تايمز&quot;: &quot;إسرائيل&quot; تكثف من جهود التجسس على مسؤولين أميركيين من بينهم المبعوث ستيف ويتكوف",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: غارة من الطيران الحربي الإسرائيلي تستهدف بلدة جويا في قضاء صور",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: وكالة تسنيم: أصوات الانفجارات التي سمعت في جزيرة خارك مرتبطة بتفجير ذخيرة متحكم به",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في البقاع: غارة إسرائيلية تستهدف بلدة سحمر في البقاع الغربي شرق البلاد",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "جيش الاحتلال: مقتل نقيب في وحدة إيغوز خلال المعارك في جنوب لبنان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: القوة البحرية لحرس الثورة: الانفجار الذي سمع في أطراف جزيرة خارك يعود لتفكيك ذخائر متبقية من الحرب المفروضة الثالثة في بهرجان",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: الاحتلال يقصف منزلا في مواصي خان يونس في قطاع غزة ويصدر أمر إخلاء لمربع سكني في المغازي وسط القطاع",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "محافظة القدس: إصابة شاب برصاص قوات الاحتلال خلال اقتحامها بلدة الرام شمال القدس المحتلة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "صحيفة معاريف العبرية: الاستخبارات الأمريكية تحذر من خطوات مصرية تركية للتعاون بالمجال العسكري قد يشمل صفقات أسلحة كاسرة للتوازن وإلغاء التفوق &quot;الإسرائيلي&quot;",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: 7 شهداء جراء قصف إسرائيلي استهدف خيمة تؤوي نازحين في منطقة الجوازات غرب مدينة غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: غاراتان استهدفتا بلدة بلاط قضاء مرجعيون جنوبي البلاد",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: نيران باتجاه آلية عسكرية إسرائيلية في محيط قلعة الشقيف جنوبي البلاد",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: غارة من مسيرة تستهدف بلدة طيردبا في قضاء صور",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "خيمة العريس الشهيد مهند فروانة زينها لزوجته استعداداً لزفافه الذي كان مقررا اليوم لكنه اغتيل فجر اليوم.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قبل زفافه بساعات.. الاحتلال يقتل فرحة عائلة فلسطينية بقتل العريس بخانيونس.",
-      "absolute_sentiment": -1,
+      "text": "ترجمة قدس| القناة 13 العبرية: رئيس الموساد &quot;جوفمان&quot; أبلغ بالأمس نائب رئيس الموساد &quot;ج&quot; بأنه يريد إنهاء خدمته بالجهاز، ويريد تعيين نائبا جديدا له.",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2418,18 +2425,11 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: مقتل جندي من لواء جفعاتي يوم أمس.  #الإعلام_الحربي",
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قصف من طائرات الاحتلال في خانيونس",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9987201083462858
-    },
-    {
-      "channelId": "OSINTdefender",
-      "channel": "Global_OSINT",
-      "text": "#Qatar   Iranian missiles caused significant damage to the Combined Air Operations Center (CAOC) at Al Udeid Air Base in Qatar, making the facility unusable during the early weeks of the 2026 U.S.-Iran war.  Subscribe to @OSINTdefender Chat room",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9777491146084598
+      "semantic_danger_knn": 1
     }
   ]
 }
