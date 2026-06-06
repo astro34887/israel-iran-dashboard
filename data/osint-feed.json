@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-06T11:22:53.964Z",
+  "last_updated": "2026-06-06T13:23:40.249Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.36"
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.31"
   },
   "timeline": [
-    {
-      "time": "2026-05-30T15:03:18.085Z",
-      "danger": 0.542,
-      "sentiment": -0.26,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.673,
-          "sentiment": -0.667
-        },
-        "OSINTdefender": {
-          "danger": 0.591,
-          "sentiment": -0.2
-        },
-        "irna_1313": {
-          "danger": 0.498,
-          "sentiment": -0.267
-        },
-        "sepah_pasdaran": {
-          "danger": 0.503,
-          "sentiment": -0.433
-        },
-        "almanarnews": {
-          "danger": 0.364,
-          "sentiment": -0.067
-        },
-        "C_Military1": {
-          "danger": 0.674,
-          "sentiment": -0.333
-        },
-        "almayadeen": {
-          "danger": 0.576,
-          "sentiment": -0.267
-        },
-        "QudsN": {
-          "danger": 0.587,
-          "sentiment": -0.233
-        }
-      }
-    },
     {
       "time": "2026-05-30T16:58:35.185Z",
       "danger": 0.531,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.5
         }
       }
+    },
+    {
+      "time": "2026-06-06T13:23:40.249Z",
+      "danger": 0.518,
+      "sentiment": -0.312,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.419,
+          "sentiment": -0.15
+        },
+        "OSINTdefender": {
+          "danger": 0.598,
+          "sentiment": -0.867
+        },
+        "irna_1313": {
+          "danger": 0.362,
+          "sentiment": 0.2
+        },
+        "sepah_pasdaran": {
+          "danger": 0.461,
+          "sentiment": -0.167
+        },
+        "almanarnews": {
+          "danger": 0.495,
+          "sentiment": -0.567
+        },
+        "C_Military1": {
+          "danger": 0.432,
+          "sentiment": -0.367
+        },
+        "almayadeen": {
+          "danger": 0.848,
+          "sentiment": -0.567
+        },
+        "QudsN": {
+          "danger": 0.615,
+          "sentiment": -0.5
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2278,9 +2278,9 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.47473202534043124
+      "num_messages": 10,
+      "raw_sentiment": -0.15,
+      "knn_danger_metric": 0.4192599423795631
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.577008474479849
+      "raw_sentiment": 0.2,
+      "knn_danger_metric": 0.3616849725273923
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.48046367205189433
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.4611454227379071
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.3720192995637573
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.4945734767790425
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.5952132767975676
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.4316816385000848
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.6645485060932708
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.8479718564202147
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.5945601928653486
+      "knn_danger_metric": 0.6149033136979752
     }
   },
   "semantic_logs": [
@@ -2334,17 +2334,10 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": " ️ شهادت یک نوزاد هفت ماهه در پی شلیک نظامیان صهیونیستی ✅  @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": " ️هفتهٔ جدید بورس هم سبز آغاز شد  شاخص کل بورس در پایان معاملات امروز با رشد ۳۳ هزار واحدی به ۴ میلیون و ۳۹۲ هزار واحد رسید.  ✅  @sepah_pasdaran",
-      "absolute_sentiment": -1,
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "מטוסי קרב של צה&quot;ל תוקפים בשעתיים האחרונות בגזרת נבטיה בכפרים הבאים:  מיפדון חארוף נבטיה ארנון כפר תבנית  תגובה אחת",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
@@ -2362,72 +2355,79 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء بغارة إسرائيلية على بلدة صديقين في منطقة صور",
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 اللقاء الوطني للعاملين في القطاع العام: دماء شهداء الجيش أمانة وطنية ويجب أن تبقى البوصلة التي تحكم الخيارات السياسية لأهل السلطة https://almanar.com.lb/article/925102/?s=tg",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 لقاء الأحزاب والقوى الوطنية والقومية في البقاع: هذه الرسالة الصهيونية الممهورة بالدم ضد الجيش المقصود منها لي ذراع قائد الجيش https://almanar.com.lb/article/925197/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: حزب الله: نتقدم من عوائل شهداء الجيش ومن المؤسسة العسكرية قيادةً وضباطاً وأفراداً بأحرّ المواساة والتعازي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء اسرائيلي بغارة على بلدة حاروف في منطقة النبطية",
+      "text": "لبنان: مراسل الميادين في الجنوب: المقاومون يمارسون إطباقا نارياً على تحركات &quot;جيش&quot; الاحتلال",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي بغارة على بلدة كفرتبنيت في منطقة النبطية وقصف مدفعي على مجدل سلم وقلاويه",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: المؤتمر الشعبي اللبناني: نطالب أهل السلطة في لبنان بموقف وطني حازم رداً على الجرائم الصهيونية بحق لبنان وجيشه",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء بغارة إسرائيلية على النبطية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "أقسى أنواع الألم.. عريس بانتظار الصبح في غزة لكي يزف عريسا، يباغته قصف الاحتلال ليرتقي شهيدا..   إليكم القصة المؤلمة التي حدثت اليوم في خانيونس:",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم مدينة رام الله",
+      "text": "لبنان: مراسل الميادين في الجنوب: صمود أسطوري للمقاومين في جبهات القتال مقابل لا استقرار لتموضعات وتحشدات &quot;جيش&quot; الاحتلال في الجنوب",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "ودّعت صالح.. فعادت لتستقبل علي حرًا وصالح شهيدًا",
+      "text": "لبنان: مراسل الميادين في الجنوب: &quot;جيش&quot; الاحتلال نفذ تفجيراً في بلدة كونين",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم وسط مدينة طوباس.",
+      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي بغارة استهدفت بلدة حاريص",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي بغارة من مسيّرة استهدفت بلدة جناتا",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء بغارة إسرائيلية استهدفت بلدة ميفدون",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في جنوب لبنان: اعتداء بمسيّرة إسرائيلية استهدفت بلدة العباسية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في جنوب لبنان: اعتداء من مسيّرة إسرائيلية استهدفت بلدة دير قانون النهر",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: بقائي: استشهاد العميد وسام صبرا والنقيب إيلي خوري والعسكري حسن غزال جريمة موصوفة بحق لبنان وجيشه وسيادته ورسالة عدوانية واضحة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
