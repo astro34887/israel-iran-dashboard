@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-07T13:44:38.896Z",
+  "last_updated": "2026-06-07T15:22:16.934Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.51",
-    "global_norm_sentiment": "-0.31"
+    "global_knn_danger": "0.54",
+    "global_norm_sentiment": "-0.30"
   },
   "timeline": [
-    {
-      "time": "2026-05-31T16:03:46.175Z",
-      "danger": 0.515,
-      "sentiment": -0.245,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.591,
-          "sentiment": -0.467
-        },
-        "OSINTdefender": {
-          "danger": 0.54,
-          "sentiment": -0.267
-        },
-        "irna_1313": {
-          "danger": 0.453,
-          "sentiment": -0.267
-        },
-        "sepah_pasdaran": {
-          "danger": 0.348,
-          "sentiment": 0.167
-        },
-        "almanarnews": {
-          "danger": 0.386,
-          "sentiment": -0.3
-        },
-        "C_Military1": {
-          "danger": 0.658,
-          "sentiment": -0.433
-        },
-        "almayadeen": {
-          "danger": 0.574,
-          "sentiment": -0.4
-        },
-        "QudsN": {
-          "danger": 0.653,
-          "sentiment": -0.346
-        }
-      }
-    },
     {
       "time": "2026-05-31T17:58:28.866Z",
       "danger": 0.512,
@@ -2261,13 +2214,60 @@
           "sentiment": 0.067
         }
       }
+    },
+    {
+      "time": "2026-06-07T15:22:16.934Z",
+      "danger": 0.542,
+      "sentiment": -0.304,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.637,
+          "sentiment": -0.667
+        },
+        "OSINTdefender": {
+          "danger": 0.595,
+          "sentiment": -0.3
+        },
+        "irna_1313": {
+          "danger": 0.539,
+          "sentiment": -0.1
+        },
+        "sepah_pasdaran": {
+          "danger": 0.356,
+          "sentiment": -0.867
+        },
+        "almanarnews": {
+          "danger": 0.401,
+          "sentiment": -0.033
+        },
+        "C_Military1": {
+          "danger": 0.452,
+          "sentiment": -0.267
+        },
+        "almayadeen": {
+          "danger": 0.688,
+          "sentiment": -0.533
+        },
+        "QudsN": {
+          "danger": 0.799,
+          "sentiment": -0.111
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.5794137128602237
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.6368420537764473
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.46686471444541205
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.5394917434042511
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.9,
-      "knn_danger_metric": 0.31654037813479896
+      "raw_sentiment": -0.8666666666666667,
+      "knn_danger_metric": 0.35599727861233693
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.5297506152315424
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.4012215542824942
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.42406252355671903
+      "knn_danger_metric": 0.45189273126429585
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.6130176194176523
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.6877612703567384
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.6694501195080124
+      "num_messages": 9,
+      "raw_sentiment": -0.1111111111111111,
+      "knn_danger_metric": 0.7993265902929076
     }
   },
   "semantic_logs": [
@@ -2336,28 +2336,28 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "העיתונאי האיראני אומיד דאנא, המזוהה עם האופוזיציה האיראנית מפרסם לפני זמן קצר :  👏👏🇮🇱🇮🇱🇮🇱 بی بی جان دوستت داریم و سپاس بابت اقدام قاطعانه ات در بیروت  תרגום: 👏👏🇮🇱🇮🇱🇮🇱  ביבי היקר, אנחנו אוהבים אותך ומודים לך על הפעולה הנחושה שביצעת בביירות.",
-      "absolute_sentiment": 1,
+      "text": "הפלסטינים מדווחים לפני זמן קצר על 4 הרוגים ו - 6 פצועים בתקיפת כטב&quot;מ ישראלי על ג&#39;יפ טוסון ליד בית הספר אלבראק במערב העיר עזה.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "הפלסטינים מדווחים לפני זמן קצר על 4 הרוגים ו - 6 פצועים בתקיפת כטב&quot;מ ישראלי על ג&#39;יפ טוסון ליד בית הספר אלבראק במערב העיר עזה.  תגובה אחת",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": " ️#فوری | شلیک موشک زمین به هوا به سمت جنگنده‌های اسرائیلی در آسمان شهرستان النبطیه ✅  @sepah_pasdaran",
+      "text": "️۲ شهید و ۱۱ زخمی در حمله صهیونیست‌ها به ضاحیۀ جنوبی بیروت  منابع خبری لبنانی: در حمله هوایی رژیم صهیونیستی به ضاحیۀ جنوبی بیروت، ۲ نفر شهید و ۱۱ نفر زخمی شده‌اند.  ☑️ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "وقفة احتجاجية في كفرحزير رفضاً لإعادة تشغيل مقالع الترابة في اليوم العالمي للبيئة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "إصابات في الغارة المعادية التي استهدفت منذ قليل مبنى سكنياً في تحويطة الغدير بالضاحية الجنوبية لبيروت",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️تصاویری از بمباران شهر صور توسط رژیم صهیونیستی ✅  @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2366,20 +2366,6 @@
       "channel": "Hezbollah",
       "text": "ننظر بفخرٍ لتصدي أبناء شعبنا لقطعان المغتصبين في مختلف مناطق الضفة المحتلة، وندعو شبابنا في القدس والضفة والداخل أن يأخذوا دورهم في معركة &quot;طوفان الأقصى&quot;، ويصعّدوا عملياتهم لتدفيع الصهاينة ثمن جرائمهم.",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: الهلال الأحمر الفلسطيني: إصابة 19 فلسطينياً خلال اقتحام قوات الاحتلال مخيم بلاطة في مدينة نابلس",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: سماع دوي انفجار في الضاحية الجنوبية للعاصمة اللبنانية بيروت",
-      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2397,39 +2383,53 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "ترجمة قدس| عضوا الكنيست أيمن عودة ومنصور عباس يدينان عملية إطلاق النار في &quot;كوخاف يائير&quot; والتي أسفرت عن مقتل مستوطن وإصابة آخرين.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "ترجمة قدس| إذاعة جيش الاحتلال: ستبدأ &quot;إسرائيل&quot; ومنظمة التعاون الإقتصادي والتنمية دراسة معمقة لفحص إمكانية إنشاء ممر بري يربط السعودية بالاحتلال.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "تصعيد إسرائيلي في غزة: 9 شهداء بنيران جيش الاحتلال منذ صباح اليوم  https://qudsn.co/post/216017",
+      "text": "لبنان: مراسل الميادين: شهيدان وعدد من الجرحى من جراء العدوان الإسرائيلي على الضاحية الجنوبية لبيروت",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "رجل وسيدة يتحدثان عن حملة مداهمات شنها جنود الاحتلال بمخيم بلاطة في نابلس، صباح اليوم.",
+      "text": "غزة: مراسل الميادين: 3 شهداء ومصابون من جراء قصف طائرات الاحتلال سيارة مدنية في محيط شارع اللبابيدي غرب مدينة غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "غزة: مراسل الميادين: 4 شهداء و5 مصابين من جراء قصف طائرات الاحتلال سيارة قرب مدرسة البراق في محيط شارع اللبابيدي غرب المدينة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: غارة إسرائيلية تعتدي على مرتفعات سجد في قضاء جزين جنوبي لبنان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: غارة إسرائيلية تستهدف منطقة الحوش في مدينة صور جنوبي لبنان",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: الطائرات الحربية الإسرائيلية تستهدف مجدداً مرتفعات سجد في قضاء جزين جنوبي لبنان",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "دفتر نتانیاهو: ارتش اسرائیل حمله‌ به ضاحیه جنوبی بیروت را آغاز کرد  🔹دفتر نخست‌وزیری رژیم صهیونیستی اعلام کرد ارتش این رژیم تحت فرماندهی نتانیاهو و کاتس، حمله‌ای را در ضاحیه جنوبی بیروت آغاز کرد.  https://irna.ir/xjXvFV @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9975895931717171
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تقتحم بلدة بيتا، جنوب نابلس.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
     }
   ]
 }
