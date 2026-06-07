@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-07T19:16:48.994Z",
+  "last_updated": "2026-06-07T21:08:23.682Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.58",
-    "global_norm_sentiment": "-0.27"
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.20"
   },
   "timeline": [
-    {
-      "time": "2026-05-31T20:55:07.220Z",
-      "danger": 0.502,
-      "sentiment": -0.321,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.682,
-          "sentiment": -0.633
-        },
-        "OSINTdefender": {
-          "danger": 0.54,
-          "sentiment": -0.267
-        },
-        "irna_1313": {
-          "danger": 0.447,
-          "sentiment": -0.375
-        },
-        "sepah_pasdaran": {
-          "danger": 0.32,
-          "sentiment": -0.533
-        },
-        "almanarnews": {
-          "danger": 0.425,
-          "sentiment": -0.167
-        },
-        "C_Military1": {
-          "danger": 0.365,
-          "sentiment": -0.333
-        },
-        "almayadeen": {
-          "danger": 0.71,
-          "sentiment": -0.467
-        },
-        "QudsN": {
-          "danger": 0.584,
-          "sentiment": -0.3
-        }
-      }
-    },
     {
       "time": "2026-05-31T21:56:45.231Z",
       "danger": 0.529,
@@ -2261,6 +2214,53 @@
           "sentiment": 0.033
         }
       }
+    },
+    {
+      "time": "2026-06-07T21:08:23.682Z",
+      "danger": 0.534,
+      "sentiment": -0.2,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.414,
+          "sentiment": -0.1
+        },
+        "OSINTdefender": {
+          "danger": 0.595,
+          "sentiment": -0.3
+        },
+        "irna_1313": {
+          "danger": 0.588,
+          "sentiment": -0.3
+        },
+        "sepah_pasdaran": {
+          "danger": 0.574,
+          "sentiment": -0.467
+        },
+        "almanarnews": {
+          "danger": 0.623,
+          "sentiment": -0.5
+        },
+        "C_Military1": {
+          "danger": 0.73,
+          "sentiment": 0
+        },
+        "almayadeen": {
+          "danger": 0.367,
+          "sentiment": 0.067
+        },
+        "QudsN": {
+          "danger": 0.502,
+          "sentiment": -0.267
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.6974113229591441
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.4138006836859694
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2292,37 +2292,37 @@
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.4919532506427007
+      "knn_danger_metric": 0.5884396873279749
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.7049137386532516
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.5735847753937502
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.37025419377828467
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.6234549824963936
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.6513291356977108
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.7300334747767838
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.5451129359816679
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.3665905476760228
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.7529911415158622
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.5024675442604792
     }
   },
   "semantic_logs": [
@@ -2334,87 +2334,73 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "אגב בסקר היום👆אני הצבעתי בדעת מיעוט...  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "צבע אדום בצפון הארץ  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "צבע אדום בצפון הארץ  תגובה אחת",
-      "absolute_sentiment": -1,
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️بوستر موشک ایرانی در جنوب سوریه ✅  @sepah_pasdaran",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": " ️جبهه داخلی رژیم صهیونیستی از شهرک‌نشینان صهیونیست خواست فوراً وارد پناهگاه‌ها شوند. ✅  @sepah_pasdaran",
+      "text": " ️نوشته های روی یکی از موشک‌های شلیک شده سپاه ✅  @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": " ️#یامرتضی_علی| اولین تصاویر از دود ناشی از اصابت موشک ها در سرزمین های اشغالی ✅  @sepah_pasdaran",
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "مشاهد لصواريخ الايرانية في اجواء الاراضي المح.تلة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "مشاهد للصواريخ الايرانية في اجواء الاراضي المح.تلة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "سقوط صاروخ في كفار يهوشع جنوب شرق حيفا",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": " ️#الله_اکبر| منابع عبری از صدای انفجار در «نهاریا» و «طبریا» خبر می‌دهند. ✅  @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": " ️تصاویری از موشک های ایرانی از  بر فراز نابلس به سمت شمال فلسطین اشغالی حرکت میکنند. ✅  @sepah_pasdaran",
-      "absolute_sentiment": -1,
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "فيديو | مشاهد اطلاق الصواريخ الايرانية",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: الصحة اللبنانية: شهيدان و20 جريحاً من بينهم 4 أطفال و4 سيدات في العدوان الإسرائيلي على منطقة المريجة في الضاحية الجنوبية لبيروت",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: غارة من الطيران الحربي الإسرائيلي تعتدي على بلدة سحمر في البقاع الغربي شرق لبنان",
+      "text": "إيران: أحمديان: استمرار مسار الضغوط والتهديدات سيستتبع رداً أكثر حزماً وسحقاً",
       "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: غارة إسرائيلية تعتدي على بلدة بيت ياحون في قضاء بنت جبيل جنوبي لبنان",
-      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل| ترجمة قدس: جيش الاحتلال يعلن رفع حالة الجهوزية ويعلن الاستعداد لإمكانية تعرض &quot;إسرائيل&quot; لرشقات صاروخية خلال الساعات القادمة.",
-      "absolute_sentiment": 0.5,
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة يعبد، جنوب غرب جنين.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية قريوت، جنوب شرق نابلس.",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   الجبهة الداخلية الإسرائيلية: رصد إطلاق صواريخ من إيران اتجاه &quot;إسرائيل&quot;. على المستوطنين الدخول فوراً إلى الملاجئ.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
+      "text": "#إعلام_العدو   الجبهة الداخلية الإسرائيلية: من جديد.. رصد إطلاق صواريخ من إيران اتجاه &quot;إسرائيل&quot;. على المستوطنين الدخول فوراً إلى الملاجئ.  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 0.9996885048679001
     },
     {
@@ -2427,9 +2413,23 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: رداً على قصف الضاحية الجنوبية لبيروت، إيران تقصف &quot;إسرائيل&quot;.  #الإعلام_الحربي",
+      "text": "#الجمهورية_الإسلامية   حرس الثورة: قبولنا بوقف إطلاق النار كان مشروطاً بوقف إطلاق النار على جميع الجبهات، إلا أن الولايات المتحدة و&quot;إسرائيل&quot;، كعادتهما، لم تلتزما بتعهداتهما. فقد واصلتا الاعتداءات والأعمال العسكرية في لبنان، كما انتهكتا وقف إطلاق النار من خلال التعرض المتكرر للسواحل والسفن الإيرانية في مضيق هرمز وبحر عُمان والمحيط الهندي.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9983660049992396
+      "semantic_danger_knn": 0.9987911769576596
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 15 العبرية: فتح الملاجئ في جميع أنحاء البلاد.  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.9961486516080662
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "خبرنگار رسانه صهیونیستی اینترنشنال در پی حملات موشکی ایران:  اسرائیل فکرش را هم نمی‌کرد که ایران پاسخ بدهد&#33;  بابک اسحاقی، خبرنگار تلویزیون صهیونیستی اینترنشنال: 🔹مردم اسرائیل وارد شرایط اضطراری شدند&#33;  @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9951957023429895
     }
   ]
 }
