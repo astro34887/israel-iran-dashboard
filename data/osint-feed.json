@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-10T09:51:46.949Z",
+  "last_updated": "2026-06-10T12:53:24.991Z",
   "tension": {
     "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.48",
-    "global_norm_sentiment": "-0.27"
+    "global_knn_danger": "0.47",
+    "global_norm_sentiment": "-0.20"
   },
   "timeline": [
-    {
-      "time": "2026-06-04T11:49:19.700Z",
-      "danger": 0.557,
-      "sentiment": -0.163,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.515,
-          "sentiment": -0.733
-        },
-        "OSINTdefender": {
-          "danger": 0.617,
-          "sentiment": 0.067
-        },
-        "irna_1313": {
-          "danger": 0.63,
-          "sentiment": 0.1
-        },
-        "sepah_pasdaran": {
-          "danger": 0.48,
-          "sentiment": -0.1
-        },
-        "almanarnews": {
-          "danger": 0.436,
-          "sentiment": -0.167
-        },
-        "C_Military1": {
-          "danger": 0.475,
-          "sentiment": -0.133
-        },
-        "almayadeen": {
-          "danger": 0.811,
-          "sentiment": -0.367
-        },
-        "QudsN": {
-          "danger": 0.653,
-          "sentiment": -0.167
-        }
-      }
-    },
     {
       "time": "2026-06-04T14:50:38.658Z",
       "danger": 0.506,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.267
         }
       }
+    },
+    {
+      "time": "2026-06-10T12:53:24.991Z",
+      "danger": 0.471,
+      "sentiment": -0.198,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.432,
+          "sentiment": -0.3
+        },
+        "OSINTdefender": {
+          "danger": 0.517,
+          "sentiment": -0.333
+        },
+        "irna_1313": {
+          "danger": 0.403,
+          "sentiment": -0.033
+        },
+        "sepah_pasdaran": {
+          "danger": 0.482,
+          "sentiment": -0.233
+        },
+        "almanarnews": {
+          "danger": 0.291,
+          "sentiment": -0.133
+        },
+        "C_Military1": {
+          "danger": 0.418,
+          "sentiment": -0.233
+        },
+        "almayadeen": {
+          "danger": 0.507,
+          "sentiment": -0.333
+        },
+        "QudsN": {
+          "danger": 0.708,
+          "sentiment": -0.25
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.5323335881527788
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.43178135442168547
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.5354306912468378
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.4025461398256557
     },
     "sepah_pasdaran": {
       "name": "IRGC",
-      "num_messages": 14,
-      "raw_sentiment": -0.32142857142857145,
-      "knn_danger_metric": 0.5365040807353926
+      "num_messages": 15,
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.48189406463489004
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.4036383650453919
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.2913098509463993
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.4354870433678359
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.41768303618458535
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.37087504943734956
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.5069954919388997
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.5652950320816914
+      "num_messages": 14,
+      "raw_sentiment": -0.25,
+      "knn_danger_metric": 0.7080343122368641
     }
   },
   "semantic_logs": [
@@ -2336,56 +2336,91 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "בינתיים.. ברחובותיו של רובע עג&#39;מי בעיר אלכסנדריה במצרים..  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸«راحت باش»؛ وقتی صرفه‌جویی از لباس شروع می‌شود  🔹در دنیای پرشتاب امروز، راحتی و صرفه‌جویی دو عنصر کلیدی در زندگی روزمره ما هستند. اما آیا تا به حال به این فکر کرده‌اید که انتخاب لباس مناسب می‌تواند تأثیر چشمگیری بر کاهش هزینه‌ها و بهینه‌سازی مصرف انرژی داشته…",
+      "text": "נשיא טורקיה, ארדואן:  התקפותיהם של נתניהו ורשת הפשיעה שלו נגד סוריה ולבנון הגיעו לנקודה שמאיימת לא רק על שתי המדינות האחיות הללו, אלא כעת גם על טורקיה.  ביטחונה של טורקיה מתחיל לא רק בהאטאי, אלא גם בחלב, בדמשק ובביירות.   לא נסבול שום ניסיון לכפות מציאות בשטח…",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "☑️ تصاویری از حمله ارتش تروریستی آمریکا به مخازن آب آشامیدنی بخش بمانی شهرستان سیریک هرمزگان  @sepah_pasdaran",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": " ️مراسم گرامیداشت اولین سالگرد شهادت سردار وعده‌های صادق، سپهبد شهید حسین سلامی  🔹 پنجشنبه ۲۱ خردادماه ساعت ۹:۳۰ در مصلی حرم حضرت عبدالعظیم حسنی (ع)  ✅  @sepah_pasdaran",
+      "text": " ️مراسم سالگرد شهید سپهبد محمد باقری و همسر و دختر شهیدش  ‌ 🔹 پنجشنبه ۲۱ خرداد، ساعت ۱۷ الی ۱۸:۳۰ در مسجد امام صادق (ع) واقع در میدان فلسطین  ✅  @sepah_pasdaran",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": " ️لحظه انهدام پهپاد MQ۹ ارتش تروریست آمریکا با آتش پدافند هوایی نوین سپاه ✅  @sepah_pasdaran",
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "أردوغان: أمن تركيا يبدأ من بيروت ودمشق وحلب.. ولن نسمح بتحقيق المخططات الإسرائيلية https://almanar.com.lb/article/936832/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: طيران الاحتلال يعتدي للمرة العاشرة على بلدة مجدل زون قضاء صور جنوبي البلاد",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: غارة إسرائيلية استهدفت البازورية في قضاء صور",
+      "text": "إيران: وكالة &quot;إيسنا&quot;: خلال زيارة الوفد القطري سيتم بحث آخر المستجدات المتعلقة بالعملية الدبلوماسية لإنهاء الحرب المفروضة",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: طيران الاحتلال المسير يعتدي على سيارة في مدينة صيدا جنوب لبنان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: شهيد على الأقل في الاعتداء الإسرائيلي على مدينة صيدا جنوبي البلاد",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم بدل صانور في جنين",
+      "text": "عاجل| مصادر محلية: قوات الاحتلال تدهس فتى في بلدة عقربا جنوب نابلس وتمنع طواقم الإسعاف من الوصول إليه.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تداهم ملعبًا ومسبحا في منطقة شويكة بالظاهرية جنوب الخليل.",
+      "text": "قوات الاحتلال تهدم منزل الفلسطيني سليمان محمود مليحات في بلدة بيت حنينا بالقدس المحتلة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تمنع طواقم الإسعاف من الوصول لفتى دهسته آليه عسكرية في قرية عقربا جنوب نابلس",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "النائب الأيرلندي &quot;ريتشارد باريت &quot;يفجرها بوجه حكومته: الشارع الأيرلندي لن يقبل بتبييض جرائم الاحتلال عبر كرة القدم&#33;",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مستوطنون يقطعون 7 خطوط مياه مغذية لبيوت في بلدة بيت إكسا، شمال غرب القدس صباح اليوم.",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مؤسسات الأسرى: منع زيارات الصليب الأحمر يكرس جرائم الاحتلال بحق الأسرى  التفاصيل:   https://qudsn.co/post/216065/",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2395,41 +2430,6 @@
       "text": "#إعلام_العدو    وسائل إعلام إسرائيلية: تم تفعيل الدفاعات الجوية في كريات شمونه قبل قليل دون دوي صفارات الإنذار.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9958174570708113
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "مالزی نسبت به استفاده ابزاری از تجارت توسط قدرتهای بزرگ هشدار داد  🔹نخست‌وزیر مالزی با انتقاد از رویکرد قدرت‌های بزرگ در اقتصاد جهانی هشدار داد که استفاده از تجارت و وابستگی متقابل اقتصادی به‌عنوان ابزار رقابت ژئوپلیتیکی، کشورهای کوچک‌تر و متوسط را در معرض آسیب‌پذیری‌های فزاینده قرار داده و ثبات اقتصادی آسیا را تهدید می‌کند.  https://irna.ir/xjXwRh @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9900416935917431
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل| الدفاع المدني بجنوب لبنان: 6 شهداء في حصيلة أولية لغارات الاحتلال على بلدة طيردبا بقضاء صور.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9609163796661219
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "غارة معادية على الغسانية جنوب لبنان",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9077598178072934
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "آثار غارات الاحتلال على قرى جنوب لبنان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9077598178072934
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "آثار غارات الاحتلال على منطقة المساكن قرب مدينة صور جنوب لبنان",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9077598178072934
     }
   ]
 }
