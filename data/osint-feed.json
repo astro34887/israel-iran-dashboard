@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-09T22:21:05.969Z",
+  "last_updated": "2026-06-10T00:09:01.768Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.55",
     "global_norm_sentiment": "-0.40"
   },
   "timeline": [
-    {
-      "time": "2026-06-03T06:49:52.301Z",
-      "danger": 0.545,
-      "sentiment": -0.339,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.454,
-          "sentiment": -0.533
-        },
-        "OSINTdefender": {
-          "danger": 0.536,
-          "sentiment": -0.233
-        },
-        "irna_1313": {
-          "danger": 0.565,
-          "sentiment": -0.25
-        },
-        "sepah_pasdaran": {
-          "danger": 0.624,
-          "sentiment": -0.5
-        },
-        "almanarnews": {
-          "danger": 0.469,
-          "sentiment": -0.267
-        },
-        "C_Military1": {
-          "danger": 0.554,
-          "sentiment": -0.8
-        },
-        "almayadeen": {
-          "danger": 0.757,
-          "sentiment": -0.267
-        },
-        "QudsN": {
-          "danger": 0.546,
-          "sentiment": -0.409
-        }
-      }
-    },
     {
       "time": "2026-06-03T11:53:53.559Z",
       "danger": 0.504,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.433
         }
       }
+    },
+    {
+      "time": "2026-06-10T00:09:01.768Z",
+      "danger": 0.548,
+      "sentiment": -0.403,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.506,
+          "sentiment": -0.6
+        },
+        "OSINTdefender": {
+          "danger": 0.515,
+          "sentiment": 0.033
+        },
+        "irna_1313": {
+          "danger": 0.588,
+          "sentiment": -0.6
+        },
+        "sepah_pasdaran": {
+          "danger": 0.589,
+          "sentiment": -0.233
+        },
+        "almanarnews": {
+          "danger": 0.437,
+          "sentiment": -0.6
+        },
+        "C_Military1": {
+          "danger": 0.572,
+          "sentiment": -0.6
+        },
+        "almayadeen": {
+          "danger": 0.737,
+          "sentiment": -0.633
+        },
+        "QudsN": {
+          "danger": 0.592,
+          "sentiment": -0.667
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.5308233732364392
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.5059950339892082
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2292,13 +2292,13 @@
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.572003870118273
+      "knn_danger_metric": 0.5882135415334618
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.5705072948946676
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.5893918281175214
     },
     "almanarnews": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.9333333333333333,
-      "knn_danger_metric": 0.6692274898826316
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.7365236341274588
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.695427011621425
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.5918220305232842
     }
   },
   "semantic_logs": [
@@ -2334,37 +2334,30 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: &quot;جيش&quot; الاحتلال ينسف مباني سكنية شرق حي الزيتون جنوب شرقي مدينة غزة",
-      "absolute_sentiment": -1,
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️#فوری| فعال‌ شدن سامانه‌های پدافند هوایی در جاسک ✅  @sepah_pasdaran",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: &quot;القناة 14&quot;: بعد إطلاق صفارات الإنذار في &quot;كريات شمونة&quot; تبين أن الاستهداف كان للقوات الإسرائيلية داخل الأراضي اللبنانية",
-      "absolute_sentiment": -1,
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️#فوری | فعال شدن پدافند هوایی در جزیره قشم. ✅  @sepah_pasdaran",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وزارة الصحة الإسرائيلية تقر بـ13 إصابة بنيران حزب الله أمس",
-      "absolute_sentiment": -1,
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️گزارش ها از ادامه انفجار ها در بندرعباس خبر می‌دهند.  ✅  @sepah_pasdaran",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: وكالة &quot;مهر&quot;: سكان محليون في ميناء سيريك أفادوا بسماع دوي انفجارات في أنحاء المدينة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: التلفزيون الإيراني: أصوات انفجارات في قشم وسيريك في محافظة هرمزكان جنوبي البلاد",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️#فوری | هم اکنون شنیده شدن صدای انفجار در بندرعباس ✅  @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2376,31 +2369,52 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "عاجل| ترجمة قدس: نظراً لرصد إطلاق صواريخ من لبنان، سيتم تفعيل الإنذارات خلال الدقائق القادمة في مستوطنات شمال فلسطين المحتلة.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم مدينة طوباس، شمال الضفة الغربية",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة عزون شرق قلقيلية",
+      "text": "إيران: عراقتشي: قواتنا المسلحة القوية لن تدع أي هجوم أو تهديد من دون رد",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة عرابة، جنوب جنين",
-      "absolute_sentiment": 0,
+      "text": "إيران: عراقتشي: غادروا منطقتنا إذا كنتم تريدون أن تكونوا في أمان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: التلفزيون الإيراني: لم يتم استهداف أي ميناء تجاري في جزيرة قشم في العدوان الأميركي الأخير",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: وكالة &quot;مهر&quot; الإيرانية عن مصادر محلية: سماع دوي انفجارات في مدينة جاسك جنوب البلاد",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: التلفزيون الإيراني: عدوان أميركي جديد على مدينة جاسك",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: وكالة أنباء &quot;مهر&quot; نقلاً عن مصادر محلية: سماع دوي انفجار آخر في سيريك",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: التلفزيون الإيراني: دوي انفجارات في بندر عباس",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2411,25 +2425,11 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 12 العبرية: تفعيل الدفاعات الجوية في نهاريا.  #الإعلام_الحربي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9957890513813449
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 12 العبرية: تفعيل الدفاعات الجو��ة في نهاريا.  #الإعلام_الحربي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9957890513813449
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸سنتکام: حملات علیه ایران را آغاز کرده ایم  🔹فرماندهی مرکزی ایالات متحده (سنتکام) روز سه‌شنبه به وقت محلی اعلام کرد که نیروهای آمریکایی در پاسخ به سرنگونی یک هلیکوپتر آپاچی ارتش ایالات متحده که دیروز رخ داد، ساعت ۵ بعد از ظهر به وقت شرق آمریکا، به دستور فرمانده کل قوا، دونالد ترامپ، حملات دفاعی از خود علیه ایران را آغاز کردند.  https://irna.ir/xjXwGM @IRNA_1313",
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تشن حملة مداهمات واعتقالات خلال اقتحام بلدة عرابة، جنوب جنين",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9949856863108547
+      "semantic_danger_knn": 1
     }
   ]
 }
