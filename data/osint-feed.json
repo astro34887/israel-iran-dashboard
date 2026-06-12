@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-11T23:41:47.618Z",
+  "last_updated": "2026-06-12T08:21:37.137Z",
   "tension": {
     "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.47",
-    "global_norm_sentiment": "-0.44"
+    "global_knn_danger": "0.49",
+    "global_norm_sentiment": "-0.41"
   },
   "timeline": [
-    {
-      "time": "2026-06-06T02:46:51.025Z",
-      "danger": 0.517,
-      "sentiment": -0.417,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.501,
-          "sentiment": -0.3
-        },
-        "OSINTdefender": {
-          "danger": 0.572,
-          "sentiment": -0.6
-        },
-        "irna_1313": {
-          "danger": 0.454,
-          "sentiment": -0.875
-        },
-        "sepah_pasdaran": {
-          "danger": 0.329,
-          "sentiment": -0.5
-        },
-        "almanarnews": {
-          "danger": 0.375,
-          "sentiment": -0.4
-        },
-        "C_Military1": {
-          "danger": 0.54,
-          "sentiment": -0.1
-        },
-        "almayadeen": {
-          "danger": 0.726,
-          "sentiment": -0.633
-        },
-        "QudsN": {
-          "danger": 0.727,
-          "sentiment": -0.633
-        }
-      }
-    },
     {
       "time": "2026-06-06T06:27:20.592Z",
       "danger": 0.551,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.533
         }
       }
+    },
+    {
+      "time": "2026-06-12T08:21:37.137Z",
+      "danger": 0.491,
+      "sentiment": -0.41,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.461,
+          "sentiment": -0.567
+        },
+        "OSINTdefender": {
+          "danger": 0.537,
+          "sentiment": -0.8
+        },
+        "irna_1313": {
+          "danger": 0.499,
+          "sentiment": -0.5
+        },
+        "sepah_pasdaran": {
+          "danger": 0.32,
+          "sentiment": -0.467
+        },
+        "almanarnews": {
+          "danger": 0.443,
+          "sentiment": -0.167
+        },
+        "C_Military1": {
+          "danger": 0.406,
+          "sentiment": -1
+        },
+        "almayadeen": {
+          "danger": 0.79,
+          "sentiment": -0.233
+        },
+        "QudsN": {
+          "danger": 0.506,
+          "sentiment": -0.233
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.3571688886318837
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.46129405789734956
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.5694124558336375
+      "raw_sentiment": -0.8,
+      "knn_danger_metric": 0.5366005926561309
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.5362724996985129
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.4994159566120609
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.41471354933212046
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.3201348704983926
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.2550645908748117
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.4430740624819109
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -1,
-      "knn_danger_metric": 0.33203577376720717
+      "knn_danger_metric": 0.4056556545420889
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.7616025364325842
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.7903920056578336
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.5520414748548699
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.505770341677446
     }
   },
   "semantic_logs": [
@@ -2334,102 +2334,102 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسلة الميادين في الجنوب: قصف مدفعي يستهدف بلدة المنصوري - قضاء صور",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: مدفعية الاحتلال تعتدي على محيط بلدة بلاط",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: طيران الاحتلال المسير يعتدي على مدينة دير البلح وسط قطاع غزة",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: مدفعية الاحتلال تعتدي على محيط بلدتي كفرتبنيت وشوكين",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: طيران الاحتلال يعتدي على بلدة مجدل زون في قضاء صور",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسلة الميادين في الجنوب: مسيرة معادية تستهدف بلدة البياض واحتمال وقوع إصابة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسلة الميادين في الجنوب: غارة جديدة تستهدف بلدة معركة في قضاء صور",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة السيلة الحارثية غرب جنين.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "بينما يستعد العالم لكأس العالم 2026.. الاحتلال يمحو ذاكرة الرياضة في غزة  https://qudsn.co/post/216078",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تنفذ حملات مداهمة واعتقال في الضفة الغربية والقدس المحتلة  https://qudsn.co/post/216085",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "طيران الاحتلال المسير يقصف محيط مركبة في شارع أبو عريف بمدينة دير البلح؛ دون وقوع إصابات.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   مراسل القناة 12 العبرية: وفق الاتفاقية المحتملة بين إيران والولايات المتحدة الأمريكية، يعاد فتح مضيق هرمز عند توقيع الإتفاق، لكن حسب ما أذكر كان المضيق مفتوحًا أصلاً قبل الحرب، لذا أحاول أن أفهم أين قدمت إيران تنازلات بالإتفاق؟&#33;  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9979853054910217
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "بقائي: الهجمات الأميركية على السفن التجارية تهدد الملاحة البحرية الدولية https://almanar.com.lb/article/941637/?s=tg",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.8993909643758833
+    },
+    {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "מקורות אופוזיציה איראנים טוענים כי זהו תיעוד של התקיפות האמריקאיות לפני בוקר באזור טהרן.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": " ️حمله هوایی ارتش اسرائ��ل به یک زمین کشاورزی در دیر البلح (مرکز نوار غزه) و در نزدیکی بیمارستان شهداء الاقصی ✅  @sepah_pasdaran",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: بقائي: قطر وباكستان تضطلعان بدور وساطة نشط",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: بقائي: الصياغة النهائية لجزء كبير من النص كان جاهزاً إلا أن الجانب الأميركي كان يواصل تغيير مواقفه خلال المباحثات",
+      "text": "איטליה: מהגר רצח בעריפה אישה בת 44  משטרת איטליה עצרה מהגר מרוקאי שערף אישה בת 44 בסוף חודש פברואר האחרון, בשכונת סקנדיצ&#39;י באזור פירנצה.  ## המקרה צף ועולה ימים בודדים אחרי ניסיון הרצח בעריפה שביצע מהגר סודאני (ולא סומלי כפי שדיווחתי) באזרח בריטי בצפון אירלנד.  האירופאים מאבדים את הראש...  3 תגובות",
       "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: بقائي: مسودة مذكرة التفاهم أصبحت جاهزة تقريباً لكن المشكلة تكمن في التصريحات والمواقف الأميركية المتناقضة",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: وكالة &quot;مهر&quot;: سماع دوي انفجار في عرض البحر على بعد نحو كيلومترين من ساحل ميناء سيريك بمحافظة هرمزكان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: وكالة &quot;تسنيم&quot;: الأصوات المسموعة قرب ميناء سيريك قد تكون مرتبطة بإجراءات القوات المسلحة لمنع مخالفات العبور في مضيق هرمز",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: التلفزيون الإيراني: سماع دوي انفجارين في ميناء بندر عباس جنوب البلاد",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مشهد مرعب.. لحظة استهداف طيران الاحتلال منزلاً في مخيم المغازي وسط قطاع غزة.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال محيط الجامعة العربية الأمريكية في جنين",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "جانب آخر من اقتحام قوات الاحتلال محيط الجامعة العربية الأمريكية في جنين",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "📸 از ناطق تا «رفیقدوست با عصای خاتم» در سالگرد سردار باقری  🔹در  مراسم سالگرد شهادت شهید محمد باقری که با حضور فرماندهان و مقامات برگزار شد، محسن رفیقدوست با لباس سپاه و عصای خاتم حضور یافت.  بقیه تصاویر را اینجا ببینید.  https://irna.ir/xjXxrQ  @IRNA_1313",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9947342193451484
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | جيش الاحتلال ينفذ عملية نسف ضخمة شرقي مدينة خان يونس جنوب قطاع غزة.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸حمله هوایی به یک منزل مسکونی در مرکز نوار غزه  🔹منابع خبری گزارش دادند که جنگنده‌های ارتش رژیم صهیونیستی یک منزل مسکونی را در مرکز نوار غزه بمباران کرده‌اند.  🔹به گزارش بامداد جمعه ایرنا از خبرگزاری شهاب، هواپیماهای جنگی رژیم صهیونیستی یک منزل مسکونی را در اردوگاه المغازی در مرکز نوار غزه هدف قرار داده‌اند. در این حمله شماری از ساختمان‌های اردوگاه المغازی آسیب دیده است.  🔹همزمان یک زمین کشاورزی در شرق دیرالبلح در مرکز نوار غزه نیز هدف حمله هوایی رژیم صهیونیستی قرار گرفته است. همچنین قایق‌های جنگی رژیم صهیونیستی نیز به سوی مناطق ساحلی خان یونس در جنوب نوار غزه آتش گشوده‌اند.  https://irna.ir/xjXxvQ  @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9521788655090591
+      "semantic_danger_knn": 0.8561653052201731
     }
   ]
 }
