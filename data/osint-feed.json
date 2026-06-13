@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-13T20:13:05.620Z",
+  "last_updated": "2026-06-13T22:00:03.075Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.41",
-    "global_norm_sentiment": "-0.39"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.51",
+    "global_norm_sentiment": "-0.37"
   },
   "timeline": [
-    {
-      "time": "2026-06-07T13:44:38.896Z",
-      "danger": 0.514,
-      "sentiment": -0.307,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.579,
-          "sentiment": -0.4
-        },
-        "OSINTdefender": {
-          "danger": 0.595,
-          "sentiment": -0.3
-        },
-        "irna_1313": {
-          "danger": 0.467,
-          "sentiment": -0.233
-        },
-        "sepah_pasdaran": {
-          "danger": 0.317,
-          "sentiment": -0.9
-        },
-        "almanarnews": {
-          "danger": 0.53,
-          "sentiment": -0.567
-        },
-        "C_Military1": {
-          "danger": 0.424,
-          "sentiment": -0.267
-        },
-        "almayadeen": {
-          "danger": 0.613,
-          "sentiment": -0.333
-        },
-        "QudsN": {
-          "danger": 0.669,
-          "sentiment": 0.067
-        }
-      }
-    },
     {
       "time": "2026-06-07T15:22:16.934Z",
       "danger": 0.542,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.333
         }
       }
+    },
+    {
+      "time": "2026-06-13T22:00:03.075Z",
+      "danger": 0.508,
+      "sentiment": -0.367,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.506,
+          "sentiment": -0.667
+        },
+        "OSINTdefender": {
+          "danger": 0.483,
+          "sentiment": -0.9
+        },
+        "irna_1313": {
+          "danger": 0.47,
+          "sentiment": -0.033
+        },
+        "sepah_pasdaran": {
+          "danger": 0.485,
+          "sentiment": -0.5
+        },
+        "almanarnews": {
+          "danger": 0.115,
+          "sentiment": -0.4
+        },
+        "C_Military1": {
+          "danger": 0.519,
+          "sentiment": -0.133
+        },
+        "almayadeen": {
+          "danger": 0.734,
+          "sentiment": -0.8
+        },
+        "QudsN": {
+          "danger": 0.821,
+          "sentiment": -0.1
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.7333333333333333,
-      "knn_danger_metric": 0.5044165461809075
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.5064785251216625
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.4844999198817358
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.4703705126472284
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.7,
-      "knn_danger_metric": 0.3068221781839017
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.48507719914141645
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.22108873730110376
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.11474868365326157
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.22195184245635385
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.5188788940612566
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.44896905372693
+      "raw_sentiment": -0.8,
+      "knn_danger_metric": 0.7341030471504412
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.5126577768829486
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.8205082668898976
     }
   },
   "semantic_logs": [
@@ -2348,88 +2348,88 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين : شهيدان ومصاب جراء قصف إسرائيلي استهدف مجموعة من المواطنين في حي الأمل شمال غربي خان يونس جنوبي قطاع غزة",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": " ️یائیر لاپید، رهبر اپوزیسیون رژیم صهیونیستی: توافق در حال شکل‌گیری هیچ‌یک از اهداف جنگی که دولت نتانیاهو تعیین کرده بود را محقق نمی‌کند. ✅  @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: غارة إسرائيلية تستهدف منطقة كفرجوز في النبطية جنوبي لبنان",
+      "text": "لبنان: مراسل الميادين في الجنوب: قصف مدفعي معاد يستهدف بلدة تولين",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: قصف مدفعي إسرائيلي يستهدف بلدتي سحمر ويحمر في البقاع الغربي شرقي لبنان",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: قصف مدفعي إسرائيلي يستهدف أطراف بلدة زلايا عند مجرى نهر الليطاني في البقاع الغربي شرقي لبنان",
+      "text": "لبنان: مراسل الميادين: قصف مدفعي إسرائيلي على مدينة النبطية جنوبي لبنان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "وسائل إعلام إسرائيلية: &quot;القناة 12&quot;: ترامب أهان نتنياهو خلال الأسبوع الأخير ومن المرجح أن يكون لذلك تأثير على الانتخابات",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: اعتداء إسرائيلي بغارة تستهدف بلدة مجدل زون في قضاء صور جنوبي البلاد",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: اعتداء إسرائيلي بغارة تستهدف منطقة الحوش في مدينة صور جنوبي البلاد",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: اعتداء إسرائيلي بغارة تستهدف النبطية الفوقا جنوبي البلاد",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: اعتداء إسرائيلي بغارة تستهدف بلدة كفرتبنيت في قضاء النبطية جنوبي البلاد",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تطلق الرصاص الحي وقنابل الصوت خلال اقتحامها لقرية عصيرة القبلية، جنوب نابلس.",
+      "text": "اعتقال بدون أي تهمة&#33;   الاحتلال يوسع سياسة الاعتقال الإداري بحق الفلسطينيين، إذ أصدر أكثر من 4000 أمر اعتقال إداري منذ بداية العام الحالي لوحده.  تفاصيل أكثر حول ملف الأسرى الإداريين:",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "الآن..  مشهد من معارك بلدة مجدل زون، حيث يواصل حزب الله استهداف آليات الاحتلال وجنوده.",
-      "absolute_sentiment": 1,
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية تياسير شرق طوباس",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "اولین گل پنالتی جام؛ ⚽گل اول سوئیس به قطر توسط امبولو از روی نقطه پنالتی در دقیقه ۱۷  سوئیس ۱ - قطر ۰  @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9900416935917431
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "⚽️ روز چهارم جام جهانی فوتبال ۲۰۲۶  برزیل - مراکش، ساعت ۱:۳۰ یکشنبه (۲۴ خرداد ۱۴۰۵) به وقت تهران  @IRNA_1313",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9472535695325686
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "📹 تطورات متسارعة في جنوب لبنان يرصدها مراسلنا سامر حاج علي https://almanar.com.lb/article/945522/?s=tg",
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام قوات الاحتلال بلدة قريوت، جنوب شرق نابلس.",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9451672518425872
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قناة &quot;كان&quot; العبرية: &quot;إسرائيل&quot; تمتنع حتى الآن عن تفعيل &quot;حق الرد&quot; وقصف بيروت، رغم استمرار ضربات حزب الله على مستوطنات الشمال. السبب: &quot;ترامب لا يسمح&quot;.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9130953460842013
-    },
-    {
-      "channelId": "idfonline",
-      "channel": "IDF",
-      "text": "תצפיות צה&quot;ל זיהו הבוקר תנועה חשודה סמוך ליישוב חמדיה שבמרחב חטיבת הבקעה והעמקים.לוחמי צה&quot;ל ולוחמי יחידת יג&quot;ל של משטרת ישראל הוזנקו לנקודה ועצרו רכב ובו שלושה חשודים https://t.co/gZaMaQbju7  On May 23, 2023 at 04:52PM Read more via Twitter @idfonline @idfonline",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.819613420621686
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "השר סמוטריץ&#39; קורא להפיל 10 בניינים בדאחיה, עוד הערב, על כל ירי לעבר שטח ישראל.  3 תגובות",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 0.7360611865508361
-    },
-    {
-      "channelId": "idfonline",
-      "channel": "IDF",
-      "text": "״יש לנו היום יכולות מול איראן – הן טובות. צריך לחזק אותן יותר כדי שנוכל לעשות מערכה רחבה מול איראן. לעניין התרחיש הרב זירתי, מקרה בו אנו נלחמים סימולטנית בכמה זירות - זה תרחיש מורכב יותר &gt;&gt;  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 0.7341912238941296
+      "semantic_danger_knn": 1
     }
   ]
 }
