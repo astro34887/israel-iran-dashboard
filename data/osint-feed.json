@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-15T19:44:37.345Z",
+  "last_updated": "2026-06-15T22:16:07.883Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.40",
-    "global_norm_sentiment": "-0.12"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.50",
+    "global_norm_sentiment": "-0.25"
   },
   "timeline": [
-    {
-      "time": "2026-06-09T05:01:56.016Z",
-      "danger": 0.512,
-      "sentiment": -0.365,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.609,
-          "sentiment": -0.4
-        },
-        "OSINTdefender": {
-          "danger": 0.553,
-          "sentiment": -0.533
-        },
-        "irna_1313": {
-          "danger": 0.487,
-          "sentiment": -0.545
-        },
-        "sepah_pasdaran": {
-          "danger": 0.296,
-          "sentiment": -0.567
-        },
-        "almanarnews": {
-          "danger": 0.349,
-          "sentiment": -0.433
-        },
-        "C_Military1": {
-          "danger": 0.697,
-          "sentiment": -0.667
-        },
-        "almayadeen": {
-          "danger": 0.499,
-          "sentiment": -0.2
-        },
-        "QudsN": {
-          "danger": 0.676,
-          "sentiment": -0.167
-        }
-      }
-    },
     {
       "time": "2026-06-09T09:35:28.185Z",
       "danger": 0.534,
@@ -2261,13 +2214,60 @@
           "sentiment": 0.033
         }
       }
+    },
+    {
+      "time": "2026-06-15T22:16:07.883Z",
+      "danger": 0.501,
+      "sentiment": -0.25,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.447,
+          "sentiment": -0.6
+        },
+        "OSINTdefender": {
+          "danger": 0.47,
+          "sentiment": -0.733
+        },
+        "irna_1313": {
+          "danger": 0.591,
+          "sentiment": -0.2
+        },
+        "sepah_pasdaran": {
+          "danger": 0.38,
+          "sentiment": -0.367
+        },
+        "almanarnews": {
+          "danger": 0.347,
+          "sentiment": -0.467
+        },
+        "C_Military1": {
+          "danger": 0.349,
+          "sentiment": 0
+        },
+        "almayadeen": {
+          "danger": 0.673,
+          "sentiment": -0.033
+        },
+        "QudsN": {
+          "danger": 0.803,
+          "sentiment": 0.033
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.4268841043110554
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.4471520750167453
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.4345507008565049
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.5911729346320417
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.2932370981625899
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.3802174049200847
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.1531858348526799
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.3465701487266355
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": 0,
-      "knn_danger_metric": 0.38364791618062366
+      "knn_danger_metric": 0.3490845231412637
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.23333333333333334,
-      "knn_danger_metric": 0.3430948122034858
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.6729374155003723
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.5509509420355643
+      "knn_danger_metric": 0.8028017818726066
     }
   },
   "semantic_logs": [
@@ -2334,102 +2334,102 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 15 العبرية: قال مسؤول إسرائيلي رفيع:&quot;لو كنّا نعلم أن الحرب ستنتهي على هذا النحو من حيث &quot;المسار السياسي&quot;، فليس من المؤكد أنه كان من المجدي الخروج إليها.&quot;  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9971236109619125
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | القناة 12 العبرية: الاحتلال يطلق صواريخ اعتراضية في أجواء مستوطنتي المطلة و&quot;كريات شمونة&quot; قرب الحدود اللبنانية.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9873823808914541
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | قوات كبيرة من جيش الاحتلال تقتحم المنطقة الشرقية في مدينة نابلس؛ لتأمين اقتحام المستوطنين لقبر يوسف.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9596045227592704
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: تفعيل الدفاعات الجوية في الجليل الأعلى.  #الإعلام_الحربي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.956418427463877
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   مراسل إذاعة جيش العدو الإسرائيلي: حتى هذه اللحظة، بالمناسبة، لم يكلف رئيس الوزراء نتنياهو نفسه عناء التعليق على الاتفاق أو التحدث إلى مواطني &quot;إسرائيل&quot; في يوم مهم كهذا. لم يصدر حتى بيانًا مكتوبًا قصيرًا. مرت 17 ساعة منذ إعلان ترامب عن التوصل إلى الاتفاق.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.8687780475840451
-    },
-    {
-      "channelId": "idfonline",
-      "channel": "IDF",
-      "text": "תצפיות צה&quot;ל זיהו הבוקר תנועה חשודה סמוך ליישוב חמדיה שבמרחב חטיבת הבקעה והעמקים.לוחמי צה&quot;ל ולוחמי יחידת יג&quot;ל של משטרת ישראל הוזנקו לנקודה ועצרו רכב ובו שלושה חשודים https://t.co/gZaMaQbju7  On May 23, 2023 at 04:52PM Read more via Twitter @idfonline @idfonline",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.819613420621686
-    },
-    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": " ️رهبر معظم انقلاب آیت الله سید مجتبی خامنه‌ای: 🔹 از جمله مصادیق تقوا، رعایت نعمت عظیم وحدت ملّی و انسجام بی‌بدیلی است که حول پرچم ایران اسلامی به ملّت بعثت یافته ارزانی شده و در زمره‌ مهمترین عوامل ظفر در مقابل شیطان بزرگ می‌باشد. ✅ ️ @sepah_pasdaran",
+      "text": " ️آخرین توصیه سردار قاآنی به صهیونیست ها: با رزمندگان حزب‌الله درگیر نشوید، جز شکست نتیجه ای برایتان ندارد. ✅  @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: قاآني: لا أحد يستطيع الوقوف في وجه حزب الله",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: قاآني: كل ما ظهر من قوة حزب الله ليس إلا غيضاً من فيض",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: قاآني: الحرب المفروضة الأخيرة سرعت من عملية انهيار الكيان الإسرائيلي",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.8003439738757135
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸یک فروند بمب افکن بی ۵۲ ارتش آمریکا سقوط کرد  🔹پایگاه هوایی ادواردز  ارتش آمریکا اعلام کرد یک فروند بمب‌افکن  بی -۵۲  نیروی هوایی این کشور پس از برخاستن از باند فرودگاه دچار سانحه شد و سقوط کرد.  https://irna.ir/xjXz37 @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.7620496649355253
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "מקורות לבנוניים מדווחים לפני זמן קצר על ירי רקטי של חזבאללה לעבר כוחות מתמרנים של צה&quot;ל שמתקדמים צפונה מאזור אלביאצ&#39;ה על חוף הים בגזרה המערבית של דרום לבנון לעבר אזור ביות א-סיאד (כפי שניתן לראות במפה המצורפת).  ## זה אזור שני בו מדווחת בשעתיים האחרונות תנועת כוחות חדשה של צה&quot;ל, במטרה להשתלט על שטחים חדשים.  תגובה אחת",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 0.7402186183554892
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "גם רשת אלג&#39;זירה מאשרת, מפי מקורותיה, את הדיווחים על התקדמות כוחות מתמרנים של צה&quot;ל לעבר רכס עלי א-טאהר 👆  4 תגובות",
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: قصف مدفعي إسرائيلي يعتدي على بلدة أرنون",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.7360611865508361
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "idfonline",
-      "channel": "IDF",
-      "text": "״יש לנו היום יכולות מול איראן – הן טובות. צריך לחזק אותן יותר כדי שנוכל לעשות מערכה רחבה מול איראן. לעניין התרחיש הרב זירתי, מקרה בו אנו נלחמים סימולטנית בכמה זירות - זה תרחיש מורכב יותר &gt;&gt;  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 0.7341912238941296
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم حي العباسية ببلدة سلوان في القدس المحتلة.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸مقام آمریکایی: امضای الکترونیکی ترامپ و ونس پای توافق با ایران است  🔹شبکه خبری سی ان ان به نقل از یک مقام ارشد دولت آمریکا اعلام کرد که امضای الکترونیکی دونالد ترامپ رئیس جمهوری آمریکا و «جی دی ونس» معاون او پای توافق با ایران است.  https://irna.ir/xjXz2T @IRNA_1313",
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تقتحم بلدة دير بلوط، غرب سلفيت.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جيش الاحتلال يفتش المركبات عند مفترق قرية عراق التايه شرق مدينة نابلس.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.7020012254555039
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "OSINTdefender",
-      "channel": "Global_OSINT",
-      "text": "#NK  North Korea&#39;s Foreign Ministry reaffirmed in June 2026 that its status as a nuclear power is &quot;absolutely nonnegotiable,&quot; calling the policy irreversible and unconditional amid recent diplomatic tensions.  Subscribe to @OSINTdefender Chat room",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.6684424619331631
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "بحماية قوات الاحتلال.. مستوطنون يقتحمون مقام قبر يوسف شرقي مدينة نابلس.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸ادعای مقام آمریکایی: توافق با ایران مستلزم خروج اسرائیل از لبنان نیست  🔹یک مقام ارشد آمریکایی در پی توافق ایران و آمریکا مدعی شد: توافق دولت ترامپ با ایران شامل هیچ الزامی برای خروج اسرائیل از لبنان نمی‌شود.  https://irna.ir/xjXz2H @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.6665189609357208
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم مخيم عسكر الجديد شرق نابلس.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة دير الغصون شمال طولكرم.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تقتحم مخيم قلنديا، شمال القدس المحتلة.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام قوات الاحتلال مخيم قلنديا، شمال القدس المحتلة.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام قوات الاحتلال بلدة دير الغصون شمال طولكرم",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
     }
   ]
 }
