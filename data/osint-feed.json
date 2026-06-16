@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-15T22:16:07.883Z",
+  "last_updated": "2026-06-16T00:28:05.688Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.50",
-    "global_norm_sentiment": "-0.25"
+    "global_knn_danger": "0.51",
+    "global_norm_sentiment": "-0.21"
   },
   "timeline": [
-    {
-      "time": "2026-06-09T09:35:28.185Z",
-      "danger": 0.534,
-      "sentiment": -0.26,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.475,
-          "sentiment": -0.567
-        },
-        "OSINTdefender": {
-          "danger": 0.524,
-          "sentiment": -0.067
-        },
-        "irna_1313": {
-          "danger": 0.411,
-          "sentiment": -0.3
-        },
-        "sepah_pasdaran": {
-          "danger": 0.336,
-          "sentiment": -0.5
-        },
-        "almanarnews": {
-          "danger": 0.622,
-          "sentiment": -0.133
-        },
-        "C_Military1": {
-          "danger": 0.778,
-          "sentiment": -0.767
-        },
-        "almayadeen": {
-          "danger": 0.496,
-          "sentiment": 0.033
-        },
-        "QudsN": {
-          "danger": 0.745,
-          "sentiment": -0.167
-        }
-      }
-    },
     {
       "time": "2026-06-09T12:33:31.623Z",
       "danger": 0.507,
@@ -2261,6 +2214,53 @@
           "sentiment": 0.033
         }
       }
+    },
+    {
+      "time": "2026-06-16T00:28:05.688Z",
+      "danger": 0.506,
+      "sentiment": -0.215,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.447,
+          "sentiment": -0.6
+        },
+        "OSINTdefender": {
+          "danger": 0.47,
+          "sentiment": -0.733
+        },
+        "irna_1313": {
+          "danger": 0.622,
+          "sentiment": 0.583
+        },
+        "sepah_pasdaran": {
+          "danger": 0.327,
+          "sentiment": -0.467
+        },
+        "almanarnews": {
+          "danger": 0.396,
+          "sentiment": -0.467
+        },
+        "C_Military1": {
+          "danger": 0.349,
+          "sentiment": 0
+        },
+        "almayadeen": {
+          "danger": 0.592,
+          "sentiment": -0.067
+        },
+        "QudsN": {
+          "danger": 0.904,
+          "sentiment": -0.267
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2290,21 +2290,21 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.5911729346320417
+      "num_messages": 12,
+      "raw_sentiment": 0.5833333333333334,
+      "knn_danger_metric": 0.6221809904834523
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.3802174049200847
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.3268758619628459
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.3465701487266355
+      "knn_danger_metric": 0.39636092848080506
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.6729374155003723
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.591741613886755
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.8028017818726066
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.9044028682061819
     }
   },
   "semantic_logs": [
@@ -2334,23 +2334,16 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": " ️آخرین توصیه سردار قاآنی به صهیونیست ها: با رزمندگان حزب‌الله درگیر نشوید، جز شکست نتیجه ای برایتان ندارد. ✅  @sepah_pasdaran",
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 تركيا | أردوغان يرحب بالاتفاق الأمريكي الإيراني ويؤكد فشل محاولات إشعال الفتنة بين شعوب المنطقة https://almanar.com.lb/article/951767/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: قاآني: لا أحد يستطيع الوقوف في وجه حزب الله",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: قاآني: كل ما ظهر من قوة حزب الله ليس إلا غيضاً من فيض",
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 &quot;سي إن إن&quot;: مصرع ثمانية من أفراد طاقم بي-52 التي تحطمت في كاليفورنيا https://almanar.com.lb/article/951782/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2369,44 +2362,9 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم حي العباسية ببلدة سلوان في القدس المحتلة.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم بلدة دير بلوط، غرب سلفيت.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "جيش الاحتلال يفتش المركبات عند مفترق قرية عراق التايه شرق مدينة نابلس.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "بحماية قوات الاحتلال.. مستوطنون يقتحمون مقام قبر يوسف شرقي مدينة نابلس.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم مخيم عسكر الجديد شرق نابلس.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة دير الغصون شمال طولكرم.",
+      "text": "لبنان: مراسل الميادين في الجنوب: قصف مدفعي إسرائيلي يستهدف جبل الرفيع",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
@@ -2428,6 +2386,48 @@
       "channelId": "QudsN",
       "channel": "Arab_Axis",
       "text": "جانب من اقتحام قوات الاحتلال بلدة دير الغصون شمال طولكرم",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مشاهد من اقتحام قوات الاحتلال مخيم قلنديا شمال القدس المحتلة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم حي الطيرة في مدينة رام الله.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة يعبد، جنوب غرب جنين.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تداهم منزلاً خلال اقتحام بلدة صيدا شمال طولكرم",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تعتقل الشاب &quot;يزن سائد بدران&quot; عقب مداهمة منزله في بلدة دير الغصون شمال طولكرم.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام قوات الاحتلال بلدة يعبد، جنوب غرب جنين.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
