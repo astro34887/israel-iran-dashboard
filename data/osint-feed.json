@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-16T06:31:15.000Z",
+  "last_updated": "2026-06-16T12:10:01.466Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.50",
-    "global_norm_sentiment": "-0.20"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.46",
+    "global_norm_sentiment": "-0.10"
   },
   "timeline": [
-    {
-      "time": "2026-06-09T15:52:19.447Z",
-      "danger": 0.528,
-      "sentiment": -0.29,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.591,
-          "sentiment": -0.6
-        },
-        "OSINTdefender": {
-          "danger": 0.524,
-          "sentiment": -0.067
-        },
-        "irna_1313": {
-          "danger": 0.441,
-          "sentiment": -0.1
-        },
-        "sepah_pasdaran": {
-          "danger": 0.555,
-          "sentiment": -0.267
-        },
-        "almanarnews": {
-          "danger": 0.415,
-          "sentiment": -0.2
-        },
-        "C_Military1": {
-          "danger": 0.403,
-          "sentiment": -0.667
-        },
-        "almayadeen": {
-          "danger": 0.814,
-          "sentiment": -0.5
-        },
-        "QudsN": {
-          "danger": 0.588,
-          "sentiment": -0.367
-        }
-      }
-    },
     {
       "time": "2026-06-09T17:59:04.932Z",
       "danger": 0.488,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.1
         }
       }
+    },
+    {
+      "time": "2026-06-16T12:10:01.466Z",
+      "danger": 0.457,
+      "sentiment": -0.104,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.419,
+          "sentiment": -0.4
+        },
+        "OSINTdefender": {
+          "danger": 0.438,
+          "sentiment": -0.5
+        },
+        "irna_1313": {
+          "danger": 0.513,
+          "sentiment": 0.133
+        },
+        "sepah_pasdaran": {
+          "danger": 0.366,
+          "sentiment": -0.267
+        },
+        "almanarnews": {
+          "danger": 0.47,
+          "sentiment": 0.033
+        },
+        "C_Military1": {
+          "danger": 0.447,
+          "sentiment": 0.333
+        },
+        "almayadeen": {
+          "danger": 0.395,
+          "sentiment": -0.167
+        },
+        "QudsN": {
+          "danger": 0.576,
+          "sentiment": -0.071
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2278,9 +2278,9 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 12,
-      "raw_sentiment": -0.4583333333333333,
-      "knn_danger_metric": 0.5180640665935993
+      "num_messages": 15,
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.41905291998414756
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.5677140388575286
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.5134796453929503
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.2,
-      "knn_danger_metric": 0.42487181200431007
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.36598797362209995
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.6102037665991812
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.46963591208021427
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.3490845231412637
+      "raw_sentiment": 0.3333333333333333,
+      "knn_danger_metric": 0.44691769262333764
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.6220432069930446
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.3946425925101396
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.5434205154396852
+      "num_messages": 7,
+      "raw_sentiment": -0.07142857142857142,
+      "knn_danger_metric": 0.5763772124013063
     }
   },
   "semantic_logs": [
@@ -2334,102 +2334,102 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 تركيا | أردوغان يرحب بالاتفاق الأمريكي الإيراني ويؤك�� فشل محاولات إشعال الفتنة بين شعوب المنطقة https://almanar.com.lb/article/951767/?s=tg",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "השר סמוטריץ׳: ביטלתי את הסכמי חברון.   אמש אישרה מועצת התכנון העליונה את משיכת כלל סמכויות התכנון והבנייה שהוענקו לעיריית חברון -  והן חוזרות לאחריות מלאה של מדינת ישראל.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "השר סמוטריץ׳: ביטלתי את הסכמי חברון.   אמש אישרה מועצת התכנון העליונה את משיכת כלל סמכויות התכנון והבנייה שהוענקו לעיריית חברון -  והן חוזרות לאחריות מלאה של מדינת ישראל.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "✅ يورو : 185,800 🔸دلار آمريکا : 160,500 🔸تتر : 159,250 🔸پوند انگليس : 213,000 🔸درهم امارات : 43,400 🔸يوآن چين : 23,840 🔸لير ترکيه : 3,520 🔸دینار کویت : 520,440  🔹طلاي 18 عيار هر گرم : 16,021,100 🔹سکه امامي : 162,000,000 🔹سکه بهار آزادي : 161,500,000 🔹نيم سکه…",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "🔵 &quot;سي إن إن&quot;: مصرع ثمانية من أفراد طاقم بي-52 التي تحطمت في كاليفورنيا https://almanar.com.lb/article/951782/?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 غوتيريش: الاتفاق الأمريكي الإيراني خطوة حاسمة نحو تسوية سلمية للنزاع https://almanar.com.lb/article/951892/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "ترحيب دولي وإقليمي واسع بالتفاهم الإيراني الأميركي… وإشادات بدبلوماسية أنهت الحرب وفتحت باب الاستقرار https://almanar.com.lb/article/952042/?s=tg",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 بزشكيان: الشعب الإيراني تعلم من إمامه الشهيد ألا يرضخ للذل.. وتوجيهات القائد صانت المصالح الوطنية في التفاهم مع واشنطن https://almanar.com.lb/article/952067/?s=tg",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: قصف مدفعي إسرائيلي يستهدف جبل الرفيع",
+      "text": "الرئيس بري يبدي ارتياحه لمذكرة التفاهم الاميركية الايرانية وشمولها لبنان: ما حصل إنجاز مهمّ جداً https://almanar.com.lb/article/952417/?s=tg",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: إطلاق صلية صاروخية باتجاه تحشدات الاحتلال عند معبر كفرتبنيت في قضاء النبطية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء بقصف مدفعي إسرائيلي استهدف أطراف بلدة العيشية في قضاء جزين",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: الرئيس جوزاف عون بمناسبة حلول رأس السنة الهجرية: لترسيخ وحدتنا الوطنية لمواجهة الأخطار المحدقة صوناً لسيادة لبنان",
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 الرئيسان عون وسلام: التفاهم الاميركي - الإيراني يشكل عاملا ايجابياً https://almanar.com.lb/article/952442/?s=tg",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: عون: نأمل أن تحمل التطورات الأخيرة ما ينهي معاناة شعبنا ويحرر أرضنا المحتلة",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "&quot;ديروا بالكم مني&quot; جندي من جيش الاحتلال يهدد الصحفيين ويطردهم أثناء تغطية اقتحام المنطقة الشرقية في مدينة نابلس",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تواصل اقتحام جبل طاروسا غرب دورا، مع نصب خيمة استيطانية وأعلام الاحتلال.",
+      "text": "فلسطين المحتلة: الرئاسة الفلسطينية: نحذر من خطورة خطوة حكومة الاحتلال اليمينية التي أعلنت فيها إلغاء اتفاقيات الخليل بمنطقة الحرم الإبراهيمي",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "إطلاق نار كثيف من آليات الاحتلال وقنابل دخانية قرب شارع صلاح الدين في دوار بني سهيلا شرق خانيونس.",
+      "text": "وقفة في نابلس، دعمًا وإسنادًا للأسرى في سجون الاحتلال.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مستوطنون ينصبون أعلام الاحتلال قرب مثلث سوبا شرق إذنا غرب الخليل.",
-      "absolute_sentiment": 1,
+      "text": "والدة الأسير اياد مسيمي بالمحكوم بالسجن 30 عاما لدى الاحتلال تتحدث عن أمنياتها خلال وقفة تضامنية في نابلس",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "الاحتلال يعتقل فلسطينيين في مخيم نور شمس رغم سماحه لهم عبر تنسيق خاص لإخراج مقتنياتهم من منازلهم المهجرين عنها قسرا منذ شهور.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 12 العبرية: نتنياهو سيرأس اجتماعًا للكابينيت اليوم.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9957890513813449
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "بنت: دولت نتانیاهو با شکست تاریخی در برابر ایران به پایان می‌رسد    🔹«نفتالی  بنت» نخست‌وزیر سابق رژیم اشغالگر دیشب در نشست خبری در پی اعلام دستیابی به توافق بین ایالات متحده و ایران، حمله تندی به بنیامین نتانیاهو کرد و گفت دوره دولت او «با یک شکست تاریخی در برابر ایران به پایان می‌رسد».  @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9949151460802924
+    },
+    {
+      "channelId": "idfonline",
+      "channel": "IDF",
+      "text": "תצפיות צה&quot;ל זיהו הבוקר תנועה חשודה סמוך ליישוב חמדיה שבמרחב חטיבת הבקעה והעמקים.לוחמי צה&quot;ל ולוחמי יחידת יג&quot;ל של משטרת ישראל הוזנקו לנקודה ועצרו רכב ובו שלושה חשודים https://t.co/gZaMaQbju7  On May 23, 2023 at 04:52PM Read more via Twitter @idfonline @idfonline",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.819613420621686
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸ترامپ و انتقاد صریح از تل‌آویو؛ حمله به بیروت «نامتناسب و وحشیانه» توصیف شد  🔹در حاشیه اجلاس گروه هفت، دونالد ترامپ با انتقاد صریح از بنیامین نتانیاهو، حمله رژیم صهیونیستی به بیروت را «وحشیانه و نامتناسب» توصیف کرد .پ  🔹او خواستار رویکردی مسئولانه‌تر در قبال تحولات لبنان شد؛ اظهاراتی که در ادامه بر پیچیدگی روابط واشنگتن و تل‌آویو و تشدید بحث‌ها درباره شیوه مدیریت جنگ در خاورمیانه سایه افکنده است.  https://irna.ir/xjXzkY @IRNA_1313",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.7900396001846506
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "חמאס מגיבה להצהרות שר האוצר סמוטריץ&#39; הבוקר בנוגע לחברון 👆:  &quot;תנועת ההתנגדות האסלאמית חמאס מזהירה מפני חומרת ההצהרות והצעדים שעליהם הכריז שר האוצר של הכיבוש, הקיצוני והפושע בצלאל סמוטריץ&#39;, בנוגע להשלמת השליטה בעיר חברון. מדובר בהסלמה מדינית והסלמה בפועל, בשטח, באופן חסר תקדים, שמטרתה לבסס את הכיבוש, להעמיק את שליטתו ולגזול את אדמות הגדה המערבית.  אנו מדגישים כי צעדים ציוניים קיצוניים אלה הם ניסיון נואש להרחיב את השליטה על העיר חברון וסביבתה, במסגרת פרויקט קולוניאליסטי שמטרתו לכפות ריבונות ציונית על כלל הגדה המערבית, להעניק לגיטימציה לכאורה להתנחלויות ולהאיץ את מהלכי הסיפוח והעקירה.  אנו דורשים מהקהילה הבינ&quot;ל ומן האו&quot;ם לשאת באחריותם המשפטית והמוסרית, ולפעול בדחיפות לבלימת מדיניות הכיבוש הפשיסטית, שאינה מכבדת זכויות ואמנות או נורמות בינלאומיות.&quot;  תגובה אחת",
+      "absolute_sentiment": -0.5,
+      "semantic_danger_knn": 0.7843869088913393
     }
   ]
 }
