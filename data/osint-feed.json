@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-17T19:23:10.871Z",
+  "last_updated": "2026-06-17T21:57:51.827Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.48",
-    "global_norm_sentiment": "-0.09"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.51",
+    "global_norm_sentiment": "-0.17"
   },
   "timeline": [
-    {
-      "time": "2026-06-10T16:33:01.869Z",
-      "danger": 0.509,
-      "sentiment": -0.197,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.593,
-          "sentiment": -0.567
-        },
-        "OSINTdefender": {
-          "danger": 0.517,
-          "sentiment": -0.333
-        },
-        "irna_1313": {
-          "danger": 0.482,
-          "sentiment": 0
-        },
-        "sepah_pasdaran": {
-          "danger": 0.377,
-          "sentiment": -0.6
-        },
-        "almanarnews": {
-          "danger": 0.378,
-          "sentiment": 0
-        },
-        "C_Military1": {
-          "danger": 0.492,
-          "sentiment": -0.467
-        },
-        "almayadeen": {
-          "danger": 0.564,
-          "sentiment": 0.167
-        },
-        "QudsN": {
-          "danger": 0.741,
-          "sentiment": -0.033
-        }
-      }
-    },
     {
       "time": "2026-06-10T21:56:56.320Z",
       "danger": 0.52,
@@ -2261,6 +2214,53 @@
           "sentiment": 0.1
         }
       }
+    },
+    {
+      "time": "2026-06-17T21:57:51.827Z",
+      "danger": 0.509,
+      "sentiment": -0.17,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.385,
+          "sentiment": -0.167
+        },
+        "OSINTdefender": {
+          "danger": 0.516,
+          "sentiment": -0.133
+        },
+        "irna_1313": {
+          "danger": 0.533,
+          "sentiment": -0.267
+        },
+        "sepah_pasdaran": {
+          "danger": 0.287,
+          "sentiment": -0.133
+        },
+        "almanarnews": {
+          "danger": 0.354,
+          "sentiment": 0.2
+        },
+        "C_Military1": {
+          "danger": 0.631,
+          "sentiment": -0.6
+        },
+        "almayadeen": {
+          "danger": 0.772,
+          "sentiment": -0.033
+        },
+        "QudsN": {
+          "danger": 0.665,
+          "sentiment": -0.433
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.31717934014406163
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.38542121219350517
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.4047930155373952
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.5326979342891589
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.3121927608507285
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.2874599342776128
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.39013651966442436
+      "raw_sentiment": 0.2,
+      "knn_danger_metric": 0.35379784600129566
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.5163354424575943
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.6308245669829616
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.8060560741054082
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.7720070251698504
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.5450878215712126
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.6648342790598183
     }
   },
   "semantic_logs": [
@@ -2334,10 +2334,10 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": " ️آتش‌سوزی گسترده در انباری در سن-سن-دنی نزدیک شهر پاریس  آتش‌سوزی بزرگی منطقه سن سن دنی  را در بر گرفت و یک انبار در منطقه صنعتی در آتش سوخت.  ✅  @sepah_pasdaran",
-      "absolute_sentiment": 1,
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "ערוצים לבנוניים מדווחים על ירי פצצות זרחן של צה&quot;ל על רכס עלי א-טאהר בנפת נבטיה.  תגובה אחת",
+      "absolute_sentiment": -0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2350,86 +2350,86 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: السيد علم الهدى: الجهات الأمنية طلبت منا ألا نجتمع في مكان واحد كي لا يتم استهداف مجلس خبراء القيادة واغتيال أعضائه",
-      "absolute_sentiment": -1,
+      "text": "إيران: قاليباف: مذكرة التفاهم قائمة على مبدأ &quot;الخطوة مقابل الخطوة&quot;",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: السيد علم الهدى: بحسب النظام الداخلي فإن حضور ثلثي خبراء مجلس القيادة يجعل الجلسة قانونية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: السيد علم الهدى: اجتمع أكثر من ثلثي أعضاء مجلس خبراء القيادة في مكان محدد حيث شارك 61 شخصا من أصل 80",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: السيد علم الهدى: من ناحية الفقه والعدالة السيد مجتبى شخصية فذة وكذلك في الإدارة والسياسة",
+      "text": "إيران: بقائي: في البند الأول من مذكرة التفاهم ورد اسم لبنان 3 مرات كما تم التأكيد على احترام السلامة الإقليمية وسيادة لبنان",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: السيد علم الهدى: خلال العدوان تم قصف مستشفى عندما ظنوا أن السيد مجتبى موجود فيه",
+      "text": "إيران: بقائي: صواريخنا لا تحب بتاتاً أن يتحدث أحد عنها وقد صُنعت للإطلاق فقط وليس للتفاوض حولها",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: السيد علم الهدى: أرسلنا رسالة للسيد مجتبى بأننا نريد أن نأتي ونبلغك بأنه تم انتخابك فقال أنا لا أرضى بذلك",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: السيد علم الهدى: في جانب من المقام الشريف في قم اجتمع أعضاء مجلس الخبراء وتم التصويت لانتخاب السيد مجتبى خامنئي",
+      "text": "إيران: بقائي: لن يتم الحديث عن القدرات الدفاعية لإيران في أي مسار كان ومع أي طرف كان",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: نص المذكرة: يتعهد الأطراف بالامتناع عن التهديد أو استخدام القوة ضد بعضهم البعض وضمان وحدة الأراضي اللبنانية وسيادتها",
+      "text": "وسائل إعلام إسرائيلية: مقتل أحد جنود اللواء &quot;غفعاتي&quot; وإصابة آخر بجروح حرجة للغاية في حادث بجنوب لبنان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: بقائي: إذا أثار الأميركيون أي عراقيل في تنفيذ تعهداتهم فسنفعل نحن الأمر نفسه",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: بقائي: سنرصد تنفيذ الطرف الآخر لتعهداته دون أي مماطلة أو تسامح ولن ننفذ تعهداتنا إلا إذا التزم الطرف الآخر بتعهداته",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: بقائي: تخفيف المواد المخصبة مطروح الآن كخيار لكي نغلق الطريق أمام الخيارات الأخرى",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "فلسطينيون يواصلون الاعتصام لحماية أراضيهم التي يهددها الاحتلال بالمصادرة لصالح الاستيطان في منطقة &quot;حمصة&quot; غرب دورا بالخليل.",
-      "absolute_sentiment": 0.5,
+      "text": "قبة الصخرة المشرفة في المسجد الأقصى المُبارك، مساء اليوم.",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "الاحتلال يخطر بهدم مسكن في تجمع عين الحلوة بالأغوار الشمالية، وسط تصاعد اعتداءات المستوطنين",
+      "text": "مصادر محلية: قوات الاحتلال تطلق قنابل الغاز خلال اقتحام قرية رأس كركر، غرب رام الله.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 15 العبرية - المحلل العسكري يوسي يهوشع: ترمب يقول بأنه لو واصل القصف سنتين لن يتمكن من فتح مضيق هرمز، ونحن نقول له لو أن جيشك كان مستعداً لفُتح المضيق منذ زمن.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9976922097644287
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم مخيم الفوار، جنوب الخليل.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: تفعيل الدفاعات الجوية في الجليل الأعلى.  #الإعلام_الحربي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.956418427463877
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم مدينة أريحا بالضفة الغربية",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
     }
   ]
 }
