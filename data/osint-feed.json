@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-19T19:44:13.683Z",
+  "last_updated": "2026-06-19T21:06:26.692Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.28"
+    "global_norm_sentiment": "-0.30"
   },
   "timeline": [
-    {
-      "time": "2026-06-12T19:02:10.425Z",
-      "danger": 0.441,
-      "sentiment": -0.3,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.475,
-          "sentiment": -0.467
-        },
-        "OSINTdefender": {
-          "danger": 0.492,
-          "sentiment": -0.8
-        },
-        "irna_1313": {
-          "danger": 0.473,
-          "sentiment": -0.1
-        },
-        "sepah_pasdaran": {
-          "danger": 0.327,
-          "sentiment": -0.5
-        },
-        "almanarnews": {
-          "danger": 0.273,
-          "sentiment": -0.1
-        },
-        "C_Military1": {
-          "danger": 0.258,
-          "sentiment": -0.467
-        },
-        "almayadeen": {
-          "danger": 0.571,
-          "sentiment": -0.167
-        },
-        "QudsN": {
-          "danger": 0.586,
-          "sentiment": -0.267
-        }
-      }
-    },
     {
       "time": "2026-06-12T21:28:36.430Z",
       "danger": 0.467,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.3
         }
       }
+    },
+    {
+      "time": "2026-06-19T21:06:26.692Z",
+      "danger": 0.517,
+      "sentiment": -0.303,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.528,
+          "sentiment": -0.7
+        },
+        "OSINTdefender": {
+          "danger": 0.475,
+          "sentiment": -0.233
+        },
+        "irna_1313": {
+          "danger": 0.561,
+          "sentiment": -0.467
+        },
+        "sepah_pasdaran": {
+          "danger": 0.404,
+          "sentiment": -0.667
+        },
+        "almanarnews": {
+          "danger": 0.297,
+          "sentiment": 0
+        },
+        "C_Military1": {
+          "danger": 0.6,
+          "sentiment": -0.4
+        },
+        "almayadeen": {
+          "danger": 0.618,
+          "sentiment": -0.1
+        },
+        "QudsN": {
+          "danger": 0.739,
+          "sentiment": -0.333
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.5004813698437819
+      "raw_sentiment": -0.7,
+      "knn_danger_metric": 0.5281869333211399
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,14 +2291,14 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.5542919763184226
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.5613959979352072
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.38104530210945164
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.40414689302454754
     },
     "almanarnews": {
       "name": "Hezbollah",
@@ -2310,19 +2310,19 @@
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.5940007040005922
+      "knn_danger_metric": 0.6001547176296919
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.8422153350858719
+      "knn_danger_metric": 0.6182392619740844
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.6099611103881348
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.7386054306636305
     }
   },
   "semantic_logs": [
@@ -2350,84 +2350,84 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: قائد قوة القدس العميد إسماعيل قاآني: عندما قلنا إن حزب الله لديه &quot;مرصاد&quot; لم تكترثوا فوقعتم في مأزق",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: قاآني: غزة لديها طوفان أيضاً وإذا تحركتم وفقاً لرغبات سياسييكم فستقعون في شرك الطوفان",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: &quot;القناة 13&quot;: ما يثير القلق هو أن حزب الله بات يستهدف قادة &quot;الجيش&quot; الإسرائيلي بشكل مباشر. فهو يعرف كيف يحدد المركبات التي يستخدمها القادة للتنقل",
+      "text": "إيران: رضائي: القوات المسلحة الإيرانية وجّهت ضربة لأحدث التكنولوجيات الأميركية وأكثرها تطوراً",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: العقيد في الاحتياط رونين كوهين: نحن في لبنان كالبط في حقل الرماية وجنودنا يقتلون هناك عبثاً ونحن ما زلنا في بداية الطريق",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: العقيد في الاحتياط رونين كوهين: من يعرف تجربة لبنان يدرك أننا لم نشهد بعد الأحداث الصعبة فعلياً. الكلفة مقابل الفائدة لا تستحق ذلك",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: العقيد في الاحتياط رونين كوهين: يجب الانسحاب من لبنان وبدلاً من أن ننتظر حتى يفرض علينا الواقع التراجع، من الأفضل أن نقف عند السياج",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: اللواء احتياط إسرائيل زيف: &quot;الجيش&quot; الإسرائيلي في أسوأ وضع عملياتي له في لبنان",
+      "text": "إيران: عزيزي: استمرار هذا الوضع سيكلفهم ثمناً باهظاً، أوله ردٌّ ذكيٌّ ورادعٌ على خرق بنود مذكرة التفاهم",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: رضائي للتلفزيون الإيراني: الحرب والدفاع لم ينتهيا بعد وعلى أبناء شعبنا البقاء في الساحة",
+      "text": "سوريا: مصادر محلية: طيران مسيّر يعتقد أنه تابع للتحالف الدولي يستهدف دراجة نارية على طريق مشهد روحين - دير حسان بريف إدلب شمال سوريا",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: شهيد إثر قصف إسرائيلي استهدف منطقة الصناعة في مواصي خان يونس جنوبي قطاع غزة",
+      "text": "وسائل إعلام إسرائيلية: &quot;يديعوت أحرونوت&quot;: بسبب المخاطر لم تتمكن الجهات المختصة من سحب دبابة قائد &quot;الكتيبة 52&quot; الذي قتل في جنوب لبنان",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
+      "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "إيران: رضائي: القوات المسلحة الإيرانية وجّهت ضربة لأحدث التكنولوجيات الأميركية وأكثرها تطوراً",
+      "text": "أهالي المختطفين والمفقودين السوريين في السجون الإسرائيلية ينظمون وقفة أمام مقر قوات &quot;الأندوف&quot; الدولية في القنيطرة، ويطالبون بالكشف الفوري عن مصير ذويهم المغيّبين قسراً.",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "الاحتلال يقصف خيمة للنازحين في &quot;منطقة الصناعة&quot; غرب مدينة خان يونس، جنوب قطاع غزة.",
+      "text": "مصادر محلية| قوات الاحتلال تطلق نيرانها تجاه جنوبي مواصي رفح جنوب قطاع غزة.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قائد فيلق القدس في الحرس الثوري الإيراني:   - عندما قلنا إن حزب الله لديه &quot;مرصاد&quot; لم تنتبهوا لذلك، فوقعتم في مشكلة.. من سيتحمل مسؤولية 100 قتيل؟  - غزة أيضًا فيها &quot;طوفان&quot;، وإذا تحركتم وفق رغبة سياسييكم فستقعون في الطوفان.. كونوا حذرين.",
+      "text": "قوات الاحتلال تقتحم بلدة تقوع جنوب شرق بيت لحم .",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة حجة شرق قلقيلية.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جيش الاحتلال يقتحم بلدة بيت عنان شمال غرب القدس المحتلة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تعتقل شابين خلال اقتحام منطقة جبل بئر قوزا ببلدة بيتا جنوب نابلس",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل: زوارق الاحتلال الحربية تطلق نيرانها تجاه ساحل جنوبي قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تطلق القنابل المضيئة في منطقة  وادي الحمص شرقي بيت لحم",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
