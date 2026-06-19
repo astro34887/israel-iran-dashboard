@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-19T17:18:14.194Z",
+  "last_updated": "2026-06-19T19:44:13.683Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.50",
-    "global_norm_sentiment": "-0.14"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.28"
   },
   "timeline": [
-    {
-      "time": "2026-06-12T16:14:46.897Z",
-      "danger": 0.476,
-      "sentiment": -0.289,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.506,
-          "sentiment": -0.333
-        },
-        "OSINTdefender": {
-          "danger": 0.537,
-          "sentiment": -0.8
-        },
-        "irna_1313": {
-          "danger": 0.321,
-          "sentiment": -0.133
-        },
-        "sepah_pasdaran": {
-          "danger": 0.265,
-          "sentiment": -0.533
-        },
-        "almanarnews": {
-          "danger": 0.429,
-          "sentiment": 0.133
-        },
-        "C_Military1": {
-          "danger": 0.439,
-          "sentiment": -0.333
-        },
-        "almayadeen": {
-          "danger": 0.533,
-          "sentiment": -0.333
-        },
-        "QudsN": {
-          "danger": 0.778,
-          "sentiment": -0.423
-        }
-      }
-    },
     {
       "time": "2026-06-12T19:02:10.425Z",
       "danger": 0.441,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.3
         }
       }
+    },
+    {
+      "time": "2026-06-19T19:44:13.683Z",
+      "danger": 0.52,
+      "sentiment": -0.28,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.5,
+          "sentiment": -0.567
+        },
+        "OSINTdefender": {
+          "danger": 0.475,
+          "sentiment": -0.233
+        },
+        "irna_1313": {
+          "danger": 0.554,
+          "sentiment": -0.567
+        },
+        "sepah_pasdaran": {
+          "danger": 0.381,
+          "sentiment": -0.5
+        },
+        "almanarnews": {
+          "danger": 0.297,
+          "sentiment": 0
+        },
+        "C_Military1": {
+          "danger": 0.594,
+          "sentiment": -0.4
+        },
+        "almayadeen": {
+          "danger": 0.842,
+          "sentiment": -0.1
+        },
+        "QudsN": {
+          "danger": 0.61,
+          "sentiment": -0.3
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2280,49 +2280,49 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.5142897481074349
+      "knn_danger_metric": 0.5004813698437819
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.49111974922546703
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.4753571735658601
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.5075088985165187
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.5542919763184226
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.4344994995338424
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.38104530210945164
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.30697091199998433
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.29689572829884514
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.6970779211002243
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.5940007040005922
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.5280334434196041
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.8422153350858719
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.5581463589950714
+      "knn_danger_metric": 0.6099611103881348
     }
   },
   "semantic_logs": [
@@ -2336,100 +2336,100 @@
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": " ️سخنگوی وزارت خارجه: بازرسی از تاسیساتی مانند بوشهر که تاکنون انجام می‌شد، ادامه می‌یابد. ✅  @sepah_pasdaran",
-      "absolute_sentiment": 0.5,
+      "text": " ️آتش سوزی گسترده در یک کلیسا در بروکلین در آمریکا  آتش‌سوزی گسترده کلیسای ۱۷۴ ساله ساوث بوشویک را در بروکلین،در نیویورک در بر گرفت.  ✅  @sepah_pasdaran",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: إصابات جراء قصف الاحتلال خيمة في مخيم العودة بمنطقة المواصي غرب مدينة خان يونس جنوب قطاع غزة",
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "⚜كلمة الامين العام لحزب الله سماحة #الشيخ_نعيم_قاسم  📍احياء اليوم الثالث من محرم 1448ه‍  🚩#الحسين_نهجنا",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: لجنة الأمن القومي في مجلس الشورى الإيراني: استمرار الانتصارات لن يتحقق إلا في ظل الوحدة والانسجام الوطني",
-      "absolute_sentiment": 0.5,
+      "text": "إيران: قائد قوة القدس العميد إسماعيل قاآني: عندما قلنا إن حزب الله لديه &quot;مرصاد&quot; لم تكترثوا فوقعتم في مأزق",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: كودرزي: على الفريق المفاوض الثبات بقوة على الخطوط الحمراء والمصالح الحيوية لإيران",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "265 طفلًا ارتقوا منذ أكتوبر الماضي  https://qudsn.co/post/216195/",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "جيش الاحتلال يقتحم قرية &quot;دوما&quot; جنوب شرق نابلس، ويطلق قنابل الغاز والصوت.",
+      "text": "إيران: قاآني: غزة لديها طوفان أيضاً وإذا تحركتم وفقاً لرغبات سياسييكم فستقعون في شرك الطوفان",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "بحراسة جيش الاحتلال..   مستوطنون يهاجمون الفلسطينيين في &quot;خربة الفخيت&quot; بمسافر يطا، ويحاولون سرقة مواشٍ من المزارعين.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "ضربة موجعة للاحتلال..   مقتل 4 جنود من جيش الاحتلال بينهم قائد كتيبة في عملية نوعية لحزب الله",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "أبرز ما جاء في كلمة الامين العام لحزب الله سماحة الشيخ نعيم قاسم في مراسم المجلس العاشورائي المركزي الذي يقيمه حزب الله في مرقد سيد شهداء الأمة:  - إذا كنا قادرين على النصر لماذا نستسلم؟  - أدعوكم إلى حفظ قاعدة التكليف الشرعي أمّا النصر فهو بيد الله.  - نحن منتصرون لأننا عملنا لله تعالى.  #الإعلام_الحربي",
+      "text": "وسائل إعلام إسرائيلية: &quot;القناة 13&quot;: ما يثير القلق هو أن حزب الله بات يستهدف قادة &quot;الجيش&quot; الإسرائيلي بشكل مباشر. فهو يعرف كيف يحدد المركبات التي يستخدمها القادة للتنقل",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9971738898694222
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸یونیسف: آتش‌بس در غزه یک «توهم مرگبار» است؛ کشتار روزانه کودکان ادامه دارد  🔹به گزارش خبرگزاری آناتولی، سخنگوی صندوق کودکان ملل متحد (یونیسف) با توصیف آتش‌بس غزه به عنوان یک «توهم مرگبار و بی‌رحمانه»، اعلام کرد که از زمان اعلام این توافق در اکتبر ۲۰۲۵، دست‌کم ۲۶۵ کودک فلسطینی جان خود را از دست داده‌اند.  https://irna.ir/xjXBrY @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9949856863108548
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "وسائل إعلام إسرائيلية: العقيد في الاحتياط رونين كوهين: نحن في لبنان كالبط في حقل الرماية وجنودنا يقتلون هناك عبثاً ونحن ما زلنا في بداية الطريق",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "بدء كلمة الامين العام لحزب الله سماحة الشيخ نعيم قاسم في مراسم المجلس العاشورائي المركزي الذي يقيمه حزب الله في مرقد سيد شهداء الأمة في الضاحية الجنوبية لبيروت  #الإعلام_الحربي",
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "وسائل إعلام إسرائيلية: العقيد في الاحتياط رونين كوهين: من يعرف تجربة لبنان يدرك أننا لم نشهد بعد الأحداث الصعبة فعلياً. الكلفة مقابل الفائدة لا تستحق ذلك",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9945283980982399
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "أبرز ما جاء في كلمة الامين العام لحزب الله سماحة الشيخ نعيم قاسم في مراسم المجلس العاشورائي المركزي الذي يقيمه حزب الله في مرقد سيد شهداء الأمة:  -  أن تشعل دماء الشهداء قلوب المؤمنين بالمسؤولية وحفظ الأمانة فهو نصر  - لا تجادلوا عبيد الدنيا والمهزومين في أنفسهم.  #الإعلام_الحربي",
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "وسائل إعلام إسرائيلية: العقيد في الاحتياط رونين كوهين: يجب الانسحاب من لبنان وبدلاً من أن ننتظر حتى يفرض علينا الواقع التراجع، من الأفضل أن نقف عند السياج",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9945283980982399
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "وسائل إعلام إسرائيلية: اللواء احتياط إسرائيل زيف: &quot;الجيش&quot; الإسرائيلي في أسوأ وضع عملياتي له في لبنان",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: رضائي للتلفزيون الإيراني: الحرب والدفاع لم ينتهيا بعد وعلى أبناء شعبنا البقاء في الساحة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: شهيد إثر قصف إسرائيلي استهدف منطقة الصناعة في مواصي خان يونس جنوبي قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: رضائي: القوات المسلحة الإيرانية وجّهت ضربة لأحدث التكنولوجيات الأميركية وأكثرها تطوراً",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل | دبابات الاحتلال تفتح نيران أسلحة رشاشة تجاه جنوب مدينة خان يونس، جنوب قطاع غزة.",
+      "text": "الاحتلال يقصف خيمة للنازحين في &quot;منطقة الصناعة&quot; غرب مدينة خان يونس، جنوب قطاع غزة.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صفارات الإنذار تدوي في زرعيت بالجليل الغربي خشية تسلل طائرات مسيّرة.  #الإعلام_الحربي",
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قائد فيلق القدس في الحرس الثوري الإيراني:   - عندما قلنا إن حزب الله لديه &quot;مرصاد&quot; لم تنتبهوا لذلك، فوقعتم في مشكلة.. من سيتحمل مسؤولية 100 قتيل؟  - غزة أيضًا فيها &quot;طوفان&quot;، وإذا تحركتم وفق رغبة سياسييكم فستقعون في الطوفان.. كونوا حذرين.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.956418427463877
+      "semantic_danger_knn": 1
     }
   ]
 }
