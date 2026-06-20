@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-20T00:06:01.331Z",
+  "last_updated": "2026-06-20T05:09:21.524Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.55",
-    "global_norm_sentiment": "-0.25"
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.30"
   },
   "timeline": [
-    {
-      "time": "2026-06-13T02:58:30.476Z",
-      "danger": 0.479,
-      "sentiment": -0.425,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.385,
-          "sentiment": -0.6
-        },
-        "OSINTdefender": {
-          "danger": 0.492,
-          "sentiment": -0.8
-        },
-        "irna_1313": {
-          "danger": 0.445,
-          "sentiment": -0.333
-        },
-        "sepah_pasdaran": {
-          "danger": 0.329,
-          "sentiment": -0.433
-        },
-        "almanarnews": {
-          "danger": 0.3,
-          "sentiment": -0.333
-        },
-        "C_Military1": {
-          "danger": 0.37,
-          "sentiment": -0.533
-        },
-        "almayadeen": {
-          "danger": 0.674,
-          "sentiment": -0.833
-        },
-        "QudsN": {
-          "danger": 0.847,
-          "sentiment": -0.25
-        }
-      }
-    },
     {
       "time": "2026-06-13T07:01:24.774Z",
       "danger": 0.482,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.1
         }
       }
+    },
+    {
+      "time": "2026-06-20T05:09:21.524Z",
+      "danger": 0.52,
+      "sentiment": -0.295,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.478,
+          "sentiment": -0.533
+        },
+        "OSINTdefender": {
+          "danger": 0.451,
+          "sentiment": -0.333
+        },
+        "irna_1313": {
+          "danger": 0.483,
+          "sentiment": -0.25
+        },
+        "sepah_pasdaran": {
+          "danger": 0.419,
+          "sentiment": -0.7
+        },
+        "almanarnews": {
+          "danger": 0.383,
+          "sentiment": -0.267
+        },
+        "C_Military1": {
+          "danger": 0.6,
+          "sentiment": -0.4
+        },
+        "almayadeen": {
+          "danger": 0.688,
+          "sentiment": -0.5
+        },
+        "QudsN": {
+          "danger": 0.746,
+          "sentiment": 0.167
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,32 +2279,32 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.46651260345268747
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.4779029333184287
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.4753571735658601
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.45129428059065885
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.6345002400735889
+      "num_messages": 12,
+      "raw_sentiment": -0.25,
+      "knn_danger_metric": 0.483225500696363
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.8,
-      "knn_danger_metric": 0.39787391210151596
+      "raw_sentiment": -0.7,
+      "knn_danger_metric": 0.41937841868982384
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.3655213326259631
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.38320772165159067
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.6543828376677403
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.6880389644047172
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.9107588378891938
+      "num_messages": 12,
+      "raw_sentiment": 0.16666666666666666,
+      "knn_danger_metric": 0.7458725845253712
     }
   },
   "semantic_logs": [
@@ -2334,87 +2334,52 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "⚜كلمة الامين العام لحزب الله سماحة #الشيخ_نعيم_قاسم  📍احياء اليوم الثالث من محرم 1448ه‍  🚩#الحسين_نهجنا",
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: الطيران الحربي الإسرائيلي يعتدي بغارة على بلدة النبطية الفوقا",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "سوريا: مصادر محلية: طيران مسيّر يعتقد أنه تابع للتحالف الدولي يستهدف دراجة نارية على طريق مشهد روحين - دير حسان بريف إدلب شمال سوريا",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: &quot;يديعوت أحرونوت&quot;: بسبب المخاطر لم تتمكن الجهات المختصة من سحب دبابة قائد &quot;الكتيبة 52&quot; الذي قتل في جنوب لبنان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "سوريا: مصادر محلية: المستهدف في غارة للتحالف الدولي على ريف إدلب هو شرعي تنظيم &quot;حراس الدين&quot; سابقاً سامي العريدي وبعض مرافقيه",
+      "text": "لبنان: مراسل الميادين في الجنوب: الاعتداءات الإسرائيلية مستمرة على مدينة النبطية وبلدات القضاء بالغارات والقصف المدفعي",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: قصف مدفعي إسرائيلي على بلدة كفررمان",
+      "text": "لبنان: مراسل الميادين في الجنوب: الطيران الحربي والمسير الإسرائيلي اعتدى بأكثر من 130 غارة في 24 ساعة على النبطية وبلداتها",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي بغارة على النبطية الفوقا",
+      "text": "لبنان: مراسل الميادين في الجنوب: الاعتداءات الإسرائيلية استهدفت قرى قضاء صور بعدد من الغارات والقصف المدفعي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: قصف مدفعي إسرائيلي على بلدة كفرجوز",
+      "text": "فلسطين المحتلة: مراسل الميادين: 4 شهداء ومصابون في حصيلة محدثة للقصف الإسرائيلي الذي استهدف شقة سكنية بشارع الثلاثيني بمدينة غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال شارع 10 في مدينة نابلس.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "من اقتحام قوات الاحتلال مدينة سلفيت بالضفة الغربية",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تعتقل الشاب ضياء فطاير خلال اقتحام مدينة نابلس",
+      "text": "لبنان: مراسل الميادين في الجنوب: غارة إسرائيلية من مسيرة استهدفت بلدة الدوير في قضاء النبطية",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "عاجل: طيران الاحتلال المروحي يستهدف المناطق الغربية لمدينة غزة",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصابون جراء استهداف طيران الاحتلال شقة سكنية تعود لعائلة الصفدي غربي مدينة غزة",
-      "absolute_sentiment": -1,
+      "text": "وسائل إعلام إسرائيلية: &quot;معاريف&quot;: &quot;إسرائيل&quot; التي كانت حتى الآن القوة الإقليمية الأقوى فقدت قدرتها على التأثير وصياغة ملامح منطقة &quot;الشرق الأوسط&quot;",
+      "absolute_sentiment": -0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2429,6 +2394,41 @@
       "channel": "Arab_Axis",
       "text": "شهيدتان وطفل جراء قصف طائرات الاحتلال شقة سكنية لعائلة الصفدي في شارع الثلاثيني بمدينة غزة",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مشاهد من موقع قصف الاحتلال شقة سكنية بشارع الثلاثيني في مدينة غزة، والذي أسفر عن شهداء ومصابين",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "آخر حصيلة | 4 شهداء، بينهم طفلتان وامرأة، جراء قصف طائرات الاحتلال شقة سكنية لعائلة الصفدي في شارع الثلاثيني بمدينة غزة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "اللحظات الأولى من قصف الاحتلال شقة سكنية في شارع الثلاثيني بمدينة غزة، ونقل شهداء ومصابين من المكان",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب آخر من اللحظات الأولى لقصف الاحتلال شقة سكنية في شارع الثلاثيني بمدينة غزة، ونقل شهداء ومصابين من المكان",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "أهالي المختطفين والمفقودين السوريين في السجون الإسرائيلية ينظمون وقفة أمام مقر قوات &quot;الأندوف&quot; الدولية في القنيطرة، ويطالبون بالكشف الفوري عن مصير ذويهم المغيّبين قسراً.",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     }
   ]
