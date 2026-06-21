@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-21T08:26:33.047Z",
+  "last_updated": "2026-06-21T11:42:36.421Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.55",
-    "global_norm_sentiment": "-0.24"
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.13"
   },
   "timeline": [
-    {
-      "time": "2026-06-14T08:12:53.257Z",
-      "danger": 0.519,
-      "sentiment": -0.343,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.559,
-          "sentiment": -0.767
-        },
-        "OSINTdefender": {
-          "danger": 0.488,
-          "sentiment": -0.9
-        },
-        "irna_1313": {
-          "danger": 0.574,
-          "sentiment": -0.333
-        },
-        "sepah_pasdaran": {
-          "danger": 0.536,
-          "sentiment": -0.467
-        },
-        "almanarnews": {
-          "danger": 0.47,
-          "sentiment": -0.5
-        },
-        "C_Military1": {
-          "danger": 0.547,
-          "sentiment": -0.267
-        },
-        "almayadeen": {
-          "danger": 0.367,
-          "sentiment": -0.1
-        },
-        "QudsN": {
-          "danger": 0.7,
-          "sentiment": 0.036
-        }
-      }
-    },
     {
       "time": "2026-06-14T11:27:46.637Z",
       "danger": 0.53,
@@ -2261,6 +2214,53 @@
           "sentiment": 0.143
         }
       }
+    },
+    {
+      "time": "2026-06-21T11:42:36.421Z",
+      "danger": 0.517,
+      "sentiment": -0.13,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.52,
+          "sentiment": -0.2
+        },
+        "OSINTdefender": {
+          "danger": 0.486,
+          "sentiment": -0.067
+        },
+        "irna_1313": {
+          "danger": 0.482,
+          "sentiment": 0.133
+        },
+        "sepah_pasdaran": {
+          "danger": 0.379,
+          "sentiment": 0
+        },
+        "almanarnews": {
+          "danger": 0.555,
+          "sentiment": 0.267
+        },
+        "C_Military1": {
+          "danger": 0.69,
+          "sentiment": -0.667
+        },
+        "almayadeen": {
+          "danger": 0.621,
+          "sentiment": -0.533
+        },
+        "QudsN": {
+          "danger": 0.483,
+          "sentiment": -0.1
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.6121484462617522
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.5202616599883161
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.5944314932867389
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.4824350616346437
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.3772599755411018
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.3791284894369804
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.4984038320572405
+      "raw_sentiment": 0.26666666666666666,
+      "knn_danger_metric": 0.5548277009034666
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.8,
-      "knn_danger_metric": 0.7440733935583572
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.6899882150627924
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.43712806342087407
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.6209877500250081
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 7,
-      "raw_sentiment": 0.14285714285714285,
-      "knn_danger_metric": 0.7653228447526048
+      "num_messages": 15,
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.4825620065874745
     }
   },
   "semantic_logs": [
@@ -2336,77 +2336,70 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "רצועת עזה: 3 הרוגים בתקיפת כטב&quot;מ לפני זמן קצר על בית משפחת אבו חסנה במחנה הפליטים אלבריג&#39; במרכז הרצועה.  אחד ההרוגים הוא אחמד ושאח(מוקף באדום) , צלם של רשת אלג&#39;זירה הקטרית ואחיו של העיתונאי מחמד ושאח (גם הוא מרשת אלג&#39;זירה-מופיע מימין) שחוסל לפני חודשיים וחצי…",
-      "absolute_sentiment": 0,
+      "text": "טורקיה מקדמת טרור חמאסי בישראל:   שב&quot;כ וצה״ל חושפים: סוכלו עשרות פיגועים בשנה האחרונה אשר הוכוונו על ידי פעילי חמאס בטורקיה - כעת ניתן לחשוף את הפעילים המרכזיים בתשתית הטרור  מרחב הגדה בחמאס כפי שנחשף בעבר אחראי על קידום והכוונת פיגועים מול אזרחי ואנשי כוחות…",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "☑️بازگشت نازیسم در قالب صهیونیسم در قرن ۲۱  وزیر برابری اجتماعی رژیم صهیونیستی: من شخصاً به هولوکاستِ غزه افتخار می‌کنم، و این‌که ۸۰ سال دیگر، آن‌ها به نوه‌هایشان خواهند گفت که یهودیان چه کردند.   @sepah_pasdaran",
-      "absolute_sentiment": -1,
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "כשמאכילים את המפלצת - היא גדלה...וגם התיאבון שלה גדל.   תגובה אחת",
+      "absolute_sentiment": -0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "🔵 بوليفيا | الرئيس البوليفي يعلن حالة الطوارئ ويتهم محتجين بمحاولة تنفيذ &quot;انقلاب&quot; https://almanar.com.lb/article/965317/?s=tg",
-      "absolute_sentiment": -1,
+      "text": "📹&nbsp;سويسرا تحتضن محادثات تنفيذ مذكرة التفاهم الإيرانية – الأميركية https://almanar.com.lb/article/965972/?s=tg",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "🔵 تلغراف: ستارمر يستعد للاستقالة وقد يعلن رحيله الاثنين https://almanar.com.lb/article/965412/?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 باكستان | رئيس وزراء باكستان وقائد الجيش يتوجهان إلى سويسرا للمشاركة في محادثات تنفيذ التفاهم الأمريكي الإيراني https://almanar.com.lb/article/965452/?s=tg",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: الرئيس مسعود بزشكيان في مؤتمر السياسات النقدية والمصرفية: جميع بنود مذكرة التفاهم تصب في مصلحتنا وستكون إنجازات التفاوض واضحة",
+      "text": "📹 مواكبة آخر التطورات السياسية والميدانية المرتبطة بالملف الإيراني والمحادثات الجارية في سويسرا. https://almanar.com.lb/article/965992/?s=tg",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: بزشكيان: سيتم إعادة 6 مليارات دولار من أموالنا في قطر",
+      "text": "لبنان: مراسل الميادين: على مدى 4 أيام زج الاحتلال بقوات من مختلف الألوية مدرعات وكوماندوز وغفعاتي بدعمٍ ناري جوي وبري هائل",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: تؤكد المعطيات الميدانية أن &quot;جيش&quot; الاحتلال لم يتمكن حتى الساعة من التقدم بسبب تصدي المقاومين البطولي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "وسائل إعلام إسرائيلية: إجلاء جرحى قبل قليل من جنوب لبنان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: محلقة إسرائيلية ألقت قنبلتين صوتيتين في بلدة حداثا في قضاء بنت جبيل",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "سوريا: الإخبارية السورية : قوات الاحتلال الإسرائيلي تعتقل مزارعا سوريا جنوب بلدة الرفيد في ريف القنيطرة الجنوبي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "شرطة وطواقم بلدية الاحتلال تقتحم عدداً من منازل الأهالي في حي البستان ببلدة سلوان جنوب المسجد الأقصى المبارك.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "جيش الاحتلال يؤمن اقتحامات مجموعات المستوطنين للبلدة القديمة في الخليل يوم أمس.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تواصل عمليات التجريف والتدمير في جبل طاروسة غرب مدينة دورا جنوب الخليل.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "ترجمة قدس| هيئة البث العبرية: مقتل 6 جنود بينهم ضابط كبير وإصابة أكثر من 20 في عمليات حزب الله بلبنان منذ الخميس الماضي.",
+      "text": "قوات الاحتلال تهاجم عدداً من الشبان في قرية الرشايدة جنوب بيت لحم.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2420,6 +2413,13 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 15 العبرية:  بعد مقتل قائد الكتيبة 52، المقدم دور بن شمعون، وأفراد الطاقم الثلاثة: الرامي الرقيب أول نَڤيه حبشوش، والملقِّم الرقيب أول يوآف كلاين، والسائق الرقيب أول ليئاف كَبَبيا، وجّه نائب قائد الكتيبة، الرائد &quot;أ&quot;، رسالة إلى المقاتلين جاء فيها: &quot;الأيام الأخيرة هي من أصعب الأيام التي عرفتها الكتيبة. لقد فقدنا قائد كتيبتنا ومقاتلين أعزاء سقطوا في المعركة. الألم كبير، والفقد هائل، وقلوبنا جميعًا مع العائلات الثكلى.&quot;  وأضاف: &quot;إلى جانب الألم، وقفنا أمام أهم مهمة إعادة رفاقنا إلى الوطن. فبعد جهود كبيرة وفي ظل ظروف معقدة، نجحنا في انتشال جثامين القتلى من ساحة المعركة ونقلها لدفنها في &quot;إسرائيل&quot;.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9986358496212903
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
       "text": "#إعلام_العدو   صحيفة &quot;يديعوت أحرونوت&quot; العبرية - سيفر بلوتسكر:  كيف يُعقل أن الطريقة التي تُدير بها &quot;إسرائيل&quot;، كدولة، حربها التي استمرت 16 ألف يوم ضد حزب الله، الذي كانت ميزانيته السنوية تُشكّل حوالي 3% من ميزانية الدفاع الإسرائيلية قبل حرب السيوف الحديدية، و1% فقط خلال العامين والنصف الماضيين، تُؤدي بنا باستمرار إلى نفس المأزق؟ إلى المزيد والمزيد من القتلى والجرحى؟ لا مفر من الاستنتاج بأن افتراضاتها الأساسية - أن القوة العسكرية واحتلال المناطق الأمنية كفيلان بحل كل شيء والقضاء على كل عدو - غير واقعية. لقد حان الوقت لتفعيل العقل السياسي.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9984177194078417
@@ -2427,9 +2427,9 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية - يوسي يهوشع: يتطلب الواقع الجديد إعادة النظر في هيكل القوات المسلحة الإسرائيلية. سيتعين على &quot;إسرائيل&quot; استثمار موارد كبيرة في تعزيز قدراتها العسكرية، وتطوير قدرات إنتاجية مستقلة، وتقليل اعتمادها على أنظمة الأسلحة الأمريكية. لا يعني هذا التخلي عن التحالف الاستراتيجي مع واشنطن، بل بناء قدرة مستقلة أوسع تتيح لها حرية التصرف حتى في حالات الخلافات السياسية.  #الإعلام_الحربي",
+      "text": "#إعلام_العدو   موقع &quot;والاه&quot; العبري: يقول مسؤولون عسكريون أنه لا يمكن تجاهل حقيقة إصابة قائد سابق للواء 401 بجروح خطيرة جراء هجوم جوي بطائرة مسيرة، وإصابة نائب قائد الفرقة 36 بعبوة ناسفة، ومقتل قائد الكتيبة 52 في هجوم جوي بطائرة مسيرة، ويجب الأخذ في الاعتبار أن حزب الله يستخدم التكنولوجيا، لا سيما ليلاً، لرصد النشاط اللاسلكي والإشارات الدالة على وجود قيادة عليا في الميدان. وأضاف المسؤولون أن هذه الجهود تتطلب مستوى عالٍ من المهارة.  #الإعلام_الحربي",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9980587782023741
+      "semantic_danger_knn": 0.9971059803222341
     }
   ]
 }
