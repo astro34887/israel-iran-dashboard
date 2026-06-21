@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-21T11:42:36.421Z",
+  "last_updated": "2026-06-21T14:00:48.777Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.13"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.46",
+    "global_norm_sentiment": "-0.22"
   },
   "timeline": [
-    {
-      "time": "2026-06-14T11:27:46.637Z",
-      "danger": 0.53,
-      "sentiment": -0.298,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.683,
-          "sentiment": -0.367
-        },
-        "OSINTdefender": {
-          "danger": 0.488,
-          "sentiment": -0.9
-        },
-        "irna_1313": {
-          "danger": 0.481,
-          "sentiment": 0.1
-        },
-        "sepah_pasdaran": {
-          "danger": 0.577,
-          "sentiment": -0.567
-        },
-        "almanarnews": {
-          "danger": 0.323,
-          "sentiment": -0.433
-        },
-        "C_Military1": {
-          "danger": 0.453,
-          "sentiment": 0.067
-        },
-        "almayadeen": {
-          "danger": 0.639,
-          "sentiment": -0.5
-        },
-        "QudsN": {
-          "danger": 0.706,
-          "sentiment": -0.25
-        }
-      }
-    },
     {
       "time": "2026-06-14T13:54:06.220Z",
       "danger": 0.548,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.1
         }
       }
+    },
+    {
+      "time": "2026-06-21T14:00:48.777Z",
+      "danger": 0.463,
+      "sentiment": -0.215,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.374,
+          "sentiment": -0.5
+        },
+        "OSINTdefender": {
+          "danger": 0.486,
+          "sentiment": -0.067
+        },
+        "irna_1313": {
+          "danger": 0.553,
+          "sentiment": -0.167
+        },
+        "sepah_pasdaran": {
+          "danger": 0.264,
+          "sentiment": -0.767
+        },
+        "almanarnews": {
+          "danger": 0.492,
+          "sentiment": 0.367
+        },
+        "C_Military1": {
+          "danger": 0.57,
+          "sentiment": -0.367
+        },
+        "almayadeen": {
+          "danger": 0.319,
+          "sentiment": -0.2
+        },
+        "QudsN": {
+          "danger": 0.62,
+          "sentiment": -0.321
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.5202616599883161
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.3738273411263272
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.4824350616346437
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.552672870649819
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.3791284894369804
+      "raw_sentiment": -0.7666666666666667,
+      "knn_danger_metric": 0.2636985402292777
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.26666666666666666,
-      "knn_danger_metric": 0.5548277009034666
+      "raw_sentiment": 0.36666666666666664,
+      "knn_danger_metric": 0.49151964793874914
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.6899882150627924
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.57009200308382
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.6209877500250081
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.31916056312931296
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.4825620065874745
+      "num_messages": 14,
+      "raw_sentiment": -0.32142857142857145,
+      "knn_danger_metric": 0.6196517116708083
     }
   },
   "semantic_logs": [
@@ -2336,15 +2336,8 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "טורקיה מקדמת טרור חמאסי בישראל:   שב&quot;כ וצה״ל חושפים: סוכלו עשרות פיגועים בשנה האחרונה אשר הוכוונו על ידי פעילי חמאס בטורקיה - כעת ניתן לחשוף את הפעילים המרכזיים בתשתית הטרור  מרחב הגדה בחמאס כפי שנחשף בעבר אחראי על קידום והכוונת פיגועים מול אזרחי ואנשי כוחות…",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "כשמאכילים את המפלצת - היא גדלה...וגם התיאבון שלה גדל.   תגובה אחת",
-      "absolute_sentiment": -0.5,
+      "text": "קומה גבוהה או נמוכה? חזית או עורף? כל הדירות בפרויקט אותו מחיר&#33; הפרויקט החדש של קטה יזמות בלב שכונת המרכז השקט בפתח תקווה: 54 דירות בלבד, עם אדריכלות מודרנית, מפרט פרימיום ואכלוס כבר ב־2026. דירות 4 חדרים בפרויקט במחיר אחיד של ₪2,450,000 עכשיו נשאר רק לבחור את הדירה שאתם הכי אוהבים  מה מעניין בפרויקט? ✔️מיקום מרכזי ונגיש, בסביבה מתפתחת ובקרבה לכל מה שמשפחה צריכה.  ✔️מפרט פרימיום עשיר הכולל מערכת מיזוג אוויר, ריצוף 100×100, תריסים חשמליים, לובי כניסה מפואר וחומרי גמר וחיפוי ברמה גבוהה. לצד זאת, הוא נהנה מנגישות לתחבורה ציבורית, לכביש 471 ולצירי תנועה מרכזיים, מיציאה מהירה ונוחה מהעיר, מקרבה לגני ילדים ולבתי ספר ומבנייה בתקן ירוק.   לפרטים נוספים &gt;&gt;&gt; https://katayazamut.com/same-price/?utm_source=telegram_abuali",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
@@ -2364,51 +2357,30 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: على مدى 4 أيام زج الاحتلال بقوات من مختلف الألوية مدرعات وكوماندوز وغفعاتي بدعمٍ ناري جوي وبري هائل",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: تؤكد المعطيات الميدانية أن &quot;جيش&quot; الاحتلال لم يتمكن حتى الساعة من التقدم بسبب تصدي المقاومين البطولي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: إجلاء جرحى قبل قليل من جنوب لبنان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: محلقة إسرائيلية ألقت قنبلتين صوتيتين في بلدة حداثا في قضاء بنت جبيل",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "سوريا: الإخبارية السورية : قوات الاحتلال الإسرائيلي تعتقل مزارعا سوريا جنوب بلدة الرفيد في ريف القنيطرة الجنوبي",
+      "text": "وسائل إعلام إسرائيلية: إصابة جنديين أحدهما بجروح خطيرة والآخر بجروح متوسطة بحادثة وقعت صباحاً في جنوب لبنان",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تهاجم عدداً من الشبان في قرية الرشايدة جنوب بيت لحم.",
-      "absolute_sentiment": -1,
+      "text": "وزارة الأوقاف بالضفة في تعميم لتنظيم استخدام مكبرات الصوت في المساجد: رفع الأذان عبر السماعات الداخلية للمسجد دون استخدام الخارجية في المساجد القريبة من المستوطنات.",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة &quot;يديعوت أحرونوت&quot; العبرية - سيفر بلوتسكر: كان ترامب مُحقًا، &quot;إسرائيل&quot; لا تعرف كيف تتعامل مع حزب الله. على مدى 44 عامًا، ونحن نواجه هذه المنظمة، ولم نتمكن من هزيمتها. لقد صمدت أمام حربٍ تلو الأخرى، وعمليةٍ تلو الأخرى، وتصفيةٍ تلو الأخرى، وما زالت مُصرّة على موقفها ولم ترفع الراية البيضاء.  #الإعلام_الحربي",
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "في تعميم جديد.. وزارة الأوقاف بالضفة توجه بعدم فتح السماعات الخارجية والاكتفاء بالداخلية عند رفع الأذان في المساجد القريبة من المستوطنات",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مركز حقوقي: الاحتلال يحرم 65 أسيرًا من طلبة الثانوية العامة من التقدم للامتحانات  https://qudsn.co/post/216218",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9987083447612332
+      "semantic_danger_knn": 1
     },
     {
       "channelId": "C_Military1",
@@ -2430,6 +2402,34 @@
       "text": "#إعلام_العدو   موقع &quot;والاه&quot; العبري: يقول مسؤولون عسكريون أنه لا يمكن تجاهل حقيقة إصابة قائد سابق للواء 401 بجروح خطيرة جراء هجوم جوي بطائرة مسيرة، وإصابة نائب قائد الفرقة 36 بعبوة ناسفة، ومقتل قائد الكتيبة 52 في هجوم جوي بطائرة مسيرة، ويجب الأخذ في الاعتبار أن حزب الله يستخدم التكنولوجيا، لا سيما ليلاً، لرصد النشاط اللاسلكي والإشارات الدالة على وجود قيادة عليا في الميدان. وأضاف المسؤولون أن هذه الجهود تتطلب مستوى عالٍ من المهارة.  #الإعلام_الحربي",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 0.9971059803222341
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸المیادین: اشغال تپه «علی الطاهر» لبنان صحت ندارد  🔹شبکه المیادین به نقل از برخی منابع میدانی، ادعاهای ارتش صهیونیستی درباره اشغال تپه علی الطاهر را رد کرد.  🔹این منابع گفتند که مقاومت از طریق اتاق عملیات خود هشدار داد که تپه علی الطاهر در برابر اشغالگر غیرقابل نفوذ باقی خواهد ماند.  https://irna.ir/xjXCcw @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9967898028530019
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸درگیری در جنوب و غرب یمن ۲۵ کشته و زخمی برجا گذاشت  🔹یک منبع نظامی یمن گفت که روز گذشته در جریان درگیری بین نیروی نظامی (وابسته به دولت مستعفی) و جنبش انصارالله در دو استان ساحلی تعز و الحدیده، ۲۵ نفر کشته یا زخمی شدند.  🔹این منبع گفت که در پی حمله انصارالله به پایگاه‌های نظامی در جبهه المبهاء در منطقه الضباب واقع در غرب تعز، درگیری‌هایی بین نیروهای لشکر ۱۷ پیاده نظام ارتش یمن و یک گروه از انصارالله به وقوع پیوست. https://irna.ir/xjXCdW @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9949151460802924
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸هشدار هواشناسی، وزش باد شدید در تهران  خورشیدی مدیرکل هواشناسی استان تهران:  🔹با توجه به افزایش وزش باد به ویژه در ساعات عصر و شب هشدار سطح نارنجی صادر می شود و از شهروندان درخواست داریم از اتراق در ارتفاعات و مناطق کوهستانی خودداری کنند، این وزش باد در مناطق جنوبی و غربی با خیزش خاک همراه خواهد بود.  🔹شرایط گرما این هفته ادامه خواهد داشت و به نظر می رسد تا پایان هفته تهرانی ها دمای ۴۰ درجه ای را نیز تجربه خواهند کرد. https://irna.ir/xjXCch @IRNA_1313",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 0.9815018069036522
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "ترمب: أشعر بخيبة أمل لأن &quot;إسرائيل&quot; عاجزة عن القضاء على حزب الله، ولا يستطيعون فعل شيء دون هدم المباني.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9496207460821101
     }
   ]
 }
