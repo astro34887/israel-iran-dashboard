@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-22T12:46:27.097Z",
+  "last_updated": "2026-06-22T17:28:10.893Z",
   "tension": {
     "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.47",
-    "global_norm_sentiment": "-0.08"
+    "global_knn_danger": "0.45",
+    "global_norm_sentiment": "-0.20"
   },
   "timeline": [
-    {
-      "time": "2026-06-15T19:44:37.345Z",
-      "danger": 0.401,
-      "sentiment": -0.12,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.427,
-          "sentiment": -0.533
-        },
-        "OSINTdefender": {
-          "danger": 0.47,
-          "sentiment": -0.733
-        },
-        "irna_1313": {
-          "danger": 0.435,
-          "sentiment": -0.033
-        },
-        "sepah_pasdaran": {
-          "danger": 0.293,
-          "sentiment": 0.1
-        },
-        "almanarnews": {
-          "danger": 0.153,
-          "sentiment": -0.1
-        },
-        "C_Military1": {
-          "danger": 0.384,
-          "sentiment": 0
-        },
-        "almayadeen": {
-          "danger": 0.343,
-          "sentiment": 0.233
-        },
-        "QudsN": {
-          "danger": 0.551,
-          "sentiment": 0.033
-        }
-      }
-    },
     {
       "time": "2026-06-15T22:16:07.883Z",
       "danger": 0.501,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.333
         }
       }
+    },
+    {
+      "time": "2026-06-22T17:28:10.893Z",
+      "danger": 0.455,
+      "sentiment": -0.203,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.443,
+          "sentiment": -0.6
+        },
+        "OSINTdefender": {
+          "danger": 0.428,
+          "sentiment": -0.033
+        },
+        "irna_1313": {
+          "danger": 0.468,
+          "sentiment": 0.3
+        },
+        "sepah_pasdaran": {
+          "danger": 0.348,
+          "sentiment": -0.467
+        },
+        "almanarnews": {
+          "danger": 0.26,
+          "sentiment": 0.033
+        },
+        "C_Military1": {
+          "danger": 0.351,
+          "sentiment": 0.1
+        },
+        "almayadeen": {
+          "danger": 0.418,
+          "sentiment": -0.5
+        },
+        "QudsN": {
+          "danger": 0.881,
+          "sentiment": -0.7
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.5698977777972946
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.4425367434654218
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.542985424057447
+      "raw_sentiment": 0.3,
+      "knn_danger_metric": 0.46807031875366356
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.4041953535939118
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.34814460735576724
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.35130609934272505
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.2597522943875084
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.5069999535829115
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.3510019448554829
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.5029033041041366
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.41820100777105707
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.4881907943666196
+      "raw_sentiment": -0.7,
+      "knn_danger_metric": 0.8809025531111232
     }
   },
   "semantic_logs": [
@@ -2334,38 +2334,17 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "🔥 שבוע הספר ב&#39;כושרות&#39; – במחירים מטורפים&#33; הכמות מוגבלת והזמן אוזל, חבל לחכות לרגע האחרון ולהישאר בלי&#33; מחירים של פעם בשנה:  📘 רב המכר - ספר כושרות&#33;&#33;&#33; – המדריך המעשי שפותר לכם את כל השאלות המודרניות במטבח. 💰 רק ₪45 במקום ₪109&#33;  🎲 משחק הקלפים המבוקש&#33; &#39;רביעיות כשרות&#39; – המשחק שנחטף&#33; הדרך הכי חווייתית וכיפית להנחיל את ערכי הכשרות לילדים סביב שולחן השבת. 💰 רק ₪45 במקום ₪55&#33;  📚 סט &#39;כשרות כהלכה&#39; (3 כרכים) – אוסף המאמרים המקיף והמקצועי ביותר לבני ישיבות, משגיחים ולמי שרוצה ללמוד את הסוגיות השונות באמת. 💰 רק ₪90 במקום ₪150&#33;  🎁 הדיל המטורף: ספר כשרות + משחק הקלפים&#33; – הלימוד המושלם לכל המשפחה בחבילה אחת. 💰 רק ₪70&#33;&#33; במקום ₪164&#33; – חיסכון של כמעט 100 ש&quot;ח  זה הזמן להכניס הביתה תוכן איכותי, מהימן ובמחיר מצחיק&#33;  📦 הביקוש גדול והמלאי אוזל ברגעים אלו&#33; לרכישה מאובטחת באתר הקליקו עכשיו: https://www.kosharot.co.il/index2.php?id=55187&amp;lang=HEB",
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸بیابان‌زدایی در گلستان؛ نجات مرتع و معیشت  🔹گلستان در ذهن بسیاری از ایرانیان با جنگل‌های هیرکانی، شالیزارها و طبیعت سرسبز شناخته می‌شود، اما در پس این چهره سبز، بخشی از عرصه‌های طبیعی استان سال‌هاست زیر فشار خشکسالی، چرای مفرط، افت منابع آب زیرزمینی و هجوم…",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "الرئيس بري بحث مع زواره في عين التينة التطورات اللبنانية والمستجدات الراهنة https://almanar.com.lb/article/969377/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: بزشكيان: تمر علاقاتنا مع الجيران اليوم بوضع جيد ويمكن للناشطين الاقتصاديين الاستفادة من هذه الفرص المتاحة",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: بزشكيان: نرى أنفسنا ملزمين بدعم القوات المسلحة التي سطرت الفخر للبلاد",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️ «محمدحسین شیراوند»، دانش‌آموز ۱۴ساله و مداح اهل‌بیت (ع) از شهرستان رومشکان، پس از چند ماه تحمل رنج ناشی از جراحات حمله رژیم صهیونیستی به رومشکان، در شب هفتم محرم‌الحرام به شهادت رسید. &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: بزشكيان: أي إنجاز تحقق اليوم يعود لجميع أبناء الشعب وهذه النجاحات تحققت بفضل توجيهات وإرشادات قائد الثورة ولم تكن ممكنة دونها",
-      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2376,31 +2355,66 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم بلدة عنبتا شرق طولكرم",
+      "text": "إيران: مصدر مطلع لوكالة تسنيم: لا صحة لاستخدام الأموال الإيرانية المجمدة لشراء الحبوب ولم يرد ذكر ذلك في أي تفاهم",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: مصدر مطلع لوكالة تسنيم: التصريحات الأميركية لها أسباب داخلية للتغطية على إصدار إعفاءات ضريبية لبيع النفط ومشتقاته",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تواصل اقتحام حي الطوري في بلدة كفر عقب شمال القدس المحتلة وتواصل عمليات التجريف والهدم",
+      "text": "قوات الاحتلال تقتحم شارع نابلس في طولكرم.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تطلق قنابل صوتية قرب بنك فلسطين، وسط مدينة طولكرم.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "نشوب حريق؛ جرّاء إطلاق قوات الاحتلال قنابل الغاز في بلدة كفر عقب، شمال القدس المحتلة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تقتحم قرية المزرعة الغربية، شمال غرب رام الله.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "الاحتلال يجدد الاعتقال الإداري للصحفي &quot;أحمد الخطيب&quot; من سكان بيتونيا، لمدة 6 أشهر.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تقتحم بلدة قريوت، جنوب شرق نابلس.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "الاحتلال يواصل هدم المنازل والمنشآت في الضفة والقدس.. التفاصيل:",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "نادي الأسير الفلسطيني: نحمّل الاحتلال المسؤولية الكاملة عن مصير ثلاث أسيرات حوامل في سجن &quot;الدامون&quot;، ونطالب بالإفراج العاجل عنهن.",
-      "absolute_sentiment": -1,
+      "text": "قوات الاحتلال تقتحم قرية &quot;أبو شخيدم&quot; شمال رام الله، وتمنع المركبات من الحركة.",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2411,25 +2425,11 @@
       "semantic_danger_knn": 0.9958174570708113
     },
     {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸هشدار رئیس شاباک درباره تکرار «هفت اکتبر» در ایلات   🔹داوید زینی در محافل خصوصی داخلی و نشست‌های امنیتی، ایلات را به دلیل موقعیت جغرافیایی دورافتاده و انزوای نسبی آن، یکی از نقاط آسیب‌پذیر امنیتی رژیم صهیونیستی توصیف کرد و به مقام‌های ارشد شاباک دستور داده است سناریوی حمله احتمالی به این شهر را در اولویت بررسی‌های اطلاعاتی و امنیتی قرار دهند.  🔹بر اساس این گزارش، رئیس شاباک در جلسات داخل و خارج از این سازمان نسبت به احتمال وقوع حمله زمینی به ایلات از مرزهای زمینی، به‌ویژه مرز اردن، و حتی از مسیرهای دریایی هشدار داده است. https://irna.ir/xjXCCp @IRNA_1313",
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | ترجمة قدس: أنباء أولية عن إطلاق نار داخل &quot;الحي اليهودي&quot; في كندا.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9273205642501045
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   إذاعة جيش العدو الإسرائيلي: بعد مقتل قائد الكتيبة 52، وفي إطار اجتماع للتعيينات عُقد أمس برئاسة قائد القوات البرية، اللواء نداف لوتان، تقرر تعيين المقدم &quot;ج&quot; قائدًا للكتيبة 52. وسيتولى الضابط مهامه خلال الأيام القليلة المقبلة.  بدأ &quot;ج&quot; خدمته العسكرية في اللواء 188، حيث شغل سلسلة من المناصب المختلفة. ومع اندلاع الحرب، خدم كضابط عمليات في لواء النيران 215. ولاحقًا شغل منصب قائد مركز القيادة والسيطرة في اللواء الشمالي، وشارك في القتال في قطاع غزة.  وخلال العام الماضي، أنشأ مركز القيادة والسيطرة لمنطقة البحر الميت، والذي يُعرف أيضًا باسم &quot;كتيبة نير 843&quot;.  #الإعلام_الحربي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9232599735824997
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸لفاظی رئیس رژیم صهیونیستی علیه ایران در اجلاس سندیکای خبری اورشلیم  🔹رئیس رژیم صهیونیستی در اجلاس سالانه سندیکای خبری یهود، در اظهاراتی عجیب مدعی شد: اسرائیل رویای صلح در تمام مرزها را در سر دارد اما از سوی ایران هدف قرار گرفته است.  🔹این اظهارات هرتزوگ در حالی مطرح می شود که رژیم صهیونیستی بیش از دو سال و نیم، غزه را تحت حملات وحشیانه خود قرار داده است و بیش از نیمی از آن را اشغال و بخش‌های قابل توجهی از آن را با خاک یکسان کرده است.  https://irna.ir/xjXCDh @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9005684669112629
+      "semantic_danger_knn": 0.9753639863943435
     }
   ]
 }
