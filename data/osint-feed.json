@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-22T00:07:23.173Z",
+  "last_updated": "2026-06-22T06:25:32.088Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.51",
-    "global_norm_sentiment": "-0.12"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.49",
+    "global_norm_sentiment": "-0.14"
   },
   "timeline": [
-    {
-      "time": "2026-06-15T09:59:39.989Z",
-      "danger": 0.463,
-      "sentiment": -0.166,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.48,
-          "sentiment": -0.429
-        },
-        "OSINTdefender": {
-          "danger": 0.497,
-          "sentiment": -0.733
-        },
-        "irna_1313": {
-          "danger": 0.251,
-          "sentiment": 0.1
-        },
-        "sepah_pasdaran": {
-          "danger": 0.393,
-          "sentiment": -0.7
-        },
-        "almanarnews": {
-          "danger": 0.441,
-          "sentiment": 0.3
-        },
-        "C_Military1": {
-          "danger": 0.678,
-          "sentiment": -0.2
-        },
-        "almayadeen": {
-          "danger": 0.219,
-          "sentiment": 0.233
-        },
-        "QudsN": {
-          "danger": 0.718,
-          "sentiment": -0.1
-        }
-      }
-    },
     {
       "time": "2026-06-15T15:51:28.186Z",
       "danger": 0.471,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.4
         }
       }
+    },
+    {
+      "time": "2026-06-22T06:25:32.088Z",
+      "danger": 0.489,
+      "sentiment": -0.143,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.413,
+          "sentiment": -0.333
+        },
+        "OSINTdefender": {
+          "danger": 0.428,
+          "sentiment": -0.033
+        },
+        "irna_1313": {
+          "danger": 0.599,
+          "sentiment": 0.2
+        },
+        "sepah_pasdaran": {
+          "danger": 0.243,
+          "sentiment": -0.167
+        },
+        "almanarnews": {
+          "danger": 0.493,
+          "sentiment": -0.367
+        },
+        "C_Military1": {
+          "danger": 0.551,
+          "sentiment": -0.3
+        },
+        "almayadeen": {
+          "danger": 0.635,
+          "sentiment": -0.233
+        },
+        "QudsN": {
+          "danger": 0.578,
+          "sentiment": -0.067
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.6322022776434388
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.41271847828593783
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.4296639158113106
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.4275475814825659
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": 0.2,
-      "knn_danger_metric": 0.5617648153312691
+      "knn_danger_metric": 0.5992071635328878
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.31943722717587303
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.2433031222844892
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.4084181958913741
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.4932715581610329
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.5333429973566943
+      "knn_danger_metric": 0.5506966009792241
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.5010915753906003
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.6348253004269905
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.7702768095870483
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.5780877476481803
     }
   },
   "semantic_logs": [
@@ -2334,74 +2334,88 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "سويسرا: المسؤول الأميركي: فرق التفاوض تعتزم الاستناد على ما تحقق اليوم كنقطة انطلاق للمحادثات الفنية في المرحلة المقبلة بشأن النووي",
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 بقائي يعلن انتهاء عمل وفد التفاوض واستمرار عمل الفرق التقنية في سويسرا https://almanar.com.lb/article/968247/?s=tg",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تعتقل الشاب زياد السعدي عقب مداهمة منزله في حي الخروبة بمدينة جنين.",
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "الدفاع المدني: انتشال جثامين 13 شهيدًا وفتح الطرق في منطقتي النبطية ومرجعيون https://almanar.com.lb/article/968357/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم مدينة نابلس من حاجز صرة.",
+      "text": "فلسطين المحتلة: مراسلة الميادين في الضفة الغربية: قوات الاحتلال تقتحم حي كفر عقب شمال القدس المحتلة",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم منزلًا خلال اقتحام بلدة بيت وزن غرب نابلس",
+      "text": "فلسطين المحتلة: مراسلة الميادين في الضفة الغربية المحتلة: قوات الاحتلال تشرع في هدم منزل في منطقة أم ركبة ببلدة الخضر جنوب بيت لحم",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال لحي رفيديا غرب نابلس.",
+      "text": "إيران: لجنة التشييع: ستقام مراسم الوداع والتشييع والدفن بشكل رسمي ابتداءً من يوم السبت 4 تموز/يوليو المصادف لـ 19 محرم",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: لجنة التشييع: مراسم الوداع ستقام لمدة يومين في مصلى الإمام الخميني الكبير بطهران",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تعتقل شابًا خلال اقتحام حي المخفية غرب مدينة نابلس.",
+      "text": "ترجمة قدس| المجلس الوزاري المصغر في الاحتلال &quot;الكابينت&quot; سيجتمع مساء الثلاثاء لمناقشة آخر التطورات.",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "الرئيس الكولومبي غوستافو بيترو يتهم &quot;إسرائيل&quot; بالتلاعب بالانتخابات في بلاده لصالح فوز مرشح اليمين دي لا إسبريلا المقرب منها.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة بلعا، شرق طولكرم.",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة بيتا جنوب نابلس وتصادر مركبتين.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال بلدة علار، شمال طولكرم.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم منزلين خلال اقتحام بلدة صيدا شمال طولكرم",
+      "text": "قوات الاحتلال تغلق مدخل قرية النبي إلياس شرق قلقيلية.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "جانب من اقتحام  قوات الاحتلال بلدة صيدا شمال طولكرم",
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸تداوم یورش اشغالگران به کرانه باختری/ دو نوجوان فلسطینی به شهادت رسیدند  🔹منابع فلسطینی از تداوم یورش نظامیان اسرائیلی به مناطق مختلف کرانه باختری و شهادت دو فلسطینی خبر دادند.  🔹به نقل از خبرگزاری شهاب، حملات رژیم صهیونیستی به مناطق مختلف کرانه باختری ادامه دارد و شهرک «صیدا» در شمال «طولکرم» مورد تاخت و تاز نظامیان اسرائیلی قرار گرفت.  https://irna.ir/xjXCp8 @IRNA_1313",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
+      "semantic_danger_knn": 0.9975895931717171
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 13 العبرية: سيجتمع الكابينيت يوم الخميس القادم.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9958174570708113
     },
     {
       "channelId": "C_Military1",
@@ -2411,25 +2425,11 @@
       "semantic_danger_knn": 0.9914631632524533
     },
     {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🏆#جام_‌جهانی  🎥طارمی: بدشانس بودیم و اگر تجربه بازی بین‌المللی بیشتری داشتیم، می‌توانستیم ببریم  🔹کسی از ما انتظار این نمایش را نداشت.  🔹 گلی که زدیم، تمرین‌شده بود اما با بدشانسی آفساید شد.  @IRNA_1313",
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "اعتداءات بالضرب على شاب وسيدة وحرق منشآت واعتقالات... ماذا فعل المستوطنون وقوات الاحتلال في الضفة المحتلة؟ https://qudsn.co/post/216225",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9904567943036928
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🏆#جام_‌جهانی  ⚽️ گل اول اروگوئه توسط ماکسیمیلیانو آرائوخو در دقیقه 44  🇺🇾اروگوئه 1️⃣     1️⃣کیپ ورد🇨🇻  @IRNA_1313",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9900416935917431
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🏆#جام_‌جهانی  ⚽️ گل دوم اروگوئه توسط آگوستین کانوبیو در دقیقه 6+45  🇺🇾اروگوئه 2️⃣     1️⃣کیپ ورد🇨🇻  @IRNA_1313",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9900416935917431
+      "semantic_danger_knn": 0.9262731058775845
     }
   ]
 }
