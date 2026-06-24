@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-24T18:49:13.967Z",
+  "last_updated": "2026-06-24T20:45:29.067Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.51",
-    "global_norm_sentiment": "-0.19"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.47",
+    "global_norm_sentiment": "-0.25"
   },
   "timeline": [
-    {
-      "time": "2026-06-18T22:03:27.248Z",
-      "danger": 0.485,
-      "sentiment": -0.107,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.34,
-          "sentiment": -0.5
-        },
-        "OSINTdefender": {
-          "danger": 0.504,
-          "sentiment": -0.067
-        },
-        "irna_1313": {
-          "danger": 0.649,
-          "sentiment": -0.1
-        },
-        "sepah_pasdaran": {
-          "danger": 0.313,
-          "sentiment": 0.067
-        },
-        "almanarnews": {
-          "danger": 0.42,
-          "sentiment": -0.033
-        },
-        "C_Military1": {
-          "danger": 0.537,
-          "sentiment": -0.167
-        },
-        "almayadeen": {
-          "danger": 0.577,
-          "sentiment": 0.433
-        },
-        "QudsN": {
-          "danger": 0.562,
-          "sentiment": -0.567
-        }
-      }
-    },
     {
       "time": "2026-06-19T00:23:22.449Z",
       "danger": 0.502,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.167
         }
       }
+    },
+    {
+      "time": "2026-06-24T20:45:29.067Z",
+      "danger": 0.465,
+      "sentiment": -0.253,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.672,
+          "sentiment": -0.467
+        },
+        "OSINTdefender": {
+          "danger": 0.491,
+          "sentiment": -0.467
+        },
+        "irna_1313": {
+          "danger": 0.458,
+          "sentiment": 0.367
+        },
+        "sepah_pasdaran": {
+          "danger": 0.237,
+          "sentiment": -0.1
+        },
+        "almanarnews": {
+          "danger": 0.333,
+          "sentiment": -0.167
+        },
+        "C_Military1": {
+          "danger": 0.495,
+          "sentiment": -0.467
+        },
+        "almayadeen": {
+          "danger": 0.32,
+          "sentiment": -0.5
+        },
+        "QudsN": {
+          "danger": 0.696,
+          "sentiment": -0.6
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.6219804097246138
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.6717141305261661
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.4882122782798532
+      "raw_sentiment": 0.36666666666666664,
+      "knn_danger_metric": 0.4578838179854128
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.4837713180415483
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.23717189914580358
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.39029501277457207
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.33265162847155505
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.4641673065938934
+      "knn_danger_metric": 0.495313015414494
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.5696748382480362
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.3201670363840418
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.6473242075568003
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.6958631702474674
     }
   },
   "semantic_logs": [
@@ -2355,73 +2355,45 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "רצועת עזה: השטח שבשליטת חמאס הולך ומצטמצם   היום אמר ראש הממשלה נתניהו שישראל יושבת בכ - 70% משטחי הרצועה.  מצורפת מפת &quot;הנגיסות העדכניות&quot; של צה&quot;ל בתוך השטח שבשליטת חמאס ברצועה, על בסיס ניתוח תמונות לווין.  מצפון לדרום:  1. אזור אלעטאטרה בצפון הרצועה - מערב בית לאהיא (בהמשך לדיווח מהבוקר 👆) .  2. אזור גשר ואדי עזה - דרומית לעיר עזה - מרכז הרצועה.  3. אזור ח&#39;אן יונס - דרום הרצועה.  4. אזור רפיח - דרום הרצועה.  תגובה אחת",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️ای اهل حرم میر و علمدار نیامد...  چهارپایه‌‌خوانی در حسینیه بزرگ انقلاب  &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: غارة من مسيرة إسرائيلية استهدفت حي الدير في النبطية الفوقا",
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "بقائي: امريكا لم تُظهر صدقًا في تعاملها مع الشعب الإيراني والتصريحات المتناقضة تعمّق الريبة https://almanar.com.lb/article/974947/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: &quot;إسرائيل هيوم&quot;: نتنياهو يضحي بالجنود على مذبح السلطة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: وزارة الخارجية: عراقتشي وبن فرحان استعرضا التطورات وشددا على أهمية استمرار المشاورات والحفاظ على القنوات الدبلوماسية",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "سوريا: الإخبارية السورية: قوات الاحتلال الإسرائيلي تنشئ حاجزاً حديدياً غرب بلدة الرفيد في ريف القنيطرة الجنوبي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: وزارة الصحة: 4211 شهيداً و12173 جريحاً في العدوان الإسرائيلي منذ 2 آذار/مارس الماضي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: ارتقاء شهيد متأثراً بإصابته بعدوان الاحتلال على مواصي مدينة خان يونس جنوبي قطاع غزة صباح اليوم",
+      "text": "مصدر أمني سياسي إقليمي للميادين: تجهيز مقدمات جدول انسحاب &quot;الجيش&quot; الإسرائيلي من جنوب لبنان وهو قيد الدراسة والمراجعة",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تلاحق صهاريج نقل المياه خلال اقتحامها لبلدة إذنا، غرب الخليل.",
+      "text": "تقارير: حروب &quot;إسرائيل&quot; منذ السابع من أكتوبر كلفتها أكثر من 683 مليار شيقل التفاصيل: https://qudsn.co/post/216267/",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "تحليق مكثف لمُسيّرات الاحتلال في أجواء الضاحية الجنوبية لبيروت.",
-      "absolute_sentiment": 0.5,
+      "text": "مصادر محلية: قوات الاحتلال تطلق قنابل الصوت خلال اقتحام مدينة البيرة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تصادر 7 صهاريج لنقل المياه خلال اقتحام بلدة إذنا، غرب الخليل.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "حين التقى خطاب الاحتلال والميليشيات بـ&quot;حراك 26 يونيو&quot;.. الحراك الداخلي في غزة بدعم &quot;إسرائيلي&quot;",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2430,6 +2402,34 @@
       "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية: قائد القيادة المركزية للجيش الأمريكي سيصل قريباً إلى &quot;إسرائيل&quot; ومن المتوقع أن يعقد خلال زيارته للبلاد اجتماعات مع رئيس الأركان ايال زامير ووزير الحرب إسرائيل كاتس.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9979853054910217
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🎥 گل اول سوئیس توسط وارگاس در دقیقه 46 کانادا 0 - سوئیس 1 @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9900416935917431
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🎥گل دوم سوئیس توسط مانزامبی در دقیقه 57 کانادا 0 - سوئیس 2 @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9900416935917431
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🎥گل اول سوئیس توسط پرومیس در دقیقه 76 کانادا 1 - سوئیس 2 @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9900416935917431
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | قوات الاحتلال تعتقل الشاب &quot;جعفر يوسف ريحان&quot; من قرية تل، أثناء مروره بمركبته قرب قرية برقة، شمال غرب نابلس.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9596045227592704
     }
   ]
 }
