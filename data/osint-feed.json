@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-24T13:18:19.879Z",
+  "last_updated": "2026-06-24T16:15:25.538Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.47",
-    "global_norm_sentiment": "-0.30"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.51",
+    "global_norm_sentiment": "-0.25"
   },
   "timeline": [
-    {
-      "time": "2026-06-18T16:26:51.735Z",
-      "danger": 0.481,
-      "sentiment": -0.123,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.667,
-          "sentiment": -0.633
-        },
-        "OSINTdefender": {
-          "danger": 0.518,
-          "sentiment": -0.167
-        },
-        "irna_1313": {
-          "danger": 0.372,
-          "sentiment": 0.433
-        },
-        "sepah_pasdaran": {
-          "danger": 0.256,
-          "sentiment": -0.167
-        },
-        "almanarnews": {
-          "danger": 0.442,
-          "sentiment": 0.233
-        },
-        "C_Military1": {
-          "danger": 0.463,
-          "sentiment": -0.4
-        },
-        "almayadeen": {
-          "danger": 0.441,
-          "sentiment": 0.267
-        },
-        "QudsN": {
-          "danger": 0.702,
-          "sentiment": -0.667
-        }
-      }
-    },
     {
       "time": "2026-06-18T19:24:30.066Z",
       "danger": 0.456,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.133
         }
       }
+    },
+    {
+      "time": "2026-06-24T16:15:25.538Z",
+      "danger": 0.513,
+      "sentiment": -0.245,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.765,
+          "sentiment": -0.667
+        },
+        "OSINTdefender": {
+          "danger": 0.436,
+          "sentiment": -0.567
+        },
+        "irna_1313": {
+          "danger": 0.379,
+          "sentiment": 0.05
+        },
+        "sepah_pasdaran": {
+          "danger": 0.421,
+          "sentiment": -0.667
+        },
+        "almanarnews": {
+          "danger": 0.373,
+          "sentiment": 0.133
+        },
+        "C_Military1": {
+          "danger": 0.346,
+          "sentiment": -0.267
+        },
+        "almayadeen": {
+          "danger": 0.826,
+          "sentiment": -0.333
+        },
+        "QudsN": {
+          "danger": 0.636,
+          "sentiment": 0
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.7,
-      "knn_danger_metric": 0.5291863736186374
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.7651048308345069
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.3373726500371189
+      "num_messages": 10,
+      "raw_sentiment": 0.05,
+      "knn_danger_metric": 0.37853516349106936
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.30214638675875083
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.4207845238645521
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.4455626321998987
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.3725903987858206
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.5054320568519276
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.34643408593760167
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.5494756385914311
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.8259628506241019
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.5992141925877105
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.6362025219431174
     }
   },
   "semantic_logs": [
@@ -2336,100 +2336,100 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "דובר צה&quot;ל:  לאחר שזוהו בסמוך למרחב הביטחוני: צה&quot;ל תקף שני מחבלי חיזבאללה חמושים שהיוו איום על כוחותינו במרחב רכס עלי טאהר  הבוקר (ד&#39;), כוחות סיירת גבעתי הפועלים ברכס עלי טאהר, זיהו שני מחבלים חמושים מארגון הטרור חיזבאללה שהיוו איום על כוחותינו הפועלים במרחב הביטחוני.   מיד לאחר הזיהוי, חיל האוויר והכוחות בשטח תקפו את המחבלים להסרת האיום.  תגובה אחת",
+      "text": "דרום לבנון:   מקורות לבנוניים מדווחים על ירי ארטילרי של צה&quot;ל לעבר הכפר יאטר.  ע&quot;פ מקורות אלו צה&quot;ל ביצע לפני זמן קצר פיצוץ יזום בכפר עיתרון.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "דובר צה&quot;ל:  לאחר שזוהו בסמוך למרחב הביטחוני: צה&quot;ל תקף שני מחבלי חיזבאללה חמושים שהיוו איום על כוחותינו במרחב רכס עלי טאהר  הבוקר (ד&#39;), כוחות סיירת גבעתי הפועלים ברכס עלי טאהר, זיהו שני מחבלים חמושים מארגון הטרור חיזבאללה שהיוו איום על כוחותינו הפועלים במרחב…",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "הנה גם ההודעה האיראנית לפיה לא תגבה אגרות במשך 60 יום.  תגובה אחת",
+      "text": "דובר צה&quot;ל: לאחר שניסה לשקם את ארגון הטרור חמאס: צה&quot;ל חיסל מחבל שפשט לשטח מדינת ישראל בטבח ה-7 באוקטובר  צה&quot;ל תקף בדרום רצועת עזה מוקדם יותר השבוע (א&#39;), וחיסל את אכרם מחמד מחמוד אבו מאצ&#39;י, מחבל בזרוע הצבאית של ארגון הטרור חמאס.  אבו מאצ&#39;י פשט לשטח מדינת ישראל בטבח ה-7 באוקטובר  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 وزارة الاقتصاد: تسطير 472 محضر ضبط منذ بداية العام https://almanar.com.lb/article/974112/?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "🎥 فيديو كلمة الأمين العام لحزب الله سماحة الشيخ نعيم قاسم 23-06-2026 الموافق 08 محرم 1448 هـ",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️هلاکت یک نظامی اسرائیلی به هنگام تخریب خانه فلسطینی‌ها در غزه  منابع اسرائیلی از کشته شدن یک راننده بولدزر در غزه در پی فروریختن آوار ساختمان بر سرش خبر دادند.  &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "المصدر لـ &quot;رويترز&quot;: المحادثات تركز على التشغيل المستقبلي للمضيق وهي منفصلة أيضاً عن الترتيبات المتعلقة بإزالة الألغام منه",
+      "text": "لبنان: مراسل الميادين في الجنوب: مدفعية الاحتلال الإسرائيلي تعتدي على بلدة ياطر",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: أبادي: لا يمكن الترويج لسياسة &quot;التحرك وترك الأمور على حالها&quot; عبر ضجة إعلامية",
+      "text": "لبنان: مراسل الميادين في الجنوب: غارة معادية من مسيرة إسرائيلية استهدفت حي البريد في النبطية الفوقا",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مصادر محلية: استشهاد فلسطيني برصاص قوات الاحتلال الإسرائيلي في بلدة اليامون شمالي الضفة الغربية المحتلة",
+      "text": "لبنان: مراسل الميادين في الجنوب: &quot;جيش&quot; الاحتلال الإسرائيلي نفذ تفجيراً في بلدة عيترون",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في جنوب لبنان: غارة من مسيرة إسرائيلية استهدفت سيارة على طريق الدبشة في قضاء النبطية",
+      "text": "لبنان: مراسل الميادين: دبابة &quot;ميركافا&quot; إسرائيلية تستهدف بعدد من القذائف بلدة حداثا في قضاء بنت جبيل جنوبي البلاد",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: غارة من مسيرة إسرائيلية استهدفت حي الدير في النبطية الفوقا",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "وسائل إعلام إسرائيلية: &quot;إسرائيل هيوم&quot;: نتنياهو يضحي بالجنود على مذبح السلطة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: وزارة الخارجية: عراقتشي وبن فرحان استعرضا التطورات وشددا على أهمية استمرار المشاورات والحفاظ على القنوات الدبلوماسية",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "سوريا: الإخبارية السورية: قوات الاحتلال الإسرائيلي تنشئ حاجزاً حديدياً غرب بلدة الرفيد في ريف القنيطرة الجنوبي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: وزارة الصحة: 4211 شهيداً و12173 جريحاً في العدوان الإسرائيلي منذ 2 آذار/مارس الماضي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: ارتقاء شهيد متأثراً بإصابته بعدوان الاحتلال على مواصي مدينة خان يونس جنوبي قطاع غزة صباح اليوم",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "بمناسبة اليوم العالمي للأرامل.. غزة تسجل مأساة مضاعفة",
+      "text": "وسائل إعلام عبرية: 230 مليار دولار.. كلفة الحرب منذ 7 أكتوبر 2023",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "بحراسة جيش الاحتلال.. مستوطنون يقتحمون مساكن وحظائر ويفتشونها في &quot;خربة شعب البطم&quot; بمسافر يطا، جنوب الخليل.",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "جرافات الاحتلال تجرف أراضي الفلسطينيين شرق قرية تياسير، شرق طوباس.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#لبنان   أبرز ما جاء في&nbsp; كلمة الأمين العام لحزب الله الشيخ نعيم قاسم في المجلس العاشورائي المركزي:  - قالوا لنا إن أميركا تضمن الاتفاق، فضمنت اتفاق 27-11، لكنها تنصّلت منه لاحقًا وقالت إنها لم تضمنه.  - الصبر كان جزءًا من الميدان لأن الخيار كان محسومًا، وانتقلنا من الصبر في الميدان إلى القتال في الميدان، لأننا اعتبرنا أن التوقيت والظروف كانا مناسبين في الثاني من آذار، وتبيّن أننا دخلنا في حركة الاستناد إلى إيران.  - الحمد لله، استطعنا أن نصل إلى هذه المرحلة، وكان التوقيت والخيار وخوض المعركة وكل الخطوات مهمّة جدًا، إذ أثمرت الميدان لمصلحة ما حصل الآن من وقفٍ لإطلاق النار، على أن تتبعها خطوة الانسحاب من الأراضي اللبنانية.  - نشكر إيران، ونقول لها إنها من أشرف الشرفاء في العالم.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9990601104361442
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#لبنان   أبرز ما جاء في&nbsp; كلمة الأمين العام لحزب الله الشيخ نعيم قاسم في المجلس العاشورائي المركزي:  - لولا وجود السيد حسن، والقادة الشهداء، والجرحى، والأسرى، والعوائل العظيمة، لما استطعنا كسر هذا المشروع.  - &quot;إسرائيل&quot; في الميدان لا تتحمّل، ولا تستطيع تحقيق أهدافها مهما طال الزمن.  - ولو سقط الميدان، لكانت &quot;إسرائيل&quot; قد خطت خطوةً في مشروعها لإنهاء حزب الله وتحقيق مشروع &quot;إسرائيل الكبرى&quot;.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9978943081120253
     }
   ]
 }
