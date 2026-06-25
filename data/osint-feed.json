@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-25T08:55:05.601Z",
+  "last_updated": "2026-06-25T11:37:49.589Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.51",
-    "global_norm_sentiment": "-0.23"
+    "global_knn_danger": "0.50",
+    "global_norm_sentiment": "-0.14"
   },
   "timeline": [
-    {
-      "time": "2026-06-19T17:18:14.194Z",
-      "danger": 0.499,
-      "sentiment": -0.14,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.514,
-          "sentiment": -0.567
-        },
-        "OSINTdefender": {
-          "danger": 0.491,
-          "sentiment": -0.167
-        },
-        "irna_1313": {
-          "danger": 0.508,
-          "sentiment": 0.033
-        },
-        "sepah_pasdaran": {
-          "danger": 0.434,
-          "sentiment": -0.1
-        },
-        "almanarnews": {
-          "danger": 0.307,
-          "sentiment": 0.167
-        },
-        "C_Military1": {
-          "danger": 0.697,
-          "sentiment": -0.5
-        },
-        "almayadeen": {
-          "danger": 0.528,
-          "sentiment": 0.167
-        },
-        "QudsN": {
-          "danger": 0.558,
-          "sentiment": -0.3
-        }
-      }
-    },
     {
       "time": "2026-06-19T19:44:13.683Z",
       "danger": 0.52,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.077
         }
       }
+    },
+    {
+      "time": "2026-06-25T11:37:49.589Z",
+      "danger": 0.501,
+      "sentiment": -0.145,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.427,
+          "sentiment": -0.433
+        },
+        "OSINTdefender": {
+          "danger": 0.503,
+          "sentiment": -0.567
+        },
+        "irna_1313": {
+          "danger": 0.458,
+          "sentiment": -0.05
+        },
+        "sepah_pasdaran": {
+          "danger": 0.402,
+          "sentiment": 0.2
+        },
+        "almanarnews": {
+          "danger": 0.476,
+          "sentiment": 0.2
+        },
+        "C_Military1": {
+          "danger": 0.56,
+          "sentiment": -0.5
+        },
+        "almayadeen": {
+          "danger": 0.698,
+          "sentiment": -0.2
+        },
+        "QudsN": {
+          "danger": 0.535,
+          "sentiment": 0.033
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.5374239545331645
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.42676120997093003
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": 0.5,
-      "knn_danger_metric": 0.38101464558807563
+      "num_messages": 10,
+      "raw_sentiment": -0.05,
+      "knn_danger_metric": 0.4583498853762283
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.34877550582748024
+      "raw_sentiment": 0.2,
+      "knn_danger_metric": 0.40206765677156936
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.4802765751891861
+      "raw_sentiment": 0.2,
+      "knn_danger_metric": 0.47577293176338326
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.669016046112695
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.5595618105162906
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.588804490402859
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.6975638437144904
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 13,
-      "raw_sentiment": -0.07692307692307693,
-      "knn_danger_metric": 0.6033407557341288
+      "num_messages": 15,
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.5353991203347425
     }
   },
   "semantic_logs": [
@@ -2334,73 +2334,73 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "שר הביטחון על היעד הבא של ישראל - עליונות התקפית והגנתית בחלל:   &quot;אחת המטרות המרכזיות שראש הממשלה ואני סימנו הוא החלל. החלל הוא המקום שבו אין משמעות לשטח שאתה אוחז בו למטה, אין משמעות לגודל האוכלוסייה שלך ואין משמעות להרבה דברים אחרים וזה היעד שנקבע. לא רק…",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "🔵 الحرس الثوري: المرور الآمن عبر هرمز لا يكون إلا عبر الممرات التي نحدّدها https://almanar.com.lb/article/975747/?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: &quot;حداشوت بزمان&quot;: مقتل جندي إسرائيلي الليلة الماضية من جراء انقلاب شاحنة في جنوب لبنان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "جيش الاحتلال: مقتل جندي إسرائيلي وإصابة آخر بجروح متوسطة في حادث عملياتي جنوب لبنان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "الصين: الخارجية: نؤكد دعمنا الراسخ لكوبا في استكشاف مسار التنمية الاشتراكية الذي يتناسب مع ظروفها الوطنية",
+      "text": "🔵 حماس: اجتماعات التهجير الإسرائيلية تكشف مخططاً ممنهجاً يناقض السلام https://almanar.com.lb/article/976357/?s=tg",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "السودان: هجوم بطائرة مسيرة منسوب لقوات &quot;الدعم السريع&quot;يتسبب في مقتل وإصابة عدد من المدنيين بمدينة ربك في ولاية النيل الأبيض السودانية",
+      "text": "إيران: وكالة ميزان: عقب تحذير حرس الثورة ثلاث ناقلات نفط كانت تعبر مضيق هرمز عبر الممر الجنوبي تقوم الآن بالدوران والعودة نحو الخليج",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: شهيد برصاص الاحتلال الإسرائيلي في بلدة بيت لاهيا شمالي قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "وقفة في مدينة بئر السبع جنوب فلسطين المحتلة رفضا لعمليات الهدم التي ينفذها الاحتلال لاقتلاع الفلسطينيين من النقب.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "حين التقى خطاب الاحتلال والميليشيات بـ&quot;حراك 26 يونيو&quot;.. الحراك الداخلي في غزة بدعم &quot;إسرائيلي&quot;",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مستوطنون يدنسون المسجد الأقصى المبارك ويستبيحونه تحت حماية شرطة الاحتلال",
+      "text": "إيران: قائد قوة القدس العميد إسماعيل قاآني: أيها الصهاينة يجب عليكم مغادرة لبنان بأسره لأن هذه الأرض هي ميدان الصمود والمقاومة",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: قاآني: أيها الصهاينة.. إن لم تنسحبوا اليوم من لبنان بإرادتكم فستُجبرون غداً على الفرار بخزي وهزيمة نكراء",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: الخارجية: عراقتشي بحث هاتفياً مع نظيره العماني بدر البوسعيدي التطورات الإقليمية والموضوعات ذات الاهتمام المشترك",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: الخارجية: عراقتشي والبوسعيدي شددا على مواصلة المشاورات ومتابعة القضايا ذات الاهتمام المشترك عبر القنوات الدبلوماسية",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "وداع حزين هذا الصباح في خانيونس للشهيد كمال النجار الذي ارتقى بقصف الاحتلال أمس",
-      "absolute_sentiment": 1,
+      "text": "قوات الاحتلال تحتجز الناشط بلال غريب والصحفي معاذ غنام في منطقة الرأس الأحمر بالأغوار الشمالية أثناء تغطيتهما لعمليات تجريف وتخريب من قبل الاحتلال والمستوطنين.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "آثار دماء الشهيد مصطفى الخطيب الذي أعدمه جنود الاحتلال في منزله بقرية سرطة غرب سلفيت",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "من وداع الشهيد مصطفى الخطيب الذي أعدمه الاحتلال داخل بيته في قرية سرطة غرب سلفيت",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2425,11 +2425,11 @@
       "semantic_danger_knn": 0.9979853054910217
     },
     {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "محكم الاحتلال تصدر حكما بالسجن على الأسيرة يمامة الهرينات من مدينة الخليل لمدة 14 شهرا وكفالة مالية بقيمة 10 آلاف شيكل، علما أنها معتقلة منذ سبتمبر 2025",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9809545600652808
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸گزارش تصویری حضور رئیس‌جمهور در جمع سوگواران عاشورای حسینی در تبریز  دکتر مسعود پزشکیان رئیس‌جمهور، همزمان با روز عاشورای حسینی با حضور در تبریز، در جمع عزاداران حضرت اباعبدالله الحسین (ع) حضور یافت و در آیین‌های سوگواری این روز شرکت کرد.  @IRNA_1313",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.9904567943036928
     }
   ]
 }
