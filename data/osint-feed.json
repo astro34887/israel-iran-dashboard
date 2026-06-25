@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-25T11:37:49.589Z",
+  "last_updated": "2026-06-25T14:23:10.651Z",
   "tension": {
-    "level": "ESCALATING",
+    "level": "CALM_CEASEFIRE",
     "global_knn_danger": "0.50",
-    "global_norm_sentiment": "-0.14"
+    "global_norm_sentiment": "-0.11"
   },
   "timeline": [
-    {
-      "time": "2026-06-19T19:44:13.683Z",
-      "danger": 0.52,
-      "sentiment": -0.28,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.5,
-          "sentiment": -0.567
-        },
-        "OSINTdefender": {
-          "danger": 0.475,
-          "sentiment": -0.233
-        },
-        "irna_1313": {
-          "danger": 0.554,
-          "sentiment": -0.567
-        },
-        "sepah_pasdaran": {
-          "danger": 0.381,
-          "sentiment": -0.5
-        },
-        "almanarnews": {
-          "danger": 0.297,
-          "sentiment": 0
-        },
-        "C_Military1": {
-          "danger": 0.594,
-          "sentiment": -0.4
-        },
-        "almayadeen": {
-          "danger": 0.842,
-          "sentiment": -0.1
-        },
-        "QudsN": {
-          "danger": 0.61,
-          "sentiment": -0.3
-        }
-      }
-    },
     {
       "time": "2026-06-19T21:06:26.692Z",
       "danger": 0.517,
@@ -2261,6 +2214,53 @@
           "sentiment": 0.033
         }
       }
+    },
+    {
+      "time": "2026-06-25T14:23:10.651Z",
+      "danger": 0.499,
+      "sentiment": -0.111,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.607,
+          "sentiment": -0.733
+        },
+        "OSINTdefender": {
+          "danger": 0.503,
+          "sentiment": -0.567
+        },
+        "irna_1313": {
+          "danger": 0.428,
+          "sentiment": 0.727
+        },
+        "sepah_pasdaran": {
+          "danger": 0.416,
+          "sentiment": -0.067
+        },
+        "almanarnews": {
+          "danger": 0.468,
+          "sentiment": 0.1
+        },
+        "C_Military1": {
+          "danger": 0.533,
+          "sentiment": -0.267
+        },
+        "almayadeen": {
+          "danger": 0.587,
+          "sentiment": 0.233
+        },
+        "QudsN": {
+          "danger": 0.499,
+          "sentiment": -0.4
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.42676120997093003
+      "raw_sentiment": -0.7333333333333333,
+      "knn_danger_metric": 0.6072604789268656
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 10,
-      "raw_sentiment": -0.05,
-      "knn_danger_metric": 0.4583498853762283
+      "num_messages": 11,
+      "raw_sentiment": 0.7272727272727273,
+      "knn_danger_metric": 0.42774384411152977
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.2,
-      "knn_danger_metric": 0.40206765677156936
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.4159756900356709
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.2,
-      "knn_danger_metric": 0.47577293176338326
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.467703176491764
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.5595618105162906
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.5326029037608861
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.6975638437144904
+      "raw_sentiment": 0.23333333333333334,
+      "knn_danger_metric": 0.5867636565120649
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.5353991203347425
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.4990213831368139
     }
   },
   "semantic_logs": [
@@ -2336,71 +2336,43 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "שר הביטחון על היעד הבא של ישראל - עליונות התקפית והגנתית בחלל:   &quot;אחת המטרות המרכזיות שראש הממשלה ואני סימנו הוא החלל. החלל הוא המקום שבו אין משמעות לשטח שאתה אוחז בו למטה, אין משמעות לגודל האוכלוסייה שלך ואין משמעות להרבה דברים אחרים וזה היעד שנקבע. לא רק…",
-      "absolute_sentiment": 0,
+      "text": "ערוצים לבנוניים לא רשמיים מדווחים על 5 נפגעים בתקיפת הכטב&quot;מ הישראלי לפני כשעה קלה 👆בכפר מיפדון בנפת נבטיה.  ע&quot;פ מקורות נוספים יש ככל הנראה 3 הרוגים לבנונים מקרב 5 הנפגעים.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "ערוצים לבנוניים לא רשמיים מדווחים על 5 נפגעים בתקיפת הכטב&quot;מ הישראלי לפני כשעה קלה 👆בכפר מיפדון בנפת נבטיה.  ע&quot;פ מקורות נוספים יש ככל הנראה 3 הרוגים לבנונים מקרב 5 הנפגעים.  תגובה אחת",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "🔵 حماس: اجتماعات التهجير الإسرائيلية تكشف مخططاً ممنهجاً يناقض السلام https://almanar.com.lb/article/976357/?s=tg",
+      "text": "📹 وقفة تضامنية دعماً للأسرى ال��بنانيين والفلسطينيين في السجون الإسرائيلية https://almanar.com.lb/article/976627/?s=tg",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "الحركة اللبنانية الديمقراطية: اسرائيل ترتكب المجازر بالمدنيين مقابل كل فشل ميداني https://almanar.com.lb/article/976727/?s=tg",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: وكالة ميزان: عقب تحذير حرس الثورة ثلاث ناقلات نفط كانت تعبر مضيق هرمز عبر الممر الجنوبي تقوم الآن بالدوران والعودة نحو الخليج",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: قائد قوة القدس العميد إسماعيل قاآني: أيها الصهاينة يجب عليكم مغادرة لبنان بأسره لأن هذه الأرض هي ميدان الصمود والمقاومة",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: قاآني: أيها الصهاينة.. إن لم تنسحبوا اليوم من لبنان بإرادتكم فستُجبرون غداً على الفرار بخزي وهزيمة نكراء",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: الخارجية: عراقتشي بحث هاتفياً مع نظيره العماني بدر البوسعيدي التطورات الإقليمية والموضوعات ذات الاهتمام المشترك",
+      "text": "اليمن: السيد الحوثي: نحن على تنسيق مستمر مع إخوتنا تجاه أي جولة جديدة ولن نتردد في القيام بواجبنا في أي تصعيد عدواني جديد في أي ساحة",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: الخارجية: عراقتشي والبوسعيدي شددا على مواصلة المشاورات ومتابعة القضايا ذات الاهتمام المشترك عبر القنوات الدبلوماسية",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تحتجز الناشط بلال غريب والصحفي معاذ غنام في منطقة الرأس الأحمر بالأغوار الشمالية أثناء تغطيتهما لعمليات تجريف وتخريب من قبل الاحتلال والمستوطنين.",
+      "text": "لبنان: وزارة الصحة: 3 شهداء وجريح في اعتداء إسرائيلي بغارة على سيارة في بلدة ميفدون بقضاء النبطية",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "آثار دماء الشهيد مصطفى الخطيب الذي أعدمه جنود الاحتلال في منزله بقرية سرطة غرب سلفيت",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "من وداع الشهيد مصطفى الخطيب الذي أعدمه الاحتلال داخل بيته في قرية سرطة غرب سلفيت",
-      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2413,23 +2385,51 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية: قائد القيادة المركزية للجيش الأمريكي سيصل قريباً إلى &quot;إسرائيل&quot; ومن المتوقع أن يعقد خلال زيارته للبلاد اجتماعات مع رئيس الأركان ايال زامير ووزير الحرب إسرائيل كاتس.  #الإعلام_الحربي",
+      "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية: وصل إلى قطاع كفرتبنيت وكانت المشاهد التي رآها ن&#39; صعبة ولا تُطاق: دبابة انفجرت، منطقة مشتعلة، وكل ذلك تحت وابل من قذائف الهاون والطائرات المسيرة المتفجرة. كانت هذه آخر يومين قبل دخول وقف ��طلاق النار حيز التنفيذ، وكان مقاتلو حزب الله يركزون جهداً أخيراً ضد الكتيبة في المنطقة.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9979853054910217
+      "semantic_danger_knn": 0.9978117060108519
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية: وصل إلى قطاع كفرتبنيت وكانت المشاهد التي رآها ن&#39; صعبة ولا تُطاق: دبابة انفجرت، منطقة مشتعلة، وكل ذلك تحت وابل من قذائف الهاون والطائرات المسيرة المتفجرة. كانت هذه آخر يومين قبل دخول وقف إطلاق النار حيز التنفيذ، وكان مقاتلو حزب الله يركزون جهداً أخيراً ضد الكتيبة في المنطقة.  #الإعلام_الحربي",
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | قوات الاحتلال تقتحم بلدة قصرة، جنوب شرق نابلس.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9979853054910217
+      "semantic_danger_knn": 0.9596045227592704
     },
     {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸گزارش تصویری حضور رئیس‌جمهور در جمع سوگواران عاشورای حسینی در تبریز  دکتر مسعود پزشکیان رئیس‌جمهور، همزمان با روز عاشورای حسینی با حضور در تبریز، در جمع عزاداران حضرت اباعبدالله الحسین (ع) حضور یافت و در آیین‌های سوگواری این روز شرکت کرد.  @IRNA_1313",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9904567943036928
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | اندلاع مــواجــهات في مدينة طوباس، وقوات الاحتلال تُطلق قنابل الصوت.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9596045227592704
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | قوات الاحتلال تداهم منزلاً بمنطقة &quot;عين كاكوب&quot; في جبل المساكن، شرق مدينة نابلس.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9596045227592704
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | اندلاع مواجهات في قرية &quot;المغير&quot; شمال شرق رام الله، وقوات الاحتلال تُطلق قنابل الغاز والصوت.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9596045227592704
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "רצועת עזה: מארגני מחאת  &quot;מהפכת 2026&quot; פרסמו לפני זמן קצר את נקודות ההתכנסות של המחאה שתפתח מחר:  6 נקודות בח&#39;אן יונס.  4 נקודות במחנות מרכז הרצועה.  7 נקודות בעיר עזה.  נקודה אחת בצפון הרצועה.  ## מארגני המחאה מכריזים כי זו תהיה מחאה בלתי אלימה, תחת הדגל הפלסטיני וללא שיוך ארגוני - הם קוראים לכלי התקשורת לסקר את המחאה.  4 תגובות",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9264268353596099
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تنكل بفلسطينيين على حاجز نصبته عند المدخل الغربيّ لقرية المغير، شمال شرق رام الله.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9262731058775845
     }
   ]
 }
