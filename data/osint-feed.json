@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-25T00:06:48.011Z",
+  "last_updated": "2026-06-25T05:01:38.635Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.35"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.49",
+    "global_norm_sentiment": "-0.37"
   },
   "timeline": [
-    {
-      "time": "2026-06-19T11:18:39.221Z",
-      "danger": 0.546,
-      "sentiment": -0.229,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.521,
-          "sentiment": -0.533
-        },
-        "OSINTdefender": {
-          "danger": 0.491,
-          "sentiment": -0.167
-        },
-        "irna_1313": {
-          "danger": 0.434,
-          "sentiment": 0.5
-        },
-        "sepah_pasdaran": {
-          "danger": 0.57,
-          "sentiment": -0.3
-        },
-        "almanarnews": {
-          "danger": 0.434,
-          "sentiment": -0.3
-        },
-        "C_Military1": {
-          "danger": 0.797,
-          "sentiment": -0.567
-        },
-        "almayadeen": {
-          "danger": 0.544,
-          "sentiment": -0.367
-        },
-        "QudsN": {
-          "danger": 0.72,
-          "sentiment": -0.423
-        }
-      }
-    },
     {
       "time": "2026-06-19T14:56:27.486Z",
       "danger": 0.479,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.367
         }
       }
+    },
+    {
+      "time": "2026-06-25T05:01:38.635Z",
+      "danger": 0.494,
+      "sentiment": -0.373,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.729,
+          "sentiment": -0.567
+        },
+        "OSINTdefender": {
+          "danger": 0.509,
+          "sentiment": -0.567
+        },
+        "irna_1313": {
+          "danger": 0.51,
+          "sentiment": -0.2
+        },
+        "sepah_pasdaran": {
+          "danger": 0.271,
+          "sentiment": -0.367
+        },
+        "almanarnews": {
+          "danger": 0.397,
+          "sentiment": -0.733
+        },
+        "C_Military1": {
+          "danger": 0.495,
+          "sentiment": -0.467
+        },
+        "almayadeen": {
+          "danger": 0.4,
+          "sentiment": -0.6
+        },
+        "QudsN": {
+          "danger": 0.678,
+          "sentiment": -0.1
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,32 +2279,32 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.7078991623075941
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.7293784124997419
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.49051540454114845
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.5091882705828523
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.7167028803195853
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.5100183485184027
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
+      "raw_sentiment": -0.36666666666666664,
       "knn_danger_metric": 0.27074078564319287
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.3672646130469974
+      "raw_sentiment": -0.7333333333333333,
+      "knn_danger_metric": 0.39748894217426195
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.38046897891143266
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.3995670343326742
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.9384231312092584
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.6783528697350861
     }
   },
   "semantic_logs": [
@@ -2350,22 +2350,15 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "חזבאללה משקר  חזבאללה מפרסם כרוז לגבי לחיסול אחמד ומחמוד עסילי 👆בתקיפת כטב&quot;מ של צה&quot;ל היום על רכבם בכפר רמאן ליד עלי א-טאהר:  &quot;בפעם השנייה בתוך פחות מ־48 שעות, צבא האויב הישראלי תקף במכוון אזרחים לבנונים שהיו בדרכם לבדוק את בתיהם באזור דוחת כפררמאן, בטענה שהם…",
+      "text": "חזבאללה משקר  חזבאללה מפרסם כרוז לגבי חיסול אחמד ומחמוד עסילי 👆בתקיפת כטב&quot;מ של צה&quot;ל היום על רכבם בכפר רמאן ליד עלי א-טאהר:  &quot;בפעם השנייה בתוך פחות מ־48 שעות, צבא האויב הישראלי תקף במכוון אזרחים לבנונים שהיו בדרכם לבדוק את בתיהם באזור דוחת כפררמאן, בטענה שהם…",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "بقائي: امريكا لم تُظهر صدقًا في تعاملها مع الشعب الإيراني والتصريحات المتناقضة تعمّق الريبة https://almanar.com.lb/article/974947/?s=tg",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "דרום לבנון: מקורות לבנוניים מדווחים כי אחמד עסילי, תושב סכסכיה, נהרג בתקיפת הכטב&quot;מ הישראלי מוקדם יותר היום☝️ קרוב לכפר רמאן בנפת נבטיה.  תגובה אחת",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "مصدر أمني سياسي إقليمي للميادين: تجهيز مقدمات جدول انسحاب &quot;الجيش&quot; الإسرائيلي من جنوب لبنان وهو قيد الدراسة والمراجعة",
-      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2378,58 +2371,65 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تطلق قنابل إنارة في محيط بلدة كفر قدوم شرق قلقيلية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال ضاحية شويكة، شمال طولكرم.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم منزلاً خلال اقتحام منطقة &quot;راس الطويل&quot; في بلدة سعير، شمال الخليل.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة كفر قدوم شرق قلقيلية",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "زوارق الاحتلال الحربية تطلق نيرانها بكثافة باتجاه خيام النازحين في منطقة مواصي خانيونس جنوب قطاع غزة.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم مخيم شعفاط، شمال القدس المحتلة.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تطلق قنابل الصوت خلال اقتحام بلدة سعير، شمال الخليل.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
       "text": "مصادر محلية: قوات الاحتلال تعتقل &quot;أشرف الحلايقة&quot; عقب مداهمة منزله في بلدة سعير شمال الخليل",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تداهم منزلاً خلال اقتحام بلدة كفر قدوم شرق قلقيلية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم مخيم الأمعري في مدينة البيرة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم مخيم العين، غرب نابلس.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تعتقل الشابين &quot;أمير القاصد&quot; و&quot;قاصد الغانم&quot; خلال اقتحام مدينة طوباس.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل| إاطلاق نار وقذائف من آليات الاحتلال شرق حي الزيتون جنوب شرق مدينة غزة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية: قائد القيادة المركزية للجيش الأمريكي سيصل قريباً إلى &quot;إسرائيل&quot; ومن المتوقع أن يعقد خلال زيارته للبلاد اجتماعات مع رئيس الأركان ايال زامير ووزير الحرب إسرائيل كاتس.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9979853054910217
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🎥سینه‌زنی «شنستکا»؛ میراث چندصدساله عاشورایی در سیستان  🔹محرم که از راه می‌رسد، صدای نوحه و مرثیه در کوچه‌ها و حسینیه‌های منطقه سیستان طنین‌انداز می‌شود، اما در میان همه آیین‌های عزاداری این خطه، «شنستکا» یا سینه زنی سه ضرب، جایگاهی متفاوت دارد.  https://irna.ir/xjXDwk @IRNA_1313",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 0.9904567943036928
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "#جام_جهانی  🎥 گل سوم مکزیک توسط آلوارو فیدالگو در دقیقه 90+4 مکزیک 3 - چک 0  @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9900416935917431
     }
   ]
 }
