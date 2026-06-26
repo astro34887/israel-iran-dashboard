@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-26T18:28:43.398Z",
+  "last_updated": "2026-06-26T20:44:18.945Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.48",
-    "global_norm_sentiment": "-0.21"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.51",
+    "global_norm_sentiment": "-0.23"
   },
   "timeline": [
-    {
-      "time": "2026-06-20T21:13:13.144Z",
-      "danger": 0.447,
-      "sentiment": -0.178,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.512,
-          "sentiment": -0.667
-        },
-        "OSINTdefender": {
-          "danger": 0.475,
-          "sentiment": -0.267
-        },
-        "irna_1313": {
-          "danger": 0.376,
-          "sentiment": 0.417
-        },
-        "sepah_pasdaran": {
-          "danger": 0.253,
-          "sentiment": -0.5
-        },
-        "almanarnews": {
-          "danger": 0.405,
-          "sentiment": -0.267
-        },
-        "C_Military1": {
-          "danger": 0.473,
-          "sentiment": -0.267
-        },
-        "almayadeen": {
-          "danger": 0.513,
-          "sentiment": 0.033
-        },
-        "QudsN": {
-          "danger": 0.511,
-          "sentiment": -0.133
-        }
-      }
-    },
     {
       "time": "2026-06-20T23:03:41.638Z",
       "danger": 0.51,
@@ -2261,6 +2214,53 @@
           "sentiment": 0.036
         }
       }
+    },
+    {
+      "time": "2026-06-26T20:44:18.945Z",
+      "danger": 0.507,
+      "sentiment": -0.233,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.416,
+          "sentiment": -0.8
+        },
+        "OSINTdefender": {
+          "danger": 0.478,
+          "sentiment": -0.367
+        },
+        "irna_1313": {
+          "danger": 0.693,
+          "sentiment": -0.267
+        },
+        "sepah_pasdaran": {
+          "danger": 0.297,
+          "sentiment": -0.067
+        },
+        "almanarnews": {
+          "danger": 0.366,
+          "sentiment": 0.167
+        },
+        "C_Military1": {
+          "danger": 0.704,
+          "sentiment": -0.167
+        },
+        "almayadeen": {
+          "danger": 0.739,
+          "sentiment": -0.367
+        },
+        "QudsN": {
+          "danger": 0.426,
+          "sentiment": -0.333
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,32 +2279,32 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.400565959103698
+      "raw_sentiment": -0.8,
+      "knn_danger_metric": 0.41560881567737235
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.501298927561709
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.4779769818755249
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 14,
-      "raw_sentiment": -0.03571428571428571,
-      "knn_danger_metric": 0.506612286346196
+      "num_messages": 15,
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.6925781768239289
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.3615718521481714
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.29653658071511424
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.4038396698463624
+      "raw_sentiment": 0.16666666666666666,
+      "knn_danger_metric": 0.3660454788768772
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.5720165617586062
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.7392165063098388
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 14,
-      "raw_sentiment": 0.03571428571428571,
-      "knn_danger_metric": 0.42606990175264675
+      "num_messages": 15,
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.42580714290786426
     }
   },
   "semantic_logs": [
@@ -2334,17 +2334,10 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 وزارة الطاقة تبرر سبب عدم تراجع اسعار المحروقات رغم التراجع الكبير بأسعار النفط عالميا https://almanar.com.lb/article/979637/?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "اتحاد الوفاء: أين ذهبت نسبة الـ40% التي خسرها سعر النفط عالمياً؟ ولماذا يُطلب من اللبناني أن يتحمل دائماً الضرائب والرسوم؟ https://almanar.com.lb/article/979677/?s=tg",
-      "absolute_sentiment": -1,
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️فرمانده بده فرمان /حکم آنچه تو فرمایی  شعار عزاداران در شب شهادت امام سجاد علیه‌السلام و آخرین شب از مراسم عزاداری حضرت اباعبدالله الحسین علیه‌السلام در جوار محل شهادت قائد شهید انقلاب اسلامی &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2364,50 +2357,64 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: مدفعية الاحتلال تستهدف شرقي مخيم المغازي وسط قطاع غزة",
+      "text": "إيران: اللواء رضائي: مضيق هرمز لا علاقة له بالإدارة الأميركية على الإطلاق بل هو أمر يخص بلدين إقليميين والعالم أجمع يستفيد منه",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: فضل الله: ما ورد مغاير لما جرى إبلاغه للمعنيين في السلطة اللبنانية لجهة التأكيد على موقف حزب الله الرافض للمفاوضات المباشرة",
+      "text": "إيران: اللواء رضائي: القضايا البيئية وأمن المضيق والتأمينات تفرض تكاليف على الدولة الإيرانية ويتعين على الأطراف المستفيدة دفعها",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي جنوب خان يونس جنوبي قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: عضو كتلة الوفاء للمقاومة في البرلمان اللبناني حسن فضل الله للميادين: على نتنياهو أن لا يستعجل في البشرى لمجتمعه",
+      "text": "إيران: عزيزي لترامب: إذا لم تتعلم القواعد ستعلمك القوات المسلحة الإيرانية إياها",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: فضل الله للميادين: نتنياهو كان يفاوض نفسه فهذه السلطة فاقدة للشرعية الدستورية والميثاقية وهي لا تملك أدوات فرض الاملاءات",
+      "text": "لبنان: المفتي قبلان: الخطير أنّ الإطار يعطي &quot;الجيش&quot; الصهيوني وصايةً فعلية على عمل الجيش اللبناني والأرض اللبنانية المحتلة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: فضل الله للميادين: لن نسمح لهذه السلطة بتدمير لبنان ولن نسلم مصيرنا وبلدنا لها",
-      "absolute_sentiment": 1,
+      "text": "إيران: التلفزيون الإيراني: سماع دوي انفجار في سيريك بإيران والمصدر غير واضح",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: التلفزيون الإيراني: سُمع دوي انفجار في رصيف طاهروئي بمدينة سيريك",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم بلدة حلحول، شمال الخليل.",
-      "absolute_sentiment": 0.5,
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية أبو فلاح شمال شرقي مدينة رام الله.",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مشاهد من اقتحام قوات الاحتلال لبلدة سعير، شمال شرق الخليل.",
-      "absolute_sentiment": 0.5,
+      "text": "عاجل: إطلاق نار من الآليات شرقي مخيم المغازي وسط قطاع غزة.",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2423,13 +2430,6 @@
       "text": "#إعلام_العدو   قناة كان العبرية: القوة التي أصيبت جراء إلقاء قنبلة في قرية بيت ياحون يوم أمس حضرت لسحب دبابة من المكان.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9982465977927696
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#لبنان   أبرز ما جاء في كلمة الامين العام لحزب الله سماحة الشيخ نعيم قاسم في ختام المسيرة العاشورائية:  - المشهد العاشورائي أيقونة التاريخ في التضحية والعطاء والخلود  - المشهد العاشورائي هو التعبئة الحقيقية الثورية التي تسقط الطاغوت.  - نقول للإمام الحسين لبيك يا حسين.  - حضور الناس في كلّ مكان على الرغم من الألم والفقد والصعوبات هذا الشعب شعب أبيّ طاهر أخذ من مدرسة الامام الحسين وربط صامدًا.  #الإعلام_الحربي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9966267082810271
     }
   ]
 }
