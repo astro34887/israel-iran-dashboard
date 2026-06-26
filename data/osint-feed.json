@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-25T23:14:17.306Z",
+  "last_updated": "2026-06-26T02:56:23.903Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.56",
-    "global_norm_sentiment": "-0.20"
+    "global_knn_danger": "0.59",
+    "global_norm_sentiment": "-0.24"
   },
   "timeline": [
-    {
-      "time": "2026-06-20T08:49:24.442Z",
-      "danger": 0.533,
-      "sentiment": -0.217,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.437,
-          "sentiment": -0.214
-        },
-        "OSINTdefender": {
-          "danger": 0.46,
-          "sentiment": -0.367
-        },
-        "irna_1313": {
-          "danger": 0.456,
-          "sentiment": -0.4
-        },
-        "sepah_pasdaran": {
-          "danger": 0.428,
-          "sentiment": 0.067
-        },
-        "almanarnews": {
-          "danger": 0.388,
-          "sentiment": -0.067
-        },
-        "C_Military1": {
-          "danger": 0.679,
-          "sentiment": -0.367
-        },
-        "almayadeen": {
-          "danger": 0.642,
-          "sentiment": -0.6
-        },
-        "QudsN": {
-          "danger": 0.892,
-          "sentiment": -0.091
-        }
-      }
-    },
     {
       "time": "2026-06-20T11:13:57.355Z",
       "danger": 0.504,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.233
         }
       }
+    },
+    {
+      "time": "2026-06-26T02:56:23.903Z",
+      "danger": 0.587,
+      "sentiment": -0.242,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.699,
+          "sentiment": -0.7
+        },
+        "OSINTdefender": {
+          "danger": 0.519,
+          "sentiment": -0.567
+        },
+        "irna_1313": {
+          "danger": 0.547,
+          "sentiment": 0.067
+        },
+        "sepah_pasdaran": {
+          "danger": 0.458,
+          "sentiment": -0.133
+        },
+        "almanarnews": {
+          "danger": 0.472,
+          "sentiment": -0.4
+        },
+        "C_Military1": {
+          "danger": 0.586,
+          "sentiment": -0.033
+        },
+        "almayadeen": {
+          "danger": 0.715,
+          "sentiment": -0.433
+        },
+        "QudsN": {
+          "danger": 0.92,
+          "sentiment": -0.091
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2290,21 +2290,21 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 10,
-      "raw_sentiment": 0.2,
-      "knn_danger_metric": 0.3741851791295411
+      "num_messages": 15,
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.5469434544009341
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.49369512188682485
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.4580204682654004
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.2,
-      "knn_danger_metric": 0.3594994150783231
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.4717001624885565
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2316,13 +2316,13 @@
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.6982729964185427
+      "knn_danger_metric": 0.7153236146802756
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.9318792005501483
+      "num_messages": 11,
+      "raw_sentiment": -0.09090909090909091,
+      "knn_danger_metric": 0.9197038586708733
     }
   },
   "semantic_logs": [
@@ -2376,6 +2376,13 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 ارتفاع حصيلة ضحايا إيبولا في الكونغو الديمقراطية إلى 304 وفيات و1155 إصابة مؤكدة https://almanar.com.lb/article/977752/?s=tg",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
       "text": "فلسطين المحتلة: قوات الاحتلال تحتجز عشرات الشبان خلال اقتحام بلدة ترمسعيا شمال رام الله وسط الضفة الغربية",
@@ -2422,13 +2429,6 @@
       "channel": "Arab_Axis",
       "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي بغارة استهدفت بلدة بيت ياحون",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوة كبيرة تابعة لجيش الاحتلال تقتحم بلدة عبوين غرب رام الله",
-      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
   ]
