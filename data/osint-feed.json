@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-27T17:58:55.023Z",
+  "last_updated": "2026-06-27T19:36:31.679Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.24"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.49",
+    "global_norm_sentiment": "-0.31"
   },
   "timeline": [
-    {
-      "time": "2026-06-22T00:07:23.173Z",
-      "danger": 0.511,
-      "sentiment": -0.123,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.632,
-          "sentiment": -0.3
-        },
-        "OSINTdefender": {
-          "danger": 0.43,
-          "sentiment": -0.133
-        },
-        "irna_1313": {
-          "danger": 0.562,
-          "sentiment": 0.2
-        },
-        "sepah_pasdaran": {
-          "danger": 0.319,
-          "sentiment": 0.067
-        },
-        "almanarnews": {
-          "danger": 0.408,
-          "sentiment": -0.167
-        },
-        "C_Military1": {
-          "danger": 0.533,
-          "sentiment": -0.3
-        },
-        "almayadeen": {
-          "danger": 0.501,
-          "sentiment": -0.067
-        },
-        "QudsN": {
-          "danger": 0.77,
-          "sentiment": -0.4
-        }
-      }
-    },
     {
       "time": "2026-06-22T06:25:32.088Z",
       "danger": 0.489,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.267
         }
       }
+    },
+    {
+      "time": "2026-06-27T19:36:31.679Z",
+      "danger": 0.493,
+      "sentiment": -0.307,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.575,
+          "sentiment": -0.667
+        },
+        "OSINTdefender": {
+          "danger": 0.545,
+          "sentiment": -0.333
+        },
+        "irna_1313": {
+          "danger": 0.471,
+          "sentiment": -0.133
+        },
+        "sepah_pasdaran": {
+          "danger": 0.344,
+          "sentiment": -0.6
+        },
+        "almanarnews": {
+          "danger": 0.471,
+          "sentiment": -0.333
+        },
+        "C_Military1": {
+          "danger": 0.441,
+          "sentiment": -0.367
+        },
+        "almayadeen": {
+          "danger": 0.561,
+          "sentiment": -0.033
+        },
+        "QudsN": {
+          "danger": 0.577,
+          "sentiment": -0.467
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,32 +2279,32 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.6187807805293765
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.5749837220612866
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.5203826293424012
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.5445294638637702
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.5218257692452624
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.47050460163572094
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.4207148024233383
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.34359487956427237
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.426411594176913
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.47113301980052846
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.5838735297199389
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.5611002342274719
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.7244149551318252
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.5772401821899805
     }
   },
   "semantic_logs": [
@@ -2334,73 +2334,31 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️وضعیت یکی از خیابان های منامه بحرین پس از اصابت موشک بالستیک ایرانی در روز ۵ ام جنگ &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️تصاویر تازه از به دام افتادن دو سرباز رژیم صهیونیستی در کمین حزب‌الله &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: الجيش اللبناني: نشدد على أهمية الوحدة والتضامن بهدف تجاوز الأخطار المحدقة ببلدنا",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "חיל האוויר תקף לפני זמן קצר מטרות בדיר אלבלח במרכז רצועת עזה, אחרי התרעת פינוי (הקש בגג).  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: الجيش اللبناني: لن نسمح الإخلال بالأمن أو المساس بالسلم الأهلي عبر تحركات غير محسوبة أو قطع الطرقات أو التعدي على الأملاك",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: قوات الاحتلال تنفذ عملية نسف شمال شرق مدينة رفح جنوبي قطاع غزة",
+      "text": "لبنان: التيار الوطني الحر: الملاحظات والاعتراضات الموجودة يجب ألا تدفع للتخلي عن خيار التفاوض بالمطلق لأن البديل هو استمرار الحرب",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: غارة جوية إسرائيلية استهدفت شارع الترزي في مدينة دير البلح وسط قطاع غزة",
+      "text": "لبنان: مراسل الميادين: &quot;جيش&quot; الاحتلال الإسرائيلي نفذ تفجيرين عند أطراف بلدة زوطر الشرقية جنوب لبنان",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم بلدة عناتا، شمال شرق القدس المحتلة.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "أسيران محرران من غزة يكشفان أساليب التعذيب داخل سجون الاحتلال  https://qudsn.co/post/216304",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: غارة إسرائيلية على النصيرات وسط القطاع",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "بحراسة قوات الاحتلال.. المستوطنون يعربدون داخل البلدة القديمة في الخليل، خلال مسيرهم الأسبوعي.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "بحراسة مشددة من جنود الاحتلال.. المستوطنون يقتحمون البلدة القديمة في الخليل.",
-      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2409,6 +2367,27 @@
       "text": "لحظة قصف طيران الاحتلال لمنطقة شارع &quot;الترزي&quot; مقابل مصنع العودة في دير البلح، وسط قطاع غزة.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "هيئة الإسعاف الفرنسية: 109 حالات وفاة في مدينة باريس لوحدها خلال الـ24 ساعة الماضية؛ بسبب موجة الحر الشديد.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مشاهد من اقتحام قوات الاحتلال لقرية المغير، شمال شرق رام الله.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸یک شهید و ۲ زخمی در حمله رژیم صهیونیستی به لبنان  🔹ارتش رژیم صهیونیستی در ادامه نقض آتش‌بس با حمله به منطقه النبطیه در جنوب لبنان، یک نفر را به شهادت رساند و ۲ نفر را زخمی کرد  🔹این حمله در کمتر از ۲۴ ساعت از امضای توافق ننگین سازشکارانه دولت لبنان با رژیم صهیونیستی موسوم به «توافق چارچوب» انجام شد  https://irna.ir/xjXFnq @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9990005762032936
     },
     {
       "channelId": "C_Military1",
@@ -2420,9 +2399,9 @@
     {
       "channelId": "irna_1313",
       "channel": "IRGC",
-      "text": "🎥 رفتی و دلا پُر غم شد...  🔹 در ایام عزاداری حضرت سیدالشهدا(ع) و در فراق «آقای شهید ایران»، نماهنگ جدید KHAMENEI.IR از نوحه‌‌ای که به یاد رهبر شهید در رواق کشوردوست خوانده شد را ببینید.  📌 «مثْلِي لاَ يُبَايِعُ مِثْلَهُ»  #باید_برخاست  @IRNA_1313",
+      "text": "📸 در تير ماه۱۳۶۰؛ چه کسانی حضرت آیت‌الله العظمی شهید خامنه‌ای را ترور کردند؟  🔹رسانه KHAMENEI.IR به مناسبت سالگرد حادثه سوءقصد نافرجام به رهبر شهید انقلاب اسلامی، به بازخوانی اسناد ترور ایشان و جزئیات آن بر اساس اعترافات اعضای باقی‌مانده‌ی گروهکی که نقشه ترور ایشان را داشتند، می‌پردازد.  #باید_برخاست  @IRNA_1313",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9947342193451484
+      "semantic_danger_knn": 0.9973547420446702
     },
     {
       "channelId": "C_Military1",
@@ -2430,6 +2409,27 @@
       "text": "وسائل إعلام أجنبية: أفاد ربان ناقلة نفط قرب سواحل سلطنة عمان بتعرضها لإصابة من مقذوف مجهول. لحقت أضرار بجسر القيادة، وجميع أفراد الطاقم بخير.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9937618620410837
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | اندلاع مواجهات بمخيم &quot;العروب&quot; شمال الخليل، وقوات الاحتلال تطلق قنابل الصوت.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9596045227592704
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | قوات الاحتلال تطلق قنابل الصوت تجاه محلات تجارية في قرية المغيّر، شمال شرق رام الله.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9596045227592704
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | اندلاع مواجهات في قرية &quot;المغير&quot; شمال شرق رام الله، وقوات الاحتلال تُطلق قنابل الصوت والغاز.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9596045227592704
     }
   ]
 }
