@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-27T00:02:49.608Z",
+  "last_updated": "2026-06-27T04:50:18.235Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.35"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.46",
+    "global_norm_sentiment": "-0.27"
   },
   "timeline": [
-    {
-      "time": "2026-06-21T08:26:33.047Z",
-      "danger": 0.546,
-      "sentiment": -0.242,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.612,
-          "sentiment": -0.4
-        },
-        "OSINTdefender": {
-          "danger": 0.486,
-          "sentiment": -0.067
-        },
-        "irna_1313": {
-          "danger": 0.594,
-          "sentiment": -0.233
-        },
-        "sepah_pasdaran": {
-          "danger": 0.377,
-          "sentiment": -0.333
-        },
-        "almanarnews": {
-          "danger": 0.498,
-          "sentiment": -0.3
-        },
-        "C_Military1": {
-          "danger": 0.744,
-          "sentiment": -0.8
-        },
-        "almayadeen": {
-          "danger": 0.437,
-          "sentiment": -0.3
-        },
-        "QudsN": {
-          "danger": 0.765,
-          "sentiment": 0.143
-        }
-      }
-    },
     {
       "time": "2026-06-21T11:42:36.421Z",
       "danger": 0.517,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.533
         }
       }
+    },
+    {
+      "time": "2026-06-27T04:50:18.235Z",
+      "danger": 0.458,
+      "sentiment": -0.274,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.362,
+          "sentiment": -0.6
+        },
+        "OSINTdefender": {
+          "danger": 0.478,
+          "sentiment": -0.367
+        },
+        "irna_1313": {
+          "danger": 0.297,
+          "sentiment": -0.308
+        },
+        "sepah_pasdaran": {
+          "danger": 0.35,
+          "sentiment": -0.167
+        },
+        "almanarnews": {
+          "danger": 0.454,
+          "sentiment": -0.533
+        },
+        "C_Military1": {
+          "danger": 0.728,
+          "sentiment": -0.167
+        },
+        "almayadeen": {
+          "danger": 0.366,
+          "sentiment": -0.067
+        },
+        "QudsN": {
+          "danger": 0.593,
+          "sentiment": -0.4
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.35182543117988574
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.361720950888645
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,21 +2290,21 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.569799086534561
+      "num_messages": 13,
+      "raw_sentiment": -0.3076923076923077,
+      "knn_danger_metric": 0.29745848680655
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.4673017451231139
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.34969302569559246
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.4312510801428811
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.45367663187814145
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.7666666666666667,
-      "knn_danger_metric": 0.6579226015295113
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.3661149558253325
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.7403698767002523
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.5932724555475097
     }
   },
   "semantic_logs": [
@@ -2334,73 +2334,17 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 ارتفاع حصيلة ضحايا زلزال فنزويلا إلى 920 قتيلا وأكثر من 3000 مصاب https://almanar.com.lb/article/980832/?s=tg",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "ألَا وإنّ الدَعِيَّ ابنَ الدَعِيِّ قدْ رَكَزَ بينَ اثنَتَينِ، بينَ السِّلَّةِ والذِّلَّةِ، وهيهاتَ منّا الذِّلَّةُ... يأبَى اللهُ لَنَا ذلكَ ورَسُولُهُ والمؤمِنونَ، وحُجورٌ طابَتْ وطَهُرتْ، وأُنُوفٌ حَمِيَّةٌ ونُفُوسٌ أبِيَّةٌ&nbsp;مِنْ أنْ نؤْثِرَ طاعَةَ اللِّئامِ على مصارِعِ الكِرَامِ.",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: التلفزيون الإيراني: سُمع دوي انفجار في رصيف طاهروئي بمدينة سيريك",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: إطلاق نار مكثف من آليات الاحتلال وقنابل صوتية شرقي مدينة خان يونس جنوبي القطاع",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: سيكون هذا النهج هو المعتمد مستقبلاً وفي حال تكرار أي اعتداء سيكون ردنا أوسع نطاقاً من هذا",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل: مراسل شبكة قدس الإخبارية: تقدم عدد من آليات الاحتلال بمنطقة الترنس وسط مخيم جباليا مع إطلاق نار مكثف",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل: آليات الاحتلال تطلق نيرانها تجاه المناطق الشرقية لمدينة خان يونس جنوب قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "جيش الاحتلال يقتحم عدة أحياء ببلدة كفر عقب شمال القدس المحتلة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم مخيم قلنديا شمال القدس المحتلة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال مخيم قلنديا بالقدس المحتلة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم مخيم الأمعري في مدينة البيرة",
-      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2425,11 +2369,67 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل: زوارق الاحتلال الحربية تطلق نيرانها تجاه ساحل مدينة غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#لبنان   أبرز ما جاء في كلمة الامين العام لحزب الله سماحة الشيخ نعيم قاسم في ختام المسيرة العاشورائية:  - بالموقف الكربلائي لكلّ شبعنا الأبي والعزيز استطعنا أن نوقف العدوان ونحقق انجازًا عظيمًا.  -  نعلنها بكل وضوح لقد كسرنا &quot;المشروع الاسرائيلي الاميركي&quot; ودخلنا مرحلة جديدة.  - أرادت اميركا و&quot;اسرائيل&quot; إلغاء وجود إيران بتغيير نظامها والسيطرة على البلد واعتقدوا بأنهم يتمكّنون بذلك.  - إيران صمدت وقدّمت الإمام الخامنئي رمزًا وعلمًا ونورًا وثورة وتعبئة مع القادة والناس والمدنيين والتضحيات الكبيرة.  #الإعلام_الحربي",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 0.9983066549557928
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   قناة كان العبرية: القوة التي أصيبت جراء إلقاء قنبلة في قرية بيت ياحون يوم أمس حضرت لسحب دبابة من المكان.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9982465977927696
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#لبنان   أبرز ما جاء في كلمة الامين العام لحزب الله سماحة الشيخ نعيم قاسم في ختام المسيرة العاشورائية:  - المشهد العاشورائي أيقونة التاريخ في التضحية والعطاء والخلود  - المشهد العاشورائي هو التعبئة الحقيقية الثورية التي تسقط الطاغوت.  - نقول للإمام الحسين لبيك يا حسين.  - حضور الناس في كلّ مكان على الرغم من الألم والفقد والصعوبات هذا الشعب شعب أبيّ طاهر أخذ من مدرسة الامام الحسين وربط صامدًا.  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.9966267082810271
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#لبنان   أبرز ما جاء في كلمة الامين العام لحزب الله سماحة الشيخ نعيم قاسم في ختام المسيرة العاشورائية:  - مذكرة التفاهم هي إعلان رسمي بهزيمة أميركا و&quot;اسرائيل&quot;  - إيران تصنع المستقبل اليوم لها وللمنطقة.  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.9958018373673666
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🎥 گل سوم بلژیک توسط دی بروینه در دقیقه 66  بلژیک 3 - نیوزیلند 0  @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9900416935917431
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "بدء كلمة الامين العام لحزب الله سماحة الشيخ نعيم قاسم في ختام المسيرة العاشورائية  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.983843818521641
+    },
+    {
+      "channelId": "OSINTdefender",
+      "channel": "Global_OSINT",
+      "text": "#NK  North Korea tested upgraded artillery and missile systems under Kim Jong Un, including an upgraded 240mm multiple rocket launcher with a 90-kilometer range and a tactical ballistic missile designed to strike airfields, as part of a five-year military modernization drive.  Subscribe to @OSINTdefender Chat room",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.8218071096951522
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️تیراندازی نظامیان صهیونیست به شرق خان یونس  منابع محلی فلسطینی از تیراندازی خودروهای زرهی رژيم صهیونیستی به سمت مناطق شرقی شهر خان یونس در جنوب نوار غزه خبر دادند. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.8207824928570105
     }
   ]
 }
