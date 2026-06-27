@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-27T07:46:14.234Z",
+  "last_updated": "2026-06-27T10:02:54.421Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.50",
-    "global_norm_sentiment": "-0.20"
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.21"
   },
   "timeline": [
-    {
-      "time": "2026-06-21T14:00:48.777Z",
-      "danger": 0.463,
-      "sentiment": -0.215,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.374,
-          "sentiment": -0.5
-        },
-        "OSINTdefender": {
-          "danger": 0.486,
-          "sentiment": -0.067
-        },
-        "irna_1313": {
-          "danger": 0.553,
-          "sentiment": -0.167
-        },
-        "sepah_pasdaran": {
-          "danger": 0.264,
-          "sentiment": -0.767
-        },
-        "almanarnews": {
-          "danger": 0.492,
-          "sentiment": 0.367
-        },
-        "C_Military1": {
-          "danger": 0.57,
-          "sentiment": -0.367
-        },
-        "almayadeen": {
-          "danger": 0.319,
-          "sentiment": -0.2
-        },
-        "QudsN": {
-          "danger": 0.62,
-          "sentiment": -0.321
-        }
-      }
-    },
     {
       "time": "2026-06-21T16:27:30.810Z",
       "danger": 0.477,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.233
         }
       }
+    },
+    {
+      "time": "2026-06-27T10:02:54.421Z",
+      "danger": 0.516,
+      "sentiment": -0.208,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.412,
+          "sentiment": -0.567
+        },
+        "OSINTdefender": {
+          "danger": 0.505,
+          "sentiment": -0.333
+        },
+        "irna_1313": {
+          "danger": 0.406,
+          "sentiment": -0.167
+        },
+        "sepah_pasdaran": {
+          "danger": 0.382,
+          "sentiment": -0.25
+        },
+        "almanarnews": {
+          "danger": 0.505,
+          "sentiment": -0.167
+        },
+        "C_Military1": {
+          "danger": 0.728,
+          "sentiment": -0.167
+        },
+        "almayadeen": {
+          "danger": 0.691,
+          "sentiment": -0.067
+        },
+        "QudsN": {
+          "danger": 0.577,
+          "sentiment": -0.233
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.38164827587420075
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.41172209599995546
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 11,
-      "raw_sentiment": -0.2727272727272727,
-      "knn_danger_metric": 0.47698209317169477
+      "num_messages": 15,
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.40605705592600677
     },
     "sepah_pasdaran": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.44577953893370736
+      "num_messages": 12,
+      "raw_sentiment": -0.25,
+      "knn_danger_metric": 0.3816479571682572
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.3766347656245046
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.504984049478919
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.7276945781541643
+      "knn_danger_metric": 0.7283557810554604
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.5827609944423827
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.6912395647083525
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.5866034319635316
+      "knn_danger_metric": 0.57721692289379
     }
   },
   "semantic_logs": [
@@ -2334,24 +2334,38 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "רצועת עזה: 3 הרוגים בתקיפת ג&#39;יפ לפני זמן קצר על ציר צלאח א-דין במחנה הפליטים אלמע&#39;אזי במרכז הרצועה.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "ערוצים רשמיים של חמאס מתלוננים הבוקר שצה&quot;ל שוב הזיז הלילה, לכיוון מערב את הקו הצהוב באזור רחוב א-סלטאן במזרח דיר אלבלח במרכז רצועת עזה.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "irna_1313",
       "channel": "IRGC",
-      "text": "&rlm; ️اجرای انفجار‌های کنترل شده در جهرم از امروز ۶ تیر تا پایان هفته‌. &lrm;✅ @sepah_pasdaran",
+      "text": "📌 پنج نکته از این خبر:  ۱. سقوط نزدیک به ۱۰ درصدی نفت در یک هفته نفت برنت از ۸۰.۵۷ به ۷۲.۶۰ دلار و وست تگزاس از ۷۶.۵۱ به ۶۹.۲۳ دلار رسید؛ افتی حدود ۹.۹ و ۹.۵ درصدی که یکی از شدیدترین کاهش‌های هفتگی اخیر محسوب می‌شود.  ۲. هرمز آرام شد، نفت ارزان شد مهم‌ترین…",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "ارتفاع حصيلة ضحايا زلزالي فنزويلا إلى 920 قتيلاً وأكثر من 50 ألف مفقود وسط تصاعد جهود الإنقاذ https://almanar.com.lb/article/981252/?s=tg",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "📹&nbsp;طهران تدين الغارات الأمريكية وتؤكد التمسك بالدفاع عن السيادة https://almanar.com.lb/article/981322/?s=tg",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 ارتفاع حصيلة ضحايا زلزال فنزويلا إلى 920 قتيلا وأكثر من 3000 مصاب https://almanar.com.lb/article/980832/?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "المفتي قبلان: لا شرعية لأي اتفاق مع الاحتلال الإسرائيلي يمسّ السيادة اللبنانية https://almanar.com.lb/article/981057/?s=tg",
-      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2383,53 +2397,39 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تتوغل بالقرب من دوار الطواشي شارع السلطان شرق دير البلح وسط قطاع غزة.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "حولت منازل لثكنات عسكرية.. اعتقالات واعتداءات وإغلاقات لقوات الاحتلال ومستوطنيه في الضفة  التفاصيل: https://qudsn.co/post/216296",
+      "text": "فلسطين المحتلة: مراسل الميادين: غارة إسرائيلية على خان يونس جنوبي قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "وقفة احتجاجية أمام ركام منزل عائلة أبو هاب في قرية مصمص بالمثلث في الداخل المحتل، رفضا لهدمه من قبل الاحتلال قبل يومين",
+      "text": "فلسطين المحتلة: مراسل الميادين: طواقم الإسعاف تنقل عدداً من الإصابات من جراء الاستهداف الإسرائيلي لخيام النازحين بمواصي خان يونس جنوبي قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "عاجل| قوات الاحتلال تقتحم مدينة نابلس",
-      "absolute_sentiment": 0.5,
+      "text": "فلسطين المحتلة: مراسل الميادين: شهيدة وعدد من الجرحى في قصف إسرائيلي على خان يونس جنوبي قطاع غزة",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم م��طقة شارع القدس بمدينة نابلس وتحاصر منزلا بالمكان.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#لبنان   أبرز ما جاء في كلمة الامين العام لحزب الله سماحة الشيخ نعيم قاسم في ختام المسيرة العاشورائية:  - بالموقف الكربلائي لكلّ شبعنا الأبي والعزيز استطعنا أن نوقف العدوان ونحقق انجازًا عظيمًا.  -  نعلنها بكل وضوح لقد كسرنا &quot;المشروع الاسرائيلي الاميركي&quot; ودخلنا مرحلة جديدة.  - أرادت اميركا و&quot;اسرائيل&quot; إلغاء وجود إيران بتغيير نظامها والسيطرة على البلد واعتقدوا بأنهم يتمكّنون بذلك.  - إيران صمدت وقدّمت الإمام الخامنئي رمزًا وعلمًا ونورًا وثورة وتعبئة مع القادة والناس والمدنيين والتضحيات الكبيرة.  #الإعلام_الحربي",
+      "text": "وداع وتشييع شهداء وزارة الداخلية الذين استشهدوا بالأمس أثناء تأديتهم واجبهم الوطني في المحافظة الوسطى بقطاع غزة",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9983066549557928
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   قناة كان العبرية: القوة التي أصيبت جراء إلقاء قنبلة في قرية بيت ياحون يوم أمس حضرت لسحب دبابة من المكان.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9982465977927696
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام المستوطنين وجيش الاحتلال لأراضي بلدة قبلان جنوب نابلس",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
     }
   ]
 }
