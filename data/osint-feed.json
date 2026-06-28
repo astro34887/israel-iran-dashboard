@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-28T17:05:11.261Z",
+  "last_updated": "2026-06-28T19:13:02.304Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.14"
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.27"
   },
   "timeline": [
-    {
-      "time": "2026-06-23T14:50:57.018Z",
-      "danger": 0.538,
-      "sentiment": -0.287,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.428,
-          "sentiment": -0.533
-        },
-        "OSINTdefender": {
-          "danger": 0.432,
-          "sentiment": -0.333
-        },
-        "irna_1313": {
-          "danger": 0.384,
-          "sentiment": -0.433
-        },
-        "sepah_pasdaran": {
-          "danger": 0.384,
-          "sentiment": -0.233
-        },
-        "almanarnews": {
-          "danger": 0.51,
-          "sentiment": 0.033
-        },
-        "C_Military1": {
-          "danger": 0.659,
-          "sentiment": -0.3
-        },
-        "almayadeen": {
-          "danger": 0.874,
-          "sentiment": -0.4
-        },
-        "QudsN": {
-          "danger": 0.76,
-          "sentiment": -0.533
-        }
-      }
-    },
     {
       "time": "2026-06-23T17:14:15.711Z",
       "danger": 0.469,
@@ -2257,6 +2210,53 @@
           "sentiment": -0.067
         }
       }
+    },
+    {
+      "time": "2026-06-28T19:13:02.304Z",
+      "danger": 0.517,
+      "sentiment": -0.268,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.471,
+          "sentiment": -0.033
+        },
+        "OSINTdefender": {
+          "danger": 0.546,
+          "sentiment": -0.233
+        },
+        "irna_1313": {
+          "danger": 0.423,
+          "sentiment": -0.067
+        },
+        "sepah_pasdaran": {
+          "danger": 0.476,
+          "sentiment": -0.567
+        },
+        "almanarnews": {
+          "danger": 0.441,
+          "sentiment": 0.2
+        },
+        "C_Military1": {
+          "danger": 0.741,
+          "sentiment": -0.567
+        },
+        "almayadeen": {
+          "danger": 0.542,
+          "sentiment": -0.533
+        },
+        "QudsN": {
+          "danger": 0.581,
+          "sentiment": -0.75
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2272,47 +2272,53 @@
       "raw_sentiment": 0.16666666666666666,
       "knn_danger_metric": 0.5
     },
+    "abualiexpress": {
+      "name": "Israel_OSINT",
+      "num_messages": 15,
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.47079894962110325
+    },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.5401296331506261
+      "knn_danger_metric": 0.5458705874530292
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.5677934016694395
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.42331889149051743
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.31984232266940443
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.4761919143860282
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.41543611084984244
+      "raw_sentiment": 0.2,
+      "knn_danger_metric": 0.44126523960621605
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.7169369705758482
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.7412124655134016
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.6587182064109415
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.5423503937713483
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.646208594316318
+      "num_messages": 10,
+      "raw_sentiment": -0.75,
+      "knn_danger_metric": 0.5809235320320763
     }
   },
   "semantic_logs": [
@@ -2324,10 +2330,17 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸 ثبت شماره حساب بانکی در سامانه تأمین اجتماعی، شرط دریافت سریع برخی حمایت ها  🔹 سازمان تأمین اجتماعی از بیمه‌شدگان خواست با ثبت یا به‌روزرسانی شماره حساب بانکی فعال و معتبر خود در سامانه خدمات غیرحضوری این سازمان، امکان دریافت سریع‌تر برخی کمک‌هزینه‌ها و حمایت‌های بیمه‌ای را فراهم کنند.  🔹 همچنین یمه‌شدگان می‌توانند با مراجعه به سامانه خدمات غیرحضوری سازمان تأمین اجتماعی و از مسیر «بیمه‌شدگان»، «خدمات نام‌نویسی» و سپس «اعلام شماره حساب بانکی» اقدام کنند.  https://irna.ir/xjXFLK",
-      "absolute_sentiment": 0.5,
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "נתניהו על דברי ארדואן: &quot;מתייחסים ברצינות רבה לקריאותיו להכחדת מדינת ישראל - נפנה את תשומת הלב של ארה״ב לזה״  הציטוט המלא מישיבת הממשלה:   &quot;כמעט לא עובר יום שארדואן לא קורא להכחדת מדינת ישראל - אנחנו מתייחסים ברצינות רבה למילים האלה, כי אם למדנו דבר אחד בהיסטוריה של עמנו - כשמישהו אומר שהוא מתכוון להכחיד אותך, תתייחס אליו ברצינות. אנחנו מתייחסים לדברים ברצינות, ואנחנו גם נפנה את תשומת ליבם של ידידנו האמריקנים לאמירות הללו. אנחנו לא מתעלמים״.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "נתניהו על דברי ארדואן: &quot;מתייחסים ברצינות רבה לקריאותיו להכחדת מדינת ישראל - נפנה את תשומת הלב של ארה״ב לזה״  הציטוט המלא מישיבת הממשלה:   &quot;כמעט לא עובר יום שארדואן לא קורא להכחדת מדינת ישראל - אנחנו מתייחסים ברצינות רבה למילים האלה, כי אם למדנו דבר אחד בהיסטוריה…",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2338,79 +2351,72 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️ تصویری از شهید آیت‌الله بهشتی و حضرت آیت‌الله العظمی شهید خامنه‌ای رضوان‌الله‌علیهما در حاشیه یکی از جلسات حزب جمهوری اسلامی  انتشار به مناسبت ۷‌ تیر، سالروز شهادت شهید بهشتی و ۷۲ تن از یاران امام خمینی &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 وزير الخارجية الإيراني يلتقي رئيس مجلس النواب العراقي https://almanar.com.lb/article/984967/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: وزارة الصحة: 4247 شهيداً و12195 مصاباً حصيلة العدوان الإسرائيلي على البلاد منذ 2 آذار/ مارس الماضي",
+      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي غربي مدينة رفح جنوبي قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: شهيد وجرحى جراء قصف إسرائيلي استهدف خيمة تؤوي نازحين في مواصي خان يونس جنوبي قطاع غزة",
+      "text": "وسائل إعلام إسرائيلية: &quot;القناة 13&quot;: &quot;الجيش&quot; الإسرائيلي يرحب بالاتفاق مع لبنان لكن رغم المعرفة بأنه ممتاز من حيث الصياغة لكنه غير عملي من ناحية التنفيذ",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "سوريا: مصادر محلية: أهالي عابدين بريف درعا الغربي قاموا بإغلاق كل مداخل القرية أمام دورية إسرائيلية تمركزت في تلة المغر",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: بيان صادر عن حركتي حماس والجهاد والجبهتين الشعبية والديمقراطية والمبادرة الوطنية والقيادة العامة",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: القوى الفلسطينية: نؤكد أن الوحدة الوطنية والشراكة السياسية هما الخيار الوحيد لمواجهة حرب الإبادة ومخططات التصفية",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: القوى الفلسطينية: نطالب بالدعوة العاجلة لاجتماع الأمناء العامين للفصائل لإطلاق حوار شامل والتوافق على إجراء انتخابات عامة",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: القوى الفلسطينية: نشدد على أن &quot;الإطار القيادي المؤقت الموحد&quot; (اتفاق بكين) هو المرجعية الانتقالية الجامعة لإدارة هذه المرحلة",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: القوى الفلسطينية: نتمسك بالثوابت الوطنية وعلى رأسها حق العودة وتقرير المصير وإقامة الدولة المستقلة وعاصمتها القدس",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: القوى الفلسطينية: اللحظة التاريخية التي تمر بها قضيتنا الوطنية تستوجب أعلى درجات المسؤولية والوحدة والتكاتف",
-      "absolute_sentiment": 1,
+      "text": "سوريا: مصادر محلية: &quot;جيش&quot; الاحتلال يطلق قنابل مضيئة في أجواء حوض اليرموك بريف درعا والتي تشهد عمليات توغل مستمرة منذ أمس",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم بلدة دير دبوان شرق رام الله.",
-      "absolute_sentiment": 0.5,
+      "text": "لحظة وصول 14 أسيرا محررا أفرج عنهم الاحتلال لمستشفى شهداء الأقصى وسط قطاع غزة",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل| قوات الاحتلال تقتحم مدينة أريحا.",
-      "absolute_sentiment": 1,
+      "text": "الاحتلال يطلق قنابل الغاز خلال اقتحامه بلدة الرام بالقدس المحتلة.",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تحتجز فلسطينيا خلال اقتحامها قرية الطبقة جنوب مدينة دورا.",
+      "text": "مصادر سورية: قوات الاحتلال تتوغل في قرية جملة بريف درعا الغربي، تزامنا مع إلقاء قنابل مضيئة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "الاحتلال يطلق قنابل الغاز المسيل للدموع صوب مركبات الفلسطينيين خلال اقتحام بلدة الرام، شمال القدس المحتلة.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
