@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-28T19:13:02.304Z",
+  "last_updated": "2026-06-28T20:57:28.908Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.27"
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.22"
   },
   "timeline": [
-    {
-      "time": "2026-06-23T17:14:15.711Z",
-      "danger": 0.469,
-      "sentiment": -0.213,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.373,
-          "sentiment": -0.4
-        },
-        "OSINTdefender": {
-          "danger": 0.432,
-          "sentiment": -0.333
-        },
-        "irna_1313": {
-          "danger": 0.43,
-          "sentiment": 0.167
-        },
-        "sepah_pasdaran": {
-          "danger": 0.313,
-          "sentiment": -0.367
-        },
-        "almanarnews": {
-          "danger": 0.51,
-          "sentiment": 0.2
-        },
-        "C_Military1": {
-          "danger": 0.531,
-          "sentiment": -0.267
-        },
-        "almayadeen": {
-          "danger": 0.424,
-          "sentiment": -0.133
-        },
-        "QudsN": {
-          "danger": 0.729,
-          "sentiment": -0.867
-        }
-      }
-    },
     {
       "time": "2026-06-23T19:55:54.510Z",
       "danger": 0.479,
@@ -2257,6 +2210,53 @@
           "sentiment": -0.75
         }
       }
+    },
+    {
+      "time": "2026-06-28T20:57:28.908Z",
+      "danger": 0.532,
+      "sentiment": -0.222,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.373,
+          "sentiment": -0.321
+        },
+        "OSINTdefender": {
+          "danger": 0.546,
+          "sentiment": -0.233
+        },
+        "irna_1313": {
+          "danger": 0.53,
+          "sentiment": 0.267
+        },
+        "sepah_pasdaran": {
+          "danger": 0.45,
+          "sentiment": -0.733
+        },
+        "almanarnews": {
+          "danger": 0.452,
+          "sentiment": 0.267
+        },
+        "C_Military1": {
+          "danger": 0.741,
+          "sentiment": -0.567
+        },
+        "almayadeen": {
+          "danger": 0.641,
+          "sentiment": -0.467
+        },
+        "QudsN": {
+          "danger": 0.636,
+          "sentiment": -0.3
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2274,9 +2274,9 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.47079894962110325
+      "num_messages": 14,
+      "raw_sentiment": -0.32142857142857145,
+      "knn_danger_metric": 0.37287551334910496
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2287,20 +2287,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.42331889149051743
+      "raw_sentiment": 0.26666666666666666,
+      "knn_danger_metric": 0.5298492405011852
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.4761919143860282
+      "raw_sentiment": -0.7333333333333333,
+      "knn_danger_metric": 0.44998577803347517
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.2,
-      "knn_danger_metric": 0.44126523960621605
+      "raw_sentiment": 0.26666666666666666,
+      "knn_danger_metric": 0.4521730212042889
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2311,14 +2311,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.5423503937713483
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.6409488659177212
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 10,
-      "raw_sentiment": -0.75,
-      "knn_danger_metric": 0.5809235320320763
+      "num_messages": 15,
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.6362222759680354
     }
   },
   "semantic_logs": [
@@ -2330,31 +2330,17 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "נתניהו על דברי ארדואן: &quot;מתייחסים ברצינות רבה לקריאותיו להכחדת מדינת ישראל - נפנה את תשומת הלב של ארה״ב לזה״  הציטוט המלא מישיבת הממשלה:   &quot;כמעט לא עובר יום שארדואן לא קורא להכחדת מדינת ישראל - אנחנו מתייחסים ברצינות רבה למילים האלה, כי אם למדנו דבר אחד בהיסטוריה של עמנו - כשמישהו אומר שהוא מתכוון להכחיד אותך, תתייחס אליו ברצינות. אנחנו מתייחסים לדברים ברצינות, ואנחנו גם נפנה את תשומת ליבם של ידידנו האמריקנים לאמירות הללו. אנחנו לא מתעלמים״.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "נתניהו על דברי ארדואן: &quot;מתייחסים ברצינות רבה לקריאותיו להכחדת מדינת ישראל - נפנה את תשומת הלב של ארה״ב לזה״  הציטוט המלא מישיבת הממשלה:   &quot;כמעט לא עובר יום שארדואן לא קורא להכחדת מדינת ישראל - אנחנו מתייחסים ברצינות רבה למילים האלה, כי אם למדנו דבר אחד בהיסטוריה…",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️بر اساس گزارش‌ها، نیروهای رژیم صهیونیستی با پیشروی در خاک سوریه به حومه شهر درعا رسیده‌اند. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
       "text": "&rlm; ️ تصویری از شهید آیت‌الله بهشتی و حضرت آیت‌الله العظمی شهید خامنه‌ای رضوان‌الله‌علیهما در حاشیه یکی از جلسات حزب جمهوری اسلامی  انتشار به مناسبت ۷‌ تیر، سالروز شهادت شهید بهشتی و ۷۲ تن از یاران امام خمینی &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️تصاویری از درگیری ساکنان روستاهای استان درعا با نیروهای ارتش اشغالگر  صهیونیستی &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2367,50 +2353,50 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي غربي مدينة رفح جنوبي قطاع غزة",
+      "text": "لبنان: مراسل الميادين: طيران الاحتلال يعتدي على بلدة ميفدون جنوب لبنان",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: &quot;القناة 13&quot;: &quot;الجيش&quot; الإسرائيلي يرحب بالاتفاق مع لبنان لكن رغم المعرفة بأنه ممتاز من حيث الصياغة لكنه غير عملي من ناحية التنفيذ",
+      "text": "لبنان: مراسل الميادين: طيران الاحتلال يعتدي على حي المسلخ في النبطية جنوب لبنان",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "سوريا: مصادر محلية: أهالي عابدين بريف درعا الغربي قاموا بإغلاق كل مداخل القرية أمام دورية إسرائيلية تمركزت في تلة المغر",
+      "text": "فلسطين المحتلة: مراسل الميادين: إصابة طفلة برصاص قوات الاحتلال في منطقة السلاطين غربي بيت لاهيا شمال غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "سوريا: مصادر محلية: &quot;جيش&quot; الاحتلال يطلق قنابل مضيئة في أجواء حوض اليرموك بريف درعا والتي تشهد عمليات توغل مستمرة منذ أمس",
+      "text": "وسائل إعلام إسرائيلية: الانفجار الذي يتوقع سماعه خلال الساعات المقبلة في الشمال هو تفجير النفق الضخم في بلدة مجدل زون جنوب لبنان",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: استشهاد طفلة متأثرة بإصابتها بشظية قذيفة مدفعية إسرائيلية قرب دوار بني سهيلا شرق خان يونس جنوبي قطاع غزة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "سوريا: مصادر محلية: نزوح جماعي لأهالي بلدة عابدين بريف درعا نحو القرى المجاورة جراء استهداف البلدة بقذائف مدفعية الاحتلال الإسرائيلي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لحظة وصول 14 أسيرا محررا أفرج عنهم الاحتلال لمستشفى شهداء الأقصى وسط قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "الاحتلال يطلق قنابل الغاز خلال اقتحامه بلدة الرام بالقدس المحتلة.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر سورية: قوات الاحتلال تتوغل في قرية جملة بريف درعا الغربي، تزامنا مع إلقاء قنابل مضيئة.",
-      "absolute_sentiment": -1,
+      "text": "سوريا: مصادر محلية: مروحيات إسرائيلية تستهدف بالأسلحة الرشاشة قرية عابدين بريف درعا الغربي",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
@@ -2421,11 +2407,25 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تحتجز عددًا من الشبان خلال اقتحام في بلدة &quot;حزما&quot; شمال شرق القدس المحتلة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#إعلام_العدو   القناة 15 العبرية:  الليلة، حوالي الساعة 02:00، صادف مقاتلو لواء غولاني عنصرًا من حزب الله أثناء دخولهم للتحقق من هدف/شخص مشتبه به في منطقة دير سريان.  نتيجة الاشتباك، قُتل النقيب دافيد حزوت، وأُصيب مقاتل آخر بجروح طفيفة.  نُقل الجندي المصاب لتلقي العلاج الطبي، وتم إبلاغ عائلته.  بعد الحادث، باشرت القوات عمليات تمشيط بحثًا عن عنصر حزب الله، كما استهدفت أهدافًا في المنطقة.  ولا تزال جهود القضاء على عنصر حزب الله مستمرة، فيما تواصل القوات عمليات التمشيط في المنطقة.  #الإعلام_الحربي",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 0.9989761072718144
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 12 العبرية: الاتفاق بين &quot;إسرائيل&quot; ولبنان، الذي نُشر كاملاً، بما في ذلك على موقع وزارة الخارجية الأمريكية، أُرفق بملحق أمني ظل مصنفًا على أنه سري. ويعود السبب الرئيسي لذلك إلى طلب صريح من الحكومة اللبنانية.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9986256955089237
     }
   ]
 }
