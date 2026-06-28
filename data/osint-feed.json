@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-28T15:15:31.664Z",
+  "last_updated": "2026-06-28T17:05:11.261Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.08"
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.14"
   },
   "timeline": [
-    {
-      "time": "2026-06-23T11:57:19.715Z",
-      "danger": 0.523,
-      "sentiment": -0.26,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.547,
-          "sentiment": -0.567
-        },
-        "OSINTdefender": {
-          "danger": 0.432,
-          "sentiment": -0.333
-        },
-        "irna_1313": {
-          "danger": 0.356,
-          "sentiment": 0.1
-        },
-        "sepah_pasdaran": {
-          "danger": 0.331,
-          "sentiment": -0.7
-        },
-        "almanarnews": {
-          "danger": 0.364,
-          "sentiment": -0.1
-        },
-        "C_Military1": {
-          "danger": 0.692,
-          "sentiment": -0.3
-        },
-        "almayadeen": {
-          "danger": 0.665,
-          "sentiment": -0.367
-        },
-        "QudsN": {
-          "danger": 0.898,
-          "sentiment": -0.2
-        }
-      }
-    },
     {
       "time": "2026-06-23T14:50:57.018Z",
       "danger": 0.538,
@@ -2261,6 +2214,49 @@
           "sentiment": -0.033
         }
       }
+    },
+    {
+      "time": "2026-06-28T17:05:11.261Z",
+      "danger": 0.535,
+      "sentiment": -0.144,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "OSINTdefender": {
+          "danger": 0.54,
+          "sentiment": -0.233
+        },
+        "irna_1313": {
+          "danger": 0.568,
+          "sentiment": -0.033
+        },
+        "sepah_pasdaran": {
+          "danger": 0.32,
+          "sentiment": -0.2
+        },
+        "almanarnews": {
+          "danger": 0.415,
+          "sentiment": -0.167
+        },
+        "C_Military1": {
+          "danger": 0.717,
+          "sentiment": -0.467
+        },
+        "almayadeen": {
+          "danger": 0.659,
+          "sentiment": 0
+        },
+        "QudsN": {
+          "danger": 0.646,
+          "sentiment": -0.067
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2276,12 +2272,6 @@
       "raw_sentiment": 0.16666666666666666,
       "knn_danger_metric": 0.5
     },
-    "abualiexpress": {
-      "name": "Israel_OSINT",
-      "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.4391022189170577
-    },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
@@ -2291,20 +2281,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.2,
-      "knn_danger_metric": 0.5437840917328786
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.5677934016694395
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.36553678247402677
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.31984232266940443
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.46025769129376637
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.41543611084984244
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2305,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.6539778834376379
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.6587182064109415
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.5354790319731855
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.646208594316318
     }
   },
   "semantic_logs": [
@@ -2334,44 +2324,93 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "📹 جولة لوزير الخارجية الإيراني عباس عراقجي في العراق، تفاصيل الزيارة مع مراسلنا عادل الفياض https://almanar.com.lb/article/984457/?s=tg",
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸 ثبت شماره حساب بانکی در سامانه تأمین اجتماعی، شرط دریافت سریع برخی حمایت ها  🔹 سازمان تأمین اجتماعی از بیمه‌شدگان خواست با ثبت یا به‌روزرسانی شماره حساب بانکی فعال و معتبر خود در سامانه خدمات غیرحضوری این سازمان، امکان دریافت سریع‌تر برخی کمک‌هزینه‌ها و حمایت‌های بیمه‌ای را فراهم کنند.  🔹 همچنین یمه‌شدگان می‌توانند با مراجعه به سامانه خدمات غیرحضوری سازمان تأمین اجتماعی و از مسیر «بیمه‌شدگان»، «خدمات نام‌نویسی» و سپس «اعلام شماره حساب بانکی» اقدام کنند.  https://irna.ir/xjXFLK",
       "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️بر اساس گزارش‌ها، نیروهای رژیم صهیونیستی با پیشروی در خاک سوریه به حومه شهر درعا رسیده‌اند. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: قناة &quot;مكان&quot;: الحكومة الإسرائيلية تعترف رسمياً بالإبادة الجماعية للأرمن",
+      "text": "لبنان: وزارة الصحة: 4247 شهيداً و12195 مصاباً حصيلة العدوان الإسرائيلي على البلاد منذ 2 آذار/ مارس الماضي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: شهيد وجرحى جراء قصف إسرائيلي استهدف خيمة تؤوي نازحين في مواصي خان يونس جنوبي قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: بيان صادر عن حركتي حماس والجهاد والجبهتين الشعبية والديمقراطية والمبادرة الوطنية والقيادة العامة",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: قاليباف لبرّي: هدفنا الجاد هو وضع حد للحرب في لبنان وعودة النازحين وإنهاء الاحتلال وخروج الكيان الصهيوني من الأراضي اللبنانية",
+      "text": "فلسطين المحتلة: القوى الفلسطينية: نؤكد أن الوحدة الوطنية والشراكة السياسية هما الخيار الوحيد لمواجهة حرب الإبادة ومخططات التصفية",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: التلفزيون الإيراني: قاليباف وبري أكدا ضرورة عقد اجتماع &quot;وحدة ضبط النزاع&quot; في أسرع وقت ممكن لضبط الحرب في لبنان وإنهائها",
+      "text": "فلسطين المحتلة: القوى الفلسطينية: نطالب بالدعوة العاجلة لاجتماع الأمناء العامين للفصائل لإطلاق حوار شامل والتوافق على إجراء انتخابات عامة",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: مصابون جراء قصف إسرائيلي استهدف خيمة في مواصي خان يونس جنوبي قطاع غزة",
-      "absolute_sentiment": -1,
+      "text": "فلسطين المحتلة: القوى الفلسطينية: نشدد على أن &quot;الإطار القيادي المؤقت الموحد&quot; (اتفاق بكين) هو المرجعية الانتقالية الجامعة لإدارة هذه المرحلة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: القوى الفلسطينية: نتمسك بالثوابت الوطنية وعلى رأسها حق العودة وتقرير المصير وإقامة الدولة المستقلة وعاصمتها القدس",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: القوى الفلسطينية: اللحظة التاريخية التي تمر بها قضيتنا الوطنية تستوجب أعلى درجات المسؤولية والوحدة والتكاتف",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "باحث إسرائيلي: النفط أهم لأمريكا من &quot;إسرائيل&quot; التفاصيل: https://qudsn.co/post/216317",
+      "text": "قوات الاحتلال تقتحم بلدة دير دبوان شرق رام الله.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل| قوات الاحتلال تقتحم مدينة أريحا.",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تحتجز فلسطينيا خلال اقتحامها قرية الطبقة جنوب مدينة دورا.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2381,55 +2420,6 @@
       "text": "#إعلام_العدو   القناة 15 العبرية:  الليلة، حوالي الساعة 02:00، صادف مقاتلو لواء غولاني عنصرًا من حزب الله أثناء دخولهم للتحقق من هدف/شخص مشتبه به في منطقة دير سريان.  نتيجة الاشتباك، قُتل النقيب دافيد حزوت، وأُصيب مقاتل آخر بجروح طفيفة.  نُقل الجندي المصاب لتلقي العلاج الطبي، وتم إبلاغ عائلته.  بعد الحادث، باشرت القوات عمليات تمشيط بحثًا عن عنصر حزب الله، كما استهدفت أهدافًا في المنطقة.  ولا تزال جهود القضاء على عنصر حزب الله مستمرة، فيما تواصل القوات عمليات التمشيط في المنطقة.  #الإعلام_الحربي",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 0.9989761072718144
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   المتحدث باسم الجيش:   في الأيام الأخيرة من الحرب جرى استخدام طائرات مسيّرة جديدة، كانت مراحل تطويرها قد بدأت في وقت سابق، وتم إدخالها إلى الخدمة العملياتية خلال الحرب.   كما جرى استخدام صواريخ مطوّرة لدى القوات المسلحة، سواء في الجيش أو في حرس الثورة الإسلامية، بكفاءة وجودة أعلى، ما يؤكد أن أعمال البحث والتطوير استمرت بالتوازي مع العمليات العسكرية.   وأكد أن هناك برنامجًا جادًا للتصنيع المحلي وشراء التجهيزات المتطورة من الدول الصديقة، وأن الجيش سيحصل خلال الأيام المقبلة على معدات أكثر تطورًا.   وأضاف أن الطائرات المسيّرة التي كُشف عنها في الأيام الأخيرة من الحرب، والتي استمرت 40 يومًا، أكثر تطورًا بكثير من الأجيال السابقة، مثل «آرش-2»، وسيُكشف قريبًا عن قدراتها للشعب الإيراني.  #الإعلام_الحربي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9984618567217011
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "📋#اینفو_ایرنا | ماجرای سوء قصد به رهبر شهید انقلاب در سال 1369   #باید_برخاست  @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9973547420446702
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: تشير التفاصيل الأولية بأن قوات لواء غولاني وقعت في كمين لحزب الله صباح اليوم. لا تزال تفاصيل الحادثة تخضع للرقابة. هناك قتيل على الأقل وعدد من الجرحى.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9971059803222341
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة معاريف العبرية - بن كاسبيت: يُحقق الاتفاق لـ&quot;إسرائيل&quot; بعض الإنجازات الهامة، لكنه مُعلّقٌ في مكانه. ولكي ينجح، لا بد من حلّ الأزمة الداخلية في لبنان، مع حزب الله، أولاً. ولا يملك أحدٌ القوة أو الوقت لذلك.  #الإعلام_الحربي",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 0.9961486516080662
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "جريدة الأخبار اللبنانية: رغم الاعتداءات الإسرائيلية المتواصلة والمستمرة باحتلال الأراضي اللبنانية والقصف والنسف الذي لم يتوقف، لم تجد السلطة السياسية وقتا لإصدار بيان استنكار لهذا العدوان، بينما استنكرت الرد الإيراني على العدوان الذي تعرضت له بقصف القواعد الأمريكية المعادية بالخليج.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9776859215431125
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "📹 مواكبة لآخر التطورات في جنوب لبنان مع مراسلنا سامر حاج علي https://almanar.com.lb/article/984402/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9451672518425872
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل| إصابات بقصف من طائرات الاحتلال على خيام النازحين في مخيم طبريا بمواصي خانيونس.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9262731058775845
     }
   ]
 }
