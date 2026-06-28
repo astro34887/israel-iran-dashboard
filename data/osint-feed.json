@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-28T11:04:13.732Z",
+  "last_updated": "2026-06-28T13:28:17.411Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.04"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.48",
+    "global_norm_sentiment": "-0.27"
   },
   "timeline": [
-    {
-      "time": "2026-06-23T04:56:53.382Z",
-      "danger": 0.446,
-      "sentiment": -0.281,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.267,
-          "sentiment": -0.433
-        },
-        "OSINTdefender": {
-          "danger": 0.427,
-          "sentiment": -0.333
-        },
-        "irna_1313": {
-          "danger": 0.56,
-          "sentiment": -0.545
-        },
-        "sepah_pasdaran": {
-          "danger": 0.242,
-          "sentiment": -0.733
-        },
-        "almanarnews": {
-          "danger": 0.416,
-          "sentiment": -0.6
-        },
-        "C_Military1": {
-          "danger": 0.374,
-          "sentiment": 0.2
-        },
-        "almayadeen": {
-          "danger": 0.615,
-          "sentiment": -0.333
-        },
-        "QudsN": {
-          "danger": 0.61,
-          "sentiment": 0.1
-        }
-      }
-    },
     {
       "time": "2026-06-23T08:28:57.118Z",
       "danger": 0.513,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.233
         }
       }
+    },
+    {
+      "time": "2026-06-28T13:28:17.411Z",
+      "danger": 0.484,
+      "sentiment": -0.272,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.493,
+          "sentiment": -0.4
+        },
+        "OSINTdefender": {
+          "danger": 0.54,
+          "sentiment": -0.233
+        },
+        "irna_1313": {
+          "danger": 0.471,
+          "sentiment": -0.467
+        },
+        "sepah_pasdaran": {
+          "danger": 0.336,
+          "sentiment": -0.267
+        },
+        "almanarnews": {
+          "danger": 0.505,
+          "sentiment": -0.1
+        },
+        "C_Military1": {
+          "danger": 0.717,
+          "sentiment": -0.333
+        },
+        "almayadeen": {
+          "danger": 0.304,
+          "sentiment": -0.667
+        },
+        "QudsN": {
+          "danger": 0.53,
+          "sentiment": -0.083
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.6171035319714017
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.4926840635316491
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.23333333333333334,
-      "knn_danger_metric": 0.42204709096398857
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.47078725094948387
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.2500049097766666
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.3358912806093771
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.5,
-      "knn_danger_metric": 0.44567863841991323
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.5045441773418472
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.73186499126356
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.7169369705758482
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.3333333333333333,
-      "knn_danger_metric": 0.8258248326619103
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.3044553494993599
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.4800425236873868
+      "num_messages": 12,
+      "raw_sentiment": -0.08333333333333333,
+      "knn_danger_metric": 0.5295512069421829
     }
   },
   "semantic_logs": [
@@ -2336,13 +2336,6 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "חדשות טובות לישראל - מהפך בסלובניה:   הפרלמנט הסלובני בחר באיש הימין יאנז יאנשה לתפקיד ראש ממשלה - 50 מתוך 90 חברי הפרלמנט תמכו בכך (דרוש מינימום של 46). יאנשה, הוא אחד מתומכי ישראל הבולטים באירופה שיצא נגד ההכרה של ממשלת סלובניה הקודמת (ממשלת שמאל - ליברלית)…",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
       "text": "איראן: &quot;מחאת הגמלאים&quot;  הפגנות גמלאים נערכות היום מול סניפי הביטוח הלאומי האיראני בערים טהרן, כרמאנשאה, שוש, אספהאן, אחוואז ועוד.  המפגינים מוחים על אי טיפול בתביעותיהם ודורשים להשיב את זכויותיהם הכלכליות שבוטלו.   ##  בעיר רשת הפגינו עובדי מפעל טקסטיל על הלנת…",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
@@ -2350,86 +2343,93 @@
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "العلامة فضل الله: أي اتفاق يفرّط بالحقوق اللبنانية أو يؤدي إلى شرخ داخلي لا يمكن القبول به ويجب التراجع عنه https://almanar.com.lb/article/983862/?s=tg",
-      "absolute_sentiment": 1,
+      "text": "الاتحاد العالمي لعلماء المقاومة: الاتفاق الاطار خضوع صريح للإملاءات الأميركية الإسرائيلية https://almanar.com.lb/article/984162/?s=tg",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: غارة على السلاطين ببيت لاهيا شمالي القطاع",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: هيئة أبناء العرقوب: &quot;اتفاق الإطار&quot; يتجاوز كل الخطوط الحمر الوطنية والعربية ويقدم تنازلات مجانية للعدو الصهيوني",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: الهيئة: هل تكون السيادة بالتفريط بلبنانية مزارع شبعا وتلال كفرشوبا والغجر وقبول سردية &quot;إسرائيل&quot; المزيفة عن هويتها؟",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: كلمة لقائد الثورة والجمهورية الاسلامية السيد مجتبى خامنئي في رسالة بمناسبة أسبوع السلطة القضائية في ايران",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: السيد مجتبى: تعزيز ثقة الشعب بالسلطة القضائية ركن من أركان النظام",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: السيد مجتبى: لإصلاح مسار الأمور وتفعيل أجزاء أخرى من النظام يجب مواصلة عملية الإصلاح وإعادة البناء داخل سلطة القضاء نفسها",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: السيد مجتبى: افتخار بعض قادة الأعداء الأميركيين والإسرائيليين بجرائمهم تعتبر بلا شك اعترافاً بها",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: شهيدان ومصابون اثر غارة جوية اسرائيلية استهدفت مجموعة من المواطنين ببلدة بيت لاهيا شمالي القطاع",
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "&quot;مواطنون ومواطنات&quot;: السلطة اللبنانية عوضت لنتنياهو الاحراج الذي تسبب له اقصاءه من التفاوض مع ايران https://almanar.com.lb/article/984277/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: المفتي الشيخ أحمد قبلان: أقول للشعب اللبناني وقواه السياسية أطفئوا نار فتنة السلطة الحالية قبل أن تحرق كل لبنان",
+      "text": "لبنان: وقفة احتجاجية أمام السراي الحكومي في بيروت رفضاً لاتفاق الإطار الموقع من قبل السلطة اللبنانية وحكومة الاحتلال",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: الشيخ قبلان: أيها اللبنانيون نريد أن نعيش معاً كعائلة وطنية وضمن صيغة دفاع وطني ضامن لسيادة لبنان",
+      "text": "وسائل إعلام إسرائيلية: قناة &quot;مكان&quot;: الحكومة الإسرائيلية تعترف رسمياً بالإبادة الجماعية للأرمن",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "العلاج مرهون بقرار الاحتلال.. &quot;الموافقات الأمنية&quot; تعرقل سفر مرضى غزة عبر معبر رفح  https://qudsn.co/post/216314",
+      "text": "لحظة هدم جرافات الاحتلال لمنزلين في قرية بير هداج بالنقب المحتل.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "باحث إسرائيلي: النفط أهم لأمريكا من &quot;إسرائيل&quot; التفاصيل: https://qudsn.co/post/216317",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 15 العبرية:  الليلة، حوالي الساعة 02:00، صادف مقاتلو لواء غولاني عنصرًا من حزب الله أثناء دخولهم للتحقق من هدف/شخص مشتبه به في منطقة دير سريان.  نتيجة الاشتباك، قُتل النقيب دافيد حزوت، وأُصيب مقاتل آخر بجروح طفيفة.  نُقل الجندي المصاب لتلقي العلاج الطبي، وتم إبلاغ عائلته.  بعد الحادث، باشرت القوات عمليات تمشيط بحثًا عن عنصر حزب الله، كما استهدفت أهدافًا في المنطقة.  ولا تزال جهود القضاء على عنصر حزب الله مستمرة، فيما تواصل القوات عمليات التمشيط في المنطقة.  #الإعلام_الحربي",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9989761072718144
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   المتحدث باسم الجيش:   في الأيام الأخيرة من الحرب جرى استخدام طائرات مسيّرة جديدة، كانت مراحل تطويرها قد بدأت في وقت سابق، وتم إدخالها إلى الخدمة العملياتية خلال الحرب.   كما جرى استخدام صواريخ مطوّرة لدى القوات المسلحة، سواء في الجيش أو في حرس الثورة الإسلامية، بكفاءة وجودة أعلى، ما يؤكد أن أعمال البحث والتطوير استمرت بالتوازي مع العمليات العسكرية.   وأكد أن هناك برنامجًا جادًا للتصنيع المحلي وشراء التجهيزات المتطورة من الدول الصديقة، وأن الجيش سيحصل خلال الأيام المقبلة على معدات أكثر تطورًا.   وأضاف أن الطائرات المسيّرة التي كُشف عنها في الأيام الأخيرة من الحرب، والتي استمرت 40 يومًا، أكثر تطورًا بكثير من الأجيال السابقة، مثل «آرش-2»، وسيُكشف قريبًا عن قدراتها للشعب الإيراني.  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.9984618567217011
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: تشير التفاصيل الأولية بأن قوات لواء غولاني وقعت في كمين لحزب الله صباح اليوم. لا تزال تفاصيل الحادثة تخضع للرقابة. هناك قتيل على الأقل وعدد من الجرحى.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9971059803222341
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صحيفة معاريف العبرية - بن كاسبيت: يُحقق الاتفاق لـ&quot;إسرائيل&quot; بعض الإنجازات الهامة، لكنه مُعلّقٌ في مكانه. ولكي ينجح، لا بد من حلّ الأزمة الداخلية في لبنان، مع حزب الله، أولاً. ولا يملك أحدٌ القوة أو الوقت لذلك.  #الإعلام_الحربي",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 0.9961486516080662
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "איראן: &quot;מחאת הגמלאים&quot;  הפגנות גמלאים נערכות היום מול סניפי הביטוח הלאומי האיראני בערים טהרן, כרמאנשאה, שוש, אספהאן, אחוואז ועוד.  המפגינים מוחים על אי טיפול בתביעותיהם ודורשים להשיב את זכויותיהם הכלכליות שבוטלו.   ##  בעיר רשת הפגינו עובדי מפעל טקסטיל על הלנת שכר של מספר חודשים.  בעיר אספהאן הפגינו גמלאי תעשיית הפלדה שנפגעה בתקיפות הישראליות במבצע שאגת הארי (בשל ביטול ביטוח הבריאות שלהם).  2 תגובות",
+      "absolute_sentiment": -0.5,
+      "semantic_danger_knn": 0.9264268353596098
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "📹 آخر تطورات الاعتداءات الصهيونية على البقاع الغربي والجنوب مع مراسلنا ماهر قمر https://almanar.com.lb/article/984202/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9096811083910463
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🎥 جایگاه اول این لیست، افتخار ندارد&#33;  🔹پلیس راهور پایتخت تراژیک‌ترین عدد سال را اعلام کرد. فرقی نمی‌کند چقدر ماهر باشید، وقتی پای سرعت و نقطه‌کور ماشین‌ها وسط باشد، فاصله مرگ و زندگی فقط به اندازه یک کلاه ایمنی است.  🔹آنچه دیدید برشی از برنامه «خبرگردی» است. این برنامه را می‌توانید هر روز ساعت 14 زنده از تلویزیون ایرنا و کمی بعد در شبکه های اجتماعی ببینید.  🔹 برنامه امروز را اینجا ببینید:  https://irna.ir/xjXFH3 @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9066343048745241
     }
   ]
 }
