@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-28T13:28:17.411Z",
+  "last_updated": "2026-06-28T15:15:31.664Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.48",
-    "global_norm_sentiment": "-0.27"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.08"
   },
   "timeline": [
-    {
-      "time": "2026-06-23T08:28:57.118Z",
-      "danger": 0.513,
-      "sentiment": -0.183,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.254,
-          "sentiment": -0.4
-        },
-        "OSINTdefender": {
-          "danger": 0.432,
-          "sentiment": -0.333
-        },
-        "irna_1313": {
-          "danger": 0.595,
-          "sentiment": -0.433
-        },
-        "sepah_pasdaran": {
-          "danger": 0.308,
-          "sentiment": -0.467
-        },
-        "almanarnews": {
-          "danger": 0.494,
-          "sentiment": 0.267
-        },
-        "C_Military1": {
-          "danger": 0.646,
-          "sentiment": -0.267
-        },
-        "almayadeen": {
-          "danger": 0.754,
-          "sentiment": 0.033
-        },
-        "QudsN": {
-          "danger": 0.699,
-          "sentiment": -0.1
-        }
-      }
-    },
     {
       "time": "2026-06-23T11:57:19.715Z",
       "danger": 0.523,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.083
         }
       }
+    },
+    {
+      "time": "2026-06-28T15:15:31.664Z",
+      "danger": 0.52,
+      "sentiment": -0.083,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.439,
+          "sentiment": -0.267
+        },
+        "OSINTdefender": {
+          "danger": 0.54,
+          "sentiment": -0.233
+        },
+        "irna_1313": {
+          "danger": 0.544,
+          "sentiment": 0.2
+        },
+        "sepah_pasdaran": {
+          "danger": 0.366,
+          "sentiment": -0.067
+        },
+        "almanarnews": {
+          "danger": 0.46,
+          "sentiment": 0.033
+        },
+        "C_Military1": {
+          "danger": 0.717,
+          "sentiment": -0.467
+        },
+        "almayadeen": {
+          "danger": 0.654,
+          "sentiment": 0.133
+        },
+        "QudsN": {
+          "danger": 0.535,
+          "sentiment": -0.033
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.4926840635316491
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.4391022189170577
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.47078725094948387
+      "raw_sentiment": 0.2,
+      "knn_danger_metric": 0.5437840917328786
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.3358912806093771
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.36553678247402677
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.5045441773418472
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.46025769129376637
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.4666666666666667,
       "knn_danger_metric": 0.7169369705758482
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.3044553494993599
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.6539778834376379
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 12,
-      "raw_sentiment": -0.08333333333333333,
-      "knn_danger_metric": 0.5295512069421829
+      "num_messages": 15,
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.5354790319731855
     }
   },
   "semantic_logs": [
@@ -2334,31 +2334,10 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "איראן: &quot;מחאת הגמלאים&quot;  הפגנות גמלאים נערכות היום מול סניפי הביטוח הלאומי האיראני בערים טהרן, כרמאנשאה, שוש, אספהאן, אחוואז ועוד.  המפגינים מוחים על אי טיפול בתביעותיהם ודורשים להשיב את זכויותיהם הכלכליות שבוטלו.   ##  בעיר רשת הפגינו עובדי מפעל טקסטיל על הלנת…",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "الاتحاد العالمي لعلماء المقاومة: الاتفاق الاطار خضوع صريح للإملاءات الأميركية الإسرائيلية https://almanar.com.lb/article/984162/?s=tg",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "&quot;مواطنون ومواطنات&quot;: السلطة اللبنانية عوضت لنتنياهو الاحراج الذي تسبب له اقصاءه من التفاوض مع ايران https://almanar.com.lb/article/984277/?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: وقفة احتجاجية أمام السراي الحكومي في بيروت رفضاً لاتفاق الإطار الموقع من قبل السلطة اللبنانية وحكومة الاحتلال",
-      "absolute_sentiment": -1,
+      "text": "📹 جولة لوزير الخارجية الإيراني عباس عراقجي في العراق، تفاصيل الزيارة مع مراسلنا عادل الفياض https://almanar.com.lb/article/984457/?s=tg",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2369,9 +2348,23 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لحظة هدم جرافات الاحتلال لمنزلين في قرية بير هداج بالنقب المحتل.",
+      "text": "إيران: قاليباف لبرّي: هدفنا الجاد هو وضع حد للحرب في لبنان وعودة النازحين وإنهاء الاحتلال وخروج الكيان الصهيوني من الأراضي اللبنانية",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: التلفزيون الإيراني: قاليباف وبري أكدا ضرورة عقد اجتماع &quot;وحدة ضبط النزاع&quot; في أسرع وقت ممكن لضبط الحرب في لبنان وإنهائها",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: مصابون جراء قصف إسرائيلي استهدف خيمة في مواصي خان يونس جنوبي قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2397,6 +2390,13 @@
       "semantic_danger_knn": 0.9984618567217011
     },
     {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "📋#اینفو_ایرنا | ماجرای سوء قصد به رهبر شهید انقلاب در سال 1369   #باید_برخاست  @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9973547420446702
+    },
+    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: تشير التفاصيل الأولية بأن قوات لواء غولاني وقعت في كمين لحزب الله صباح اليوم. لا تزال تفاصيل الحادثة تخضع للرقابة. هناك قتيل على الأقل وعدد من الجرحى.  #الإعلام_الحربي",
@@ -2411,25 +2411,25 @@
       "semantic_danger_knn": 0.9961486516080662
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "איראן: &quot;מחאת הגמלאים&quot;  הפגנות גמלאים נערכות היום מול סניפי הביטוח הלאומי האיראני בערים טהרן, כרמאנשאה, שוש, אספהאן, אחוואז ועוד.  המפגינים מוחים על אי טיפול בתביעותיהם ודורשים להשיב את זכויותיהם הכלכליות שבוטלו.   ##  בעיר רשת הפגינו עובדי מפעל טקסטיל על הלנת שכר של מספר חודשים.  בעיר אספהאן הפגינו גמלאי תעשיית הפלדה שנפגעה בתקיפות הישראליות במבצע שאגת הארי (בשל ביטול ביטוח הבריאות שלהם).  2 תגובות",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 0.9264268353596098
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جريدة الأخبار اللبنانية: رغم الاعتداءات الإسرائيلية المتواصلة والمستمرة باحتلال الأراضي اللبنانية والقصف والنسف الذي لم يتوقف، لم تجد السلطة السياسية وقتا لإصدار بيان استنكار لهذا العدوان، بينما استنكرت الرد الإيراني على العدوان الذي تعرضت له بقصف القواعد الأمريكية المعادية بالخليج.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9776859215431125
     },
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "📹 آخر تطورات الاعتداءات الصهيونية على البقاع الغربي والجنوب مع مراسلنا ماهر قمر https://almanar.com.lb/article/984202/?s=tg",
+      "text": "📹 مواكبة لآخر التطورات في جنوب لبنان مع مراسلنا سامر حاج علي https://almanar.com.lb/article/984402/?s=tg",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9096811083910463
+      "semantic_danger_knn": 0.9451672518425872
     },
     {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🎥 جایگاه اول این لیست، افتخار ندارد&#33;  🔹پلیس راهور پایتخت تراژیک‌ترین عدد سال را اعلام کرد. فرقی نمی‌کند چقدر ماهر باشید، وقتی پای سرعت و نقطه‌کور ماشین‌ها وسط باشد، فاصله مرگ و زندگی فقط به اندازه یک کلاه ایمنی است.  🔹آنچه دیدید برشی از برنامه «خبرگردی» است. این برنامه را می‌توانید هر روز ساعت 14 زنده از تلویزیون ایرنا و کمی بعد در شبکه های اجتماعی ببینید.  🔹 برنامه امروز را اینجا ببینید:  https://irna.ir/xjXFH3 @IRNA_1313",
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل| إصابات بقصف من طائرات الاحتلال على خيام النازحين في مخيم طبريا بمواصي خانيونس.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9066343048745241
+      "semantic_danger_knn": 0.9262731058775845
     }
   ]
 }
