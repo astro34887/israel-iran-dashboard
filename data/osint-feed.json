@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-28T22:03:13.168Z",
+  "last_updated": "2026-06-29T00:04:23.517Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.28"
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.31"
   },
   "timeline": [
-    {
-      "time": "2026-06-23T21:41:36.328Z",
-      "danger": 0.465,
-      "sentiment": -0.204,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.336,
-          "sentiment": -0.333
-        },
-        "OSINTdefender": {
-          "danger": 0.444,
-          "sentiment": -0.433
-        },
-        "irna_1313": {
-          "danger": 0.337,
-          "sentiment": 0.409
-        },
-        "sepah_pasdaran": {
-          "danger": 0.398,
-          "sentiment": -0.167
-        },
-        "almanarnews": {
-          "danger": 0.299,
-          "sentiment": -0.233
-        },
-        "C_Military1": {
-          "danger": 0.558,
-          "sentiment": -0.4
-        },
-        "almayadeen": {
-          "danger": 0.602,
-          "sentiment": -0.5
-        },
-        "QudsN": {
-          "danger": 0.727,
-          "sentiment": -0.25
-        }
-      }
-    },
     {
       "time": "2026-06-23T23:05:45.059Z",
       "danger": 0.505,
@@ -2257,6 +2210,53 @@
           "sentiment": -0.3
         }
       }
+    },
+    {
+      "time": "2026-06-29T00:04:23.517Z",
+      "danger": 0.525,
+      "sentiment": -0.309,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.399,
+          "sentiment": -0.357
+        },
+        "OSINTdefender": {
+          "danger": 0.546,
+          "sentiment": -0.233
+        },
+        "irna_1313": {
+          "danger": 0.576,
+          "sentiment": -0.133
+        },
+        "sepah_pasdaran": {
+          "danger": 0.475,
+          "sentiment": -0.633
+        },
+        "almanarnews": {
+          "danger": 0.385,
+          "sentiment": 0
+        },
+        "C_Military1": {
+          "danger": 0.727,
+          "sentiment": -0.567
+        },
+        "almayadeen": {
+          "danger": 0.395,
+          "sentiment": -0.4
+        },
+        "QudsN": {
+          "danger": 0.793,
+          "sentiment": -0.633
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2287,38 +2287,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.6555673263284881
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.5761767019378053
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.36951171887198064
+      "knn_danger_metric": 0.4746891111322672
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.3,
-      "knn_danger_metric": 0.45715707068320793
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.38543722828803517
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.7412124655134016
+      "knn_danger_metric": 0.726899157129582
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.4501971889694446
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.39538482321067797
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.6938497454348463
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.7934973273628204
     }
   },
   "semantic_logs": [
@@ -2332,35 +2332,7 @@
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️تصاویری از درگیری ساکنان روستاهای استان درعا با نیروهای ارتش اشغالگر  صهیونیستی &lrm;�� @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 وزير الخارجية الإيراني يلتقي رئيس مجلس النواب العراقي https://almanar.com.lb/article/984967/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "سوريا: مصادر محلية: مروحيات إسرائيلية تستهدف بالأسلحة الرشاشة قرية عابدين بريف درعا الغربي",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: إطلاق نار من آليات الاحتلال شرقي مخيم البريج وسط قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: وزارة الخارجية: عراقتشي التقى الرئيس العراقي نزار آميدي ونقل له تحيات قائد الثورة والرئيس بزشكيان",
+      "text": "&rlm; ️تصاویری از درگیری ساکنان روستاهای استان درعا با نیروهای ارتش اشغالگر  صهیونیستی &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2372,16 +2344,72 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تحتجز عددًا من الشبان خلال اقتحام في بلدة &quot;حزما&quot; شمال شرق القدس المحتلة",
+      "text": "فلسطين المحتلة: مراسل الميادين: &quot;جيش&quot; الاحتلال الإسرائيلي ينفذ عملية نسف شمال شرق مدينة خان يونس جنوب قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "أفغانستان: مصدر أفغاني للميادين: سقوط قتلى وجرحى مدنيين في منطقة سمكني بولاية بكتيا جنوب شرق البلاد وفي محافظة كونار شرق البلاد",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة السيلة الحارثية غرب جنين.",
+      "text": "مصادر محلية: قوات الاحتلال تداهم عددًا من المنازل خلال اقتحام بلدة الزاوية، غرب سلفيت.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة الشيوخ شمال الخليل.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تداهم عددًا من المنازل خلال اقتحام بلدة السيلة الحارثية غرب جنين.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تداهم المنازل خلال اقتحام بلدة الشيوخ شمال الخليل.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة اليامون، غرب جنين.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تعتقل عددًا من الشبان خلال اقتحام بلدة حزما، شمال القدس المحتلة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جيش الاحتلال يطلق النار بكثافة في محيط مخيم النصيرات، وسط قطاع غزة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تداهم منزلاً خلال اقتحام بلدة كفردان غرب جنين",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
@@ -2398,34 +2426,6 @@
       "text": "#إعلام_العدو   القناة 12 العبرية: الاتفاق بين &quot;إسرائيل&quot; ولبنان، الذي نُشر كاملاً، بما في ذلك على موقع وزارة الخارجية الأمريكية، أُرفق بملحق أمني ظل مصنفًا على أنه سري. ويعود السبب الرئيسي لذلك إلى طلب صريح من الحكومة اللبنانية.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9986256955089237
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 12 العبرية: الإتفاق يقضي بإلتزام واضح من الطرفين – &quot;إسرائيل&quot; ولبنان – بأن أي خطوة لن تُنفذ وفق جداول زمنية، وإنما وفق تحقق شروط محددة. والمعنى هو: لن تكون هناك انسحابات تلقائية، بل ستتم وفق النجاح على الأرض وبناءً على اختبار النتائج.  #الإعلام_الحربي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9979630785221282
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 12 العبرية: لن يكون هناك توسيع للمشاريع التجريبية في المستقبل المنظور إلا بموافقة &quot;إسرائيل&quot;. والمشروعان التجريبيان اللذان تم الاتفاق عليهما هما الوحيدان المعتمدان في الوقت الحالي.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9961486516080662
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸عملیات نظامی پاکستان در خاک افغانستان؛ حملات علیه جماعت الاحرار   🔹پاکستان یک روز پس از حمله تروریستی در شهر کراچی  که این کشور مدعی طراحی آن از افغانستان شد از انجام عملیات ضد تروریستی در ۳ نقطه خاک افغانستان خبر داد.  https://irna.ir/xjXFPP @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9949151460802924
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🏆فوتبال جام جهانی ۲۰۲۶  🇨🇦 گل اول کانادا توسط استفان اوستاکویو در دقیقه ۲+۹۰  🇨🇦کانادا ۱ - آفریقای جنوبی ۰🇿🇦  @IRNA_1313",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9900416935917431
     }
   ]
 }
