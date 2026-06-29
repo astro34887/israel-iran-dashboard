@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-29T00:04:23.517Z",
+  "last_updated": "2026-06-29T05:27:25.815Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.31"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.48",
+    "global_norm_sentiment": "-0.27"
   },
   "timeline": [
-    {
-      "time": "2026-06-23T23:05:45.059Z",
-      "danger": 0.505,
-      "sentiment": -0.263,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.336,
-          "sentiment": -0.333
-        },
-        "OSINTdefender": {
-          "danger": 0.444,
-          "sentiment": -0.433
-        },
-        "irna_1313": {
-          "danger": 0.532,
-          "sentiment": 0.1
-        },
-        "sepah_pasdaran": {
-          "danger": 0.444,
-          "sentiment": -0.4
-        },
-        "almanarnews": {
-          "danger": 0.299,
-          "sentiment": -0.233
-        },
-        "C_Military1": {
-          "danger": 0.558,
-          "sentiment": -0.4
-        },
-        "almayadeen": {
-          "danger": 0.599,
-          "sentiment": -0.3
-        },
-        "QudsN": {
-          "danger": 0.884,
-          "sentiment": -0.5
-        }
-      }
-    },
     {
       "time": "2026-06-24T02:51:30.451Z",
       "danger": 0.489,
@@ -2257,6 +2210,53 @@
           "sentiment": -0.633
         }
       }
+    },
+    {
+      "time": "2026-06-29T05:27:25.815Z",
+      "danger": 0.479,
+      "sentiment": -0.268,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.419,
+          "sentiment": -0.5
+        },
+        "OSINTdefender": {
+          "danger": 0.535,
+          "sentiment": -0.367
+        },
+        "irna_1313": {
+          "danger": 0.417,
+          "sentiment": 0.1
+        },
+        "sepah_pasdaran": {
+          "danger": 0.415,
+          "sentiment": -0.467
+        },
+        "almanarnews": {
+          "danger": 0.414,
+          "sentiment": -0.267
+        },
+        "C_Military1": {
+          "danger": 0.727,
+          "sentiment": -0.567
+        },
+        "almayadeen": {
+          "danger": 0.334,
+          "sentiment": -0.4
+        },
+        "QudsN": {
+          "danger": 0.582,
+          "sentiment": -0.083
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2274,33 +2274,33 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 14,
-      "raw_sentiment": -0.35714285714285715,
-      "knn_danger_metric": 0.3987536711847472
+      "num_messages": 15,
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.4193912995134384
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.5458705874530292
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.534980351306216
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.5761767019378053
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.41727492043806536
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.4746891111322672
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.41537973014492297
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.38543722828803517
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.4143293972737859
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2312,13 +2312,13 @@
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.39538482321067797
+      "knn_danger_metric": 0.33444170889269403
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.7934973273628204
+      "num_messages": 12,
+      "raw_sentiment": -0.08333333333333333,
+      "knn_danger_metric": 0.5817013329749124
     }
   },
   "semantic_logs": [
@@ -2330,16 +2330,23 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️تصاویری از درگیری ساکنان روستاهای استان درعا با نیروهای ارتش اشغالگر  صهیونیستی &lrm;✅ @sepah_pasdaran",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "בונה לגיטימציה לתקיפה?  חזבאללה פרסם הלילה כרוז מפורט במיוחד ובו מנה את כל &quot;ההפרות של צהל&quot; אתמול בדרום לבנון:  תקיפה של מטוסי קרב על בניין מגורים בעיר נבטיה. תקיפה של מטוסי קרב על בניין מגורים בכפר מיפדון. תקיפה של כטב&quot;ם על שטח פתוח בכפר פרון. פיצוץ מבני מגורים…",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "سوريا: وزارة الخارجية: ندين بأشد العبارات الاعتداءات الإسرائيلية والتوغلات داخل الأراضي السورية في محافظتي القنيطرة ودرعا",
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 حفيد بسمارك: حلف الناتو لم يعد ضروريا اليوم ومعظم الألمان يدركون ذلك https://almanar.com.lb/article/985737/?s=tg",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 13 مصابا ولا وفيات إثر زلزال بقوة 5.5 درجة ضرب مقاطعة سيتشوان جنوب غربي الصين https://almanar.com.lb/article/985772/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2360,57 +2367,15 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم عددًا من المنازل خلال اقتحام بلدة الزاوية، غرب سلفيت.",
+      "text": "الأهالي يزيلون السواتر الترابية ويفتحون طرق قرية مادما جنوب نابلس التي أغلقها الاحتلال.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة الشيوخ شمال الخليل.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تداهم عددًا من المنازل خلال اقتحام بلدة السيلة الحارثية غرب جنين.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم المنازل خلال اقتحام بلدة الشيوخ شمال الخليل.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة اليامون، غرب جنين.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تعتقل عددًا من الشبان خلال اقتحام بلدة حزما، شمال القدس المحتلة.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "جيش الاحتلال يطلق النار بكثافة في محيط مخيم النصيرات، وسط قطاع غزة.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم منزلاً خلال اقتحام بلدة كفردان غرب جنين",
-      "absolute_sentiment": 0,
+      "text": "مشاهد من وداع عدد من الشهداء الذين قتلهم الاحتلال أمس في قطاع غزة ضمن الخروقات اليومية والمستمرة",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2426,6 +2391,41 @@
       "text": "#إعلام_العدو   القناة 12 العبرية: الاتفاق بين &quot;إسرائيل&quot; ولبنان، الذي نُشر كاملاً، بما في ذلك على موقع وزارة الخارجية الأمريكية، أُرفق بملحق أمني ظل مصنفًا على أنه سري. ويعود السبب الرئيسي لذلك إلى طلب صريح من الحكومة اللبنانية.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9986256955089237
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 12 العبرية: الإتفاق يقضي بإلتزام واضح من الطرفين – &quot;إسرائيل&quot; ولبنان – بأن أي خطوة لن تُنفذ وفق جداول زمنية، وإنما وفق تحقق شروط محددة. والمعنى هو: لن تكون هناك انسحابات تلقائية، بل ستتم وفق النجاح على الأرض وبناءً على اختبار النتائج.  #الإعلام_الحربي",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9979630785221282
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 12 العبرية: لن يكون هناك توسيع للمشاريع التجريبية في المستقبل المنظور إلا بموافقة &quot;إسرائيل&quot;. والمشروعان التجريبيان اللذان تم الاتفاق عليهما هما الوحيدان المعتمدان في الوقت الحالي.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9961486516080662
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مدرعات لجيش الاحتلال على مدخل بلدة عرانة شمال شرق مدينة جنين",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9262731058775845
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "به بهانه آتش‌سوزی در تالاب بین المللی میانکاله 🔸 روایت آتش از دلِ بهشت اشکان جهان آرای - خبرنگار ایرنا  🔹 آتش سوزی های سالانه در تالاب میانکاله که یکی از بزرگترین زیستگاه پرندگان مهاجر در محدوده دریای خزر محسوب می‌شود، نگرانی کارشناسان محیط زیست و حیات وحش را به همراه دارد؛ چرا که این بلیه، تهدید اساسی این آب خوان بزرگ معروف به بهشت گونه‌های جانوری است.  https://irna.ir/xjXFQC @IRNA_1313",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.8906878499941152
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸روایت یک روز از آینده اینچه‌برون  🔹منطقه آزاد اینچه‌برون این روزها در یکی از مهم‌ترین مقاطع توسعه‌ای خود قرار دارد که در آن، هم‌زمان چند پروژه بزرگ زیرساختی، لجستیکی، تجاری و سرمایه‌گذاری در حال پیشرفت است.   🔹جمعی از خبرنگاران و فعالان رسانه‌ای گلستان در بازدیدی میدانی از این منطقه، از نزدیک در جریان آخرین وضعیت طرح‌های عمرانی، مرزی و اقتصادی قرار گرفتند و مدیرعامل منطقه آزاد اینچه‌برون نیز در هر بخش، درباره جزئیات اجرا، میزان پیشرفت و برنامه‌های آینده توضیح داد.  https://irna.ir/xjXFQH @IRNA_1313",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.8862423890422623
     }
   ]
 }
