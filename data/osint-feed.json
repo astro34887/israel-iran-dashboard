@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-29T21:22:18.588Z",
+  "last_updated": "2026-06-29T22:52:59.472Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.27"
+    "global_knn_danger": "0.56",
+    "global_norm_sentiment": "-0.36"
   },
   "timeline": [
-    {
-      "time": "2026-06-24T18:49:13.967Z",
-      "danger": 0.511,
-      "sentiment": -0.187,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.622,
-          "sentiment": -0.533
-        },
-        "OSINTdefender": {
-          "danger": 0.491,
-          "sentiment": -0.467
-        },
-        "irna_1313": {
-          "danger": 0.488,
-          "sentiment": 0.1
-        },
-        "sepah_pasdaran": {
-          "danger": 0.484,
-          "sentiment": 0.167
-        },
-        "almanarnews": {
-          "danger": 0.39,
-          "sentiment": 0.167
-        },
-        "C_Military1": {
-          "danger": 0.464,
-          "sentiment": -0.467
-        },
-        "almayadeen": {
-          "danger": 0.57,
-          "sentiment": -0.533
-        },
-        "QudsN": {
-          "danger": 0.647,
-          "sentiment": -0.167
-        }
-      }
-    },
     {
       "time": "2026-06-24T20:45:29.067Z",
       "danger": 0.465,
@@ -2257,6 +2210,53 @@
           "sentiment": -0.333
         }
       }
+    },
+    {
+      "time": "2026-06-29T22:52:59.472Z",
+      "danger": 0.559,
+      "sentiment": -0.357,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.493,
+          "sentiment": -0.533
+        },
+        "OSINTdefender": {
+          "danger": 0.541,
+          "sentiment": -0.2
+        },
+        "irna_1313": {
+          "danger": 0.709,
+          "sentiment": -0.5
+        },
+        "sepah_pasdaran": {
+          "danger": 0.462,
+          "sentiment": -0.733
+        },
+        "almanarnews": {
+          "danger": 0.279,
+          "sentiment": -0.267
+        },
+        "C_Military1": {
+          "danger": 0.639,
+          "sentiment": -0.3
+        },
+        "almayadeen": {
+          "danger": 0.671,
+          "sentiment": -0.5
+        },
+        "QudsN": {
+          "danger": 0.849,
+          "sentiment": -0.4
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2275,8 +2275,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.49639959465845507
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.4926488833119464
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2287,20 +2287,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.5779930109264954
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.7087870545596787
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.42925452660515256
+      "raw_sentiment": -0.7333333333333333,
+      "knn_danger_metric": 0.4620113641154254
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.3742350513871286
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.2792191008660475
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2311,14 +2311,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.6130148593955919
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.671446297432049
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.8252302592299672
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.8494744987436845
     }
   },
   "semantic_logs": [
@@ -2379,31 +2379,17 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية جيت شرق مدينة قلقيلية.",
+      "text": "فلسطين المحتلة: مراسل الميادين: إطلاق نار من آليات الاحتلال شرقي مدينة غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "تقرير لقناة العربي عن الصحفي مجاهد بني مفلح، قصة فلسطيني غيّرت سجون الاحتلال ملامحه، لكنها لم تُفقده كلمته.",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوة راجلة تابعة لجيش الاحتلال تداهم منزلاً في حي الجابريات بمحيط مخيم جنين",
+      "text": "فلسطين المحتلة: مراسل الميادين: &quot;جيش&quot; الاحتلال ينفذ عملية نسف شرقي مدينة خان يونس جنوبي قطاع غزة",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم المنطقة الشرقية بمدينة نابلس من حاجز عورتا.",
-      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2425,6 +2411,20 @@
       "channel": "Arab_Axis",
       "text": "شعب يلفظ الخونة في كل أحواله  في حزنه وفرحه وقوّته وضعفه..  إليكم رسائل أهالي غزة لمليشيات الاحتلال في أفراحهم:",
       "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تداهم عددًا من المنازل خلال اقتحام منطقة العروج في بلدة جناتة، شرق بيت لحم.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تطلق قنابل إنارة في أجواء محيط بلدة فقوعة شرق مدينة جنين.",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
   ]
