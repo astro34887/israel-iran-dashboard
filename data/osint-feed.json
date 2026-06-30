@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-30T11:42:34.602Z",
+  "last_updated": "2026-06-30T14:10:27.806Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.57",
-    "global_norm_sentiment": "-0.06"
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.09"
   },
   "timeline": [
-    {
-      "time": "2026-06-25T08:55:05.601Z",
-      "danger": 0.506,
-      "sentiment": -0.231,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.537,
-          "sentiment": -0.533
-        },
-        "OSINTdefender": {
-          "danger": 0.503,
-          "sentiment": -0.567
-        },
-        "irna_1313": {
-          "danger": 0.381,
-          "sentiment": 0.5
-        },
-        "sepah_pasdaran": {
-          "danger": 0.349,
-          "sentiment": -0.067
-        },
-        "almanarnews": {
-          "danger": 0.48,
-          "sentiment": -0.2
-        },
-        "C_Military1": {
-          "danger": 0.669,
-          "sentiment": -0.667
-        },
-        "almayadeen": {
-          "danger": 0.589,
-          "sentiment": -0.567
-        },
-        "QudsN": {
-          "danger": 0.603,
-          "sentiment": -0.077
-        }
-      }
-    },
     {
       "time": "2026-06-25T11:37:49.589Z",
       "danger": 0.501,
@@ -2257,6 +2210,53 @@
           "sentiment": 0.083
         }
       }
+    },
+    {
+      "time": "2026-06-30T14:10:27.806Z",
+      "danger": 0.519,
+      "sentiment": -0.093,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.574,
+          "sentiment": -0.267
+        },
+        "OSINTdefender": {
+          "danger": 0.541,
+          "sentiment": -0.233
+        },
+        "irna_1313": {
+          "danger": 0.613,
+          "sentiment": 0.067
+        },
+        "sepah_pasdaran": {
+          "danger": 0.381,
+          "sentiment": -0.067
+        },
+        "almanarnews": {
+          "danger": 0.236,
+          "sentiment": 0.333
+        },
+        "C_Military1": {
+          "danger": 0.669,
+          "sentiment": -0.3
+        },
+        "almayadeen": {
+          "danger": 0.564,
+          "sentiment": -0.033
+        },
+        "QudsN": {
+          "danger": 0.659,
+          "sentiment": -0.267
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2276,7 +2276,7 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.5674590059301686
+      "knn_danger_metric": 0.574052367462702
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2287,20 +2287,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.43333333333333335,
-      "knn_danger_metric": 0.43937329606794756
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.6133863193531447
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.3664741327430571
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.3814483219494056
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.6816188151034235
+      "raw_sentiment": 0.3333333333333333,
+      "knn_danger_metric": 0.23560154890865975
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2311,14 +2311,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.6616104580344561
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.5642313884068486
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 12,
-      "raw_sentiment": 0.08333333333333333,
-      "knn_danger_metric": 0.8371023404775356
+      "num_messages": 15,
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.6590841121691151
     }
   },
   "semantic_logs": [
@@ -2332,57 +2332,22 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "צה&quot;ל ושב&quot;כ חיסלו מחבל גא&quot;פ שלקח חלק בהחזקת חטופים ופיקד על מחבלים בטב�� ה-7 באוקטובר  צה&quot;ל ושב&quot;כ תקפו בדרום רצועת עזה שלשום (א&#39;), וחיסלו את המחבל טלאל ג&#39;אבר מחמד עבד אלעאל, שמילא שורת תפקידים בארגון הטרור גא&quot;פ.  אלעאל פיקד על חוליית מחבלים שפשטה לשטח מדינת…",
+      "text": "צה&quot;ל ושב&quot;כ חיסלו מחבל גא&quot;פ שלקח חלק בהחזקת חטופים ופיקד על מחבלים בטבח ה-7 באוקטובר  צה&quot;ל ושב&quot;כ תקפו בדרום רצועת עזה שלשום (א&#39;), וחיסלו את המחבל טלאל ג&#39;אבר מחמד עבד אלעאל, שמילא שורת תפקידים בארגון הטרור גא&quot;פ.  אלעאל פיקד על חוליית מחבלים שפשטה לשטח מדינת…",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️این خبر را برسانید به ایرانی‌ ها  شانه‌ آماده کنید ، داغ پدر می‌آید   #باید_برخاست &lrm;✅ @sepah_pasdaran",
+      "text": "&rlm; ️ما به شهدایمان نمی‌گوییم خداحافظ، می‌گوییم به امید دیدار، به امید دیداری همراه با پیروزی خون بر شمشیر و به امید دیدار در میدان‌های جهاد و شهادت  #باید_برخاست &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️انفجار مهیب خودرو در حیفا  &rlm;🔹 یک خودرو در شهر حیفا با صدای انفجاری بسیار قدرتمند منفجر شد که موج آن در سراسر منطقه «کریوت» احساس گردید. &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "تظاهرة لأساتذة وطلاب التعليم الرسمي امام وزارة التربية للمطالبة بافادات غير مشروطة لجميع طلاب الشهادات الرسمية",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "وزير الصحة جال متفقدا مستشفيات صور لمتابعة تداعيات الاعتداءات الإسرائيلية : أي مشروع لإعادة اعمار المستشفيات هو ضمن سلم الاولويات https://almanar.com.lb/article/988587/?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 إنفوغراف: سيناريوهات محتملة في مقاربة الإدارة الأمريكية للملف الإيراني https://almanar.com.lb/article/988607/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "تظاهرة لطلاب وأساتذة التعليم الرسمي أمام وزارة التربية للمطالبة بإفادات غير مشروطة لجميع طلاب الشهادات الرسمية",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 الحرس الثوري الإيراني يعلن تفكيك خلية إرهابية مسلحة https://almanar.com.lb/article/988552/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: بقائي: أعيد التجديد والتأكيد أنه لا يوجد هناك أي اجتماع مع المسؤولين الأميركيين في الأيام المقبلة",
-      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2400,32 +2365,67 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "وقفة لأهالي الأسرى في مدينة نابلس، دعما وإسنادا لأبنائهم في ظل الظروف المأساوية التي يعيشونها في سجون الاحتلال",
-      "absolute_sentiment": 0.5,
+      "text": "إيران: بقائي: نحن لا نترك أي فعل من دون ردة فعل ومن هنا جاءت ردودنا على كل الاعتداءات الأميركية",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "اقتحام مستمر من قوات الاحتلا لمدينة يطا جنوب الخليل منذ ساعات الصباح",
-      "absolute_sentiment": 0.5,
+      "text": "حارس مرمى نادي خدمات خانيونس، الشهيد &quot;سليم الأشقر&quot; الذي ارتقى برصاص الاحتلال في بلدة القرارة، يوم أمس.",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم معهد قلنديا التابع لوكالة الأونروا شمال القدس المحتلة.",
+      "text": "الاحتلال يواصل تهويده للمسجد الإبراهيمي في الخليل.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸 باقری و اکبرزاده مسئولان جدید کمیته داوران تکواندو  🔹با حکم رئیس فدراسیون تکواندو مسئولان کمیته داوران در هر دو بخش بانوان و آقایان انتخاب و معرفی شدند.   🔹ایمان اکبرزاده به عنوان رئیس کیمته داوران در بخش مردان انتخاب شد و  معصومه باقری  مسئولیت کمیته داوران در بخش بانوان  را برعهده گرفت.  https://irna.ir/xjXGyj @IRNA_1313",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.996789802853002
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صحيفة معاريف العبرية - آفي أشكينازي: يبدو أن حكومة &quot;إسرائيل&quot; لا ترى مشكلة في أن تمتلئ المقابر العسكرية بأجيال من القتلى.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9961486516080662
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 15 العبرية: في اليمن يعملون في الفترة الأخيرة على تحسين مدى ودقة صواريخهم عبر إقامة عدة تجارب واختبارات.  #الإعلام_الحربي",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9957890513813449
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🎥انفجار یک خودرو در بندر اشغالی حیفا  🔹منابع عبری زبان گزارش دادند در اثر انفجار این خودرو، یک مرد کشته شد.  https://irna.ir/xjXGzM @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9904567943036928
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸«دستورالعمل ناظر بر نحوه فروش کارت ریالی گردشگری» ابلاغ شد  🔹بانک مرکزی با هدف پوشش حداکثری نیازهای مالی گردشگران خارجی و رفع موانع ارزی، جدیدترین اصلاحات دستورالعمل کارت ریالی گردشگری را به شبکه بانکی و صرافی‌ها ابلاغ کرد.   🔹 نرخ عملیات خرید ارز از گردشگران خارجی براساس نرخ روز توافقی صرفاً از محل خرید اسکناس «یورو یا دلار» یا حواله وارده ارزی به ارزهای مذکور، تعیین می شود و صرافی ها نقش فعالانه تری در ارائه خدمات به گردشگران خواهند داشت.  https://irna.ir/xjXGzs @IRNA_1313",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9900416935917431
+    },
+    {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "وقفة في مدينة نابلس، دعما وإسنادا للأسرى في سجون الاحتلال",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
+      "text": "عاجل | قوات الاحتلال تقتحم مدينة قلقيلية.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9596045227592704
     }
   ]
 }
