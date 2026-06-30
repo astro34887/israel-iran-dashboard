@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-06-29T22:52:59.472Z",
+  "last_updated": "2026-06-30T00:00:09.499Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.56",
-    "global_norm_sentiment": "-0.36"
+    "global_knn_danger": "0.55",
+    "global_norm_sentiment": "-0.33"
   },
   "timeline": [
-    {
-      "time": "2026-06-24T20:45:29.067Z",
-      "danger": 0.465,
-      "sentiment": -0.253,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.672,
-          "sentiment": -0.467
-        },
-        "OSINTdefender": {
-          "danger": 0.491,
-          "sentiment": -0.467
-        },
-        "irna_1313": {
-          "danger": 0.458,
-          "sentiment": 0.367
-        },
-        "sepah_pasdaran": {
-          "danger": 0.237,
-          "sentiment": -0.1
-        },
-        "almanarnews": {
-          "danger": 0.333,
-          "sentiment": -0.167
-        },
-        "C_Military1": {
-          "danger": 0.495,
-          "sentiment": -0.467
-        },
-        "almayadeen": {
-          "danger": 0.32,
-          "sentiment": -0.5
-        },
-        "QudsN": {
-          "danger": 0.696,
-          "sentiment": -0.6
-        }
-      }
-    },
     {
       "time": "2026-06-24T22:13:40.261Z",
       "danger": 0.507,
@@ -2257,6 +2210,53 @@
           "sentiment": -0.4
         }
       }
+    },
+    {
+      "time": "2026-06-30T00:00:09.499Z",
+      "danger": 0.548,
+      "sentiment": -0.33,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.493,
+          "sentiment": -0.533
+        },
+        "OSINTdefender": {
+          "danger": 0.541,
+          "sentiment": -0.2
+        },
+        "irna_1313": {
+          "danger": 0.637,
+          "sentiment": 0.033
+        },
+        "sepah_pasdaran": {
+          "danger": 0.454,
+          "sentiment": -0.867
+        },
+        "almanarnews": {
+          "danger": 0.277,
+          "sentiment": -0.4
+        },
+        "C_Military1": {
+          "danger": 0.639,
+          "sentiment": -0.3
+        },
+        "almayadeen": {
+          "danger": 0.671,
+          "sentiment": -0.5
+        },
+        "QudsN": {
+          "danger": 0.823,
+          "sentiment": -0.4
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2287,20 +2287,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.7087870545596787
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.6368939365386177
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.7333333333333333,
-      "knn_danger_metric": 0.4620113641154254
+      "raw_sentiment": -0.8666666666666667,
+      "knn_danger_metric": 0.45430342529019574
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.2792191008660475
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.2766347656245046
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2318,7 +2318,7 @@
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.8494744987436845
+      "knn_danger_metric": 0.8225345450123008
     }
   },
   "semantic_logs": [
@@ -2347,6 +2347,13 @@
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
       "text": "&rlm; ️تصاویری از اصابت موشک ها در پایگاه نواتیم/ عملیات وعده صادق ۲ &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️دو پاسدار بومی پاوه در حمله تروریستی به شهادت رسیدند  در پی حمله تروریستی به منزل دو تن از نیروهای بومی سپاه در شهرستان پاوه،  دو پاسدار به شهادت رسیدند و دو نفر دیگر نیز مجروح شدند. &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2395,20 +2402,6 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال المنطقة الشرقية بمدينة نابلس",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم مخيم بلاطة شرق نابلس",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
       "text": "شعب يلفظ الخونة في كل أحواله  في حزنه وفرحه وقوّته وضعفه..  إليكم رسائل أهالي غزة لمليشيات الاحتلال في أفراحهم:",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
@@ -2425,6 +2418,13 @@
       "channel": "Arab_Axis",
       "text": "قوات الاحتلال تطلق قنابل إنارة في أجواء محيط بلدة فقوعة شرق مدينة جنين.",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تقتحم بلدة حلحول، شمال الخليل.",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
   ]
