@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-01T21:24:19.590Z",
+  "last_updated": "2026-07-01T23:10:18.913Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.52",
+    "global_knn_danger": "0.55",
     "global_norm_sentiment": "-0.31"
   },
   "timeline": [
-    {
-      "time": "2026-06-26T18:28:43.398Z",
-      "danger": 0.483,
-      "sentiment": -0.213,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.401,
-          "sentiment": -0.633
-        },
-        "OSINTdefender": {
-          "danger": 0.501,
-          "sentiment": -0.5
-        },
-        "irna_1313": {
-          "danger": 0.507,
-          "sentiment": -0.036
-        },
-        "sepah_pasdaran": {
-          "danger": 0.362,
-          "sentiment": -0.333
-        },
-        "almanarnews": {
-          "danger": 0.404,
-          "sentiment": -0.1
-        },
-        "C_Military1": {
-          "danger": 0.704,
-          "sentiment": -0.167
-        },
-        "almayadeen": {
-          "danger": 0.572,
-          "sentiment": -0.267
-        },
-        "QudsN": {
-          "danger": 0.426,
-          "sentiment": 0.036
-        }
-      }
-    },
     {
       "time": "2026-06-26T20:44:18.945Z",
       "danger": 0.507,
@@ -2257,6 +2210,53 @@
           "sentiment": -0.333
         }
       }
+    },
+    {
+      "time": "2026-07-01T23:10:18.913Z",
+      "danger": 0.553,
+      "sentiment": -0.31,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.373,
+          "sentiment": -0.667
+        },
+        "OSINTdefender": {
+          "danger": 0.503,
+          "sentiment": -0.467
+        },
+        "irna_1313": {
+          "danger": 0.455,
+          "sentiment": -0.5
+        },
+        "sepah_pasdaran": {
+          "danger": 0.538,
+          "sentiment": -0.567
+        },
+        "almanarnews": {
+          "danger": 0.489,
+          "sentiment": -0.033
+        },
+        "C_Military1": {
+          "danger": 0.785,
+          "sentiment": -0.433
+        },
+        "almayadeen": {
+          "danger": 0.554,
+          "sentiment": -0.1
+        },
+        "QudsN": {
+          "danger": 0.884,
+          "sentiment": -0.2
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2275,7 +2275,7 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.7,
+      "raw_sentiment": -0.6666666666666666,
       "knn_danger_metric": 0.3730218507229019
     },
     "OSINTdefender": {
@@ -2287,20 +2287,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.5305950021897398
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.4552243511833195
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.4286340511433611
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.5383368438866213
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.4576583045490178
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.4886900165955796
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2311,14 +2311,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.590504384054043
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.5538806827732226
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.6063174593661904
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.8843982792155314
     }
   },
   "semantic_logs": [
@@ -2339,43 +2339,85 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: قوات الاحتلال تنفذ تفجيراً في بلدة عيناثا في قضاء بنت جبيل",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "إيران: شمس الواعظين للميادين: الأميركيون أرادوا عقد لقاء مع الإيرانيين لإسقاط رمزية حدث وداع الشهيد السيد خامنئي",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "حرائق مستمرة في بلدة &quot;بيت ياحون&quot; جنوب لبنان؛ جرّاء عملية تفجير نفذها جنود الاحتلال، مساء اليوم.",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "الاحتلال يهدم &quot;بركسات زراعية&quot; غرب بلدة &quot;كفر الديك&quot; غرب سلفيت، مساء اليوم.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تطلق قنابل إنارة في أجواء قرية عانين غرب جنين.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم منطقة &quot;راس شحادة&quot; في بلدة عناتا شمال شرق القدس المحتلة",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: مدفعية الاحتلال تستهدف شمالي وشرقي مخيم البريج وسط القطاع",
       "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "متابعة | قوات الاحتلال تقتحم عدة أحياء في مدينة طولكرم بالضفة الغربية",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة كفر قليل جنوب نابلس",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة ترمسعيا وقرية أبو فلاح، شمال شرق رام الله.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "متابعة | قوات الاحتلال تداهم منزلاً خلال اقتحام بلدة كفر قليل جنوب نابلس",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تعتقل الشاب سامح عبد اللطيف أبو عليا عقب مداهمة منزله في قرية المغير شمال شرق رام الله.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: جيش الاحتلال يغلق مدخل قرية المغير شمال شرق رام الله.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام قوات الاحتلال مدينة نابلس",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم حي &quot;أم الشرايط&quot; بمدينة البيرة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "متابعة | قوات الاحتلال تقتحم منطقة دوار البساتين، في مدينة نابلس.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة &quot;بيت أمر&quot; شمال الخليل.",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2384,48 +2426,6 @@
       "text": "#إعلام_العدو   صحيفة إسرائيل اليوم العبرية - يوآف ليمور: ألف يومٍ من الحربٍ، بدأت كحربٍ لا خيارَ فيها، ثمَّ تحوَّلت إلى حربٍ مليئةٍ بعلاماتِ الاستفهام، تتزايد مع مرور الوقت. دخلت &quot;إسرائيل&quot; هذه الحرب من حفرةٍ عميقةٍ حفرتها لنفسها بإهمالها وخداعها. ظنَّت أنها قادرةٌ على كلِّ شيء، فهُزمت على يدِ أضعفِ أعدائها. كلُّ من يُحاول إلقاء اللوم على عاملٍ واحدٍ في هذا الفشل مُخطئٌ ومُضلِّل: لقد انهار النظامُ بأكمله - من قمته إلى قاعدته. بعضُهم في المؤسسةِ العسكرية تحمَّلوا المسؤوليةَ واستقالوا؛ وآخرون في المؤسسةِ السياسية يتهرَّبون من مسؤوليتهم حتى اليوم، ويرفضون حتى السماحَ بإجراءِ تحقيقٍ نزيهٍ في الأمر.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.999074064163183
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة إسرائيل اليوم العبرية - يوآف ليمور: ازدادت &quot;إسرائيل&quot; جرأةً بعد ألف يوم من إنجازاتها العسكرية، وظنت أنها قادرة على كل شيء. ظنت أن المزيد من الضغط، وهجومًا آخر، وإبادة أخرى، كفيلة بتحقيق النتيجة المرجوة. هذه الاستراتيجية القائمة على الأمل جيدة للعلاقات العامة والاحتياجات السياسية، لكنها كارثية لإدارة شؤون الدولة. ونتيجة لذلك، وجدت &quot;إسرائيل&quot; نفسها في حرب لا تنتهي، مع تضاؤل اثنين من مواردها الرئيسية - الردع والشرعية الدولية - بشكل مثير للقلق.  #الإعلام_الحربي",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 0.9986256955089235
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 13 العبرية: تشير استطلاعات الرأي إلى عدم إمكانية أي من الأطراف السياسية في &quot;إسرائيل&quot; من الحصول على الأغلبية المطلوبة لتشكيل حكومة في انتخابات الكنيست المقبلة.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9983660049992396
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   رئيس مجلس الشورى الإيراني محمد باقر قاليباف: لقد تعهدت الولايات المتحدة في مذكرة التفاهم بأن تنتهي الحرب في لبنان، وأن تكون للبنان السيادة على أراضيه، ونحن نسعى إلى التنفيذ الحاسم لهذا الأمر.  #الإعلام_الحربي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9971738898694222
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: الشرطة وجهاز الشاباك اعتقلا مواطناً أمريكياً يبلغ من العمر 20 عاماً يشتبه في تجسسه لصالح إيران.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9961486516080663
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة معاريف العبرية - آفي أشكينازي: يبدو أن حكومة &quot;إسرائيل&quot; لا ترى مشكلة في أن تمتلئ المقابر العسكرية بأجيال من القتلى.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9961486516080662
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 13 العبرية: التقدير في الجيش الإسرائيلي: حماس تستعد على المستوى البشري واللوجستي للمعركة القادمة في قطاع غزة.  #الإعلام_الحربي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9958174570708112
     }
   ]
 }
