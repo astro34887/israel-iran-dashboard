@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-01T23:10:18.913Z",
+  "last_updated": "2026-07-02T02:51:53.932Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.55",
-    "global_norm_sentiment": "-0.31"
+    "global_knn_danger": "0.56",
+    "global_norm_sentiment": "-0.32"
   },
   "timeline": [
-    {
-      "time": "2026-06-26T20:44:18.945Z",
-      "danger": 0.507,
-      "sentiment": -0.233,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.416,
-          "sentiment": -0.8
-        },
-        "OSINTdefender": {
-          "danger": 0.478,
-          "sentiment": -0.367
-        },
-        "irna_1313": {
-          "danger": 0.693,
-          "sentiment": -0.267
-        },
-        "sepah_pasdaran": {
-          "danger": 0.297,
-          "sentiment": -0.067
-        },
-        "almanarnews": {
-          "danger": 0.366,
-          "sentiment": 0.167
-        },
-        "C_Military1": {
-          "danger": 0.704,
-          "sentiment": -0.167
-        },
-        "almayadeen": {
-          "danger": 0.739,
-          "sentiment": -0.367
-        },
-        "QudsN": {
-          "danger": 0.426,
-          "sentiment": -0.333
-        }
-      }
-    },
     {
       "time": "2026-06-26T22:08:57.683Z",
       "danger": 0.515,
@@ -2257,6 +2210,53 @@
           "sentiment": -0.2
         }
       }
+    },
+    {
+      "time": "2026-07-02T02:51:53.932Z",
+      "danger": 0.561,
+      "sentiment": -0.318,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.373,
+          "sentiment": -0.667
+        },
+        "OSINTdefender": {
+          "danger": 0.503,
+          "sentiment": -0.467
+        },
+        "irna_1313": {
+          "danger": 0.566,
+          "sentiment": -0.385
+        },
+        "sepah_pasdaran": {
+          "danger": 0.539,
+          "sentiment": -0.733
+        },
+        "almanarnews": {
+          "danger": 0.457,
+          "sentiment": -0.133
+        },
+        "C_Military1": {
+          "danger": 0.785,
+          "sentiment": -0.433
+        },
+        "almayadeen": {
+          "danger": 0.554,
+          "sentiment": -0.1
+        },
+        "QudsN": {
+          "danger": 0.883,
+          "sentiment": -0.133
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2286,21 +2286,21 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.4552243511833195
+      "num_messages": 13,
+      "raw_sentiment": -0.38461538461538464,
+      "knn_danger_metric": 0.5660326993623342
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.5383368438866213
+      "raw_sentiment": -0.7333333333333333,
+      "knn_danger_metric": 0.5390945331411806
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.4886900165955796
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.4569884762538461
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2317,8 +2317,8 @@
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.8843982792155314
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.8830196090573963
     }
   },
   "semantic_logs": [
@@ -2330,9 +2330,23 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️شنیده شدن صدای چندین انفجار در کی‌یف  خبرگزاری رویترز به نقل از شاهدان عینی از شنیده شدن صدای چندین رشته انفجار در کی‌یف، پایتخت اوکراین خبر داد. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
       "text": "الغارة من الطيران المسيّر الاسرائيلي المعادي التي استهدفت بلدة النبطية الفوقا عصر اليوم",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 البنتاغون يعلن شراء نظام &quot;لاصطياد&quot; المسيرات بقيمة 500 مليون دولار https://almanar.com.lb/article/991837/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2353,79 +2367,65 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "متابعة | قوات الاحتلال تقتحم عدة أحياء في مدينة طولكرم بالضفة الغربية",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة كفر قليل جنوب نابلس",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة ترمسعيا وقرية أبو فلاح، شمال شرق رام الله.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "متابعة | قوات الاحتلال تداهم منزلاً خلال اقتحام بلدة كفر قليل جنوب نابلس",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تعتقل الشاب سامح عبد اللطيف أبو عليا عقب مداهمة منزله في قرية المغير شمال شرق رام الله.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: جيش الاحتلال يغلق مدخل قرية المغير شمال شرق رام الله.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال مدينة نابلس",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم حي &quot;أم الشرايط&quot; بمدينة البيرة.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "متابعة | قوات الاحتلال تقتحم منطقة دوار البساتين، في مدينة نابلس.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
       "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة &quot;بيت أمر&quot; شمال الخليل.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة إسرائيل اليوم العبرية - يوآف ليمور: ألف يومٍ من الحربٍ، بدأت كحربٍ لا خيارَ فيها، ثمَّ تحوَّلت إلى حربٍ مليئةٍ بعلاماتِ الاستفهام، تتزايد مع مرور الوقت. دخلت &quot;إسرائيل&quot; هذه الحرب من حفرةٍ عميقةٍ حفرتها لنفسها بإهمالها وخداعها. ظنَّت أنها قادرةٌ على كلِّ شيء، فهُزمت على يدِ أضعفِ أعدائها. كلُّ من يُحاول إلقاء اللوم على عاملٍ واحدٍ في هذا الفشل مُخطئٌ ومُضلِّل: لقد انهار النظامُ بأكمله - من قمته إلى قاعدته. بعضُهم في المؤسسةِ العسكرية تحمَّلوا المسؤوليةَ واستقالوا؛ وآخرون في المؤسسةِ السياسية يتهرَّبون من مسؤوليتهم حتى اليوم، ويرفضون حتى السماحَ بإجراءِ تحقيقٍ نزيهٍ في الأمر.  #الإعلام_الحربي",
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تعتقل الشاب غالب خريوش خلال اقتحام منطقة &quot;البساتين&quot; وسط مدينة نابلس.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.999074064163183
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تعتقل والد الشهيد قيس شجاعية عقب مداهمة منزله في قرية دير جرير شرق رام الله",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تداهم عدة منازل خلال اقتحام بلدة &quot;بيت أمر&quot; شمال الخليل.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام قوات الاحتلال شارع الأرصاد في الجبل الشمالي بمدينة نابلس",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة ميثلون جنوب مدينة جنين.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام قوات الاحتلال بلدة كفر عقب شمال القدس المحتلة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "متابعة | قوات الاحتلال تداهم منزلاً خلال اقتحام بلدة ميثلون جنوب مدينة جنين.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم مدينة الظاهرية جنوب الخليل",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
     }
   ]
 }
