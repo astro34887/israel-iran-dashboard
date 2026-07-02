@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-02T19:18:42.804Z",
+  "last_updated": "2026-07-02T21:00:44.400Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.53",
+    "global_knn_danger": "0.56",
     "global_norm_sentiment": "-0.28"
   },
   "timeline": [
-    {
-      "time": "2026-06-27T14:26:30.762Z",
-      "danger": 0.506,
-      "sentiment": -0.243,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.512,
-          "sentiment": -0.467
-        },
-        "OSINTdefender": {
-          "danger": 0.52,
-          "sentiment": -0.367
-        },
-        "irna_1313": {
-          "danger": 0.424,
-          "sentiment": -0.533
-        },
-        "sepah_pasdaran": {
-          "danger": 0.286,
-          "sentiment": 0
-        },
-        "almanarnews": {
-          "danger": 0.466,
-          "sentiment": -0.067
-        },
-        "C_Military1": {
-          "danger": 0.62,
-          "sentiment": -0.467
-        },
-        "almayadeen": {
-          "danger": 0.64,
-          "sentiment": -0.033
-        },
-        "QudsN": {
-          "danger": 0.641,
-          "sentiment": -0.333
-        }
-      }
-    },
     {
       "time": "2026-06-27T16:01:46.320Z",
       "danger": 0.497,
@@ -2257,6 +2210,53 @@
           "sentiment": -0.4
         }
       }
+    },
+    {
+      "time": "2026-07-02T21:00:44.400Z",
+      "danger": 0.562,
+      "sentiment": -0.275,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.665,
+          "sentiment": -0.533
+        },
+        "OSINTdefender": {
+          "danger": 0.476,
+          "sentiment": -0.567
+        },
+        "irna_1313": {
+          "danger": 0.613,
+          "sentiment": -0.4
+        },
+        "sepah_pasdaran": {
+          "danger": 0.428,
+          "sentiment": -0.25
+        },
+        "almanarnews": {
+          "danger": 0.272,
+          "sentiment": 0.233
+        },
+        "C_Military1": {
+          "danger": 0.804,
+          "sentiment": -0.467
+        },
+        "almayadeen": {
+          "danger": 0.74,
+          "sentiment": -0.3
+        },
+        "QudsN": {
+          "danger": 0.667,
+          "sentiment": -0.333
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2275,8 +2275,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.548062936078143
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.6649727855981865
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2287,20 +2287,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.4060018925403198
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.6131046500389118
     },
     "sepah_pasdaran": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.30415709399637175
+      "num_messages": 12,
+      "raw_sentiment": -0.25,
+      "knn_danger_metric": 0.42770313514461256
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.43643082268485656
+      "raw_sentiment": 0.23333333333333334,
+      "knn_danger_metric": 0.2722869879518434
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2311,14 +2311,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.7670747341122902
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.7404808797854265
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.6188312405399484
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.6670778224855075
     }
   },
   "semantic_logs": [
@@ -2330,38 +2330,38 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "גולשים עזתיים:  زفة كلب في المواصي 🐕  أهلا بكم في كوكب #غزة ☺️  תרגום:   תהלוכת חתונה של כלב במואצי (ח&#39;אן יונס - א&quot;ע) . 🐕  ברוכים הבאים לכוכב הלכת עזה. ☺️  תגובה אחת",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "אוקראינה ממשיכה לתקוף בתי זיקוק בר��סיה.   אוקראינה תקפה אמש את אחד מבתי הזיקוק הגדולים ברוסיה הנמצא במחוז ניז&#39;ני נובגורוד.  בית זיקוק זה מעבד כ - 17 מיליון טונות של נפט גולמי בשנה.  התיעוד מהבוקר.  תגובה אחת",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️حضور سردار احمد وحیدی در مراسم وداع با پیکر قائد شهید؛ پنجشنبه شب، در جوار محل شهادت حضرت آیت‌الله خامنه‌ای &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "📹&nbsp;تقرير مصور | وزير الخارجية السوري من بيروت: سوريا ترفض الاعتداءات الإسرائيلية https://almanar.com.lb/article/993567/?s=tg",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#إعلام_العدو   القناة 12 العبرية: البيانات التي قدمها مركز تل حاي الإقليمي للمعرفة هذا الأسبوع يجب أن تدق ناقوس الخطر في القدس: 85% من شباب الجليل غادروا المنطقة خلال الحرب، وأكثر من نصفهم أبلغوا عن تضرر قدرتهم على التحمل النفسي. تضررت 84% من الشركات في المنطقة…",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: منصة &quot;حدشوت للوتسنزورا&quot;: حدث خاضع للرقابة العسكرية في جنوب لبنان",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: &quot;جيش&quot; الاحتلال الإسرائيلي نفذ تفجيراً في بلدة كونين",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي يستهدف شرقي مخيم البريج وسط قطاع غزة",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: الرئيس مسعود بزشكيان: سندافع عن الوطن والنظام وقيادتنا حتى آخر رمق",
-      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2393,39 +2393,39 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تفرج عن الأسير الشيخ عصام صباح، من مدينة طولكرم.",
+      "text": "وسائل إعلام إسرائيلية: القناة الـ&quot;12&quot;: بعد 1000 يوم على 7 أكتوبر: المسؤولون عن الإخفاق وعدونا بـ&quot;نصر مطلق&quot; لكننا نعيش فشلاً مطلقاً في كل جبهة فُتحت حتى الآن",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   موقع والاه العبري:  بيانات جرحى الحرب منذ السابع من اكتوبر 2023:  نحو 17 ألف مصاب يعانون من إصابات نفسية، بينهم 7,700 مصاب يعانون أيضًا من إصابات جسدية.  نحو 9 آلاف مصاب يتلقون العلاج بسبب إصابات جسدية فقط، بينهم 97 مصابًا تعرضوا لبتر أحد الأطراف.  62% من الجرحى هم من قوات الاحتياط. 21% من المجندين في الخدمة الإلزامية. 10% من أفراد الشرطة الإسرائيلية. 7% من العسكريين في الخدمة الدائمة.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9985393258953547
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: غارة إسرائيلية تستهدف بلدة برعشيت في قضاء بنت جبيل جنوبي البلاد",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 12 العبرية: البيانات التي قدمها مركز تل حاي الإقليمي للمعرفة هذا الأسبوع يجب أن تدق ناقوس الخطر في القدس: 85% من شباب الجليل غادروا المنطقة خلال الحرب، وأكثر من نصفهم أبلغوا عن تضرر قدرتهم على التحمل النفسي. تضررت 84% من الشركات في المنطقة من حيث حجم مبيعاتها السنوية، وفكر ما يقرب من نصفها في الإغلاق أو الانتقال إلى مكان آخر. كما تعاني الزراعة، عماد الجليل، من ضربة قاسية.  #الإعلام_الحربي",
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: 3 شهداء ومصابون جراء قصف خيمة قرب شارع 5 في مواصي مدينة خان يونس جنوبي قطاع غزة",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9973354161980501
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة معاريف العبرية - بن كاسبيت: لا شك في أن نتنياهو، عندما وعد بـ&quot;النصر الكامل&quot; في خطاباته وتصريحاته وإعلاناته العديدة، كان يعني نصره الشخصي الكامل، وبقاءه السياسي، واستمراره في رئاسة الوزراء. نتنياهو أدرك استحالة تحقيق &quot;النصر الكامل&quot; على حماس، واستحالة تدميرها أو القضاء عليها، واستحالة نزع سلاح حزب الله.  #الإعلام_الحربي",
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "المستوطنون يعربدون وجنود الاحتلال يعتقلون أصحاب الأرض..  - مشاهد من &quot;خلة النتش&quot; جنوب الخليل.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9972021172607134
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة معاريف العبرية - بن كاسبيت: كذب نتنياهو أيضًا هذا الأسبوع عندما أوضح، مرة أخرى، أن &quot;لديهم بالفعل قنابل نووية&quot;. وفي نفس السياق، قال إن &quot; إيران لن تمتلك أسلحة نووية طالما أنا رئيس الوزراء&quot;. حسنًا، إذا كانت لديهم قنابل نووية، فكيف يتوافق ذلك مع قوله &quot;لن يمتلكوها&quot;؟  #الإعلام_الحربي",
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة بيت ريما شمال غرب رام الله",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9971549721199922
+      "semantic_danger_knn": 1
     }
   ]
 }
