@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-02T06:38:24.920Z",
+  "last_updated": "2026-07-02T09:59:00.118Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.17"
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.20"
   },
   "timeline": [
-    {
-      "time": "2026-06-27T00:02:49.608Z",
-      "danger": 0.537,
-      "sentiment": -0.353,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.352,
-          "sentiment": -0.5
-        },
-        "OSINTdefender": {
-          "danger": 0.478,
-          "sentiment": -0.367
-        },
-        "irna_1313": {
-          "danger": 0.57,
-          "sentiment": -0.433
-        },
-        "sepah_pasdaran": {
-          "danger": 0.467,
-          "sentiment": -0.467
-        },
-        "almanarnews": {
-          "danger": 0.431,
-          "sentiment": -0.167
-        },
-        "C_Military1": {
-          "danger": 0.728,
-          "sentiment": -0.167
-        },
-        "almayadeen": {
-          "danger": 0.658,
-          "sentiment": -0.767
-        },
-        "QudsN": {
-          "danger": 0.74,
-          "sentiment": -0.533
-        }
-      }
-    },
     {
       "time": "2026-06-27T04:50:18.235Z",
       "danger": 0.458,
@@ -2257,6 +2210,53 @@
           "sentiment": 0.222
         }
       }
+    },
+    {
+      "time": "2026-07-02T09:59:00.118Z",
+      "danger": 0.524,
+      "sentiment": -0.201,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.486,
+          "sentiment": -0.333
+        },
+        "OSINTdefender": {
+          "danger": 0.503,
+          "sentiment": -0.467
+        },
+        "irna_1313": {
+          "danger": 0.412,
+          "sentiment": 0.091
+        },
+        "sepah_pasdaran": {
+          "danger": 0.382,
+          "sentiment": 0.5
+        },
+        "almanarnews": {
+          "danger": 0.312,
+          "sentiment": -0.133
+        },
+        "C_Military1": {
+          "danger": 0.845,
+          "sentiment": -0.833
+        },
+        "almayadeen": {
+          "danger": 0.701,
+          "sentiment": -0.2
+        },
+        "QudsN": {
+          "danger": 0.645,
+          "sentiment": -0.5
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2274,9 +2274,9 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 12,
-      "raw_sentiment": -0.25,
-      "knn_danger_metric": 0.5517894105432614
+      "num_messages": 15,
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.48581818457550974
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2286,39 +2286,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.4417668533629514
+      "num_messages": 11,
+      "raw_sentiment": 0.09090909090909091,
+      "knn_danger_metric": 0.4123167402409223
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.4481137380020176
+      "raw_sentiment": 0.5,
+      "knn_danger_metric": 0.38209381164100154
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.4569884762538461
+      "knn_danger_metric": 0.31241573930779604
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.9097079533217513
+      "raw_sentiment": -0.8333333333333334,
+      "knn_danger_metric": 0.8454206116869152
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.43971957714304644
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.7008714856554242
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 9,
-      "raw_sentiment": 0.2222222222222222,
-      "knn_danger_metric": 0.6048044939759812
+      "num_messages": 12,
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.6445821340328762
     }
   },
   "semantic_logs": [
@@ -2332,57 +2332,85 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "&quot;הנגיסות&quot; בשטח של חמאס ברצועה: מניתוח עדכני של מפות לווין ניכרת התקדמות באזור אלעטאטרה בצפון הרצועה ממערב לבית לאהיא. נראה מהלך מעניין של סגירת שטח לכיוון הים לקראת &quot;נגיסה&quot; משמעותית יותר.  התקדמות נוספת מדרום לעיר עזה (אזור נצרים) באזור ציר צלאח א-דין.  3…",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️شنیده شدن صدای چندین انفجار در کی‌یف  خبرگزاری رویترز به نقل از شاهدان عینی از شنیده شدن صدای چندین رشته انفجار در کی‌یف، پایتخت اوکراین خبر داد. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "الغارة من الطيران المسيّر الاسرائيلي المعادي التي استهدفت بلدة النبطية الفوقا عصر اليوم",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 البنتاغون يعلن شراء نظام &quot;لاصطياد&quot; المسيرات بقيمة 500 مليون دولار https://almanar.com.lb/article/991837/?s=tg",
+      "text": "מקורות עזתיים ממשפחת אבו א-נג&#39;א: אחרי שהיה כלוא במשך שנה במנהרות רפיח, פעיל הזרוע הצבאית של חמאס מעאד&#39; אבו א-נג&#39;א הפך &quot;שהיד&quot;.  המשפחה תקים סוכת אבלים - ללא הלוויה - כי הגופה ברפיח.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: مدفعية الاحتلال تستهدف شمالي وشرقي مخيم البريج وسط القطاع",
+      "text": "إيران: مقر خاتم الأنبياء: أمن هذا الممر المائي الحيوي والحفاظ على استقراره يشكل خطاً أحمر للقوات المسلحة المقتدرة لإيران",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: مقر خاتم الأنبياء: أي عدم امتثال أو تجاهل للمسار سيواجه برد فوري ومقتدر من القوات المسلحة وسيعرض أمن السفن المخالفة للخطر",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: مقر خاتم الأنبياء: أي محاولة أميركية للتدخل في الشؤون الأمنية لمضيق هرمز ستواجه برد سريع وحاسم",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "اللجنة المشتركة للاجئين الفلسطينيين: لا شرعية لأي جهة تتجاوز وكالة &quot;الأونروا&quot; واستهدافها استهداف مباشر لحق العودة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي شرقي مدينة غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: مدفعية الاحتلال تستهدف شمالي مخيم البريج وسط قطاع غزة",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "جرافات الاحتلال تواصل هدم منزل الفلسطيني علي محمود سليمان في بلدة تقوع، جنوب شرق بيت لحم، حيث لم تسمح له بإخراج محتويات منزله.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "جانب من هدم قوات الاحتلال لمنزل في خربة الدير ببلدة تقوع جنوب شرق بيت لحم.",
+      "text": "وقفة في مدينة نابلس تنديدا ورفضا لإغلاق المؤسسات الخيرية في المدينة من قبل جيش الاحتلال بحجج واهية.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "فجر اليوم.. مليشيات المستوطنين تقص أعمدة كهرباء تغذي منزل عائلة صوفان الذي يتعرض لاعتداءات يومية في أطراف قرية بورين جنوب نابلس.",
-      "absolute_sentiment": 0.5,
+      "text": "جانب من هدم قوات الاحتلال لمنشآت سكنية في عين الحلوة بالأغوار الشمالية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تشرع بهدم منزل في بلدة بروقين غربي سلفيت",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "وقفة في نابلس رفضا لإغلاق الاحتلال مؤسسات خيرية تحت حجج واهية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "وزارة جيش الاحتلال: أكثر من 26 ألف جندي إسرائيلي أصيبوا منذ السابع من أكتوبر 2023.",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2398,34 +2426,6 @@
       "text": "#إعلام_العدو   صحيفة إسرائيل اليوم العبرية - يوآف ليمور: ازدادت &quot;إسرائيل&quot; جرأةً بعد ألف يوم من إنجازاتها العسكرية، وظنت أنها قادرة على كل شيء. ظنت أن المزيد من الضغط، وهجومًا آخر، وإبادة أخرى، كفيلة بتحقيق النتيجة المرجوة. هذه الاستراتيجية القائمة على الأمل جيدة للعلاقات العامة والاحتياجات السياسية، لكنها كارثية لإدارة شؤون الدولة. ونتيجة لذلك، وجدت &quot;إسرائيل&quot; نفسها في حرب لا تنتهي، مع تضاؤل اثنين من مواردها الرئيسية - الردع والشرعية الدولية - بشكل مثير للقلق.  #الإعلام_الحربي",
       "absolute_sentiment": -0.5,
       "semantic_danger_knn": 0.9986256955089235
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 13 العبرية: تشير استطلاعات الرأي إلى عدم إمكانية أي من الأطراف السياسية في &quot;إسرائيل&quot; من الحصول على الأغلبية المطلوبة لتشكيل حكومة في انتخابات الكنيست المقبلة.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9983660049992396
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة معاريف العبرية - بن كاسبيت: من بين ما يقارب 200 دولة في العالم، هناك &quot;دولة&quot; واحدة فقط يُمكن أن يحدث فيها ذلك. في &quot;دولة&quot; واحدة فقط يبقى الشخص المسؤول بشكل أساسي عن هذا النوع من الكوارث في منصبه. تلك &quot;الدولة&quot; هي &quot;إسرائيل&quot;.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9980731129272611
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة معاريف العبرية - بن كاسبيت: من بين ما يقارب 200 دولة في العالم، هناك &quot;دولة&quot; واحدة فقط يُمكن أن يحدث فيها ذلك. في &quot;دولة&quot; واحدة فقط يبقى الشخص المسؤول بشكل أساسي عن هذا النوع من الكوارث في منصبه. تلك &quot;الدولة&quot; هي &quot;إسرائيل&quot;.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9980731129272611
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة معاريف العبرية - بن كاسبيت: بعد مرور ألف يوم على أسوأ كارثة (السابع من أكتوبر) حلت بـ&quot;إسرائيل&quot; منذ تأسيسها، لا تزال لجنة التحقيق غائبة.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9976922097644289
     }
   ]
 }
