@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-03T09:54:07.971Z",
+  "last_updated": "2026-07-03T12:06:11.991Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.50",
-    "global_norm_sentiment": "0.02"
+    "global_knn_danger": "0.55",
+    "global_norm_sentiment": "-0.02"
   },
   "timeline": [
-    {
-      "time": "2026-06-27T22:04:59.683Z",
-      "danger": 0.554,
-      "sentiment": -0.28,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.613,
-          "sentiment": -0.733
-        },
-        "OSINTdefender": {
-          "danger": 0.545,
-          "sentiment": -0.333
-        },
-        "irna_1313": {
-          "danger": 0.681,
-          "sentiment": 0.4
-        },
-        "sepah_pasdaran": {
-          "danger": 0.266,
-          "sentiment": -0.467
-        },
-        "almanarnews": {
-          "danger": 0.539,
-          "sentiment": -0.333
-        },
-        "C_Military1": {
-          "danger": 0.441,
-          "sentiment": -0.367
-        },
-        "almayadeen": {
-          "danger": 0.68,
-          "sentiment": -0.4
-        },
-        "QudsN": {
-          "danger": 0.828,
-          "sentiment": -0.433
-        }
-      }
-    },
     {
       "time": "2026-06-27T23:58:38.246Z",
       "danger": 0.536,
@@ -2257,6 +2210,53 @@
           "sentiment": -0.1
         }
       }
+    },
+    {
+      "time": "2026-07-03T12:06:11.991Z",
+      "danger": 0.548,
+      "sentiment": -0.024,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.431,
+          "sentiment": -0.267
+        },
+        "OSINTdefender": {
+          "danger": 0.53,
+          "sentiment": -0.667
+        },
+        "irna_1313": {
+          "danger": 0.566,
+          "sentiment": 0.7
+        },
+        "sepah_pasdaran": {
+          "danger": 0.501,
+          "sentiment": 0.042
+        },
+        "almanarnews": {
+          "danger": 0.492,
+          "sentiment": 0.667
+        },
+        "C_Military1": {
+          "danger": 0.783,
+          "sentiment": -0.433
+        },
+        "almayadeen": {
+          "danger": 0.676,
+          "sentiment": -0.067
+        },
+        "QudsN": {
+          "danger": 0.554,
+          "sentiment": -0.077
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2275,8 +2275,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.47605537735802866
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.43063615500239744
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2286,39 +2286,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 8,
-      "raw_sentiment": 0.375,
-      "knn_danger_metric": 0.5096731740102819
+      "num_messages": 15,
+      "raw_sentiment": 0.7,
+      "knn_danger_metric": 0.5656305411127089
     },
     "sepah_pasdaran": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": 0.2,
-      "knn_danger_metric": 0.2615609013963613
+      "num_messages": 12,
+      "raw_sentiment": 0.041666666666666664,
+      "knn_danger_metric": 0.5012573163367894
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.7,
-      "knn_danger_metric": 0.5163008713513786
+      "raw_sentiment": 0.6666666666666666,
+      "knn_danger_metric": 0.49205755153385217
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.8276534863674135
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.782747987661062
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.23333333333333334,
-      "knn_danger_metric": 0.45901455099016164
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.6759707278496284
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.5173248433968358
+      "num_messages": 13,
+      "raw_sentiment": -0.07692307692307693,
+      "knn_danger_metric": 0.5538695621481488
     }
   },
   "semantic_logs": [
@@ -2332,8 +2332,8 @@
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️زارعی عضو کمیسیون امنیت ملی مجلس درباره تذکر «مقام عالی‌رتبه» به نبویان بابت برخی اظهارات و رفتارها به مفسرین حزبی «علی الاصول» تذکر دادند | گفتند خودشان اذن مذاکره داده‌اند | تسلیم هیچ تحمیلی نبودند | از انتشار اسناد سری هم اعلام نارضایتی نمودند. &lrm;✅ ️ @sepah_pasdaran",
-      "absolute_sentiment": -1,
+      "text": "&rlm; ️سیدهادی خامنه‌ای برادر رهبر شهید انقلاب: شهادت مناسب‌ترین دستمزد ایشان بود. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2360,13 +2360,6 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 12 العبرية: البيانات التي قدمها مركز تل حاي الإقليمي للمعرفة هذا الأسبوع يجب أن تدق ناقوس الخطر في القدس: 85% من شباب الجليل غادروا المنطقة خلال الحرب، وأكثر من نصفهم أبلغوا عن تضرر قدرتهم على التحمل النفسي. تضررت 84% من الشركات في المنطقة…",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
       "text": "بسم الله الرحمن الرحيم {الَّذِينَ يُبَلِّغُونَ رِسَالَاتِ اللَّهِ وَيَخْشَوْنَهُ وَلَا يَخْشَوْنَ أَحَدًا إِلَّا اللَّهَ ۗ وَكَفَىٰ بِاللهِ حَسِيبًا}                       صدق الله العلي العظيم  لمناسبة ارتحال إمام المستضعفين سماحة آية الله العظمى الإمام الشهيد  السيد علي الحسيني الخامنئي  ندعوكم للمشاركة في التجمعات الشعبية اللبنانية والدولية المتزامنة مع مراسم التشييع المهيب  الزمان: الأربعاء ٨ تموز ٢٠٢٦؛ الساعة ٩:٠٠ مساءً. المكان: بيروت؛ باحة عاشوراء- الضاحية الجنوبية.                           حزب الله",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
@@ -2374,42 +2367,56 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: قاليباف: اتفقنا مع سلطنة عمان على آلية للملاحة في مضيق هرمز استنادا للبند الخامس من مذكرة التفاهم",
-      "absolute_sentiment": 0.5,
+      "text": "فلسطين المحتلة: مراسل الميادين: استشهاد طفل وإصابة آخر جراء إلقاء طائرة مسيّرة إسرائيلية قنبلة عليهما أثناء تعبئتهما المياه خلف المسجد العمري بالبلدة القديمة شرقي مدينة غزة",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: قاليباف: ماضون في تنفيذ آلية الملاحة في مضيق هرمز وسنتشاور مع الدول المطلة على الخليج",
-      "absolute_sentiment": 0.5,
+      "text": "سوريا: مصادر محلية: مجموعة مسلحة نفذت هجوماً استهدف حاجزاً للأمن العام في منطقة كشكول في الدويلعة بريف دمشق",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "في أول ظهور له منذ الحرب.. قائد الحرس الثوري الإيراني أحمد وحيدي يشارك في وداع القائد الأعلى الشهيد علي خامنئي.",
+      "text": "إيران: الجنرال أحمد وحيدي للتلفزيون الإيراني: لن نفترق عن شهيدنا أبداً وله مكانة دائماً في قلوبنا وأرواحنا",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "المستوطنون يجرفون نحو 500 شجرة زيتون في أراضي قرية قصرة جنوب نابلس",
+      "text": "إيران: الجنرال أحمد وحيدي للتلفزيون الإيراني: على الأعداء أن يعلموا أن دم إمامنا الشهيد الطاهر سيكون نقطة تحول أخرى في انتصاراتنا",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: الجنرال أحمد وحيدي للتلفزيون الإيراني: لن يشهدوا استسلام شعبنا وسينهض يوماً بعد يوم بدماء الشهيد الطاهر",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: شهيد بقصف صهيوني استهدفه شرق دير البلح وسط قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "دعوات متواصلة لتكثيف الرباط في المسجد الأقصى وإفشال مخططات الاحتلال ومستوطنيه  https://qudsn.co/post/216381/",
-      "absolute_sentiment": 0.5,
+      "text": "عشرات الآلاف يؤدون صلاة الجمعة في رحاب المسجد الاقصى المبارك رغم اجراءات الاحتلال",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "كارلسون يهاجم الاحتلال: واشنطن خاضت حربًا لخدمة &quot;إسرائيل&quot;  https://qudsn.co/post/216386",
+      "text": "عاجل| مصدر في مستشفى شهداء الأقصى: شهيد بنيران قوات الاحتلال شرقي مدينة دير البلح وسط قطاع غزة.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2419,13 +2426,6 @@
       "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية - حاييم غولوبنتشيتز: يرمز حفل التوقيع التاريخي في واشنطن إلى انتصار إسرائيلي واضح على المستوى التكتيكي، إذ يمنح &quot;إسرائيل&quot; كل شيء تقريبًا دون مقابل.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9983660049992396
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية - حاييم غولوبنتشيتز: يُتوقع أن تبقى &quot;إسرائيل&quot; في المنطقة الأمنية لفترة طويلة، وستظل ساحة معركة نشطة، ولكن هذه المرة بإذن وموافقة الحكومة اللبنانية.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9961486516080661
     }
   ]
 }
