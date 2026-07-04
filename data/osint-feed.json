@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-04T14:26:01.549Z",
+  "last_updated": "2026-07-04T15:58:26.947Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.17"
+    "global_knn_danger": "0.51",
+    "global_norm_sentiment": "-0.06"
   },
   "timeline": [
-    {
-      "time": "2026-06-29T05:27:25.815Z",
-      "danger": 0.479,
-      "sentiment": -0.268,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.419,
-          "sentiment": -0.5
-        },
-        "OSINTdefender": {
-          "danger": 0.535,
-          "sentiment": -0.367
-        },
-        "irna_1313": {
-          "danger": 0.417,
-          "sentiment": 0.1
-        },
-        "sepah_pasdaran": {
-          "danger": 0.415,
-          "sentiment": -0.467
-        },
-        "almanarnews": {
-          "danger": 0.414,
-          "sentiment": -0.267
-        },
-        "C_Military1": {
-          "danger": 0.727,
-          "sentiment": -0.567
-        },
-        "almayadeen": {
-          "danger": 0.334,
-          "sentiment": -0.4
-        },
-        "QudsN": {
-          "danger": 0.582,
-          "sentiment": -0.083
-        }
-      }
-    },
     {
       "time": "2026-06-29T10:49:31.429Z",
       "danger": 0.535,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.367
         }
       }
+    },
+    {
+      "time": "2026-07-04T15:58:26.947Z",
+      "danger": 0.513,
+      "sentiment": -0.065,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.429,
+          "sentiment": -0.464
+        },
+        "OSINTdefender": {
+          "danger": 0.606,
+          "sentiment": -0.167
+        },
+        "irna_1313": {
+          "danger": 0.424,
+          "sentiment": 0.433
+        },
+        "sepah_pasdaran": {
+          "danger": 0.339,
+          "sentiment": 0.067
+        },
+        "almanarnews": {
+          "danger": 0.267,
+          "sentiment": 0.5
+        },
+        "C_Military1": {
+          "danger": 0.761,
+          "sentiment": -0.9
+        },
+        "almayadeen": {
+          "danger": 0.673,
+          "sentiment": -0.1
+        },
+        "QudsN": {
+          "danger": 0.684,
+          "sentiment": 0.115
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2280,7 +2280,7 @@
       "name": "Israel_OSINT",
       "num_messages": 14,
       "raw_sentiment": -0.4642857142857143,
-      "knn_danger_metric": 0.40773206648622073
+      "knn_danger_metric": 0.42917651581227456
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,20 +2291,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.6666666666666666,
-      "knn_danger_metric": 0.5016598078316716
+      "raw_sentiment": 0.43333333333333335,
+      "knn_danger_metric": 0.42373337429084756
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.2764935233492059
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.33904482832752486
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.3333333333333333
+      "raw_sentiment": 0.5,
+      "knn_danger_metric": 0.26666666666666666
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2316,13 +2316,13 @@
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.6857587860904597
+      "knn_danger_metric": 0.6734766212566493
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.7351443949537948
+      "num_messages": 13,
+      "raw_sentiment": 0.11538461538461539,
+      "knn_danger_metric": 0.6841190907016921
     }
   },
   "semantic_logs": [
@@ -2350,15 +2350,8 @@
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "🔵 الجيش اللبناني: ستقوم وحدة من الجيش اليوم بين الساعة 15.00 والساعة 18.00 بتفجير ذخائر غير منفجرة في بلدة دير قانون رأس العين https://www.almanar.com.lb/article/997302?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 وزيرة الشؤون الاجتماعية من النبطية: دفعة ثانية من المساعدات النقدية لـ130 ألف أسرة ضمن برنامج SRSN https://almanar.com.lb/article/997392/?s=tg",
-      "absolute_sentiment": -1,
+      "text": "📹 التطورات الميدانية في جنوب لبنان… متابعة مباشرة مع مراسلنا هاشم السيد حسن https://almanar.com.lb/article/997677/?s=tg",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2420,15 +2413,22 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "لحظة تنفيذ الاحتلال عملية نسف بالمتفجرات شمال دوار &quot;بني سهيلا&quot; شرق مدينة خان يونس، جنوب قطاع غزة.",
+      "text": "فاجعة أم في وداع نجلها، في مشهد يعكس عمق الفقد وتكرار المآسي مع استمرار الوداعات التي لا تنتهي في قطاع غزة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تقتحم مدينة قلقيلية من مدخلها الشرقي بعدد من الآليات العسكرية.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "تابعوا الأخبار أولاً بأول، عبر قناة واتساب من خلال الرابط التالي:  https://whatsapp.com/channel/0029VbCpgXo8fewqkgDTLM2z",
-      "absolute_sentiment": 1,
+      "text": "وسط دموع ذويهم  تشييع جثامين ثلاثة شهداء ارتقوا جراء غارات إسرائيلية استهدفت منطقة عسقولة في حي الزيتون وبلدة بيت لاهيا شمال قطاع غزة.",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
   ]
