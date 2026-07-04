@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-04T10:05:19.640Z",
+  "last_updated": "2026-07-04T12:04:10.764Z",
   "tension": {
     "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.46",
-    "global_norm_sentiment": "-0.12"
+    "global_knn_danger": "0.48",
+    "global_norm_sentiment": "-0.11"
   },
   "timeline": [
-    {
-      "time": "2026-06-28T22:03:13.168Z",
-      "danger": 0.526,
-      "sentiment": -0.276,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.399,
-          "sentiment": -0.357
-        },
-        "OSINTdefender": {
-          "danger": 0.546,
-          "sentiment": -0.233
-        },
-        "irna_1313": {
-          "danger": 0.656,
-          "sentiment": -0.467
-        },
-        "sepah_pasdaran": {
-          "danger": 0.37,
-          "sentiment": -0.633
-        },
-        "almanarnews": {
-          "danger": 0.457,
-          "sentiment": 0.3
-        },
-        "C_Military1": {
-          "danger": 0.741,
-          "sentiment": -0.567
-        },
-        "almayadeen": {
-          "danger": 0.45,
-          "sentiment": -0.367
-        },
-        "QudsN": {
-          "danger": 0.694,
-          "sentiment": -0.3
-        }
-      }
-    },
     {
       "time": "2026-06-29T00:04:23.517Z",
       "danger": 0.525,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.5
         }
       }
+    },
+    {
+      "time": "2026-07-04T12:04:10.764Z",
+      "danger": 0.481,
+      "sentiment": -0.115,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.399,
+          "sentiment": -0.227
+        },
+        "OSINTdefender": {
+          "danger": 0.583,
+          "sentiment": -0.267
+        },
+        "irna_1313": {
+          "danger": 0.456,
+          "sentiment": -0.033
+        },
+        "sepah_pasdaran": {
+          "danger": 0.303,
+          "sentiment": 0
+        },
+        "almanarnews": {
+          "danger": 0.385,
+          "sentiment": 0.3
+        },
+        "C_Military1": {
+          "danger": 0.761,
+          "sentiment": -0.9
+        },
+        "almayadeen": {
+          "danger": 0.477,
+          "sentiment": 0.067
+        },
+        "QudsN": {
+          "danger": 0.497,
+          "sentiment": 0.045
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2278,9 +2278,9 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 9,
-      "raw_sentiment": -0.05555555555555555,
-      "knn_danger_metric": 0.28732332675673433
+      "num_messages": 11,
+      "raw_sentiment": -0.22727272727272727,
+      "knn_danger_metric": 0.3993017746533026
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,20 +2291,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.4805817671918774
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.4564391945858641
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.23333333333333334,
-      "knn_danger_metric": 0.28406879548913394
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.3032784329568877
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.4,
-      "knn_danger_metric": 0.3459759306489922
+      "raw_sentiment": 0.3,
+      "knn_danger_metric": 0.3850171848980931
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.2,
-      "knn_danger_metric": 0.3271626365561007
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.47687816175291464
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.5468559754761114
+      "num_messages": 11,
+      "raw_sentiment": 0.045454545454545456,
+      "knn_danger_metric": 0.49705477207234156
     }
   },
   "semantic_logs": [
@@ -2334,17 +2334,24 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️ بازتاب مراسم تشییع تاریخی رهبر شهید در رسانه‌های خارجی &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 1,
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "&quot;הנגיסות&quot; בשטח של חמאס ברצועה: מניתוח עדכני של מפות לווין ניכרת התקדמות באזור אלעטאטרה בצפון הרצועה ממערב לבית לאהיא. נראה מהלך מעניין של סגירת שטח לכיוון הים לקראת &quot;נגיסה&quot; משמעותית יותר.  התקדמות נוספת מדרום לעיר עזה (אזור נצרים) באזור ציר צלאח א-דין.  3…",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "🔵 قائد البحرية في الحرس الثوري: الانتقام الإلهي من أمريكا و&quot;إسرائيل&quot; ليس ببعيد https://almanar.com.lb/article/996712/?s=tg",
-      "absolute_sentiment": 0,
+      "text": "🔵 الصحة في غزة: 16 شهيدًا و16 إصابة وصلوا إلى المستشفيات خلال 48 ساعة https://almanar.com.lb/article/997117/?s=tg",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 الجيش اللبناني: ستقوم وحدة من الجيش اليوم بين الساعة 15.00 والساعة 18.00 بتفجير ذخائر غير منفجرة في بلدة دير قانون رأس العين https://www.almanar.com.lb/article/997302?s=tg",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2369,17 +2376,24 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "عاجل| جيش الاحتلال ينفذ عمليات نسف شرق دوار بني سهيلا شرق خانيونس",
+      "text": "فلسطين المحتلة: مراسل الميادين: إطلاق نار من آليات الاحتلال جنوبي خان يونس جنوبي قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي وإطلاق نار من آليات الاحتلال غربي بيت لاهيا شمالي قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل| طيران الاحتلال المسيرة يستهدف محيط الحاووز التركي بمنطقة العامودي شمال مدينة غزة، دون وقوع إصابات",
-      "absolute_sentiment": -1,
+      "text": "عاجل| اندلاع مواجهات عنيفة خلال تصدي الأهالي لجيش الاحتلال والمستوطنين في قرية أم صفا شمال غرب رام الله.",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2411,25 +2425,11 @@
       "semantic_danger_knn": 0.9945654842736754
     },
     {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸دستگیری ۶ نفر از عناصر مرتبط با شبکه‌های معاند در شهرستان پردیس  🔹روابط عمومی و تبلیغات سپاه حضرت سیدالشهدا(ع) استان تهران از شناسایی و دستگیری ۶ نفر از عناصر مرتبط با شبکه‌های معاند و ضد انقلاب در شهرستان پردیس خبر داد.  🔹به گزارش از روابط عمومی و تبلیغات سپاه حضرت سیدالشهدا(ع) استان تهران طی روزهای اخیر ۶ نفر از عناصر مرتبط با شبکه‌های معاند و ضدانقلاب که اقدام به ارسال محتوا و تبادل اخبار با شبکه های معاند و ضدانقلاب می نمودند، شناسایی و دستگیر شدند.  https://irna.ir/xjXHY4 @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9501767546786838
-    },
-    {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم نبع أبو إلياس على طريق طلوزة الباذان شرق نابلس",
-      "absolute_sentiment": 0.5,
+      "text": "عاجل| 3 إصابات برصاص الاحتلال المطاطي، خلال هجوم للمستوطنين على قرية أم صفا شمال غرب رام الله.",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9262731058775845
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️پس از شکست حصر یمن به دست ایران، مردم یمن با حضور گسترده در خیابان‌ها از ایران قدردانی کردند &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.8673759897515935
     }
   ]
 }
