@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-04T15:58:26.947Z",
+  "last_updated": "2026-07-04T17:10:38.200Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.51",
-    "global_norm_sentiment": "-0.06"
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.07"
   },
   "timeline": [
-    {
-      "time": "2026-06-29T10:49:31.429Z",
-      "danger": 0.535,
-      "sentiment": -0.174,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.691,
-          "sentiment": -0.867
-        },
-        "OSINTdefender": {
-          "danger": 0.536,
-          "sentiment": -0.267
-        },
-        "irna_1313": {
-          "danger": 0.56,
-          "sentiment": -0.033
-        },
-        "sepah_pasdaran": {
-          "danger": 0.471,
-          "sentiment": 0
-        },
-        "almanarnews": {
-          "danger": 0.489,
-          "sentiment": 0.033
-        },
-        "C_Military1": {
-          "danger": 0.753,
-          "sentiment": -0.333
-        },
-        "almayadeen": {
-          "danger": 0.416,
-          "sentiment": -0.067
-        },
-        "QudsN": {
-          "danger": 0.483,
-          "sentiment": -0.077
-        }
-      }
-    },
     {
       "time": "2026-06-29T14:45:19.244Z",
       "danger": 0.498,
@@ -2261,6 +2214,53 @@
           "sentiment": 0.115
         }
       }
+    },
+    {
+      "time": "2026-07-04T17:10:38.200Z",
+      "danger": 0.522,
+      "sentiment": -0.067,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.59,
+          "sentiment": -0.467
+        },
+        "OSINTdefender": {
+          "danger": 0.606,
+          "sentiment": -0.167
+        },
+        "irna_1313": {
+          "danger": 0.436,
+          "sentiment": 0.4
+        },
+        "sepah_pasdaran": {
+          "danger": 0.312,
+          "sentiment": 0.267
+        },
+        "almanarnews": {
+          "danger": 0.338,
+          "sentiment": 0.467
+        },
+        "C_Military1": {
+          "danger": 0.761,
+          "sentiment": -0.9
+        },
+        "almayadeen": {
+          "danger": 0.556,
+          "sentiment": 0.3
+        },
+        "QudsN": {
+          "danger": 0.671,
+          "sentiment": -0.433
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2278,9 +2278,9 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 14,
-      "raw_sentiment": -0.4642857142857143,
-      "knn_danger_metric": 0.42917651581227456
+      "num_messages": 15,
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.5895810586282406
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,20 +2291,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.43333333333333335,
-      "knn_danger_metric": 0.42373337429084756
+      "raw_sentiment": 0.4,
+      "knn_danger_metric": 0.4355626308250891
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.33904482832752486
+      "raw_sentiment": 0.26666666666666666,
+      "knn_danger_metric": 0.3117101841843063
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.5,
-      "knn_danger_metric": 0.26666666666666666
+      "raw_sentiment": 0.4666666666666667,
+      "knn_danger_metric": 0.3383173828122523
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.6734766212566493
+      "raw_sentiment": 0.3,
+      "knn_danger_metric": 0.5558390563556705
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 13,
-      "raw_sentiment": 0.11538461538461539,
-      "knn_danger_metric": 0.6841190907016921
+      "num_messages": 15,
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.6710909601746755
     }
   },
   "semantic_logs": [
@@ -2338,13 +2338,6 @@
       "channel": "Israel_OSINT",
       "text": "&quot;הנגיסות&quot; בשטח של חמאס ברצועה: מניתוח עדכני של מפות לווין ניכרת התקדמות באזור אלעטאטרה בצפון הרצועה ממערב לבית לאהיא. נראה מהלך מעניין של סגירת שטח לכיוון הים לקראת &quot;נגיסה&quot; משמעותית יותר.  התקדמות נוספת מדרום לעיר עזה (אזור נצרים) באזור ציר צלאח א-דין.  3…",
       "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️ در شهر مقدس قم آیت الله جوادی آملی (حفظه الله) بر پیکر مطهر قائد شهید امت نماز اقامه می کنند.  #باید_برخاست &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2371,34 +2364,6 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: وزارة الأمن: سنثأر بالتأكيد لدماء القائد الشهيد والشهداء المظلومين",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: إطلاق نار من آليات الاحتلال جنوبي خان يونس جنوبي قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي وإطلاق نار من آليات الاحتلال غربي بيت لاهيا شمالي قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: شهيد من جراء استهداف طائرات الاحتلال مجموعة من المواطنين في حي الزيتون جنوب شرق مدينة غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "فلسطين المحتلة: مراسل الميادين: &quot;جيش&quot; الاحتلال ينفذ عملية نسف شمال شرقي خان يونس جنوبي قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
@@ -2413,23 +2378,58 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "فاجعة أم في وداع نجلها، في مشهد يعكس عمق الفقد وتكرار المآسي مع استمرار الوداعات التي لا تنتهي في قطاع غزة",
+      "text": "وسط دموع ذويهم  تشييع جثامين ثلاثة شهداء ارتقوا جراء غارات إسرائيلية استهدفت منطقة عسقولة في حي الزيتون وبلدة بيت لاهيا شمال قطاع غزة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مشاهد جديدة من اقتحام قوات الاحتلال مدينة قلقيلية من مدخلها الشرقي.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم مدينة قلقيلية من مدخلها الشرقي بعدد من الآليات العسكرية.",
+      "text": "“هذا الحنون”.. فاجعة أم في وداع نجلها، في مشهد يعكس عمق الفقد وتكرار المآسي مع استمرار الوداعات التي لا تنتهي في قطاع غزة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "الشهيدين بلال حسين أبوربيع و حمزة عماد جهاد حمدونة؛ اللذين ارتقيا بقصف يوم أمس في بلدة بيت لاهيا وتم انتشال جثمانيهما اليوم.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "وسط دموع ذويهم  تشييع جثامين ثلاثة شهداء ارتقوا جراء غارات إسرائيلية استهدفت منطقة عسقولة في حي الزيتون وبلدة بيت لاهيا شمال قطاع غزة.",
-      "absolute_sentiment": -1,
+      "text": "تقرير: &quot;إسرائيل&quot; أصدرت 114 أمرًا عسكريًا لمصادرة أراضي وتوسيع الاستيطان منذ أكتوبر 2023  https://qudsn.co/post/216399",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "تصاعد أعمدة الدخان جراء قصف طيران الاحتلال محيط دوار أبو شرخ شمال مدينة غزة.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو  صحيفة يديعوت أحرونوت العبرية - رونين بيرغمان: كيف انتهى الأمر؟ في النهاية، تغيرت الحكومة في إيران، ولكن ليس وفقًا لخطة الموساد. صعد (السيد) مجتبى خامنئي إلى السلطة، والنظام الحالي، الأكثر تطرفًا من سابقه ويفرض اتفاقًا سيئًا للغاية على &quot;إسرائيل&quot;.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9983660049992396
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية - رونين بيرغمان: خلافًا لتصريحات نتنياهو، التي أيدها زامير، والتي تحدث فيها عن &quot;خطر الإبادة النووية&quot;، فإن شخصًا واحدًا فقط في إيران كان بإمكانه إصدار أمر بصنع قنبلة نووية: (السيد الشهيد) علي خامنئي. وفي ذلك الوقت، لم تكن هناك معلومات مؤكدة تفيد بأنه أصدر مثل هذا الأمر. بل على العكس، واصل (السيد الشهيد) علي خامنئي سياسته الصارمة المتمثلة في عدم إصدار أي تعليمات بهذا الشأن.   #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.998335542384268
     }
   ]
 }
