@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-04T22:55:30.426Z",
+  "last_updated": "2026-07-04T23:59:09.999Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.26"
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.27"
   },
   "timeline": [
-    {
-      "time": "2026-06-29T22:52:59.472Z",
-      "danger": 0.559,
-      "sentiment": -0.357,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.493,
-          "sentiment": -0.533
-        },
-        "OSINTdefender": {
-          "danger": 0.541,
-          "sentiment": -0.2
-        },
-        "irna_1313": {
-          "danger": 0.709,
-          "sentiment": -0.5
-        },
-        "sepah_pasdaran": {
-          "danger": 0.462,
-          "sentiment": -0.733
-        },
-        "almanarnews": {
-          "danger": 0.279,
-          "sentiment": -0.267
-        },
-        "C_Military1": {
-          "danger": 0.639,
-          "sentiment": -0.3
-        },
-        "almayadeen": {
-          "danger": 0.671,
-          "sentiment": -0.5
-        },
-        "QudsN": {
-          "danger": 0.849,
-          "sentiment": -0.4
-        }
-      }
-    },
     {
       "time": "2026-06-30T00:00:09.499Z",
       "danger": 0.548,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.033
         }
       }
+    },
+    {
+      "time": "2026-07-04T23:59:09.999Z",
+      "danger": 0.525,
+      "sentiment": -0.27,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.494,
+          "sentiment": -0.267
+        },
+        "OSINTdefender": {
+          "danger": 0.606,
+          "sentiment": -0.167
+        },
+        "irna_1313": {
+          "danger": 0.527,
+          "sentiment": 0.067
+        },
+        "sepah_pasdaran": {
+          "danger": 0.305,
+          "sentiment": -0.433
+        },
+        "almanarnews": {
+          "danger": 0.418,
+          "sentiment": -0.067
+        },
+        "C_Military1": {
+          "danger": 0.736,
+          "sentiment": -0.9
+        },
+        "almayadeen": {
+          "danger": 0.337,
+          "sentiment": -0.567
+        },
+        "QudsN": {
+          "danger": 0.88,
+          "sentiment": -0.233
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2291,20 +2291,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.5744698859807572
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.5272200793220082
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.2654341003644499
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.30477325778217357
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.3509599801279112
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.41762664679457795
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2321,8 +2321,8 @@
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.8418020160619205
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.8801335654552068
     }
   },
   "semantic_logs": [
@@ -2344,6 +2344,13 @@
       "channelId": "almanarnews",
       "channel": "Hezbollah",
       "text": "ارتفاع حصيلة ضحايا الزلزالين في فنزويلا إلى 2954 قتيلا https://almanar.com.lb/article/998152/?s=tg",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 مقتل شخص وإصابة اثنين آخرين في هجوم أوكراني شمال شبه جزيرة القرم https://almanar.com.lb/article/998302/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2372,20 +2379,6 @@
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
       "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي شرقي مدينة خان يونس جنوبي قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم منزلاً خلال اقتحام بلدة حلحول، شمال الخليل.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم &quot;فيلا&quot; خلال اقتحام منطقة بوابة أريحا.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2428,6 +2421,13 @@
       "channelId": "QudsN",
       "channel": "Arab_Axis",
       "text": "مصادر محلية: قوات الاحتلال تقتحم منطقة جبل جوهر، جنوب مدينة الخليل.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوة من جيش الاحتلال تقتحم قرية دير جرير، شرق رام الله.",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     }
