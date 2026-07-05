@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-05T07:53:20.621Z",
+  "last_updated": "2026-07-05T10:07:55.874Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.49",
-    "global_norm_sentiment": "-0.11"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.10"
   },
   "timeline": [
-    {
-      "time": "2026-06-30T08:27:01.307Z",
-      "danger": 0.536,
-      "sentiment": -0.23,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.551,
-          "sentiment": -0.385
-        },
-        "OSINTdefender": {
-          "danger": 0.541,
-          "sentiment": -0.2
-        },
-        "irna_1313": {
-          "danger": 0.529,
-          "sentiment": 0.2
-        },
-        "sepah_pasdaran": {
-          "danger": 0.521,
-          "sentiment": -0.7
-        },
-        "almanarnews": {
-          "danger": 0.44,
-          "sentiment": -0.267
-        },
-        "C_Military1": {
-          "danger": 0.669,
-          "sentiment": -0.3
-        },
-        "almayadeen": {
-          "danger": 0.598,
-          "sentiment": -0.3
-        },
-        "QudsN": {
-          "danger": 0.566,
-          "sentiment": -0.214
-        }
-      }
-    },
     {
       "time": "2026-06-30T11:42:34.602Z",
       "danger": 0.571,
@@ -2261,13 +2214,60 @@
           "sentiment": 0.036
         }
       }
+    },
+    {
+      "time": "2026-07-05T10:07:55.874Z",
+      "danger": 0.521,
+      "sentiment": -0.1,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.502,
+          "sentiment": -0.267
+        },
+        "OSINTdefender": {
+          "danger": 0.594,
+          "sentiment": -0.067
+        },
+        "irna_1313": {
+          "danger": 0.683,
+          "sentiment": -0.267
+        },
+        "sepah_pasdaran": {
+          "danger": 0.281,
+          "sentiment": -0.067
+        },
+        "almanarnews": {
+          "danger": 0.43,
+          "sentiment": 0.367
+        },
+        "C_Military1": {
+          "danger": 0.733,
+          "sentiment": -0.2
+        },
+        "almayadeen": {
+          "danger": 0.505,
+          "sentiment": -0.2
+        },
+        "QudsN": {
+          "danger": 0.531,
+          "sentiment": -0.167
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.2717031753599442
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.502137284881625
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.6063508004762712
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.6833189178384566
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.24283849076217406
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.28139193105185195
     },
     "almanarnews": {
       "name": "Hezbollah",
-      "num_messages": 4,
-      "raw_sentiment": 0.75,
-      "knn_danger_metric": 0.3074391087755496
+      "num_messages": 15,
+      "raw_sentiment": 0.36666666666666664,
+      "knn_danger_metric": 0.4297004976089867
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.7654165271176474
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.7332211271964788
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.5312931686271293
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.5045850402383006
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 14,
-      "raw_sentiment": 0.03571428571428571,
-      "knn_danger_metric": 0.662494532224135
+      "num_messages": 15,
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.5313604162179196
     }
   },
   "semantic_logs": [
@@ -2334,17 +2334,17 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي شرقي مدينة خان يونس جنوبي قطاع غزة",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "20% הנחה על כל האתר&#33;🔥 בהזנת קוד הקופון: ABUPANDA20 + EXTRA 10% על מוצרי New Arrivals&#33; ✨ ׁ(ההנחה מתעדכנת אוטומטית  בצ&#39;קאאוט)  לרכישה&gt;&gt;&gt; https://pandazzz.co/ABUPANDAAAA  הנחת הקופון ABUPANDA20 מחושבת על יתרת התשלום לאחר ההנחה על מוצרי New Arrivals. אין כפל מבצעים או קופונים נוספים. בכפוף לתקנון. מלאי מינימלי: 500 יחידות או עד גמר המלאי. בתוקף עד 07.07.26",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي شمال غربي مدينة رفح جنوبي قطاع غزة",
-      "absolute_sentiment": -1,
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "📹&nbsp;تشييع طهران… مشهد وحدة وطنية يعكس تنوّع المجتمع الإيراني https://almanar.com.lb/article/999382/?s=tg",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2355,24 +2355,24 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "قضى 40 عامًا في سجون الاحتلال.. وفاة الأسير المحرر ماهر يونس   https://qudsn.co/post/216404",
+      "text": "اليمن: بيان الوقفة أمام مطار صنعاء الدولي: نطالب قواتنا المسلحة بالعمل على ترسيخ معادلة فك الحصار عقب الخطوة الإيرانية الشجاعة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مليشيات المستوطنين تهاجم فجر اليوم مقهى أمام جامعة الزيتونة في منطقة وادي الشاعر بقرية اللبن الشرقية جنوب نابلس",
-      "absolute_sentiment": 0.5,
+      "text": "فلسطين المحتلة: مراسل الميادين: مسيّرة إسرائيلية تلقي قنابل شمال دوار موزة شرق السكة بمدينة خان يونس جنوبي قطاع غزة",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "صوت الحقيقة أعلى من الحجب..  تابعوا الأخبار أولاً بأول، عبر قناة واتساب من خلال الرابط التالي:  https://whatsapp.com/channel/0029VbCpgXo8fewqkgDTLM2z",
-      "absolute_sentiment": 1,
+      "text": "هيئة بحرية بريطانية: سفينة شحن أطلقت نداء استغاثة يفيد بتعرضها لهجوم من مسلحين مجهولين جنوبي غرب مدينة الحديدة اليمنية",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2385,14 +2385,21 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم مدينة الخليل",
-      "absolute_sentiment": 0.5,
+      "text": "الاحتلال يصنف 140 موقعا أثريا في الخليل مواقع &quot;إسرائيلية&quot;  https://qudsn.co/post/216408",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مع اقتراب حل الكنيست.. تحذيرات من نقص حاد في أعداد جنود جيش الاحتلال  https://qudsn.co/post/216406",
+      "text": "تابعوا الأخبار أولاً بأول، عبر قناة واتساب من خلال الرابط التالي:  https://whatsapp.com/channel/0029VbCpgXo8fewqkgDTLM2z",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عريب الرنتاوي يكتب: اليوم الذي ابتلعت فيه &quot;إسرائيل&quot; أعقد عملية خداع إستراتيجي  https://qudsn.co/post/216409",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2406,30 +2413,23 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 12 العبرية: رغم الإدعاء بأن ساحة غزة من اختصاص الشاباك وليس جهاز الموساد، نكشف أنه خلال السنوات التي سبقت السابع من اكتوبر، قام الموساد بعدت عمليات داخل قطاع غزة استثمر فيها مبالغ طائلة وباءت جميعها بالفشل.  #الإعلام_الحربي",
+      "text": "#إعلام_العدو   القناة 15 العبرية: تم تأجيل الكابينت السياسي-الأمني الموسّع إلى يوم الثلاثاء. ومن المتوقع أن ينعقد مساء اليوم الكابينت المصغّر.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9971053727196456
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 15 العبرية: سيجتمع الكابينيت غدًا في الساعة 19:30.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9960376738431209
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 15 العبرية: وفقًا لتقديرات الجيش الإسرائيلي، يوجد حتى الآن نحو 1,200 عنصر مسلح جنوب نهر الليطاني.  بينما تشير التقديرات إلى وجود نحو 1,300 عنصر إضافي حتى نهر الزهراني.   وبذلك، يبلغ إجمالي عدد عناصر حزب الله على جبهة القتال في مواجهة &quot;إسرائيل&quot; نحو 2,500 عنصر.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9130455662482447
+      "semantic_danger_knn": 0.9961486516080662
     },
     {
       "channelId": "irna_1313",
       "channel": "IRGC",
-      "text": "فعال رسانه‌ای:  «آقای شهید ایران» تمام اقوام ایرانی را ذیل نام «ایران» جمع کردند  🔹بیژن مقدم:از پیام رهبر شهید انقلاب اسلامی پس از انعقاد تفاهم‌نامه ایران و آمریکا برداشت‌های غلطی شد؛ پیام رهبر انقلاب منشاء وحدت بود، اما افرادی تفسیرهای غلطی از آن داشتند.  🔹البته این افراد نیز شاید نیت خیری داشتند اما پیام رهبری را بد فهم کردند؛ تذکراتی به آنان داده شد که اشتباه برداشت کرده‌اند.  🔹رهبر شهید انقلاب تمام اقوام ایرانی را ذیل نام ایران جمع کرده بودند، هویت می‌دادند و حمایت می‌کردند.  🔹آقای شهید ایران ضمن احترام به تمام خرده فرهنگ‌ها، زبان فارسی را نماد ایران می‌دانستند.  #باید_برخاست #بدرقه_آقای_شهید_ایران @IRNA_1313",
+      "text": "پژواک پیام کربلا در تهران؛ روایت «ایندیا تودی» از وداع با آقای شهید ایران  🔹خبرنگار شبکه تلویزیونی «ایندیا تودی» هند با توصیف آیین وداع با آقای شهید ایران به‌عنوان تجلی زنده فرهنگ مقاومت، گزارش داد که پیام جاودانه کربلا و شعار «هرگز تسلیم نشوید» در میان خیل سوگواران در تهران طنین‌انداز شد و این مراسم را فراتر از یک آیین تشییع، بازتابی از هویت تاریخی و مذهبی شیعیان دانست.  🔹گیتا موهان: شهادت رهبر معظم انقلاب نه تنها به عنوان فقدان یک شخصیت سیاسی، بلکه به عنوان تداوم یک سنت ریشه‌دار شیعی از فداکاری، مقاومت و شهادت الهام گرفته از امام حسین (ع) تلقی می‌شود.  #باید_برخاست #بدرقه_آقای_شهید_ایران https://irna.ir/xjXJhC @IRNA_1313",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.8964188347561202
+      "semantic_danger_knn": 0.869676365323872
+    },
+    {
+      "channelId": "OSINTdefender",
+      "channel": "Global_OSINT",
+      "text": "#Germany #USA  Germany is committed to doubling its defense budget within four years, aiming to meet NATO&#39;s spending targets and enhance its military capabilities. This significant increase reflects a shift in Germany&#39;s defense policy under Chancellor Merz.  Subscribe to @OSINTdefender Chat room",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.8647014060550452
     }
   ]
 }
