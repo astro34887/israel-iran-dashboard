@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-05T20:54:26.994Z",
+  "last_updated": "2026-07-05T21:57:48.747Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.49",
-    "global_norm_sentiment": "0.07"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "0.04"
   },
   "timeline": [
-    {
-      "time": "2026-07-01T03:25:57.158Z",
-      "danger": 0.568,
-      "sentiment": -0.32,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.528,
-          "sentiment": -0.769
-        },
-        "OSINTdefender": {
-          "danger": 0.514,
-          "sentiment": -0.267
-        },
-        "irna_1313": {
-          "danger": 0.713,
-          "sentiment": -0.364
-        },
-        "sepah_pasdaran": {
-          "danger": 0.381,
-          "sentiment": -0.433
-        },
-        "almanarnews": {
-          "danger": 0.363,
-          "sentiment": 0.267
-        },
-        "C_Military1": {
-          "danger": 0.72,
-          "sentiment": -0.5
-        },
-        "almayadeen": {
-          "danger": 0.664,
-          "sentiment": -0.533
-        },
-        "QudsN": {
-          "danger": 0.846,
-          "sentiment": -0.464
-        }
-      }
-    },
     {
       "time": "2026-07-01T08:07:57.563Z",
       "danger": 0.551,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.269
         }
       }
+    },
+    {
+      "time": "2026-07-05T21:57:48.747Z",
+      "danger": 0.519,
+      "sentiment": 0.042,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.371,
+          "sentiment": -0.267
+        },
+        "OSINTdefender": {
+          "danger": 0.582,
+          "sentiment": -0.1
+        },
+        "irna_1313": {
+          "danger": 0.661,
+          "sentiment": -0.136
+        },
+        "sepah_pasdaran": {
+          "danger": 0.26,
+          "sentiment": 0.333
+        },
+        "almanarnews": {
+          "danger": 0.386,
+          "sentiment": 0.5
+        },
+        "C_Military1": {
+          "danger": 0.777,
+          "sentiment": 0.286
+        },
+        "almayadeen": {
+          "danger": 0.618,
+          "sentiment": 0.233
+        },
+        "QudsN": {
+          "danger": 0.585,
+          "sentiment": -0.3
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.41019180558431534
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.3711334137960343
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,21 +2290,21 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 13,
-      "raw_sentiment": 0.038461538461538464,
-      "knn_danger_metric": 0.6035446371993836
+      "num_messages": 11,
+      "raw_sentiment": -0.13636363636363635,
+      "knn_danger_metric": 0.6605175223041079
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.5666666666666667,
-      "knn_danger_metric": 0.2831492300139398
+      "raw_sentiment": 0.3333333333333333,
+      "knn_danger_metric": 0.2601291548461202
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.4666666666666667,
-      "knn_danger_metric": 0.3367817791452571
+      "raw_sentiment": 0.5,
+      "knn_danger_metric": 0.38610227519848644
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2320,9 +2320,9 @@
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 13,
-      "raw_sentiment": -0.2692307692307692,
-      "knn_danger_metric": 0.34085152558935017
+      "num_messages": 15,
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.5847885347026975
     }
   },
   "semantic_logs": [
@@ -2338,13 +2338,6 @@
       "channel": "Israel_OSINT",
       "text": "מערב אפריקה: בני שבט הטוארג המשתפים פעולה עם קבוצות של ארגון הטרור אלקאעדה הצליחו להפיל בירי מקלעים מסוק מסוג Mi-24  של חיל אפריקה הרוסי (כוח המסייע לממשלת מאלי - מעין תחליף לכוח וגנר).  כל חברי צוות המסוק נהרגו.  תגובה אחת",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️ نماد خون‌خواهی رهبر شهید و شهید سلیمانی روی سینۀ قالیباف در دیدار امروز با نمایندۀ حماس &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2392,44 +2385,51 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال بلدة بيت فوريك، شرق نابلس.",
+      "text": "عناق الحرية.. الأسير المحرر عبد الله النابلسي يلتقي بوالدته عقب الإفراج عنه من سجون الاحتلال",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة يعبد جنوب غرب جنين.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تطلق قنابل الصوت خلال اقتحام بلدة العيساوية في مدينة القدس المحتلة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تقتحم بلدة حزما شمال القدس المحتلة",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "جيش الاحتلال يحتجز سائق &quot;تاكسي&quot; وينكل به خلال اقتحام بلدة بيت فوريك شرقي نابلس.",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية عانين غرب جنين.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   استقبل رئيس مجلس الشورى الإيراني محمد باقر قاليباف رئيس مجلس قيادة حركة حماس محمد درويش، مؤكداً أن الدبلوماسية تهدف إلى تثبيت إنجازات الميدان، وأن نجاحها يتطلب استعداد البلاد للدفاع بالتوازي مع المسار الدبلوماسي.  وقال قاليباف إن &quot;الثأر لدماء الإمام الشهيد هو تحرير القدس&quot;، مشدداً على أن إيران &quot;لا سلام لها مع الولايات المتحدة ولن تعترف بـ&quot;إسرائيل&quot;&quot;.   وأضاف أن بلاده، ووفقاً لتوجيهات قائد الثورة، تواصل دعم المسلمين وجبهة المقاومة، سواء عبر القدرات الصاروخية إذا دعت الحاجة أو من خلال ممارسة الضغوط السياسية عبر المفاوضات، معتبراً أن الحكومات المسلمة أدركت أن التعاون مع الولايات المتحدة و&quot;إسرائيل&quot; لا يحقق الأمن.  وأشار قاليباف إلى أن طهران أبلغت الجانب الأميركي بأن الحفاظ على وحدة أراضي دول المنطقة وإنهاء الحرب ضد حلفاء إيران يجب أن يكونا جزءاً من أي تفاهم، مؤكداً أن مذكرة التفاهم دخلت مرحلة التنفيذ، وأن تطبيقها صعب لكنه ممكن.  #الإعلام_الحربي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9991522539924801
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🎥روایتی از حضور رهبر شهید در میان زلزله‌زدگان سرپل‌ذهاب  🔹 هشت روز پس از زلزله ۷.۳ ریشتری غرب کرمانشاه در ۲۱ آبان ماه سال ۱۳۹۶، رهبر شهید انقلاب در میان چادرهای زلزله‌زدگان سرپل‌ذهاب حاضر شد؛ حضوری که در تاریخ این دیار، نه یک بازدید رسمی، که نشانه‌ای از همدلی در سخت‌ترین روزها ثبت شد.  #باید_برخاست #بدرقه_آقای_شهید_ایران  https://irna.ir/xjXJvX  @IRNA_1313",
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة كفر ثلث شرق قلقيلية",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.998233729094311
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "📸 دومین روز مراسم وداع با رهبر شهید انقلاب   #باید_برخاست #بدرقه_آقای_شهید_ایران  عکاس:#محسن_رضایی  https://irna.ir/xjXJxt @IRNA_1313",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9973547420446702
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   قائد قوات القدس في حرس الثورة اللواء اسماعيل قاآني:   - عندما يستشهد قائدنا يتضح لنا الطريق الذي يجب أن نسلكه وبإذن الله سنبقى ثابتين على هذا الطريق.  - عندما ننظر إلى حياة إمامٍ كرّس حياته للنضال الصادق والشجاع وتكون خاتمة حياته الشهادة ، فهذا هو خير عاقبة نتمناها جميعًا.  #الإعلام_الحربي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9971738898694222
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تداهم منزلاً خلال اقتحام قرية عانين غرب جنين.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
     }
   ]
 }
