@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-04T23:59:09.999Z",
+  "last_updated": "2026-07-05T04:01:45.968Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.27"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.49",
+    "global_norm_sentiment": "-0.25"
   },
   "timeline": [
-    {
-      "time": "2026-06-30T00:00:09.499Z",
-      "danger": 0.548,
-      "sentiment": -0.33,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.493,
-          "sentiment": -0.533
-        },
-        "OSINTdefender": {
-          "danger": 0.541,
-          "sentiment": -0.2
-        },
-        "irna_1313": {
-          "danger": 0.637,
-          "sentiment": 0.033
-        },
-        "sepah_pasdaran": {
-          "danger": 0.454,
-          "sentiment": -0.867
-        },
-        "almanarnews": {
-          "danger": 0.277,
-          "sentiment": -0.4
-        },
-        "C_Military1": {
-          "danger": 0.639,
-          "sentiment": -0.3
-        },
-        "almayadeen": {
-          "danger": 0.671,
-          "sentiment": -0.5
-        },
-        "QudsN": {
-          "danger": 0.823,
-          "sentiment": -0.4
-        }
-      }
-    },
     {
       "time": "2026-06-30T04:19:12.164Z",
       "danger": 0.534,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.233
         }
       }
+    },
+    {
+      "time": "2026-07-05T04:01:45.968Z",
+      "danger": 0.493,
+      "sentiment": -0.25,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.437,
+          "sentiment": -0.233
+        },
+        "OSINTdefender": {
+          "danger": 0.606,
+          "sentiment": -0.167
+        },
+        "irna_1313": {
+          "danger": 0.447,
+          "sentiment": 0.333
+        },
+        "sepah_pasdaran": {
+          "danger": 0.238,
+          "sentiment": -0.467
+        },
+        "almanarnews": {
+          "danger": 0.561,
+          "sentiment": -0.5
+        },
+        "C_Military1": {
+          "danger": 0.736,
+          "sentiment": -0.9
+        },
+        "almayadeen": {
+          "danger": 0.439,
+          "sentiment": -0.433
+        },
+        "QudsN": {
+          "danger": 0.517,
+          "sentiment": 0
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.49415595336208923
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.4374589128575171
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,20 +2291,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.5272200793220082
+      "raw_sentiment": 0.3333333333333333,
+      "knn_danger_metric": 0.4474519568816552
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.30477325778217357
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.2382775522375243
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.41762664679457795
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.5611747599095663
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.337361422458141
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.4394468836799922
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.8801335654552068
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.5172884967519302
     }
   },
   "semantic_logs": [
@@ -2334,23 +2334,16 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "מונדיאל: מרוקו מדיחה את קנדה 3:0 - כוננות ספיגה בערי אירופה... האוהדים המרוקאים יוצאים לחגוג...  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "ارتفاع حصيلة ضحايا الزلزالين في فنزويلا إلى 2954 قتيلا https://almanar.com.lb/article/998152/?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
       "text": "🔵 مقتل شخص وإصابة اثنين آخرين في هجوم أوكراني شمال شبه جزيرة القرم https://almanar.com.lb/article/998302/?s=tg",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 استطلاع للقناة 12 الإسرائيلية يكشف أزمة ثقة غير مسبوقة.. نتنياهو ووزراء حكومته يواجهون تراجعا حادا https://almanar.com.lb/article/998467/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2383,53 +2376,60 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم بلدة ترمسعيا، شمال رام الله.",
+      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي شمال غربي مدينة رفح جنوبي قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم عدة منازل خلال اقتحام قرية شوفة جنوب طولكرم",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم المنطقة الشرقية في نابلس من حاجز عورتا.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال مخيم عسكر القديم شرق نابلس.",
+      "text": "مصادر محلية: قوة من جيش الاحتلال تقتحم مدينة أريحا",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم عددًا من المنازل خلال اقتحام بلدة دوما جنوب شرق نابلس",
+      "text": "متابعة | جيش الاحتلال يداهم بناية سكنية خلال اقتحام شارع عمان في مدينة أريحا",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تعتقل 3 فلسطينيين خلال اقتحام قرية برقة شمال غرب نابلس، وهم:  - فادي أبو عمر  - محمد رائد ياسين  - يحيى زياد",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم منطقة جبل جوهر، جنوب مدينة الخليل.",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية عورتا، جنوب شرق نابلس.",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوة من جيش الاحتلال تقتحم قرية دير جرير، شرق رام الله.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو  صحيفة يديعوت أحرونوت العبرية - رونين بيرغمان: كيف انتهى الأمر؟ في النهاية، تغيرت الحكومة في إيران، ولكن ليس ��فقًا لخطة الموساد. صعد (السيد) مجتبى خامنئي إلى السلطة، والنظام الحالي، الأكثر تطرفًا من سابقه ويفرض اتفاقًا سيئًا للغاية على &quot;إسرائيل&quot;.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9983660049992396
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية - رونين بيرغمان: تم صياغة البيان الرسمي لرئيس الوزراء بطريقة توحي بأن رؤساء المؤسسة العسكرية - وزير الحرب، ورئيس الأركان، ورئيس الموساد - يؤكدون أن &quot;إسرائيل&quot; حققت جميع أهداف العملية، بل وتجاوزتها&quot;، كما ورد في البيان. وقد أدى جمع أسماء جميع قادة المؤسسة الأمنية إلى خلق إجماع وطني زائف حول عبارة &quot;لقد أزلنا&quot;، بينما قوبلت هذه التصريحات بصدمة في أروقة جهاز المخابرات المغلقة. والتزم الجيش الصمت ورفض الإجابة عن أي أسئلة حول الموضوع، ولا يزال يرفض ذلك حتى اليوم.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9979853054910217
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 15 العبرية: سيجتمع الكابينيت غدًا في الساعة 19:30.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9960376738431209
     }
   ]
 }
