@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-05T19:26:41.339Z",
+  "last_updated": "2026-07-05T20:54:26.994Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.55",
-    "global_norm_sentiment": "0.03"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.49",
+    "global_norm_sentiment": "0.07"
   },
   "timeline": [
-    {
-      "time": "2026-06-30T23:07:22.156Z",
-      "danger": 0.57,
-      "sentiment": -0.278,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.605,
-          "sentiment": -0.615
-        },
-        "OSINTdefender": {
-          "danger": 0.514,
-          "sentiment": -0.3
-        },
-        "irna_1313": {
-          "danger": 0.54,
-          "sentiment": -0.2
-        },
-        "sepah_pasdaran": {
-          "danger": 0.381,
-          "sentiment": -0.433
-        },
-        "almanarnews": {
-          "danger": 0.363,
-          "sentiment": 0.367
-        },
-        "C_Military1": {
-          "danger": 0.72,
-          "sentiment": -0.5
-        },
-        "almayadeen": {
-          "danger": 0.664,
-          "sentiment": -0.533
-        },
-        "QudsN": {
-          "danger": 0.959,
-          "sentiment": -0.4
-        }
-      }
-    },
     {
       "time": "2026-07-01T03:25:57.158Z",
       "danger": 0.568,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.533
         }
       }
+    },
+    {
+      "time": "2026-07-05T20:54:26.994Z",
+      "danger": 0.49,
+      "sentiment": 0.069,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.41,
+          "sentiment": -0.367
+        },
+        "OSINTdefender": {
+          "danger": 0.582,
+          "sentiment": -0.1
+        },
+        "irna_1313": {
+          "danger": 0.604,
+          "sentiment": 0.038
+        },
+        "sepah_pasdaran": {
+          "danger": 0.283,
+          "sentiment": 0.567
+        },
+        "almanarnews": {
+          "danger": 0.337,
+          "sentiment": 0.467
+        },
+        "C_Military1": {
+          "danger": 0.777,
+          "sentiment": 0.286
+        },
+        "almayadeen": {
+          "danger": 0.618,
+          "sentiment": 0.233
+        },
+        "QudsN": {
+          "danger": 0.341,
+          "sentiment": -0.269
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.4031227400548819
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.41019180558431534
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,15 +2290,15 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": 0.43333333333333335,
-      "knn_danger_metric": 0.5764106851065115
+      "num_messages": 13,
+      "raw_sentiment": 0.038461538461538464,
+      "knn_danger_metric": 0.6035446371993836
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.43333333333333335,
-      "knn_danger_metric": 0.40725237445397056
+      "raw_sentiment": 0.5666666666666667,
+      "knn_danger_metric": 0.2831492300139398
     },
     "almanarnews": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.9125328771421479
+      "raw_sentiment": 0.23333333333333334,
+      "knn_danger_metric": 0.6184171073896605
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.5978359242309677
+      "num_messages": 13,
+      "raw_sentiment": -0.2692307692307692,
+      "knn_danger_metric": 0.34085152558935017
     }
   },
   "semantic_logs": [
@@ -2334,16 +2334,9 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️آتش‌سوزی گسترده در مجتمع تجاری در خیابان الظلالِ بغداد &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️جای سوزن انداختن نبود  تصاویر هوایی از خیابان‌های مملو از جمعیت مصلای تهران و اطراف آن  #بدرقه_آقای_شهید_ایران #باید_برخاست &lrm;✅ @sepah_pasdaran",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "מערב אפריקה: בני שבט הטוארג המשתפים פעולה עם קבוצות של ארגון הטרור אלקאעדה הצליחו להפיל בירי מקלעים מסוק מסוג Mi-24  של חיל אפריקה הרוסי (כוח המסייע לממשלת מאלי - מעין תחליף לכוח וגנר).  כל חברי צוות המסוק נהרגו.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2357,79 +2350,86 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: البطريرك الراعي: الطائفة الشيعية ليست مستهدفة بل لها مكانتها وقيمتها ودورها في الوطن",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: البطريرك الراعي: يجب ألا تشعر الطائفة الشيعية بأنها مستهدفة وإنما لها في هذا الوطن مثل غيرها",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: البطريرك الراعي: العيش المشترك الثقافي والديني بالمساواة موجود فقط في لبنان",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: البطريرك الراعي: لبنان من دون الشيعة أي قيمة له؟ أو بدون الموارنة أو السنّة وغيرهم",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: البطريرك الراعي: جميع اللبنانيين يريدون أن يبقى لبنان لكن على كل واحد أن ينهض بنفسه",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: البطريرك الراعي: عندما يسألونني ما مصير المسيحيين؟ أقول لهم اسألوني ما مصير لبنان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: البطريرك الراعي: هذا الوطن أريد أن أسلمه للأجيال وأريد أن أحافظ عليه",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: البطريرك الراعي: الولاء النهائي لم يتحقق بعد أو لم يكتمل بعد ولا بد أن يصبح الولاء للبنان ولاء نهائياً",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: البطريرك الراعي: لست أدعي أنني لا أخطئ لكن الكنيسة والضمير يحسبان حساباً لمدى الأمانة للرسالة التي يحملانها",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: البطريرك الراعي: لا أحد يستطيع أن ينكر دور الموارنة الأساسي في تكوين لبنان ولا أحد يستطيع أن ينكر ولاءهم للبنان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "الأمين العام لجامعة الدول العربية: نسف الاحتلال حياً كاملاً في قضاء بنت جبيل جنوب لبنان استمرار لسلوك &quot;إسرائيل&quot; البربري والوحشي",
+      "text": "إيران: قاليباف: خلال التطورات الأخيرة دخل حزب الله الحرب بقرار منه وسجل صموداً تاريخياً بتقديمه 4 آلاف شهيد و12 ألف جريح",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: قاليباف: خلال التطورات الأخيرة دخل حزب الله الحرب بقرار منه وسجل صموداً تاريخياً بتقديمه 4 آلاف شهيد و12 ألف جريح",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: قاليباف: في المحادثات الأولية مع الأطراف المعنية طرحت قضية المرحلة الثانية من السلام ومعالجة الوضع في غزة كأولوية قطعية",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: قاليباف: في المحادثات الأولية مع الأطراف المعنية طرحت قضية المرحلة الثانية من السلام ومعالجة الوضع في غزة كأولوية قطعية",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: قاليباف: في المحادثات الأولية مع الأطراف المعنية طرحت قضية المرحلة الثانية من السلام ومعالجة الوضع في غزة كأولوية قطعية",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "وسائل إعلام إسرائيلية: نتنياهو رداً على فانس: لدينا أيضاً عدد من الأصدقاء الآخرين مثل &quot;دولة صغيرة اسمها الهند&quot; يعيش فيها 1.4 مليار نسمة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام قوات الاحتلال بلدة بيت فوريك، شرق نابلس.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جيش الاحتلال يحتجز سائق &quot;تاكسي&quot; وينكل به خلال اقتحام بلدة بيت فوريك شرقي نابلس.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   استقبل رئيس مجلس الشورى الإيراني محمد باقر قاليباف رئيس مجلس قيادة حركة حماس محمد درويش، مؤكداً أن الدبلوماسية تهدف إلى تثبيت إنجازات الميدان، وأن نجاحها يتطلب استعداد البلاد للدفاع بالتوازي مع المسار الدبلوماسي.  وقال قاليباف إن &quot;الثأر لدماء الإمام الشهيد هو تحرير القدس&quot;، مشدداً على أن إيران &quot;لا سلام لها مع الولايات المتحدة ولن تعترف بـ&quot;إسرائيل&quot;&quot;.   وأضاف أن بلاده، ووفقاً لتوجيهات قائد الثورة، تواصل دعم المسلمين وجبهة المقاومة، سواء عبر القدرات الصاروخية إذا دعت الحاجة أو من خلال ممارسة الضغوط السياسية عبر المفاوضات، معتبراً أن الحكومات المسلمة أدركت أن التعاون مع الولايات المتحدة و&quot;إسرائيل&quot; لا يحقق الأمن.  وأشار قاليباف إلى أن طهران أبلغت الجانب الأميركي بأن الحفاظ على وحدة أراضي دول المنطقة وإنهاء الحرب ضد حلفاء إيران يجب أن يكونا جزءاً من أي تفاهم، مؤكداً أن مذكرة التفاهم دخلت مرحلة التنفيذ، وأن تطبيقها صعب لكنه ممكن.  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.9991522539924801
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🎥روایتی از حضور رهبر شهید در میان زلزله‌زدگان سرپل‌ذهاب  🔹 هشت روز پس از زلزله ۷.۳ ریشتری غرب کرمانشاه در ۲۱ آبان ماه سال ۱۳۹۶، رهبر شهید انقلاب در میان چادرهای زلزله‌زدگان سرپل‌ذهاب حاضر شد؛ حضوری که در تاریخ این دیار، نه یک بازدید رسمی، که نشانه‌ای از همدلی در سخت‌ترین روزها ثبت شد.  #باید_برخاست #بدرقه_آقای_شهید_ایران  https://irna.ir/xjXJvX  @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.998233729094311
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "📸 دومین روز مراسم وداع با رهبر شهید انقلاب   #باید_برخاست #بدرقه_آقای_شهید_ایران  عکاس:#محسن_رضایی  https://irna.ir/xjXJxt @IRNA_1313",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.9973547420446702
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   قائد قوات القدس في حرس الثورة اللواء اسماعيل قاآني:   - عندما يستشهد قائدنا يتضح لنا الطريق الذي يجب أن نسلكه وبإذن الله سنبقى ثابتين على هذا الطريق.  - عندما ننظر إلى حياة إمامٍ كرّس حياته للنضال الصادق والشجاع وتكون خاتمة حياته الشهادة ، فهذا هو خير عاقبة نتمناها جميعًا.  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.9971738898694222
     }
   ]
 }
