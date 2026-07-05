@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-05T17:59:14.998Z",
+  "last_updated": "2026-07-05T19:26:41.339Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "0.00"
+    "global_knn_danger": "0.55",
+    "global_norm_sentiment": "0.03"
   },
   "timeline": [
-    {
-      "time": "2026-06-30T21:25:00.030Z",
-      "danger": 0.548,
-      "sentiment": -0.399,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.605,
-          "sentiment": -0.769
-        },
-        "OSINTdefender": {
-          "danger": 0.497,
-          "sentiment": -0.4
-        },
-        "irna_1313": {
-          "danger": 0.556,
-          "sentiment": -0.567
-        },
-        "sepah_pasdaran": {
-          "danger": 0.307,
-          "sentiment": -0.6
-        },
-        "almanarnews": {
-          "danger": 0.373,
-          "sentiment": -0.167
-        },
-        "C_Military1": {
-          "danger": 0.72,
-          "sentiment": -0.5
-        },
-        "almayadeen": {
-          "danger": 0.621,
-          "sentiment": -0.533
-        },
-        "QudsN": {
-          "danger": 0.85,
-          "sentiment": -0.321
-        }
-      }
-    },
     {
       "time": "2026-06-30T23:07:22.156Z",
       "danger": 0.57,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.133
         }
       }
+    },
+    {
+      "time": "2026-07-05T19:26:41.339Z",
+      "danger": 0.554,
+      "sentiment": 0.032,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.403,
+          "sentiment": -0.3
+        },
+        "OSINTdefender": {
+          "danger": 0.582,
+          "sentiment": -0.1
+        },
+        "irna_1313": {
+          "danger": 0.576,
+          "sentiment": 0.433
+        },
+        "sepah_pasdaran": {
+          "danger": 0.407,
+          "sentiment": 0.433
+        },
+        "almanarnews": {
+          "danger": 0.337,
+          "sentiment": 0.467
+        },
+        "C_Military1": {
+          "danger": 0.777,
+          "sentiment": 0.286
+        },
+        "almayadeen": {
+          "danger": 0.913,
+          "sentiment": -0.233
+        },
+        "QudsN": {
+          "danger": 0.598,
+          "sentiment": -0.533
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,32 +2279,32 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.3764137020002187
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.4031227400548819
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.5821817783504691
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.5824852613277893
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.4948534415026183
+      "raw_sentiment": 0.43333333333333335,
+      "knn_danger_metric": 0.5764106851065115
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.3936421316433954
+      "raw_sentiment": 0.43333333333333335,
+      "knn_danger_metric": 0.40725237445397056
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.3684825723164053
+      "raw_sentiment": 0.4666666666666667,
+      "knn_danger_metric": 0.3367817791452571
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.6291516581303641
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.9125328771421479
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.6713711573788625
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.5978359242309677
     }
   },
   "semantic_logs": [
@@ -2330,13 +2330,6 @@
       "channelId": "idfonline",
       "channel": "IDF",
       "text": "״אני קורא לאכולוסייה החרדית ולהנהגה החרדית לעודד כל פעם קצת יותר לגיוס. יש לנו מסלולים יוצאים מן הכלל, השתחררו מהם אנשים לא פחות חרדים ואזרחים טובים יותר למדינה. זה טוב לכולם״  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️ تصاویر هوایی از بزرگترین نماز تاریخ انقلاب...  #بدرقه_آقای_شهید_ایران #باید_برخاست &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
@@ -2355,79 +2348,86 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: إصابة شاب برصاص &quot;جيش&quot; الاحتلال في منطقة سوق فراس شرقي مدينة غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: قاليباف خلال لقائه النعيمي: إن أكثر من 70% من التجارة العالمية تمر عبر مضيق هرمز وقناة السويس وباب المندب",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: النعمي لقاليباف: يجب أن نستلهم روح النضال والصمود من دم القائد الشهيد تماماً كما نستلهمها من دم سيد الشهداء",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️ نماد خون‌خواهی رهبر شهید و شهید سلیمانی روی سینۀ قالیباف در دیدار امروز با نمایندۀ حماس &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: النعيمي لقاليباف: نحن على استعداد تام لأي نوع من التعاون الدبلوماسي",
-      "absolute_sentiment": 0.5,
+      "text": "لبنان: البطريرك الراعي: الطائفة الشيعية ليست مستهدفة بل لها مكانتها وقيمتها ودورها في الوطن",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تعتقل شبان من محيط مفرق سيكال ببلدة كفر عقب شمال القدس المحتلة.",
+      "text": "لبنان: البطريرك الراعي: يجب ألا تشعر الطائفة الشيعية بأنها مستهدفة وإنما لها في هذا الوطن مثل غيرها",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: البطريرك الراعي: العيش المشترك الثقافي والديني بالمساواة موجود فقط في لبنان",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: البطريرك الراعي: لبنان من دون الشيعة أي قيمة له؟ أو بدون الموارنة أو السنّة وغيرهم",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "عاجل| إصابة برصاص الاحتلال أمام مدخل مخيم قلنديا شمال القدس المحتلة",
+      "text": "لبنان: البطريرك الراعي: جميع اللبنانيين يريدون أن يبقى لبنان لكن على كل واحد أن ينهض بنفسه",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "عاجل| مصادر محلية: إصابة خطيرة برصاص الاحتلال في مخيم قلنديا شمال القدس المحتلة",
+      "text": "لبنان: البطريرك الراعي: عندما يسألونني ما مصير المسيحيين؟ أقول لهم اسألوني ما مصير لبنان",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "من اقتحام الاحتلال لمخيم قلنديا شمال القدس المحتلة",
-      "absolute_sentiment": 0.5,
+      "text": "لبنان: البطريرك الراعي: هذا الوطن أريد أن أسلمه للأجيال وأريد أن أحافظ عليه",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "عاجل| أنباء أولية عن شهيد برصاص الاحتلال في مخيم قلنديا شمال القدس المحتلة",
+      "text": "لبنان: البطريرك الراعي: الولاء النهائي لم يتحقق بعد أو لم يكتمل بعد ولا بد أن يصبح الولاء للبنان ولاء نهائياً",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لحظة إصابة شاب برصاص الاحتلال في مخيم قلنديا شمال القدس المحتلة وأنباء أولية عن استشهاده.",
+      "text": "لبنان: البطريرك الراعي: لست أدعي أنني لا أخطئ لكن الكنيسة والضمير يحسبان حساباً لمدى الأمانة للرسالة التي يحملانها",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: البطريرك الراعي: لا أحد يستطيع أن ينكر دور الموارنة الأساسي في تكوين لبنان ولا أحد يستطيع أن ينكر ولاءهم للبنان",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "المزارع نمر مرعي من جنين يتحدث عن صعوبة تسويق البطيخ الفلسطيني نتيجة غرق الأسواق ببطيخ الاحتلال.",
+      "text": "الأمين العام لجامعة الدول العربية: نسف الاحتلال حياً كاملاً في قضاء بنت جبيل جنوب لبنان استمرار لسلوك &quot;إسرائيل&quot; البربري والوحشي",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
