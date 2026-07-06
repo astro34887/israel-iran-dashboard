@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-06T12:00:27.297Z",
+  "last_updated": "2026-07-06T15:52:04.358Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.49",
-    "global_norm_sentiment": "0.07"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.08"
   },
   "timeline": [
-    {
-      "time": "2026-07-01T19:48:04.076Z",
-      "danger": 0.501,
-      "sentiment": -0.24,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.382,
-          "sentiment": -0.667
-        },
-        "OSINTdefender": {
-          "danger": 0.522,
-          "sentiment": -0.267
-        },
-        "irna_1313": {
-          "danger": 0.593,
-          "sentiment": -0.067
-        },
-        "sepah_pasdaran": {
-          "danger": 0.35,
-          "sentiment": -0.4
-        },
-        "almanarnews": {
-          "danger": 0.458,
-          "sentiment": 0.167
-        },
-        "C_Military1": {
-          "danger": 0.785,
-          "sentiment": -0.433
-        },
-        "almayadeen": {
-          "danger": 0.584,
-          "sentiment": -0.267
-        },
-        "QudsN": {
-          "danger": 0.386,
-          "sentiment": -0.333
-        }
-      }
-    },
     {
       "time": "2026-07-01T21:24:19.590Z",
       "danger": 0.522,
@@ -2261,6 +2214,53 @@
           "sentiment": 0.033
         }
       }
+    },
+    {
+      "time": "2026-07-06T15:52:04.358Z",
+      "danger": 0.528,
+      "sentiment": -0.085,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.563,
+          "sentiment": -0.3
+        },
+        "OSINTdefender": {
+          "danger": 0.591,
+          "sentiment": 0.033
+        },
+        "irna_1313": {
+          "danger": 0.587,
+          "sentiment": 0.067
+        },
+        "sepah_pasdaran": {
+          "danger": 0.468,
+          "sentiment": -0.467
+        },
+        "almanarnews": {
+          "danger": 0.34,
+          "sentiment": 0.367
+        },
+        "C_Military1": {
+          "danger": 0.68,
+          "sentiment": -0.042
+        },
+        "almayadeen": {
+          "danger": 0.561,
+          "sentiment": -0.267
+        },
+        "QudsN": {
+          "danger": 0.542,
+          "sentiment": -0.107
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.4681529028616536
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.5632562508255048
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.6024906725905784
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.591495501955785
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 13,
-      "raw_sentiment": 1,
-      "knn_danger_metric": 0.2706006536068698
+      "num_messages": 15,
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.5870491474741113
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.2,
-      "knn_danger_metric": 0.28897187521204876
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.46772410645720097
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.5383173828122523
+      "raw_sentiment": 0.36666666666666664,
+      "knn_danger_metric": 0.33985970728130316
     },
     "C_Military1": {
       "name": "Hezbollah",
-      "num_messages": 11,
-      "raw_sentiment": 0.045454545454545456,
-      "knn_danger_metric": 0.6508437824766309
+      "num_messages": 12,
+      "raw_sentiment": -0.041666666666666664,
+      "knn_danger_metric": 0.6798542020983596
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.7222045709812243
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.5606516920733182
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.43154526311624447
+      "num_messages": 14,
+      "raw_sentiment": -0.10714285714285714,
+      "knn_danger_metric": 0.5421425906894536
     }
   },
   "semantic_logs": [
@@ -2334,80 +2334,38 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "النائب رائد برو: عقيدة الجيش اللبناني هي كلمة &quot;لا&quot; أمام أي قرار يحقق الأجندة الإسرائيلية في هذا البلد https://almanar.com.lb/article/1001717/?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "⚜ #يوم_كنت_بيننا  🎥 وثائقي يروي بعض من سيرة حياة سماحة الامام الشهيد #السيد_علي_الخامنئي (رض)  ⏳ اليوم الاثنين 6/07/2026، عند الساعة 22:30 مساء  🚩 #قوموا_لله",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 مواقف تنعى المربية اسبيرنزا فخري غندور التي استشهدت باعتداء صهيوني https://almanar.com.lb/article/1001897/?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: وزارة النقل تخصص 400 باص و6 قطارات لنقل المشاركين بمراسم تشييع الشهيد السيد الخامنئي",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️رفتید سوی بزم شهادت به سادگی  خوش باد بر شما سفر خانوادگی  #بدرقه_آقای_شهید_ایران #باید_برخاست &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: ارتقاء 3 شهداء هم مديرة مدرسة وشقيقها وعاملة أجنبية من جراء غارة للاحتلال استهدفت سيارة في النبطية الفوق",
+      "text": "لبنان: وزارة الصحة: استشهاد 4 أشخاص من جراء غارة إسرائيلية استهدفت بلدة النبطية الفوقا في الجنوب",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: المفكر الهندي ساندو هيرا للميادين: هناك صفات رائعة جداً في السيد خامنئي وهناك اهتمام دولي يكبر للتعرف على حياته ومسيرته",
+      "text": "لبنان: مراسل الميادين: قصف مدفعي إسرائيلي يستهدف بلدة قبريخا في قضاء مرجعيون جنوبي لبنان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: مدفعية الاحتلال استهدفت بلدات قبريخا دير سريان برعشيت وبنت جبيل جنوبي لبنان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تواصل اقتحام حي &quot;سطح مرحبا&quot;، في مدينة البيرة.",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: المفكر الهندي ساندو هيرا للميادين: السيد خامنئي كان القائد الديمقراطي الوحيد في العالم",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: المفكر هيرا للميادين: لا يمكننا أن ننسى أن نلسون مانديلا نادى يوماً السيد خامنئي قائلاً &quot;سيدي وقائدي&quot;",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: الوكالة الوطنية اللبنانية: ارتفاع حصيلة الغارة الإسرائيلية على سيارة في مدينة النبطية الفوقا في جنوب لبنان الى 4 شهداء",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "جرافة الاحتلال تقتلع عشرات أشجار الزيتون في قرية مادما جنوب نابلس",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "استطلاع لنائب أمريكي..  &quot;إسرائيل&quot; التهديد الأول للحرية في الولايات المتحدة",
-      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2416,6 +2374,13 @@
       "text": "#الجمهورية_الإسلامية   استقبل رئيس مجلس الشورى الإيراني محمد باقر قاليباف رئيس مجلس قيادة حركة حماس محمد درويش، مؤكداً أن الدبلوماسية تهدف إلى تثبيت إنجازات الميدان، وأن نجاحها يتطلب استعداد البلاد للدفاع بالتوازي مع المسار الدبلوماسي.  وقال قاليباف إن &quot;الثأر لدماء الإمام الشهيد هو تحرير القدس&quot;، مشدداً على أن إيران &quot;لا سلام لها مع الولايات المتحدة ولن تعترف بـ&quot;إسرائيل&quot;&quot;.   وأضاف أن بلاده، ووفقاً لتوجيهات قائد الثورة، تواصل دعم المسلمين وجبهة المقاومة، سواء عبر القدرات الصاروخية إذا دعت الحاجة أو من خلال ممارسة الضغوط السياسية عبر المفاوضات، معتبراً أن الحكومات المسلمة أدركت أن التعاون مع الولايات المتحدة و&quot;إسرائيل&quot; لا يحقق الأمن.  وأشار قاليباف إلى أن طهران أبلغت الجانب الأميركي بأن الحفاظ على وحدة أراضي دول المنطقة وإنهاء الحرب ضد حلفاء إيران يجب أن يكونا جزءاً من أي تفاهم، مؤكداً أن مذكرة التفاهم دخلت مرحلة التنفيذ، وأن تطبيقها صعب لكنه ممكن.  #الإعلام_الحربي",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 0.9991522539924801
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 12 العبرية: توجّه رئيس منتدى جنود الاحتياط في حزب الليكود، المحامي شلومو ليرنر، إلى رئيس لجنة الخارجية والأمن، عضو الكنيست بوعاز بيسموت، إلى جانب عشرات الضباط والمقاتلين في الاحتياط، داعيًا إلى المضي قدمًا في تمديد مدة الخدمة الإلزامية إلى 36 شهرًا.  وبحسب قولهم: &quot;إذا لم يُقرّ قانون تمديد الخدمة في القراءتين الثانية والثالثة، فإن ذلك سيعني تحميل مقاتلي الاحتياط، الذين يخدمون منذ اندلاع الحرب، عبئًا هائلًا إضافيًا فوق أكتافهم المنهكة.&quot;  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9989688179373749
     },
     {
       "channelId": "C_Military1",
@@ -2430,6 +2395,41 @@
       "text": "#إعلام_العدو   القناة 12 العبرية: وفقاً لمصادر أمنية، القضاء على عناصر حزب الله داخل الخط الأصفر ليس بالأمر الذي يمكن تحقيقه في فترة وجيزة.  #الإعلام_الحربي",
       "absolute_sentiment": -0.5,
       "semantic_danger_knn": 0.99720937139592
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   قائد قوات القدس في حرس الثورة اللواء اسماعيل قاآني:   - عندما يستشهد قائدنا يتضح لنا الطريق الذي يجب أن نسلكه وبإذن الله سنبقى ثابتين على هذا الطريق.  - عندما ننظر إلى حياة إمامٍ كرّس حياته للنضال الصادق والشجاع وتكون خاتمة حياته الشهادة ، فهذا هو خير عاقبة نتمناها جميعًا.  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.9971738898694222
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | قوات الاحتلال تقتحم مدينة طوباس، شمال الضفة الغربية.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9596045227592704
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | قوات الاحتلال تعترض مركبات وتحتجز عدداً من المارة في قرية كفر جمّال، جنوب غرب طولكرم.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9596045227592704
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | قوات الاحتلال تقتحم مدينة سلفيت، في الضفة الغربية.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9596045227592704
+    },
+    {
+      "channelId": "OSINTdefender",
+      "channel": "Global_OSINT",
+      "text": "#Ukraine #USA #Russia   Ukrainian President Volodymyr Zelenskyy emphasized the critical need for more interceptor missiles to effectively defend against Russian ballistic threats, urging NATO allies to make strong commitments at the upcoming summit in Ankara to enhance Ukraine&#39;s air defense capabilities.  Subscribe to @OSINTdefender Chat room",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9595334992333653
     }
   ]
 }
