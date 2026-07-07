@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-07T14:22:52.259Z",
+  "last_updated": "2026-07-07T17:10:19.448Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.50",
-    "global_norm_sentiment": "-0.12"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.51",
+    "global_norm_sentiment": "-0.03"
   },
   "timeline": [
-    {
-      "time": "2026-07-02T17:42:43.480Z",
-      "danger": 0.546,
-      "sentiment": -0.33,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.561,
-          "sentiment": -0.633
-        },
-        "OSINTdefender": {
-          "danger": 0.503,
-          "sentiment": -0.467
-        },
-        "irna_1313": {
-          "danger": 0.362,
-          "sentiment": -0.333
-        },
-        "sepah_pasdaran": {
-          "danger": 0.321,
-          "sentiment": -0.667
-        },
-        "almanarnews": {
-          "danger": 0.531,
-          "sentiment": -0.2
-        },
-        "C_Military1": {
-          "danger": 0.804,
-          "sentiment": -0.467
-        },
-        "almayadeen": {
-          "danger": 0.778,
-          "sentiment": -0.2
-        },
-        "QudsN": {
-          "danger": 0.649,
-          "sentiment": -0.2
-        }
-      }
-    },
     {
       "time": "2026-07-02T19:18:42.804Z",
       "danger": 0.531,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.2
         }
       }
+    },
+    {
+      "time": "2026-07-07T17:10:19.448Z",
+      "danger": 0.506,
+      "sentiment": -0.032,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.549,
+          "sentiment": -0.467
+        },
+        "OSINTdefender": {
+          "danger": 0.65,
+          "sentiment": 0.067
+        },
+        "irna_1313": {
+          "danger": 0.601,
+          "sentiment": -0.167
+        },
+        "sepah_pasdaran": {
+          "danger": 0.294,
+          "sentiment": 0.367
+        },
+        "almanarnews": {
+          "danger": 0.22,
+          "sentiment": 0.267
+        },
+        "C_Military1": {
+          "danger": 0.69,
+          "sentiment": -0.125
+        },
+        "almayadeen": {
+          "danger": 0.559,
+          "sentiment": -0.1
+        },
+        "QudsN": {
+          "danger": 0.547,
+          "sentiment": -0.033
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,32 +2279,32 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.36088271999486937
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.5492819287275884
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.6468679105935813
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.6496878685201667
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.56997015557552
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.6006183777577402
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.2672041670614968
+      "raw_sentiment": 0.36666666666666664,
+      "knn_danger_metric": 0.29391454031592246
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.42328451385659677
+      "raw_sentiment": 0.26666666666666666,
+      "knn_danger_metric": 0.2202622849105516
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.42549466730379915
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.559294865116094
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.6438857439380202
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.5468002321218733
     }
   },
   "semantic_logs": [
@@ -2334,51 +2334,30 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "المعارضة الإسرائيلية وعائلات قتلى السابع من أكتوبر ترفض تشكيل لجنة تحقيق بآلية سياسية https://almanar.com.lb/article/1004247/?s=tg",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "המספרים מדברים בעד עצמם...    אינטרנט הסיבים הטוב בישראל רק ב־ 49 ₪ לחודש. ✅ נתב כלול ✅ קו טלפון ביתי ✅ התקנה מהיום למחר  ⏳ השאירו פרטים ונחזור אליך מיד &gt;&gt; https://sales.cellcom.co.il/fiber/Fiber_49v2/?src=fiber_telegram_49_july",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "المكتب الإعلامي في وزارة المالية يوضح ما أثير بشأن شبهات في ملف استيراد الهواتف الذكية https://almanar.com.lb/article/1004372/?s=tg",
-      "absolute_sentiment": 0,
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "בחזרה ל&quot;מארב הדגל&quot; - סגירת מעגל  פנה אליי העוקב - לוחם ע&#39;, שהיה זה שהסיר את הדגל הממולכד שהניחו ועדות ההתנגדות ב 2018 על הגדר👆 באזור ח&#39;אן יונס. הוא ביקש לספר לאנשי ועדות ההתנגדות שהוא הגיע לעזה, ועמד בחודשים האחרונים על חורבותיה, גם אחרי הפציעה שעבר כתוצאה…",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: بقائي: إذا كان الأوروبيون مدافعين حقاً عن القانون الدولي وحقوق الإنسان فما كان ينبغي لهم أن يقفوا متفرجين أمام الظلم",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: طلائي: الانسجام الوطني والدعم الشعبي واقتدار النظام قد تعزز اليوم أكثر من أي وقت مضى",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: جنبلاط: &quot;اتفاق الإطار&quot; أحادي أملته &quot;إسرائيل&quot; على فريق لبناني يتمتع بخبرة محدودة في القانون والدبلوماسية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "شركة كهرباء محافظة القدس: انقطاع مفاجئ للكهرباء في أجزاء واسعة من رام الله والبيرة؛ بسبب خلل من المصدر، والعمل جارٍ لإعادة التيار فور استئناف التغذية.",
+      "text": "لبنان: مراسل الميادين في جنوب لبنان: الاحتلال الاسرائيلي ينفذ تفجيراً في بلدة دير سريان",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 12 العبرية: توجّه رئيس منتدى جنود الاحتياط في حزب الليكود، المحامي شلومو ليرنر، إلى رئيس لجنة الخارجية والأمن، عضو الكنيست بوعاز بيسموت، إلى جانب عشرات الضباط والمقاتلين في الاحتياط، داعيًا إلى المضي قدمًا في تمديد مدة الخدمة الإلزامية إلى 36 شهرًا.  وبحسب قولهم: &quot;إذا لم يُقرّ قانون تمديد الخدمة في القراءتين الثانية والثالثة، فإن ذلك سيعني تحميل مقاتلي الاحتياط، الذين يخدمون منذ اندلاع الحرب، عبئًا هائلًا إضافيًا فوق أكتافهم المنهكة.&quot;  #الإعلام_الحربي",
+      "text": "#إعلام_العدو   القناة 12 العبرية: توجّه رئيس منتدى جنود الاحتياط في حزب الليكود، المحامي شلومو ليرنر، إلى رئيس لجنة الخارجية والأمن، عضو الكنيست بوعاز بيسموت، إلى جانب عشرات الضباط والمقاتلين في الاحتياط، داعيًا إلى المضي قدمًا في تمديد مدة الخدمة الإلزامية إلى 36 شهرًا.  وبحسب قولهم: &quot;إذا لم يُقرّ قانون تمديد الخدمة في القراءتين الثانية والثالثة، فإن ذلك سيعني تحميل مقاتلي الاحتياط، الذين يخ��مون منذ اندلاع الحرب، عبئًا هائلًا إضافيًا فوق أكتافهم المنهكة.&quot;  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9989688179373749
     },
@@ -2411,13 +2390,6 @@
       "semantic_danger_knn": 0.9971053727196456
     },
     {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸 سالگرد نبرد «العصف المأکول»؛ نمادی از پایداری غزه و تحول در توان بازدارندگی مقاومت  🔹امروز، دوازدهمین سالگرد آغاز نبرد «العصف المأکول» است؛ نبردی ۵۱ روزه که از ۷ ژوئیه ۲۰۱۴ (۱۶/ ۰۴/ ۱۳۹۳) تا ۲۶ اوت (۱۳۹۳/۰۶/۰۴) آن سال ادامه یافت.  🔹این نبرد در فضایی از تنش شدید آغاز شد؛ از جمله پس از ربایش و قتل نوجوان فلسطینی، محمد ابوخضیر، در اردوگاه شعفاط قدس اشغالی و تشدید حملات ارتش رژیم صهیونیستی علیه نوار غزه.  https://irna.ir/xjXK7H @IRNA_1313",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9967898028530019
-    },
-    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "لقطات جوية للحشود الغفيرة من المصلّين وهي تؤدي الصلاة على جثمان القائد الشهيد  آية الله السيد علي الخامنئي (قدس سره) في مسجد جمكران.  #الإعلام_الحربي",
@@ -2430,6 +2402,34 @@
       "text": "#Russia #Iran   Rosatom plans to return its employees to the Bushehr nuclear power plant in the coming weeks, contingent on the stability of the security situation in the region.  Subscribe to @OSINTdefender Chat room",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 0.9639999019775375
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | استشهاد مدير العلاقات العامة باللجنة المصرية بغزة &quot;محمد فواز الوحيدي&quot; بقصف الاحتلال مركبة مدنية في حي الصبرة بمدينة غزة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9596045227592704
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | مدفعية الاحتلال تقصف مناطق غرب مدينة بيت لاهيا، شمال قطاع غزة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9596045227592704
+    },
+    {
+      "channelId": "OSINTdefender",
+      "channel": "Global_OSINT",
+      "text": "#Ukraine #USA #Russia   Ukrainian President Volodymyr Zelenskyy emphasized the critical need for more interceptor missiles to effectively defend against Russian ballistic threats, urging NATO allies to make strong commitments at the upcoming summit in Ankara to enhance Ukraine&#39;s air defense capabilities.  Subscribe to @OSINTdefender Chat room",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9595334992333653
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸بیانیه ترکیه علیه رژیم اسرائیل درباره جنگنده‌های اف-۳۵  🔹وزارت امور خارجه ترکیه در واکنش به اظهارات اخیر نخست‌وزیر اسرائیل درباره مخالفت با فروش جنگنده‌های اف-۳۵ به آنکارا، اسرائیل را به راه‌اندازی کارزار اطلاعات نادرست متهم کرد.  🔹وزارت امور خارجه ترکیه همچنین از اسرائیل خواست به جای تشدید تنش‌ها، رویکردی سازنده و مبتنی بر صلح در پیش گیرد و تأکید کرد که آنکارا همچنان به تحقق صلح، ثبات و رفاه در منطقه متعهد است و به بیان واقعیت‌ها ادامه خواهد داد.  https://irna.ir/xjXK9P @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.94373157024848
     }
   ]
 }
