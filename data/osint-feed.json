@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-07T04:47:31.047Z",
+  "last_updated": "2026-07-07T08:19:16.947Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "0.01"
+    "global_knn_danger": "0.55",
+    "global_norm_sentiment": "-0.14"
   },
   "timeline": [
-    {
-      "time": "2026-07-02T09:59:00.118Z",
-      "danger": 0.524,
-      "sentiment": -0.201,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.486,
-          "sentiment": -0.333
-        },
-        "OSINTdefender": {
-          "danger": 0.503,
-          "sentiment": -0.467
-        },
-        "irna_1313": {
-          "danger": 0.412,
-          "sentiment": 0.091
-        },
-        "sepah_pasdaran": {
-          "danger": 0.382,
-          "sentiment": 0.5
-        },
-        "almanarnews": {
-          "danger": 0.312,
-          "sentiment": -0.133
-        },
-        "C_Military1": {
-          "danger": 0.845,
-          "sentiment": -0.833
-        },
-        "almayadeen": {
-          "danger": 0.701,
-          "sentiment": -0.2
-        },
-        "QudsN": {
-          "danger": 0.645,
-          "sentiment": -0.5
-        }
-      }
-    },
     {
       "time": "2026-07-02T12:12:06.520Z",
       "danger": 0.516,
@@ -2261,13 +2214,60 @@
           "sentiment": 0.143
         }
       }
+    },
+    {
+      "time": "2026-07-07T08:19:16.947Z",
+      "danger": 0.545,
+      "sentiment": -0.137,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.409,
+          "sentiment": -0.1
+        },
+        "OSINTdefender": {
+          "danger": 0.624,
+          "sentiment": -0.067
+        },
+        "irna_1313": {
+          "danger": 0.507,
+          "sentiment": 0.033
+        },
+        "sepah_pasdaran": {
+          "danger": 0.277,
+          "sentiment": 0.067
+        },
+        "almanarnews": {
+          "danger": 0.417,
+          "sentiment": 0.267
+        },
+        "C_Military1": {
+          "danger": 0.726,
+          "sentiment": -0.167
+        },
+        "almayadeen": {
+          "danger": 0.655,
+          "sentiment": -0.433
+        },
+        "QudsN": {
+          "danger": 0.889,
+          "sentiment": -0.833
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.3975588621406502
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.40926890879628874
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 13,
-      "raw_sentiment": -0.15384615384615385,
-      "knn_danger_metric": 0.5786931141017176
+      "num_messages": 15,
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.5066500676544645
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.5333333333333333,
-      "knn_danger_metric": 0.4356116940628713
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.2772885488413398
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.5333333333333333,
-      "knn_danger_metric": 0.41591271210691294
+      "raw_sentiment": 0.26666666666666666,
+      "knn_danger_metric": 0.41690342868427965
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 12,
-      "raw_sentiment": -0.375,
-      "knn_danger_metric": 0.6510506118384339
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.7263783745472249
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.5173113802228122
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.6552401026648701
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 14,
-      "raw_sentiment": 0.14285714285714285,
-      "knn_danger_metric": 0.7186590471470957
+      "num_messages": 9,
+      "raw_sentiment": -0.8333333333333334,
+      "knn_danger_metric": 0.8888888888888888
     }
   },
   "semantic_logs": [
@@ -2334,102 +2334,102 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; نمای هوایی از حضور خیل عظیم عزاداران در مسجد مقدس جمکران و خیابان‌های اطراف &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 1,
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "איראן: גופתו של עלי ח&#39;אמינאי הוטסה אתמול במסוק למסגד ג&#39;מכראן בעיר קום.  המונים משתתפים במסע ההלוויה שם הבוקר .  תגובה אחת",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️ تصویر هوایی از اقامه نماز بر پیکر رهبر شهید انقلاب اسلامی در مسجد مقدس جمکران. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 1,
+      "text": "&rlm; ️#تکمیلی |  رسانه‌های سوریه: صدای انفجار در نزدیکی هتل محل اقامت مکرون در دمشق شنیده شد. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; نمایی از حال و هواى شهر نجف در آستانه تشييع رهبر شهید انقلاب &lrm;✅ @sepah_pasdaran",
+      "text": "&rlm; ️جهان، ماتِ تهران  مروری بر روایت رسانه‌های جهان از مراسم تشییع رهبر شهید   #باید_برخاست &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: الاحتلال الإسرائيلي يقوم بعملية تفجير في بلدة حداثا جنوبي لبنان",
-      "absolute_sentiment": 0.5,
+      "text": "إيران: اللواء إسماعيل أحمدي مقدم: كان هدفهم انهيار النظام من الداخل لكن حساباتهم كانت خاطئة والدليل هذا التشييع المليوني",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي على شارع صلاح الدين بحي الزيتون شرق مدينة غزة",
+      "text": "إيران: اللواء إسماعيل أحمدي مقدم: تهديدات ترامب فارغة وهي للاستهلاك المحلي الأميركي بسبب الانتخابات النصفية للكونغرس",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: اللواء إسماعيل أحمدي مقدم: إذا كان ترامب يستطيع إتمام المهمة لماذا هرب من الحرب ووقع مذكرة التفاهم؟",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فرنسا: الإليزيه: ماكرون لم يسمع أي انفجارات وهو في طريقه للقاء الشرع في دمشق",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "متابعة | قوات الاحتلال تداهم منزلاً خلال اقتحام قرية مادما، جنوب نابلس.",
+      "text": "عاجل| انفجار داخل منزل اقتحمه الاحتلال وسط نابلس.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تواصل اقتحام وسط نابلس.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تعتقل الأسير المحرر غسان الأطرش خلال اقتحام حي الألمانية بمدينة جنين.",
+      "text": "قوات الاحتلال تنفذ تفجيرا داخل منزل اقتحمته في وسط نابلس.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "آثار التخريب الذي خلفه جيش الاحتلال عقب مداهمة أحد المنازل في قرية مادما، جنوب نابلس.",
+      "text": "انتهاكات متواصلة: الاحتلال يعتقل 6 صيادين قبالة بحر وسط غزة   https://qudsn.co/post/216438",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال محيط مستشفى الوطني وسط مدينة نابلس.",
-      "absolute_sentiment": 0.5,
+      "text": "قوات الاحتلال تنفذ عملية تفجير خلال اقتحام منزل وسط نابلس.",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "متابعة | قوات الاحتلال تواصل اقتحامها لقرية مادما جنوب نابلس، وسط حملة مداهمات واعتقالات واسعة.",
-      "absolute_sentiment": 0.5,
+      "text": "الاحتلال يمنع الصحفيين من تغطية اعتداءات المستوطنين في مسافر يطا بالخليل.",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال شارع الحجة عفيفة ومحيط المستشفى الوطني وسط مدينة نابلس",
-      "absolute_sentiment": 0.5,
+      "text": "الاحتلال يهدم منزلين قيد الإنشاء غرب رام الله   https://qudsn.co/post/216439",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 12 العبرية: توجّه رئيس منتدى جنود الاحتياط في حزب الليكود، المحامي شلومو ليرنر، إلى رئيس لجنة الخارجية والأمن، عضو الكنيست بوعاز بيسموت، إلى جانب عشرات الضباط والمقاتلين في الاحتياط، داعيًا إلى المضي قدمًا في تمديد مدة الخدمة الإلزامية إلى 36 شهرًا.  وبحسب قولهم: &quot;إذا لم يُقرّ قانون تمديد الخدمة في القراءتين الثانية والثالثة، فإن ذلك سيعني تحميل مقاتلي الاحتياط، الذين يخدمون منذ اندلاع الحرب، عبئًا هائلًا إضافيًا فوق أكتافهم المنهكة.&quot;  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9989688179373749
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   أمين المجلس الأعلى للأمن القومي الإيراني لترامب:  استخدمتَ سابقًا خطابًا مشابهًا عندما كنتَ رئيسًا لدولة لا يتجاوز تاريخها 250 عامًا بادّعائك أنّك ستقضي على الحضارة الإيرانية التي تمتد إلى آلاف السنين  النتيجة لم تكن سوى الهزيمة واليأس وفي النهاية الدعوة إلى التفاوض ووقف النار فالتهديدات لم تكن يومًا لغة يقبلها الشعب الإيراني.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9983066549557927
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 12 العبرية: لا يزال لدى حزب الله عناصر في مناطق داخل الخط الأصفر مثل بنت جبيل ودير سريان ومجدل زون.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.99720937139592
     }
   ]
 }
