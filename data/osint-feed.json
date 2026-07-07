@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-07T21:20:03.799Z",
+  "last_updated": "2026-07-07T22:57:14.908Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.51",
-    "global_norm_sentiment": "-0.13"
+    "global_knn_danger": "0.60",
+    "global_norm_sentiment": "-0.23"
   },
   "timeline": [
-    {
-      "time": "2026-07-02T23:00:49.197Z",
-      "danger": 0.568,
-      "sentiment": -0.257,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.588,
-          "sentiment": -0.467
-        },
-        "OSINTdefender": {
-          "danger": 0.476,
-          "sentiment": -0.567
-        },
-        "irna_1313": {
-          "danger": 0.548,
-          "sentiment": -0.033
-        },
-        "sepah_pasdaran": {
-          "danger": 0.371,
-          "sentiment": -0.267
-        },
-        "almanarnews": {
-          "danger": 0.272,
-          "sentiment": 0.333
-        },
-        "C_Military1": {
-          "danger": 0.804,
-          "sentiment": -0.467
-        },
-        "almayadeen": {
-          "danger": 0.723,
-          "sentiment": -0.567
-        },
-        "QudsN": {
-          "danger": 0.949,
-          "sentiment": -0.4
-        }
-      }
-    },
     {
       "time": "2026-07-03T02:34:55.454Z",
       "danger": 0.554,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.367
         }
       }
+    },
+    {
+      "time": "2026-07-07T22:57:14.908Z",
+      "danger": 0.604,
+      "sentiment": -0.226,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.617,
+          "sentiment": -0.367
+        },
+        "OSINTdefender": {
+          "danger": 0.589,
+          "sentiment": -0.133
+        },
+        "irna_1313": {
+          "danger": 0.542,
+          "sentiment": -0.267
+        },
+        "sepah_pasdaran": {
+          "danger": 0.519,
+          "sentiment": -0.867
+        },
+        "almanarnews": {
+          "danger": 0.559,
+          "sentiment": 0.6
+        },
+        "C_Military1": {
+          "danger": 0.69,
+          "sentiment": -0.125
+        },
+        "almayadeen": {
+          "danger": 0.868,
+          "sentiment": -0.233
+        },
+        "QudsN": {
+          "danger": 0.711,
+          "sentiment": -0.733
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,7 +2279,7 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
+      "raw_sentiment": -0.36666666666666664,
       "knn_danger_metric": 0.617089379414666
     },
     "OSINTdefender": {
@@ -2291,20 +2291,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.4301273342125642
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.5416523463650279
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.26164526733291715
+      "raw_sentiment": -0.8666666666666667,
+      "knn_danger_metric": 0.5188463796021571
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.5666666666666667,
-      "knn_danger_metric": 0.6203151027864616
+      "raw_sentiment": 0.6,
+      "knn_danger_metric": 0.5586324855987141
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.4366242974492292
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.8683910121438881
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.5281336698519465
+      "raw_sentiment": -0.7333333333333333,
+      "knn_danger_metric": 0.7107874312929697
     }
   },
   "semantic_logs": [
@@ -2369,17 +2369,24 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "بالفيديو | قائد قوة القدس في الحرس الثوري الايراني إسماعيل قاآني يصل الى النجف الأشرف https://almanar.com.lb/article/1005132/?s=tg",
-      "absolute_sentiment": 0.5,
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️گزارش ها از قطعی سراسری برق در کویت و بخش‌هایی از بحرین  منابع خبری از قطعی گسترده برق در بیشتر شهرهای کویت و مناطقی از در بحرین خبر می دهند. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "بالصور | رئيس مجلس الوزراء العراقي علي فالح الزيدي ي��تقبل الرئيس الإيراني في محافظة النجف الاشرف ويؤكد عمق العلاقات بين البلدين https://almanar.com.lb/article/1005152/?s=tg",
-      "absolute_sentiment": 0.5,
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️‌  نیویورک‌تایمز: درپی حملهٔ آمریکا به ایران، قیمت نفت با جهشی ۶ درصدی به حدود ۷۶.۵ دلار در هر بشکه رسید. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️گزارش ها از قطعی سراسری برق در کویت و بخش‌هایی از بحرین  منابع خبری از قطعی گسترده برق در بیشتر شهرهای کویت و مناطقی از در بحرین خبر می دهند. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2392,44 +2399,37 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: اللواء رضائي: القاتلان اللذان اغتالا القائد الشهيد خامنئي يجب ألا يفلتا من العقاب",
+      "text": "إيران: التلفزيون الإيراني: أنباء عن دوي عدة انفجارات في مدينة سيريك الساحلية جنوبي البلاد",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: وزارة الخارجية: الخطوة الأميركية تعد مصداقاً للنقض الصارخ للبند الـ 10 من مذكرة تفاهم إنهاء الحرب",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: وزارة الخارجية: خطوة الخزانة الأميركية تحمّل الإدارة الأميركية مسؤولية تداعيات النكث بالعهود",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: وزارة الخارجية: الإعلان عن إلغاء الترخيص العام هو مؤشر آخر على سوء النية وعدم الاستقرار",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: التلفزيون الإيراني: أنباء عن دوي عدة انفجارات في مدينة سيريك الساحلية جنوبي البلاد",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة حزما شمال القدس المحتلة.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "لحظة اعتقال قوات الاحتلال والد الشهيد نور الدين فياض من منطقة واد برقين غرب جنين",
+      "text": "إيران: التلفزيون الإيراني: دوي 7 انفجارات قبل دقائق في سيريك ناجمة عن إصابة مقذوفات للرصيف التجاري بالمدينة ورصيف الصيد في قرية زيارت",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تعتقل الشاب محمد حسان محيسن عقب مداهمة منزله في قرية الفندق، شرق قلقيلية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 12 العبرية: توجّه رئيس منتدى جنود الاحتياط في حزب الليكود، المحامي شلومو ليرنر، إلى رئيس لجنة الخارجية والأمن، عضو الكنيست بوعاز بيسموت، إلى جانب عشرات الضباط والمقاتلين في الاحتياط، داعيًا إلى المضي قدمًا في تمديد مدة الخدمة الإلزامية إلى 36 شهرًا.  وبحسب قولهم: &quot;إذا لم يُقرّ قانون تمديد الخدمة في القراءتين الثانية والثالثة، فإن ذلك سيعني تحميل مقاتلي الاحتياط، الذين يخدمون منذ اندلاع الحرب، عبئًا هائلًا إضافيًا فوق أكتافهم المنهكة.&quot;  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9989688179373749
     }
   ]
 }
