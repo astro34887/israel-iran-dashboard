@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-06T22:10:44.216Z",
+  "last_updated": "2026-07-07T00:03:41.721Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.51",
-    "global_norm_sentiment": "-0.02"
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.15"
   },
   "timeline": [
-    {
-      "time": "2026-07-02T02:51:53.932Z",
-      "danger": 0.561,
-      "sentiment": -0.318,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.373,
-          "sentiment": -0.667
-        },
-        "OSINTdefender": {
-          "danger": 0.503,
-          "sentiment": -0.467
-        },
-        "irna_1313": {
-          "danger": 0.566,
-          "sentiment": -0.385
-        },
-        "sepah_pasdaran": {
-          "danger": 0.539,
-          "sentiment": -0.733
-        },
-        "almanarnews": {
-          "danger": 0.457,
-          "sentiment": -0.133
-        },
-        "C_Military1": {
-          "danger": 0.785,
-          "sentiment": -0.433
-        },
-        "almayadeen": {
-          "danger": 0.554,
-          "sentiment": -0.1
-        },
-        "QudsN": {
-          "danger": 0.883,
-          "sentiment": -0.133
-        }
-      }
-    },
     {
       "time": "2026-07-02T06:38:24.920Z",
       "danger": 0.531,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.233
         }
       }
+    },
+    {
+      "time": "2026-07-07T00:03:41.721Z",
+      "danger": 0.522,
+      "sentiment": -0.153,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.398,
+          "sentiment": -0.3
+        },
+        "OSINTdefender": {
+          "danger": 0.644,
+          "sentiment": 0.067
+        },
+        "irna_1313": {
+          "danger": 0.606,
+          "sentiment": -0.4
+        },
+        "sepah_pasdaran": {
+          "danger": 0.164,
+          "sentiment": -0.167
+        },
+        "almanarnews": {
+          "danger": 0.544,
+          "sentiment": 0
+        },
+        "C_Military1": {
+          "danger": 0.651,
+          "sentiment": -0.333
+        },
+        "almayadeen": {
+          "danger": 0.364,
+          "sentiment": 0.1
+        },
+        "QudsN": {
+          "danger": 0.9,
+          "sentiment": -0.367
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2280,7 +2280,7 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.4110150517906133
+      "knn_danger_metric": 0.3975588621406502
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,20 +2291,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.3,
-      "knn_danger_metric": 0.6972461475371616
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.6055199630561553
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.23333333333333334,
-      "knn_danger_metric": 0.16187284503031707
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.16438521460431849
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.4727110555270427
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.5442411149314063
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.23333333333333334,
-      "knn_danger_metric": 0.3306906107665369
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.3640239440998702
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.7692193405082648
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.8997037342438278
     }
   },
   "semantic_logs": [
@@ -2348,6 +2348,13 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 أمين المجلس الأعلى للأمن القومي الايراني لترامب: خاطب الشعب الإيراني باحترام وإلا https://almanar.com.lb/article/1003127/?s=tg",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
       "text": "لبنان: مراسل الميادين: الاحتلال الإسرائيلي يقوم بعملية تفجير في بلدة حداثا جنوبي لبنان",
@@ -2359,20 +2366,6 @@
       "channel": "Arab_Axis",
       "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي على شارع صلاح الدين بحي الزيتون شرق مدينة غزة",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "غزة تسحب الذرائع.. خطوة جديدة نحو تمكين اللجنة الوطنية لإدارة غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوة من جيش الاحتلال تقتحم منطقة القحوانة في بلدة الشيوخ شمال الخليل.",
-      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
@@ -2404,32 +2397,39 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 12 العبرية: توجّه رئيس منتدى جنود الاحتياط في حزب الليكود، المحامي شلومو ليرنر، إلى رئيس لجنة الخارجية والأمن، عضو الكنيست بوعاز بيسموت، إلى جانب عشرات الضباط والمقاتلين في الاحتياط، داعيًا إلى المضي قدمًا في تمديد مدة الخدمة الإلزامية إلى 36 شهرًا.  وبحسب قولهم: &quot;إذا لم يُقرّ قانون تمديد الخدمة في القراءتين الثانية والثالثة، فإن ذلك سيعني تحميل مقاتلي الاحتياط، الذين يخدمون منذ اندلاع الحرب، عبئًا هائلًا إضافيًا فوق أكتافهم المنهكة.&quot;  #الإعلام_الحربي",
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تداهم سكنًا يؤوي نازحين من مخيم جنين في محيط الجامعة العربية الأمريكية",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9989688179373749
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   أمين المجلس الأعلى للأمن القومي الإيراني لترامب:  استخدمتَ سابقًا خطابًا مشابهًا عندما كنتَ رئيسًا لدولة لا يتجاوز تاريخها 250 عامًا بادّعائك أنّك ستقضي على الحضارة الإيرانية التي تمتد إلى آلاف السنين  النتيجة لم تكن سوى الهزيمة واليأس وفي النهاية الدعوة إلى التفاوض ووقف النار فالتهديدات لم تكن يومًا لغة يقبلها الشعب الإيراني.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9983066549557927
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم الحي الشرقي لمدينة طولكرم",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🎥 شاعران از رهبر شهید چه آموختند؟  🔹سال‌ها شعر در زندگی رهبر انقلاب حضوری پررنگ داشت؛ حضوری که در حافظه، سخن و در نگاهش به ادبیات فارسی دیده می‌شد. ایشان فقط شنونده شعر نبودند، خواننده، منتقد و مخاطبی دقیق بودند. روایتی از پیوندی که یکی از متفاوت‌ترین محافل شعر کشور را شکل داد.  #باید_برخاست #بدرقه_آقای_شهید_ایران  https://irna.ir/xjXJRk @IRNA_1313",
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم حي &quot;أم الشرايط&quot; بمدينة البيرة.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.998233729094311
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🎥هم‌اکنون؛ نمای هوایی از مسجد مقدس جمکران؛ ساعاتی پیش از مراسم اقامه نماز بر پیکر مطهر رهبر شهید انقلاب و شهدای خانواده ایشان. ۱۴۰۵/۴/۱۵ #باید_برخاست #بدرقه_آقای_شهید_ایران  @IRNA_1313",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9973547420446702
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة يعبد، جنوب غرب جنين.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوة من جيش الاحتلال تداهم بناية سكنية بالقرب من دوار الشهيد يحيى عياش في جنين.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
     }
   ]
 }
