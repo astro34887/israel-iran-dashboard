@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-07T17:10:19.448Z",
+  "last_updated": "2026-07-07T19:49:38.380Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.51",
+    "global_knn_danger": "0.54",
     "global_norm_sentiment": "-0.03"
   },
   "timeline": [
-    {
-      "time": "2026-07-02T19:18:42.804Z",
-      "danger": 0.531,
-      "sentiment": -0.28,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.548,
-          "sentiment": -0.6
-        },
-        "OSINTdefender": {
-          "danger": 0.476,
-          "sentiment": -0.567
-        },
-        "irna_1313": {
-          "danger": 0.406,
-          "sentiment": -0.1
-        },
-        "sepah_pasdaran": {
-          "danger": 0.304,
-          "sentiment": -0.367
-        },
-        "almanarnews": {
-          "danger": 0.436,
-          "sentiment": 0
-        },
-        "C_Military1": {
-          "danger": 0.804,
-          "sentiment": -0.467
-        },
-        "almayadeen": {
-          "danger": 0.767,
-          "sentiment": -0.167
-        },
-        "QudsN": {
-          "danger": 0.619,
-          "sentiment": -0.4
-        }
-      }
-    },
     {
       "time": "2026-07-02T21:00:44.400Z",
       "danger": 0.562,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.033
         }
       }
+    },
+    {
+      "time": "2026-07-07T19:49:38.380Z",
+      "danger": 0.54,
+      "sentiment": -0.026,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.601,
+          "sentiment": -0.467
+        },
+        "OSINTdefender": {
+          "danger": 0.589,
+          "sentiment": -0.133
+        },
+        "irna_1313": {
+          "danger": 0.511,
+          "sentiment": 0.367
+        },
+        "sepah_pasdaran": {
+          "danger": 0.44,
+          "sentiment": -0.2
+        },
+        "almanarnews": {
+          "danger": 0.609,
+          "sentiment": 0.567
+        },
+        "C_Military1": {
+          "danger": 0.69,
+          "sentiment": -0.125
+        },
+        "almayadeen": {
+          "danger": 0.342,
+          "sentiment": 0.067
+        },
+        "QudsN": {
+          "danger": 0.67,
+          "sentiment": -0.2
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2280,49 +2280,49 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.5492819287275884
+      "knn_danger_metric": 0.6008162856636597
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.6496878685201667
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.5885788263346365
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.6006183777577402
+      "raw_sentiment": 0.36666666666666664,
+      "knn_danger_metric": 0.5112480314504293
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.36666666666666664,
-      "knn_danger_metric": 0.29391454031592246
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.43965046453101025
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.26666666666666666,
-      "knn_danger_metric": 0.2202622849105516
+      "raw_sentiment": 0.5666666666666667,
+      "knn_danger_metric": 0.609440700670291
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 12,
       "raw_sentiment": -0.125,
-      "knn_danger_metric": 0.6902668060514828
+      "knn_danger_metric": 0.6901484460502681
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.559294865116094
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.3417902314613928
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.5468002321218733
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.6698068645595829
     }
   },
   "semantic_logs": [
@@ -2348,16 +2348,72 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "מקורות עזתיים מדווחים על שני הרוגים בתקיפת ג&#39;יפ לפני זמן קצר בשכונת צברה בעיר עזה.  בכך מגיע מספר ההרוגים ברצועה מתקיפות צה&quot;ל מאז שעות הבוקר ל - 6.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "מקורות עזתיים מדווחים על שני הרוגים בתקיפת ג&#39;יפ לפני זמן קצר בשכונת צברה בעיר עזה.  בכך מגיע מספר ההרוגים ברצועה מתקיפות צה&quot;ל מאז שעות הבוקר ל - 6.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "بالفيديو | وصول الطائرة التي تقل جثمان الامام الشهيد السيد علي الخامنئي الى مطار النجف الأشرف https://almanar.com.lb/article/1005117/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "بالفيديو | قائد قوة القدس في الحرس الثوري الايراني إسماعيل قاآني يصل الى النجف الأشرف https://almanar.com.lb/article/1005132/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "بالصور | رئيس مجلس الوزراء العراقي علي فالح الزيدي يستقبل الرئيس الإيراني في محافظة النجف الاشرف ويؤكد عمق العلاقات بين البلدين https://almanar.com.lb/article/1005152/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "بالفيديو | الطائرة التي تقل جثمان الإمام الشهيد السيد علي الخامنئي في مطار النجف الاشرف https://almanar.com.lb/article/1005222/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في جنوب لبنان: الاحتلال الاسرائيلي ينفذ تفجيراً في بلدة دير سريان",
+      "text": "وسط تصاعد التضييقات الإسرائيلية..   الاحتلال يخطر مزارعاً مسناً بالرحيل من منطقة &quot;الرأس الأحمر&quot; شرق طوباس؛ لشق طريق عسكري.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "ما الذي يقلق &quot;إسرائيل&quot; من احتمالية امتلاك تركيا مقاتلات إف 35؟  التفاصيل:   https://qudsn.co/post/216447",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "حياة الطبيب مروان الهمص في خطر حقيقي داخل سجون الاحتلال  التفاصيل:   https://qudsn.co/post/216446",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 12 العبرية: توجّه رئيس منتدى جنود الاحتياط في حزب الليكود، المحامي شلومو ليرنر، إلى رئيس لجنة الخارجية والأمن، عضو الكنيست بوعاز بيسموت، إلى جانب عشرات الضباط والمقاتلين في الاحتياط، داعيًا إلى المضي قدمًا في تمديد مدة الخدمة الإلزامية إلى 36 شهرًا.  وبحسب قولهم: &quot;إذا لم يُقرّ قانون تمديد الخدمة في القراءتين الثانية والثالثة، فإن ذلك سيعني تحميل مقاتلي الاحتياط، الذين يخ��مون منذ اندلاع الحرب، عبئًا هائلًا إضافيًا فوق أكتافهم المنهكة.&quot;  #الإعلام_الحربي",
+      "text": "#إعلام_العدو   القناة 12 العبرية: توجّه رئيس منتدى جنود الاحتياط في حزب الليكود، المحامي شلومو ليرنر، إلى رئيس لجنة الخارجية والأمن، عضو الكنيست بوعاز بيسموت، إلى جانب عشرات الضباط والمقاتلين في الاحتياط، داعيًا إلى المضي قدمًا في تمديد مدة الخدمة الإلزامية إلى 36 شهرًا.  وبحسب قولهم: &quot;إذا لم يُقرّ قانون تمديد الخدمة في القراءتين الثانية والثالثة، فإن ذلك سيعني تحميل مقاتلي الاحتياط، الذين يخدمون منذ اندلاع الحرب، عبئًا هائلًا إضافيًا فوق أكتافهم المنهكة.&quot;  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9989688179373749
     },
@@ -2371,65 +2427,9 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 12 العبرية: لا يزال لدى حزب الله عناصر في مناطق داخل الخط الأصفر مثل بنت جبيل ودير سريان ومجدل زون.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.99720937139592
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
       "text": "#إعلام_العدو   القناة 12 العبرية: وفقاً لمصادر أمنية، القضاء على عناصر حزب الله داخل الخط الأصفر ليس بالأمر الذي يمكن تحقيقه في فترة وجيزة.  #الإعلام_الحربي",
       "absolute_sentiment": -0.5,
       "semantic_danger_knn": 0.99720937139592
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 12 العبرية: خلال الليل، تعرضت سفينة لم تلتزم بالمسار الإيراني المحدد في مضيق هرمز لهجوم بالصواريخ.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9971053727196456
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "لقطات جوية للحشود الغفيرة من المصلّين وهي تؤدي الصلاة على جثمان القائد الشهيد  آية الله السيد علي الخامنئي (قدس سره) في مسجد جمكران.  #الإعلام_الحربي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9922459567885074
-    },
-    {
-      "channelId": "OSINTdefender",
-      "channel": "Global_OSINT",
-      "text": "#Russia #Iran   Rosatom plans to return its employees to the Bushehr nuclear power plant in the coming weeks, contingent on the stability of the security situation in the region.  Subscribe to @OSINTdefender Chat room",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9639999019775375
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | استشهاد مدير العلاقات العامة باللجنة المصرية بغزة &quot;محمد فواز الوحيدي&quot; بقصف الاحتلال مركبة مدنية في حي الصبرة بمدينة غزة.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | مدفعية الاحتلال تقصف مناطق غرب مدينة بيت لاهيا، شمال قطاع غزة.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
-    },
-    {
-      "channelId": "OSINTdefender",
-      "channel": "Global_OSINT",
-      "text": "#Ukraine #USA #Russia   Ukrainian President Volodymyr Zelenskyy emphasized the critical need for more interceptor missiles to effectively defend against Russian ballistic threats, urging NATO allies to make strong commitments at the upcoming summit in Ankara to enhance Ukraine&#39;s air defense capabilities.  Subscribe to @OSINTdefender Chat room",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9595334992333653
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸بیانیه ترکیه علیه رژیم اسرائیل درباره جنگنده‌های اف-۳۵  🔹وزارت امور خارجه ترکیه در واکنش به اظهارات اخیر نخست‌وزیر اسرائیل درباره مخالفت با فروش جنگنده‌های اف-۳۵ به آنکارا، اسرائیل را به راه‌اندازی کارزار اطلاعات نادرست متهم کرد.  🔹وزارت امور خارجه ترکیه همچنین از اسرائیل خواست به جای تشدید تنش‌ها، رویکردی سازنده و مبتنی بر صلح در پیش گیرد و تأکید کرد که آنکارا همچنان به تحقق صلح، ثبات و رفاه در منطقه متعهد است و به بیان واقعیت‌ها ادامه خواهد داد.  https://irna.ir/xjXK9P @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.94373157024848
     }
   ]
 }
