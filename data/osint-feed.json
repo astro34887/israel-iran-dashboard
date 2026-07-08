@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-08T13:53:31.860Z",
+  "last_updated": "2026-07-08T15:59:59.148Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.16"
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.14"
   },
   "timeline": [
-    {
-      "time": "2026-07-03T19:14:16.971Z",
-      "danger": 0.488,
-      "sentiment": -0.069,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.417,
-          "sentiment": -0.233
-        },
-        "OSINTdefender": {
-          "danger": 0.583,
-          "sentiment": -0.4
-        },
-        "irna_1313": {
-          "danger": 0.473,
-          "sentiment": -0.154
-        },
-        "sepah_pasdaran": {
-          "danger": 0.396,
-          "sentiment": -0.067
-        },
-        "almanarnews": {
-          "danger": 0.336,
-          "sentiment": 0.433
-        },
-        "C_Military1": {
-          "danger": 0.738,
-          "sentiment": -0.3
-        },
-        "almayadeen": {
-          "danger": 0.502,
-          "sentiment": -0.167
-        },
-        "QudsN": {
-          "danger": 0.488,
-          "sentiment": 0.333
-        }
-      }
-    },
     {
       "time": "2026-07-03T21:00:14.853Z",
       "danger": 0.482,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.167
         }
       }
+    },
+    {
+      "time": "2026-07-08T15:59:59.148Z",
+      "danger": 0.53,
+      "sentiment": -0.14,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.458,
+          "sentiment": -0.467
+        },
+        "OSINTdefender": {
+          "danger": 0.558,
+          "sentiment": -0.067
+        },
+        "irna_1313": {
+          "danger": 0.544,
+          "sentiment": -0.5
+        },
+        "sepah_pasdaran": {
+          "danger": 0.261,
+          "sentiment": 0.067
+        },
+        "almanarnews": {
+          "danger": 0.438,
+          "sentiment": 0.6
+        },
+        "C_Military1": {
+          "danger": 0.806,
+          "sentiment": -0.233
+        },
+        "almayadeen": {
+          "danger": 0.712,
+          "sentiment": -0.4
+        },
+        "QudsN": {
+          "danger": 0.573,
+          "sentiment": -0.267
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.5318520147285088
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.4575985857907572
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.23333333333333334,
-      "knn_danger_metric": 0.5483181695339613
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.5440798277535737
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.3017805632640674
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.26096070865220417
     },
     "almanarnews": {
       "name": "Hezbollah",
-      "num_messages": 13,
-      "raw_sentiment": 0.38461538461538464,
-      "knn_danger_metric": 0.4029521127811445
+      "num_messages": 15,
+      "raw_sentiment": 0.6,
+      "knn_danger_metric": 0.43847031247557255
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.772935392237775
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.8060892085506168
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.5334872444362275
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.7122519631711751
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.5951911101566469
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.5734402694039796
     }
   },
   "semantic_logs": [
@@ -2334,38 +2334,45 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "بالفيديو | الحرس الثوري الايراني ينشر مشاهد من عمليات اطلاق الصواريخ فجر اليوم نحو القواعد الأميركية في المنطقة",
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: &quot;جيش&quot; الاحتلال الإسرائيلي ينفذ تفجيراً في بلدة الطيبة جنوبي البلاد",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: التلفزيون الإيراني: 8 شهداء من القوات الجوية والبحرية للجيش في بندر عباس وبوشهر خلال العدوان الأميركي أمس",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: 4 شهداء ومصابون جراء استهداف طائرة مسيّرة إسرائيلية خيمة نازحين جنوبي خان يونس جنوبي قطاع غزة",
+      "text": "إيران: رضائي: خيارنا الآخر هو الانسحاب من معاهدة عدم انتشار الأسلحة النووية (NPT)",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: شهيد ومصابون جراء قصف من مسيّرة إسرائيلية في شارع العيون بحي الشيخ رضوان غربي مدينة غزة",
-      "absolute_sentiment": -1,
+      "text": "إيران: رضائي: الخيار الآخر الذي سيتم دراسته في حال وقوع هجوم أميركي شامل هو إحداث تغيير في العقيدة النووية الإيرانية",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: استشهاد طفل من حي الزيتون برصاص رشاش آلي إسرائيلي مثبّت على رافعة شرقي مدينة غزة",
-      "absolute_sentiment": -1,
+      "text": "إيران: رضائي: سنقوم بدراسة خيار تغيير عقيدتنا النووية إذا شعرنا بتهديد وجودي",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "وقفة في مدينة خان يونس؛ للمطالبة بتوفير المستلزمات الطبية ودعم القطاع الصحي، في ظل استمرار القصف والحرب والحصار.",
-      "absolute_sentiment": -0.5,
+      "text": "استشهاد طفل برصاص الاحتلال في حي الزيتون شرق مدينة غزة",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2381,13 +2388,6 @@
       "text": "#إعلام_العدو   القناة 12 العبرية: تم التحديث بأن وزير الدفاع الأمريكي ألغى زيارته اليوم إلى &quot;إسرائيل&quot;.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9979853054910217
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🎥کربلای مقدس در انتظار رسیدن پیکر مطهر رهبر شهید انقلاب  #باید_برخاست #بدرقه_آقای_شهید_ایران @IRNA_1313",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9973547420446702
     },
     {
       "channelId": "C_Military1",
@@ -2413,6 +2413,13 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
+      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: رئيس الوزراء نتنياهو يعقد في الساعات الأخيرة اجتماعات لتقييم الوضع.  #الإعلام_الحربي",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9945654842736754
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
       "text": "لقطات جوية للحشود الغفيرة من المصلّين وهي تؤدي الصلاة على جثمان القائد الشهيد  آية الله السيد علي الخامنئي (قدس سره) في مسجد جمكران.  #الإعلام_الحربي",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 0.9922459567885074
@@ -2420,16 +2427,9 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل | 8 شهداء بنيران الاحتلال في قطاع غزة، منذ فجر اليوم.",
+      "text": "عاجل | 9 شهداء بنيران الاحتلال في قطاع غزة، منذ فجر اليوم.",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 0.991473512586189
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | استشهاد طفل برصاص الاحتلال شرق مدينة غزة.",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9596045227592704
     }
   ]
 }
