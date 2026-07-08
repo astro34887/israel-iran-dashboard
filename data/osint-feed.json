@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-08T21:03:01.257Z",
+  "last_updated": "2026-07-08T23:01:46.082Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.55",
-    "global_norm_sentiment": "-0.22"
+    "global_knn_danger": "0.51",
+    "global_norm_sentiment": "-0.18"
   },
   "timeline": [
-    {
-      "time": "2026-07-04T04:31:58.016Z",
-      "danger": 0.519,
-      "sentiment": -0.075,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.364,
-          "sentiment": -0.233
-        },
-        "OSINTdefender": {
-          "danger": 0.583,
-          "sentiment": -0.267
-        },
-        "irna_1313": {
-          "danger": 0.457,
-          "sentiment": 0.7
-        },
-        "sepah_pasdaran": {
-          "danger": 0.423,
-          "sentiment": 0.467
-        },
-        "almanarnews": {
-          "danger": 0.39,
-          "sentiment": -0.467
-        },
-        "C_Military1": {
-          "danger": 0.738,
-          "sentiment": -0.3
-        },
-        "almayadeen": {
-          "danger": 0.654,
-          "sentiment": -0.433
-        },
-        "QudsN": {
-          "danger": 0.631,
-          "sentiment": -0.083
-        }
-      }
-    },
     {
       "time": "2026-07-04T07:42:26.199Z",
       "danger": 0.45,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.167
         }
       }
+    },
+    {
+      "time": "2026-07-08T23:01:46.082Z",
+      "danger": 0.506,
+      "sentiment": -0.177,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.428,
+          "sentiment": -0.4
+        },
+        "OSINTdefender": {
+          "danger": 0.522,
+          "sentiment": -0.367
+        },
+        "irna_1313": {
+          "danger": 0.492,
+          "sentiment": -0.2
+        },
+        "sepah_pasdaran": {
+          "danger": 0.28,
+          "sentiment": -0.2
+        },
+        "almanarnews": {
+          "danger": 0.246,
+          "sentiment": 0.067
+        },
+        "C_Military1": {
+          "danger": 0.826,
+          "sentiment": 0.267
+        },
+        "almayadeen": {
+          "danger": 0.71,
+          "sentiment": -0.633
+        },
+        "QudsN": {
+          "danger": 0.609,
+          "sentiment": -0.167
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
+      "raw_sentiment": -0.4,
       "knn_danger_metric": 0.4275473912031369
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.5316322876606453
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.5223998734048281
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.5830937673806311
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.49171111216132446
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.5090217735804786
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.27973032797813396
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.2,
-      "knn_danger_metric": 0.2815264173883885
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.24565667492609433
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": 0.26666666666666666,
-      "knn_danger_metric": 0.8247271419897599
+      "knn_danger_metric": 0.8264553238888444
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.9,
-      "knn_danger_metric": 0.7779229155167747
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.7103460929078952
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.5699310322800762
+      "knn_danger_metric": 0.6092661694693395
     }
   },
   "semantic_logs": [
@@ -2336,78 +2336,92 @@
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️رویترز: قیمت نفت خام برنت با ۵.۲ درصد افزایش، به ۷۸.۰۲ دلار در هر بشکه رسید. &lrm;✅ @sepah_pasdaran",
+      "text": "&rlm; ️گزارشاتی از صدای انفجار در شهر گرگان استان گلستان &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: وكالة نور نيوز الإيرانية: سماع دوي انفجار في منطقة تشابهار جنوب البلاد",
+      "text": "إيران: وكالة &quot;مهر&quot;: منظومة الدفاع الجوي الإيرانية اعترضت طائرة مسيرة معادية ودمرتها في جنوب البلاد",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: وكالة إيرنا: سماع أصوات نحو عشرة انفجارات في تشابهار وكونارك جنوبي البلاد",
+      "text": "إيران: وكالة &quot;مهر&quot;: مقذوفان أصابا جزيرة أبو موسى بينما أصاب مقذوفان آخران منطقة بندر سيريك شرقي محافظة هرمزكان",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: وكالة إيرنا: انقطاع التيار الكهربائي عن جزء من مدينة تشابهار جنوبي البلاد",
+      "text": "إيران: وكالة &quot;إرنا&quot;: لم يحدث أي استهداف في زاهدان والأنباء المنتشرة بهذا الخصوص كاذبة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: نورنيوز عن مصدر عسكري: تبدأ الوحدات الصاروخية وسلاح المسيرات خلال دقائق عمليات واسعة النطاق لاستهداف قواعد الجيش الأميركي",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: إطلاق نار مكثف من دبابات الاحتلال الإسرائيلي شمال شرقي مخيم البريج وسط القطاع",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: مراسل الميادين في طهران: الغارات الأميركية الأعنف استهدفت ميناء تشابهار",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: وكالة &quot;إرنا&quot;: الصورة التي استخدمها ترامب على أنها تعود لهجمات الليلة هي في الواقع صورة قديمة من حرب الـ12يوماً",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: التلفزيون الإيراني: استشهاد أحد عناصر الإطفاء إثر العدوان على مطار إيرانشهر في محافظة سيستان وبلوشستان",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
+      "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "إيران: نورنيوز عن مصدر مطلع: العدوان الذي شنه الجيش الأميركي على بوشهر لم يلحق أي أضرار بمحطة الطاقة النووية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: التلفزيون الإيراني: سماع دوي 3 انفجارات في محيط قرية طاهرويي في سيريك جنوب شرق البلاد",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: التلفزيون الإيراني: سماع دوي انفجارين في جزيرة أبو موسى",
+      "text": "عاجل: آليات الاحتلال تطلق نيرانها تجاه المناطق الشمالية الشرقية لمخيم البريج وسط القطاع",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل: آليات الاحتلال تطلق نيرانها تجاه المناطق الشرقية لمدينة غزة",
+      "text": "عاجل: زوارق الاحتلال الحربية تطلق نيرانها تجاه ساحل مدينة خان يونس جنوب قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تنتشر في حي خلة الصوحة بمدينة جنين، وتطلق قنابل صوت تجاه الأهالي",
-      "absolute_sentiment": -1,
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة قباطية جنوب جنين.",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "كتائب القسام تنشر مشاهد للشهيد القائد منذر يوسف الزهارنة، أثناء مشاركته في كمائن ضد قوات الاحتلال خلال الطوفان، ضمن عمله في كتيبة التفاح والدرج - لواء غزة",
+      "text": "مراسل شبكة قدس: قصف مدفعي يستهدف حيّ التفاح، بالتزامن مع إطلاق نار شرق مدينة غزة",
       "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم واد الفارعة جنوب طوباس وتقوم بإطلاق النار",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2416,20 +2430,6 @@
       "text": "أبرز ما جاء في كلمة حجة الإسلام والمسلمين الأمين العام لحزب الله سماحة الشيخ نعيم قاسم &quot;حفظه الله&quot;خلال التجمعات الشعبية اللبنانية والدولية بالتزامن مع تشييع إمام المستضعفين الشهيد السيد علي الخامنئي (قده):  يقول البعض لماذا عندكم علاقة مع إيران؟ يا أخي العلاقة مع إيران نحن نستفيد منها،لكن قولوا لي لماذا أنتم عندكم علاقة مع أميركا وأميركا تذلكم وترغمكم على خيارات وتأخذ خيراتكم ولا تعطيكم شيء؟   مئات الخروقات حصلت منذ وقت إطلاق النار حتى الآن وليس آخرها قتل مديرة المدرسة غندور ومعها والدتها واثنين من مخدوميها في سيارة مدنية في النبطية الفوقا   ماذا تقول السلطة؟ أين تحرككم لتطالبوا أميركا بالأصل؟   كل ما يحصل هو بقرار أميركي حتى &quot;الإسرائيلي&quot; دائمًا يقول نحن أخذنا إذنًا من أميركا أي لا يحصل شيء إلا بإذنها، أمريكا هي التي تسلبنا أميركا هي التي تتصرف بهذه الطريقة الوحشية   إن اتفاق الإطار الذي عقدته السلطة اللبنانية هو لمصلحة &quot;إسرائيل&quot; بالكامل  لو فكرت &quot;إسرائيل&quot; وحدها أن تكتب هذا الاتفاق لما استطاعت أن تنجزه إلا بالتعاون مع أميركا والسلطة اللبنانية.  #قوموا_لله #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9992311587558347
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "أبرز ما جاء في كلمة حجة الإسلام والمسلمين الأمين العام لحزب الله سماحة الشيخ نعيم قاسم &quot;حفظه الله&quot; خلال التجمعات الشعبية اللبنانية والدولية بالتزامن مع تشييع إمام المستضعفين الشهيد السيد علي الخامنئي (قده):  -  هو يريد أن يقول: أنا معكم أدعمكم اطلبوا ما شئتم سأكون بكل قوتي إلى جانبكم لا تخشوا حتى لو وقف العالم ضدكم فأنا والمؤمنون والمجاهدون ومعكم الله والملائكة معكم أدعمكم  -  هذه لها قيمة كبيرة هذا دعم للمسيرة دعم للمقاومة  - خلال كل هذه الفترة إلى حين الشهادة لم يطلب الإمام القائد منا شيئًا كان دائمًا يقول لمن يتابعون معنا: اسألوهم ماذا يريدون أعطوهم ما يطلبون لا توفروا شيئًا لهؤلاء الأبطال الشجعان.  - لم يطلب منا شيئًا وطلبنا كل شيء وكل ما طلبناه حصلنا عليه وهو نفس المسار الذي كان مع سيد شهداء الأمة السيد حسن رضوان الله تعالى عليه  -  أنت الولي الذي يُعطي ولا يأخذ أنت الولي الذي تدعم ولا يحتاج إلى أحد أنت الولي الذي تُصوّب إشاراتك تدخل إلى قلوبنا وعقولنا من دون أن تُفصح عنها حتى.  قوموا_لله #الإعلام_الحربي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9989454935938601
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "أبرز ما جاء في كلمة حجة الإسلام والمسلمين الأمين العام لحزب الله سماحة الشيخ نعيم قاسم &quot;حفظه الله&quot;خلال التجمعات الشعبية اللبنانية والدولية بالتزامن مع تشييع إمام المستضعفين الشهيد السيد علي الخامنئي (قده):   إيران هزمت أميركا و&quot;إسرائيل&quot; فلم تتمكنا من تحقيق الأهداف التي يريدونها وخرجت إيران عزيزة مرفوعة الرأس  شكرًا لإيران شكراً لإيران قيادة وحكومة وحرسًا وجيشًا وشعبًا ونخبًا شكراً لكم جميعاً لأنه في الحقيقة أنتم ستُعدّلون الواقع في المنطقة لمصلحة التحرير والحرية  لقد أعطتنا إيران القوة والدعم والعزّة وأعطتنا القدرة على التحرير وخدمة المجتمع.  #قوموا_لله #الإعلام_الحربي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9987911769576595
     }
   ]
 }
