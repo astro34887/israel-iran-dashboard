@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-08T05:47:20.823Z",
+  "last_updated": "2026-07-08T08:21:23.665Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.09"
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.03"
   },
   "timeline": [
-    {
-      "time": "2026-07-03T12:06:11.991Z",
-      "danger": 0.548,
-      "sentiment": -0.024,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.431,
-          "sentiment": -0.267
-        },
-        "OSINTdefender": {
-          "danger": 0.53,
-          "sentiment": -0.667
-        },
-        "irna_1313": {
-          "danger": 0.566,
-          "sentiment": 0.7
-        },
-        "sepah_pasdaran": {
-          "danger": 0.501,
-          "sentiment": 0.042
-        },
-        "almanarnews": {
-          "danger": 0.492,
-          "sentiment": 0.667
-        },
-        "C_Military1": {
-          "danger": 0.783,
-          "sentiment": -0.433
-        },
-        "almayadeen": {
-          "danger": 0.676,
-          "sentiment": -0.067
-        },
-        "QudsN": {
-          "danger": 0.554,
-          "sentiment": -0.077
-        }
-      }
-    },
     {
       "time": "2026-07-03T15:07:22.687Z",
       "danger": 0.52,
@@ -2261,6 +2214,53 @@
           "sentiment": 0.133
         }
       }
+    },
+    {
+      "time": "2026-07-08T08:21:23.665Z",
+      "danger": 0.529,
+      "sentiment": -0.026,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.419,
+          "sentiment": -0.462
+        },
+        "OSINTdefender": {
+          "danger": 0.558,
+          "sentiment": -0.067
+        },
+        "irna_1313": {
+          "danger": 0.568,
+          "sentiment": 0.233
+        },
+        "sepah_pasdaran": {
+          "danger": 0.456,
+          "sentiment": 0.5
+        },
+        "almanarnews": {
+          "danger": 0.44,
+          "sentiment": 0.1
+        },
+        "C_Military1": {
+          "danger": 0.773,
+          "sentiment": -0.333
+        },
+        "almayadeen": {
+          "danger": 0.495,
+          "sentiment": -0.1
+        },
+        "QudsN": {
+          "danger": 0.626,
+          "sentiment": 0
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2278,51 +2278,51 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 10,
-      "raw_sentiment": -0.65,
-      "knn_danger_metric": 0.5919822061858203
+      "num_messages": 13,
+      "raw_sentiment": -0.46153846153846156,
+      "knn_danger_metric": 0.41938521690355607
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.5608610272870856
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.5575926434971062
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.4,
-      "knn_danger_metric": 0.4820900770999574
+      "raw_sentiment": 0.23333333333333334,
+      "knn_danger_metric": 0.568342031780641
     },
     "sepah_pasdaran": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.4593165027057277
+      "num_messages": 13,
+      "raw_sentiment": 0.5,
+      "knn_danger_metric": 0.45600269311311575
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.6666666666666666,
-      "knn_danger_metric": 0.4713725907830212
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.44010572451863944
     },
     "C_Military1": {
       "name": "Hezbollah",
-      "num_messages": 13,
-      "raw_sentiment": -0.38461538461538464,
-      "knn_danger_metric": 0.7182795592013067
+      "num_messages": 15,
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.7730009597341986
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.6606757498417194
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.4952974924963692
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.5184754907583173
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.6264737921486438
     }
   },
   "semantic_logs": [
@@ -2334,45 +2334,73 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "מקורות אוסינט מדווחים: ביממה האחרונה הותקפו 5 מיכליות שעברו בנתיב השיט העומאני במצר הורמוז.  3 מתוך 5 מיכליות זוהו בשם. אחת טריה מהשעות האחרונות - טרם זוהתה. אחת נוספת לא דווחה אף על פי שנפגעה.  להלן שמות 3 המיכליות שזוהו + ציון בעלות:  מיכלית גז  בבעלות קטרית:…",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️تصاویر پهپاد سرنگون‌شده در شهرستان خورموج بوشهر &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "كلمة للشيخ نعيم قاسم مساء اليوم عند الساعة 9:00 https://almanar.com.lb/article/1006057/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: أسقطنا طائرة بدون طيار معادية من طراز MQ9 كانت تحاول التدخل في العملية",
+      "text": "إيران: وكالة إرنا: استشهاد عنصر من بحرية حرس الثورة في الاعتداءات الأميركية صباحاً في مدينة ماهشهر",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: جريح بنيران زوارق الاحتلال الحربية عند شاطئ بحر مدينة غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: العلاقات العامة للجيش الايراني: استهدفنا فجر اليوم مراكز تجمع القوات الأميركية في قاعدة الشيخ عيسى بالبحرين",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال المستمر لمخيم العين، غرب مدينة نابلس.",
+      "text": "إيران: مقر خاتم الأنبياء: أي مصدر يقدم أي نوع من الدعم للجيش الأميركي المعتدي في عدوانه سيكون هدفاً مشروعاً للقوات المسلحة الإيرانية",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال لمخيم العين غرب نابلس",
+      "text": "عاجل| الدفاع المدني: طواقم الدفاع المدني تتعامل ميدانيا مع إصابة لإمرأة مسنة إثر طلق طائش من الزوارق الإسرائيلية في منطقة الميناء غرب مدينة غزة",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "من اقنحام الاحتلال لمحيط مخيم العين غرب نابلس",
+      "text": "جيش الاحتلال يقتحم قرية الهاشمية غرب جنين ويعتلي قمة جبل &quot;ملاح&quot; في القرية",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "حزن وقهر تزامنا مع هدم الاحتلال لمنزل في بلدة إذنا غرب الخليل",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جرافات الاحتلال تنفذ عملية هدم لمنزل في بلدة صور باهر جنوب القدس المحتلة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مظاهرة في مدينة ميلانو الإيطالية للمطالبة بالإفراج عن الدكتور حسام أبو صفية من سجون الاحتلال",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2402,34 +2430,6 @@
       "text": "#إعلام_العدو   القناة 13 العبرية: بدء اجتماع الكابينيت الأمني السياسي.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9957890513813449
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "لقطات جوية للحشود الغفيرة من المصلّين وهي تؤدي الصلاة على جثمان القائد الشهيد  آية الله السيد علي الخامنئي (قدس سره) في مسجد جمكران.  #الإعلام_الحربي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9922459567885074
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "دلگرمی آقای شهید به یک شاعر جوان و واژه‌هایی که جان گرفتند  🔹 محمدتقی عزیزیان، شاعر، پژوهشگر، منتقد ادبی و نویسنده ده‌ها اثر در حوزه دفاع مقدس است که امیدآفرینی، دعای خیر و حمایت‌های فرهنگی ادبی رهبر شهید انقلاب را مهم‌ترین پشتوانه فعالیت‌های خود می‌داند و می گوید دلگرمی که رهبر شهید در یکی از دیدارها به او داد از جلسات شعر تا موفقیت‌های حرفه‌ای و انتشار آثارش امتداد یافته است. #باید_برخاست #بدرقه_آقای_شهید_ایران https://irna.ir/xjXDW4 @IRNA_1313",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9061350170438472
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "משמרות המהפכה האיראנים: תקפנו 85 מטרות בבחריין ובכווית בתגובה ראשונית לתקיפות האמריקאיות   כך נכתב בכרוז מטעם משמרות המהפכה האיראנים:   &quot;בתגובה ראשונית לתוקפנות , ביצעו כוחות הים וכוחות האוויר והחלל של משמרות המהפכה מבצע משולב של טילים וכטב&quot;מים, שבמסגרתו תקפו 85 יעדים במתקנים צבאיים חשובים של ארצות הברית בנמל סלמאן, במפקדת הצי החמישי האמריקאי בבחריין ובבסיס חיל האוויר עלי א-סאלם שבכווית. כמו כן כטב&quot;ם אמריקאי מסוג MQ-9, שניסה להתערב ולהפריע למבצע - הופל.&quot;  ## ארה&quot;ב הודיעה שתקפה 80 מטרות, אז משמרות המהפכה האיראנים הודיעו שתקפו 85 - כתגובה ראשונית...  ספק גדול אם האיראנים אכן תקפו 85 מטרות, אבל ממש חשוב להם להראות בכרוז שהם תקפו יותר... ככה זה עובד אצלם. משווים ומעלים.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.8696870579259541
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   رئيس مجلس الشورى الإيراني محمد باقر قاليباف: أبرز حالات انتهاك الولايات المتحدة لمذكرة التفاهم المكوّنة من 14 بندًا:  - انتهاك الترتيبات الإيرانية في مضيق هرمز. - التهديدات المستمرة بشن مزيد من الهجمات العسكرية. - مهاجمة المناطق الجنوبية من إيران. - إعادة فرض العقوبات النفطية. - استمرار اعتداءات الكيان الصهيوني على لبنان.   لقد انتهى عهد البلطجة والابتزاز؛ ولن تصلوا إلى أي نتيجة. لسنا ممن يتراجعون أو يتنازلون.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.8215705224293552
     }
   ]
 }
