@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-10T14:13:15.866Z",
+  "last_updated": "2026-07-10T16:52:45.828Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.11"
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.10"
   },
   "timeline": [
-    {
-      "time": "2026-07-05T07:53:20.621Z",
-      "danger": 0.493,
-      "sentiment": -0.108,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.272,
-          "sentiment": -0.3
-        },
-        "OSINTdefender": {
-          "danger": 0.594,
-          "sentiment": -0.067
-        },
-        "irna_1313": {
-          "danger": 0.606,
-          "sentiment": -0.2
-        },
-        "sepah_pasdaran": {
-          "danger": 0.243,
-          "sentiment": -0.333
-        },
-        "almanarnews": {
-          "danger": 0.307,
-          "sentiment": 0.75
-        },
-        "C_Military1": {
-          "danger": 0.765,
-          "sentiment": -0.567
-        },
-        "almayadeen": {
-          "danger": 0.531,
-          "sentiment": -0.233
-        },
-        "QudsN": {
-          "danger": 0.662,
-          "sentiment": 0.036
-        }
-      }
-    },
     {
       "time": "2026-07-05T10:07:55.874Z",
       "danger": 0.521,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.333
         }
       }
+    },
+    {
+      "time": "2026-07-10T16:52:45.828Z",
+      "danger": 0.517,
+      "sentiment": -0.103,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.447,
+          "sentiment": -0.6
+        },
+        "OSINTdefender": {
+          "danger": 0.551,
+          "sentiment": -0.3
+        },
+        "irna_1313": {
+          "danger": 0.584,
+          "sentiment": 0.033
+        },
+        "sepah_pasdaran": {
+          "danger": 0.3,
+          "sentiment": 0.3
+        },
+        "almanarnews": {
+          "danger": 0.378,
+          "sentiment": 0.533
+        },
+        "C_Military1": {
+          "danger": 0.801,
+          "sentiment": -0.367
+        },
+        "almayadeen": {
+          "danger": 0.53,
+          "sentiment": -0.133
+        },
+        "QudsN": {
+          "danger": 0.625,
+          "sentiment": -0.333
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.5643679613359485
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.4471920038780996
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.5196843134339578
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.5837735770090332
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.36666666666666664,
-      "knn_danger_metric": 0.4236181923986255
+      "raw_sentiment": 0.3,
+      "knn_danger_metric": 0.2998797115198804
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.4666666666666667,
-      "knn_danger_metric": 0.46301115012283917
+      "raw_sentiment": 0.5333333333333333,
+      "knn_danger_metric": 0.3784843290995513
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.7897754236319241
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.8010608463743202
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.4772032346434982
+      "knn_danger_metric": 0.5298771904943371
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.530974115241743
+      "knn_danger_metric": 0.6248154239139457
     }
   },
   "semantic_logs": [
@@ -2336,64 +2336,57 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "דובר צה&quot;ל: צה&quot;ל חיסל ראש חוליית נוח&#39;בה שפשט למחנה רעים בטבח ה-7 באוקטובר  צה&quot;ל תקף אתמול (ה&#39;) בדרום רצועת עזה וחיסל את המחבל יחיא סעיד מחמד חמדאן, ראש חוליית נוח&#39;בה בזרוע הצבאית של ארגון הטרור חמאס.   חמדאן פשט למחנה רעים במהלך טבח ה-7 באוקטובר.  תגובה אחת",
+      "text": "ערוצים לבנוניים מדווחים על הרוג בתקיפת הרכב בכפר רמאן בדרום לבנון☝️.  ע&quot;פ הסרטון המצורף הטיל הראשון של הכטב&quot;מ הישראלי פגע בחלק הקדמי של הרכב אולם הנהג ניצל והחל לברוח רגלית ואז שוגר טיל שני שפגע בו מחוץ לרכב - ניכרים סימני הדם.  הדובר בסרטון מקווה שיעד התקיפה יצליח להחלים אולם כאמור מקורות לבנוניים דיווחו כי הוא מת מפצעיו.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "דרום לבנון: נפגעים בתקיפת כטב&quot;מ ישראלי על רכב באזור כפר רמאן בנפת נבטיה - סמוך לרכס עלי א-טאהר.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "דרום לבנון: נפגעים בתקיפת כטב&quot;מ ישראלי על רכב באזור כפר רמאן בנפת נבטיה - סמוך לרכס עלי א-טאהר.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️قسام تسلیحات غنیمتی رژیم صهیونیستی را به نمایش گذاشت &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: محمد باقر ذو القدر: لن يكون الكيان الإسرائيلي المجرم في مأمن من ردّ القوات المسلحة الإيرانية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: غارة إسرائيلية استهدفت بلدة النبطية الفوقا في جنوب لبنان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: تسنيم: الهدف الرئيسي لزيارة الوفد القطري هو السعي لتثبيت مكانة الدوحة في الوساطة بعد أحداث يومي الثلاثاء أو الخميس",
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 رابطة العاملين في الجامعة اللبنانية دعت في كتاب مفتوح الى الرئيس بري الى تبني مطالبهم https://almanar.com.lb/article/1011912/?s=tg",
       "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: إصابات برصاص &quot;جيش&quot; الاحتلال شرقي مخيم البريج وسط قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: عضو هيئة رئاسة لجنة الطاقة في البرلمان الإيراني: أعمال إعادة إعمار جسر &quot;آق قلا&quot; بدأت بعد الساعات الأولى للعدوان وستنتهي قريباً",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: مسيرة إسرائيلية تلقي قنبلة على حي المحطة وسط خان يونس جنوبي قطاع غزة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: وزارة الصحة: 4321 شهيداً و12207 جريحاً في الحصيلة المحدثة للعدوان الإسرائيلي منذ 2 آذار/مارس",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: إصابة مواطن برصاص قوات الاحتلال شرقي مخيم البريج وسط قطاع غزة",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم مدينة سلفيت، في الضفة الغربية.",
+      "text": "قوات الاحتلال تقتحم بلدة بيت فوريك، شرق نابلس.",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "35 ألف فلسطيني لكل كيلومتر مربع ..  غزة بالأرقام: اكتظاظ غير مسبوق وانهيار إنساني",
-      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2418,18 +2411,25 @@
       "semantic_danger_knn": 0.9961486516080662
     },
     {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸آماده سازی ورودی رواق داراذکر، محل آرامگاه رهبر شهید. صحن آزادی، مشهد مقدس. عصر جمعه.  @IRNA_1313",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9947342193451484
-    },
-    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#إعلام_العدو   صحيفة إسرائيل اليوم العبرية - يوآف ليمور: أدرك الأمريكيون متأخرًا جدًا أنهم أبرموا صفقة سيئة. بالطبع، أُبلغوا بذلك في حينه، لكن الرئيس ترامب ليس من النوع الذي يُصغي. بالنسبة له، كانت الاتفاقية &quot;رائعة&quot; و&quot;عظيمة&quot;، وكل من يعارضها شخص حاقد لا يفقه شيئًا. وكعادته، لا يجد ترامب غضاضة في تغيير مواقفه، كما يفعل الآن. من الأفضل عدم التفاؤل كثيرًا، فسيُبدّل آراءه مرات عديدة، وكالعادة، سيُغلّفها بوابل من الشتائم.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9945654842736754
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   ممثل آية الله السيد مجتبى الخامنئي في المجلس الأعلى للأمن القومي الإيراني سعيد جليلي:   - الانتقام هو أكبر حق للشعب الإيراني في المرحلة الحالية ويجب أنْ يتحقّق  - إذا أخذ الشعب الإيراني بثأر القائد الشهيد الإمام الخامنئي في الوقت المناسب فإنّه يكون قد قدّم أكبر خدمة لحق الشعوب في السيادة وللقانون الدولي  - الشعب الإيراني صامد ولن يتنازل قيد أنملة عن حقوقه ونحن بانتظار تحقيق شروطه.  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.983843818521641
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | الهلال الأحمر : إصابة 8 فلسطينيين؛ جراء اعتداء المستوطنين وقوات الاحتلال في منطقة &quot;أصفي الفوقا&quot; بمسافر يطا، جنوب الخليل.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9596045227592704
     }
   ]
 }
