@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-11T11:00:21.563Z",
+  "last_updated": "2026-07-11T11:58:56.974Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.51",
-    "global_norm_sentiment": "-0.00"
+    "global_knn_danger": "0.50",
+    "global_norm_sentiment": "-0.01"
   },
   "timeline": [
-    {
-      "time": "2026-07-06T02:47:43.973Z",
-      "danger": 0.558,
-      "sentiment": -0.065,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.371,
-          "sentiment": -0.433
-        },
-        "OSINTdefender": {
-          "danger": 0.582,
-          "sentiment": -0.1
-        },
-        "irna_1313": {
-          "danger": 0.632,
-          "sentiment": -0.367
-        },
-        "sepah_pasdaran": {
-          "danger": 0.326,
-          "sentiment": 0.8
-        },
-        "almanarnews": {
-          "danger": 0.49,
-          "sentiment": 0.3
-        },
-        "C_Military1": {
-          "danger": 0.777,
-          "sentiment": 0.286
-        },
-        "almayadeen": {
-          "danger": 0.615,
-          "sentiment": -0.233
-        },
-        "QudsN": {
-          "danger": 0.836,
-          "sentiment": -0.767
-        }
-      }
-    },
     {
       "time": "2026-07-06T07:08:31.765Z",
       "danger": 0.538,
@@ -2261,6 +2214,53 @@
           "sentiment": 0.167
         }
       }
+    },
+    {
+      "time": "2026-07-11T11:58:56.974Z",
+      "danger": 0.504,
+      "sentiment": -0.008,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.446,
+          "sentiment": -0.643
+        },
+        "OSINTdefender": {
+          "danger": 0.509,
+          "sentiment": -0.2
+        },
+        "irna_1313": {
+          "danger": 0.535,
+          "sentiment": 0.067
+        },
+        "sepah_pasdaran": {
+          "danger": 0.278,
+          "sentiment": 0.133
+        },
+        "almanarnews": {
+          "danger": 0.201,
+          "sentiment": 0.5
+        },
+        "C_Military1": {
+          "danger": 0.692,
+          "sentiment": 0.067
+        },
+        "almayadeen": {
+          "danger": 0.796,
+          "sentiment": 0.2
+        },
+        "QudsN": {
+          "danger": 0.636,
+          "sentiment": -0.067
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2278,9 +2278,9 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.4110222750343033
+      "num_messages": 14,
+      "raw_sentiment": -0.6428571428571429,
+      "knn_danger_metric": 0.44563801850393175
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,20 +2291,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.6155381128692875
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.5346248942577666
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.29824005718189966
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.2784145343936171
     },
     "almanarnews": {
       "name": "Hezbollah",
-      "num_messages": 12,
-      "raw_sentiment": 0.08333333333333333,
-      "knn_danger_metric": 0.5102575856301654
+      "num_messages": 11,
+      "raw_sentiment": 0.5,
+      "knn_danger_metric": 0.20055291743041212
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.6,
-      "knn_danger_metric": 0.714898750319278
+      "raw_sentiment": 0.2,
+      "knn_danger_metric": 0.7955309257777059
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 12,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.4278585893619717
+      "num_messages": 15,
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.6359790201515358
     }
   },
   "semantic_logs": [
@@ -2334,24 +2334,17 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "עזה: תושבים לכדו גנב של מוני חשמל, גילחו את ראשו, קשרו את ידיו מאחורי גבו והיכו אותו.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
       "text": "&rlm;✅ يورو : 202,700 🔸دلار آمريکا : 177,550 🔸تتر : 176,270 🔸پوند انگليس : 235,600 🔸درهم امارات : 48,000 🔸يوآن چين : 26,280 🔸لير ترکيه : 3,840 🔸دینار کویت : 573,440  🔹طلاي 18 عيار هر گرم : 17,510,100 🔹سکه امامي : 176,000,000 🔹سکه بهار آزادي : 172,700,000 🔹نيم…",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "📹 الاحتلال يواصل اعتداءاته جنوباً والطيران المسيّر يخرق الأجواء اللبنانية https://almanar.com.lb/article/1013082/?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "📹&nbsp;تقرير مصور | والد الشهيد يوسف أبو ربيع يعود إلى الأرض بالبذور التي تركها نجله https://almanar.com.lb/article/1013167/?s=tg",
-      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2390,10 +2383,24 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تعتقل الشاب مؤمن عبد اللطيف وتنكل به في قرية المغير شمال شرق رام الله",
-      "absolute_sentiment": 0.5,
+      "text": "فلسطين المحتلة: مراسل الميادين: إصابة مواطن برصاص الاحتلال قرب منطقة الإقليمي جنوب مواصي خان يونس جنوب قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: غارة من مسيرة إسرائيلية استهدفت شارع الطينة جنوبي خان يونس",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: اعتداء بغارة شنها الطيران الحربي الإسرائيلي استهدفت بلدة المنصوري في قضاء صور جنوبي البلاد",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2404,32 +2411,25 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة معاريف العبرية - ألون بن دافيد: بعد فوات الأوان، وفي سن الثمانين، اكتشف ترامب هذا الأسبوع أن إيران ليست كالاتحاد الدولي لكرة القدم (فيفا). لا يستطيع إجبارها على أي شيء يريده. ليس لديه أي فرصة للتوصل إلى اتفاق مع إيران يتجاوز الاستسلام الأمريكي الكامل. لذلك، لن يكون هناك اتفاق، وسيظل النظام &quot;المُخَصَّب&quot;، كما يصفه، متمسكًا باليورانيوم المخصب وبموافقة أمريكية مبدئية على مواصلة تخصيب اليورانيوم في إيران.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9991673941388428
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "في اليوم العالمي للسكان..  أوضاع صعبة يعيشها النازحون في منطقة الزرقا في مدينة غزة، وسط نقص في المياه والغذاء وتدهور خدمات الصرف الصحي والرعاية الصحية.",
+      "absolute_sentiment": -0.5,
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸 ای پدر شهید امّت، نوشیدن شهد شهادت که عمری در آرزوی آن بودید، گوارایتان باد. پوشیدن خلعت شهادت با بدنی که نشان‌ها از مادرتان زهرای اطهر و جدّتان اباعبدالله الحسین و اباالفضل العباس علیهم الصلاة و السّلام دارد، مبارکتان باشد.  🔹 بخشی از پیام رهبر معظّم انقلاب به‌مناسبت تشییع و تدفین آقای شهید ایران |  ۱۸/تیر/۱۴۰۵  @IRNA_1313",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.998674257278381
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "محتجون يغلقون تقاطع &quot;يونغ وبلور&quot; الرئيسي للمطالبة بالإفراج الفوري عن الدكتور حسام أبو صفية وبقية الأسرى الفلسطينيين في سجون الاحتلال",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 13 العبرية - ألون بن دافيد:  بحسب التقييم في &quot;إسرائيل&quot;، فإن جولة القتال الحالية بين الولايات المتحدة وإيران تقترب من نهايتها، ومن المتوقع أن يعود الطرفان إلى المسار الدبلوماسي. كما تُقدّر &quot;إسرائيل&quot; أيضاً أننا قد نبقى لفترة طويلة دون اتفاق من جهة، ودون حرب من جهة أخرى.  #الإعلام_الحربي",
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل| طيران الاحتلال يشن غارة في شارع الطينة جنوب منطقة المسلخ جنوب خانيونس.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9979853054910217
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   رئيس مجلس الشورى محمد باقر قاليباف:  - خلال المفاوضات أوضحت لنائب الرئيس الأمريكي أننا لا نثق بكم إطلاقًا.  - من وجهة نظري، لا يستطيع التفاوض مع الولايات المتحدة إلا من يكون مستعدًا للحرب.  - كانت الولايات المتحدة والكيان الصهيوني وحلف الناتو قبل الحرب الأخيرة يعتقدون أنهم سيتمكنون خلال أقل من بضعة أيام من إجبار إيران على الاستسلام، لكنهم أدركوا سريعًا أنهم لن يحققوا أهدافهم.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9976865052770163
+      "semantic_danger_knn": 1
     }
   ]
 }
