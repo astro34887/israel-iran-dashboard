@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-11T11:58:56.974Z",
+  "last_updated": "2026-07-11T13:38:37.164Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.50",
-    "global_norm_sentiment": "-0.01"
+    "global_knn_danger": "0.54",
+    "global_norm_sentiment": "-0.12"
   },
   "timeline": [
-    {
-      "time": "2026-07-06T07:08:31.765Z",
-      "danger": 0.538,
-      "sentiment": -0.059,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.468,
-          "sentiment": -0.533
-        },
-        "OSINTdefender": {
-          "danger": 0.582,
-          "sentiment": -0.1
-        },
-        "irna_1313": {
-          "danger": 0.621,
-          "sentiment": 0.833
-        },
-        "sepah_pasdaran": {
-          "danger": 0.379,
-          "sentiment": 0
-        },
-        "almanarnews": {
-          "danger": 0.419,
-          "sentiment": 0.1
-        },
-        "C_Military1": {
-          "danger": 0.741,
-          "sentiment": 0.045
-        },
-        "almayadeen": {
-          "danger": 0.663,
-          "sentiment": -0.4
-        },
-        "QudsN": {
-          "danger": 0.557,
-          "sentiment": -0.4
-        }
-      }
-    },
     {
       "time": "2026-07-06T12:00:27.297Z",
       "danger": 0.492,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.067
         }
       }
+    },
+    {
+      "time": "2026-07-11T13:38:37.164Z",
+      "danger": 0.542,
+      "sentiment": -0.12,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.486,
+          "sentiment": -0.533
+        },
+        "OSINTdefender": {
+          "danger": 0.509,
+          "sentiment": -0.2
+        },
+        "irna_1313": {
+          "danger": 0.511,
+          "sentiment": -0.4
+        },
+        "sepah_pasdaran": {
+          "danger": 0.426,
+          "sentiment": 0.167
+        },
+        "almanarnews": {
+          "danger": 0.322,
+          "sentiment": 0.3
+        },
+        "C_Military1": {
+          "danger": 0.692,
+          "sentiment": 0.067
+        },
+        "almayadeen": {
+          "danger": 0.899,
+          "sentiment": -0.433
+        },
+        "QudsN": {
+          "danger": 0.628,
+          "sentiment": -0.033
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2278,9 +2278,9 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 14,
-      "raw_sentiment": -0.6428571428571429,
-      "knn_danger_metric": 0.44563801850393175
+      "num_messages": 15,
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.4860876343649913
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,20 +2291,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.5346248942577666
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.5111453187039493
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.2784145343936171
+      "raw_sentiment": 0.16666666666666666,
+      "knn_danger_metric": 0.4263861958278099
     },
     "almanarnews": {
       "name": "Hezbollah",
-      "num_messages": 11,
-      "raw_sentiment": 0.5,
-      "knn_danger_metric": 0.20055291743041212
+      "num_messages": 15,
+      "raw_sentiment": 0.3,
+      "knn_danger_metric": 0.3221235817200556
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.2,
-      "knn_danger_metric": 0.7955309257777059
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.8993051257567587
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.6359790201515358
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.627844726669663
     }
   },
   "semantic_logs": [
@@ -2336,8 +2336,15 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "עזה: תושבים לכדו גנב של מוני חשמל, גילחו את ראשו, קשרו את ידיו מאחורי גבו והיכו אותו.  תגובה אחת",
+      "text": "צה&quot;ל תקף הלילה מספר פעמים בדרום לבנון:  מטוסי קרב תקפו בכפר נבטיה אלפוקא, למרגלות רכס עלי א-טאהר. כמו כן דווח על תקיפת כטב&quot;מ בכפר זה.   רחפנים של צה&quot;ל הטילו פצצות תבערה על אזור מיוער ליד כפר רמאן - בנפת נבטיה, ליד שלט שיעי מפורסם עם הכיתוב &quot;יא חסין&quot; (מצורף תיעוד) - תומכי חזבאללה מתגאים בכך שהשלט שרד ולא נפגע...   דובר צה&quot;ל הודיע כי חיסל אתמול בתקיפה מהאוויר פעיל חזבאללה שפעל בסמוך לפיר של תשתית התת קרקע ברכס עלי א-טאהר (נפת נבטיה) וכן חיסל חשוד נוסף שנע ברכב בסמוך לכוחות צה&quot;ל. צה&quot;ל מדגיש כי לא יאפשר לפעילי חזבאללה לצאת מתשתית התת קרקע ברכס עלי א-טאהר.  תגובה אחת",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "מקורות עזתיים מדווחים כי כטב&quot;מים של צה&quot;ל ביצעו לפני זמן קצר 4 תקיפות על רכב שנסע על ציר החוף באזור נציראת במרכז הרצועה (ליד השפך של ואדי עזה).  ע&quot;פ חלק מהדיווחים נוסעי הרכב הצליחו לצאת ממנו (זו ככל הנראה הסיבה לירי טילים נוספים). יש נפגעים בתקיפות. בתיעוד…",
+      "absolute_sentiment": -0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2348,23 +2355,16 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️موشک‌های روسی انبار نفت اوکراین را هدف گرفتند &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "وفي الختام، نتقدم مجددًا بالعزاء لسيدنا بقية الله (عجل الله تعالى فرجه الشريف)، ونبتهل إلى ذلك المولى الرحيم أن يشمل بدعائه الزاكي سيد شهداء إيران ورفاقه الشهداء والشهداء كلهم، وأن يسأل الحق (جل وعلا) علو الدرجات للشهداء جميعهم، والصبر والأجر لذويهم، والفتح والنصر الحاسم والقريب للشعب الإيراني المظلوم، إن شاء الله.  السيد مجتبى الحسيني الخامنئي  9 تموز/ يوليو 2026",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: السيد مجتبى: نودع شهيدنا القائد بعيون دامعة وقلوب مفطورة ونتعهد بالحفاظ على مدرسته والسير على طريقه",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: السيد مجتبى للقائد الشهيد: نعاهدك أن نثأر لدمك الطاهر ولدماء شهداء هاتين الحربين جميعهم من القتلة المجرمين المَخزيين",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
@@ -2404,30 +2404,30 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "عائلات فلسطينية في خانيونس تواجه أزمة مياه خانقة ومتواصلة، في ظل تدمير قوات الاحتلال لخطوط المياه الرئيسية والذي فاقم معاناة الأهالي وهدد حياتهم اليومية وسط نقص حاد في الخدمات الأساسية.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "في اليوم العالمي للسكان..  أوضاع صعبة يعيشها النازحون في منطقة الزرقا في مدينة غزة، وسط نقص في المياه والغذاء وتدهور خدمات الصرف الصحي والرعاية الصحية.",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "محتجون يغلقون تقاطع &quot;يونغ وبلور&quot; الرئيسي للمطالبة بالإفراج الفوري عن الدكتور حسام أبو صفية وبقية الأسرى الفلسطينيين في سجون الاحتلال",
+      "text": "لبنان: مراسل الميادين: طائرات الاحتلال تستهدف بلدة المنصوري جنوبي البلاد بعدة غارات",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "عاجل| طيران الاحتلال يشن غارة في شارع الطينة جنوب منطقة المسلخ جنوب خانيونس.",
+      "text": "فلسطين المحتلة: مراسل الميادين: مسيّرة إسرائيلية تستهدف بعدة صواريخ سيارة مدنية على جسر وادي غزة على شارع الرشيد",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: شهداء وجرحى في  القصف الإسرائيلي على السيارة عند شارع الرشيد في قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: الاحتلال يمنع الإسعاف من الوصول للمركبة المستهدفة لانتشال الشهداء عند شارع الرشيد في قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
