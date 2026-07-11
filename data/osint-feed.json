@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-11T00:05:18.565Z",
+  "last_updated": "2026-07-11T04:10:11.712Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.55",
-    "global_norm_sentiment": "-0.27"
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.32"
   },
   "timeline": [
-    {
-      "time": "2026-07-05T19:26:41.339Z",
-      "danger": 0.554,
-      "sentiment": 0.032,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.403,
-          "sentiment": -0.3
-        },
-        "OSINTdefender": {
-          "danger": 0.582,
-          "sentiment": -0.1
-        },
-        "irna_1313": {
-          "danger": 0.576,
-          "sentiment": 0.433
-        },
-        "sepah_pasdaran": {
-          "danger": 0.407,
-          "sentiment": 0.433
-        },
-        "almanarnews": {
-          "danger": 0.337,
-          "sentiment": 0.467
-        },
-        "C_Military1": {
-          "danger": 0.777,
-          "sentiment": 0.286
-        },
-        "almayadeen": {
-          "danger": 0.913,
-          "sentiment": -0.233
-        },
-        "QudsN": {
-          "danger": 0.598,
-          "sentiment": -0.533
-        }
-      }
-    },
     {
       "time": "2026-07-05T20:54:26.994Z",
       "danger": 0.49,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.4
         }
       }
+    },
+    {
+      "time": "2026-07-11T04:10:11.712Z",
+      "danger": 0.519,
+      "sentiment": -0.32,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.439,
+          "sentiment": -0.333
+        },
+        "OSINTdefender": {
+          "danger": 0.557,
+          "sentiment": -0.333
+        },
+        "irna_1313": {
+          "danger": 0.437,
+          "sentiment": -0.682
+        },
+        "sepah_pasdaran": {
+          "danger": 0.355,
+          "sentiment": -0.6
+        },
+        "almanarnews": {
+          "danger": 0.477,
+          "sentiment": -0.3
+        },
+        "C_Military1": {
+          "danger": 0.733,
+          "sentiment": -0.133
+        },
+        "almayadeen": {
+          "danger": 0.501,
+          "sentiment": -0.467
+        },
+        "QudsN": {
+          "danger": 0.746,
+          "sentiment": -0.222
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2290,9 +2290,9 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.5118994456873239
+      "num_messages": 11,
+      "raw_sentiment": -0.6818181818181818,
+      "knn_danger_metric": 0.43715619123917854
     },
     "sepah_pasdaran": {
       "name": "IRGC",
@@ -2303,8 +2303,8 @@
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.5063125824140104
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.47663476562450463
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.5187493059139574
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.5014832892664978
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.9131708945209537
+      "num_messages": 9,
+      "raw_sentiment": -0.2222222222222222,
+      "knn_danger_metric": 0.7459546384021607
     }
   },
   "semantic_logs": [
@@ -2343,13 +2343,6 @@
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "وزارة الصحة: الحصيلة الاجمالية للعدوان باتت 4321 شهيدا و12207 جريحا https://almanar.com.lb/article/1012272/?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
       "text": "بالصورة | &rlm;حضر السيد عمار حكيم مراسم إحياء ذكرى القائد الإيراني الشـ.هيد في مرقد الإمام الرضا (عليه السلام).",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
@@ -2358,6 +2351,13 @@
       "channelId": "almanarnews",
       "channel": "Hezbollah",
       "text": "🔵 ارتفاع حصيلة ضحايا الزلزال المزدوج في فنزويلا https://almanar.com.lb/article/1012617/?s=tg",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 إسبانيا | مقتل 12 شخصًا إثر حرائق غابات بإقليم الأندلس في جنوب البلاد https://almanar.com.lb/article/1012782/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2385,51 +2385,51 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم منطقة الدوحة، غرب بيت لحم.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "متابعة | قوات الاحتلال تداهم منزلاً خلال اقتحام منطقة الدوحة، غرب مدينة بيت لحم.",
+      "text": "تحركات مستمرة لآليات الاحتلال خلال اقتحامها المستمر لبلدة الزبابدة جنوب جنين",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة &quot;بيت أمر&quot; شمال الخليل.",
+      "text": "قوات الاحتلال تعتقل الأسير المحرر &quot;مالك عبدو&quot; عقب مداهمة منزله والعبث بمحتوياته بمدينة نابلس",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "آليات الاحتلال تطلق نيرانها بكثافة شرق مدينة غزة.",
+      "text": "آثار التخريب والدمار التي خلّفها جيش الاحتلال عقب مداهمة أحد المنازل في بلدة الزبابدة جنوب جنين.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم مدينة يطا جنوب الخليل.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال مدينة رام الله وسط الضفة الغربية",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم مخيم قلنديا، شمال القدس المحتلة.",
+      "text": "مصادر محلية: قوات الاحتلال تعتقل لبيب نواصرة، والد ثلاثة أسرى، عقب مداهمة منزله في قرية فحمة جنوب غربي جنين",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   قناة كان العبرية: تبادل إطلاق النار بين إيران والولايات المتحدة سيستمر لعدة أيام. في &quot;إسرائيل&quot;، كان البعض يتمنى الحصول على موافقة من ترامب لشن هجمات ولكن في الوقت الحالي، لا يوجد تدخل مباشر.  #الإعلام_الحربي",
+      "absolute_sentiment": -0.5,
+      "semantic_danger_knn": 0.9983660049992396
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 13 العبرية - ألون بن دافيد:  بحسب التقييم في &quot;إسرائيل&quot;، فإن جولة القتال الحالية بين الولايات المتحدة وإيران تقترب من نهايتها، ومن المتوقع أن يعود الطرفان إلى المسار الدبلوماسي. كما تُقدّر &quot;إسرائيل&quot; أيضاً أننا قد نبقى لفترة طويلة دون اتفاق من جهة، ودون حرب من جهة أخرى.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9979853054910217
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   رئيس مجلس الشورى محمد باقر قاليباف:  - خلال المفاوضات أوضحت لنائب الرئيس الأمريكي أننا لا نثق بكم إطلاقًا.  - من وجهة نظري، لا يستطيع التفاوض مع الولايات المتحدة إلا من يكون مستعدًا للحرب.  - كانت الولايات المتحدة والكيان الصهيوني وحلف الناتو قبل الحرب الأخيرة يعتقدون أنهم سيتمكنون خلال أقل من بضعة أيام من إجبار إيران على الاستسلام، لكنهم أدركوا سريعًا أنهم لن يحققوا أهدافهم.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9976865052770163
     }
   ]
 }
