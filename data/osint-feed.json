@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-12T17:57:37.900Z",
+  "last_updated": "2026-07-12T19:07:58.577Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.27"
+    "global_knn_danger": "0.55",
+    "global_norm_sentiment": "-0.25"
   },
   "timeline": [
-    {
-      "time": "2026-07-08T15:59:59.148Z",
-      "danger": 0.53,
-      "sentiment": -0.14,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.458,
-          "sentiment": -0.467
-        },
-        "OSINTdefender": {
-          "danger": 0.558,
-          "sentiment": -0.067
-        },
-        "irna_1313": {
-          "danger": 0.544,
-          "sentiment": -0.5
-        },
-        "sepah_pasdaran": {
-          "danger": 0.261,
-          "sentiment": 0.067
-        },
-        "almanarnews": {
-          "danger": 0.438,
-          "sentiment": 0.6
-        },
-        "C_Military1": {
-          "danger": 0.806,
-          "sentiment": -0.233
-        },
-        "almayadeen": {
-          "danger": 0.712,
-          "sentiment": -0.4
-        },
-        "QudsN": {
-          "danger": 0.573,
-          "sentiment": -0.267
-        }
-      }
-    },
     {
       "time": "2026-07-08T17:47:06.074Z",
       "danger": 0.514,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.05
         }
       }
+    },
+    {
+      "time": "2026-07-12T19:07:58.577Z",
+      "danger": 0.55,
+      "sentiment": -0.247,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.603,
+          "sentiment": -0.467
+        },
+        "OSINTdefender": {
+          "danger": 0.542,
+          "sentiment": -0.333
+        },
+        "irna_1313": {
+          "danger": 0.601,
+          "sentiment": -0.367
+        },
+        "sepah_pasdaran": {
+          "danger": 0.442,
+          "sentiment": -0.8
+        },
+        "almanarnews": {
+          "danger": 0.421,
+          "sentiment": 0
+        },
+        "C_Military1": {
+          "danger": 0.747,
+          "sentiment": -0.267
+        },
+        "almayadeen": {
+          "danger": 0.772,
+          "sentiment": -0.533
+        },
+        "QudsN": {
+          "danger": 0.419,
+          "sentiment": 0.429
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.5511496560997442
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.6025503948098943
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,26 +2291,26 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.7102470984057964
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.601492709809666
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.7333333333333333,
-      "knn_danger_metric": 0.3480198604422854
+      "raw_sentiment": -0.8,
+      "knn_danger_metric": 0.44212615124704924
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.3914950292575929
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.4211728460470987
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.7104199607588272
+      "knn_danger_metric": 0.7467613012491692
     },
     "almayadeen": {
       "name": "Arab_Axis",
@@ -2320,9 +2320,9 @@
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 10,
-      "raw_sentiment": -0.05,
-      "knn_danger_metric": 0.4332496129724072
+      "num_messages": 14,
+      "raw_sentiment": 0.42857142857142855,
+      "knn_danger_metric": 0.4192049910083729
     }
   },
   "semantic_logs": [
@@ -2345,6 +2345,20 @@
       "channel": "Israel_OSINT",
       "text": "תיעוד מרהיב של רגעי התקיפה במערב העיר עזה, אחרי התרעת פינוי, מוקדם יותר היום.  תגובה אחת",
       "absolute_sentiment": -0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "בינתיים.... בעיר מאלמו בשבדיה... #שיעה  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️حمله پهپادی به مراکز تسلیحاتی گروهک تجزیه طلب در سلیمانیه عراق   منابع خبری از حمله پهپادی به انبار سلاح و مهمات وابسته به گروهک تجزیه طلب در سلیمانیه در شمال شرق کردستان عراق خبر دادند. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2413,23 +2427,9 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "انفجار ضخم.. لحظة قصف طيران الاحتلال لمحددة في مدينة عزة",
-      "absolute_sentiment": -1,
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة بيت إمرين شمال غرب نابلس",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم قرية الطيبة غرب جنين",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 13 العبرية: على الرغم من التهديدات المتبادلة واليقظة في &quot;إسرائيل&quot;، تُشير مصادر في القدس إلى أن الولايات المتحدة تعمل على احتواء الحادث(التوتر في اليومين الماضيين بين ايران والولايات المتحدة)، وتُرجّح أن احتمالية تصعيده إلى حرب شاملة ضئيلة. في الوقت نفسه، يُروّج نتنياهو لعقد اجتماع مع ترامب في واشنطن، لكن لم يُحدّد موعدٌ بعد.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9986256955089237
     }
   ]
 }
