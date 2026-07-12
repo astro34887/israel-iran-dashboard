@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-12T10:23:29.492Z",
+  "last_updated": "2026-07-12T11:56:07.505Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.48",
-    "global_norm_sentiment": "-0.16"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.13"
   },
   "timeline": [
-    {
-      "time": "2026-07-07T23:57:53.444Z",
-      "danger": 0.586,
-      "sentiment": -0.179,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.617,
-          "sentiment": -0.4
-        },
-        "OSINTdefender": {
-          "danger": 0.589,
-          "sentiment": -0.133
-        },
-        "irna_1313": {
-          "danger": 0.395,
-          "sentiment": -0.033
-        },
-        "sepah_pasdaran": {
-          "danger": 0.435,
-          "sentiment": -0.633
-        },
-        "almanarnews": {
-          "danger": 0.559,
-          "sentiment": 0.6
-        },
-        "C_Military1": {
-          "danger": 0.69,
-          "sentiment": -0.125
-        },
-        "almayadeen": {
-          "danger": 0.868,
-          "sentiment": -0.3
-        },
-        "QudsN": {
-          "danger": 0.758,
-          "sentiment": -0.633
-        }
-      }
-    },
     {
       "time": "2026-07-08T02:52:00.751Z",
       "danger": 0.575,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.333
         }
       }
+    },
+    {
+      "time": "2026-07-12T11:56:07.505Z",
+      "danger": 0.528,
+      "sentiment": -0.128,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.444,
+          "sentiment": -0.233
+        },
+        "OSINTdefender": {
+          "danger": 0.542,
+          "sentiment": -0.333
+        },
+        "irna_1313": {
+          "danger": 0.583,
+          "sentiment": -0.267
+        },
+        "sepah_pasdaran": {
+          "danger": 0.253,
+          "sentiment": -0.467
+        },
+        "almanarnews": {
+          "danger": 0.497,
+          "sentiment": 0.433
+        },
+        "C_Military1": {
+          "danger": 0.693,
+          "sentiment": -0.233
+        },
+        "almayadeen": {
+          "danger": 0.628,
+          "sentiment": -0.3
+        },
+        "QudsN": {
+          "danger": 0.696,
+          "sentiment": 0.25
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.32033815825107825
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.44440655875004903
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,20 +2291,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.4153008216117252
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.582501890414155
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.272478276731431
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.2530028198480695
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.2,
-      "knn_danger_metric": 0.48008323828055516
+      "raw_sentiment": 0.43333333333333335,
+      "knn_danger_metric": 0.4969017761908605
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.5261168641989826
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.6276097809846506
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 12,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.6046486305794733
+      "raw_sentiment": 0.25,
+      "knn_danger_metric": 0.6960507066986784
     }
   },
   "semantic_logs": [
@@ -2330,6 +2330,20 @@
       "channelId": "idfonline",
       "channel": "IDF",
       "text": "״אני קורא לאכולוסייה החרדית ולהנהגה החרדית לעודד כל פעם קצת יותר לגיוס. יש לנו מסלולים יוצאים מן הכלל, השתחררו מהם אנשים לא פחות חרדים ואזרחים טובים יותר למדינה. זה טוב לכולם״  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸لباس جدیدی که آب آشامیدنی را از رطوبت هوا می‌گیرد  🔹وبگاه&nbsp;سای‌تِک‌دِیلی: مهندسان موفق به توسعه یک لباس نوآورانه شده‌اند که می‌تواند آب آشامیدنی را از رطوبت هوا استخراج کند. این فناوری بسته به شرایط رطوبتی، روزانه بین ۴۰۰ تا ۹۰۰ میلی‌لیتر آب آشامیدنی تولید…",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️سرنگونی یک فروند موشک کروز توسط سامانه پدافند نوین هوافضای سپاه در نزدیکی خرم اباد &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
@@ -2344,13 +2358,6 @@
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "وفي الختام، نتقدم مجددًا بالعزاء لسيدنا بقية الله (عجل الله تعالى فرجه الشريف)، ونبتهل إلى ذلك المولى الرحيم أن يشمل بدعائه الزاكي سيد شهداء إيران ورفاقه الشهداء والشهداء كلهم، وأن يسأل الحق (جل وعلا) علو الدرجات للشهداء جميعهم، والصبر والأجر لذويهم، والفتح والنصر الحاسم والقريب للشعب الإيراني المظلوم، إن شاء الله.  السيد مجتبى الحسيني الخامنئي  9 تموز/ يوليو 2026",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: بروجردي: لن يكون أي مكان في العالم ولا حتى البيت الأبيض آمناً لهذه الأنظمة المنتهكة للمعاهدات والمجرمة",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
@@ -2390,46 +2397,39 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "صور من اقتحام الاحتلال لمدينة نابلس قبل قليل",
+      "text": "فلسطين المحتلة: مراسل الميادين في قطاع غزة: شهيدة طفلة برصاص الاحتلال شرقي المغازي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "انتشار كبير لقوات الاحتلال خلال اقتحامها مدينة نابلس.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تواصل اقتحام مدينة نابلس.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "انتشار واسع لقوات الاحتلال خلال اقتحامها مدينة نابلس.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "أهالي عزون ينظمون وقفة احتجاجية للمطالبة بفتح المدخل الشمالي للبلدة والذي يغلقه الاحتلال منذ 3 سنوات.",
+      "text": "فلسطين المحتلة: مراسل الميادين: ارتقاء شهيد متأثراً بإصابته أمس برصاص قوات الاحتلال شرقي مخيم البريج وسط قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 13 العبرية: على الرغم من التهديدات المتبادلة واليقظة في &quot;إسرائيل&quot;، تُشير مصادر في القدس إلى أن الولايات المتحدة تعمل على احتواء الحادث(التوتر في اليومين الماضيين بين ايران والولايات المتحدة)، وتُرجّح أن احتمالية تصعيده إلى حرب شاملة ضئيلة. في الوقت نفسه، يُروّج نتنياهو لعقد اجتماع مع ترامب في واشنطن، لكن لم يُحدّد موعدٌ بعد.  #الإعلام_الحربي",
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: قصف إسرائيلي يستهدف مدينة غزة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: حرس الثورة: الدفاعات الجوية المتطورة في القوة الجوفضائية أسقطت صباح اليوم صاروخ كروز للعدوان الأميركي في خرم أباد غربي البلاد",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل| الاحتلال يشن غارات في شارع الصناعة بمدينة غزة.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9986256955089237
+      "semantic_danger_knn": 1
     }
   ]
 }
