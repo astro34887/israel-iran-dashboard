@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-12T11:56:07.505Z",
+  "last_updated": "2026-07-12T13:14:28.472Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.53",
+    "global_knn_danger": "0.51",
     "global_norm_sentiment": "-0.13"
   },
   "timeline": [
-    {
-      "time": "2026-07-08T02:52:00.751Z",
-      "danger": 0.575,
-      "sentiment": -0.178,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.646,
-          "sentiment": -0.4
-        },
-        "OSINTdefender": {
-          "danger": 0.589,
-          "sentiment": -0.133
-        },
-        "irna_1313": {
-          "danger": 0.523,
-          "sentiment": -0.792
-        },
-        "sepah_pasdaran": {
-          "danger": 0.42,
-          "sentiment": -0.067
-        },
-        "almanarnews": {
-          "danger": 0.538,
-          "sentiment": 0.6
-        },
-        "C_Military1": {
-          "danger": 0.69,
-          "sentiment": -0.125
-        },
-        "almayadeen": {
-          "danger": 0.799,
-          "sentiment": -0.367
-        },
-        "QudsN": {
-          "danger": 0.599,
-          "sentiment": -0.367
-        }
-      }
-    },
     {
       "time": "2026-07-08T05:47:20.823Z",
       "danger": 0.541,
@@ -2261,6 +2214,53 @@
           "sentiment": 0.25
         }
       }
+    },
+    {
+      "time": "2026-07-12T13:14:28.472Z",
+      "danger": 0.508,
+      "sentiment": -0.13,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.524,
+          "sentiment": -0.333
+        },
+        "OSINTdefender": {
+          "danger": 0.542,
+          "sentiment": -0.333
+        },
+        "irna_1313": {
+          "danger": 0.43,
+          "sentiment": -0.2
+        },
+        "sepah_pasdaran": {
+          "danger": 0.389,
+          "sentiment": -0.433
+        },
+        "almanarnews": {
+          "danger": 0.397,
+          "sentiment": 0.467
+        },
+        "C_Military1": {
+          "danger": 0.693,
+          "sentiment": -0.233
+        },
+        "almayadeen": {
+          "danger": 0.456,
+          "sentiment": -0.1
+        },
+        "QudsN": {
+          "danger": 0.701,
+          "sentiment": 0
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.44440655875004903
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.5242928988999365
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,20 +2291,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.582501890414155
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.42951750445032394
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.2530028198480695
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.38860479660598063
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.43333333333333335,
-      "knn_danger_metric": 0.4969017761908605
+      "raw_sentiment": 0.4666666666666667,
+      "knn_danger_metric": 0.3973441563579632
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.6276097809846506
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.4563716616002877
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 12,
-      "raw_sentiment": 0.25,
-      "knn_danger_metric": 0.6960507066986784
+      "num_messages": 14,
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.7007624406274714
     }
   },
   "semantic_logs": [
@@ -2330,13 +2330,6 @@
       "channelId": "idfonline",
       "channel": "IDF",
       "text": "״אני קורא לאכולוסייה החרדית ולהנהגה החרדית לעודד כל פעם קצת יותר לגיוס. יש לנו מסלולים יוצאים מן הכלל, השתחררו מהם אנשים לא פחות חרדים ואזרחים טובים יותר למדינה. זה טוב לכולם״  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸لباس جدیدی که آب آشامیدنی را از رطوبت هوا می‌گیرد  🔹وبگاه&nbsp;سای‌تِک‌دِیلی: مهندسان موفق به توسعه یک لباس نوآورانه شده‌اند که می‌تواند آب آشامیدنی را از رطوبت هوا استخراج کند. این فناوری بسته به شرایط رطوبتی، روزانه بین ۴۰۰ تا ۹۰۰ میلی‌لیتر آب آشامیدنی تولید…",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
@@ -2350,7 +2343,7 @@
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "العميد أكرمي نيا: نقف بقوة لفرض ترتيباتنا التي نسعى إليها في مضيق هرمز https://almanar.com.lb/article/1015202/?s=tg",
+      "text": "🔵 لجنة أصدقاء يحيى سكاف : التفجيرات والاعتداءات الصهيونية ترتكب تحت مرأى العالم وفي ظل صمت السلطة ووزارة الخارجية https://almanar.com.lb/article/1015472/?s=tg",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
@@ -2359,41 +2352,6 @@
       "channel": "Hezbollah",
       "text": "وفي الختام، نتقدم مجددًا بالعزاء لسيدنا بقية الله (عجل الله تعالى فرجه الشريف)، ونبتهل إلى ذلك المولى الرحيم أن يشمل بدعائه الزاكي سيد شهداء إيران ورفاقه الشهداء والشهداء كلهم، وأن يسأل الحق (جل وعلا) علو الدرجات للشهداء جميعهم، والصبر والأجر لذويهم، والفتح والنصر الحاسم والقريب للشعب الإيراني المظلوم، إن شاء الله.  السيد مجتبى الحسيني الخامنئي  9 تموز/ يوليو 2026",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: اللواء محسن رضائي: إذا اصبح اغتيال القادة سلوكاً عادياً فلن تحظى أي دولة بالأمن",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين عن مصدر رسمي في بيروت: لم يتم تحديد أي موعد لبدء تنفيذ آلية &quot;المناطق التجريبية&quot;",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: الجيش اللبناني يرفض أي تنسيق مباشر مع &quot;جيش&quot; الاحتلال",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: الجيش اللبناني لن يدخل الى أي &quot;منطقة تجريبية&quot; قبل انسحاب &quot;جيش&quot; الاحتلال منها",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: الجانب الأميركي سيتولى عملية التنسيق الميدانية ولن يكون له أي وجود على الأرض",
-      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
@@ -2425,11 +2383,53 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: طائرات الاحتلال تستهدف منطقة البصة غرب دير البلح",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل| الاحتلال يشن غارات في شارع الصناعة بمدينة غزة.",
-      "absolute_sentiment": -1,
+      "text": "مشاهد من قصف الاحتلال ورشة وارتقاء شهيدين في حي الصبرة بمدينة غزة",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "تقرير بريطاني يثير تساؤلات حول دور الجمعيات الخيرية الأجنبية، وما إذا كانت تتجاوز العمل المجتمعي لتصبح جزءاً من مشاريع الاستيطان وتعزيز الارتباط بجيش الاحتلال..",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مشاهد من قصف الاحتلال ورشة وارتقاء شهيدين في حي الصبرة بمدينة غزة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تقتحم قرية المغير في رام الله",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 13 العبرية: على الرغم من التهديدات المتبادلة واليقظة في &quot;إسرائيل&quot;، تُشير مصادر في القدس إلى أن الولايات المتحدة تعمل على احتواء الحادث(التوتر في اليومين الماضيين بين ايران والولايات المتحدة)، وتُرجّح أن احتمالية تصعيده إلى حرب شاملة ضئيلة. في الوقت نفسه، يُروّج نتنياهو لعقد اجتماع مع ترامب في واشنطن، لكن لم يُحدّد موعدٌ بعد.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9986256955089237
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸مخالفت ارتش لبنان درباره هماهنگی مستقیم با ارتش رژیم صهیونیستی  🔹برخی منابع لبنانی از مخالفت ارتش این کشور با هماهنگی مستقیم با ارتش رژیم اشغالگر در خصوص عقب‌نشینی نظامیان این رژیم از مناطق آزمایشی خبر دادند.  https://irna.ir/xjXLL8 @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9983912185822161
     }
   ]
 }
