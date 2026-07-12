@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-12T15:56:08.740Z",
+  "last_updated": "2026-07-12T16:56:49.785Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.08"
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.25"
   },
   "timeline": [
-    {
-      "time": "2026-07-08T11:01:11.331Z",
-      "danger": 0.513,
-      "sentiment": -0.072,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.376,
-          "sentiment": -0.667
-        },
-        "OSINTdefender": {
-          "danger": 0.558,
-          "sentiment": -0.067
-        },
-        "irna_1313": {
-          "danger": 0.656,
-          "sentiment": 0.182
-        },
-        "sepah_pasdaran": {
-          "danger": 0.366,
-          "sentiment": 0.067
-        },
-        "almanarnews": {
-          "danger": 0.377,
-          "sentiment": 0
-        },
-        "C_Military1": {
-          "danger": 0.773,
-          "sentiment": -0.333
-        },
-        "almayadeen": {
-          "danger": 0.402,
-          "sentiment": 0.233
-        },
-        "QudsN": {
-          "danger": 0.678,
-          "sentiment": 0
-        }
-      }
-    },
     {
       "time": "2026-07-08T13:53:31.860Z",
       "danger": 0.519,
@@ -2261,6 +2214,53 @@
           "sentiment": 0.208
         }
       }
+    },
+    {
+      "time": "2026-07-12T16:56:49.785Z",
+      "danger": 0.534,
+      "sentiment": -0.248,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.497,
+          "sentiment": -0.2
+        },
+        "OSINTdefender": {
+          "danger": 0.542,
+          "sentiment": -0.333
+        },
+        "irna_1313": {
+          "danger": 0.522,
+          "sentiment": -0.367
+        },
+        "sepah_pasdaran": {
+          "danger": 0.345,
+          "sentiment": -0.733
+        },
+        "almanarnews": {
+          "danger": 0.397,
+          "sentiment": -0.2
+        },
+        "C_Military1": {
+          "danger": 0.715,
+          "sentiment": -0.133
+        },
+        "almayadeen": {
+          "danger": 0.779,
+          "sentiment": -0.3
+        },
+        "QudsN": {
+          "danger": 0.591,
+          "sentiment": -0.077
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.5348768881603626
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.4969566644247141
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,20 +2291,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.4,
-      "knn_danger_metric": 0.35104875855153767
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.5221959614844215
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.5680646353074962
+      "raw_sentiment": -0.7333333333333333,
+      "knn_danger_metric": 0.3445406476256168
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.37253796549816026
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.39736632808908656
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.5479682216095617
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.7786306130094154
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 12,
-      "raw_sentiment": 0.20833333333333334,
-      "knn_danger_metric": 0.6608339145919241
+      "num_messages": 13,
+      "raw_sentiment": -0.07692307692307693,
+      "knn_danger_metric": 0.5910400215523991
     }
   },
   "semantic_logs": [
@@ -2348,45 +2348,10 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "כזה לא רואים בכל יום:  חייל רוסי מתאמן בשימוש במקלע הסיבובי YakB-12.7 נגד כטב&quot;מים אוקראיניים, אך כמעט הורג את המדריך שלו.  הצליח להתחמק בשנייה האחרונה.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️پزشکیان در پیامی درگذشت امیر پیشین قطر را تسلیت گفت &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️️#فوری |  رسانه های عربی از وقوع انفجار جدید در کویت خبر میدهند &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️️#فوری |  رسانه های عربی از وقوع انفجار جدید در کویت خبر میدهند &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "وفي الختام، نتقدم مجددًا بالعزاء لسيدنا بقية الله (عجل الله تعالى فرجه الشريف)، ونبتهل إلى ذلك المولى الرحيم أن يشمل بدعائه الزاكي سيد شهداء إيران ورفاقه الشهداء والشهداء كلهم، وأن يسأل الحق (جل وعلا) علو الدرجات للشهداء جميعهم، والصبر والأجر لذويهم، والفتح والنصر الحاسم والقريب للشعب الإيراني المظلوم، إن شاء الله.  السيد مجتبى الحسيني الخامنئي  9 تموز/ يوليو 2026",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: أبو زينب للميادين: الأمير الراحل جمع شمل لبنان ووضعه في عمق تفكيره وقلبه وهذا النهج نشكره لقطر",
-      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2418,17 +2383,52 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "طيران الاحتلال يشن غارة تستهدف غرب النصيرات وسط قطاع غزة",
+      "text": "إيران: وكالة فارس: سماع دوي عدة انفجارات شرق بندر عباس والنطاق البحري لجزيرة قشم جنوبي البلاد",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: الرئيس مسعود بزشكيان: نؤكد ضرورة تعزيز الانسجام الوطني والمشاركة الاجتماعية والحفاظ على استقرار إدارة البلاد",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: بزشكيان: الظروف التي تواجهها البلاد اليوم ليست ظروفاً عادية وإدارتها تتطلب التنسيق والحوار واتخاذ قرارات دقيقة ومسؤولة",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "الكويت: الجيش الكويتي: تعرض منصة حفر في المياه الإقليمية الكويتية لاستهداف بطائرة مسيرة أسفر عن وقوع أضرار مادية وإصابة أحد العاملين",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: وكالة &quot;مهر&quot;: استشهاد أحد مدراء شركة الاتصالات وإصابة اثنين من مرافقيه في هرمزغان من جراء العدوان الأميركي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "صور توثق قصف الاحتلال العنيف الذي استهدف ورشة حدادة في حي الصبرة بمدينة غزة.",
+      "text": "الاحتلال يواصل التوسع الاستيطاني في جبل السالمة شرق رابا ضمن مخطط يستهدف أراضي جنوب شرق جنين.",
       "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "يضم 450 وحدة سكنية.. بلدية الاحتلال تمهّد لإقامة أكبر حي استيطاني في القدس   https://qudsn.co/post/216516",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
   ]
