@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-12T08:10:17.095Z",
+  "last_updated": "2026-07-12T10:23:29.492Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.50",
-    "global_norm_sentiment": "-0.21"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.48",
+    "global_norm_sentiment": "-0.16"
   },
   "timeline": [
-    {
-      "time": "2026-07-07T22:57:14.908Z",
-      "danger": 0.604,
-      "sentiment": -0.226,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.617,
-          "sentiment": -0.367
-        },
-        "OSINTdefender": {
-          "danger": 0.589,
-          "sentiment": -0.133
-        },
-        "irna_1313": {
-          "danger": 0.542,
-          "sentiment": -0.267
-        },
-        "sepah_pasdaran": {
-          "danger": 0.519,
-          "sentiment": -0.867
-        },
-        "almanarnews": {
-          "danger": 0.559,
-          "sentiment": 0.6
-        },
-        "C_Military1": {
-          "danger": 0.69,
-          "sentiment": -0.125
-        },
-        "almayadeen": {
-          "danger": 0.868,
-          "sentiment": -0.233
-        },
-        "QudsN": {
-          "danger": 0.711,
-          "sentiment": -0.733
-        }
-      }
-    },
     {
       "time": "2026-07-07T23:57:53.444Z",
       "danger": 0.586,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.233
         }
       }
+    },
+    {
+      "time": "2026-07-12T10:23:29.492Z",
+      "danger": 0.48,
+      "sentiment": -0.163,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.32,
+          "sentiment": -0.133
+        },
+        "OSINTdefender": {
+          "danger": 0.542,
+          "sentiment": -0.333
+        },
+        "irna_1313": {
+          "danger": 0.415,
+          "sentiment": 0.1
+        },
+        "sepah_pasdaran": {
+          "danger": 0.272,
+          "sentiment": -0.667
+        },
+        "almanarnews": {
+          "danger": 0.48,
+          "sentiment": 0.2
+        },
+        "C_Military1": {
+          "danger": 0.693,
+          "sentiment": -0.233
+        },
+        "almayadeen": {
+          "danger": 0.526,
+          "sentiment": -0.1
+        },
+        "QudsN": {
+          "danger": 0.605,
+          "sentiment": -0.333
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.37675562202221774
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.32033815825107825
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.5461034092630014
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.4153008216117252
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.4306355112085004
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.272478276731431
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.43225600200293157
+      "raw_sentiment": 0.2,
+      "knn_danger_metric": 0.48008323828055516
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
+      "raw_sentiment": -0.23333333333333334,
       "knn_danger_metric": 0.6931927795684872
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.4723443192305798
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.5261168641989826
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.567243175010178
+      "num_messages": 12,
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.6046486305794733
     }
   },
   "semantic_logs": [
@@ -2336,15 +2336,8 @@
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "🔵 فنزويلا | حصيلة ضحايا الزلزالَين تتخطّى 4300 قتيل https://almanar.com.lb/article/1014647/?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "بالفيديو | الحرس الثوري: تدمير مركز القيادة والسيطرة في القاعدة الأمريكية بالأردن https://almanar.com.lb/article/1014867/?s=tg",
-      "absolute_sentiment": -1,
+      "text": "العميد أكرمي نيا: نقف بقوة لفرض ترتيباتنا التي نسعى إليها في مضيق هرمز https://almanar.com.lb/article/1015202/?s=tg",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2357,64 +2350,78 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: مدير الشؤون السياسية والأمنية والاجتماعية بمحافظة بوشهر: العدوان الأميركي صباح اليوم استهدف 5 مدن في محافظة بوشهر جنوب نايرا",
+      "text": "إيران: بروجردي: لن يكون أي مكان في العالم ولا حتى البيت الأبيض آمناً لهذه الأنظمة المنتهكة للمعاهدات والمجرمة",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: اللواء محسن رضائي: إذا اصبح اغتيال القادة سلوكاً عادياً فلن تحظى أي دولة بالأمن",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: مدير الشؤون السياسية والأمنية والاجتماعية بمحافظة بوشهر: لم تسجل أي إصابات في إثر هذا العدوان حتى الآن",
+      "text": "لبنان: مراسل الميادين عن مصدر رسمي في بيروت: لم يتم تحديد أي موعد لبدء تنفيذ آلية &quot;المناطق التجريبية&quot;",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: قصف مدفعي استهدف بلدة كفرتبنيت",
+      "text": "لبنان: مراسل الميادين: الجيش اللبناني يرفض أي تنسيق مباشر مع &quot;جيش&quot; الاحتلال",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "البحرين: وزارة الداخلية: تفعيل صفارات الإنذار في البلاد",
+      "text": "لبنان: مراسل الميادين: الجيش اللبناني لن يدخل الى أي &quot;منطقة تجريبية&quot; قبل انسحاب &quot;جيش&quot; الاحتلال منها",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: الجانب الأميركي سيتولى عملية التنسيق الميدانية ولن يكون له أي وجود على الأرض",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "صور من اقتحام الاحتلال لمدينة نابلس قبل قليل",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "انتشار كبير لقوات الاحتلال خلال اقتحامها مدينة نابلس.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "نتنياهو معلقاً على وفاة السيناتور الأميركي غراهام: فقدت &quot;إسرائيل&quot; أحد أعظم أصدقائها وفقدت صديقاً عزيزاً",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "آثار تخريب جنود الاحتلال لمحتويات منزل اقتحموه فجر اليوم في بلدة دير الغصون شمال طولكرم",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "بيان لجيش الاحتلال : مقاومون فلسطينيون أطلقوا النار باتجاه مستوطنة في منطقة رام الله، وانسحبوا من المكان، الليلة الماضية.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم بلدة كفرالديك غرب سلفيت .",
+      "text": "قوات الاحتلال تواصل اقتحام مدينة نابلس.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم مدينة نابلس",
+      "text": "انتشار واسع لقوات الاحتلال خلال اقتحامها مدينة نابلس.",
       "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "أهالي عزون ينظمون وقفة احتجاجية للمطالبة بفتح المدخل الشمالي للبلدة والذي يغلقه الاحتلال منذ 3 سنوات.",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2423,13 +2430,6 @@
       "text": "#إعلام_العدو   القناة 13 العبرية: على الرغم من التهديدات المتبادلة واليقظة في &quot;إسرائيل&quot;، تُشير مصادر في القدس إلى أن الولايات المتحدة تعمل على احتواء الحادث(التوتر في اليومين الماضيين بين ايران والولايات المتحدة)، وتُرجّح أن احتمالية تصعيده إلى حرب شاملة ضئيلة. في الوقت نفسه، يُروّج نتنياهو لعقد اجتماع مع ترامب في واشنطن، لكن لم يُحدّد موعدٌ بعد.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9986256955089237
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 15 العبرية: الولايات المتحدة الأمريكية تنتظر رد إيران على مطالبها بوقف الهجمات على السفن في مضيق هرمز.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9979630785221282
     }
   ]
 }
