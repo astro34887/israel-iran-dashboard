@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-12T23:49:39.793Z",
+  "last_updated": "2026-07-13T02:24:51.268Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.58",
-    "global_norm_sentiment": "-0.33"
+    "global_knn_danger": "0.62",
+    "global_norm_sentiment": "-0.31"
   },
   "timeline": [
-    {
-      "time": "2026-07-09T02:34:59.066Z",
-      "danger": 0.539,
-      "sentiment": -0.12,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.428,
-          "sentiment": -0.4
-        },
-        "OSINTdefender": {
-          "danger": 0.538,
-          "sentiment": -0.367
-        },
-        "irna_1313": {
-          "danger": 0.523,
-          "sentiment": 0.045
-        },
-        "sepah_pasdaran": {
-          "danger": 0.349,
-          "sentiment": -0.467
-        },
-        "almanarnews": {
-          "danger": 0.357,
-          "sentiment": 0.333
-        },
-        "C_Military1": {
-          "danger": 0.826,
-          "sentiment": 0.267
-        },
-        "almayadeen": {
-          "danger": 0.786,
-          "sentiment": -0.133
-        },
-        "QudsN": {
-          "danger": 0.633,
-          "sentiment": -0.346
-        }
-      }
-    },
     {
       "time": "2026-07-09T06:39:33.395Z",
       "danger": 0.522,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.367
         }
       }
+    },
+    {
+      "time": "2026-07-13T02:24:51.268Z",
+      "danger": 0.616,
+      "sentiment": -0.307,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.593,
+          "sentiment": -0.433
+        },
+        "OSINTdefender": {
+          "danger": 0.542,
+          "sentiment": -0.333
+        },
+        "irna_1313": {
+          "danger": 0.644,
+          "sentiment": -0.667
+        },
+        "sepah_pasdaran": {
+          "danger": 0.532,
+          "sentiment": -0.167
+        },
+        "almanarnews": {
+          "danger": 0.471,
+          "sentiment": -0.1
+        },
+        "C_Military1": {
+          "danger": 0.715,
+          "sentiment": -0.367
+        },
+        "almayadeen": {
+          "danger": 0.884,
+          "sentiment": -0.5
+        },
+        "QudsN": {
+          "danger": 0.834,
+          "sentiment": -0.333
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.5351450617953515
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.5934129129796072
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2292,19 +2292,19 @@
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.58966918285251
+      "knn_danger_metric": 0.6440720295060429
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.34906233554945715
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.5323943103871701
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.44180604593899464
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.47074100152796816
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2316,13 +2316,13 @@
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.8795529203184563
+      "knn_danger_metric": 0.8841523308285311
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.8206267216373294
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.8340308860075114
     }
   },
   "semantic_logs": [
@@ -2348,6 +2348,34 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸ادعای قطع برق در سراسر اهواز صحت ندارد  🔹بررسی‌های خبرنگار ٍ#ایرنا نشان می‌دهد ادعای منتشرشده در فضای مجازی مبنی بر «قطع برق در سراسر شهر اهواز» صحت ندارد و شهر در وضعیت عادی قرار دارد..  🔹از شهروندان درخواست می‌شود اخبار مربوط به وضعیت شبکه برق را تنها از…",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸ادعای قطع برق در سراسر اهواز صحت ندارد  🔹بررسی‌های خبرنگار ٍ#ایرنا نشان می‌دهد ادعای منتشرشده در فضای مجازی مبنی بر «قطع برق در سراسر شهر اهواز» صحت ندارد و شهر در وضعیت عادی قرار دارد..  🔹از شهروندان درخواست می‌شود اخبار مربوط به وضعیت شبکه برق را تنها از…",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️برخی منابع از شنیده شدن صدای انفجار در اردن خبر می‌دهند. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️فوری | آسیب های بزرگ به پایگاه های آمریکا در بحرین &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
       "text": "🔵مقدمة نشرة الأخبار الرئيسية لقناة المنار الأحد 12-07-2026  كتابة: علي حايك تقديم: محمد قازان  مضيق هرمز مغلقٌ حتى انتهاء التدخلات الأميركية في المنطقة.. يبدو أنه المنطقُ الوحيدُ الذي يفهمه الأميركيون، فأعلنه الإيرانيون بكل وضوحٍ فوق كل العنجهية الأميركية…",
@@ -2358,41 +2386,6 @@
       "channelId": "almanarnews",
       "channel": "Hezbollah",
       "text": "🔵 الخارجية الإيرانية: الهجمات الأميركية أجهضت السلام.. وسندافع عن سيادتنا ووحدة أراضينا https://almanar.com.lb/article/1016557/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: محافظة هرمزغان الإيرانية: لم تسجل أي خسائر بشرية أو أضرار إثر الهجمات الأمريكية الأخيرة على المحافظة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: التلفزيون الإيراني: اعتداءات أميركية استهدفت الليلة برج اتصالات في قرية طاهرويي في مدينة سيريك جنوبي البلاد",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: مراسل الميادين في طهران: غارات أميركية استهدفت الأهواز ومدينة ماهشهر في محافظة خوزستان التي تضم أهم الصناعات البتروكيمياومية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: مراسل الميادين في طهران: الغارات الأميركية تستهدف مناطق صناعية واقتصادية من ضمنها الصناعات البتروكيميائية",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: مراسل الميادين في طهران: الغارات الأميركية استهدفت خطوط نقل استراتيجية وموانئ أساسية وبنى تحتية حيوية",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
@@ -2418,16 +2411,23 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية كفر مالك، شمال شرق رام الله.",
-      "absolute_sentiment": 0,
+      "text": "إيران: مراسل الميادين: الاعتداءات الاميركية استهدفت المدن الايرانية ومرافق اقتصادية ولم تقتصر على المواقع العسكرية",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تعتقل الشاب معتز جاسر أبو حمادة أثناء مروره عبر حاجز زعترة جنوب نابلس",
+      "text": "إيران: وكالة &quot;إرنا&quot;: الأنباء التي تتحدث عن انقطاع شامل للتيار الكهربائي في مدينة الأهواز لا أساس لها من الصحة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: مراسل الميادين: الاعتداءات الاميركية طالت 14 محافظة ايرانية",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
