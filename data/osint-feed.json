@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-13T06:12:07.707Z",
+  "last_updated": "2026-07-13T10:21:07.903Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.59",
-    "global_norm_sentiment": "-0.19"
+    "global_knn_danger": "0.54",
+    "global_norm_sentiment": "-0.22"
   },
   "timeline": [
-    {
-      "time": "2026-07-09T10:21:09.681Z",
-      "danger": 0.598,
-      "sentiment": -0.241,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.526,
-          "sentiment": -0.367
-        },
-        "OSINTdefender": {
-          "danger": 0.559,
-          "sentiment": -0.467
-        },
-        "irna_1313": {
-          "danger": 0.604,
-          "sentiment": 0.1
-        },
-        "sepah_pasdaran": {
-          "danger": 0.372,
-          "sentiment": -0.133
-        },
-        "almanarnews": {
-          "danger": 0.438,
-          "sentiment": 0.1
-        },
-        "C_Military1": {
-          "danger": 0.742,
-          "sentiment": -0.033
-        },
-        "almayadeen": {
-          "danger": 0.913,
-          "sentiment": -0.633
-        },
-        "QudsN": {
-          "danger": 0.879,
-          "sentiment": -0.813
-        }
-      }
-    },
     {
       "time": "2026-07-09T13:46:04.878Z",
       "danger": 0.555,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.167
         }
       }
+    },
+    {
+      "time": "2026-07-13T10:21:07.903Z",
+      "danger": 0.535,
+      "sentiment": -0.22,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.44,
+          "sentiment": -0.233
+        },
+        "OSINTdefender": {
+          "danger": 0.565,
+          "sentiment": -0.433
+        },
+        "irna_1313": {
+          "danger": 0.475,
+          "sentiment": -0.067
+        },
+        "sepah_pasdaran": {
+          "danger": 0.361,
+          "sentiment": -0.567
+        },
+        "almanarnews": {
+          "danger": 0.54,
+          "sentiment": -0.133
+        },
+        "C_Military1": {
+          "danger": 0.765,
+          "sentiment": -0.067
+        },
+        "almayadeen": {
+          "danger": 0.574,
+          "sentiment": -0.333
+        },
+        "QudsN": {
+          "danger": 0.685,
+          "sentiment": -0.2
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2278,9 +2278,9 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 10,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.505086729512888
+      "num_messages": 15,
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.4401879505868081
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.5664252940768851
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.4746397404885976
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.5192177095736059
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.3614243457950664
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.47074100152796816
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.5402405024044249
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.7980933883125193
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.7648943679464513
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.910569737950153
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.5735753379472261
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.5736660432369192
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.685367173264696
     }
   },
   "semantic_logs": [
@@ -2334,24 +2334,10 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️#فوری | برخاستن دود از پایگاه شیخ عیسی بحرین &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵مقدمة نشرة الأخبار الرئيسية لقناة المنار الأحد 12-07-2026  كتابة: علي حايك تقديم: محمد قازان  مضيق هرمز مغلقٌ حتى انتهاء التدخلات الأميركية في المنطقة.. يبدو أنه المنطقُ الوحيدُ الذي يفهمه الأميركيون، فأعلنه الإيرانيون بكل وضوحٍ فوق كل العنجهية الأميركية…",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 الخارجية الإيرانية: الهجمات الأميركية أجهضت السلام.. وسندافع عن سيادتنا ووحدة أراضينا https://almanar.com.lb/article/1016557/?s=tg",
-      "absolute_sentiment": 0.5,
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "עזתיים מדווחים: הקו הצהוב &quot;התקדם&quot; הלילה מערבה בשכונת שג&#39;אעיה לאזור &quot;מועדון שג&#39;אעיה&quot; קרוב לציר צלאח א-דין, שחוצה את הרצועה מצפון לדרום.  תגובה אחת",
+      "absolute_sentiment": -0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2364,70 +2350,84 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: الهلال الأحمر الفلسطيني: طواقمنا في رام الله تتعامل مع شهيد قرب جدار بير نبالا شمال شرق القدس المحتلة",
+      "text": "إيران: مطار الإمام الخميني: وضع الرحلات الجوية في المطار طبيعي",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: مساعد محافظ خوزستان: ننفي انقطاع الكهرباء في دزفول وبهبهان",
+      "text": "إيران: مطار الإمام الخميني: المطار لم يُغلق أبداً والرحلات الجوية المحلية والدولية تسير وفقاً للجدول الزمني المحدد",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: مساعد محافظ خوزستان: لا صحة لحصول هجوم على منفذ تشذابة الحدودي",
+      "text": "إيران: &quot;فارس&quot;: هبوط طائرة أخرى في مطار صنعاء",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: مساعد محافظ خوزستان: هذه الأنباء هي مجرد شائعات نشرتها وسائل إعلام معادية بهدف تشويش الرأي العام",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: المعتدون الأميركيون أظهروا مجدداً ماهيتهم المناهضة للشعب في أحدث اعتداءاتهم عبر استهداف مضخة مياه زراعية في ماهشهر",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: القوة البحرية استهدفت المنشآت والبنى التحتية للجيش الأميركي المعتدي في الجفير بالبحرين حيث تصاعدت ألسنة النيران",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: استهدفنا ودمرنا بضربات صاروخية وبطائرات مسيرة مدمرة راداراً جوياً بعيد المدى طراز FPS ورادار رصد عائم بسلطنة عمان",
+      "text": "إيران: وكالة &quot;مهر&quot;: بعض المصادر الإخبارية والسكان المحليين أفادوا بسماع دوي انفجارات في محيط مدينة بندر عباس وجزيرة قشم",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: السبيل الوحيد لإعادة فتح مضيق هرمز هو إنهاء تدخلات الجيش الأميركي المعتدي واحترام سيادة الدول على مياهها الإقليمية",
-      "absolute_sentiment": 1,
+      "text": "إيران: وكالة &quot;مهر&quot;: أصوات الانفجارات سُمعت على مسافة بعيدة من المدينة ويبدو أنها تركزت في الساحل الغربي لمدينة بندر عباس",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: استمرار هذه التدخلات سيتسبب في أحداثٍ أكبر في قطاع النفط والغاز العالمي",
+      "text": "لبنان: مراسلة الميادين في الجنوب: سماع أصوات مدفعية الاحتلال بشكل متكرر في قضاء النبطية",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
+      "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: استمرار تحليق المقاتلات الحربية وسماع انفجارات نتيجة نسف الاحتلال للمناطق السكنية",
+      "text": "الذكرى الثانية لاستشهاد محمد الضيف: إرث عسكري ومسيرة امتدت لعقود في مواجهة الاحتلال  التفاصيل: https://qudsn.co/post/216521",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تقتحم قرية دير أبو ضعيف شرق جنين",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "الحاج إبراهيم الجبور وعائلته من نساء وأطفال صامدون يواجهون اعتداءات مليشيات المستوطنين وجيش الاحتلال في مسافر يطا.. إليك التفاصيل:",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من عمليات الهدم التي ينفذها الاحتلال في بلدة كفر الديك غرب سلفيت",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية المغير شمال شرق رام الله",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "وزير الأمن القومي في حكومة الاحتلال بن غفير يقتحم مدخل قرية المغير شمال شرق رام الله والتي تتعرض لهجمات يومية من قبل مليشيات المستوطنين.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
