@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-13T16:28:08.748Z",
+  "last_updated": "2026-07-13T18:41:06.520Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.19"
+    "global_norm_sentiment": "-0.31"
   },
   "timeline": [
-    {
-      "time": "2026-07-09T20:44:35.960Z",
-      "danger": 0.537,
-      "sentiment": -0.097,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.465,
-          "sentiment": -0.333
-        },
-        "OSINTdefender": {
-          "danger": 0.549,
-          "sentiment": -0.267
-        },
-        "irna_1313": {
-          "danger": 0.596,
-          "sentiment": -0.133
-        },
-        "sepah_pasdaran": {
-          "danger": 0.324,
-          "sentiment": -0.1
-        },
-        "almanarnews": {
-          "danger": 0.426,
-          "sentiment": 0.6
-        },
-        "C_Military1": {
-          "danger": 0.755,
-          "sentiment": -0.267
-        },
-        "almayadeen": {
-          "danger": 0.696,
-          "sentiment": -0.133
-        },
-        "QudsN": {
-          "danger": 0.605,
-          "sentiment": -0.2
-        }
-      }
-    },
     {
       "time": "2026-07-09T22:18:27.531Z",
       "danger": 0.561,
@@ -2261,6 +2214,53 @@
           "sentiment": 0.067
         }
       }
+    },
+    {
+      "time": "2026-07-13T18:41:06.520Z",
+      "danger": 0.535,
+      "sentiment": -0.31,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.453,
+          "sentiment": -0.533
+        },
+        "OSINTdefender": {
+          "danger": 0.576,
+          "sentiment": -0.533
+        },
+        "irna_1313": {
+          "danger": 0.561,
+          "sentiment": -0.267
+        },
+        "sepah_pasdaran": {
+          "danger": 0.585,
+          "sentiment": -0.786
+        },
+        "almanarnews": {
+          "danger": 0.29,
+          "sentiment": 0
+        },
+        "C_Military1": {
+          "danger": 0.807,
+          "sentiment": -0.3
+        },
+        "almayadeen": {
+          "danger": 0.552,
+          "sentiment": -0.4
+        },
+        "QudsN": {
+          "danger": 0.579,
+          "sentiment": -0.143
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.4535462525925356
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.45329834349283593
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.5960357688091192
+      "knn_danger_metric": 0.576475156410263
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.46023736508100915
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.5612661343559434
     },
     "sepah_pasdaran": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.42991632311667
+      "num_messages": 14,
+      "raw_sentiment": -0.7857142857142857,
+      "knn_danger_metric": 0.5854159112225269
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.28035295004642985
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.28975543859292774
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.7849539922573381
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.8066368430878206
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.7336525916804963
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.5522423230534638
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.7056408439311285
+      "num_messages": 14,
+      "raw_sentiment": -0.14285714285714285,
+      "knn_danger_metric": 0.5785587097330442
     }
   },
   "semantic_logs": [
@@ -2334,102 +2334,102 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "רגעי התקיפה הסעודית על שדה התעופה בצנעא היום בניסיון למנוע את נחיתת המטוס האיראני (שנחת בסופו של דבר בשדה&quot;ת של אלחודידה).  תגובה אחת",
-      "absolute_sentiment": 0,
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️تصاویری از ستون دود در پایگاه هوایی ملک خالد &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️لحظاتی از داخل هواپیمای ایرانی بر فراز آسمان یمن &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   الجيش الإيراني:   استهدفنا مواقع تمركز القوات الأمريكية ومنظومات الدفاع الجوي والصواريخ والملاجئ وحظائر الدعم التابعة للجيش الأمريكي في الكويت.  الاعتداءات الأميركية على المراكز العسكرية والبنى التحتية المدنية انتهاك صارخ لميثاق الأمم…",
+      "text": "&rlm; ️فعال شدن آژیرهای هشدار در شهر جده عربستان  منابع خبری از شنیده شدن صدای انفجارهایی در شهر جده واقع در غرب عربستان سعودی گزارش می‌دهند. &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: القناة &quot;14&quot;: يحتمل أن نشهد قبل الانتخابات إعلاناً رسمياً من الحكومة الإسرائيلية باقامة نواة استيطانية في قطاع غزة",
+      "text": "إيران: عراقتشي: الرئيس الأميركي محق تماماً فأي جهة توفر مروراً آمناً ومضموناً للسفن عبر مضيق هرمز ينبغي أن تعوض عن هذه الخدمة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: محمد البخيتي للميادين: المعطيات بعد عمليات إسناد الفلسطينيين أثبتت قدرة صنعاء على فرض الحصار على من يحاصرها",
+      "text": "إيران: عراقتشي بعد حديث ترامب عن سعيه للسيطرة على مضيق هرمز وفرض رسوم عبور بنسبة 20%: 20% مرتفعة جدا بالطبع.. سنكون أكثر إنصافاً",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: محمد البخيتي للميادين: سنرد على العدوان الذي استهدف مطار صنعاء وسيكون الرد قوياً جداً وموجعاً وسنستهدف بنى حيوية للنظام السعودي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: محمد البخيتي للميادين: السرديات التي يبني عليها النظام السعودي مواقفه ويبرر بها حصاره وعدوانه هي سرديات أميركية صهيونية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: محمد البخيتي للميادين: اليمن لم يبادر للحرب رغم معاناة شعبه من الحصار إنما السعودية هي التي بادرت وستندم على عدوانها",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: محمد البخيتي للميادين: كل السرديات التي يبني عليها النظام السعودي مواقفه عوانه وحصاره سقطت",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: اعتداءات إسرائيلية تستهدف مخيم النصيرات",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: البخيتي للميادين: أي دولة تحاول أن تعتدي على اليمن أو تفرض قرارات عليه تدرك أن مقاومته في منطقة الهضبة والمثلث يصعب كسرها",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: محمد البخيتي للميادين: السعودية ودول العدوان حاولت إغراء بعض الأطراف بالانفصال والسيطرة على منطقة الهضبة والمثلث",
-      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "الوقفة الأسبوعية في مقر الصليب الأحمر بمدينة غزة؛ إسنادًا للأسرى وللمطالبة بالإفراج عنهم وتنديدًا بسياسات القمع الإسرائيلية بحقهم.",
+      "text": "وزارة الزراعة بغزة: 3.49 مليار دولار.. خسائر القطاع الزراعي؛ جراء حرب الإبادة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "في واحدة من أكبر الخطط الاستيطانية التي تستهدف الأحياء الفلسطينية في القدس..  مشروع استيطاني يحمل أبعاد ديموغرافية وسياسية عميقة، إذ من المتوقع أن يستوعب نحو 2000 مستوطن داخل حي فلسطيني قائم.",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قصف وقتل متواصل: 3 شهداء بنيران جيش الاحتلال في غزة  https://qudsn.co/post/216529",
-      "absolute_sentiment": -1,
+      "text": "خاصl ما فرص فوز نتنياهو في الانتخابات الإسرائيلية المقبلة؟  https://qudsn.co/post/216533",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#اليمن   عضو المكتب السياسي في حركة أنصار الله محمد البخيتي:  ـ سنرد على العدوان الذي استهدف مطار صنعاء ، وسيكون الرد قوياً جداً وموجعاً ، وسنستهدف بنى حيوية للنظام السعودي.  إعلان السعودية وقف العدوان ورفع الحصار هو السبيل الوحيد لتجنب الضربة اليمنية المقبلة، وأمامها وقت قصير لذلك.  ـ قادرون على ضرب العمق السعودية ومنشآت النفط والغاز على امتدادها.  ـ السرديات التي يبني عليها النظام السعودي حصاره وعدوانه ؛ هي سرديات أميركية صهيونية.  ـ السعودية هي التي بادرت إلى الحرب وستندم.  ـ أي دولة تحاول أن تعتدي على اليمن أو تفرض قرارات عليه تدرك أن مقاومته في منطقة الهضبة والمثلث يصعب كسرها.  #الإعلام_الحربي",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9985730078048679
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   وزير الخارجية الإيراني عباس عراقجي: ترامب محق تماماً إذ ينبغي أن يحصل كل من يوفر ممرا آمنا ومضمونا للسفن التجارية عبر مضيق هرمز على مقابل. إيران كانت دائماً حارساً لمضيق هرمز وستظل كذلك إلى الأبد.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9983066549557928
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 13 العبرية: حذّر رئيس الأركان إيال زامير في رسالة شديدة اللهجة وجّهها إلى نتنياهو وكاتس من أن مشروع القانون الذي يُعفي الفارين من الخدمة العسكرية من اليهود المتشددين من التجنيد الإجباري ويُجمّد اعتقالهم سيُحدث شرخًا عميقًا في صفوف الجنود الذين يتحملون عبء القتال منذ نحو عامين ونصف، وسيزيد من عدم المساواة.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9978190552288908
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 12 العبرية: سيجتمع الكابينيت غداً عند الساعة الثامنة مساءً.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9960376738431209
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "بيان مهم للقوات المسلحة اليمنية في تمام الساعة 9:40م بعد قليل.  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.9937618620410837
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | شهيدان بنيران الاحتلال في قطاع غزة، منذ فجر اليوم.",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.991473512586189
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#اليمن  وسائل إعلام يمنية: عدوان سعودي على مطار صنعاء الدولي.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9914631632524533
     }
   ]
 }
