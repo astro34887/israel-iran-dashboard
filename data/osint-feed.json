@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-14T20:56:20.114Z",
+  "last_updated": "2026-07-14T21:55:48.036Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.49",
-    "global_norm_sentiment": "-0.27"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.51",
+    "global_norm_sentiment": "-0.26"
   },
   "timeline": [
-    {
-      "time": "2026-07-11T04:10:11.712Z",
-      "danger": 0.519,
-      "sentiment": -0.32,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.439,
-          "sentiment": -0.333
-        },
-        "OSINTdefender": {
-          "danger": 0.557,
-          "sentiment": -0.333
-        },
-        "irna_1313": {
-          "danger": 0.437,
-          "sentiment": -0.682
-        },
-        "sepah_pasdaran": {
-          "danger": 0.355,
-          "sentiment": -0.6
-        },
-        "almanarnews": {
-          "danger": 0.477,
-          "sentiment": -0.3
-        },
-        "C_Military1": {
-          "danger": 0.733,
-          "sentiment": -0.133
-        },
-        "almayadeen": {
-          "danger": 0.501,
-          "sentiment": -0.467
-        },
-        "QudsN": {
-          "danger": 0.746,
-          "sentiment": -0.222
-        }
-      }
-    },
     {
       "time": "2026-07-11T07:09:13.666Z",
       "danger": 0.512,
@@ -1974,6 +1927,53 @@
           "sentiment": -0.571
         }
       }
+    },
+    {
+      "time": "2026-07-14T21:55:48.036Z",
+      "danger": 0.505,
+      "sentiment": -0.256,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.368,
+          "sentiment": -0.2
+        },
+        "OSINTdefender": {
+          "danger": 0.531,
+          "sentiment": -0.3
+        },
+        "irna_1313": {
+          "danger": 0.596,
+          "sentiment": -0.3
+        },
+        "sepah_pasdaran": {
+          "danger": 0.24,
+          "sentiment": -0.633
+        },
+        "almanarnews": {
+          "danger": 0.506,
+          "sentiment": 0.167
+        },
+        "C_Military1": {
+          "danger": 0.797,
+          "sentiment": -0.4
+        },
+        "almayadeen": {
+          "danger": 0.646,
+          "sentiment": -0.333
+        },
+        "QudsN": {
+          "danger": 0.419,
+          "sentiment": -0.429
+        }
+      }
     }
   ],
   "channel_data": {
@@ -1993,7 +1993,7 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.36762699797893805
+      "knn_danger_metric": 0.3683551691668909
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2004,14 +2004,14 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.5627507012342424
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.5960199312543307
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.275184024467457
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.23967993469222565
     },
     "almanarnews": {
       "name": "Hezbollah",
@@ -2028,14 +2028,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.2959467838869358
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.6463267375890501
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 14,
-      "raw_sentiment": -0.5714285714285714,
-      "knn_danger_metric": 0.6175486029438568
+      "raw_sentiment": -0.42857142857142855,
+      "knn_danger_metric": 0.4194601770042075
     }
   },
   "semantic_logs": [
@@ -2103,10 +2103,38 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال بلدة برقين غرب جنين",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: &quot;جيش&quot; الاحتلال ينفذ عملية نسف في قيزان النجار جنوبي مدينة خان يونس جنوبي القطاع",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: الجيش الإيراني: في المرحلة السابعة من عملية الصاعقة وباستخدام طائرات مسيرة انتحارية استهدفنا قاعدة الأزرق الجوية في الأردن",
       "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: الجيش: استهدفنا في القاعدة موقع تمركز مقاتلات F/A-18 ومبنى إقامة القوات ومستودع للمعدات التابعة للجيش الأميركي",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: وكالة الأنباء الإيرانية: أصوات انفجارات في جزيرة هِنغام وميناء بندر عباس",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: وكالة &quot;تسنيم&quot;: دوي انفجار آخر في ميناء بندر عباس",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2115,34 +2143,6 @@
       "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة &quot;بيت أمر&quot; شمال الخليل.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم منزلاً خلال اقتحام بلدة برقين غرب جنين",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو     صحيفة يديعوت أحرونوت العبرية: بعد نحو أسبوعين ونصف من إعلان وزارة المواصلات الإسرائيلية أنه تمت إزالة التهديد الذي كان يواجه رحلات الصيف، عادت الأزمة من جديد.  فقد جمّدت الولايات المتحدة إجلاء طائرات التزوّد بالوقود الأمريكية من مطار بن غوريون، وفي الوقت نفسه قررت &quot;إسرائيل&quot; عدم السماح في هذه المرحلة بهبوط المزيد من طائرات التزوّد بالوقود، وذلك لتجنّب الإضرار بحركة الطيران المدني.  وتحذّر سلطة المطارات الإسرائيلية من أنه إذا استمر الوضع على هذا النحو، فقد تضطر شركات الطيران إلى إلغاء عشرات الآلاف من تذاكر السفر اعتبارًا من بداية شهر أغسطس.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.998738340449516
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 15 العبرية: أفاد مصدران مطلعان بأن مسؤولين كبارًا في القيادة المركزية الأمريكية أعربوا عن غضبهم من قرار الوزيرة ميري ريغيف بعدم السماح لطائرات التزوّد بالوقود الأمريكية بالهبوط في مطار بن غوريون.  ويجب القول إن الغضب الأمريكي كان أشدّ بشأن طائرة التزوّد بالوقود التي رفضت الوزيرة ريغيف السماح لها بالهبوط، لأنها كانت قد تواجدت بالفعل في &quot;إسرائيل&quot; ثم عادت إلى المكان الذي كانت فيه.  وقد وصلت هذه القضية إلى رئيس الوزراء بنيامين نتنياهو.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9986358496212904
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸اصابت پرتابه دشمن در قشم  🔹در ساعت ۱۲:۱۰ نقطه‌ای در جزیره قشم مورد اصابت پرتابه‌های دشمن آمریکایی قرار گرفت.  @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9966492370259888
     }
   ]
 }
