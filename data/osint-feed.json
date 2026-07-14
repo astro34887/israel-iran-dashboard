@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-14T19:13:08.985Z",
+  "last_updated": "2026-07-14T20:56:20.114Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.54",
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.49",
     "global_norm_sentiment": "-0.27"
   },
   "timeline": [
-    {
-      "time": "2026-07-11T00:05:18.565Z",
-      "danger": 0.548,
-      "sentiment": -0.267,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.439,
-          "sentiment": -0.333
-        },
-        "OSINTdefender": {
-          "danger": 0.557,
-          "sentiment": -0.333
-        },
-        "irna_1313": {
-          "danger": 0.512,
-          "sentiment": 0
-        },
-        "sepah_pasdaran": {
-          "danger": 0.355,
-          "sentiment": -0.6
-        },
-        "almanarnews": {
-          "danger": 0.506,
-          "sentiment": -0.167
-        },
-        "C_Military1": {
-          "danger": 0.733,
-          "sentiment": -0.133
-        },
-        "almayadeen": {
-          "danger": 0.519,
-          "sentiment": -0.567
-        },
-        "QudsN": {
-          "danger": 0.913,
-          "sentiment": -0.4
-        }
-      }
-    },
     {
       "time": "2026-07-11T04:10:11.712Z",
       "danger": 0.519,
@@ -1974,6 +1927,53 @@
           "sentiment": -0.467
         }
       }
+    },
+    {
+      "time": "2026-07-14T20:56:20.114Z",
+      "danger": 0.49,
+      "sentiment": -0.27,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.368,
+          "sentiment": -0.2
+        },
+        "OSINTdefender": {
+          "danger": 0.531,
+          "sentiment": -0.3
+        },
+        "irna_1313": {
+          "danger": 0.563,
+          "sentiment": -0.267
+        },
+        "sepah_pasdaran": {
+          "danger": 0.275,
+          "sentiment": -0.5
+        },
+        "almanarnews": {
+          "danger": 0.506,
+          "sentiment": 0.167
+        },
+        "C_Military1": {
+          "danger": 0.797,
+          "sentiment": -0.4
+        },
+        "almayadeen": {
+          "danger": 0.296,
+          "sentiment": -0.5
+        },
+        "QudsN": {
+          "danger": 0.618,
+          "sentiment": -0.571
+        }
+      }
     }
   ],
   "channel_data": {
@@ -1992,7 +1992,7 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.2,
       "knn_danger_metric": 0.36762699797893805
     },
     "OSINTdefender": {
@@ -2004,38 +2004,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.5842509422449516
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.5627507012342424
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.35375821319076056
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.275184024467457
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.3,
-      "knn_danger_metric": 0.4519951215062664
+      "raw_sentiment": 0.16666666666666666,
+      "knn_danger_metric": 0.5056587759791786
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.7975702015775226
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.7966645163642331
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.8,
-      "knn_danger_metric": 0.5853959902560895
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.2959467838869358
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.8027741307135585
+      "num_messages": 14,
+      "raw_sentiment": -0.5714285714285714,
+      "knn_danger_metric": 0.6175486029438568
     }
   },
   "semantic_logs": [
@@ -2054,20 +2054,6 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️تصاویری از موشک های بارشی در آسمان بحرین &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "رئيس الوزراء العراقي من واشنطن: الشركات الأميركية ستدخل إلى السوق العراقي https://almanar.com.lb/article/1021437/?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
       "text": "الحرس الثوري الإيراني يعلن استهداف قواعد في البحرين والكويت ضمن الموجة الثالثة من عملية «نصر 2» https://almanar.com.lb/article/1021557/?s=tg",
@@ -2077,8 +2063,15 @@
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "بزشكيان: الجنوب الإيراني رمز للمقاومة ضد الاستعم��ر وحارس للاستقلال https://almanar.com.lb/article/1021577/?s=tg",
-      "absolute_sentiment": 1,
+      "text": "بزشكيان: الجنوب الإيراني رمز للمقاومة ضد الاستعمار وحارس للاستقلال https://almanar.com.lb/article/1021577/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "بالفيديو | مشاهد لإطلاق الحرس الثوري المسيّرات والصواريخ خلال الموجة الثالثة من عملية «نصر 2» https://almanar.com.lb/article/1021652/?s=tg",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2098,43 +2091,36 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: صبري للميادين: ينبغي على السعودية السعي لإيجاد حل مع اليمن",
-      "absolute_sentiment": -1,
+      "text": "إيران: بقائي: هاجم الجيش الأميركي الإرهابي مركزاً لرئيس حماية البيئة في قرية سيد جوزار شمال هرمزغان ما أدى لاستشهاد 3 من أفراد أسرته",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: صبري للميادين: الرياض تحاول أن تتعامى عن الواقع الجديد في صنعاء القائم على رفض الوصاية السعودية على اليمن",
+      "text": "إيران: بقائي: هذا ليس سوى أحدث مثال على جرائم الحرب الأميركية الشنيعة خلال الأشهر الأربعة الماضية",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
+      "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "إيران: وكالة &quot;إرنا&quot;: القوات الأميركية المعادية أطلقت قذائف على جزيرة قشم",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: محافظ هرمزغان: لم يسفر العدوان الأميركي على جزيرة قشم عن وقوع إصابات أو أضرار في البنية التحتية السكنية والتجارية",
+      "text": "جانب من اقتحام قوات الاحتلال بلدة برقين غرب جنين",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "أزمة متفاقمة في منظومة الاحتياط بجيش الاحتلال ومسؤولون يؤكدون أنها في حالة انهيار   التفاصيل:   https://qudsn.co/post/216548",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة &quot;بيت أمر&quot; شمال الخليل.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مكتب إعلام الأسرى نقلاً عن المحرر حازم الفاخوري، زوج الأسيرة الكاتبة لمى خاطر :  - زوجتي الأسيرة تعرضت للقمع  والضرب أمس مع أسيرتين؛ بسبب وجود مصاحف داخل غرفتهن.   - &quot;القمعة&quot; كانت لجميع الأسيرات في السجن، بينما الضرب كان لثلاث أسيرات منهن لمى خاطر.",
-      "absolute_sentiment": -1,
+      "text": "مصادر محلية: قوات الاحتلال تداهم منزلاً خلال اقتحام بلدة برقين غرب جنين",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
@@ -2143,6 +2129,20 @@
       "text": "#إعلام_العدو     صحيفة يديعوت أحرونوت العبرية: بعد نحو أسبوعين ونصف من إعلان وزارة المواصلات الإسرائيلية أنه تمت إزالة التهديد الذي كان يواجه رحلات الصيف، عادت الأزمة من جديد.  فقد جمّدت الولايات المتحدة إجلاء طائرات التزوّد بالوقود الأمريكية من مطار بن غوريون، وفي الوقت نفسه قررت &quot;إسرائيل&quot; عدم السماح في هذه المرحلة بهبوط المزيد من طائرات التزوّد بالوقود، وذلك لتجنّب الإضرار بحركة الطيران المدني.  وتحذّر سلطة المطارات الإسرائيلية من أنه إذا استمر الوضع على هذا النحو، فقد تضطر شركات الطيران إلى إلغاء عشرات الآلاف من تذاكر السفر اعتبارًا من بداية شهر أغسطس.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.998738340449516
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 15 العبرية: أفاد مصدران مطلعان بأن مسؤولين كبارًا في القيادة المركزية الأمريكية أعربوا عن غضبهم من قرار الوزيرة ميري ريغيف بعدم السماح لطائرات التزوّد بالوقود الأمريكية بالهبوط في مطار بن غوريون.  ويجب القول إن الغضب الأمريكي كان أشدّ بشأن طائرة التزوّد بالوقود التي رفضت الوزيرة ريغيف السماح لها بالهبوط، لأنها كانت قد تواجدت بالفعل في &quot;إسرائيل&quot; ثم عادت إلى المكان الذي كانت فيه.  وقد وصلت هذه القضية إلى رئيس الوزراء بنيامين نتنياهو.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9986358496212904
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸اصابت پرتابه دشمن در قشم  🔹در ساعت ۱۲:۱۰ نقطه‌ای در جزیره قشم مورد اصابت پرتابه‌های دشمن آمریکایی قرار گرفت.  @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9966492370259888
     }
   ]
 }
