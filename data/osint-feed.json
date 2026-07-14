@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-14T22:54:48.591Z",
+  "last_updated": "2026-07-14T23:51:00.483Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.21"
+    "global_knn_danger": "0.56",
+    "global_norm_sentiment": "-0.25"
   },
   "timeline": [
-    {
-      "time": "2026-07-11T09:23:56.404Z",
-      "danger": 0.503,
-      "sentiment": -0.159,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.372,
-          "sentiment": -0.667
-        },
-        "OSINTdefender": {
-          "danger": 0.509,
-          "sentiment": -0.1
-        },
-        "irna_1313": {
-          "danger": 0.399,
-          "sentiment": 0.107
-        },
-        "sepah_pasdaran": {
-          "danger": 0.36,
-          "sentiment": 0.067
-        },
-        "almanarnews": {
-          "danger": 0.539,
-          "sentiment": -0.2
-        },
-        "C_Military1": {
-          "danger": 0.671,
-          "sentiment": -0.167
-        },
-        "almayadeen": {
-          "danger": 0.491,
-          "sentiment": -0.367
-        },
-        "QudsN": {
-          "danger": 0.74,
-          "sentiment": -0.1
-        }
-      }
-    },
     {
       "time": "2026-07-11T11:00:21.563Z",
       "danger": 0.513,
@@ -1974,6 +1927,53 @@
           "sentiment": -0.433
         }
       }
+    },
+    {
+      "time": "2026-07-14T23:51:00.483Z",
+      "danger": 0.558,
+      "sentiment": -0.25,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.368,
+          "sentiment": -0.2
+        },
+        "OSINTdefender": {
+          "danger": 0.531,
+          "sentiment": -0.3
+        },
+        "irna_1313": {
+          "danger": 0.537,
+          "sentiment": -0.267
+        },
+        "sepah_pasdaran": {
+          "danger": 0.351,
+          "sentiment": -0.533
+        },
+        "almanarnews": {
+          "danger": 0.506,
+          "sentiment": 0.167
+        },
+        "C_Military1": {
+          "danger": 0.791,
+          "sentiment": -0.333
+        },
+        "almayadeen": {
+          "danger": 0.809,
+          "sentiment": -0.4
+        },
+        "QudsN": {
+          "danger": 0.74,
+          "sentiment": -0.5
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2004,14 +2004,14 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.516755728581778
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.5371751757181744
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.329700357284691
+      "knn_danger_metric": 0.35095868371471245
     },
     "almanarnews": {
       "name": "Hezbollah",
@@ -2028,14 +2028,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.7796600709223835
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.8094401252249342
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.5610911347327535
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.7398649502073468
     }
   },
   "semantic_logs": [
@@ -2057,6 +2057,13 @@
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
       "text": "&rlm; ️ شنیده‌شدن صدای انفجار در کویت  رسانه‌های عربی از وقوع انفجارهای مهیب و متعدد که باعث آتش‌سوزی در یک مرکز حیاتی مهم در کویت شد، خبر دادند. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️حمله‌ای تروریستی از سوی آمریکا با استفاده از سه پرتابه که هدف آن کارگاه تولید آب معدنی در نزدیکی شهر موسیان، واقع در استان ایلام در غرب ایران، بود. &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2093,13 +2100,6 @@
       "channel": "Hezbollah",
       "text": "&quot;وحدات الاحتياط اليوم فارغة؛ الكتيبة ليست كتيبة مكتملة، والسرية ليست سرية فعلية&quot;.  لقراءة المقال كاملاً https://central-media.net/44848/601/%D9%85%D9%86-%D8%A5%D8%B9%D9%84%D8%A7%D9%85-%D8%A7%D9%84%D8%B9%D8%AF%D9%88-%7C-%D8%A5%D8%B0%D8%A7%D8%B9%D8%A9-%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%84%D8%A7%D9%84-%D8%AA%D9%83%D8%B4%D9%81-%D8%A3%D8%B2%D9%85%D8%A9-%D9%85%D8%AA%D9%81%D8%A7%D9%82%D9%85%D8%A9-%D9%81%D9%8A-%D9%85%D9%86%D8%B8%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%8A%D8%A7%D8%B7",
       "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: بقائي: هاجم الجيش الأميركي الإرهابي مركزاً لرئيس حماية البيئة في قرية سيد جوزار شمال هرمزغان ما أدى لاستشهاد 3 من أفراد أسرته",
-      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
