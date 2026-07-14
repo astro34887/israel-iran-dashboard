@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-14T11:23:13.638Z",
+  "last_updated": "2026-07-14T13:28:57.494Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.00",
-    "global_norm_sentiment": "0.00"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.55",
+    "global_norm_sentiment": "-0.22"
   },
   "timeline": [
-    {
-      "time": "2026-07-10T18:20:23.004Z",
-      "danger": 0.507,
-      "sentiment": -0.157,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.441,
-          "sentiment": -0.4
-        },
-        "OSINTdefender": {
-          "danger": 0.557,
-          "sentiment": -0.333
-        },
-        "irna_1313": {
-          "danger": 0.458,
-          "sentiment": 0.433
-        },
-        "sepah_pasdaran": {
-          "danger": 0.329,
-          "sentiment": -0.333
-        },
-        "almanarnews": {
-          "danger": 0.278,
-          "sentiment": 0.3
-        },
-        "C_Military1": {
-          "danger": 0.817,
-          "sentiment": -0.433
-        },
-        "almayadeen": {
-          "danger": 0.627,
-          "sentiment": -0.667
-        },
-        "QudsN": {
-          "danger": 0.611,
-          "sentiment": 0
-        }
-      }
-    },
     {
       "time": "2026-07-10T20:19:17.832Z",
       "danger": 0.499,
@@ -1974,8 +1927,222 @@
       "danger": 0,
       "sentiment": 0,
       "channels": {}
+    },
+    {
+      "time": "2026-07-14T13:28:57.494Z",
+      "danger": 0.554,
+      "sentiment": -0.221,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.565,
+          "sentiment": -0.467
+        },
+        "OSINTdefender": {
+          "danger": 0.577,
+          "sentiment": -0.3
+        },
+        "irna_1313": {
+          "danger": 0.48,
+          "sentiment": -0.273
+        },
+        "sepah_pasdaran": {
+          "danger": 0.415,
+          "sentiment": -0.1
+        },
+        "almanarnews": {
+          "danger": 0.346,
+          "sentiment": -0.1
+        },
+        "C_Military1": {
+          "danger": 0.778,
+          "sentiment": -0.367
+        },
+        "almayadeen": {
+          "danger": 0.718,
+          "sentiment": -0.167
+        },
+        "QudsN": {
+          "danger": 0.716,
+          "sentiment": -0.267
+        }
+      }
     }
   ],
-  "channel_data": {},
-  "semantic_logs": []
+  "channel_data": {
+    "idfonline": {
+      "name": "IDF",
+      "num_messages": 15,
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.4495848927539366
+    },
+    "israeldefenseforces": {
+      "name": "IDF",
+      "num_messages": 3,
+      "raw_sentiment": 0.16666666666666666,
+      "knn_danger_metric": 0.5
+    },
+    "abualiexpress": {
+      "name": "Israel_OSINT",
+      "num_messages": 15,
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.5654745912539163
+    },
+    "OSINTdefender": {
+      "name": "Global_OSINT",
+      "num_messages": 15,
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.5770840918073129
+    },
+    "irna_1313": {
+      "name": "IRGC",
+      "num_messages": 11,
+      "raw_sentiment": -0.2727272727272727,
+      "knn_danger_metric": 0.4797602817626227
+    },
+    "sepah_pasdaran": {
+      "name": "IRGC",
+      "num_messages": 15,
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.4145523622203378
+    },
+    "almanarnews": {
+      "name": "Hezbollah",
+      "num_messages": 15,
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.3457787358853425
+    },
+    "C_Military1": {
+      "name": "Hezbollah",
+      "num_messages": 15,
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.7781898977242051
+    },
+    "almayadeen": {
+      "name": "Arab_Axis",
+      "num_messages": 15,
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.7183790539450927
+    },
+    "QudsN": {
+      "name": "Arab_Axis",
+      "num_messages": 15,
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.7155547249429215
+    }
+  },
+  "semantic_logs": [
+    {
+      "channelId": "idfonline",
+      "channel": "IDF",
+      "text": "״אני קורא לאכולוסייה החרדית ולהנהגה החרדית לעודד כל פעם קצת יותר לגיוס. יש לנו מסלולים יוצאים מן הכלל, השתחררו מהם אנשים לא פחות חרדים ואזרחים טובים יותר למדינה. זה טוב לכולם״  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "מקורות עזתיים: 4 הרוגים בתקיפה ישראלית לפני זמן קצר על נקודה של משטרת חמאס באזור פאלוג&#39;א בג&#39;באליא בצפון הרצועה.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "7 שוטרי חמאס שחוסלו בתקיפה בג&#39;באליא:  1-מחמד סאלם 2- יאמן עביד  3-עבד אלמאלכ אבו אלג&#39;בין  4- ע&#39;סאן אלדקס 5- מפיד חלאוה 6-אבראהים מוסא  7 - פאטמה זקות - משטרת הנשים  ## 7 שוטרים במכה אחת&#33;  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "מקורות לבנוניים: נפגעים בתקיפת כטב&quot;מ ישראלי בכפר נבטיה אלפוקא, למרגלות רכס עלי א-טאהר בנפת נבטיה.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️شبکه تلویزیونی رژیم صهیونیستی: سایت کلنگ تنها با عملیات زمینی یا سلاح غیرمتعارف قابل نابودی است&#33; &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   العلاقات العامة للجيش الايراني:   في أعقاب الاعتداءات المتكررة التي شنتها الولايات المتحدة على إيران، استهدف الجيش الإيراني، قبل ساعات، بمنظومة من الطائرات المسيّرة الانتحارية، أنظمة الاتصالات، وخزانات الوقود، ومنظومة «باتريوت»، وبرج…",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: جيش الاحتلال ينفذ تفجيرًا في محيط بلدة النبطية الفوقا",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: 7 شهداء باستهداف مسيرات الاحتلال نقطة للشرطة في الفالوجا بعدة صواريخ",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: 11 شهيداً بنيران الاحتلال منذ صباح اليوم باعتداءات شملت الفالوجا وخان يونس ورفح",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: البيان: من منبر مجلس الشورى نتعهد ببذل كل جهد ممكن للتخطيط واتخاذ التدابير العملية للثأر للشهداء",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: البيان: سيُدرج مجلس الشورى على جدول أعماله سنّ تدابير قانونية تشمل تعزيز عقيدة الدفاع والمصادقة على قانون إدارة مضيق هرمز",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: البيان: بعد إعلان ترامب إنهاء مذكرة التفاهم يُتوقع من رؤساء السلطات الثلاثة الإعلان عن مواقفهم الحاسمة والثورية في هذا الشأن",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي مكثف شرقي مدينة دير البلح وسط قطاع غزة",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "صور جديدة توثق لحظة نسف الاحتلال لعدد من المباني، شمال غرب غزة.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مكافآت وخسائر مالية للخزينة العامة واتفاقيات مخفية ودفعات مالية استثنائية صادرة عن وزير المالية.. تقرير رقابي يكشف تفاصيل جديدة عن شبهات فساد لدى الإدارة العامة للمعابر والحدود   التفاصيل:   https://qudsn.co/post/216544",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    }
+  ]
 }
