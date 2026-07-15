@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-15T02:01:53.709Z",
+  "last_updated": "2026-07-15T05:26:18.674Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.56",
-    "global_norm_sentiment": "-0.15"
+    "global_knn_danger": "0.58",
+    "global_norm_sentiment": "-0.12"
   },
   "timeline": [
-    {
-      "time": "2026-07-11T11:58:56.974Z",
-      "danger": 0.504,
-      "sentiment": -0.008,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.446,
-          "sentiment": -0.643
-        },
-        "OSINTdefender": {
-          "danger": 0.509,
-          "sentiment": -0.2
-        },
-        "irna_1313": {
-          "danger": 0.535,
-          "sentiment": 0.067
-        },
-        "sepah_pasdaran": {
-          "danger": 0.278,
-          "sentiment": 0.133
-        },
-        "almanarnews": {
-          "danger": 0.201,
-          "sentiment": 0.5
-        },
-        "C_Military1": {
-          "danger": 0.692,
-          "sentiment": 0.067
-        },
-        "almayadeen": {
-          "danger": 0.796,
-          "sentiment": 0.2
-        },
-        "QudsN": {
-          "danger": 0.636,
-          "sentiment": -0.067
-        }
-      }
-    },
     {
       "time": "2026-07-11T13:38:37.164Z",
       "danger": 0.542,
@@ -1974,6 +1927,53 @@
           "sentiment": -0.333
         }
       }
+    },
+    {
+      "time": "2026-07-15T05:26:18.674Z",
+      "danger": 0.58,
+      "sentiment": -0.117,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.418,
+          "sentiment": -0.367
+        },
+        "OSINTdefender": {
+          "danger": 0.531,
+          "sentiment": -0.3
+        },
+        "irna_1313": {
+          "danger": 0.555,
+          "sentiment": 0.227
+        },
+        "sepah_pasdaran": {
+          "danger": 0.551,
+          "sentiment": -0.333
+        },
+        "almanarnews": {
+          "danger": 0.539,
+          "sentiment": 0.133
+        },
+        "C_Military1": {
+          "danger": 0.705,
+          "sentiment": 0
+        },
+        "almayadeen": {
+          "danger": 0.954,
+          "sentiment": 0.1
+        },
+        "QudsN": {
+          "danger": 0.597,
+          "sentiment": -0.5
+        }
+      }
     }
   ],
   "channel_data": {
@@ -1992,8 +1992,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.3683551691668909
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.41774658160619416
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2003,15 +2003,15 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.5362246349192813
+      "num_messages": 11,
+      "raw_sentiment": 0.22727272727272727,
+      "knn_danger_metric": 0.5546012400501668
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.5254532100910294
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.5514412490793013
     },
     "almanarnews": {
       "name": "Hezbollah",
@@ -2022,20 +2022,20 @@
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.7909485101083422
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.7054010121200193
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.23333333333333334,
-      "knn_danger_metric": 0.55767734023403
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.9542946574341721
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.8167987602913358
+      "num_messages": 6,
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.59723517141632
     }
   },
   "semantic_logs": [
@@ -2056,21 +2056,7 @@
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️حمله‌ای تروریستی از سوی آمریکا با استفاده از سه پرتابه که هدف آن کارگاه تولید آب معدنی در نزدیکی شهر موسیان، واقع در استان ایلام در غرب ایران، بود. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️&rlm; حمله شبانه آمریکا به تیپ ۳۸۸ ارتش در بمپور استان سیستان و بلوچستان منجر به شهادت۱۰ نفر و مجروح شدن بیش از ۱۵ تن از جمله تعدادی از سربازان در آسایشگاه شد. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️جزئیاتی از شهادت ۳ نفر از خانواده یک محیط‌بان هرمزگانی در حملۀ آمریکا  &lrm;✅ @sepah_pasdaran",
+      "text": "&rlm; ️صدای دوبارۀ انفجار در کویت و اردن  &rlm;🔹 منابع عربی از شنیده شدن مجدد صدای انفجار در کویت و اردن خبر می‌دهند. &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2112,36 +2098,50 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: اعتداء إسرائيلي بقصف مروحي غرب دير البلح",
+      "text": "إيران: مراسل الميادين: سماع دوي عدة انفجارات في ميناء الإمام الخميني بمدينة ماهشهر بمحافظة خوزستان",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "البحرين: وزارة الداخلية: إطلاق صفارات الإنذار في البلاد",
-      "absolute_sentiment": 1,
+      "text": "إيران: حرس الثورة: قام الجيش الأميركي بقتل وتقطيع أوصال 168 طفلاً وتلميذاً في مدرسة &quot;ميناب&quot; ولا تزال هذه الحرب مستمرة حتى اليوم",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: مراسل الميادين: العدوان الأميركي الأخير على إيلام استهدف معملاً لإنتاج المياه المعدنية",
+      "text": "إيران: حرس الثورة: مصدر العديد من الاعتداءات في هذه الحرب هو قواعد القوات الأميركية المحتلة الموجودة على أرض الكويت المقدسة",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: الجيش: في ظل استمرار الهجمات الوحشية للعدو نفذنا فجر اليوم المرحلة 8 من عملية &quot;الصاعقة&quot;",
+      "text": "إيران: حرس الثورة: استهدف المعتدون الأميركيون مخزناً لشراء القمح من المزارعين في مدينة هويزة بمحافظة خوزستان",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: حرس الثورة: استهدف المعتدون الأميركيون مصنعاً للمياه المعدنية في دهلران بمحافظة إيلام",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: حرس الثورة: رداً على هذه الاعتداءات نفذ مقاتلو القوات البرية والقوة الجوفضائية هجوماً ضمنىالموجة السادسة من عملية &quot;نصر 2&quot;",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: الجيش: استهدفنا قاعدة &quot;الأزرق&quot; في الأردن بطائرات مسيرة انتحارية ضربت مواقع تمركز &quot;مقاتلات F18&quot;",
-      "absolute_sentiment": -1,
+      "text": "إيران: حرس الثورة: الهجوم بالصواريخ والطائرات المسيرة استهدف مركز الاتصالات عبر الأقمار الصناعية ورادار الدفاع الصاروخي والجوي",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
   ]
