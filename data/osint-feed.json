@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-15T22:56:16.015Z",
+  "last_updated": "2026-07-15T23:56:50.600Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.55",
     "global_norm_sentiment": "-0.29"
   },
   "timeline": [
-    {
-      "time": "2026-07-11T23:50:57.796Z",
-      "danger": 0.552,
-      "sentiment": -0.303,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.537,
-          "sentiment": -0.667
-        },
-        "OSINTdefender": {
-          "danger": 0.514,
-          "sentiment": -0.167
-        },
-        "irna_1313": {
-          "danger": 0.518,
-          "sentiment": -0.333
-        },
-        "sepah_pasdaran": {
-          "danger": 0.48,
-          "sentiment": -0.3
-        },
-        "almanarnews": {
-          "danger": 0.348,
-          "sentiment": 0.033
-        },
-        "C_Military1": {
-          "danger": 0.714,
-          "sentiment": -0.333
-        },
-        "almayadeen": {
-          "danger": 0.64,
-          "sentiment": -0.467
-        },
-        "QudsN": {
-          "danger": 0.816,
-          "sentiment": -0.667
-        }
-      }
-    },
     {
       "time": "2026-07-12T02:23:21.447Z",
       "danger": 0.573,
@@ -1974,6 +1927,53 @@
           "sentiment": -0.367
         }
       }
+    },
+    {
+      "time": "2026-07-15T23:56:50.600Z",
+      "danger": 0.55,
+      "sentiment": -0.285,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.366,
+          "sentiment": -0.433
+        },
+        "OSINTdefender": {
+          "danger": 0.507,
+          "sentiment": -0.333
+        },
+        "irna_1313": {
+          "danger": 0.589,
+          "sentiment": -0.654
+        },
+        "sepah_pasdaran": {
+          "danger": 0.517,
+          "sentiment": -0.467
+        },
+        "almanarnews": {
+          "danger": 0.217,
+          "sentiment": -0.167
+        },
+        "C_Military1": {
+          "danger": 0.919,
+          "sentiment": 0.067
+        },
+        "almayadeen": {
+          "danger": 0.688,
+          "sentiment": -0.233
+        },
+        "QudsN": {
+          "danger": 0.746,
+          "sentiment": -0.5
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2003,15 +2003,15 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.7105489665306306
+      "num_messages": 13,
+      "raw_sentiment": -0.6538461538461539,
+      "knn_danger_metric": 0.5885955984419626
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.7333333333333333,
-      "knn_danger_metric": 0.3334645783719429
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.5171276961378876
     },
     "almanarnews": {
       "name": "Hezbollah",
@@ -2028,14 +2028,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.6957011074113895
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.6876797263422925
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.7697489527845005
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.7457336139321769
     }
   },
   "semantic_logs": [
@@ -2051,6 +2051,27 @@
       "channel": "Israel_OSINT",
       "text": "המטבע האיראני נופל ביממה האחרונה בכ - 5% ונסחר סביב שער של 1.88 מיליון ריאל לדולר אמריקאי אחד.  קרוב מאוד לשפל של כל הזמנים.  תגובה אחת",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "☑️منابع رسانه‌ای از وقوع انفجارهای شدید در پایگاه هوایی علی‌السالم کویت خبر می‌دهند.  @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "☑️انفجارهای شدید در بحرین  منابع عربی از شنیده شدن صدای چندین انفجار شدید در بحرین خبر دادند.  @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️#الله_اکبر| تصاویری از اصابت موشک در  بحرین &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2099,27 +2120,6 @@
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
       "text": "إيران: مراسل الميادين: تجدد الغارات الأميركية على ميناء بندر عباس للمرة الثالثة خلال الساعات الأخيرة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم المنطقة الشرقية في مدينة نابلس من حاجز بيت فوريك.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية دير عمار شمال غرب رام الله.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مشاهد جديدة.. آليات الاحتلال تطلق نيرانها بكثافة باتجاه المناطق الشرقية لحي الزيتون جنوب شرق مدينة غزة.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
