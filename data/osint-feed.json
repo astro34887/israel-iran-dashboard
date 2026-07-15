@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-15T08:00:54.197Z",
+  "last_updated": "2026-07-15T10:45:13.499Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.60",
-    "global_norm_sentiment": "-0.22"
+    "global_knn_danger": "0.55",
+    "global_norm_sentiment": "-0.27"
   },
   "timeline": [
-    {
-      "time": "2026-07-11T14:48:52.469Z",
-      "danger": 0.532,
-      "sentiment": -0.127,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.459,
-          "sentiment": -0.433
-        },
-        "OSINTdefender": {
-          "danger": 0.509,
-          "sentiment": -0.1
-        },
-        "irna_1313": {
-          "danger": 0.471,
-          "sentiment": -0.1
-        },
-        "sepah_pasdaran": {
-          "danger": 0.424,
-          "sentiment": -0.233
-        },
-        "almanarnews": {
-          "danger": 0.383,
-          "sentiment": 0.3
-        },
-        "C_Military1": {
-          "danger": 0.657,
-          "sentiment": -0.067
-        },
-        "almayadeen": {
-          "danger": 0.899,
-          "sentiment": -0.3
-        },
-        "QudsN": {
-          "danger": 0.574,
-          "sentiment": -0.167
-        }
-      }
-    },
     {
       "time": "2026-07-11T15:52:03.069Z",
       "danger": 0.554,
@@ -1974,13 +1927,60 @@
           "sentiment": -0.429
         }
       }
+    },
+    {
+      "time": "2026-07-15T10:45:13.499Z",
+      "danger": 0.553,
+      "sentiment": -0.267,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.482,
+          "sentiment": -0.467
+        },
+        "OSINTdefender": {
+          "danger": 0.523,
+          "sentiment": -0.167
+        },
+        "irna_1313": {
+          "danger": 0.428,
+          "sentiment": -0.333
+        },
+        "sepah_pasdaran": {
+          "danger": 0.494,
+          "sentiment": -0.567
+        },
+        "almanarnews": {
+          "danger": 0.517,
+          "sentiment": -0.067
+        },
+        "C_Military1": {
+          "danger": 0.749,
+          "sentiment": 0.1
+        },
+        "almayadeen": {
+          "danger": 0.76,
+          "sentiment": -0.367
+        },
+        "QudsN": {
+          "danger": 0.632,
+          "sentiment": -0.667
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -1992,8 +1992,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.5170650794899788
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.4824038366794411
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2004,38 +2004,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.589646463835568
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.42771205442735133
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.525492567081388
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.49384029567389326
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.573812906455242
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.5171349252049906
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.7111877317440395
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.7485718674521491
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.8356771714629504
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.7602456550134864
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 14,
-      "raw_sentiment": -0.42857142857142855,
-      "knn_danger_metric": 0.7268985426129048
+      "num_messages": 15,
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.6323696184650011
     }
   },
   "semantic_logs": [
@@ -2047,30 +2047,30 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "irna_1313",
+      "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "🔸سایه داغ تابستان، چگونه از گرمازدگی در امان بمانیم؟  🔹فرارسیدن تابستان و روزهای داغ آن احتمال بروز گرمازدگی را در میان اقشار مختلف بالا می برد که با رعایت نکات پیشگیرانه و افزایش آگاهی شهروندان می‌توان مشکلات ناشی از آن را کاهش داد. https://irna.ir/xjXMJ4…",
-      "absolute_sentiment": 0,
+      "text": "&rlm; ️تصاویر لحظه شلیک موشک های خیبرشکن، ذوالفقار و فاتح ۱۱۰ در موج‌های سوم تا هفتم عملیات نصر۲ &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️ویدیویی از لحظات اولیه حمله آمریکا به پادگان ارتش در بمپور؛ شلیک‌ها به سمت آسایشگاه سربازها بوده که در حال استراحت بودند &lrm;✅ @sepah_pasdaran",
+      "text": "☑️اسامی شهدای حمله شب گذشته آمریکا ��ه پادگان ارتش در شهرستان بمپور  🔹رضا شفیعی 🔹فرهادعلوی 🔹ابوالفضل ملایی 🔹حسین جعفری 🔹علیرضا قاسمی 🔹حسام‌الدین عباسی 🔹عباس حسن شاهی  @sepah_pasdaran",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "الحرس الثوري يعلن تنفيذ الموجة السابعة من عملية «نصر 2» واستهداف قاعدة أمريكية في الكويت https://almanar.com.lb/article/1022512/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "بالفيديو | مشاهد لإطلاق الحرس الثوري المسيّرات والصواريخ خلال الموجة الثالثة من عملية «نصر 2» https://almanar.com.lb/article/1021652/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "صور أقمار صناعية تٌظهر تعرض منشأة صيانة الطائرات الحربية الأميركية في #قاعدة_العديد في #قطر لأضرار نتيجة الضربات الإيرانية",
+      "text": "الحرس الثوري يستهدف قاعدة الأزرق في الأردن ويدعو الشعب الأردني إلى طرد الأمريكيين من البلاد https://almanar.com.lb/article/1022522/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2082,65 +2082,65 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: استهدفنا مجمع الدفاع الجوي &quot;باتريوت&quot; ومستودع الإمداد التابع للقاعدة العسكرية الأميركية في الكويت",
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "ننفي صحة ما جاء في تقرير صحيفة الشرق الأوسط من معلومات حول القائد العام الشهيد محمد الضيف؛ حيث أنها لا تستند لأي مصدر رسمي في المقاومة، وندعو وسائل الإعلام إلى تحري الدقة، ونؤكد بأن الإعلام العسكري هو المرجع الوحيد لكل ما يتعلق بأخبار كتائب القسام.  الإعلام العسكري - كتائب القسام",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: استهدفنا منصات إطلاق صواريخ HIMARS حيث تم تدميرها",
+      "text": "إيران: العلاقات العامة في الجيش الإيراني: استشهاد 7 جنود بعدوان أميركي بعدة صواريخ على ثكنتهم العسكرية في مدينة &quot;إيران شهر&quot;",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "الصين: الخارجية: رداً على العقوبات الأحادية غير القانونية ستتخذ الصين الإجراءات الضرورية كافة لحماية مصالحها",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "غزة: مراسل الميادين: إصابة حرجة في غارة جوية من مسيّرة إسرائيلية اعتدت على خيمة تؤوي نازحين غربي خان يونس",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: تعلمون جيداً أننا لا نكن لكم أي عداء بل نحن نحب الشعب الكويتي الشريف والنجيب كثيراً",
-      "absolute_sentiment": 1,
+      "text": "غزة: مراسل الميادين: 6 إصابات بينها إصابة خطيرة من جراء استهداف الاحتلال منطقة مفترق أصداء الشمالي في مدينة خان يونس",
+      "absolute_sentiment": -0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: هذه العملية كانت رداً على الجرائم الأميركية وما ننتظره منكم أيها الشعب المسلم والكريم هو إخراج المحتلين من أرضكم",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: لا ينبغي أن تكون أرض الكويت الطاهرة تحت احتلال مجرمين قتلوا خلال عامين 70 ألف فلسطيني بينهم 20 ألف طفل",
+      "text": "غزة: مراسل الميادين: إصابة مواطن بنيران الاحتلال داخل خيمته في مواصي مدينة خان يونس",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: غارة إسرائيلية على مدينة غزة غرباً تستهدف مركز إيواء",
+      "text": "إيران: العلاقات العامة في الجيش: ندين قرار البرلمان البريطاني بتصنيف حرس الثورة منظمة إرهابية",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: الجيش: حرس الثورة يتصدر طليعة مكافحة الإرهاب في منطقة غرب آسيا ويشكل ركيزة أساسية في حماية الأمن القومي والإقليمي",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: إصابات جراء غارة إسرائيلية استهدفت سجن أنصار غرب مدينة غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: استشهاد شاب متأثراً بإصابته جراء قصف إسرائيلي سابق على حي الشيخ رضوان شمال غربي مدينة غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "سوريا: مصادر محلية: دورية تابعة لقوات الاحتلال الإسرائيلي توغلت صباح اليوم في قرية المعلقة بريف القنيطرة الجنوبي جنوبي سوريا",
+      "text": "غزة: مراسل الميادين: إصابة بنيران الاحتلال في مدينة حمد شمالي مدينة خان يونس",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     }
