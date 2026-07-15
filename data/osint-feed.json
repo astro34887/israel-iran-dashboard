@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-15T12:11:40.792Z",
+  "last_updated": "2026-07-15T14:45:11.431Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.55",
+    "global_knn_danger": "0.54",
     "global_norm_sentiment": "-0.22"
   },
   "timeline": [
-    {
-      "time": "2026-07-11T16:52:25.711Z",
-      "danger": 0.539,
-      "sentiment": -0.092,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.45,
-          "sentiment": -0.4
-        },
-        "OSINTdefender": {
-          "danger": 0.509,
-          "sentiment": -0.2
-        },
-        "irna_1313": {
-          "danger": 0.538,
-          "sentiment": 0.077
-        },
-        "sepah_pasdaran": {
-          "danger": 0.343,
-          "sentiment": -0.2
-        },
-        "almanarnews": {
-          "danger": 0.432,
-          "sentiment": 0.667
-        },
-        "C_Military1": {
-          "danger": 0.657,
-          "sentiment": -0.067
-        },
-        "almayadeen": {
-          "danger": 0.751,
-          "sentiment": -0.167
-        },
-        "QudsN": {
-          "danger": 0.758,
-          "sentiment": -0.5
-        }
-      }
-    },
     {
       "time": "2026-07-11T17:52:11.475Z",
       "danger": 0.52,
@@ -1974,6 +1927,53 @@
           "sentiment": -0.3
         }
       }
+    },
+    {
+      "time": "2026-07-15T14:45:11.431Z",
+      "danger": 0.539,
+      "sentiment": -0.224,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.567,
+          "sentiment": -0.5
+        },
+        "OSINTdefender": {
+          "danger": 0.523,
+          "sentiment": -0.167
+        },
+        "irna_1313": {
+          "danger": 0.645,
+          "sentiment": 0.067
+        },
+        "sepah_pasdaran": {
+          "danger": 0.4,
+          "sentiment": -0.667
+        },
+        "almanarnews": {
+          "danger": 0.468,
+          "sentiment": 0.067
+        },
+        "C_Military1": {
+          "danger": 0.726,
+          "sentiment": 0.1
+        },
+        "almayadeen": {
+          "danger": 0.577,
+          "sentiment": -0.433
+        },
+        "QudsN": {
+          "danger": 0.532,
+          "sentiment": -0.571
+        }
+      }
     }
   ],
   "channel_data": {
@@ -1992,8 +1992,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.415907561911364
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.566972899748601
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2004,38 +2004,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.5835655770624564
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.6454098112976603
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.42872678680578946
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.3999711650185025
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.47934494068028527
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.46799519960175817
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.7485718674521491
+      "knn_danger_metric": 0.7260389176877448
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.7377306887966999
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.5765667250388344
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.6174815956184588
+      "num_messages": 14,
+      "raw_sentiment": -0.5714285714285714,
+      "knn_danger_metric": 0.5324347746464989
     }
   },
   "semantic_logs": [
@@ -2047,17 +2047,45 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "דובר צה&quot;ל: חוסל מחבל שלקח חלק בחטיפת אל&quot;ם אסף חממי ז&quot;ל, סמ&quot;ר תומר אחימס ז&quot;ל וסמל קיריל ברודסקי ז&quot;ל  צה&quot;ל תקף אתמול (שלישי) בדרום רצועת עזה וחיסל את חסאם שאפעי, מחבל בגדוד מזרח חאן יונס בזרוע הצבאית של חמאס. במהלך טבח ה-7 באוקטובר, שאפעי פשט לקיבוץ נירים ולקח…",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "המטבע האיראני נופל ביממה האחרונה בכ - 5% ונסחר סביב שער של 1.88 מיליון ריאל לדולר אמריקאי אחד.  קרוב מאוד לשפל של כל הזמנים.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🎥بی‌تعارف با دولت در «دولت‌پلاس»   🔹این برنامه به رصد و تحلیل تصمیمات، مصوبات و سیاست‌گذاری‌های کلان دولت در هفته ای که گذشت، اختصاص دارد. ما در این بخش صرفا روایت گر نیستیم بلکه تلاش می کنیم «اثر عینی» اقدامات را بر زندگی، معیشت و کسب‌وکار شهروندان بررسی…",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️اسامی شهدای حمله شب گذشته آمریکا به پادگان ارتش در شهرستان بمپور  &rlm;🔹 رضا شفیعی &rlm;🔹 فرهادعلوی &rlm;🔹 ابوالفضل ملایی &rlm;🔹 حسین جعفری &rlm;🔹 علیرضا قاسمی &rlm;🔹 حسام‌الدین عباسی &rlm;🔹 عباس حسن شاهی &lrm;✅ @sepah_pasdaran",
+      "text": "&rlm; ️سید فرشاد علوی، از شهدای حمله آمریکا به آسایشگاه نیروهای ارتشی در ایرانشهر &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "الحرس الثوري يستهدف قاعدة الأزرق في الأردن ويدعو الشعب الأردني إلى طرد الأمريكيين من البلاد https://almanar.com.lb/article/1022522/?s=tg",
-      "absolute_sentiment": -1,
+      "text": "🔵 وزارة الاقتصاد والتجارة تحذّر من احتكار وتهريب المحروقات المتوافرة وتؤكد تشديد الرقابة https://almanar.com.lb/article/1022992/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "تصاعد الخروقات الإسرائيلية في غزة واستشهاد 15 فلسطينيًا خلال 24 ساعة https://almanar.com.lb/article/1023012/?s=tg",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2077,71 +2105,43 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "غزة: مراسل الميادين: إصابة مواطن بنيران الاحتلال داخل خيمته في مواصي مدينة خان يونس",
+      "text": "صحيفة &quot;إندبندنت&quot;: لا يملك الكابتن ترامب سوى المبدأ القائل بأن القوة هي الحق وأنه يمكنه الإفلات من العقاب على الفوضى في أعالي البحار",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: العلاقات العامة في الجيش: ندين قرار البرلمان البريطاني بتصنيف حرس الثورة منظمة إرهابية",
+      "text": "لبنان: مراسل الميادين في الجنوب: مدفعية الاحتلال الإسرائيلي استهدفت بلدة عيتا الجبل",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: تسنيم عن شركة &quot;مارين ترافيك&quot; لتتبع الملاحة: نشاط السفن في مضيق هرمز شهد ارتفاعاً طفيفاً يوم أمس حيث جرى تسجيل 21 عملية عبور مؤكدة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: جرحى من جراء إطلاق نار من آليات الاحتلال شرق مدينة حمد شمالي مدينة خان يونس جنوبي قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "&quot;فورين بوليسي&quot;: هجمات ترامب على القوارب جرائم ضد الإنسانية",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "&quot;فورين بوليسي&quot;: ينبغي لإدارة ترامب أن تتوقف عند محاكمة دوتيرتي لا سيما مع استمرارها في استهداف القوارب في البحر الكاريبي",
       "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: الجيش: حرس الثورة يتصدر طليعة مكافحة الإرهاب في منطقة غرب آسيا ويشكل ركيزة أساسية في حماية الأمن القومي والإقليمي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "غزة: مراسل الميادين: إصابة بنيران الاحتلال في مدينة حمد شمالي مدينة خان يونس",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: التلفزيون الإيراني: بحرية حرس الثورة أوقفت بطلقات تحذيرية سفينتين على الأقل خلال الساعات الـ24 الماضية في مضيق هرمز",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: التلفزيون الإيراني: عراقتشي سيقدم التعازي بوفاة الأمير الوالد وسيلتقي عددا من المسؤولين في قطر",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: جيش الاحتلال الاسرائيلي نفذ تفجيراً عند أطراف بلدة كونين",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "ركام منزل هدمته جرافات الاحتلال في قرية عنزا جنوب جنين",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "أطفأ الاحتلال ضحكتها البريئة.. الطفلة الشهيدة حبيبة عمر أبو قاسم، ارتقت فجر اليوم برفقة والديها، إثر قصف إسرائيلي غادر استهدف منزل عائلتها في دير البلح",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تواصل اقتحام قرية سنجل شمال رام الله.",
-      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
   ]
