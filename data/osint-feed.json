@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-16T16:17:33.963Z",
+  "last_updated": "2026-07-16T18:03:00.334Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.51",
-    "global_norm_sentiment": "-0.03"
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.10"
   },
   "timeline": [
-    {
-      "time": "2026-07-12T14:52:19.681Z",
-      "danger": 0.545,
-      "sentiment": -0.22,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.686,
-          "sentiment": -0.633
-        },
-        "OSINTdefender": {
-          "danger": 0.542,
-          "sentiment": -0.333
-        },
-        "irna_1313": {
-          "danger": 0.474,
-          "sentiment": -0.167
-        },
-        "sepah_pasdaran": {
-          "danger": 0.533,
-          "sentiment": -0.5
-        },
-        "almanarnews": {
-          "danger": 0.363,
-          "sentiment": 0.267
-        },
-        "C_Military1": {
-          "danger": 0.737,
-          "sentiment": -0.1
-        },
-        "almayadeen": {
-          "danger": 0.527,
-          "sentiment": -0.2
-        },
-        "QudsN": {
-          "danger": 0.64,
-          "sentiment": -0.4
-        }
-      }
-    },
     {
       "time": "2026-07-12T15:56:08.740Z",
       "danger": 0.524,
@@ -1974,13 +1927,60 @@
           "sentiment": 0.133
         }
       }
+    },
+    {
+      "time": "2026-07-16T18:03:00.334Z",
+      "danger": 0.517,
+      "sentiment": -0.097,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.512,
+          "sentiment": -0.267
+        },
+        "OSINTdefender": {
+          "danger": 0.48,
+          "sentiment": -0.5
+        },
+        "irna_1313": {
+          "danger": 0.558,
+          "sentiment": 0.633
+        },
+        "sepah_pasdaran": {
+          "danger": 0.552,
+          "sentiment": -0.5
+        },
+        "almanarnews": {
+          "danger": 0.443,
+          "sentiment": 0.267
+        },
+        "C_Military1": {
+          "danger": 0.553,
+          "sentiment": 0.167
+        },
+        "almayadeen": {
+          "danger": 0.684,
+          "sentiment": -0.3
+        },
+        "QudsN": {
+          "danger": 0.435,
+          "sentiment": -0.3
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -1992,32 +1992,32 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.5507887833103351
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.5120369437022272
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.49627609429546454
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.48035556551258396
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 13,
-      "raw_sentiment": -0.038461538461538464,
-      "knn_danger_metric": 0.33793910145677786
+      "num_messages": 15,
+      "raw_sentiment": 0.6333333333333333,
+      "knn_danger_metric": 0.5576265875792618
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.43673098380360365
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.5519026886875887
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.2,
-      "knn_danger_metric": 0.4087602227639685
+      "raw_sentiment": 0.26666666666666666,
+      "knn_danger_metric": 0.4432945294707494
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2028,14 +2028,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.7768689172814801
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.6844320190019003
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.5570673776159045
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.43474950810459334
     }
   },
   "semantic_logs": [
@@ -2068,81 +2068,81 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "המחבל אנס חמדאן שחוסל היום בח&#39;אן יונס ☝️ היה חבר ביחידת הצל של חמאס - היחידה האמונה על החזקת החטופים הישראלים ברצועה.  תגובה אחת",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️#فوری| انفجار قوی در پایگاه هوایی الظفره امارات &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️شهدای پدافند هوایی ارتش &lrm;✅ @sepah_pasdaran",
+      "text": "&rlm; ️#فوری| فعال‌سازی سامانه‌های پدافند هوایی در دبی &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: وزارة الخارجية: كررت الهيئة الحاكمة الأميركية الناقضة للعهود والمحاربة مرة أخرى خيانة للدبلوماسية وأهانت الوساطة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: محافظة هرمزغان: عدة نقاط في محيط بندر عباس أصيبت بصواريخ العدوان الأميركي",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: محافظة هرمزغان: لم يسجل في الهجمات الأميركية الجديدة على المحافظة أي إصابة أو أضرار في البنى التحتية المدنية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "عضو &quot;الكابينيت&quot; الإسرائيلي إيلي كوهين: مذكرة التفاهم مع لبنان تنص بشكل صريح أننا باقون داخل لبنان خلال السنوات المقبلة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "وسائل إعلام إسرائيلية: قناة &quot;آي 24&quot; نيوز: في استطلاعات الرأي آيزنكوت حصل على 47% من الأصوات مقابل 44% لنتنياهو",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#اليمن   قائد أنصار الله السيد عبدالملك الحوثي:  - كل المنشآت النفطية والحيوية السعودية هي هدف لصواريخنا وطائراتنا المسيرة إذا ما تورط في العدوان على بلدنا  - على السعودي أن يحترم نفسه وأن يكف عن حصارنا وعن التدخل في كل شؤوننا  - لن نقبل أبداً، أبداً، أبداً باستمرار الحصار والتحكم بنا في موانئنا، في مطاراتنا، في بضائعنا، في حركة مرضانا ومسافرينا، في كل شؤون حياتنا  - نحن شعب حر عزيز بعزة الإيمان، ولن نقبل لأحد أن يستعبدنا من دون الله  - أنا أتوجه إلى شعبنا العزيز إلى أن يكون الخروج يوم غد الجمعة في العاصمة صنعاء وبقية المحافظات خروجا جماهيريًا عظيمًا غير مسبوق  - نحن في مرحلة مفصلية الخيار فيها هو الحرية والكرامة والعزة، ورفض الاستمرار للحصار.  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.998583952312496
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#اليمن   قائد أنصار الله السيد عبدالملك بدرالدين الحوثي:  - الطغيان الأمريكي والإسرائيلي وراء الظلم الذي ترتكبه قوى الصهيونية ضد أمتنا والمعاناة التي تعاني منها شعوبنا  - المسؤولية الدينية والإنسانية والأخلاقية والقضية العادلة مسألة واضحة  -  مسؤولية الأمة هي أن تتحرك للجهاد في سبيل الله لمواجهة الطغيان والإجرام الصهيوني   -  الموقف الحق واضح ولا التباس فيه، والقضية العادلة للشعب الفلسطيني وشعوب هذه المنطقة واضحة لا التباس فيها  - لا ينبغي أن يكون اللوم والانتقاد والتحميل للمسؤولية والتوجيه للإساءات ضد من يتجه الاتجاه الصحيح القائم على أساس مسؤولية إيمانية  -  الاتجاهات المتباينة في داخل هذه الأمة واضحة، اتجاه يخدم الأمريكي والإسرائيلي بشكل مباشر، اتجاه لا يعبر عن هذه الأمة ولا عن هويتها  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.9971299585751379
+    },
+    {
+      "channelId": "irna_1313",
       "channel": "IRGC",
-      "text": "&rlm; ️کشف لاشه پهپاد متجاوز MQ۹ ‌آمریکایی در دهلران‌ &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: مستشار ومساعد قائد الثورة والجمهورية محمد مخبر: الجريمة الأخيرة في الأهواز وإيرانشهر هي امتداد لمسار استهداف الأبرياء للتعويض عن الهزيمة والإذلال الميداني",
+      "text": "🎥 قصه سربازان بمپور  🔹حمله به آسایشگاه تیپ ۳۸۸ ارتش، نام بمپور را بر سر زبان‌ها انداخت؛ جایی که روایت‌های تاریخی و حماسه‌های ایران، امروز با نام سربازانی گره خورده که در خط مقدم خدمت ایستاده‌اند.  🔹در این ویدئو، نگاهی داریم به قصه بمپور؛ از پیشینه تاریخی این شهر تا روایت سربازانی که نامشان شاید کمتر شنیده شود، اما مسئولیت حفاظت از این سرزمین را بر دوش دارند.  @IRNA_1313",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
+      "semantic_danger_knn": 0.996789802853002
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: محمد مخبر: الجريمة الأخيرة في الأهواز وإيرانشهر هي امتداد للخط الذي رسم في مدرسة ميناب",
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "بيان صادر عن العلاقات الإعلامية في حزب الله:  تتكرر بين الحين والآخر الادعاءات المتعلقة بوجود نشاط لحزب الله داخل الأراضي السورية، وهو ما سبق للحزب أن نفاه مرارًا وتكرارًا وبشكل قاطع وأكد أنها ادعاءات باطلة جملة وتفصيلًا.  وعليه، تجدد العلاقات الإعلامية في حزب الله نفيها لهذه المزاعم الواهية، وتؤكد أن هذه الادعاءات والاتهامات لا تعدو كونها روايات مختلقة لا أساس لها من الصحة، وتهدف إلى الإساءة لحزب الله، وتخدم المشروع الصهيوني-الأميركي في المنطقة.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: التلفزيون الإيراني: قذيفة معادية أصابت عصر اليوم قرية &quot;مَسَن&quot; في جزيرة قشم",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: المصدر اليمني للميادين: الطيران الإسرائيلي شارك القوات السعودية في محاولة التصدي للرد اليمني بعد العدوان على مطار صنعاء",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: المصدر للميادين: الطائرات الإسرائيلية كانت من نوع GLFSTREAM المخصصة للتنصت والاتصالات وجمع المعلومات",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: المصدر اليمني للميادين: الطائرات الإسرائيلية أقلعت من قاعدة &quot;نيفاتيم&quot; وكان مسار عملها في البحر الأحمر",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: المصدر للميادين: طائرات التنصت والاتصالات وجمع المعلومات الإسرائيلية شاركت في رصد وتحديد مسارات الصواريخ والمسيّرات اليمنية",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: قوة إسرائيلية توغلت باتجاه وادي السلوقي وتمشيط بالأسلحة الرشاشة من حداثا باتجاه بلدة حاريص",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
+      "semantic_danger_knn": 0.9958880707281141
     }
   ]
 }
