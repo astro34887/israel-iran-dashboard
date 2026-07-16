@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-16T22:53:56.615Z",
+  "last_updated": "2026-07-16T23:55:18.730Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.57",
-    "global_norm_sentiment": "-0.47"
+    "global_knn_danger": "0.56",
+    "global_norm_sentiment": "-0.30"
   },
   "timeline": [
-    {
-      "time": "2026-07-12T19:07:58.577Z",
-      "danger": 0.55,
-      "sentiment": -0.247,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.603,
-          "sentiment": -0.467
-        },
-        "OSINTdefender": {
-          "danger": 0.542,
-          "sentiment": -0.333
-        },
-        "irna_1313": {
-          "danger": 0.601,
-          "sentiment": -0.367
-        },
-        "sepah_pasdaran": {
-          "danger": 0.442,
-          "sentiment": -0.8
-        },
-        "almanarnews": {
-          "danger": 0.421,
-          "sentiment": 0
-        },
-        "C_Military1": {
-          "danger": 0.747,
-          "sentiment": -0.267
-        },
-        "almayadeen": {
-          "danger": 0.772,
-          "sentiment": -0.533
-        },
-        "QudsN": {
-          "danger": 0.419,
-          "sentiment": 0.429
-        }
-      }
-    },
     {
       "time": "2026-07-12T20:40:15.609Z",
       "danger": 0.509,
@@ -1974,13 +1927,60 @@
           "sentiment": -0.933
         }
       }
+    },
+    {
+      "time": "2026-07-16T23:55:18.730Z",
+      "danger": 0.555,
+      "sentiment": -0.303,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.476,
+          "sentiment": -0.233
+        },
+        "OSINTdefender": {
+          "danger": 0.48,
+          "sentiment": -0.5
+        },
+        "irna_1313": {
+          "danger": 0.547,
+          "sentiment": -0.567
+        },
+        "sepah_pasdaran": {
+          "danger": 0.489,
+          "sentiment": -0.467
+        },
+        "almanarnews": {
+          "danger": 0.383,
+          "sentiment": -0.1
+        },
+        "C_Military1": {
+          "danger": 0.598,
+          "sentiment": -0.3
+        },
+        "almayadeen": {
+          "danger": 0.79,
+          "sentiment": -0.433
+        },
+        "QudsN": {
+          "danger": 0.839,
+          "sentiment": -0.267
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -1992,7 +1992,7 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.23333333333333334,
       "knn_danger_metric": 0.4763602270857544
     },
     "OSINTdefender": {
@@ -2004,14 +2004,14 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -1,
-      "knn_danger_metric": 0.6887409870828686
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.5469076595902902
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.8666666666666667,
-      "knn_danger_metric": 0.3744372922748995
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.48850969599696786
     },
     "almanarnews": {
       "name": "Hezbollah",
@@ -2022,20 +2022,20 @@
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.5975835127627863
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.9056408074812041
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.7895395204204406
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.9333333333333333,
-      "knn_danger_metric": 0.8104516141764816
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.8391994824308803
     }
   },
   "semantic_logs": [
@@ -2068,45 +2068,17 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: التلفزيون الإيراني: استشهاد سائق سيارة إثر العدوان الأميركي على جسرين في بندر خمير",
-      "absolute_sentiment": 0.5,
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️آقای شهید ایران؛ آرزومندی که به آرزویش رسید  دستخط رهبر شهید انقلاب که در اشتیاق شهادت اینگونه نوشتند: خاکپای همه‌ی شهدا و آرزومند مقام آنها؛ سیدعلی خامنه‌ای &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: جامعة العلوم الطبية في هرمزغان: شهيد و8 جرحى خلال العدوان الأميركي على حي تلة الله أكبر",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: وكالة &quot;فارس&quot;: عدوان أميركي بالصواريخ بالقرب من سيريك في محافظة هرمزغان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: التلفزيون الإيراني: إصابة مواطنين اثنين خلال عدوان أميركي على محطة تحويلية لسكة الحديد في بندر عباس",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: مراسل الميادين: انقطاع التيار الكهربائي عن منطقة في جزيرة كيش اثر عدوان أميركي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: مراسل الميادين: استشهاد شخصين وإصابة 4 آخرين جراء اعتداءات أميركية استهدفت عدة جسور في ميناء خمير جنوبي البلاد",
-      "absolute_sentiment": -1,
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️هم اکنون آسمان بحرین &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2142,6 +2114,34 @@
       "channel": "Arab_Axis",
       "text": "فلسطين المحتلة: مراسل الميادين: غارة من مروحية إسرائيلية على جنوب غرب مدينة غزة",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: وزارة الطاقة الإيرانية: نتيجة للهجمات الأميركية تعرضت خطوط الكهرباء في بندر عباس والقرى المحيطة بها لأضرار",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: الجيش الإيراني: استخدمنا في المرحلة 11 من عملية الصاعقة طائرات &quot;آرش&quot; المسيرة الانتحارية",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: الجيش الإيراني: استهدفنا موقع تمركز المروحيات وطائرات الاستطلاع الأميركية من طراز P-8 في قاعدة الصخير بالبحرين",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة جبع جنوب جنين",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     }
   ]
