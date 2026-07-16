@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-16T21:11:03.142Z",
+  "last_updated": "2026-07-16T22:53:56.615Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.30"
+    "global_knn_danger": "0.57",
+    "global_norm_sentiment": "-0.47"
   },
   "timeline": [
-    {
-      "time": "2026-07-12T17:57:37.900Z",
-      "danger": 0.541,
-      "sentiment": -0.268,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.551,
-          "sentiment": -0.367
-        },
-        "OSINTdefender": {
-          "danger": 0.542,
-          "sentiment": -0.333
-        },
-        "irna_1313": {
-          "danger": 0.71,
-          "sentiment": -0.167
-        },
-        "sepah_pasdaran": {
-          "danger": 0.348,
-          "sentiment": -0.733
-        },
-        "almanarnews": {
-          "danger": 0.391,
-          "sentiment": -0.1
-        },
-        "C_Military1": {
-          "danger": 0.71,
-          "sentiment": -0.267
-        },
-        "almayadeen": {
-          "danger": 0.772,
-          "sentiment": -0.533
-        },
-        "QudsN": {
-          "danger": 0.433,
-          "sentiment": -0.05
-        }
-      }
-    },
     {
       "time": "2026-07-12T19:07:58.577Z",
       "danger": 0.55,
@@ -1974,6 +1927,53 @@
           "sentiment": -0.533
         }
       }
+    },
+    {
+      "time": "2026-07-16T22:53:56.615Z",
+      "danger": 0.567,
+      "sentiment": -0.467,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.476,
+          "sentiment": -0.333
+        },
+        "OSINTdefender": {
+          "danger": 0.48,
+          "sentiment": -0.5
+        },
+        "irna_1313": {
+          "danger": 0.689,
+          "sentiment": -1
+        },
+        "sepah_pasdaran": {
+          "danger": 0.374,
+          "sentiment": -0.867
+        },
+        "almanarnews": {
+          "danger": 0.383,
+          "sentiment": -0.1
+        },
+        "C_Military1": {
+          "danger": 0.598,
+          "sentiment": -0.267
+        },
+        "almayadeen": {
+          "danger": 0.906,
+          "sentiment": -0.533
+        },
+        "QudsN": {
+          "danger": 0.81,
+          "sentiment": -0.933
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2004,38 +2004,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.5191809358211547
+      "raw_sentiment": -1,
+      "knn_danger_metric": 0.6887409870828686
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.44657125523177166
+      "raw_sentiment": -0.8666666666666667,
+      "knn_danger_metric": 0.3744372922748995
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.41481790985058864
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.3830396646164412
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
+      "raw_sentiment": -0.26666666666666666,
       "knn_danger_metric": 0.5975835127627863
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.7430866776873128
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.9056408074812041
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.6964580920024315
+      "raw_sentiment": -0.9333333333333333,
+      "knn_danger_metric": 0.8104516141764816
     }
   },
   "semantic_logs": [
@@ -2068,41 +2068,6 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️منابع عربی از هدف‌گیری سکوهای پرتاب موشک در داخل کویت خبر می‌دهند. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: شكارتشي: الأميركيون وقعوا في الفخ وطريق خلاصهم الوحيد هو الخروج من غرب آسيا فقد انتهى زمن قوة الغطرسة والتمرد الأميركيين",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: وكالة &quot;تسنيم&quot;: عدوان أميركي يستهدف برج اتصالات في بندر عباس",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: وكالة &quot;مهر&quot;: عدوان أميركي يستهدف الجسر الرئيسي على طريق بندر خمير - بندر عباس",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: التلفزيون الإيراني: 3 انفجارات سمعت حول مطار إيرانشهر وقذيفة واحدة على الأقل أصابت المطار",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
       "text": "إيران: التلفزيون الإيراني: استشهاد سائق سيارة إثر العدوان الأميركي على جسرين في بندر خمير",
@@ -2131,17 +2096,52 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم المزرعة الغربية، شمال غرب رام الله",
-      "absolute_sentiment": 0,
+      "text": "إيران: مراسل الميادين: انقطاع التيار الكهربائي عن منطقة في جزيرة كيش اثر عدوان أميركي",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة سلواد، شمال شرق رام الله.",
-      "absolute_sentiment": 0,
+      "text": "إيران: مراسل الميادين: استشهاد شخصين وإصابة 4 آخرين جراء اعتداءات أميركية استهدفت عدة جسور في ميناء خمير جنوبي البلاد",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: مساعد محافظ لُرستان غربي إيران: عدوان أميركي على مدينة ويسيان بالمحافظة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: مساعد محافظ بوشهر: تجدد العدوان الأميركي على محافظة بوشهر",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: وكالة مهر: عدة انفجارات في ميناء لِنجة بمحافظة هرمزغان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: التلفزيون الإيراني: إصابة مواطن بجروح وأضرار بمنشآت الكهرباء وخزان الوقود في مطار مدينة &quot;إيران شَهرمن جراء العدوان الأميركي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: غارة من مروحية إسرائيلية على جنوب غرب مدينة غزة",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
   ]
