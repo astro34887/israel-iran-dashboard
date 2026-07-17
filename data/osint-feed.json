@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-17T14:40:00.558Z",
+  "last_updated": "2026-07-17T16:11:29.815Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.58",
-    "global_norm_sentiment": "-0.24"
+    "global_knn_danger": "0.56",
+    "global_norm_sentiment": "-0.28"
   },
   "timeline": [
-    {
-      "time": "2026-07-13T06:12:07.707Z",
-      "danger": 0.586,
-      "sentiment": -0.19,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.505,
-          "sentiment": -0.5
-        },
-        "OSINTdefender": {
-          "danger": 0.565,
-          "sentiment": -0.433
-        },
-        "irna_1313": {
-          "danger": 0.566,
-          "sentiment": 0.1
-        },
-        "sepah_pasdaran": {
-          "danger": 0.519,
-          "sentiment": -0.433
-        },
-        "almanarnews": {
-          "danger": 0.471,
-          "sentiment": -0.1
-        },
-        "C_Military1": {
-          "danger": 0.798,
-          "sentiment": -0.2
-        },
-        "almayadeen": {
-          "danger": 0.911,
-          "sentiment": 0
-        },
-        "QudsN": {
-          "danger": 0.574,
-          "sentiment": -0.167
-        }
-      }
-    },
     {
       "time": "2026-07-13T10:21:07.903Z",
       "danger": 0.535,
@@ -1974,6 +1927,53 @@
           "sentiment": -0.433
         }
       }
+    },
+    {
+      "time": "2026-07-17T16:11:29.815Z",
+      "danger": 0.556,
+      "sentiment": -0.277,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.714,
+          "sentiment": -0.6
+        },
+        "OSINTdefender": {
+          "danger": 0.525,
+          "sentiment": -0.367
+        },
+        "irna_1313": {
+          "danger": 0.668,
+          "sentiment": -0.367
+        },
+        "sepah_pasdaran": {
+          "danger": 0.313,
+          "sentiment": 0.133
+        },
+        "almanarnews": {
+          "danger": 0.397,
+          "sentiment": 0.167
+        },
+        "C_Military1": {
+          "danger": 0.751,
+          "sentiment": -0.633
+        },
+        "almayadeen": {
+          "danger": 0.566,
+          "sentiment": -0.633
+        },
+        "QudsN": {
+          "danger": 0.679,
+          "sentiment": -0.333
+        }
+      }
     }
   ],
   "channel_data": {
@@ -1992,8 +1992,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.7666666666666667,
-      "knn_danger_metric": 0.7297992784030912
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.7142543936015618
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2003,39 +2003,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 13,
-      "raw_sentiment": 0.2692307692307692,
-      "knn_danger_metric": 0.7132031484771564
+      "num_messages": 15,
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.6684999991166137
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.4718081985899937
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.31336206064708244
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.23333333333333334,
-      "knn_danger_metric": 0.2803834294927851
+      "raw_sentiment": 0.16666666666666666,
+      "knn_danger_metric": 0.3968181457011134
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.7252341968779842
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.7510474957980737
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.6611329167812205
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.565834567845661
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.7175701617374927
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.6788737171964083
     }
   },
   "semantic_logs": [
@@ -2061,88 +2061,88 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "מקורות עזתיים: 4 הרוגים בתקיפת כטב&quot;מ ישראלי לפני זמן קצר על משתתפי הלווייתו טאהר אלואחד - מחבל של הג&#39;האד האסלאמי שחוסל לפני שעות אחדות בנציראת במרכז הרצועה (גם ההלוויה נערכה בנציראת).  יש תמונות לא סימפטיות ברשתות החברתיות.   תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "מקורות עזתיים: 4 הרוגים בתקיפת כטב&quot;מ ישראלי לפני זמן קצר על משתתפי הלווייתו טאהר אלואחד - מחבל של הג&#39;האד האסלאמי שחוסל לפני שעות אחדות בנציראת במרכז הרצועה (גם ההלוויה נערכה בנציראת).  יש תמונות לא סימפטיות ברשתות החברתיות.   תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "מקורות עזתיים: 4 הרוגים בתקיפת כטב&quot;מ ישראלי לפני זמן קצר על משתתפי הלווייתו טאהר אלואחד - מחבל של הג&#39;האד האסלאמי שחוסל לפני שעות אחדות בנציראת במרכז הרצועה (גם ההלוויה נערכה בנציראת).  יש תמונות לא סימפטיות ברשתות החברתיות.   תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
+      "channelId": "irna_1313",
       "channel": "IRGC",
-      "text": "&rlm; ️#فوری | رسانه‌های عربی از حملۀ ۸ پهپاد به پایگاه‌های تروریست‌های ضدایرانی در شمال غربی اربیل خبر می‌دهند. &lrm;✅ @sepah_pasdaran",
+      "text": "🎥هشت شهید و ۲۰  زخمی در حمله رژیم صهیونیستی به اردوگاه پناهندگان در غزه  🔹مسئولان بیمارستان العوده در نوار غزه اعلام کردند که در حمله هوایی رژیم صهیونیستی به اردوگاه النصیرات، هشت فلسطینی شهید و ۲۰  نفر دیگر زخمی شده‌اند.  🔹آمار شهدای این حمله قطعی نیست و…",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: مصابون باستهداف مسيرة إسرائيلية مواطنين أمام مسجد أحمد ياسين في مخيم النصيرات وسط القطاع",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: الاحتلال الإسرائيلي يصعد عدوانه على القطاع وانتهاكاته أخذت اتجاهاً خطيراً آخرها قصف مشيعين في النصيرات",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: شهداء ومصابون باستهداف الاحتلال مواطنين اثناء مشاركتهم في تشييع في مخيم النصيرات",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: المصادر للميادين: عون شدد خلال الاتصال مع ترامب على أن الاحتلال الإسرائيلي هو السبب المباشر لاستمرار التوتر في لبنان وسوريا",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: الاحتلال الإسرائيلي ارتكب عدة مجازر اليوم في قطاع غزة ضحاياه من المشيعين والأطفال والنساء",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: المصادر للميادين: الحديث عن الأمن والاستقرار يفقد معناه ما دامت قوات الاحتلال تواصل وجودها في أراضٍ لبنانية وسورية",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: المصادر للميادين: الرئيس عون أبلغ الرئيس الأميركي أن إنهاء الاحتلال يشكل المدخل الطبيعي لأي مسار سياسي قابل للحياة",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: 7 شهداء و19 إصابة في مجزرة ارتكبها الاحتلال الإسرائيلي باستهداف تجمع لمواطنين في مخيم النصيرات",
+      "text": "اليمن: سبأ عن العاطفي: الخسارة ستكون للسعودية التي تعمل على تدمير اليمن وهذا التدمير سيطالها حتى تتوقف عن التدخل بشؤون اليمن",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مكتب الإعلام الحكومي في غزة: الاحتلال الإسرائيلي يمعن في الإبادة ويكثف القصف ضد المدنيين ويقتل أكثر من 25 شهيداً خلال 72 ساعة",
+      "text": "لبنان: مراسل الميادين في الجنوب: الاحتلال الإسرائيلي ينفذ تفجيراً في كفرتبنيت في قضاء النبطية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "تابعوا الأخبار أولاً بأول، عبر قناة واتساب من خلال الرابط التالي:  https://whatsapp.com/channel/0029VbCpgXo8fewqkgDTLM2z",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "في أحدث حصيلة.. مستشفى العودة في النصيرات: 8 شهداء و19 جريحاً؛ جراء قصف الاحتلال تجمعًا للفلسطينيين في منطقة سوق البلاطة بمخيم النصيرات، وسط قطاع غزة.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "أصوات ميلانو لا تهدأ.. &quot;الحرية لأبو صفية&quot;   وقفة يومية في مدينة ميلانو الإيطالية؛ رفضاً للإبادة في غزة، وللمطالبة بحرية الطبيب حسام أبو صفية من سجون الاحتلال",
-      "absolute_sentiment": 1,
+      "text": "قوات الاحتلال تقتحم قرية اللبّن الشرقية، جنوب نابلس",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صحيفة إسرائيل اليوم العبرية - يوآف ليمور:  تعليق آخر حول الحرب التي انتهت. كانت المنشورات التي نُشرت هذا الأسبوع في صحيفتي هآرتس ونيويورك تايمز حول المسار الذي أدى إلى العملية  ضد إيران في نهاية فبراير مثيرة للقلق. ليس بسبب نشرها بحد ذاته، بل بسبب الطريقة التي اتُخذت بها القرارات. مرة أخرى، تم تجاهل آراء واضحة (هذه المرة من شعبة الاستخبارات في الجيش الإسرائيلي) مفادها أنه لا توجد فرصة لتنفيذ الخطط، انهيار النظام في طهران، والاستيلاء على الأسلحة النووية، وإبقاء مضيق هرمز مفتوحًا، وتزويد الأكراد بالسلاح. مرة أخرى، اتُخذت القرارات من قِبل شخص واحد، مع تجاهل الترتيبات الإدارية والحوكمة السليمة. مرة أخرى، تبرز الفجوة الهائلة بين القدرة المذهلة التي تُظهرها &quot;إسرائيل&quot; على المستوى العملياتي والتكتيكي، وفشلها الذريع على المستوى الاستراتيجي.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9990740641631829
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸نماز آیت‌الله جوادی آملی جلوه‌های شخصیت عظیم رهبر شهید انقلاب را یکبار دیگر برجسته کرد  🔹 گفت‌وگوی رسانه KHAMENEI.IR با حجت‌الاسلام والمسلمین سعید جوادی آملی فرزند حضرت آیت‌الله جوادی آملی و رئیس بنیاد علوم وحیانی اسراء در حاشیه مراسم بزرگداشت رهبر شهید انقلاب از سوی حضرت آیت‌الله جوادی آملی در قم.  #باید_برخاست @IRNA_1313",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.9986742572783812
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "📸 به یاد بابا   🔹تصاویری  از مراسم اخیر یادبود رهبر شهید انقلاب در شیرخوارگاه حضرت آمنه(س)  #باید_برخاست @IRNA_1313",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.9973547420446702
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صحيفة إسرائيل اليوم العبرية - يوآف ليمور: حتى في الكنيست الذي لا يهدأ، شهد الأسبوع الماضي انحدارًا غير مسبوق. لم يقتصر الأمر على سلسلة القوانين المهينة والمشينة والمزرية التي كافح الائتلاف لتمريرها قبيل حل الكنيست، بل شمل أيضًا المسار - المسار العدواني الجامح الذي لا يكترث بشيء، والذي لا يرى في عينيه إلا ما يخدم مصالحه المباشرة والفورية، وبالتأكيد ليس مصلحة &quot;إسرائيل&quot; ولا مصلحة مواطنيها.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.99733541619805
     }
   ]
 }
