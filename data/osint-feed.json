@@ -1,17 +1,11 @@
 {
-  "last_updated": "2026-07-18T09:20:07.862Z",
+  "last_updated": "2026-07-18T10:59:01.194Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.34"
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.22"
   },
   "timeline": [
-    {
-      "time": "2026-07-14T09:54:55.531Z",
-      "danger": 0,
-      "sentiment": 0,
-      "channels": {}
-    },
     {
       "time": "2026-07-14T11:23:13.638Z",
       "danger": 0,
@@ -2179,13 +2173,60 @@
           "sentiment": 0.033
         }
       }
+    },
+    {
+      "time": "2026-07-18T10:59:01.194Z",
+      "danger": 0.532,
+      "sentiment": -0.223,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.517,
+          "sentiment": -0.6
+        },
+        "OSINTdefender": {
+          "danger": 0.562,
+          "sentiment": -0.833
+        },
+        "irna_1313": {
+          "danger": 0.632,
+          "sentiment": 0.333
+        },
+        "sepah_pasdaran": {
+          "danger": 0.479,
+          "sentiment": -0.767
+        },
+        "almanarnews": {
+          "danger": 0.441,
+          "sentiment": 0.367
+        },
+        "C_Military1": {
+          "danger": 0.688,
+          "sentiment": -0.067
+        },
+        "almayadeen": {
+          "danger": 0.419,
+          "sentiment": -0.433
+        },
+        "QudsN": {
+          "danger": 0.632,
+          "sentiment": -0.1
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2197,8 +2238,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.5873111467839085
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.5170471998746049
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2209,38 +2250,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.5313936939719215
+      "raw_sentiment": 0.3333333333333333,
+      "knn_danger_metric": 0.6317335852054918
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.35496592707782126
+      "raw_sentiment": -0.7666666666666667,
+      "knn_danger_metric": 0.4785324995779302
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.5043070384989805
+      "raw_sentiment": 0.36666666666666664,
+      "knn_danger_metric": 0.4406325569242643
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.6671268588577609
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.6878691434617583
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.6660076335953627
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.4186381415125534
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.5571448888457174
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.6321898173304803
     }
   },
   "semantic_logs": [
@@ -2268,86 +2309,86 @@
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️سخنگوی قوه‌قضائیه: تاکنون ۳۵۰ پروندهٔ حقوقی دربارهٔ جنگ ۱۲ روزه و جنگ رمضان علیه آمریکا و رژیم صهیونیستی ثبت شد &lrm;✅ @sepah_pasdaran",
+      "text": "&rlm; ️اژیر خطر در شهر الازرق اردن به صدا درآمد&#33; &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "الحرس الثوري الإيراني: استهداف قاعدة الأزرق الأميركية في الأردن وتدمير مقاتلات وطائرات https://almanar.com.lb/article/1029512/?s=tg",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️ برخی منابع خبری از شنیده‌شدن صدای انفجار در کویت و اردن خبر می‌دهند. &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "تظهر صور #الأقمار_الصناعية منخفضة الجودة تدمير حظيرة طائرات في قاعدة #موفق_السلطي في #الأردن والتي تتواجد بداخلها القوات الأمريكية جراء القصف الإيراني.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: &quot;القناة 12&quot;: إصابة ضابط في الاحتياط بحادث عملاني في جنوب لبنان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: ارتقاء شهيد متأثراً بإصابته من جراء قصف إسرائيلي على مفترق الشعبية شرقي مدينة غزة",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: &quot;إرنا&quot; عن مسؤول أمني بمحافظة بوشهر جنوب البلاد: منطقة في مدينة دشتي تعرضت لعدوان أميركي صباح اليوم دون تسجيل أي خسائر بشرية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: قمنا بتدمير طائرتين مقاتلتين على الأقل و3 طائرات أميركية بالكامل وإلحاق أضرار جسيمة بعدد آخر بقاعدة &quot;الأزرق&quot;",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: غارة من مسيرة استهدفت بلدة النبطية الفوقا",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: أمر إخلاء إسرائيلي لمربع سكني في مخيم المغازي وسط قطاع غزة",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: إصابة مواطن بعيار ناري أطلقته آليات الاحتلال جنوبي دير البلح وسط قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل| 4 شهداء في قطاع غزة جراء استهدافات الاحتلال منذ فجر اليوم.",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️تصاویر لحظه پرتاب موشک های خیبرشکن، ذوالفقار، فاتح ۱۱۰، حاج قاسم و پهپادهای شاهد در موج های ۱۷ تا ۲۰ عملیات نصر ۲ &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "عاجل| المتحدث باسم جيش الاحتلال: قبل فترة وجيزة، تم إطلاق صاروخ اعتراض نحو هدف وهمي في منطقة يتواجد فيها قوات الجيش في جنوب لبنان، دون تفعيل صافرات الإنذار.",
+      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي بغارة استهدفت بلدة المنصوري",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: إصابات من جراء الاعتداء الإسرائيلي الذي استهدف بلدة المنصوري بالقرب من نقطة يتواجد فيها الجيش اللبناني",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مسيرة ووقفة بخانيونس للمطالبة بوقف الحرب ورفض التهجير القسري، وضمان استمرار خدمات الأونروا وتحسين ظروف النازحين في مراكز الإيواء ومخيمات النزوح.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل| مصادر محلية: إصابة شاب برصاص جيش الاحتلال في منطقة واد الحمص شرق بيت لحم.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "رئيس لجنة التحقيق الدولية  المستقلة التابعة للأمم المتحدة، سرينيفاسان موراليدهار: &quot;لا ينبغي لأي طفل أن يموت جوعًا، لكن هذا ما يحدث اليوم في فلسطين&quot;",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صحيفة معاريف العبرية - ألون بن دافيد: تركز جهود إعادة إعمار إيران حاليًا على استئناف إنتاج الصواريخ الباليستية. وقد تم استعادة جزء من هذا الإنتاج حتى اليوم، ويقترب مخزون الصواريخ الإيراني من الأرقام التي كانت عشية الحرب الأخيرة. وفي الوقت نفسه، تُبذل جهود حثيثة لاستعادة قدرات الدفاع الجوي. ورغم أن الأمريكيين يعرقلون هذه الجهود في منطقة المضيق، إلا أنه تم بالفعل نشر أنظمة جديدة في مناطق أخرى من إيران.  #الإعلام_الحربي",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9983660049992396
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صحيفة معاريف العبرية - ألون بن دافيد: قد يستمر هذا الوضع، الذي لا ينطوي على اتفاق ولا على حرب، لفترة أطول بكثير من الستين يومًا المنصوص عليها في اتفاقية المبادئ التي أُبرمت قبل شهر، وحتى ما بعد انتخابات التجديد النصفي للكونغرس الأمريكي في نوفمبر. وهذا يعني بالنسبة لنا أن الخوف من تجدد الحرب سيلازمنا حتى الانتخابات المصيرية في أكتوبر.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9980587782023741
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸روایت یک دیدار؛ سربازان بمپور پای عهد خود ایستادند   🔹دیدار استاندار سیستان و بلوچستان با سربازان مجروح حمله به آسایشگاه تیپ ۳۸۸ ارتش در بمپور، روایتگر روحیه جوانانی بود که جراحت نیز آنان را از ادامه مسیر خدمت به میهن بازنداشت.  🔹حمله هوایی به آسایشگاه سربازان تیپ ۳۸۸ ارتش در بمپور ایرانشهر، در مجموع هفت شهید و ۱۳ مجروح بر جای گذاشت. حادثه‌ای که در پی آن، رسیدگی به وضعیت مصدومان و خانواده‌های شهدا در کنار پیگیری ابعاد حقوقی و واکنش به این حمله در دستور کار مسئولان قرار گرفت و بیمارستان خاتم‌الانبیا(ص) ایرانشهر پذیرای درمان این مجروحان شد.  https://irna.ir/xjXNLY @IRNA_1313",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9979808549976118
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: تفعيل الدفاعات الجوية في كريات شمونه، التفاصيل قيد التحقيق.  #الإعلام_الحربي",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.956418427463877
     }
   ]
 }
