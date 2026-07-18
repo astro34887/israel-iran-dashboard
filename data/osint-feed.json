@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-18T14:47:43.222Z",
+  "last_updated": "2026-07-18T15:52:39.806Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.55",
-    "global_norm_sentiment": "-0.30"
+    "global_knn_danger": "0.58",
+    "global_norm_sentiment": "-0.21"
   },
   "timeline": [
-    {
-      "time": "2026-07-14T17:10:19.072Z",
-      "danger": 0.547,
-      "sentiment": -0.3,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.455,
-          "sentiment": -0.367
-        },
-        "OSINTdefender": {
-          "danger": 0.577,
-          "sentiment": -0.3
-        },
-        "irna_1313": {
-          "danger": 0.505,
-          "sentiment": -0.367
-        },
-        "sepah_pasdaran": {
-          "danger": 0.461,
-          "sentiment": -0.867
-        },
-        "almanarnews": {
-          "danger": 0.361,
-          "sentiment": 0.2
-        },
-        "C_Military1": {
-          "danger": 0.798,
-          "sentiment": -0.467
-        },
-        "almayadeen": {
-          "danger": 0.621,
-          "sentiment": -0.467
-        },
-        "QudsN": {
-          "danger": 0.739,
-          "sentiment": -0.233
-        }
-      }
-    },
     {
       "time": "2026-07-14T19:13:08.985Z",
       "danger": 0.542,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.433
         }
       }
+    },
+    {
+      "time": "2026-07-18T15:52:39.806Z",
+      "danger": 0.584,
+      "sentiment": -0.207,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.646,
+          "sentiment": -0.333
+        },
+        "OSINTdefender": {
+          "danger": 0.523,
+          "sentiment": -0.9
+        },
+        "irna_1313": {
+          "danger": 0.548,
+          "sentiment": -0.3
+        },
+        "sepah_pasdaran": {
+          "danger": 0.391,
+          "sentiment": -0.1
+        },
+        "almanarnews": {
+          "danger": 0.448,
+          "sentiment": 0.3
+        },
+        "C_Military1": {
+          "danger": 0.769,
+          "sentiment": -0.1
+        },
+        "almayadeen": {
+          "danger": 0.803,
+          "sentiment": -0.233
+        },
+        "QudsN": {
+          "danger": 0.766,
+          "sentiment": -0.267
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.592587055869188
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.6460425000318308
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2292,37 +2292,37 @@
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.38432483473416634
+      "knn_danger_metric": 0.548378119479801
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.41239067991144995
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.3911864769694932
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": 0.3,
-      "knn_danger_metric": 0.5184908708457552
+      "knn_danger_metric": 0.44806966013448835
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.7576357357347782
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.7685583848232773
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.521092382526487
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.8025235815113317
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.8294647081676734
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.7660934451083018
     }
   },
   "semantic_logs": [
@@ -2348,37 +2348,51 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️تصاویری از حمله ارتش تروریستی آمریکا به تاسیسات آب شیرین‌کن جاسک &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: &quot;جيش&quot; الاحتلال ينفذ عملية نسف شرقي مدينة خان يونس جنوبي قطاع غزة",
+      "text": "إيران: بقائي: الأميركيون لم يتيحوا الفرصة حتى اكتمال فترة الـ30 يوماً لنتمكن من نشر الآليات اللازمة للعبور الآمن للسفن في مضيق هرمز",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: شهداء ومصابون في قصف إسرائيلي استهدف شقة سكنية بجوار مستشفى الحياة بحي النصر غرب مدينة غزة",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: 4 شهداء على الأقل بينهم طفلة من جراء قصف جوي إسرائيلي استهدف شقة سكنية غربي مدينة غزة",
+      "text": "إيران: بقائي: لم نكن نعلم أن الالتزام تجاه لبنان سيقع تحت تأثير مسار آخر أو سيتم تجاهله عملياً عبر عملية أخرى",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: 5 شهداء بينهم طفلة في غارة إسرائيلية استهدفت شقة سكنية في حي النصر غرب مدينة غزة",
+      "text": "إيران: بقائي: ما يهمنا هو إنهاء الحرب وإراقة الدماء في لبنان ولا يزال هذا الموضوع يحظى بأهمية بالغة بالنسبة لنا",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: بقائي: يبدو أن هناك أجنحة مختلفة داخل الإدارة الأميركية تمنع تنفيذ الالتزامات التي قبلوا بها هم أنفسهم في إطار مذكرة التفاهم",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: وكالة &quot;تسنيم&quot;: المقاتلات الأميركية استهدفت نقاطاً مختلفة في سيريك بهجمات صاروخية",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لحظة انتشال جثمان أحد الشهداء من الشقة السكنية التي قصفها الاحتلال في حي النصر، غرب مدينة غزة.",
+      "text": "فلسطين المحتلة: مراسل الميادين: شهيد برصاص قوات الاحتلال في منطقة الفروسية شمال غرب قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2397,39 +2411,25 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة معاريف العبرية - ألون بن دافيد: تركز جهود إعادة إعمار إيران حاليًا على استئناف إنتاج الصواريخ الباليستية. وقد تم استعادة جزء من هذا الإنتاج حتى اليوم، ويقترب مخزون الصواريخ الإيراني من الأرقام التي كانت عشية الحرب الأخيرة. وفي الوقت نفسه، تُبذل جهود حثيثة لاستعادة قدرات الدفاع الجوي. ورغم أن الأمريكيين يعرقلون هذه الجهود في منطقة المضيق، إلا أنه تم بالفعل نشر أنظمة جديدة في مناطق أخرى من إيران.  #الإعلام_الحربي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9983660049992396
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة معاريف العبرية - ألون بن دافيد: قد يستمر هذا الوضع، الذي لا ينطوي على اتفاق ولا على حرب، لفترة أطول بكثير من الستين يومًا المنصوص عليها في اتفاقية المبادئ التي أُبرمت قبل شهر، وحتى ما بعد انتخابات التجديد النصفي للكونغرس الأمريكي في نوفمبر. وهذا يعني بالنسبة لنا أن الخوف من تجدد الحرب سيلازمنا حتى الانتخابات المصيرية في أكتوبر.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9980587782023741
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   معاون وزير الخارجية الإيرانية للشؤون القانونية: لقد انتهكت الولايات المتحدة جميع التزاماتها المنصوص عليها في إطار مذكرة التفاهم الموقعة في إسلام آباد، وأوقفت تنفيذها، ونحن أيضًا أوقفنا تنفيذ التزاماتنا، ولم نعد نطبقها، ونحن منشغلون بالدفاع عن البلاد.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9940769533637916
-    },
-    {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل | 9 شهداء بنيران الاحتلال في قطاع غزة، منذ فجر اليوم.",
+      "text": "&quot;كل الدار نزلت علينا&quot;..  سيدة تتحدث عن لحظة قصف طيران الاحتلال لشقة سكنية في حي النصر بمدينة غزة، ما أدى لوقوع مجزرة بالمكان.",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.991473512586189
+      "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل | طيران الاحتلال يقصف شقة سكنية في حي النصر، بمدينة غزة.",
+      "text": "الاحتلال يصعّد سياسة العزل الانفرادي بحق الأسيرات في سجن &quot;الدامون&quot;  https://qudsn.co/post/216607",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "انفجارات عنيفة تهز شرقي خانيونس، حيث يواصل جيش الاحتلال تنفيذ عمليات نسف واسعة للمباني والمنشآت في المنطقة الجنوبية من قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
     }
   ]
 }
