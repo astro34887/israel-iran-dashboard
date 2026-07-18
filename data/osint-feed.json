@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-18T13:12:25.910Z",
+  "last_updated": "2026-07-18T14:47:43.222Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.56",
-    "global_norm_sentiment": "-0.29"
+    "global_knn_danger": "0.55",
+    "global_norm_sentiment": "-0.30"
   },
   "timeline": [
-    {
-      "time": "2026-07-14T15:21:07.095Z",
-      "danger": 0.54,
-      "sentiment": -0.074,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.439,
-          "sentiment": -0.233
-        },
-        "OSINTdefender": {
-          "danger": 0.577,
-          "sentiment": -0.3
-        },
-        "irna_1313": {
-          "danger": 0.672,
-          "sentiment": 0.438
-        },
-        "sepah_pasdaran": {
-          "danger": 0.429,
-          "sentiment": 0.033
-        },
-        "almanarnews": {
-          "danger": 0.457,
-          "sentiment": 0.167
-        },
-        "C_Military1": {
-          "danger": 0.79,
-          "sentiment": -0.433
-        },
-        "almayadeen": {
-          "danger": 0.49,
-          "sentiment": -0.033
-        },
-        "QudsN": {
-          "danger": 0.598,
-          "sentiment": -0.208
-        }
-      }
-    },
     {
       "time": "2026-07-14T17:10:19.072Z",
       "danger": 0.547,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.1
         }
       }
+    },
+    {
+      "time": "2026-07-18T14:47:43.222Z",
+      "danger": 0.549,
+      "sentiment": -0.3,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.593,
+          "sentiment": -0.5
+        },
+        "OSINTdefender": {
+          "danger": 0.523,
+          "sentiment": -0.9
+        },
+        "irna_1313": {
+          "danger": 0.384,
+          "sentiment": -0.3
+        },
+        "sepah_pasdaran": {
+          "danger": 0.412,
+          "sentiment": -0.367
+        },
+        "almanarnews": {
+          "danger": 0.518,
+          "sentiment": 0.3
+        },
+        "C_Military1": {
+          "danger": 0.758,
+          "sentiment": -0.2
+        },
+        "almayadeen": {
+          "danger": 0.521,
+          "sentiment": -0.433
+        },
+        "QudsN": {
+          "danger": 0.829,
+          "sentiment": -0.433
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.6089363575066352
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.592587055869188
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.9,
-      "knn_danger_metric": 0.5170843045831969
+      "knn_danger_metric": 0.5231209099357269
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.5980117540940892
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.38432483473416634
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.4223088826850789
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.41239067991144995
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.504984049478919
+      "raw_sentiment": 0.3,
+      "knn_danger_metric": 0.5184908708457552
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
+      "raw_sentiment": -0.2,
       "knn_danger_metric": 0.7576357357347782
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.5772694557861249
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.521092382526487
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.6264375183876649
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.8294647081676734
     }
   },
   "semantic_logs": [
@@ -2336,50 +2336,15 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "נפילות של טילים איראנים בירדן, ע&quot;פ ערוצים המזוהים עם הציר השיעי.  תגובה אחת",
+      "text": "הפגיעה האיראנית☝️ בירדן היתה בבסיס האווירי מוופק סלטי באזור אלאזרק.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "הפגיעה האיראנית☝️ בירדן היתה בבסיס האווירי מוופק סלטי באזור אלאזרק.  תגובה אחת",
+      "text": "דיווח עזתי ראשוני על 6 הרוגים בתקיפה על הדירה בשכונת נצר בעיר עזה☝️.  תגובה אחת",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️#فوری| رسانه‌ها از فعالیت آژیرهای هشدار در بحرین خبر می‌دهند. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "بقائي: الشعب الإيراني اليوم أكثر وحدةً وعزماً من أي وقت مضى https://almanar.com.lb/article/1029992/?s=tg",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "3 شهداء في حي الزيتون و19 شهيدًا و60 مصابًا خلال 24 ساعة في غزة https://almanar.com.lb/article/1030042/?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: استشهاد أحد العسكريين وإصابة ضابط وعسكري من جراء انفجار جسم مشبوه بآلية للجيش في بلدة المنصوري بقضاء صور",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيطاليا: احتجاجات في مدينة البندقية على زيارة مبعوث ترامب تيلمان فيرتيتا",
-      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2390,31 +2355,45 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم حي الطيرة بمدينة رام الله",
+      "text": "فلسطين المحتلة: مراسل الميادين: شهداء ومصابون في قصف إسرائيلي استهدف شقة سكنية بجوار مستشفى الحياة بحي النصر غرب مدينة غزة",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم حي عين منجد، في مدينة رام الله.",
-      "absolute_sentiment": 0.5,
+      "text": "فلسطين المحتلة: مراسل الميادين: 4 شهداء على الأقل بينهم طفلة من جراء قصف جوي إسرائيلي استهدف شقة سكنية غربي مدينة غزة",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لحظة تنفيذ الاحتلال عملية نسف كبيرة بالمتفجرات شرق مدينة خان يونس، جنوب قطاع غزة.",
+      "text": "فلسطين المحتلة: مراسل الميادين: 5 شهداء بينهم طفلة في غارة إسرائيلية استهدفت شقة سكنية في حي النصر غرب مدينة غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "&quot;ألا تملكين ضميراً لقتلك الناس في غزة&quot;؟&#33;  ناشطة تواجه &quot;كاثي ووردن&quot;، رئيسة شركة الأسلحة الأمريكية &quot;نورثروب غرومان&quot;، أثناء تحدثها في فعالية لمنصة &quot;أكسيوس&quot;؛ بسبب الشراكة المباشرة للشركة في الإبادة الجماعية، عبر تزويد الاحتلال بأنظمة الصواريخ وسفن الحرب التي تقصف وتحاصر غزة",
+      "text": "لحظة انتشال جثمان أحد الشهداء من الشقة السكنية التي قصفها الاحتلال في حي النصر، غرب مدينة غزة.",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تواصل إغلاق مداخل قرى نحالين وحوسان وبتير، غرب بيت لحم.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "&quot;العتاب الأخير في الخطاب الأخير&quot;..  في مثل هذا اليوم قبل عام، خطاب الشهيد حذيفة الكحلوت &quot;أبو عبيدة&quot; للأمتين العربية والإسلامية.",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2430,6 +2409,27 @@
       "text": "#إعلام_العدو   صحيفة معاريف العبرية - ألون بن دافيد: قد يستمر هذا الوضع، الذي لا ينطوي على اتفاق ولا على حرب، لفترة أطول بكثير من الستين يومًا المنصوص عليها في اتفاقية المبادئ التي أُبرمت قبل شهر، وحتى ما بعد انتخابات التجديد النصفي للكونغرس الأمريكي في نوفمبر. وهذا يعني بالنسبة لنا أن الخوف من تجدد الحرب سيلازمنا حتى الانتخابات المصيرية في أكتوبر.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9980587782023741
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   معاون وزير الخارجية الإيرانية للشؤون القانونية: لقد انتهكت الولايات المتحدة جميع التزاماتها المنصوص عليها في إطار مذكرة التفاهم الموقعة في إسلام آباد، وأوقفت تنفيذها، ونحن أيضًا أوقفنا تنفيذ التزاماتنا، ولم نعد نطبقها، ونحن منشغلون بالدفاع عن البلاد.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9940769533637916
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | 9 شهداء بنيران الاحتلال في قطاع غزة، منذ فجر اليوم.",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.991473512586189
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | طيران الاحتلال يقصف شقة سكنية في حي النصر، بمدينة غزة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9596045227592704
     }
   ]
 }
