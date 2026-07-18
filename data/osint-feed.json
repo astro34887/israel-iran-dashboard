@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-18T18:57:31.107Z",
+  "last_updated": "2026-07-18T20:04:05.781Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.12"
+    "global_knn_danger": "0.56",
+    "global_norm_sentiment": "-0.13"
   },
   "timeline": [
-    {
-      "time": "2026-07-14T22:54:48.591Z",
-      "danger": 0.533,
-      "sentiment": -0.21,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.368,
-          "sentiment": -0.2
-        },
-        "OSINTdefender": {
-          "danger": 0.531,
-          "sentiment": -0.3
-        },
-        "irna_1313": {
-          "danger": 0.517,
-          "sentiment": -0.167
-        },
-        "sepah_pasdaran": {
-          "danger": 0.33,
-          "sentiment": -0.533
-        },
-        "almanarnews": {
-          "danger": 0.506,
-          "sentiment": 0.167
-        },
-        "C_Military1": {
-          "danger": 0.791,
-          "sentiment": -0.333
-        },
-        "almayadeen": {
-          "danger": 0.78,
-          "sentiment": -0.167
-        },
-        "QudsN": {
-          "danger": 0.561,
-          "sentiment": -0.433
-        }
-      }
-    },
     {
       "time": "2026-07-14T23:51:00.483Z",
       "danger": 0.558,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.042
         }
       }
+    },
+    {
+      "time": "2026-07-18T20:04:05.781Z",
+      "danger": 0.563,
+      "sentiment": -0.127,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.531,
+          "sentiment": -0.333
+        },
+        "OSINTdefender": {
+          "danger": 0.474,
+          "sentiment": -0.9
+        },
+        "irna_1313": {
+          "danger": 0.573,
+          "sentiment": 0.067
+        },
+        "sepah_pasdaran": {
+          "danger": 0.435,
+          "sentiment": 0.033
+        },
+        "almanarnews": {
+          "danger": 0.38,
+          "sentiment": 0.2
+        },
+        "C_Military1": {
+          "danger": 0.834,
+          "sentiment": 0.233
+        },
+        "almayadeen": {
+          "danger": 0.725,
+          "sentiment": -0.033
+        },
+        "QudsN": {
+          "danger": 0.725,
+          "sentiment": -0.4
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2286,43 +2286,43 @@
       "name": "Global_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.9,
-      "knn_danger_metric": 0.5259922321656385
+      "knn_danger_metric": 0.4735704892448369
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.49226156302052737
+      "knn_danger_metric": 0.5726698350992631
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.3903415662704351
+      "knn_danger_metric": 0.4354200662878821
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.3664029140792026
+      "raw_sentiment": 0.2,
+      "knn_danger_metric": 0.37988446606630677
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.8528199575354459
+      "raw_sentiment": 0.23333333333333334,
+      "knn_danger_metric": 0.8343154135253629
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.4338567196355292
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.7249136508336618
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 12,
-      "raw_sentiment": -0.041666666666666664,
-      "knn_danger_metric": 0.6767294212011191
+      "num_messages": 15,
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.7253828327413754
     }
   },
   "semantic_logs": [
@@ -2350,29 +2350,64 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: غارة إسرائيلية على حيّ الزيتون جنوب شرقي مدينة غزة",
+      "text": "فلسطين المحتلة: مراسل الميادين: آليات الاحتلال تُطلق قنابل إنارة في أجواء حيّ الزيتون جنوب شرقي مدينة غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: بزشكيان: الالتزام بمستلزمات الاتحاد المقدس وتجنب الخلاف والتفرقة هو رمز النصر في هذا المنعطف التاريخي",
-      "absolute_sentiment": 1,
+      "text": "إيران: وكالة &quot;تسنيم&quot;: مسؤولون في بندر عباس أكدوا سماع دوي انفجارات لكن لم ترد بعد تقارير عن سقوط صواريخ أو هجوم لمقاتلات أميركية",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: آليات الاحتلال تُطلق قنابل إنارة في أجواء حيّ الزيتون جنوب شرقي مدينة غزة",
+      "text": "إيران: &quot;تسنيم&quot;: مصادر إخبارية أكدت أن الأصوات في بندر عباس قد تكون مرتبطة بتحذيرات وجهتها القوة البحرية لحرس الثورة للسفن المخالفة",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: إطلاق نار مكثف من الآليات الإسرائيلية على خان يونس جنوبي قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: السيد مجتبى خامنئي: حينما رأى الشعب العراقي أن الابن المظلوم والشهيد يعود ليطوف بالمراقد المنورة احتفى بمقدمه من أعماق وجوده",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: مصابون في قصف مدفعي إسرائيلي استهدف شرقي حي الزيتون بمدينة غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "بحراسة قوات الاحتلال.. مستوطنون يقتحمون منطقة &quot;وادي جحيش&quot; في بلدة السموع، جنوب الخليل.",
-      "absolute_sentiment": 1,
+      "text": "مستوطنون يعربدون في &quot;حي الجلاطية&quot; شرق بلدة إذنا غرب الخليل، وجيش الاحتلال يعتقل شابا من المنطقة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "تقرير: الهجرة العكسية والحرب تهزان الاقتصاد وسوق العقارات في &quot;إسرائيل&quot;  https://qudsn.co/post/216610",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "القتل اليومي مستمر.. #كذبوا_عليكم  صور من وداع وتشييع جثامين شهداء ارتقوا بقصف الاحتلال لمنزل في حي النصر بغزة",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2392,44 +2427,9 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   المتحدث باسم وزارة الخارجية إسماعيل بقائي: بما أن أميركا نقضت التزاماتها فإن إيران لم تعد قادرة هي الأخرى على الوفاء بالتزاماتها.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9977128856617157
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 12 العبرية: مقتل جنديين أمريكيين في هجوم صاروخي إيراني استهدف قاعدة عسكرية في الأردن، وفقًا لما أعلنته القيادة المركزية الأمريكية.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9958174570708113
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 12 العبرية: مقتل جنديين أمريكيين في هجوم صاروخي إيراني استهدف قاعدة عسكرية في الأردن، وفقًا لما أعلنته القيادة المركزية الأمريكية.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9958174570708113
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "القيادة المركزية الأمريكية: قُتل اثنان من أفراد القوات المسلحة الأمريكية أثناء القتال في الأردن، وذلك في الوقت الذي كانت فيه القيادة المركزية الأمريكية والقوات الشريكة تتصدى لهجمات إيرانية بالصواريخ الباليستية والطائرات المسيّرة. كما يُعدّ أحد أفراد الخدمة العسكرية في عداد المفقودين في القتال حتى الآن.  كما أُجلي أربعة عسكريين أمريكيين طبيًا إلى مستشفيات أردنية، وقد غادروا المستشفيات بعد تلقي العلاج.  #الإعلام_الحربي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9958018373673666
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   معاون وزير الخارجية الإيرانية للشؤون القانونية: لقد انتهكت الولايات المتحدة جميع التزاماتها المنصوص عليها في إطار مذكرة التفاهم الموقعة في إسلام آباد، وأوقفت تنفيذها، ونحن أيضًا أوقفنا تنفيذ التزاماتنا، ولم نعد نطبقها، ونحن منشغلون بالدفاع عن البلاد.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9940769533637916
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   رئيس حزب &quot;إسرائيل بيتنا&quot;، أفيغدور ليبرمان: &quot;أقدّر أن نتنياهو سيستخدم جهاز الشاباك في الانتخابات المقبلة للعمل ضد خصومه السياسيين.&quot;  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9877939095388499
+      "text": "وسائل إعلام أمريكية: تكيّفت إيران مع الدفاعات الأمريكية، حيث أطلقت صواريخ فائقة السرعة قادرة على المناورة أثناء انطلاقها نحو الأرض، وفقًا لمسؤولين أمريكيين مطلعين على الهجمات.   #الإعلام_الحربي",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.9982909806180474
     }
   ]
 }
