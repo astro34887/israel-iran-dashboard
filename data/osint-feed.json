@@ -1,17 +1,11 @@
 {
-  "last_updated": "2026-07-17T23:48:45.846Z",
+  "last_updated": "2026-07-18T02:03:46.218Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.59",
-    "global_norm_sentiment": "-0.44"
+    "global_knn_danger": "0.60",
+    "global_norm_sentiment": "-0.36"
   },
   "timeline": [
-    {
-      "time": "2026-07-13T23:50:47.180Z",
-      "danger": 0,
-      "sentiment": 0,
-      "channels": {}
-    },
     {
       "time": "2026-07-14T02:04:09.357Z",
       "danger": 0,
@@ -2015,6 +2009,53 @@
           "sentiment": 0.033
         }
       }
+    },
+    {
+      "time": "2026-07-18T02:03:46.218Z",
+      "danger": 0.596,
+      "sentiment": -0.36,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.665,
+          "sentiment": -0.633
+        },
+        "OSINTdefender": {
+          "danger": 0.529,
+          "sentiment": -0.533
+        },
+        "irna_1313": {
+          "danger": 0.591,
+          "sentiment": -0.4
+        },
+        "sepah_pasdaran": {
+          "danger": 0.433,
+          "sentiment": -0.733
+        },
+        "almanarnews": {
+          "danger": 0.57,
+          "sentiment": -0.5
+        },
+        "C_Military1": {
+          "danger": 0.763,
+          "sentiment": -0.867
+        },
+        "almayadeen": {
+          "danger": 0.814,
+          "sentiment": 0.133
+        },
+        "QudsN": {
+          "danger": 0.649,
+          "sentiment": 0.067
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2033,7 +2074,7 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
+      "raw_sentiment": -0.6333333333333333,
       "knn_danger_metric": 0.6650346164765298
     },
     "OSINTdefender": {
@@ -2045,20 +2086,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.9,
-      "knn_danger_metric": 0.5476727959473635
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.5906445054254632
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.7333333333333333,
-      "knn_danger_metric": 0.5511607649983588
+      "knn_danger_metric": 0.43260624496976957
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.5412876711136383
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.5696369549680526
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2069,14 +2110,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.7191834530457277
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.8142212311139772
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.6836290405184241
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.6485588788754271
     }
   },
   "semantic_logs": [
@@ -2102,10 +2143,17 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸 مرحله سیزدهم عملیات صاعقه ارتش؛ شلیک موشک کروز به سمت شناور دشمن متجاوز آمریکایی  🔹به گزارش روابط عمومی ارتش، با یاد شهیدان گرانقدر ناوشکن همیشه قهرمان دنا، ساعاتی پیش و در مرحله سیزدهم عملیات صاعقه، سامانه موشکی&nbsp; نیروی دریایی ارتش، با موشک کروز ساحل به…",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️شنیده‌شدن صدای انفجار در امیدیه خوزستان  دقایقی پیش اهالی امیدیه از  شدن صدای انفجار خبر دادند.   اخبار تکمیلی متعاقبا اعلام می‌شود. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
+      "text": "&rlm; ️شیرجه سهمگین موشک ایرانی بر روی پایگاه موفق السلطی در اردن &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2123,44 +2171,9 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "&quot;سي بي إس&quot; عن مسؤولين أميركيين: إصابة عدد من العسكريين الأميركيين في الهجمات الإيرانية على قواعد في الأردن هذا الأسبوع",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: القوة البحرية في حرس الثورة: اعترضنا 4 ناقلات نفط مخالفة حاولت عبور مضيق هرمز في عملية شملت استخدام صواريخ وطائرات مسيرة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "السعودية: دوي صفارات الإنذار في البلاد",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: محافظة هرمزغان: الهجمات التي استهدفت بعض مناطق محافظة هرمزغان أسفرت عن استشهاد 3 أشخاص وإصابة 8 آخرين",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: وكالة &quot;إيرنا&quot;: اعتداء أميركي على نقطة في محيط مدينة جغادك بمنطقة بوشهر",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: هبوط مروحية عسكرية في مستشفى &quot;رمبام&quot; وعلى متنها جنود أصيبوا جراء حادث في جنوب لبنان",
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 ايران | الحرس الثوري: دك مستودع الزوارق المسيرة الأمريكية في البحرين https://almanar.com.lb/article/1028992/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2179,10 +2192,38 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: إصابة عدد من الأهالي جراء اعتداء قوات الاحتلال عليهم خلال اقتحام قرية كفر نعمة، غرب رام الله.",
-      "absolute_sentiment": -1,
+      "text": "إيران: الجيش الإيراني: استهدفنا بطائرات مسيّرة هجومية مستودع ذخيرة للقوات الأميركية في معسكر العديري في الكويت",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: الجيش الإيراني: استهدفنا خزانات الوقود التابعة للقوات الأميركية في قاعدة الأزرق الجوية بالأردن",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: الجيش الإيراني: استهدفنا معسكرات وقواعد أميركية في الكويت والأردن",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: الجيش الإيراني: استهدفنا خزانات الوقود التابعة للقوات الأميركية في قاعدة الأزرق الجوية بالأردن",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: مراسل الميادين: اعتداء أميركي هو الرابع خلال الساعات القليلة الماضية على بندر عباس",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
   ]
