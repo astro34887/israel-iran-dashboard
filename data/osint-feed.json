@@ -1,17 +1,11 @@
 {
-  "last_updated": "2026-07-18T07:42:34.023Z",
+  "last_updated": "2026-07-18T09:20:07.862Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.58",
-    "global_norm_sentiment": "-0.27"
+    "global_knn_danger": "0.54",
+    "global_norm_sentiment": "-0.34"
   },
   "timeline": [
-    {
-      "time": "2026-07-14T07:55:36.026Z",
-      "danger": 0,
-      "sentiment": 0,
-      "channels": {}
-    },
     {
       "time": "2026-07-14T09:54:55.531Z",
       "danger": 0,
@@ -2138,6 +2132,53 @@
           "sentiment": -0.033
         }
       }
+    },
+    {
+      "time": "2026-07-18T09:20:07.862Z",
+      "danger": 0.538,
+      "sentiment": -0.343,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.587,
+          "sentiment": -0.567
+        },
+        "OSINTdefender": {
+          "danger": 0.562,
+          "sentiment": -0.833
+        },
+        "irna_1313": {
+          "danger": 0.531,
+          "sentiment": -0.467
+        },
+        "sepah_pasdaran": {
+          "danger": 0.355,
+          "sentiment": -0.633
+        },
+        "almanarnews": {
+          "danger": 0.504,
+          "sentiment": 0.067
+        },
+        "C_Military1": {
+          "danger": 0.667,
+          "sentiment": -0.3
+        },
+        "almayadeen": {
+          "danger": 0.666,
+          "sentiment": -0.567
+        },
+        "QudsN": {
+          "danger": 0.557,
+          "sentiment": 0.033
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2155,9 +2196,9 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 9,
-      "raw_sentiment": -0.4444444444444444,
-      "knn_danger_metric": 0.5448272386675042
+      "num_messages": 15,
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.5873111467839085
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2168,38 +2209,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.5636580781201557
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.5313936939719215
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.4103390595564823
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.35496592707782126
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.5556585018367329
+      "knn_danger_metric": 0.5043070384989805
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.7022695453616422
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.6671268588577609
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.8528130422344443
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.6660076335953627
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.6447555282632033
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.5571448888457174
     }
   },
   "semantic_logs": [
@@ -2211,87 +2252,38 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "התקיפות ☝️של הציר השיעי הלילה על סלימאניה בעיראק פגעו במחסן תחמושת של המיליציות הכורדיות בחבל כורדיסטן העיראקי.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "מראות אפוקליפטים:  כך נראים שמי מוסקבה היום בעקבות מתקפת הכטב&quot;מים האוקראינים על מרכז ההזמנות של קמעונאית המסחר הרוסית.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️تصاویری از حمله آمریکا‌ به آب‌شیرین‌کن بونجی جاسک ‌ &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 ايران | الحرس الثوري: دك مستودع الزوارق المسيرة الأمريكية في البحرين https://almanar.com.lb/article/1028992/?s=tg",
+      "text": "&rlm; ️سخنگوی قوه‌قضائیه: تاکنون ۳۵۰ پروندهٔ حقوقی دربارهٔ جنگ ۱۲ روزه و جنگ رمضان علیه آمریکا و رژیم صهیونیستی ثبت شد &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "الحرس الثوري: دمرنا مراكز دعم أمريكية في الكويت والبحرين https://almanar.com.lb/article/1029132/?s=tg",
-      "absolute_sentiment": 0.5,
+      "text": "الحرس الثوري الإيراني: استهداف قاعدة الأزرق الأميركية في الأردن وتدمير مقاتلات وطائرات https://almanar.com.lb/article/1029512/?s=tg",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "الحرس الثوري: دمرنا مستودعا للزوارق الأمريكية المسيّرة ومركزا للذكاء الاصطناعي https://almanar.com.lb/article/1029142/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: استهدفنا بهجوم بطائرات مسيّرة رادار قاعدة &quot;علي السالم&quot; الأميركية في الكويت",
+      "text": "تظهر صور #الأقمار_الصناعية منخفضة الجودة تدمير حظيرة طائرات في قاعدة #موفق_السلطي في #الأردن والتي تتواجد بداخلها القوات الأمريكية جراء القصف الإيراني.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: تم تدمير رصيف إمداد الوقود التابع للأسطول الأميركي وموقع تجمّع طائراته الحربية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: استهدفنا رصيف إمداد الوقود التابع للأسطول الأميركي في &quot;بندر الأحمدي&quot; بالكويت",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: استهدفنا قاعدة تجمّع الطائرات الحربية الأميركية في &quot;الشيخ عيسى&quot; بالبحرين",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: دمّرت قواتنا البحرية مركزاً أميركياً للإشارات والاتصالات في الكويت",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: &quot;إرنا&quot; عن محافظ هرمزكان جنوب البلاد: العدوان الأميركي على بعض البنى التحتية ألحق أضراراً بـ 4 نقاط من محاور الاتصالات بالمحافظة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: 3 شهداء في قصف إسرائيلي استهدف مجموعة من المواطنين في حي الزيتون جنوبي مدينة غزة",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: قوات الاحتلال تنفّذ تفجيراً في بلدة كفرتبنيت جنوبي البلاد",
-      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2302,10 +2294,59 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: ارتقاء شهيد متأثراً بإصابته من جراء قصف إسرائيلي على مفترق الشعبية شرقي مدينة غزة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: &quot;إرنا&quot; عن مسؤول أمني بمحافظة بوشهر جنوب البلاد: منطقة في مدينة دشتي تعرضت لعدوان أميركي صباح اليوم دون تسجيل أي خسائر بشرية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: حرس الثورة: قمنا بتدمير طائرتين مقاتلتين على الأقل و3 طائرات أميركية بالكامل وإلحاق أضرار جسيمة بعدد آخر بقاعدة &quot;الأزرق&quot;",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: غارة من مسيرة استهدفت بلدة النبطية الفوقا",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: أمر إخلاء إسرائيلي لمربع سكني في مخيم المغازي وسط قطاع غزة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: إصابة مواطن بعيار ناري أطلقته آليات الاحتلال جنوبي دير البلح وسط قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "أذكار وتواشيح دينية من المسجد الأقصى المبارك فجر اليوم.",
+      "text": "عاجل| 4 شهداء في قطاع غزة جراء استهدافات الاحتلال منذ فجر اليوم.",
       "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل| المتحدث باسم جيش الاحتلال: قبل فترة وجيزة، تم إطلاق صاروخ اعتراض نحو هدف وهمي في منطقة يتواجد فيها قوات الجيش في جنوب لبنان، دون تفعيل صافرات الإنذار.",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
   ]
