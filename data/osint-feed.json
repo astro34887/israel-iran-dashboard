@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-18T15:52:39.806Z",
+  "last_updated": "2026-07-18T16:53:00.018Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.58",
-    "global_norm_sentiment": "-0.21"
+    "global_knn_danger": "0.55",
+    "global_norm_sentiment": "-0.12"
   },
   "timeline": [
-    {
-      "time": "2026-07-14T19:13:08.985Z",
-      "danger": 0.542,
-      "sentiment": -0.27,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.368,
-          "sentiment": -0.333
-        },
-        "OSINTdefender": {
-          "danger": 0.531,
-          "sentiment": -0.3
-        },
-        "irna_1313": {
-          "danger": 0.584,
-          "sentiment": -0.167
-        },
-        "sepah_pasdaran": {
-          "danger": 0.354,
-          "sentiment": -0.333
-        },
-        "almanarnews": {
-          "danger": 0.452,
-          "sentiment": 0.3
-        },
-        "C_Military1": {
-          "danger": 0.798,
-          "sentiment": -0.467
-        },
-        "almayadeen": {
-          "danger": 0.585,
-          "sentiment": -0.8
-        },
-        "QudsN": {
-          "danger": 0.803,
-          "sentiment": -0.467
-        }
-      }
-    },
     {
       "time": "2026-07-14T20:56:20.114Z",
       "danger": 0.49,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.267
         }
       }
+    },
+    {
+      "time": "2026-07-18T16:53:00.018Z",
+      "danger": 0.547,
+      "sentiment": -0.123,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.581,
+          "sentiment": -0.367
+        },
+        "OSINTdefender": {
+          "danger": 0.523,
+          "sentiment": -0.9
+        },
+        "irna_1313": {
+          "danger": 0.655,
+          "sentiment": 0.067
+        },
+        "sepah_pasdaran": {
+          "danger": 0.282,
+          "sentiment": -0.1
+        },
+        "almanarnews": {
+          "danger": 0.415,
+          "sentiment": 0.2
+        },
+        "C_Military1": {
+          "danger": 0.801,
+          "sentiment": 0.2
+        },
+        "almayadeen": {
+          "danger": 0.684,
+          "sentiment": 0.467
+        },
+        "QudsN": {
+          "danger": 0.576,
+          "sentiment": -0.633
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.6460425000318308
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.5812207444012617
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.548378119479801
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.655060221547487
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.3911864769694932
+      "knn_danger_metric": 0.2822177367984973
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.3,
-      "knn_danger_metric": 0.44806966013448835
+      "raw_sentiment": 0.2,
+      "knn_danger_metric": 0.41522385025683634
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.7685583848232773
+      "raw_sentiment": 0.2,
+      "knn_danger_metric": 0.8008829936584044
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.8025235815113317
+      "raw_sentiment": 0.4666666666666667,
+      "knn_danger_metric": 0.6837237092966599
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.7660934451083018
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.5762950765615572
     }
   },
   "semantic_logs": [
@@ -2331,13 +2331,6 @@
       "channel": "IDF",
       "text": "״אני קורא לאכולוסייה החרדית ולהנהגה החרדית לעודד כל פעם קצת יותר לגיוס. יש לנו מסלולים יוצאים מן הכלל, השתחררו מהם אנשים לא פחות חרדים ואזרחים טובים יותר למדינה. זה טוב לכולם״  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "הפגיעה האיראנית☝️ בירדן היתה בבסיס האווירי מוופק סלטי באזור אלאזרק.  תגובה אחת",
-      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2357,64 +2350,43 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: بقائي: الأميركيون لم يتيحوا الفرصة حتى اكتمال فترة الـ30 يوماً لنتمكن من نشر الآليات اللازمة للعبور الآمن للسفن في مضيق هرمز",
+      "text": "إيران: السيد مجتبى خامنئي: اليوم كشف الشيطان الأكبر مرة أخرى عن وجهه الحقيقي بلا قناع",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: بقائي: لم نكن نعلم أن الالتزام تجاه لبنان سيقع تحت تأثير مسار آخر أو سيتم تجاهله عملياً عبر عملية أخرى",
-      "absolute_sentiment": -1,
+      "text": "إيران: السيد مجتبى خامنئي للشعب الإيراني: من جملة الأمور الأصولية الآن هو الإصرار على وحدة الكلمة والاتحاد على مستويات الشعب والمسؤولين",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: بقائي: ما يهمنا هو إنهاء الحرب وإراقة الدماء في لبنان ولا يزال هذا الموضوع يحظى بأهمية بالغة بالنسبة لنا",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: بقائي: يبدو أن هناك أجنحة مختلفة داخل الإدارة الأميركية تمنع تنفيذ الالتزامات التي قبلوا بها هم أنفسهم في إطار مذكرة التفاهم",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: وكالة &quot;تسنيم&quot;: المقاتلات الأميركية استهدفت نقاطاً مختلفة في سيريك بهجمات صاروخية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: شهيد برصاص قوات الاحتلال في منطقة الفروسية شمال غرب قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تواصل إغلاق مداخل قرى نحالين وحوسان وبتير، غرب بيت لحم.",
+      "text": "إيران: السيد مجتبى خامنئي: صون الوحدة وتجنب الفرقة والتنازع والخلافات السياسية وإبراز الفوارق الاجتماعية هو واجب جماعي",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "&quot;العتاب الأخير في الخطاب الأخير&quot;..  في مثل هذا اليوم قبل عام، خطاب الشهيد حذيفة الكحلوت &quot;أبو عبيدة&quot; للأمتين العربية والإسلامية.",
+      "text": "إيران: السيد مجتبى خامنئي: دور المسؤولين والعناصر المخلصة للثورة والإمام والقائد الشهيد في انسجام البلاد وتماسكها هو أكثر أهمية وحساسية",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: السيد مجتبى خامنئي: أتقدم بخالص الشكر لكل فرد من أفراد شعبنا العزيز الذين هم أنفسهم أصحاب عزاء &quot;أب الأمة الشهيد&quot;",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "&quot;كل الدار نزلت علينا&quot;..  سيدة تتحدث عن لحظة قصف طيران الاحتلال لشقة سكنية في حي النصر بمدينة غزة، ما أدى لوقوع مجزرة بالمكان.",
-      "absolute_sentiment": 1,
+      "text": "إيران: السيد مجتبى خامنئي: أشكر مراجع التقليد الأجلاء والعلماء والمفكرين والنخب والناشطين في المجالات الثقافية والاجتماعية والسياسية",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2430,6 +2402,34 @@
       "text": "انفجارات عنيفة تهز شرقي خانيونس، حيث يواصل جيش الاحتلال تنفيذ عمليات نسف واسعة للمباني والمنشآت في المنطقة الجنوبية من قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "استشهاد القيادي بالمقاومة &quot;أدهم إبراهيم نسمان&quot; وزوجته وثلاثة من أبنائهما بقصف الاحتلال لشقة سكنية في حي النصر بمدينة غزة، عصر اليوم.",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "ترجمة قدس| قائد المنطقة الشمالية السابق في جيش الاحتلال، &quot;يوسي بيلد&quot;: مثلما أعرف لبنان، لن نهزم حزب الله.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   من بيان قائد الثورة اية الله السيد مجتبى خامنئي:  - قد يكون هناك من يوجّه، بكل إخلاص ومن منطلق الحرص وحسن النية، انتقادات لأداء بعض المسؤولين. وبرأيي، فإن هذا الاهتمام والقلق على النظام يُعدّ، شأنه شأن أصحابه، رصيدًا قيّمًا، وهو في حدّ ذاته أمر محمود.   - غير أن هؤلاء الأعزاء، وبعضهم من رواد البصيرة والوعي، ينبغي لهم أن ينتبهوا إلى ألّا يفضي هذا النهج إلى ما يلي:  أولًا: ألّا يقع ظلم على بريء، لأن ذلك بحد ذاته يكون سببًا للحرمان من البركات والعنايات الإلهية.  وثانيًا: ألّا يؤدي إلى الإضرار بالوحدة والتماسك الاجتماعي؛ إذ إن الانتقادات، مع مراعاة هذين الأمرين، ستكون سببًا في ازدهار الشؤون وتطورها.  - ولا ينبغي للعدو أن يلمس منا أي علامة ضعف، بما في ذلك هذا النوع من الضعف؛ فإذا التزمنا بهذه الضوابط التزامًا كاملًا، فلن يكون أمامه إلا التراجع والانهزام.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9989394362426417
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صحيفة معاريف العبرية - ألون بن دافيد: تركز جهود إعادة إعمار إيران حاليًا على استئناف إنتاج الصواريخ الباليستية. وقد تم استعادة جزء من هذا الإنتاج حتى اليوم، ويقترب مخزون الصواريخ الإيراني من الأرقام التي كانت عشية الحرب الأخيرة. وفي الوقت نفسه، تُبذل جهود حثيثة لاستعادة قدرات الدفاع الجوي. ورغم أن الأمريكيين يعرقلون هذه الجهود في منطقة المضيق، إلا أنه تم بالفعل نشر أنظمة جديدة في مناطق أخرى من إيران.  #الإعلام_الحربي",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9983660049992396
     }
   ]
 }
