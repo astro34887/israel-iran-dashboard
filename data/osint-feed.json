@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-19T21:47:30.354Z",
+  "last_updated": "2026-07-19T22:47:06.803Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.21"
+    "global_norm_sentiment": "-0.06"
   },
   "timeline": [
-    {
-      "time": "2026-07-16T12:18:21.497Z",
-      "danger": 0.521,
-      "sentiment": -0.215,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.505,
-          "sentiment": -0.269
-        },
-        "OSINTdefender": {
-          "danger": 0.496,
-          "sentiment": -0.233
-        },
-        "irna_1313": {
-          "danger": 0.505,
-          "sentiment": -0.333
-        },
-        "sepah_pasdaran": {
-          "danger": 0.559,
-          "sentiment": 0.033
-        },
-        "almanarnews": {
-          "danger": 0.431,
-          "sentiment": -0.133
-        },
-        "C_Military1": {
-          "danger": 0.725,
-          "sentiment": -0.333
-        },
-        "almayadeen": {
-          "danger": 0.63,
-          "sentiment": 0.1
-        },
-        "QudsN": {
-          "danger": 0.409,
-          "sentiment": -0.85
-        }
-      }
-    },
     {
       "time": "2026-07-16T14:57:25.660Z",
       "danger": 0.49,
@@ -2257,9 +2210,62 @@
           "sentiment": -0.5
         }
       }
+    },
+    {
+      "time": "2026-07-19T22:47:06.803Z",
+      "danger": 0.534,
+      "sentiment": -0.063,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.332,
+          "sentiment": -0.567
+        },
+        "OSINTdefender": {
+          "danger": 0.518,
+          "sentiment": -0.433
+        },
+        "irna_1313": {
+          "danger": 0.523,
+          "sentiment": 0.533
+        },
+        "sepah_pasdaran": {
+          "danger": 0.545,
+          "sentiment": -0.2
+        },
+        "almanarnews": {
+          "danger": 0.369,
+          "sentiment": 0.267
+        },
+        "C_Military1": {
+          "danger": 0.754,
+          "sentiment": -0.1
+        },
+        "almayadeen": {
+          "danger": 0.685,
+          "sentiment": -0.033
+        },
+        "QudsN": {
+          "danger": 0.669,
+          "sentiment": 0.033
+        }
+      }
     }
   ],
   "channel_data": {
+    "idfonline": {
+      "name": "IDF",
+      "num_messages": 15,
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.4495848927539366
+    },
     "israeldefenseforces": {
       "name": "IDF",
       "num_messages": 3,
@@ -2281,14 +2287,14 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.4585663298209453
+      "raw_sentiment": 0.5333333333333333,
+      "knn_danger_metric": 0.5226305729925087
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.5766314586558353
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.544682901420418
     },
     "almanarnews": {
       "name": "Hezbollah",
@@ -2305,28 +2311,21 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.5902341525273813
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.6851961444412475
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.6469622541976837
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.6685001685004482
     }
   },
   "semantic_logs": [
     {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸اختلالات خواب را پشت گوش نیندازید؛ استرس، سلامت جسم و روان را تهدید می‌کند  🔹عضو هیأت علمی دانشگاه علوم پزشکی اصفهان با هشدار نسبت به افزایش اختلالات خواب گفت: بی‌خوابی و سایر اختلالات خواب اگر به موقع درمان نشوند، می‌توانند زمینه‌ساز بیماری‌های قلبی، دیابت،…",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; نمایی از  موشک ایرانی در آسمان &lrm;✅ ️@sepah_pasdaran",
+      "channelId": "idfonline",
+      "channel": "IDF",
+      "text": "״אני קורא לאכולוסייה החרדית ולהנהגה החרדית לעודד כל פעם קצת יותר לגיוס. יש לנו מסלולים יוצאים מן הכלל, השתחררו מהם אנשים לא פחות חרדים ואזרחים טובים יותר למדינה. זה טוב לכולם״  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
@@ -2345,6 +2344,27 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️#فوری | منابع عربی از شنیده شدن صدای انفجارها در کویت خبر می‌دهند. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️#تکمیلی | رسانه‌های عربی از شنیده‌شدن صدای دست‌کم ۲ انفجار در کویت خبر دادند. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️قیمت نفت به بالای ۹۰ دلار رسید &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
       "text": "بالصور | نُقلت طائرة MQ-9 الأمريكية بدون طيار، التي أسقطتها قوات الدفاع في جبال عسلوية صباح الجمعة، إلى أسفل الجبل بمساعدة حمار لاحد المزارعين .",
@@ -2356,13 +2376,6 @@
       "channel": "Hezbollah",
       "text": "بيان للقوات المسلحة اليمنية يوم غد إن شاء الله للإعلان عن موقف مهم يليق بتطلعات شعبنا العظيم.  http://t.me/army21ye",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: &quot;جيش&quot; الاحتلال ينفذ تفجيراً في بلدة بيت ياحون في قضاء بنت جبيل جنوبي لبنان",
-      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2387,17 +2400,24 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية عورتا، جنوب شرق نابلس.",
-      "absolute_sentiment": 0,
+      "text": "إيران: مراسل الميادين في طهران: آخر عدوان شنته القوات الأميركية في الساعات الـ24 الماضية استهدف مدينة &quot;ابدان&quot; الإيرانية",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: شبان من قرية دير جرير، شرق رام الله، يستعيدون نحو 70 رأسًا من الأغنام بعدما استولى عليها مستوطنون بحماية قوات الاحتلال وشرطته.",
-      "absolute_sentiment": -1,
+      "text": "إيران: مراسل الميادين في طهران: يفيد معنيون بأن المواقع التي استهدفتها الغارات الأميركية سبق أن تم إخلاؤها منذ عدوان الـ12 يوماً",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: بيان لحرس الثورة بشأن &quot;الهجوم المباغت على مركز قيادة العمليات الخاصة التابع للجيش الأميركي في منطقة التنف السورية&quot;",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
@@ -2406,20 +2426,6 @@
       "text": "محدث الصحة: استشهاد الشاب أحمد عادل رشيد أبو مخو (٢٦ عاماً) برصاص الاحتلال في بلدة دير جرير.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "استشهاد الشاب أحمد عادل رشيد أبو مخو برصاص جيش الاحتلال خلال اقتحام بلدة دير جرير شمال شرق رام الله",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية: على الرغم من تراكم المؤشرات، لا تتعجل &quot;إسرائيل&quot; في استنتاج أن حربًا أخرى حتمية، وبالتأكيد ليست حربًا ستشملها بالضرورة. ويُرجّح التقييم السائد في المؤسسة العسكرية أن إيران غير مهتمة بفتح جبهة مباشرة ضد &quot;إسرائيل&quot; في الوقت الراهن. إلا أن مصادر مطلعة على الأمر تؤكد أن هذا مجرد تقييم للوضع الراهن، وأن الواقع في الشرق الأوسط قد يتغير في وقت قصير.  #الإعلام_الحربي",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 0.9989630263203698
     }
   ]
 }
