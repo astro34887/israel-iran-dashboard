@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-19T22:47:06.803Z",
+  "last_updated": "2026-07-19T23:53:29.287Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.06"
+    "global_knn_danger": "0.56",
+    "global_norm_sentiment": "-0.17"
   },
   "timeline": [
-    {
-      "time": "2026-07-16T14:57:25.660Z",
-      "danger": 0.49,
-      "sentiment": -0.067,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.483,
-          "sentiment": -0.333
-        },
-        "OSINTdefender": {
-          "danger": 0.496,
-          "sentiment": -0.233
-        },
-        "irna_1313": {
-          "danger": 0.523,
-          "sentiment": -0.1
-        },
-        "sepah_pasdaran": {
-          "danger": 0.529,
-          "sentiment": 0.133
-        },
-        "almanarnews": {
-          "danger": 0.415,
-          "sentiment": 0.233
-        },
-        "C_Military1": {
-          "danger": 0.531,
-          "sentiment": 0.3
-        },
-        "almayadeen": {
-          "danger": 0.469,
-          "sentiment": -0.4
-        },
-        "QudsN": {
-          "danger": 0.505,
-          "sentiment": -0.1
-        }
-      }
-    },
     {
       "time": "2026-07-16T16:17:33.963Z",
       "danger": 0.507,
@@ -2257,6 +2210,53 @@
           "sentiment": 0.033
         }
       }
+    },
+    {
+      "time": "2026-07-19T23:53:29.287Z",
+      "danger": 0.555,
+      "sentiment": -0.173,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.332,
+          "sentiment": -0.567
+        },
+        "OSINTdefender": {
+          "danger": 0.518,
+          "sentiment": -0.433
+        },
+        "irna_1313": {
+          "danger": 0.531,
+          "sentiment": -0.033
+        },
+        "sepah_pasdaran": {
+          "danger": 0.529,
+          "sentiment": -0.167
+        },
+        "almanarnews": {
+          "danger": 0.343,
+          "sentiment": 0.333
+        },
+        "C_Military1": {
+          "danger": 0.754,
+          "sentiment": -0.1
+        },
+        "almayadeen": {
+          "danger": 0.869,
+          "sentiment": -0.433
+        },
+        "QudsN": {
+          "danger": 0.728,
+          "sentiment": -0.2
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2287,20 +2287,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.5333333333333333,
-      "knn_danger_metric": 0.5226305729925087
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.5312622353499387
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.544682901420418
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.5292071867034481
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.26666666666666666,
-      "knn_danger_metric": 0.36866724153376584
+      "raw_sentiment": 0.3333333333333333,
+      "knn_danger_metric": 0.3427655980293096
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2311,14 +2311,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.6851961444412475
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.8687822005421921
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.6685001685004482
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.7282599884805282
     }
   },
   "semantic_logs": [
@@ -2332,36 +2332,15 @@
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️#فوری|  منابع رسانه‌ای از هدف قرارگرفتن مواضع گروهک‌های تجزیه‌طلب در اربیل عراق خبر می‌دهند. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️حال‌وهوای مزار شهدای دانش‌آموز میناب در شب شهادت حضرت رقیه(س) &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️#فوری | منابع عربی از شنیده شدن صدای انفجارها در کویت خبر می‌دهند. &lrm;✅ @sepah_pasdaran",
+      "text": "&rlm; ️#الله_اکبر| انفجار شدید در سواحل امارات &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️#تکمیلی | رسانه‌های عربی از شنیده‌شدن صدای دست‌کم ۲ انفجار در کویت خبر دادند. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️قیمت نفت به بالای ۹۰ دلار رسید &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
+      "text": "&rlm; ️شلیک موشک به سمت کشتی‌های متخلف در نزدیکی سواحل امارات &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2376,27 +2355,6 @@
       "channel": "Hezbollah",
       "text": "بيان للقوات المسلحة اليمنية يوم غد إن شاء الله للإعلان عن موقف مهم يليق بتطلعات شعبنا العظيم.  http://t.me/army21ye",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: كاظم غريب آبادي: ندين العدوان الأميركي بنحو قاطع وسنتخذ الإجراء المناسب للدفاع عن مصالحنا وأمننا القومي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "البحرين: وزارة الداخلية: إطلاق صفارات الإنذار في البلاد",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: وزارة الصحة: استشهاد الشاب أحمد عادل رشيد أبو مخو (26 عاماً) برصاص الاحتلال في بلدة دير جرير بالضفة الغربية",
-      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2421,10 +2379,52 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "محدث الصحة: استشهاد الشاب أحمد عادل رشيد أبو مخو (٢٦ عاماً) برصاص الاحتلال في بلدة دير جرير.",
+      "text": "إيران: حرس الثورة: الهجوم على القاعدة التنف أسفر عن مقتل عدد كبير من القوات الأميركية وتدمير منظومة رادار وعدد من المروحيات",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: حرس الثورة: السيطرة الكاملة على مضيق هرمز لا تزال بيد قواتنا",
       "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: حرس الثورة: طالما استمرت الأعمال العدائية الأميركية فلن يتم تصدير قطرة واحدة من النفط أو الغاز عبر مضيق هرمز",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: &quot;جيش&quot; الاحتلال ينسف عدداً من المنازل على أطراف بلدة كفرتبنيت في قضاء النبطية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: وكالة &quot;تسنيم&quot;: أصوات انفجارات في ميناءي ماهشهر والإمام الخميني في محافظة خوزستان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: وكالة &quot;مهر&quot;: تفعيل الدفاعات الجوية في ميناء كنارك بمحافظة سيستان وبلوشستان",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: وكالة &quot;تسنيم&quot;: عدوان أميركي على مدن تبريز وتشابهار وكنارك",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     }
   ]
