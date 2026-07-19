@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-19T17:55:01.126Z",
+  "last_updated": "2026-07-19T19:00:24.127Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.23"
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.17"
   },
   "timeline": [
-    {
-      "time": "2026-07-16T02:34:11.790Z",
-      "danger": 0.571,
-      "sentiment": -0.319,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.366,
-          "sentiment": -0.433
-        },
-        "OSINTdefender": {
-          "danger": 0.507,
-          "sentiment": -0.333
-        },
-        "irna_1313": {
-          "danger": 0.637,
-          "sentiment": -0.625
-        },
-        "sepah_pasdaran": {
-          "danger": 0.589,
-          "sentiment": -0.6
-        },
-        "almanarnews": {
-          "danger": 0.217,
-          "sentiment": -0.233
-        },
-        "C_Military1": {
-          "danger": 0.919,
-          "sentiment": 0.067
-        },
-        "almayadeen": {
-          "danger": 0.691,
-          "sentiment": -0.3
-        },
-        "QudsN": {
-          "danger": 0.834,
-          "sentiment": -0.567
-        }
-      }
-    },
     {
       "time": "2026-07-16T05:36:18.135Z",
       "danger": 0.526,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.033
         }
       }
+    },
+    {
+      "time": "2026-07-19T19:00:24.127Z",
+      "danger": 0.523,
+      "sentiment": -0.172,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.351,
+          "sentiment": -0.6
+        },
+        "OSINTdefender": {
+          "danger": 0.518,
+          "sentiment": -0.433
+        },
+        "irna_1313": {
+          "danger": 0.428,
+          "sentiment": 0.682
+        },
+        "sepah_pasdaran": {
+          "danger": 0.404,
+          "sentiment": -0.7
+        },
+        "almanarnews": {
+          "danger": 0.432,
+          "sentiment": 0.133
+        },
+        "C_Military1": {
+          "danger": 0.766,
+          "sentiment": -0.1
+        },
+        "almayadeen": {
+          "danger": 0.72,
+          "sentiment": -0.333
+        },
+        "QudsN": {
+          "danger": 0.664,
+          "sentiment": -0.233
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.7,
-      "knn_danger_metric": 0.3797943417498014
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.3513286961651403
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,20 +2290,20 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.5277817220599187
+      "num_messages": 11,
+      "raw_sentiment": 0.6818181818181818,
+      "knn_danger_metric": 0.4277041962193401
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.8666666666666667,
-      "knn_danger_metric": 0.5706079026322324
+      "raw_sentiment": -0.7,
+      "knn_danger_metric": 0.4040665405193213
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.2,
+      "raw_sentiment": 0.13333333333333333,
       "knn_danger_metric": 0.4317015403417335
     },
     "C_Military1": {
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.6553415314986129
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.7197124724008044
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.5970348013580635
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.6636066067865846
     }
   },
   "semantic_logs": [
@@ -2331,20 +2331,6 @@
       "channel": "IDF",
       "text": "״אני קורא לאכולוסייה החרדית ולהנהגה החרדית לעודד כל פעם קצת יותר לגיוס. יש לנו מסלולים יוצאים מן הכלל, השתחררו מהם אנשים לא פחות חרדים ואזרחים טובים יותר למדינה. זה טוב לכולם״  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️بلایی که بر سر انبار لجستیکی آمریکا در العدید قطر آمد  تصاویر ماهواره‌ای از انهدام انبار مرکزی قطعات لجستیکی نیروی هوایی آمریکا در پایگاه هوایی العدید قطر. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️ آب‌شیرین‌کن بونجی جاسک وارد مدار می‌شود  آب‌شیرین‌کن بونجی که در پی حمله موشکی آمریکا آسیب دیده بود، با انجام اقدامات جهادی و کمتر از ۴۸ ساعت پس از حادثه، امروز وارد مدار می‌شود. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2411,9 +2397,9 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم بلدتي علار ودير الغصون شمال طولكرم",
+      "text": "إيران: مراسلة الميادين في طهران: فعاليات في ساحة الثورة استجابة لدعوة قائد الثورة والجهورية السيد مجتبى خامنئي للاحتشاد الشعبي الدائم",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
@@ -2425,11 +2411,25 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية: على الرغم من تراكم المؤشرات، لا تتعجل &quot;إسرائيل&quot; في استنتاج أن حربًا أخرى حتمية، وبالتأكيد ليست حربًا ستشملها بالضرورة. ويُرجّح التقييم السائد في المؤسسة العسكرية أن إيران غير مهتمة بفتح جبهة مباشرة ضد &quot;إسرائيل&quot; في الوقت الراهن. إلا أن مصادر مطلعة على الأمر تؤكد أن هذا مجرد تقييم للوضع الراهن، وأن الواقع في الشرق الأوسط قد يتغير في وقت قصير.  #الإعلام_الحربي",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 0.9989630263203698
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مزارع من بيت فوريك شرق نابلس يتحدث عن معاناة المزارعين في بيت دجن وتشديدات واعتداءات الاحتلال في المنطقة وقلة الدعم من المؤسسات.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تقتحم قرية دير أبو ضعيف شرق جنين.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "ناشطون في مانشستر يطالبون بطرد الاحتلال من الفيفا",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
     }
   ]
 }
