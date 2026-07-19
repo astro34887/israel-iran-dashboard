@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-19T19:00:24.127Z",
+  "last_updated": "2026-07-19T20:10:01.508Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.17"
+    "global_knn_danger": "0.51",
+    "global_norm_sentiment": "-0.26"
   },
   "timeline": [
-    {
-      "time": "2026-07-16T05:36:18.135Z",
-      "danger": 0.526,
-      "sentiment": -0.173,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.391,
-          "sentiment": -0.4
-        },
-        "OSINTdefender": {
-          "danger": 0.496,
-          "sentiment": -0.233
-        },
-        "irna_1313": {
-          "danger": 0.482,
-          "sentiment": 0.133
-        },
-        "sepah_pasdaran": {
-          "danger": 0.464,
-          "sentiment": -0.633
-        },
-        "almanarnews": {
-          "danger": 0.217,
-          "sentiment": -0.167
-        },
-        "C_Military1": {
-          "danger": 0.855,
-          "sentiment": 0.267
-        },
-        "almayadeen": {
-          "danger": 0.622,
-          "sentiment": -0.133
-        },
-        "QudsN": {
-          "danger": 0.778,
-          "sentiment": -0.433
-        }
-      }
-    },
     {
       "time": "2026-07-16T10:55:08.569Z",
       "danger": 0.505,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.233
         }
       }
+    },
+    {
+      "time": "2026-07-19T20:10:01.508Z",
+      "danger": 0.508,
+      "sentiment": -0.26,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.332,
+          "sentiment": -0.567
+        },
+        "OSINTdefender": {
+          "danger": 0.518,
+          "sentiment": -0.433
+        },
+        "irna_1313": {
+          "danger": 0.35,
+          "sentiment": -0.133
+        },
+        "sepah_pasdaran": {
+          "danger": 0.422,
+          "sentiment": -0.7
+        },
+        "almanarnews": {
+          "danger": 0.435,
+          "sentiment": 0.233
+        },
+        "C_Military1": {
+          "danger": 0.786,
+          "sentiment": -0.233
+        },
+        "almayadeen": {
+          "danger": 0.685,
+          "sentiment": -0.533
+        },
+        "QudsN": {
+          "danger": 0.598,
+          "sentiment": -0.1
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.3513286961651403
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.33193540217274753
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 11,
-      "raw_sentiment": 0.6818181818181818,
-      "knn_danger_metric": 0.4277041962193401
+      "num_messages": 15,
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.3501454199664369
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.7,
-      "knn_danger_metric": 0.4040665405193213
+      "knn_danger_metric": 0.42162503733946927
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.4317015403417335
+      "raw_sentiment": 0.23333333333333334,
+      "knn_danger_metric": 0.43535705688556103
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.766486662870355
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.7856227789414129
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.7197124724008044
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.6854604875606992
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.6636066067865846
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.597592595397172
     }
   },
   "semantic_logs": [
@@ -2336,8 +2336,15 @@
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️یک نوجوان آمریکایی: تنها در هفت روز، ۱۱ میلیارد دلار را صرف آغاز جنگی کردیم که هیچ‌کس خواهان آن نبود.جنگی که حاصلش، بمباران دوباره کودکان بی‌گناهِ مدرسه‌ای بود &lrm;✅ @sepah_pasdaran",
+      "text": "&rlm; ️صدای انفجارها در سلیمانیه عراق  &rlm;🔹 منابع عراقی از حمله پهپادی به مواضع تروریست‌های کُرد ضد ایرانی در استان سلیمانیه عراق خبر می‌دهند. &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "بالصور | نُقلت طائرة MQ-9 الأمريكية بدون طيار، التي أسقطتها قوات الدفاع في جبال عسلوية صباح الجمعة، إلى أسفل الجبل بمساعدة حمار لاحد المزارعين .",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2406,29 +2413,22 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم بلدة سنجل شمال رام الله",
+      "text": "ناشطون في مانشستر يطالبون بطرد الاحتلال من الفيفا",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مزارع من بيت فوريك شرق نابلس يتحدث عن معاناة المزارعين في بيت دجن وتشديدات واعتداءات الاحتلال في المنطقة وقلة الدعم من المؤسسات.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم قرية دير أبو ضعيف شرق جنين.",
+      "text": "قوات الاحتلال تطارد مركبة خلال اقتحام قرية الرشايدة جنوب شرقي بيت لحم.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "ناشطون في مانشستر يطالبون بطرد الاحتلال من الفيفا",
-      "absolute_sentiment": 0.5,
+      "text": "إصابة العشرات بالاختناق.. الاحتلال يهاجم بيت عزاء الشهيد فادي النعسان في المغير  https://qudsn.co/post/216626",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
   ]
