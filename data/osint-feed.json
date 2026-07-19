@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-19T13:08:03.678Z",
+  "last_updated": "2026-07-19T14:51:25.911Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.28"
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.27"
   },
   "timeline": [
-    {
-      "time": "2026-07-15T20:05:06.900Z",
-      "danger": 0.527,
-      "sentiment": -0.35,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.366,
-          "sentiment": -0.433
-        },
-        "OSINTdefender": {
-          "danger": 0.507,
-          "sentiment": -0.333
-        },
-        "irna_1313": {
-          "danger": 0.532,
-          "sentiment": -0.6
-        },
-        "sepah_pasdaran": {
-          "danger": 0.337,
-          "sentiment": -0.533
-        },
-        "almanarnews": {
-          "danger": 0.29,
-          "sentiment": -0.367
-        },
-        "C_Military1": {
-          "danger": 0.919,
-          "sentiment": 0.067
-        },
-        "almayadeen": {
-          "danger": 0.756,
-          "sentiment": -0.9
-        },
-        "QudsN": {
-          "danger": 0.613,
-          "sentiment": -0.267
-        }
-      }
-    },
     {
       "time": "2026-07-15T21:55:55.047Z",
       "danger": 0.531,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.667
         }
       }
+    },
+    {
+      "time": "2026-07-19T14:51:25.911Z",
+      "danger": 0.516,
+      "sentiment": -0.266,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.56,
+          "sentiment": -0.567
+        },
+        "OSINTdefender": {
+          "danger": 0.515,
+          "sentiment": -0.433
+        },
+        "irna_1313": {
+          "danger": 0.48,
+          "sentiment": -0.133
+        },
+        "sepah_pasdaran": {
+          "danger": 0.482,
+          "sentiment": -0.533
+        },
+        "almanarnews": {
+          "danger": 0.397,
+          "sentiment": -0.133
+        },
+        "C_Military1": {
+          "danger": 0.783,
+          "sentiment": 0.2
+        },
+        "almayadeen": {
+          "danger": 0.442,
+          "sentiment": -0.367
+        },
+        "QudsN": {
+          "danger": 0.551,
+          "sentiment": -0.556
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.5248755904527168
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.5602799315023808
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.5023274356315173
+      "knn_danger_metric": 0.5148005807542538
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.4058076374014749
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.47991052708287824
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.5788570607348639
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.4821163701336221
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.4099650447574337
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.39663604353580434
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": 0.2,
-      "knn_danger_metric": 0.7834397501434347
+      "knn_danger_metric": 0.7829639477647052
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.7124554210045436
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.4424058968109972
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.5690587765166821
+      "num_messages": 9,
+      "raw_sentiment": -0.5555555555555556,
+      "knn_danger_metric": 0.5508268725733454
     }
   },
   "semantic_logs": [
@@ -2334,65 +2334,65 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "צבא ירדן: שוגרו לעבר ירדן 4 טילים איראנים. יירטנו שלושה ואחד נפל באזור לא מיושב.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "ערוצים שיעים מפרסמים תיעוד ישראלי (נדיר) של צוללת ישראלית במפרץ אילת.  תגובה אחת",
+      "absolute_sentiment": -0.5,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️#فوری| سقوط بوستر موشک ایرانی به روی یک منطقه صنعتی در ایلات اشغالی &lrm;✅ @sepah_pasdaran",
+      "text": "&rlm; ️#فوری | هم اکنون صدای انفجار در آبادان به گوش رسید &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️#فوری | هم اکنون صدای انفجار در آبادان به گوش رسید &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: الطاقة الذرية: هذا الهجوم سيزيد من عزيمة خبراء الصناعة النووية الإيرانية على مواصلة مسيرة التقدم",
+      "text": "لبنان: الصحة اللبنانية: الحصيلة التراكمية الاجمالية للعدوان الإسرائيلي على لبنان حتى 19 تموز 4328 شهيداً و12229 جريحاً",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "اليمن: النعمي للميادين: مستعدون لدفع أغلى الأثمان في سبيل رفع الحصار والمنطقة على شفير انفجار والسعودية تعلم ذلك",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: 5 جرحى بنيران الاحتلال الإسرائيلي خارج مناطق سيطرته في مواصي خان يونس جنوب قطاع غزة",
+      "text": "اليمن: النعمي للميادين: أي اعتراض من السعودية على أي رحلة من وإلى مطار صنعاء سيقابل برد شامل",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: مصابون من جراء قصف الاحتلال خيمة تؤوي نازحين شمال كلية الرباط بمواصي مدينة خان يونس جنوبي قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: سماع دوي انفجارات في &quot;إيلات&quot; نتيجة قصف إيراني على العقبة في الأردن",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: استشهاد مواطن وإصابة 10 آخرين في قصف على خيام النازحين في مواصي مدينة خان يونس",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وكالة الطاقة الذرية: المنشأة في المراحل الأولى من الإنشاء ولم تكن تحتوي على أي مواد نووية عند آخر زيارة للوكالة",
-      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "ترجمة قدس| &quot;نتنياهو&quot; أبلغ رؤساء المجالس المحلية بأنه قد يتقرر إلغاء انتخابات حزب &quot;الليكود&quot; بسبب الوضع الأمني.",
-      "absolute_sentiment": -0.5,
+      "text": "الاحتلال يفرج عن 17 أسيرا فلسطينيا من قطاع غزة.",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "جيش الاحتلال ومليشيات المستوطنين يهاجمون قرية &quot;عين عريك&quot; ويقومون بسرقة أغنام ويهاجمون منازل الفلسطينيين.",
+      "text": "الاحتلال يفرج عن 17 أسيرًا من غزة وسط استمرار احتجاز آلاف المعتقلين وتعذيبهم  https://qudsn.co/post/216622",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2406,7 +2406,7 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية: سلسلة من التطورات في الأيام الأخيرة تُشير إلى أن الولايات المتحدة ترفع مستوى تأهبها تحسبًا لتصعيد محتمل مع إيران، وربما حتى عودة الحرب الشاملة. إن تعزيز القوات الأمريكية في المنطقة، ووصول طائرات التزود بالوقود والمقاتلات، وتشديد تحذيرات السفر لدول الشرق الأوسط، فضلًا عن التقارير التي تُفيد بإجراء تعديلات عملياتية من قِبل الجيش الأمريكي في ضوء دروس الصراع الأخير، كلها تُشير إلى استعداد كبير. مع ذلك، يُرجّ�� أن يكون التصعيد الذي ستبدأه الولايات المتحدة تحت السيطرة بحلول انتخابات التجديد النصفي، لكن إدارة حدث تحت السيطرة مع إيران ليس بالأمر الهين.  #الإعلام_الحربي",
+      "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية: سلسلة من التطورات في الأيام الأخيرة تُشير إلى أن الولايات المتحدة ترفع مستوى تأهبها تحسبًا لتصعيد محتمل مع إيران، وربما حتى عودة الحرب الشاملة. إن تعزيز القوات الأمريكية في المنطقة، ووصول طائرات التزود بالوقود والمقاتلات، وتشديد تحذيرات السفر لدول الشرق الأوسط، فضلًا عن التقارير التي تُفيد بإجراء تعديلات عملياتية من قِبل الجيش الأمريكي في ضوء دروس الصراع الأخير، كلها تُشير إلى استعداد كبير. مع ذلك، يُرجّح أن يكون التصعيد الذي ستبدأه الولايات المتحدة تحت السيطرة بحلول انتخابات التجديد النصفي، لكن إدارة حدث تحت السيطرة مع إيران ليس بالأمر الهين.  #الإعلام_الحربي",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 0.9986358496212904
     },
