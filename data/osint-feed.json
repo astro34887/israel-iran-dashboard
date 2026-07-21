@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-21T15:40:06.213Z",
+  "last_updated": "2026-07-21T17:13:13.405Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.26"
+    "global_knn_danger": "0.51",
+    "global_norm_sentiment": "-0.32"
   },
   "timeline": [
-    {
-      "time": "2026-07-17T23:48:45.846Z",
-      "danger": 0.595,
-      "sentiment": -0.443,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.665,
-          "sentiment": -0.667
-        },
-        "OSINTdefender": {
-          "danger": 0.529,
-          "sentiment": -0.533
-        },
-        "irna_1313": {
-          "danger": 0.548,
-          "sentiment": -0.9
-        },
-        "sepah_pasdaran": {
-          "danger": 0.551,
-          "sentiment": -0.733
-        },
-        "almanarnews": {
-          "danger": 0.541,
-          "sentiment": -0.4
-        },
-        "C_Military1": {
-          "danger": 0.763,
-          "sentiment": -0.867
-        },
-        "almayadeen": {
-          "danger": 0.719,
-          "sentiment": -0.233
-        },
-        "QudsN": {
-          "danger": 0.684,
-          "sentiment": 0.033
-        }
-      }
-    },
     {
       "time": "2026-07-18T02:03:46.218Z",
       "danger": 0.596,
@@ -2257,6 +2210,53 @@
           "sentiment": -0.333
         }
       }
+    },
+    {
+      "time": "2026-07-21T17:13:13.405Z",
+      "danger": 0.505,
+      "sentiment": -0.32,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.525,
+          "sentiment": -0.467
+        },
+        "OSINTdefender": {
+          "danger": 0.594,
+          "sentiment": -0.767
+        },
+        "irna_1313": {
+          "danger": 0.35,
+          "sentiment": 0.033
+        },
+        "sepah_pasdaran": {
+          "danger": 0.379,
+          "sentiment": -0.533
+        },
+        "almanarnews": {
+          "danger": 0.408,
+          "sentiment": 0.1
+        },
+        "C_Military1": {
+          "danger": 0.743,
+          "sentiment": -0.267
+        },
+        "almayadeen": {
+          "danger": 0.38,
+          "sentiment": -0.6
+        },
+        "QudsN": {
+          "danger": 0.725,
+          "sentiment": -0.571
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2275,8 +2275,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.5242649665129766
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.5246608894653269
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2287,38 +2287,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.3884686666933168
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.35012765663138234
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.7666666666666667,
-      "knn_danger_metric": 0.6251065580137118
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.3790086659981607
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.36666666666666664,
-      "knn_danger_metric": 0.4427554929594307
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.4080661247911313
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.6139657988251449
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.7427255714396084
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.3798051930619847
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.3804167936877132
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.6767135729885099
+      "num_messages": 14,
+      "raw_sentiment": -0.5714285714285714,
+      "knn_danger_metric": 0.724564695781561
     }
   },
   "semantic_logs": [
@@ -2330,67 +2330,74 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️#فوری| با اخطار رزمندگان انصارالله یمن، ۲ نفتکش بزرگ عربستان سعودی به مبدأ بازگشتند و اجازه صادرات نفت را پیدا نکردند. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️#فوری| با اخطار رزمندگان انصارالله یمن، ۲ نفتکش بزرگ عربستان سعودی به مبدأ بازگشتند و اجازه صادرات نفت را پیدا نکردند. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️‌  منابع عربی از برخاستن ستون‌های دود در کویت خبر می‌دهند. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "وزير الصحة: المرحلة المقبلة تتطلب رؤية صحية شاملة https://almanar.com.lb/article/1038117/?s=tg",
+      "text": "بالفيديو | صور الأقمار الصناعية تُظهر الأضرار التي لحقت بقاعدة تاور ٢٢ الأمريكية في الأردن https://almanar.com.lb/article/1038697/?s=tg",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "حرس الثورة: حريق واسع يلتهم ناقلتَي نفط اثر انفجار تعرضتا له جنوب مضيق هرمز https://almanar.com.lb/article/1038442/?s=tg",
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: عون: لا منفعة لأحد من انهيار مؤسسة الجيش اللبناني وأنا أثق بها",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: التلفزيون الإيراني: 3 سفن على الأقل في المسار الأميركي بمضيق هرمز تعرضت لحوادث صباح اليوم",
+      "text": "لبنان: عون: طلبت من الرئيس ترامب دعما سياسيا ودعما للجيش اللبناني",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: 4 شهداء إثر قصف الاحتلال الإسرائيلي شقة سكنية في منطقة السامر وسط مدينة غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "عراقتشي لنظيره الفرنسي: المسؤولية عن تداعيات هذا الوضع تقع على عاتق الطرف الذي خرج عن الاتفاقات واستمر في نهج أحادي الجانب",
+      "absolute_sentiment": -0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "وسط سخرية الشبان..  قوات الاحتلال تطلق قنابل الصوت والغاز تجاه بيت عزاء شهيدي قرية دير جرير، شمال شرق رام الله.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مشاهد قبل قليل..  3 شهداء بقصف الاحتلال منزلاً في محيط مستشفى &quot;الخدمة العامة&quot; بمدينة غزة.",
+      "text": "مؤسسات مقدسية تحذر: الاحتلال يحشد لتصعيد خطير في الأقصى يوم الخميس  التفاصيل:   https://qudsn.co/post/216664",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تطارد شاباً وتنكل بآخرين في بلدة &quot;أبو ديس&quot; شرق القدس المحتلة.",
+      "text": "قوات الاحتلال تطلق قنابل الصوت وتطارد الشبان أثناء إصلاحهم لمنشأة زراعية اعتدى عليها المستوطنون بمحيط بلدة بيتا، جنوب نابلس.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مشهد مؤلم.. طفلٍ يودع والده، الذي استشهد بقصف الاحتلال مركبة مدنية قرب مدخل مدينة الزهراء، وسط قطاع غزة.",
+      "text": "وزير الأمن القومي للاحتلال &quot;بن غفير&quot; يقتحم شارع صلاح الدين في القدس المحتلة، وسط انتشار واسع لقوات الاحتلال.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 12 العبرية: نشرنا في النشرة تفاصيل من المناقشات المغلقة التي جرت في &quot;إسرائيل&quot; خلال الساعات الأربع والعشرين الماضية:  - ناقش المجلس الوزاري الأمني المصغر أمس سيناريوهات التصعيد لمدة ست ساعات، خرج خلالها نتنياهو لإجراء اتصال هاتفي مع وزير الخارجية الأمريكي ماركو روبيو.  - مسؤول إسرائيلي رفيع: &quot;مصلحتنا في هذه المعركة تعتمد فقط على طبيعتها. لا نريد أن نجد أنفسنا ندخل معركة أخرى ثم يُقال لنا بعد بضعة أيام: توقفوا&quot;.  - أُبلغت القيادة السياسية بأنه وفقًا للمعلومات المتوفرة لدى &quot;إسرائيل&quot;، فإن ترامب لم يحسم قراره بعد، لكنه يميل إلى فرض ثمن باهظ على إيران. وقد ارتفع احتمال التصعيد.  - قُدم مقترح عُماني جديد يتحدث عن إزالة الألغام وفتح ممرات الملاحة طوال فترة المفاوضات.  - القيادة الإيرانية تُقدّر أنه لا حاجة لتقديم تنازلات، لأنها تعتقد أن ترامب سيتراجع وسيسمح لها بالسيطرة على المضيق.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9990740641631829
     },
     {
       "channelId": "C_Military1",
@@ -2419,13 +2426,6 @@
       "text": "#الجمهورية_الإسلامية  الجيش الايراني:   استهدفنا مباني إدارية وهوائيات تحديد الاتجاه في قاعدة &quot;عريفجان&quot; في الكويت  استهدفنا بالمسيّرات موقفاً للمروحيات في معسكر &quot;العديري&quot; ومبنى تمركز القوات الأميركية في قاعدة &quot;أحمد الجابر&quot; بالكويت.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9908637620933594
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸بازگشت ۶ کشتی پس از هشدار نیروهای مسلح یمن  🔹یک منبع نظامی یمنی اعلام کرد که ۶ کشتی پس از هشدار نیروهای مسلح این کشور و اعمال ممنوعیت کشتیرانی دریایی علیه عربستان سعودی، مجبور به بازگشت شدند.  https://irna.ir/xjXQgx @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9904567943036928
     }
   ]
 }
