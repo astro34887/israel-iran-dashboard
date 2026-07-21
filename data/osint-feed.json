@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-21T17:13:13.405Z",
+  "last_updated": "2026-07-21T19:14:26.902Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.51",
-    "global_norm_sentiment": "-0.32"
+    "global_knn_danger": "0.55",
+    "global_norm_sentiment": "-0.22"
   },
   "timeline": [
-    {
-      "time": "2026-07-18T02:03:46.218Z",
-      "danger": 0.596,
-      "sentiment": -0.36,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.665,
-          "sentiment": -0.633
-        },
-        "OSINTdefender": {
-          "danger": 0.529,
-          "sentiment": -0.533
-        },
-        "irna_1313": {
-          "danger": 0.591,
-          "sentiment": -0.4
-        },
-        "sepah_pasdaran": {
-          "danger": 0.433,
-          "sentiment": -0.733
-        },
-        "almanarnews": {
-          "danger": 0.57,
-          "sentiment": -0.5
-        },
-        "C_Military1": {
-          "danger": 0.763,
-          "sentiment": -0.867
-        },
-        "almayadeen": {
-          "danger": 0.814,
-          "sentiment": 0.133
-        },
-        "QudsN": {
-          "danger": 0.649,
-          "sentiment": 0.067
-        }
-      }
-    },
     {
       "time": "2026-07-18T05:20:34.920Z",
       "danger": 0.589,
@@ -2257,6 +2210,53 @@
           "sentiment": -0.571
         }
       }
+    },
+    {
+      "time": "2026-07-21T19:14:26.902Z",
+      "danger": 0.552,
+      "sentiment": -0.22,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.488,
+          "sentiment": -0.6
+        },
+        "OSINTdefender": {
+          "danger": 0.502,
+          "sentiment": -0.533
+        },
+        "irna_1313": {
+          "danger": 0.527,
+          "sentiment": 0.3
+        },
+        "sepah_pasdaran": {
+          "danger": 0.529,
+          "sentiment": -0.667
+        },
+        "almanarnews": {
+          "danger": 0.507,
+          "sentiment": 0.433
+        },
+        "C_Military1": {
+          "danger": 0.761,
+          "sentiment": -0.467
+        },
+        "almayadeen": {
+          "danger": 0.607,
+          "sentiment": -0.733
+        },
+        "QudsN": {
+          "danger": 0.652,
+          "sentiment": 0.2
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2275,50 +2275,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.5246608894653269
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.487818436929965
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.7666666666666667,
-      "knn_danger_metric": 0.594091521879237
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.5019285706196804
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.35012765663138234
+      "raw_sentiment": 0.3,
+      "knn_danger_metric": 0.5270311017071452
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.3790086659981607
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.5292271137756225
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.4080661247911313
+      "raw_sentiment": 0.43333333333333335,
+      "knn_danger_metric": 0.5067010656120525
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.7427255714396084
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.7612108053978733
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.3804167936877132
+      "raw_sentiment": -0.7333333333333333,
+      "knn_danger_metric": 0.6067975049009775
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 14,
-      "raw_sentiment": -0.5714285714285714,
-      "knn_danger_metric": 0.724564695781561
+      "num_messages": 15,
+      "raw_sentiment": 0.2,
+      "knn_danger_metric": 0.6516520037307658
     }
   },
   "semantic_logs": [
@@ -2330,67 +2330,74 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "המצור החות&#39;י מתחיל להשפיע?  סוכנות הידיעות &quot;סבא&quot;, המזוהה עם החות&#39;ים, טוענת כי 6 ספינות ששטו בים האדום שבו על עקבותיהן לאחר אזהרה חות&#39;ית במסגרת מצור על נמלי הים הסעודים.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️انفجارهای پیاپی بحرین را لرزاند  &rlm;🔹 منابع خبری از وقوع چندین انفجار در بحرین خبر دادند. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️#الله_اکبر🚨|منابع خبری از شنیده‌شدن صدای انفجار در نزدیکی کنسولگری آمریکا در اربیل خبر می‌دهند..  ☑️ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️ایستادگی ایرانی‌ها؛ زندگی ادامه دارد، باج هرگز &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: العلاقات العامة للجيش الايراني: الساعة 18:30 من اليوم تم اعتراض مسيرة انتحارية تابعة للعدو في أجواء محافظة أذربيجان الشرقية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: العلاقات العامة للجيش الايراني: تم تدمير المسيرة بنيران أنظمة قوات الدفاع الجوي للجيش ضمن الشبكة الموحدة للدفاع الجوي للبلاد",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "وسائل إعلام إسرائيلية: قناة &quot;كان&quot;: مسؤول أمني سوري محسوب على السلطة قال إنه رغم المعارضة العلنية فإن دمشق تستعد لتنفيذ عمليات ضد حزب الله",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "وسائل إعلام إسرائيلية: &quot;كان&quot;: خلال لقائه الرئيس اللبناني بدا الرئيس الأميركي إيجابيا جدا تجاه طلبات لبنان لكنه لم يقدم أي تعهد لأي شيء",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: الجيش اللبناني: قوات الاحتلال اقتربت من أطراف بلدة زوطر الغربية أثناء وجود عناصر الجيش داخل البلدة خلال تنفيذ مهمة الانتشار",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "بالفيديو | صور الأقمار الصناعية تُظهر الأضرار التي لحقت بقاعدة تاور ٢٢ الأمريكية في الأردن https://almanar.com.lb/article/1038697/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: عون: لا منفعة لأحد من انهيار مؤسسة الجيش اللبناني وأنا أثق بها",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: عون: طلبت من الرئيس ترامب دعما سياسيا ودعما للجيش اللبناني",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: 4 شهداء إثر قصف الاحتلال الإسرائيلي شقة سكنية في منطقة السامر وسط مدينة غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "عراقتشي لنظيره الفرنسي: المسؤولية عن تداعيات هذا الوضع تقع على عاتق الطرف الذي خرج عن الاتفاقات واستمر في نهج أحادي الجانب",
+      "text": "#إعلام_العدو   القناة 15 العبرية - يوسي يهوشع: التقديرات في &quot;إسرائيل&quot; تشير إلى أن تصريح ترامب، إلى جانب التعزيزات العسكرية الأمريكية في المنطقة ووصول طائرات التزوّد بالوقود، يزيدان من احتمال استئناف العمليات العسكرية ومشاركة &quot;إسرائيل&quot; فيها.  وقال الوزير سموتريتش إن &quot;إسرائيل&quot; ليست لديها مصلحة في الانضمام إلى المواجهة المحدودة بين إيران والولايات المتحدة، مضيفًا أن &quot;الوضع الحالي هو الأفضل بالنسبة لنا&quot;.   لكن إذا كان ترامب مستعدًا لتوسيع الحرب، ويتحدث الآن عن مهاجمة الموقع النووي المحصن داخل الجبال، والذي نُشر اليوم أن إيران نقلت إليه آلاف أجهزة الطرد المركزي للتخصيب، فإن الأمر عندها سيكون مختلفًا تمامًا، ولن يعود مجرد مواجهة محدودة، بكل ما يترتب على ذلك من تداعيات.  #الإعلام_الحربي",
       "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "وسط سخرية الشبان..  قوات الاحتلال تطلق قنابل الصوت والغاز تجاه بيت عزاء شهيدي قرية دير جرير، شمال شرق رام الله.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مؤسسات مقدسية تحذر: الاحتلال يحشد لتصعيد خطير في الأقصى يوم الخميس  التفاصيل:   https://qudsn.co/post/216664",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تطلق قنابل الصوت وتطارد الشبان أثناء إصلاحهم لمنشأة زراعية اعتدى عليها المستوطنون بمحيط بلدة بيتا، جنوب نابلس.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "وزير الأمن القومي للاحتلال &quot;بن غفير&quot; يقتحم شارع صلاح الدين في القدس المحتلة، وسط انتشار واسع لقوات الاحتلال.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
+      "semantic_danger_knn": 0.9995079273020631
     },
     {
       "channelId": "C_Military1",
@@ -2409,23 +2416,16 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
+      "text": "#إعلام_العدو   مراسل القناة 14 العبرية: أنباء أولية عن تعرض السفارة الإسرائيلية في المنامة، عاصمة البحرين، للاستهداف، لا يزال الحدث قيد التحقيق وغير مؤكد.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9978190552288908
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
       "text": "وسائل إعلام أجنبية: إصابة سفينة بمقذوف على بعد 17 ميلًا بحريًا شرق دبا، الإمارات العربية المتحدة، ما أدى إلى تدمير جهاز التوجيه.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9971738898694221
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية  الجيش الايراني:   استهدفنا مباني إدارية وهوائيات تحديد الاتجاه في قاعدة &quot;عريفجان&quot; في الكويت  استهدفنا بالمسيّرات موقفاً للمروحيات في معسكر &quot;العديري&quot; ومبنى تمركز القوات الأميركية في قاعدة &quot;أحمد الجابر&quot; بالكويت.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9908637620933594
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية  الجيش الايراني:   استهدفنا مباني إدارية وهوائيات تحديد الاتجاه في قاعدة &quot;عريفجان&quot; في الكويت  استهدفنا بالمسيّرات موقفاً للمروحيات في معسكر &quot;العديري&quot; ومبنى تمركز القوات الأميركية في قاعدة &quot;أحمد الجابر&quot; بالكويت.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9908637620933594
     }
   ]
 }
