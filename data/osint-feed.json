@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-21T11:04:13.472Z",
+  "last_updated": "2026-07-21T13:38:48.328Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.17"
+    "global_knn_danger": "0.57",
+    "global_norm_sentiment": "-0.27"
   },
   "timeline": [
-    {
-      "time": "2026-07-17T21:49:01.475Z",
-      "danger": 0.597,
-      "sentiment": -0.432,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.603,
-          "sentiment": -0.667
-        },
-        "OSINTdefender": {
-          "danger": 0.529,
-          "sentiment": -0.533
-        },
-        "irna_1313": {
-          "danger": 0.601,
-          "sentiment": -0.385
-        },
-        "sepah_pasdaran": {
-          "danger": 0.515,
-          "sentiment": -0.833
-        },
-        "almanarnews": {
-          "danger": 0.519,
-          "sentiment": -0.267
-        },
-        "C_Military1": {
-          "danger": 0.795,
-          "sentiment": -0.867
-        },
-        "almayadeen": {
-          "danger": 0.78,
-          "sentiment": -0.567
-        },
-        "QudsN": {
-          "danger": 0.674,
-          "sentiment": -0.067
-        }
-      }
-    },
     {
       "time": "2026-07-17T22:44:23.034Z",
       "danger": 0.584,
@@ -2257,13 +2210,60 @@
           "sentiment": 0.1
         }
       }
+    },
+    {
+      "time": "2026-07-21T13:38:48.328Z",
+      "danger": 0.572,
+      "sentiment": -0.273,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.603,
+          "sentiment": -0.433
+        },
+        "OSINTdefender": {
+          "danger": 0.594,
+          "sentiment": -0.767
+        },
+        "irna_1313": {
+          "danger": 0.435,
+          "sentiment": -0.1
+        },
+        "sepah_pasdaran": {
+          "danger": 0.54,
+          "sentiment": -0.7
+        },
+        "almanarnews": {
+          "danger": 0.535,
+          "sentiment": 0.133
+        },
+        "C_Military1": {
+          "danger": 0.611,
+          "sentiment": -0.267
+        },
+        "almayadeen": {
+          "danger": 0.743,
+          "sentiment": -0.167
+        },
+        "QudsN": {
+          "danger": 0.71,
+          "sentiment": -0.3
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2276,7 +2276,7 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.487181370467863
+      "knn_danger_metric": 0.6025186259181846
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2286,39 +2286,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 13,
-      "raw_sentiment": 0.038461538461538464,
-      "knn_danger_metric": 0.358968332442983
+      "num_messages": 15,
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.4350912670676253
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.5047061832759027
+      "raw_sentiment": -0.7,
+      "knn_danger_metric": 0.5402676455556376
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.4350840125941636
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.5349891891794945
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.6445760657432428
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.61094360857792
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.6164281512785391
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.7426313016731618
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 10,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.5794707061133904
+      "num_messages": 15,
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.7097254828637831
     }
   },
   "semantic_logs": [
@@ -2332,99 +2332,99 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "דובר צה&quot;ל: צה&quot;ל חיסל מפקד חוליה בארגון הטרור חמאס שלקח חלק בחטיפת נורית קופר, עמירם קופר ז&quot;ל ואלכסנדר דנציג ז&quot;ל מקיבוץ ניר עוז בטבח 7 באוקטובר  צה&quot;ל תקף שלשום (א&#39;) בדרום רצועת עזה וחיסל את המחבל אסמה כמאל שחדה אבו טים, מפקד חוליה בזרוע הצבאית של ארגון הטרור חמאס.  המחבל פשט לקיבוץ ניר עוז בטבח ה-7 באוקטובר ולקח חלק בחטיפתם של נורית קופר, עמירם קופר ז&quot;ל ואלכסנדר דנציג ז&quot;ל.  ## המחבל אסאמה אבו תים מהגדוד המזרחי של חטיבת ח&#39;אן יונס, בחמאס, חוסל בתקיפת כטב&quot;מ ישראלי על אוהל במואצי של ח&#39;אן יונס שבוע וחצי אחרי שהתחתן.  תגובה אחת",
+      "text": "דובר צה&quot;ל: צה&quot;ל חיסל מפקד חוליה בארגון הטרור חמאס שלקח חלק בחטיפת נורית קופר, עמירם קופר ז&quot;ל ואלכסנדר דנציג ז&quot;ל מקיבוץ ניר עוז בטבח 7 באוקטובר  צה&quot;ל תקף שלשום (א&#39;) בדרום רצועת עזה וחיסל את המחבל אסמה כמאל שחדה אבו טים, מפקד חוליה בזרוע הצבאית של ארגון הטרור…",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "דובר צה&quot;ל: צה&quot;ל חיסל מפקד חוליה בארגון הטרור חמאס שלקח חלק בחטיפת נורית קופר, עמירם קופר ז&quot;ל ואלכסנדר דנציג ז&quot;ל מקיבוץ ניר עוז בטבח 7 באוקטובר  צה&quot;ל תקף שלשום (א&#39;) בדרום רצועת עזה וחיסל את המחבל אסמה כמאל שחדה אבו טים, מפקד חוליה בזרוע הצבאית של ארגון הטרור…",
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🎥خبرگردی ۳۰ تیر؛ آغاز هم‌زمان طرح‌های ویژه اربعین در ایران و عراق  🔹در بسته خبری امروز آخرین تحولات میدانی، اقدامات دیپلماتیک و مهم‌ترین اخبار اجتماعی و فرهنگی کشور را مرور می کنیم.   مهم ترین عناوین امروز:  • در 24 ساعت گذشته بین ایران و امریکا چه گذشت؟ •…",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️ارسال‌کنندهٔ فیلم پرتاب موشک به شبکهٔ معاند دستگیر شد  سپاه ابهر: فردی که با فیلم‌برداری از لحظهٔ پرتاب موشک در آسمان و ارسال آن به شبکهٔ معاند «ایران اینترنشنال» اقدام به همکاری با جریان‌های ضدامنیتی کرده بود، توسط سازمان اطلاعات سپاه ابهر زنجان دستگیر شد. &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️#فوری|حمله مجدد به پایگاه العدید در قطر &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 0,
+      "text": "&rlm; ️تصاویر ماهواره‌ای از خسارت گسترده به پایانهٔ صادرات نفت بندر الاحمدی کویت &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: العميد كرمي: القوات البرية لحرس الثورة تعمل باستمرار على إعادة تنظيم وتعزيز قدراتها الدفاعية لتحييد أي تهديد",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️#فوری| با اخطار رزمندگان انصارالله یمن، ۲ نفتکش بزرگ عربستان سعودی به مبدأ بازگشتند و اجازه صادرات نفت را پیدا نکردند. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️#فوری| با اخطار رزمندگان انصارالله یمن، ۲ نفتکش بزرگ عربستان سعودی به مبدأ بازگشتند و اجازه صادرات نفت را پیدا نکردند. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 وزارة الاقتصاد: تعديل سعر ربطة الخبز نتيجة ارتفاع كلفة الإنتاج https://almanar.com.lb/article/1037897/?s=tg",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "📹 وزارة الصحة: ماضون في تنفيذ الاستراتيجية الوطنية رغم التحديات https://almanar.com.lb/article/1037912/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "وزير الصحة: المرحلة المقبلة تتطلب رؤية صحية شاملة https://almanar.com.lb/article/1038117/?s=tg",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: العميد كرمي: الشعب والقوات المسلحة الإيرانية على أهبة الاستعداد للرد على أي اعتداء",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: العميد كرمي: سيتم الثأر لدماء قائد الأمة الشهيد والقادة الشهداء قريباً",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: الأدميرال شهرام إيراني: البحرية الإيرانية ستواصل مهامها بكل حزم رغم كل التهديدات",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "&quot;فاينانشال تايمز&quot;: الرئيس الأميركي دونالد ترامب يستعد لفرض رسوم جمركية جديدة على عشرات الدول هذا الأسبوع",
+      "text": "فلسطين المحتلة: مراسل الميادين: شهيدة متأثرة بجروح أصيبت بها من جراء عدوان بقصف إسرائيلي لشقة سكنية في عمارة التاج في مدينة غزة قبل يومين",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "خالد مشعل: المرحلة الصعبة التي يمر بها شعبنا وقضيتنا تفرض علينا جميعاً أن نوحد جهودنا ونحشدها لخدمة أهلنا في قطاع غزة",
-      "absolute_sentiment": 1,
+      "text": "فلسطين المحتلة: مراسل الميادين: 9 شهداء بينهم 4 أطفال من جراء العدوان الإسرائيلي على قطاع غزة منذ فجر اليوم",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "خالد مشعل: مصلحة شعبنا وقضيته فوق كل اعتبار والمرحلة الصعبة تفرض العمل مع شركاء الوطن على أساس ذلك",
+      "text": "لبنان: مراسل الميادين: الجيش اللبناني دخل الى زوطر الغربية فيما اهل البلدة لا يزالون بانتظار تعليمات الجيش للدخول",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: 9 شهداء بينهم 4 أطفال من جراء العدوان الإسرائيلي على قطاع غزة منذ فجر اليوم",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: قائد قوة القدس في حرس الثورة إسماعيل قاآني: أتقدم بالتهنئة بمناسبة انتخاب الدكتور خليل الحية رئيسا للمكتب السياسي لحركة حماس",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "وقفة في نابلس، دعما وإسنادا للأسرى في سجون الاحتلال.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "وقفة دعم وإسناد في طولكرم، مع الأسرى في سجون الاحتلال",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "الاحتلال يواصل إبادة عائلات كاملة في قطاع غزة..",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "في إبادة لم تتوقف.. الاحتلال يحرق عائلة كاملة في مدينة غزة..",
-      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
   ]
