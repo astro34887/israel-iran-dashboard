@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-22T15:36:53.477Z",
+  "last_updated": "2026-07-22T17:12:42.921Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.57",
-    "global_norm_sentiment": "-0.19"
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.21"
   },
   "timeline": [
-    {
-      "time": "2026-07-18T17:53:30.229Z",
-      "danger": 0.514,
-      "sentiment": -0.064,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.583,
-          "sentiment": -0.267
-        },
-        "OSINTdefender": {
-          "danger": 0.523,
-          "sentiment": -0.9
-        },
-        "irna_1313": {
-          "danger": 0.553,
-          "sentiment": -0.036
-        },
-        "sepah_pasdaran": {
-          "danger": 0.293,
-          "sentiment": 0.167
-        },
-        "almanarnews": {
-          "danger": 0.366,
-          "sentiment": 0.067
-        },
-        "C_Military1": {
-          "danger": 0.853,
-          "sentiment": 0.1
-        },
-        "almayadeen": {
-          "danger": 0.504,
-          "sentiment": 0.333
-        },
-        "QudsN": {
-          "danger": 0.515,
-          "sentiment": 0.033
-        }
-      }
-    },
     {
       "time": "2026-07-18T18:57:31.107Z",
       "danger": 0.522,
@@ -2257,13 +2210,60 @@
           "sentiment": -0.167
         }
       }
+    },
+    {
+      "time": "2026-07-22T17:12:42.921Z",
+      "danger": 0.517,
+      "sentiment": -0.213,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.48,
+          "sentiment": -0.367
+        },
+        "OSINTdefender": {
+          "danger": 0.506,
+          "sentiment": -0.533
+        },
+        "irna_1313": {
+          "danger": 0.433,
+          "sentiment": -0.433
+        },
+        "sepah_pasdaran": {
+          "danger": 0.415,
+          "sentiment": -0.467
+        },
+        "almanarnews": {
+          "danger": 0.457,
+          "sentiment": 0.133
+        },
+        "C_Military1": {
+          "danger": 0.717,
+          "sentiment": -0.367
+        },
+        "almayadeen": {
+          "danger": 0.727,
+          "sentiment": 0
+        },
+        "QudsN": {
+          "danger": 0.484,
+          "sentiment": 0.036
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2275,8 +2275,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.5467718824566926
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.4795391595815621
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2287,20 +2287,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.5366473742224346
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.43320765325631705
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.5529642567608526
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.4150335737086275
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.2,
-      "knn_danger_metric": 0.5079627023498103
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.45746493611317546
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2311,14 +2311,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.6095760221144073
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.7270376237860283
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.7820831638501489
+      "num_messages": 14,
+      "raw_sentiment": 0.03571428571428571,
+      "knn_danger_metric": 0.4837721123597106
     }
   },
   "semantic_logs": [
@@ -2332,28 +2332,7 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "ראש עיריית ניו יורק ממדאני מודה בסרטון רשמי לציבור כי אין לו כל סמכות אכיפה לצו המעצר שהוציא בית הדין הפלילי בהאג.  בסרטון ערוך היטב שצילם בלשכתו הוא יורד מהעץ באמצעות התקפה.... נגד נתניהו (ממדאני מאשים אותו בכל מה שקרה בעזה בלי להזכיר את חמאס במילה).  ההגנה…",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️آژیرهای خطر هواپیمای اماراتی را از آسمان بحرین برگرداند  دقایقی پیش همزمان با به‌صدا‌درآمدن آژیرهای خطر در بحرین، یک هواپیمای خطوط هوایی اتحاد که عازم منامه، پایتخت بحرین، بود، ناچار به بازگشت به ابوظبی شد. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️مامانی ۵ ماه دوریتو کشیدم  &rlm;🔹 مادر شهید امیر علی کمالی از شهدای میناب، امروز بخش دیگری از پیکر فرزند کودکش را به آغوش خاک سپرد‌.  &lrm;☑️ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️ترامپ جنایتکار: آمریکایی‌ها مخالف افزایش قیمت انرژی هستند نه جنگ &nbsp; رئیس دولت تروریستی آمریکا در مراسم نظامیان به هلاکت رسیده: آمریکایی‌ها مخالف جنگ نیستند، آن‌ها مخالف افزایش قیمت انرژی هستند. &lrm;✅ @sepah_pasdaran",
+      "text": "מלחמת רוסיה - אוקראינה    כטב&quot;מים אוקראינים פגעו במחסנים של Wildberries, הקמעונאית המקוונת הגדולה בקרסנודאר ובנווינומיסק ברוסיה.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2365,67 +2344,88 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "📹 خطوة جديدة نحو الرقمنة... وزارة الزراعة تطلق الشباك الموحّد وتعلن حزمة إصلاحات إدارية https://almanar.com.lb/article/1040737/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "📹 آخر التطورات من جنوب لبنان… مع مراسلنا سامر حاج علي https://almanar.com.lb/article/1040747/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "📹 غزة | أكثر من 12 شهيدًا خلال الساعات الـ24 الماضية… وآخر التطورات مع مدير مكتب المنار عماد عيد https://almanar.com.lb/article/1040762/?s=tg",
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: التلفزيون الإيراني: الخليج بالكامل يقع تحت المراقبة والرصد المستمرين للقوات المسلحة الإيرانية",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "الحية: نحن على ثقة أن مسار جهاد شعبنا ومقاومته هو نصر محقق مهما طال الزمن",
+      "text": "إيران: التلفزيون الإيراني: جزر أبو موسى وطنب الصغرى والكبرى على أتم الاستعداد حالياً للدفاع الشامل",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: خارجية صنعاء: هل تقبل أي دولة في العالم أو الدول المتعاطفة مع الموقف السعودي على نفسها ما تقوم به السعودية بحق اليمن؟",
+      "text": "إيران: التلفزيون الإيراني: الملاحة في مضيق هرمز ما زالت تدار وفق الترتيبات الإيرانية",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: التلفزيون الإيراني: بحرية حرس الثورة تبقي المضيق مغلقاً ولا يمكن لأي سفينة أو زورق عبور المضيق",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: خارجية صنعاء: تلك المواقف السلبية التي تؤيد العدوان والموقف السعودي تتجاهل حقوق الشعب اليمني الثابتة والمشروعة ومظلوميته",
-      "absolute_sentiment": 0.5,
+      "text": "إيران: التلفزيون الإيراني: الجيش الأميركي يحرض بعض السفن على المرور عبر مسار غير قانوني في المياه الجنوبية للخليج",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: إصابة طفلة برصاص الاحتلال في منطقة التوام شمال غربي مدينة غزة",
+      "text": "إيران: التلفزيون الإيراني: بحرية حرس الثورة تعترض بحزم السفن التي تنوي ارتكاب مخالفات ملاحية واختيار مسارات أخرى للعبور",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "من يصف &quot;إسرائيل&quot; بأنها نظام فصل عنصري، لا يحق له دخولها&#33;  تصريحات قاضٍ في المحكمة العليا للاحتلال تفتح مجددًا الجدل حول حدود حرية التعبير، وحول استخدام تهمة &quot;نزع الشرعية&quot; لتقييد عمل منظمات إنسانية وحقوقية..",
+      "text": "إيران: التلفزيون الإيراني: عدوان أميركي طال اليوم نقطتين أو 3 في سيريك وجزيرة لارك",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تواصل اقتحام بلدة قباطية، جنوب جنين.",
+      "text": "تأكيدًا لما نشرته شبكة قدس.. وزارة التربية والتعليم تعلن رسمياً أن يوم الجمعة المقبل هو موعد إعلان نتائج امتحان الثانوية العامة &quot;التوجيهي&quot;.",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تحتجز عدداً من الشبان وتنكل بهم خلال اقتحام بلدة قباطية، جنوب جنين.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مكتب الأمم المتحدة في فلسطين:   - ندين استمرار السلطات الفلسطينية باستخدام التعذيب والاحتجاز التعسفي بحق المحتجزين الفلسطينيين بمن فيهم الصحفيون والمعارضون والنشطاء السياسيون.  - هناك محتجزون بينهم أطفال ترفض السلطة الإفراج عنهم رغم صدور أوامر قضائية بذلك.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   المتحدث باسم القوات المسلحة الإيرانية العميد شكارجي:   تم تدمير مركز بيانات ضخم للعدو في الإمارات في الحرب المفروضة الثالثة.  هذا المركز أُنشئ في الإمارات على مدى 20 عامًا، بمساعدة واستثمارات الأوروبيين، والكيان الصهيوني، والولايات المتحدة، من أجل السيطرة على المنطقة.  كل استثمارات الولايات المتحدة على مدى خمسة عقود في المنطقة ذهبت  أدراج الرياح مع تدمير قواعدها.  #الإعلام_الحربي",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9977128856617156
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 12 العبرية: سقوط صاروخين على الأقل في العقبة بالأردن كما بدا المشهد من إيلات.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9957890513813449
     }
   ]
 }
