@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-21T23:53:31.690Z",
+  "last_updated": "2026-07-22T02:12:10.179Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.58",
-    "global_norm_sentiment": "-0.36"
+    "global_norm_sentiment": "-0.23"
   },
   "timeline": [
-    {
-      "time": "2026-07-18T10:59:01.194Z",
-      "danger": 0.532,
-      "sentiment": -0.223,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.517,
-          "sentiment": -0.6
-        },
-        "OSINTdefender": {
-          "danger": 0.562,
-          "sentiment": -0.833
-        },
-        "irna_1313": {
-          "danger": 0.632,
-          "sentiment": 0.333
-        },
-        "sepah_pasdaran": {
-          "danger": 0.479,
-          "sentiment": -0.767
-        },
-        "almanarnews": {
-          "danger": 0.441,
-          "sentiment": 0.367
-        },
-        "C_Military1": {
-          "danger": 0.688,
-          "sentiment": -0.067
-        },
-        "almayadeen": {
-          "danger": 0.419,
-          "sentiment": -0.433
-        },
-        "QudsN": {
-          "danger": 0.632,
-          "sentiment": -0.1
-        }
-      }
-    },
     {
       "time": "2026-07-18T11:56:41.173Z",
       "danger": 0.551,
@@ -2257,6 +2210,53 @@
           "sentiment": -0.333
         }
       }
+    },
+    {
+      "time": "2026-07-22T02:12:10.179Z",
+      "danger": 0.578,
+      "sentiment": -0.23,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.488,
+          "sentiment": -0.6
+        },
+        "OSINTdefender": {
+          "danger": 0.533,
+          "sentiment": -0.533
+        },
+        "irna_1313": {
+          "danger": 0.579,
+          "sentiment": -0.6
+        },
+        "sepah_pasdaran": {
+          "danger": 0.503,
+          "sentiment": 0.1
+        },
+        "almanarnews": {
+          "danger": 0.471,
+          "sentiment": 0.067
+        },
+        "C_Military1": {
+          "danger": 0.713,
+          "sentiment": -0.333
+        },
+        "almayadeen": {
+          "danger": 0.709,
+          "sentiment": -0.133
+        },
+        "QudsN": {
+          "danger": 0.834,
+          "sentiment": -0.133
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2287,14 +2287,14 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.5849947737882543
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.5788736302258968
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.3409539043473585
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.5034221801816323
     },
     "almanarnews": {
       "name": "Hezbollah",
@@ -2311,14 +2311,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.8504440564796103
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.709060521953995
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.8487566640378182
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.8343670334855561
     }
   },
   "semantic_logs": [
@@ -2337,6 +2337,27 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️ادامه فعالیت و شلیک پدافند در آسمان تهران &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️بسم الله قاصم الجبارین  سپاه پاسداران: عملیات تنبیه متجاوز ادامه دارد  و ماالنصر الا من عندالله العزیز الحکیم &lrm;☑️ @sepah_pasdaran",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️هم اکنون/ فعالیت پدافند هوایی در جنوب تهران &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
       "text": "بالفيديو | وكالة فارس: رصد صاروخ جديد خلال عملية حديثة للحرس الثوري الإيراني https://almanar.com.lb/article/1039307/?s=tg",
@@ -2346,84 +2367,63 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "الأردن: عشرات الشخصيات الأردنية الوطنية والسياسية والثقافية والعشائرية في بيان مشترك: الأردن ليس طرفاً في هذه الحرب ولا يجوز أن يتحمّل أهله نتائجها أو أن يدفع ثمن سياسات لا تخدم مصالحه العليا",
+      "text": "إيران: مراسل الميادين: لم يسجل أي اعتداء أو إصابات في محافظة هرمزكان والاعتداءات الأميركية طالت مدن بعيدة عن مضيق هرمز",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: وكالة &quot;فارس&quot;: سماع دوي انفجارات في ميناء ماهشَهر بمحافظة خوزستان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: وكالة &quot;تسنيم&quot;: أصوات انفجارات في مدينة بهبهان بمحافظة خوزستان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: التلفزيون الإيراني: أصوات انفجارات في ميناء تشابهار جنوب شرقي البلاد",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: التلفزيون الإيراني: تفعيل الدفاعات الجوية في مدينة &quot;مهاباد&quot; في محافظة أذربيجان الغربية",
+      "text": "إيران: هيئة إدارة الأزمات في محافظة أذربيجان الشرقية: العدوان الأميركي على تبريز طال موقعاً عسكرياً خارج المدينة",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: وكالة &quot;تسنيم&quot;: أصوات انفجارات في ميناء كُنارك بمحافظة سيستان وبلوشستان",
+      "text": "إيران: حرس الثورة في بيان مقتضب: عمليات معاقبة المعتدي مستمرة وما النصر إلا من عند الله العزيز الحكيم",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: وكالة &quot;إرنا&quot; نقلاً عن مصادر رسمية: عدوان على ميناء سيريك في محافظة هرمزكان",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: وكالة الأنباء الرسمية &quot;إرنا&quot;: عدوان أميركي على محيط مدينة &quot;اُميدية&quot; بمحافظة خوزستان",
+      "text": "إيران: وكالة &quot;إرنا&quot;: لم تُسجل، جراء العدوان في محيط سيريك أي إصابات أو أضرار في البنى التحتية السكنية والتجارية",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: وكالة &quot;تسنيم&quot;: عدوان أميركي على موقعين في مدينة بوشِهر جنوب غرب البلاد",
+      "text": "إيران: مراسل الميادين: تم استهداف عدة موانئ ومواقع إيرانية في غارات ليل الثلاثاء - الأربعاء",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال لخلة العدس في بلدة السموع جنوب الخليل.",
+      "text": "إيران: مراسل الميادين: العدوان على ميناء بوشهر طال موقعين فيه",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية دير جرير، شرق رام الله.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال وسط مدينة قلقيلية",
+      "text": "قوات الاحتلال تقتحم بلدة بيتونيا، غرب رام الله.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تداهم عددًا من المنازل خلال اقتحامها المستمر لبلدة بيتا جنوب نابلس",
+      "text": "جانب من اقتحام قوات الاحتلال بلدة بيتونيا، غرب رام الله.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
