@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-22T13:42:05.679Z",
+  "last_updated": "2026-07-22T15:36:53.477Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.21"
+    "global_knn_danger": "0.57",
+    "global_norm_sentiment": "-0.19"
   },
   "timeline": [
-    {
-      "time": "2026-07-18T16:53:00.018Z",
-      "danger": 0.547,
-      "sentiment": -0.123,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.581,
-          "sentiment": -0.367
-        },
-        "OSINTdefender": {
-          "danger": 0.523,
-          "sentiment": -0.9
-        },
-        "irna_1313": {
-          "danger": 0.655,
-          "sentiment": 0.067
-        },
-        "sepah_pasdaran": {
-          "danger": 0.282,
-          "sentiment": -0.1
-        },
-        "almanarnews": {
-          "danger": 0.415,
-          "sentiment": 0.2
-        },
-        "C_Military1": {
-          "danger": 0.801,
-          "sentiment": 0.2
-        },
-        "almayadeen": {
-          "danger": 0.684,
-          "sentiment": 0.467
-        },
-        "QudsN": {
-          "danger": 0.576,
-          "sentiment": -0.633
-        }
-      }
-    },
     {
       "time": "2026-07-18T17:53:30.229Z",
       "danger": 0.514,
@@ -2257,13 +2210,60 @@
           "sentiment": -0.2
         }
       }
+    },
+    {
+      "time": "2026-07-22T15:36:53.477Z",
+      "danger": 0.571,
+      "sentiment": -0.187,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.547,
+          "sentiment": -0.333
+        },
+        "OSINTdefender": {
+          "danger": 0.506,
+          "sentiment": -0.533
+        },
+        "irna_1313": {
+          "danger": 0.537,
+          "sentiment": -0.033
+        },
+        "sepah_pasdaran": {
+          "danger": 0.553,
+          "sentiment": -0.3
+        },
+        "almanarnews": {
+          "danger": 0.508,
+          "sentiment": 0.2
+        },
+        "C_Military1": {
+          "danger": 0.717,
+          "sentiment": -0.367
+        },
+        "almayadeen": {
+          "danger": 0.61,
+          "sentiment": -0.167
+        },
+        "QudsN": {
+          "danger": 0.782,
+          "sentiment": -0.167
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2275,8 +2275,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.5663489498248703
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.5467718824566926
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2287,38 +2287,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.4438844828425173
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.5366473742224346
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.619669440210523
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.5529642567608526
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.5492204967685793
+      "raw_sentiment": 0.2,
+      "knn_danger_metric": 0.5079627023498103
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.7836376380306144
+      "knn_danger_metric": 0.7170401029425899
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.4666666666666667,
-      "knn_danger_metric": 0.5669509794097355
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.6095760221144073
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.4298639937698309
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.7820831638501489
     }
   },
   "semantic_logs": [
@@ -2327,13 +2327,6 @@
       "channel": "IDF",
       "text": "״אני קורא לאכולוסייה החרדית ולהנהגה החרדית לעודד כל פעם קצת יותר לגיוס. יש לנו מסלולים יוצאים מן הכלל, השתחררו מהם אנשים לא פחות חרדים ואזרחים טובים יותר למדינה. זה טוב לכולם״  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "צבא ירדן על השיגורים לעבר עקבה☝️: יירטנו ארבעה מתוך 6 טילים ששוגרו לעברנו מאיראן. 2 נפלו באזורים לא מיושבים.  תגובה אחת",
-      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2355,6 +2348,20 @@
       "channel": "IRGC",
       "text": "&rlm; ️مامانی ۵ ماه دوریتو کشیدم  &rlm;🔹 مادر شهید امیر علی کمالی از شهدای میناب، امروز بخش دیگری از پیکر فرزند کودکش را به آغوش خاک سپرد‌.  &lrm;☑️ @sepah_pasdaran",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️ترامپ جنایتکار: آمریکایی‌ها مخالف افزایش قیمت انرژی هستند نه جنگ &nbsp; رئیس دولت تروریستی آمریکا در مراسم نظامیان به هلاکت رسیده: آمریکایی‌ها مخالف جنگ نیستند، آن‌ها مخالف افزایش قیمت انرژی هستند. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️#الله_اکبر|محل اصابت موشک های ایرانی در عقبه مرز اردن و ایلات &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2381,51 +2388,44 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: مسيّرة إسرائيلية تلقي قنابل بالقرب من منطقة الشاكوش شمال غربي رفح جنوبي قطاع غزة",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: قائد سلاح الجو السابق ران كوخاف: الأضرار التي لحقت بالقواعد في الأردن ودول الخليج تركت البنى التحتية الأميركية مكشوفة وأضرّت بقدرة الرصد والاعتراض",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيلية: قائد سلاح الجو السابق ران كوخاف: الأضرار التي لحقت بالقواعد في الأردن ودول الخليج تركت البنى التحتية الأميركية مكشوفة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "خليل الحية: حمّلني إخواني في الحركة أمانة عظيمة في مرحلة دقيقة وحساسة من تاريخ قضيتنا الوطنية",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "خليل الحية: أولويتنا الثانية هي أن غزة هي جزء من الكيانية الفلسطينية والعمل على تحرير الأسرى وإنهاء معاناة شعبنا",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: إذا كانت التقارير دقيقة بالفعل، وكان ترامب قد وافق على اتفاق يسمح للسعودية بتخصيب اليورانيوم للأغراض المدنية، فمن الصعب التعبير عن حجم الضربة لـ&quot;إسرائيل&quot;.  خلال عام 2023، عندما كان الحديث عن التطبيع مع السعودية في أوجه، كان أحد البنود التي أصرت عليها &quot;إسرائيل&quot; هو ألا يُسمح للسعودية بتخصيب اليورانيوم إلا في حال إتمام تطبيع كامل وشامل مع &quot;إسرائيل&quot;.   وكانت إدارة بايدن على علم بهذا المطلب الإسرائيلي، ولذلك كان واضحًا أيضًا للسعوديين أن هذا الامتياز لن يحصلوا عليه إلا بعد تسوية العلاقات مع &quot;إسرائيل&quot;.  والآن، يبدو أن ترامب يتراجع عن تلك التفاهمات أيضًا. إلا إذا جرى خلال أسبوع أو شهر أو شهرين إعلان عن تطبيع بين السعودية و&quot;إسرائيل&quot;، وكان كل ذلك مجرد تمهيد، ففي هذه الحالة يمكن شطب جميع هذه الادعاءات. أما إذا لم يحدث ذلك، فإن الأمر يُعد ضربة سياسية وأمنية قاسية جدًا &quot;لدولة إسرائيل&quot; في ظل قيادة نتنياهو. أمر مقلق للغاية، وفرصة كبيرة ضاعت.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9989630263203698
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   المتحدث باسم القوات المسلحة الإيرانية العميد شكارجي:   تم تدمير مركز بيانات ضخم للعدو في الإمارات في الحرب المفروضة الثالثة.  هذا المركز أُنشئ في الإمارات على مدى 20 عامًا، بمساعدة واستثمارات الأوروبيين، والكيان الصهيوني، والولايات المتحدة، من أجل السيطرة على المنطقة.  كل استثمارات الولايات المتحدة على مدى خمسة عقود في المنطقة ذهبت  أدراج الرياح مع تدمير قواعدها.  #الإعلام_الحربي",
+      "text": "الحية: نحن على ثقة أن مسار جهاد شعبنا ومقاومته هو نصر محقق مهما طال الزمن",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9977128856617156
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "اليمن: خارجية صنعاء: هل تقبل أي دولة في العالم أو الدول المتعاطفة مع الموقف السعودي على نفسها ما تقوم به السعودية بحق اليمن؟",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "اليمن: خارجية صنعاء: تلك المواقف السلبية التي تؤيد العدوان والموقف السعودي تتجاهل حقوق الشعب اليمني الثابتة والمشروعة ومظلوميته",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: إصابة طفلة برصاص الاحتلال في منطقة التوام شمال غربي مدينة غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "من يصف &quot;إسرائيل&quot; بأنها نظام فصل عنصري، لا يحق له دخولها&#33;  تصريحات قاضٍ في المحكمة العليا للاحتلال تفتح مجددًا الجدل حول حدود حرية التعبير، وحول استخدام تهمة &quot;نزع الشرعية&quot; لتقييد عمل منظمات إنسانية وحقوقية..",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تواصل اقتحام بلدة قباطية، جنوب جنين.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
     }
   ]
 }
