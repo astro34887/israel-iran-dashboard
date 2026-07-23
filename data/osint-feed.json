@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-23T07:29:24.354Z",
+  "last_updated": "2026-07-23T10:16:46.994Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.06"
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.32"
   },
   "timeline": [
-    {
-      "time": "2026-07-19T05:47:37.831Z",
-      "danger": 0.534,
-      "sentiment": -0.132,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.48,
-          "sentiment": -0.375
-        },
-        "OSINTdefender": {
-          "danger": 0.486,
-          "sentiment": -0.667
-        },
-        "irna_1313": {
-          "danger": 0.522,
-          "sentiment": 0.65
-        },
-        "sepah_pasdaran": {
-          "danger": 0.454,
-          "sentiment": -0.567
-        },
-        "almanarnews": {
-          "danger": 0.37,
-          "sentiment": 0.2
-        },
-        "C_Military1": {
-          "danger": 0.834,
-          "sentiment": 0.233
-        },
-        "almayadeen": {
-          "danger": 0.739,
-          "sentiment": -0.067
-        },
-        "QudsN": {
-          "danger": 0.503,
-          "sentiment": -0.6
-        }
-      }
-    },
     {
       "time": "2026-07-19T08:09:34.516Z",
       "danger": 0.53,
@@ -2257,6 +2210,53 @@
           "sentiment": 0.567
         }
       }
+    },
+    {
+      "time": "2026-07-23T10:16:46.994Z",
+      "danger": 0.517,
+      "sentiment": -0.317,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.433,
+          "sentiment": -0.433
+        },
+        "OSINTdefender": {
+          "danger": 0.485,
+          "sentiment": -0.633
+        },
+        "irna_1313": {
+          "danger": 0.349,
+          "sentiment": -0.133
+        },
+        "sepah_pasdaran": {
+          "danger": 0.47,
+          "sentiment": -0.467
+        },
+        "almanarnews": {
+          "danger": 0.44,
+          "sentiment": -0.467
+        },
+        "C_Military1": {
+          "danger": 0.747,
+          "sentiment": 0
+        },
+        "almayadeen": {
+          "danger": 0.554,
+          "sentiment": -0.5
+        },
+        "QudsN": {
+          "danger": 0.742,
+          "sentiment": -0.4
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2274,51 +2274,51 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 10,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.5311501956272743
+      "num_messages": 15,
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.4330094295881389
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.5197234076578815
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.4847841689101256
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.31322148723382476
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.3494685848589372
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.39324924811527867
+      "knn_danger_metric": 0.4696857261513066
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.5561801595098873
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.4404107178686142
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.6180019368775816
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.7470700201811239
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.6282885052080929
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.5543176930783851
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.5666666666666667,
-      "knn_danger_metric": 0.8233251457744558
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.742113396938944
     }
   },
   "semantic_logs": [
@@ -2332,22 +2332,15 @@
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; هم اکنون / تردد زائران اربعین حسینی از مرز شلمچه &lrm;✅ ️@sepah_pasdaran",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 الحرس الثوري: احتراق ناقلة نفط جنوب هرمز.. والمضيق سيظل مغلقًا https://almanar.com.lb/article/1042162/?s=tg",
+      "text": "&rlm; ️فیلم  ادعایی منتشر شده از لحظه اصابت کلاهک موشک بالستیک ایرانی به پایگاه ملک فیصل اردن &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "📹 بالفيديو | ثلاث قواعد أمريكية في الكويت تُستهدف مجدداً بهجمات طائرات مسيرة تابعة للجيش الإيراني https://almanar.com.lb/article/1042322/?s=tg",
-      "absolute_sentiment": 0.5,
+      "text": "📹&nbsp;وقفة للأساتذة المتعاقدين أمام وزارة التربية للمطالبة بالتفرغ https://almanar.com.lb/article/1042802/?s=tg",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2367,64 +2360,71 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: أضرار جسيمة بعدة مروحيات ومسيرات في ثكنات العديري بالكويت",
+      "text": "فلسطين المحتلة: حماس: نحذر من تداعيات استغلال المغتصبين للمناسبات اليهودية المزعومة لتوسيع الاقتحامات وأداء الطقوس داخل باحات المسجد الأقصى",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "سلطنة عمان: وزارة الخارجية: نتابع باهتمام بالغ التطورات الأخيرة المرتبطة بالوضع في منطقة البحر الأحمر",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: فارس: الناقلة &quot;نيو فيوتشر&quot; المنسوبة لأميركا دخلت المضيق في محاولة لعبوره مع تشغيل نظام التعرف الآلي (AIS) لكنها تراجعت فجأة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: نفذنا هجمات خاطفة على القواعد الأميركية في الأردن ودمرنا راداراً أميركياً للدفاع الصاروخي من طراز &quot;ثاد&quot;",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: دمرنا مستودعاً ضخماً لمعدات المروحيات وهنغار لصيانة وإصلاح المروحيات واشتعلت النيران فيهما بقاعدة أميركية في الأردن",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: الجيش الإيراني: استهدفنا مكان تمركز مستودعات الذخيرة والمواد اللوجستية للجيش الأميركي القاتل للأطفال في قاعدة &quot;الدوحة&quot;",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: الجيش الإيراني: استهدفنا بالمسيرات الانتحارية خزانات الوقود في قاعدة &quot;علي السالم&quot; ومستودع الذخيرة في مخيم &quot;عريفجان&quot; بالكويت",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "أكثر من  1000 مستوطن اقتحموا المسجد الأقصى المبارك منذ صباح اليوم وسط أداء طقوس وغناء ورقصات تلمودية",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل| تحت حماية مشددة وضمن أفواج المقتحمين.. وزير الأمن القومي في حكومة الاحتلال إيتمار بن غفير يقتحم المسجد الأقصى المبارك.",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "أكثر من 1300 مستوطن بينهم بن غفير وأعضاء &quot;كنيست&quot; ينفذون اقتحامات واسعة منذ صباح اليوم للمسجد الأقصى المبارك",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "بينهم طفلين.. اعتقالات واسعة خلال اقتحامات الاحتلال لمدن وقرى الضفة   https://qudsn.co/post/216687",
+      "text": "إيران: قائد حرس الحدود: خلال اشتباك مسلح مع خلية إرهابية قُتل اثنان من عناصرها وتم ضبط كميات من الأسلحة والذخائر والمتفجرات",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: الهلال الأحمر الفلسطيني: إصابتان برصاص قوات الاحتلال خلال اقتحامها بلدة بيت فوريك شرقي نابلس شمالي الضفة الغربية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مليشيات المستوطنين وقوات الاحتلال تعتدي تهاجم الأهالي خلال محاولتهم إخماد النيران في سهل بيت فوريك",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جيش الاحتلال يطرد الأهالي الذين وصلوا لسهل بيت فوريك لإخماد النيران المشتعلة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل| ترجمة قدس: قوات كبيرة من الإسعاف وجيش الاحتلال تهرع لمكان عملية الطعن في مستوطنة &quot;ألون موريه&quot; شرق نابلس والتي أسفرت عن إصابة مستوطن بجراح خطيرة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل| ترجمة قدس: إطلاق النار تجاه شابين فلسطينيين في موقع عملية الطعن بمستوطنة &quot;ألون موريه&quot; شرق نابلس.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل| الهلال الأحمر: طواقمنا تتعامل مع إصابتين برصاص الاحتلال الحي في البطن خلال اقتحام في بيت فوريك شرق نابلس",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
   ]
