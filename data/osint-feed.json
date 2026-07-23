@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-23T17:16:38.466Z",
+  "last_updated": "2026-07-23T19:08:34.925Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.56",
-    "global_norm_sentiment": "-0.24"
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.17"
   },
   "timeline": [
-    {
-      "time": "2026-07-19T13:08:03.678Z",
-      "danger": 0.544,
-      "sentiment": -0.277,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.525,
-          "sentiment": -0.5
-        },
-        "OSINTdefender": {
-          "danger": 0.502,
-          "sentiment": -0.433
-        },
-        "irna_1313": {
-          "danger": 0.406,
-          "sentiment": -0.2
-        },
-        "sepah_pasdaran": {
-          "danger": 0.579,
-          "sentiment": -0.433
-        },
-        "almanarnews": {
-          "danger": 0.41,
-          "sentiment": -0.1
-        },
-        "C_Military1": {
-          "danger": 0.783,
-          "sentiment": 0.2
-        },
-        "almayadeen": {
-          "danger": 0.712,
-          "sentiment": -0.5
-        },
-        "QudsN": {
-          "danger": 0.569,
-          "sentiment": -0.667
-        }
-      }
-    },
     {
       "time": "2026-07-19T14:51:25.911Z",
       "danger": 0.516,
@@ -2257,6 +2210,53 @@
           "sentiment": -0.167
         }
       }
+    },
+    {
+      "time": "2026-07-23T19:08:34.925Z",
+      "danger": 0.53,
+      "sentiment": -0.17,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.567,
+          "sentiment": -0.5
+        },
+        "OSINTdefender": {
+          "danger": 0.461,
+          "sentiment": -0.667
+        },
+        "irna_1313": {
+          "danger": 0.33,
+          "sentiment": 0.4
+        },
+        "sepah_pasdaran": {
+          "danger": 0.385,
+          "sentiment": -0.4
+        },
+        "almanarnews": {
+          "danger": 0.411,
+          "sentiment": 0.033
+        },
+        "C_Military1": {
+          "danger": 0.818,
+          "sentiment": 0
+        },
+        "almayadeen": {
+          "danger": 0.682,
+          "sentiment": -0.4
+        },
+        "QudsN": {
+          "danger": 0.693,
+          "sentiment": 0
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2275,50 +2275,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.7333333333333333,
-      "knn_danger_metric": 0.6341802632446872
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.5673450190736014
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.7333333333333333,
-      "knn_danger_metric": 0.5233770042685718
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.4607705861481458
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.4970630009566469
+      "num_messages": 10,
+      "raw_sentiment": 0.4,
+      "knn_danger_metric": 0.33026790395305966
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.4461767756688493
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.3851122874835379
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.3043122045801189
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.41062478699412935
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.8738247362086977
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.8178501918897645
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.8038621799095912
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.6818957051298185
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.6014328200150867
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.6933229209059301
     }
   },
   "semantic_logs": [
@@ -2330,16 +2330,16 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "לואי א-שריף, פעיל רשת בולט מאיחוד האמירויות, אוהב ישראל ותומך בנורמליזציה עונה לראש עיריית ניו יורק, זהראן ממדאני על הסרטון ועל דבריו נגד ישראל וההתעלמות ממעשי הטבח של חמאס.  רהוט ומבריק כהרגלו.  תגובה אחת",
-      "absolute_sentiment": -1,
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️استقرار زیردریایی سپاه و سامانه‌ موشکی ذوالفقار بسیج در میدان آزادی &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️هم اکنون / انفجار در مرز عراق و کویت &lrm;✅ @sepah_pasdaran",
+      "text": "&rlm; ️قیمت نفت برنت به ۱۰۲ دلار رسید &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2360,71 +2360,71 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في جنوب لبنان: &quot;جيش&quot; الاحتلال نفذ تفجيراً في أطراف بلدة كونين",
+      "text": "&quot;رويترز&quot;: موقع وزارة الخزانة الأميركية يعلن فرض عقوبات جديدة على كوبا",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: وكالة &quot;فارس&quot;: سماع دوي انفجارات بمحيط جزيرة قشم وفي جزيرة لارك",
+      "text": "مصادر أمنية عربية رفيعة للميادين: فصائل مقاومة استهدفت اليوم مبنى قيادة القوات البرية في الكويت",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: مستشار ومساعد قائد الثورة محمد مخبر رداً على تهديدات ترامب: عندما يكثر طرف ما من الضجيج والصخب يكون ذلك دليلاً على هزيمته",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: مخبر: مزايدات ترامب الكلامية ناجمة عن الضربات الإيرانية التي تلقاها",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: اللواء محسن رضائي: استهداف الزائرين في معبر الشلامجة والتهديد بشن هجمات على البنى التحتية لا يعكسان سوى اليأس والعجز",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: رحيمي: الخبراء الإيرانيون طوروا قدرات الرصد والتوجيه عبر الأقمار الاصطناعية وقد يكون ذلك نتيجة تعاون مع دول صديقة",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: &quot;أكسيوس&quot; عن مصدرين مطلعين على جهود الوساطة: القيادة الإيرانية لم تقبل المقترح الأخير ونحن نحاول لكن الإيرانيين لا &quot;يتعاونون&quot;",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "لماذا يمكن اعتبار اقتحام الأقصى اليوم هو &quot;الأعتى&quot; تاريخياً؟ وماذا يمكن أن يترتب عليه في المستقبل؟  https://qudsn.co/post/216699",
+      "text": "إيران: مصدر أمني سياسي رفيع للميادين: الأنباء المتداولة حول هجوم إيراني على محطة كهرباء في الكويت ليست سوى تضليل متعمد",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: المصدر الرفيع للميادين: هذا التضليل بالرواية المزيفة يندرج ضمن عملية &quot;الرواية الكاذبة&quot; التي ينفذها الكيان الصهيوني",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: &quot;جيش&quot; الاحتلال دمر مسجد النور ومحيطه في بلوك 9 جنوب شرقي مخيم البريج وسط القطاع",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: طائرات الاحتلال تستهدف منزلًا في مشروع بيت لاهيا شمال القطاع",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "بحراسة قوات الاحتلال.. المستوطنون يقتحمون شارع بئر السبع، في مدينة الخليل.",
+      "text": "أطفال فلسطينيون صامدون بثبات أمام جنود الاحتلال ومستوطنيه، خلال اقتحام منطقة باب الزاوية في الخليل.",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "وداع مؤلم لشهيد ارتقى بقصف الاحتلال في مخيم جباليا، شمال قطاع غزة.",
+      "text": "وداع حزين للشهيد &quot;أشرف فراحتي&quot; الذي ارتقى متأثراً بإصابته برصاص الاحتلال قبل 3 سنوات في مدينة جنين.",
       "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جرافات الاحتلال تواصل تدمير أراضي الفلسطينيين شرق قرية تياسير، شرق طوباس.  تفاصيل ما يجري منذ فترة في المنطقة:",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "القناة 12 العبرية: مسؤولون أمريكيون أبلغوا نظراءهم في &quot;إسرائيل&quot; بضرورة التأهب.",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     }
   ]
