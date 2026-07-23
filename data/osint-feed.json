@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-23T22:07:47.022Z",
+  "last_updated": "2026-07-23T23:56:39.518Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.58",
-    "global_norm_sentiment": "-0.25"
+    "global_knn_danger": "0.60",
+    "global_norm_sentiment": "-0.33"
   },
   "timeline": [
-    {
-      "time": "2026-07-19T16:53:50.963Z",
-      "danger": 0.548,
-      "sentiment": -0.18,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.515,
-          "sentiment": -0.467
-        },
-        "OSINTdefender": {
-          "danger": 0.518,
-          "sentiment": -0.433
-        },
-        "irna_1313": {
-          "danger": 0.51,
-          "sentiment": -0.333
-        },
-        "sepah_pasdaran": {
-          "danger": 0.687,
-          "sentiment": -0.6
-        },
-        "almanarnews": {
-          "danger": 0.466,
-          "sentiment": 0.167
-        },
-        "C_Military1": {
-          "danger": 0.75,
-          "sentiment": 0
-        },
-        "almayadeen": {
-          "danger": 0.489,
-          "sentiment": -0.1
-        },
-        "QudsN": {
-          "danger": 0.6,
-          "sentiment": 0.133
-        }
-      }
-    },
     {
       "time": "2026-07-19T17:55:01.126Z",
       "danger": 0.54,
@@ -2257,13 +2210,60 @@
           "sentiment": -0.433
         }
       }
+    },
+    {
+      "time": "2026-07-23T23:56:39.518Z",
+      "danger": 0.596,
+      "sentiment": -0.327,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.524,
+          "sentiment": -0.433
+        },
+        "OSINTdefender": {
+          "danger": 0.478,
+          "sentiment": -0.567
+        },
+        "irna_1313": {
+          "danger": 0.591,
+          "sentiment": -0.633
+        },
+        "sepah_pasdaran": {
+          "danger": 0.403,
+          "sentiment": -0.6
+        },
+        "almanarnews": {
+          "danger": 0.51,
+          "sentiment": 0.067
+        },
+        "C_Military1": {
+          "danger": 0.818,
+          "sentiment": -0.033
+        },
+        "almayadeen": {
+          "danger": 0.784,
+          "sentiment": -0.533
+        },
+        "QudsN": {
+          "danger": 0.903,
+          "sentiment": -0.367
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2275,32 +2275,32 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.43333333333333335,
       "knn_danger_metric": 0.5240838125824876
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.4607705861481458
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.4780594013464256
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.6139182017943943
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.5911738240943832
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.47634649328063755
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.40332418095451644
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.4768644415619708
+      "knn_danger_metric": 0.510197774895304
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2311,14 +2311,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.711675632436142
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.78437003827381
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.7905473881326587
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.9033424352267304
     }
   },
   "semantic_logs": [
@@ -2339,22 +2339,8 @@
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️#الله_اکبر| انفجارهای شدید در کویت  منابع عربی از شنیده شدن صدای چندین انفجار شدید در کویت خبر می‌دهند. &lrm;✅ @sepah_pasdaran",
+      "text": "&rlm; ️منابع عربی:گزارش‌های اولیه از سقوط یک هواپیما در آسمان جزیرۀ قشم حکایت دارد. &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️ذوالفقار به میدان آزادی رفت&#33;  موشک بالستیک ذوالفقار سپاه امشب در تجمع مردمی میدان آزادی تهران به‌نمایش درآمد. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️ده‌ها هواپیمای باری نیروی هوایی آمریکا (از نوع C-۱۷ و سایر هواپیماهای سنگین‌بر) امروز از پایگاه‌های اروپایی به سوی خاورمیانه در حال پرواز هستند. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2375,6 +2361,13 @@
       "channelId": "almanarnews",
       "channel": "Hezbollah",
       "text": "بالصورة | توثيق لحطام صاروخ توماهوك أمريكي أسقطته الدفاعات الجوية الإيرانية في كهنوج بكبرمان جنوب شرقي البلاد",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 عدوان اميركي متجدد جنوب ايران و القوات الايرانية تردّ باستهداف قاعدة علي السالم الجوية في الكويت https://almanar.com.lb/article/1044612/?s=tg",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
@@ -2402,28 +2395,35 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: إطلاق نار من آليات الاحتلال جنوبي مدينة خان يونس جنوبي قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: الاحتلال الإسرائيلي ينفذ تفجيراً في بلدة مركبا",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: حماس: على الإدارة الأميركية الراعية لاتفاق شرم الشيخ والدول الضامنة والوسطاء التحرك لمجابهة سلوك الاحتلال الإجرامي",
+      "text": "إيران: حرس الثورة في مدينة كهنوج بمحافظة كرمان جنوب شرقي البلاد: تم تدمير الصاروخ الأميركي قبل دخوله المجال السكني والمناطق الحساسة أمنياً",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: وكالة &quot;فارس&quot;: تدمير صاروخ أميركي في أجواء كهنوج بمحافظة كرمان جنوب شرقي البلاد",
+      "text": "إيران: مراسل الميادين في طهران: السلطات المحلية في جزيرة قشم أعلنت وقوع عدوانين أميركيين",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: شهيدة متأثرة بجروح أصيبت بها في قصف إسرائيلي على شقة سكنية بشارع الجلاء في مدينة غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: التلفزيون الإيراني: صوت انفجار في مدينة الأهواز جنوب غربي البلاد",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: وكالة &quot;فارس&quot;: سماع عدة انفجارات في مدينة الأهواز بمحافظة خوزستان",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
