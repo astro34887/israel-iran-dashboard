@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-23T12:21:00.503Z",
+  "last_updated": "2026-07-23T15:05:22.960Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.13"
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.16"
   },
   "timeline": [
-    {
-      "time": "2026-07-19T10:23:41.355Z",
-      "danger": 0.508,
-      "sentiment": -0.207,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.523,
-          "sentiment": -0.2
-        },
-        "OSINTdefender": {
-          "danger": 0.502,
-          "sentiment": -0.433
-        },
-        "irna_1313": {
-          "danger": 0.381,
-          "sentiment": -0.167
-        },
-        "sepah_pasdaran": {
-          "danger": 0.426,
-          "sentiment": -0.4
-        },
-        "almanarnews": {
-          "danger": 0.316,
-          "sentiment": -0.4
-        },
-        "C_Military1": {
-          "danger": 0.794,
-          "sentiment": 0.1
-        },
-        "almayadeen": {
-          "danger": 0.664,
-          "sentiment": -0.1
-        },
-        "QudsN": {
-          "danger": 0.524,
-          "sentiment": -0.3
-        }
-      }
-    },
     {
       "time": "2026-07-19T11:53:43.902Z",
       "danger": 0.517,
@@ -2257,6 +2210,53 @@
           "sentiment": -0.2
         }
       }
+    },
+    {
+      "time": "2026-07-23T15:05:22.960Z",
+      "danger": 0.533,
+      "sentiment": -0.163,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.521,
+          "sentiment": -0.5
+        },
+        "OSINTdefender": {
+          "danger": 0.523,
+          "sentiment": -0.733
+        },
+        "irna_1313": {
+          "danger": 0.346,
+          "sentiment": -0.033
+        },
+        "sepah_pasdaran": {
+          "danger": 0.622,
+          "sentiment": -0.233
+        },
+        "almanarnews": {
+          "danger": 0.513,
+          "sentiment": 0.1
+        },
+        "C_Military1": {
+          "danger": 0.877,
+          "sentiment": 0.133
+        },
+        "almayadeen": {
+          "danger": 0.425,
+          "sentiment": -0.133
+        },
+        "QudsN": {
+          "danger": 0.557,
+          "sentiment": -0.1
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2275,8 +2275,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.40615702958286665
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.5209672006775415
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2287,38 +2287,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.4044709734658491
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.3461342477401027
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.5960131168115222
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.6220215208933343
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.23333333333333334,
-      "knn_danger_metric": 0.3737190975400833
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.5129976006168854
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.2,
-      "knn_danger_metric": 0.9447400084443909
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.8765681057608693
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.6315048745559385
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.42491509832033325
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.6201770411811278
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.5573883291031287
     }
   },
   "semantic_logs": [
@@ -2330,17 +2330,31 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "נערכים לאפשרות של הסלמה: המקלטים הציבוריים נפתחו בימים האחרונים בשורת ערים ברחבי הארץ, אין שינוי בהנחיות פיקוד העורף",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️وقوع یک عملیات ضد صهیونیستی در جنین  &rlm;🔹 رسانه‌های صهیونیستی از وقوع یک عملیات ضد صهیونیستی در منطقه جنین واقع در کرانه باختری خبر داد. &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️آخرین قیمت نفت برنت در بازارهای جهانی، ۹۸.۲۹ دلار &lrm;✅ @sepah_pasdaran",
+      "text": "&rlm; ️قیمت نفت به ۱۰۰ دلار رسید. &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "بالصورة | صور أقمار صناعية تُظهر دمارًا في مراكز مبيت للقوات الأميركية في قاعدة علي السالم بالكويت عقب الهجوم الإيراني اليوم https://almanar.com.lb/article/1043572/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "بالفيديو | الحرس الثوري يستهدف وحدة الحرب الإلكترونية الأمريكية في قاعدة العديد في قطر https://almanar.com.lb/article/1043607/?s=tg",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2360,65 +2374,23 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: إبراهيم عزيزي لـ &quot;إيرنا&quot;: خطوة الأميركيين أثبتت أنهم لا يفهمون شيئاً سوى لغة القوة والحرب والمواجهة والصمود",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: عزيزي: مصدر القوة الإيرانية إرادة الشعب والقوات المسلحة والموقع الجيوسياسي والالتزام بولاية الفقيه",
+      "text": "فلسطين المحتلة: هيئة علماء فلسطين: الدفاع عن المسجد الأقصى المبارك واجب شرعي على الأمة كلها كلّ بحسب استطاعته ولا يختص بأهل القدس وفلسطين",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: مصابون من جراء غارة جوية إسرائيلية محيط مستشفى اليمن السعيد بمخيم جباليا شمال القطاع",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: عراقتشي: المشكلة تكمن في طبيعة النهج الأميركي وهو نهج غير منطقي وتوسعي وسلطوي وقد واجه مواقف مقتدرة من جانبنا",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "الباحث والمختص في شؤون القدس، علي إبراهيم: تصعيد غير مسبوق لفرض تقسيم المسجد الأقصى المبارك",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "شروط تعجيزية .. الاحتلال يمنع الفلسطينيين من الدخول للمسجد الأقصى، ويسمح فقط لمن هم فوق الـ80 عاماً",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "استشهاد الشاب قصي أبو البيض جراء استهداف طيران الاحتلال مجموعة من الأهالي محيط مستشفى اليمن السعيد في مخيم جباليا شمال قطاع غزة.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل| الارتباط الفلسطيني يؤكد استشهاد الشابين محمود حسين نصرالله حنني ومحمد سامر مليطات في بيت فوريك شرق نابلس واحتجاز الاحتلال لجثمانيهما",
+      "text": "عاجل| قوات الاحتلال تقتحم بلدة عقابا ومدينة طوباس، بالضفة الغربية.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   رئيس بلدية رامات غان: &quot;قررنا فتح الملاجئ في المدينة. لقد ازداد خطر إطلاق الصواريخ من إيران خلال عطلة نهاية الأسبوع&quot;.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9986358496212904
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "الشهيد محمود حسين حنني.. صورة سابقة له في المسجد الأقصى، نفذ اليوم عملية طعن لمستوطن في &quot;بيت فوريك&quot; شرق نابلس، بالتزامن مع أضخم اقتحام نفذه المستوطنون في الأقصى.",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
     },
     {
       "channelId": "C_Military1",
@@ -2426,6 +2398,34 @@
       "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: تواصل المزيد من المدن في أنحاء البلاد اتخاذ قرار بفتح الملاجئ، رغم عدم حدوث أي تغيير في تعليمات قيادة الجبهة الداخلية.  #الإعلام_الحربي",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 0.9979853054910217
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: إصابة إسرائيلي بجروح خطيرة في المكان.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9975689707464531
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: فتح الملاجئ في المستوطنات في الجليل الأعلى، في الوقت الراهن، لا يوجد حدث غير عادي.  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.9961486516080663
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: فتح الملاجئ في إيلات.  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.9961486516080663
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: فتح الملاجئ في بئر السبع.  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.9961486516080663
     }
   ]
 }
