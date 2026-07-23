@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-22T22:57:38.782Z",
+  "last_updated": "2026-07-23T00:01:24.379Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.30"
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.27"
   },
   "timeline": [
-    {
-      "time": "2026-07-18T22:43:50.998Z",
-      "danger": 0.596,
-      "sentiment": -0.243,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.508,
-          "sentiment": -0.367
-        },
-        "OSINTdefender": {
-          "danger": 0.474,
-          "sentiment": -0.9
-        },
-        "irna_1313": {
-          "danger": 0.834,
-          "sentiment": -0.033
-        },
-        "sepah_pasdaran": {
-          "danger": 0.495,
-          "sentiment": -0.533
-        },
-        "almanarnews": {
-          "danger": 0.35,
-          "sentiment": 0.4
-        },
-        "C_Military1": {
-          "danger": 0.834,
-          "sentiment": 0.233
-        },
-        "almayadeen": {
-          "danger": 0.767,
-          "sentiment": -0.567
-        },
-        "QudsN": {
-          "danger": 0.751,
-          "sentiment": -0.533
-        }
-      }
-    },
     {
       "time": "2026-07-18T23:50:11.156Z",
       "danger": 0.59,
@@ -2257,6 +2210,53 @@
           "sentiment": -0.267
         }
       }
+    },
+    {
+      "time": "2026-07-23T00:01:24.379Z",
+      "danger": 0.533,
+      "sentiment": -0.269,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.372,
+          "sentiment": -0.1
+        },
+        "OSINTdefender": {
+          "danger": 0.532,
+          "sentiment": -0.533
+        },
+        "irna_1313": {
+          "danger": 0.466,
+          "sentiment": -0.667
+        },
+        "sepah_pasdaran": {
+          "danger": 0.371,
+          "sentiment": -0.533
+        },
+        "almanarnews": {
+          "danger": 0.356,
+          "sentiment": 0.1
+        },
+        "C_Military1": {
+          "danger": 0.698,
+          "sentiment": -0.167
+        },
+        "almayadeen": {
+          "danger": 0.678,
+          "sentiment": -0.533
+        },
+        "QudsN": {
+          "danger": 0.905,
+          "sentiment": -0.091
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2287,14 +2287,14 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.8,
-      "knn_danger_metric": 0.5449899814622154
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.466332494937017
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.47070686047637866
+      "knn_danger_metric": 0.3707608739618104
     },
     "almanarnews": {
       "name": "Hezbollah",
@@ -2312,13 +2312,13 @@
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.6428368847371335
+      "knn_danger_metric": 0.6776478458548442
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.8096025656547798
+      "num_messages": 11,
+      "raw_sentiment": -0.09090909090909091,
+      "knn_danger_metric": 0.9054185929781156
     }
   },
   "semantic_logs": [
@@ -2334,13 +2334,6 @@
       "channel": "Israel_OSINT",
       "text": "מלחמת רוסיה - אוקראינה    כטב&quot;מים אוקראינים פגעו במחסנים של Wildberries, הקמעונאית המקוונת הגדולה בקרסנודאר ובנווינומיסק ברוסיה.  תגובה אחת",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️محل هدف قرارگرفتن نفتکش سعودی در نزدیکی ساحل غربی یمن &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2367,13 +2360,6 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: العميد سريع: في نفس السياق أجبرت القوات المسلحة اليمنية ما يقارب 10 سفن على التراجع والعودة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "إيران: وكالة تسنيم: سماع عدة انفجارات في ميناء ماهشَهر بمحافظة خوزستان",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
@@ -2393,31 +2379,17 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية دير جرير، شرق رام الله.",
+      "text": "إيران: وكالة فارس: تقارير تفيد بوقوع انفجارات في ميناء العقبة في الأردن",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم منزلاَ خلال اقتحام قرية قفين شمال طولكرم.",
+      "text": "إيران: حرس الثورة: بعد وقوع انفجار واندلاع حريق شديد في الناقلة غيرت سفينتان مساريهما",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوة من جيش الاحتلال تقتحم بلدة اماتين شرق قلقيلية",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال بلدة صيدا شمال طولكرم.",
-      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2425,6 +2397,34 @@
       "channel": "Arab_Axis",
       "text": "مصادر محلية: قوات الاحتلال تقتحم مدينة قلقيلية من الحاجز الشمالي",
       "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام قوات الاحتلال حي النقار بمدينة قلقيلية",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تداهم منزلاً خلال اقتحام حي النقار بمدينة قلقيلية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تشن حملة مداهمات واعتقالات خلال اقتحام بلدة صيدا شمال طولكرم",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تعتقل الشاب صهيب باسل صوان عقب مداهمة منزله في بلدة إماتين شرق قلقيلية",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
   ]
