@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-24T16:32:54.263Z",
+  "last_updated": "2026-07-24T18:15:44.030Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.58",
-    "global_norm_sentiment": "-0.19"
+    "global_knn_danger": "0.54",
+    "global_norm_sentiment": "-0.15"
   },
   "timeline": [
-    {
-      "time": "2026-07-20T06:13:12.814Z",
-      "danger": 0.561,
-      "sentiment": -0.245,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.556,
-          "sentiment": -0.583
-        },
-        "OSINTdefender": {
-          "danger": 0.557,
-          "sentiment": -0.533
-        },
-        "irna_1313": {
-          "danger": 0.529,
-          "sentiment": -0.4
-        },
-        "sepah_pasdaran": {
-          "danger": 0.589,
-          "sentiment": -0.867
-        },
-        "almanarnews": {
-          "danger": 0.311,
-          "sentiment": 0.433
-        },
-        "C_Military1": {
-          "danger": 0.781,
-          "sentiment": -0.1
-        },
-        "almayadeen": {
-          "danger": 0.807,
-          "sentiment": -0.433
-        },
-        "QudsN": {
-          "danger": 0.534,
-          "sentiment": 0.2
-        }
-      }
-    },
     {
       "time": "2026-07-20T09:56:04.707Z",
       "danger": 0.533,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.45
         }
       }
+    },
+    {
+      "time": "2026-07-24T18:15:44.030Z",
+      "danger": 0.542,
+      "sentiment": -0.15,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.605,
+          "sentiment": -0.2
+        },
+        "OSINTdefender": {
+          "danger": 0.471,
+          "sentiment": -0.167
+        },
+        "irna_1313": {
+          "danger": 0.362,
+          "sentiment": -0.133
+        },
+        "sepah_pasdaran": {
+          "danger": 0.434,
+          "sentiment": -0.533
+        },
+        "almanarnews": {
+          "danger": 0.503,
+          "sentiment": 0
+        },
+        "C_Military1": {
+          "danger": 0.833,
+          "sentiment": -0.033
+        },
+        "almayadeen": {
+          "danger": 0.706,
+          "sentiment": -0.433
+        },
+        "QudsN": {
+          "danger": 0.559,
+          "sentiment": 0.133
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2280,31 +2280,31 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.6577628208532721
+      "knn_danger_metric": 0.6048867813416232
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.4937229794331105
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.47118146172009395
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.4822184304894564
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.36205527128307236
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.46924344686787095
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.4338493883755978
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.5133471167821347
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.5026006263358179
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.6543486984253747
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.7058629329120394
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 10,
-      "raw_sentiment": -0.45,
-      "knn_danger_metric": 0.721970548102625
+      "num_messages": 15,
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.5587893098121381
     }
   },
   "semantic_logs": [
@@ -2355,45 +2355,17 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "מפקד ח&#39;אתם אל-אנביאא&#39; האיראנית במשוואה חדשה:   &quot;על כל אזרח איראני שימות כשהיד, חייל אמריקאי אחד יישלח לגיהינום.  הכנו עבורכם כרטיסים חינם  - ישירים לגיהינום.&quot;  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️&rlm; فوری| هم اکنون حمله پهپادی به کویت  &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️منابع عربی از فعال شدن آژیرهای خطر در کویت خبر می‌دهند. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "بالصور | اعتراض وتدمير صاروخ كروز أمريكي في سماء كهنوج في كرمان جنوب شرق ايران https://almanar.com.lb/article/1046257/?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 حزب الله نعى المناضل الأممي كوزو أوكاموتو: نموذج الثوري المؤمن بالقيم الإنسانية والحرية والعدالة https://almanar.com.lb/article/1046212/?s=tg",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
       "text": "📹 بالفيديو | مشاهد من الموقع الذي أصيب فيه ضابط بجيش الاحتلال الاسرائيلي وحارس مستوطنة، وأصيب فلسطينيون بجراح خطيرة قرب قرية تل جنوب غرب نابلس https://almanar.com.lb/article/1046557/?s=tg",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "📹 بحث تربوي بين التعبئة التربوية ووزيرة التربية حول الجامعة اللبنانية والثانويات الرسمية https://almanar.com.lb/article/1046782/?s=tg",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2406,30 +2378,58 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: البخيتي للميادين: لو خضعنا للرغبة الأميركية في التطبيع والتخلي عن القضية الفلسطينية فلن يشن على صنعاء أي عدوان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: وزارة الخارجية: عراقتشي بحث هاتفياً مع نظيره المصري التوتر الحالي وسبل إرساء الأمن والاستقرار في غرب آسيا",
+      "text": "إيران: وزارة الخارجية: الوزير عباس عراقتشي بحث هاتفياً مع نظيره العماني بدر البوسعيدي التطورات الإقليمية وحالة أمن الملاحة",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: قصف مدفعي إسرائيلي وإطلاق نار مكثف من الدبابات شمال غربي مدينة رفح جنوبي القطاع",
+      "text": "إيران: وزارة الخارجية: عراقتشي والبوسعيدي استعرضا السبل والتعاون الإقليمي للحد من تصاعد التوترات وإرساء السلام والاستقرار والأمن",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: &quot;فارس&quot;: إخلاء قاعدة &quot;الظفرة الجوية&quot; في الإمارات وقاعدة &quot;العديد&quot; في قطر",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: قصف مدفعي إسرائيلي على بيت لاهيا شمالي القطاع",
-      "absolute_sentiment": 0,
+      "text": "إيران: &quot;فارس&quot;: صور الأقمار الصناعية اليوم لشركة &quot;سنتينل - 2&quot; تظهر إخلاء قاعدة الجيش الأميركي في الإمارات",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: &quot;فارس&quot;: كانت هناك 5 طائرات للجيش الأميركي متمركزة في قاعدة &quot;الظفرة&quot; بالإمارات قبل 3 أيام وصور الأقمار الصناعية أظهرت إخلاءها",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   المتحدث باسم مقر خاتم الأنبياء (ص):  القاعدة التي سبق أن أثبتنا للعدو عمليًا أنها قابلة للتنفيذ، نعتبرها ابتداءً من هذه اللحظة معادلةً حتمية ومُبلَّغة في ساحة المعركة: مقابل استشهاد كل واحد من المواطنين الأعزاء في إيران الإسلامية، سيُرسَل عنصر أمريكي إلى الجحيم. لقد أعددنا لكم تذاكر مجانية ومباشرة إلى جهنم.  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.9985947302171756
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   وزير الخارجية الإيراني عباس عراقجي:  لقد أظهرت إيران أنها لن تخضع لبلطجة الولايات المتحدة، ولن نرد بأي شكل من الأشكال على لغة القوة والضغط والتهديد.  نحن لا نخاف من التهديد، ولا نخضع للضغط، ولا نتحمل لغة التهديد. لدينا سياسة مبدئية ونواصل الالتزام بها. إن حماية الشعب الإيراني، والحفاظ على مصالح إيران في مضيق هرمز، من مبادئنا، ونحن نتابع ذلك.  طالما لم تتحقق الأهداف والمطالب المحقة للشعب الإيراني، فمن الطبيعي أن نواصل مسيرتنا.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.998583952312496
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 13 العبرية: رئيس الوزراء يعقد منذ ساعات اجتماعًا لتقييم الوضع الأمني مع كبار المسؤولين الأمنيين. وفي الوقت نفسه، أعلن مكتبه عن لقائه المرتقب مع الرئيس ترامب في البيت الأبيض الأسبوع المقبل. هذا اللقاء، بالطبع، يخضع لأي تطورات أمنية قد تحدث خلال عطلة نهاية الأسبوع.  #الإعلام_الحربي",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9983355423842681
     }
   ]
 }
