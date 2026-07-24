@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-24T11:01:16.899Z",
+  "last_updated": "2026-07-24T12:23:59.115Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.35"
+    "global_knn_danger": "0.56",
+    "global_norm_sentiment": "-0.25"
   },
   "timeline": [
-    {
-      "time": "2026-07-19T22:47:06.803Z",
-      "danger": 0.534,
-      "sentiment": -0.063,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.332,
-          "sentiment": -0.567
-        },
-        "OSINTdefender": {
-          "danger": 0.518,
-          "sentiment": -0.433
-        },
-        "irna_1313": {
-          "danger": 0.523,
-          "sentiment": 0.533
-        },
-        "sepah_pasdaran": {
-          "danger": 0.545,
-          "sentiment": -0.2
-        },
-        "almanarnews": {
-          "danger": 0.369,
-          "sentiment": 0.267
-        },
-        "C_Military1": {
-          "danger": 0.754,
-          "sentiment": -0.1
-        },
-        "almayadeen": {
-          "danger": 0.685,
-          "sentiment": -0.033
-        },
-        "QudsN": {
-          "danger": 0.669,
-          "sentiment": 0.033
-        }
-      }
-    },
     {
       "time": "2026-07-19T23:53:29.287Z",
       "danger": 0.555,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.583
         }
       }
+    },
+    {
+      "time": "2026-07-24T12:23:59.115Z",
+      "danger": 0.555,
+      "sentiment": -0.247,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.452,
+          "sentiment": -0.1
+        },
+        "OSINTdefender": {
+          "danger": 0.494,
+          "sentiment": -0.467
+        },
+        "irna_1313": {
+          "danger": 0.479,
+          "sentiment": -0.033
+        },
+        "sepah_pasdaran": {
+          "danger": 0.413,
+          "sentiment": -0.367
+        },
+        "almanarnews": {
+          "danger": 0.538,
+          "sentiment": -0.4
+        },
+        "C_Military1": {
+          "danger": 0.839,
+          "sentiment": -0.367
+        },
+        "almayadeen": {
+          "danger": 0.713,
+          "sentiment": -0.367
+        },
+        "QudsN": {
+          "danger": 0.673,
+          "sentiment": -0.233
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.458395447974497
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.4523420810903576
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.49612592930795024
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.47946643323127613
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.5085629402161198
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.4131625969761645
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.5555377468243357
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.5379751290629419
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.7869777765666047
+      "knn_danger_metric": 0.8391136947959428
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.7148797378856775
+      "knn_danger_metric": 0.7127508352008073
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 12,
-      "raw_sentiment": -0.5833333333333334,
-      "knn_danger_metric": 0.45397310810017144
+      "num_messages": 15,
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.6726361712711049
     }
   },
   "semantic_logs": [
@@ -2336,21 +2336,7 @@
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️#فوری |  منابع عربی از وقوع انفجارهایی در انبارهای کنسولگری آمریکا در اربیل عراق خبر می‌دهند. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
       "text": "&rlm; ️#فوری | الجزیره: صدای انفجارهایی در اطراف فرودگاه اربیل و مناطق غربی شهر در اقلیم کردستان عراق شنیده شد. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "اعتراض وتدمير صاروخ كروز أمريكي في سماء كهنوج  في #كرمان جنوب شرق ايران",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2359,6 +2345,13 @@
       "channel": "Hezbollah",
       "text": "🔵 الحرس الثوري الايراني يحذر… ابتعدوا فوراً لمسافة 500 متر عن أماكن الإقامة التمويهية والسرية للعسكريين الأمريكيين https://almanar.com.lb/article/1045657/?s=tg",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 الحرس الثوري الايراني يعلن استهداف مستودعات لتخزين الذخائر والمعدات في القاعدة الأمريكية في العديري بالكويت https://almanar.com.lb/article/1045752/?s=tg",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2427,7 +2420,14 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "إعدام من مسافة صفر لأربعة شبان في قرية تل جنوب غرب نابلس، مواجهة دامية حدثت صباح اليوم.. التفاصيل:",
+      "text": "الهلال الأحمر: 8 إصابات بينها 6 بالرصاص الحي حصيلة الإصابات في قرية فرعتا شرق قلقيلية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مراسلنا: استشهاد عادل عيسى أبو بكر وإصابة أربعة آخرين برصاص الاحتلال قرب منطقة بئر ١٩ بمواصي خانيونس",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
