@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-25T10:35:40.904Z",
+  "last_updated": "2026-07-25T12:00:22.058Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.16"
+    "global_knn_danger": "0.56",
+    "global_norm_sentiment": "-0.20"
   },
   "timeline": [
-    {
-      "time": "2026-07-20T23:54:42.807Z",
-      "danger": 0.576,
-      "sentiment": -0.32,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.605,
-          "sentiment": -0.467
-        },
-        "OSINTdefender": {
-          "danger": 0.579,
-          "sentiment": -0.9
-        },
-        "irna_1313": {
-          "danger": 0.444,
-          "sentiment": -0.333
-        },
-        "sepah_pasdaran": {
-          "danger": 0.345,
-          "sentiment": -0.2
-        },
-        "almanarnews": {
-          "danger": 0.403,
-          "sentiment": -0.067
-        },
-        "C_Military1": {
-          "danger": 0.809,
-          "sentiment": 0.033
-        },
-        "almayadeen": {
-          "danger": 0.806,
-          "sentiment": -0.5
-        },
-        "QudsN": {
-          "danger": 0.823,
-          "sentiment": -0.633
-        }
-      }
-    },
     {
       "time": "2026-07-21T02:14:15.145Z",
       "danger": 0.597,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.571
         }
       }
+    },
+    {
+      "time": "2026-07-25T12:00:22.058Z",
+      "danger": 0.559,
+      "sentiment": -0.199,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.722,
+          "sentiment": -0.5
+        },
+        "OSINTdefender": {
+          "danger": 0.491,
+          "sentiment": -0.167
+        },
+        "irna_1313": {
+          "danger": 0.45,
+          "sentiment": 0.042
+        },
+        "sepah_pasdaran": {
+          "danger": 0.414,
+          "sentiment": -0.367
+        },
+        "almanarnews": {
+          "danger": 0.467,
+          "sentiment": 0.2
+        },
+        "C_Military1": {
+          "danger": 0.689,
+          "sentiment": -0.1
+        },
+        "almayadeen": {
+          "danger": 0.553,
+          "sentiment": -0.767
+        },
+        "QudsN": {
+          "danger": 0.855,
+          "sentiment": -0.2
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.6551922002076747
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.7224755414715113
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,21 +2290,21 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": 0.26666666666666666,
-      "knn_danger_metric": 0.567329832409974
+      "num_messages": 12,
+      "raw_sentiment": 0.041666666666666664,
+      "knn_danger_metric": 0.44972167797658563
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.43070661585484654
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.413707957363667
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.48161881510342364
+      "raw_sentiment": 0.2,
+      "knn_danger_metric": 0.4666666666666667
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.5243831190360076
+      "raw_sentiment": -0.7666666666666667,
+      "knn_danger_metric": 0.5534295427099345
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 14,
-      "raw_sentiment": -0.5714285714285714,
-      "knn_danger_metric": 0.5653778476335783
+      "num_messages": 15,
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.8547851163819948
     }
   },
   "semantic_logs": [
@@ -2331,13 +2331,6 @@
       "channel": "IDF",
       "text": "״אני קורא לאכולוסייה החרדית ולהנהגה החרדית לעודד כל פעם קצת יותר לגיוס. יש לנו מסלולים יוצאים מן הכלל, השתחררו מהם אנשים לא פחות חרדים ואזרחים טובים יותר למדינה. זה טוב לכולם״  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "מועדון האסיר הפלסטיני מדווח שכוחות צה&quot;ל עצרו הלילה למעלה מ- 80 פלסטינים ברחבי איו&quot;ש, מעל ל - 40 מהם מהכפר תל - הכפר ממנו הגיעו המחבלים שביצעו את פיגוע הירי אתמול בשומרון.  תגובה אחת",
-      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2355,16 +2348,23 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️سرگردانی پروازهای ورودی به فرودگاه جده عربستان پس از حمله یمن &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 1,
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "מזכ&quot;ל האו&quot;ם אנטוניו גוטרש הגיע לביקור בדמשק - שם נפגש עם אבו מחמד אלג&#39;ולאני.  לגוטרש יש משיכה בלתי מוסברת לפעילי דאע&quot;ש ודומיהם.  תגובה אחת",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️تصاویری تکان‌دهنده از درگیری‌ها در کرانه باختری/لحظه‌ای که صهیونیست به‌صورت مستقیم به سر یک فلسطینی شلیک می‌کند &lrm;✅ @sepah_pasdaran",
+      "text": "&rlm; ️حملۀ هوایی عربستان سعودی به یمن   &rlm;🔹 شبکۀ العربیه از حملۀ هوایی عربستان به استان‌های مأرب و الجوف یمن خبر داد. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️مشق ناتمام به پایان رسید  مراسم اختتامیه رویداد &quot;مشق ناتمام&quot; که یادبود بیش از ۴۰۰ کودک به شهادت رسید در جنگ بود، با حضور خانواده جاویدالاثر شهید ماکان نصیری، شب گذشته به پایان رسید &lrm;✅ ️ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2385,50 +2385,50 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسلة الميادين: قوات الاحتلال الإسرائيلي تواصل اقتحام بلدة تل قرب نابلس بالضفة وتعتقل أكثر من 50 فلسطينياً",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "غزة: مراسل الميادين: مصابون من جراء قصف إسرائيلي في محيط دوار أبو شرخ غرب مخيم جباليا شمالي القطاع",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: مصابون باعتداء إسرائيلي عبر غارة مسيّرة استهدفت حي الشيخ رضوان شمال غربي مدينة غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "غزة: مراسل الميادين: مصابون من جراء غارة جوية إسرائيلية في محيط برج مشتهى بقرية الزوايدة وسط القطاع",
+      "text": "فلسطين المحتلة: مراسل الميادين: شهيد ومصابون إثر استهداف طائرات الاحتلال دراجة هوائية قرب مفترق الغزالي بحي الشيخ رضوان شمال غربي مدينة غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: الجيش اللبناني يتولى سير عملية دخول الأهالي عند مدخل زوطر الغربية",
+      "text": "إيران: التلفزيون الإيراني: خلال الساعات الـ 24 الماضية تراجعت 4 سفن كانت تحاول العبور من مضيق هرمز",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "غزة: مراسل الميادين: استشهاد مدير شرطة محافظة شمال غزة العميد عبد الناصر محمد المقادمة في قصف إسرائيلي على حي الشيخ رضوان",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: مصابون باعتداء إسرائيلي عبر غارة مسيّرة استهدفت حي الشيخ رضوان شمال غربي مدينة غزة",
-      "absolute_sentiment": -1,
+      "text": "غزة: مراسل الميادين: استشهاد مدير شرطة محافظة شمال غزة العميد عبد الناصر محمد المقادمة في قصف إسرائيلي على حي الشيخ رضوان",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مراسلنا: إصابة خطيرة باستهداف الاحتلال لمركبة محيط الدفاع المدني بمنطقة أبو شرخ في شمال قطاع غزة، وأسفر القصق عن تضرر مركبات الدفاع المدني.",
-      "absolute_sentiment": -1,
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة بيت فوريك شرق نابلس.",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "متابعة| استهداف الاحتلال لدراجة هوائية في حي الشيخ رضوان شمال غرب مدينة غزة",
-      "absolute_sentiment": 0.5,
+      "text": "الاحتلال يغتال مدير شرطة محافظة شمال قطاع غزة عبد الناصر المقادمة",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
   ]
