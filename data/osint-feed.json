@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-25T14:59:02.014Z",
+  "last_updated": "2026-07-25T16:07:41.044Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.57",
-    "global_norm_sentiment": "-0.27"
+    "global_knn_danger": "0.56",
+    "global_norm_sentiment": "-0.13"
   },
   "timeline": [
-    {
-      "time": "2026-07-21T08:20:55.084Z",
-      "danger": 0.523,
-      "sentiment": -0.243,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.485,
-          "sentiment": -0.067
-        },
-        "OSINTdefender": {
-          "danger": 0.594,
-          "sentiment": -0.767
-        },
-        "irna_1313": {
-          "danger": 0.486,
-          "sentiment": 0
-        },
-        "sepah_pasdaran": {
-          "danger": 0.313,
-          "sentiment": -0.133
-        },
-        "almanarnews": {
-          "danger": 0.658,
-          "sentiment": 0.133
-        },
-        "C_Military1": {
-          "danger": 0.68,
-          "sentiment": -0.267
-        },
-        "almayadeen": {
-          "danger": 0.405,
-          "sentiment": -0.733
-        },
-        "QudsN": {
-          "danger": 0.663,
-          "sentiment": -0.464
-        }
-      }
-    },
     {
       "time": "2026-07-21T11:04:13.472Z",
       "danger": 0.517,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.375
         }
       }
+    },
+    {
+      "time": "2026-07-25T16:07:41.044Z",
+      "danger": 0.556,
+      "sentiment": -0.127,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.483,
+          "sentiment": -0.4
+        },
+        "OSINTdefender": {
+          "danger": 0.491,
+          "sentiment": -0.167
+        },
+        "irna_1313": {
+          "danger": 0.426,
+          "sentiment": -0.033
+        },
+        "sepah_pasdaran": {
+          "danger": 0.567,
+          "sentiment": -0.4
+        },
+        "almanarnews": {
+          "danger": 0.573,
+          "sentiment": 0.1
+        },
+        "C_Military1": {
+          "danger": 0.759,
+          "sentiment": -0.267
+        },
+        "almayadeen": {
+          "danger": 0.638,
+          "sentiment": -0.133
+        },
+        "QudsN": {
+          "danger": 0.674,
+          "sentiment": 0.167
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.5064245052835239
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.48297671024317
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,20 +2291,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.43881049597425925
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.42610860724672356
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.4807241717989698
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.5670318553414094
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.6013285329350915
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.572979249080677
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.7396307930465884
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.6379489054784989
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 12,
-      "raw_sentiment": -0.375,
-      "knn_danger_metric": 0.6867678977014223
+      "num_messages": 15,
+      "raw_sentiment": 0.16666666666666666,
+      "knn_danger_metric": 0.6735483883652967
     }
   },
   "semantic_logs": [
@@ -2334,24 +2334,10 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "השבוע נאם יו&quot;ר הלשכה המדינית של חמאס, ח&#39;ליל אלחיה, לרגל היבחרו, על &quot;הניצחון בעזה ועל הצורך לנצח כך גם בגדה&quot;  - אחד העזתיים כתב הבוקר מסר לח&#39;ליל אלחיה על אחת הבטונדות הצהובות שהתקרבה לביתו:  &quot;ח&#39;ליל אלחיה, בוא תזיז את הבטונדה.&quot;   ##  העזתיים מרגישים שהבטונדות הצהובות הולכות וסוגרות עליהם בכל יום שחולף. השטח בשליטת חמאס מצטמצם על בסיס יומי.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️منابع عربی از حمله به پایگاه آمریکا در نزدیکی فرودگاه اربیل خبر می‌‌دهند. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "فيديو يوثق اللحظات التي عاشها الصحفيون داخل خيمة الصحفيين في مستشفى ش.هداء الأق.صى، عقب اس.تهداف الا.حت.لال محيط بوابة المستشفى.",
-      "absolute_sentiment": -1,
+      "text": "&rlm; ️تصاویر ماهواره‌ای جدید آتش سوزی جیزان عربستان سعودی بعد حمله انصارالله یمن را رو به افزایش نشان میدهد &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2366,6 +2352,13 @@
       "channel": "Hezbollah",
       "text": "📹 نقابة الصحافة اللبنانية تحتضن مراسم تأبين المناضل الياباني كوزو أوكاموتو، المشهد مع مراسلتنا زينب ناجي https://almanar.com.lb/article/1049047/?s=tg",
       "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 نائبة الرئيس الإيراني لشؤون المرأة: نساء البلاد أكبر ظهير دفاعي للبلاد https://almanar.com.lb/article/1049212/?s=tg",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2392,42 +2385,49 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: مسيرة للاحتلال الإسرائيلي استهدفت بغارة منطقة في غرب مدينة خان يونس جنوبي القطاع",
+      "text": "فلسطين المحتلة: مراسل الميادين: عدوان بغارة من مسيرة إسرائيلية على مواصي خان يونس جنوبي قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: جبارين: الضفة الغربية ستبقى قادرة على المواجهة وعصية على الكسر وشوكة في حلق الاحتلال وصمام أمان لإفشال مخططاته",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: شهداء وجرحى في عدوان طيران الاحتلال على منزل قرب ملعب النور غربي خان يونس جنوبي قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: الوكالة اللبنانية: القوات الإسرائيلية المعادية قامت بتفجير مشروع المياه في بلدة مركبا في قـضاء مرجعيون جنوب البلاد",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: المشاط: هدف قواتنا المسلحة إنهاء الحصار والعدوان السعودي على بلدنا منذ ما يقارب 12 عاماً",
+      "text": "إيران: عراقتشي: يتشكل اليوم إدراك بأن الأمن الإقليمي يجب أن يتحقق بصورة جماعية ولا يمكن للدول أن تشتري أمنها لا سيما من الخارج",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: المشاط: موقفنا حق ومطالبنا عادلة تتمثل في إنهاء الحصار والعدوان السعودي على بلدنا",
+      "text": "فلسطين المحتلة: مراسل الميادين: &quot;جيش&quot; الاحتلال ينفذ عملية نسف ضخمة شرق خان يونس جنوبي قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: شهيدان ومصابون من جراء قصف إسرائيلي استهدف سطح منزل قرب ملعب النور غربي خان يونس جنوبي قطاع غزة",
+      "text": "فلسطين المحتلة: مراسل الميادين: إصابة مواطن بجروح خطيرة إثر قصف من مسيرة إسرائيلية على مواصي خان يونس جنوبي قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي يستهدف المناطق الشمالية لبلدة بيت لاهيا شمالي قطاع غزة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "في غزة.. لماذا يُدفن 22 شهيدًا في قبر واحد؟  شاهد الحلقة من «أصل الحكاية» مع سامح النبيه:",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
