@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-25T22:51:23.841Z",
+  "last_updated": "2026-07-25T23:56:38.204Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.58",
-    "global_norm_sentiment": "-0.29"
+    "global_norm_sentiment": "-0.31"
   },
   "timeline": [
-    {
-      "time": "2026-07-21T19:14:26.902Z",
-      "danger": 0.552,
-      "sentiment": -0.22,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.488,
-          "sentiment": -0.6
-        },
-        "OSINTdefender": {
-          "danger": 0.502,
-          "sentiment": -0.533
-        },
-        "irna_1313": {
-          "danger": 0.527,
-          "sentiment": 0.3
-        },
-        "sepah_pasdaran": {
-          "danger": 0.529,
-          "sentiment": -0.667
-        },
-        "almanarnews": {
-          "danger": 0.507,
-          "sentiment": 0.433
-        },
-        "C_Military1": {
-          "danger": 0.761,
-          "sentiment": -0.467
-        },
-        "almayadeen": {
-          "danger": 0.607,
-          "sentiment": -0.733
-        },
-        "QudsN": {
-          "danger": 0.652,
-          "sentiment": 0.2
-        }
-      }
-    },
     {
       "time": "2026-07-21T21:03:17.667Z",
       "danger": 0.537,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.4
         }
       }
+    },
+    {
+      "time": "2026-07-25T23:56:38.204Z",
+      "danger": 0.578,
+      "sentiment": -0.306,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.536,
+          "sentiment": -0.367
+        },
+        "OSINTdefender": {
+          "danger": 0.553,
+          "sentiment": -0.3
+        },
+        "irna_1313": {
+          "danger": 0.442,
+          "sentiment": -0.091
+        },
+        "sepah_pasdaran": {
+          "danger": 0.523,
+          "sentiment": -0.733
+        },
+        "almanarnews": {
+          "danger": 0.379,
+          "sentiment": -0.367
+        },
+        "C_Military1": {
+          "danger": 0.814,
+          "sentiment": -0.267
+        },
+        "almayadeen": {
+          "danger": 0.611,
+          "sentiment": -0.133
+        },
+        "QudsN": {
+          "danger": 0.969,
+          "sentiment": -0.633
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.4990696665405209
+      "num_messages": 11,
+      "raw_sentiment": -0.09090909090909091,
+      "knn_danger_metric": 0.4420028663306282
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.8333333333333334,
-      "knn_danger_metric": 0.5279793342452266
+      "raw_sentiment": -0.7333333333333333,
+      "knn_danger_metric": 0.5229777322837459
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.4332720706498578
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.37933393246539576
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
+      "raw_sentiment": -0.26666666666666666,
       "knn_danger_metric": 0.8139977890778438
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.3,
-      "knn_danger_metric": 0.6355645754704332
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.6112161572210267
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.8321965273458057
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.9690634327265432
     }
   },
   "semantic_logs": [
@@ -2348,17 +2348,24 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️شنیده شدن صدای انفجار در سلیمانیه عراق   منابع خبری از شنیده شدن صدای انفجار در سلیمانیه در شمال عراق خبر می دهند. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "📹 رئيس بلدية مركبا، محمد حمود، يضعنا في صورة الأضرار التي خلفتها الهجمات الإسرائيلية، وما شهدته البلدة من عمليات تدمير وتفجير https://almanar.com.lb/article/1049477/?s=tg",
-      "absolute_sentiment": 1,
+      "text": "🔵 فرنسا | فرق الإطفاء تواصل مكافحة حرائق الغابات جنوب غربي البلاد https://almanar.com.lb/article/1049967/?s=tg",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#اليمن   رئيس المجلس السياسي الأعلى اليمني مهدي المَشّاط:   - إجراءات قواتنا المسلحة مشروعة ومحقة.  - هدف قواتنا المسلحة إنهاء الحصار والعدوان السعودي على بلدنا منذ ما يقارب 12 عاما.  - شعبنا أقام الحجة لما يقارب 12 عاما والنصر حليفه بإذن الله.  - الإدانات والعويل المدفوع الثمن مسبقا لا يساوي شيئا.  - موقفنا حق ومطالبنا عادلة تتمثل في إنهاء الحصار والعدوان السعودي على بلدنا.  - للعدو السعودي: لن ينفعكم من يُمنيكم الأماني الكاذبة.  - ما دون إنهاء العدوان ورفع الحصار الوهم والسراب.  - كل الشكر والإعزاز لقواتنا المسلحة المقتدرة والمنضبطة.  #الاعلام_الحربي",
-      "absolute_sentiment": -1,
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2366,13 +2373,6 @@
       "channel": "Hezbollah",
       "text": "⭕️ رسالة الأخ المجاهد زاهر جبارين رئيس حركة حماس في الضفة الغربية:  ضفة العياش ستبقى عصية على الكسر وقادرة على المواجهة  الموقع الرسمي - حركة حماس &rlm;https://t.me/+sklEwcJvC2tjNGVk",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: العميد محبي: مؤخراً استخدمت قاذفات B-1 الأميركية مطارات بريطانية وإذا واصلت بريطانيا هذا التعاون فستصبح هدفاً مؤكداً ومشروعاً لنا",
-      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2397,37 +2397,37 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية عربونة، شمال شرق جنين.",
+      "text": "وسائل إعلام إسرائيلية: &quot;القناة 12&quot;: المخاوف الأميركية تشمل الأضرار المحتملة التي قد تلحق بمخزون أنظمة الدفاع الجوي في &quot;الشرق الأوسط&quot;",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية : قوات الاحتلال تقتحم مخيم عقبة جبر في مدينة أريحا",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم عددًا من المنازل خلال اقتحام قرية قفين شمال طولكرم.",
+      "text": "مصادر محلية: قوات الاحتلال تشن حملة مداهمات واعتقالات خلال اقتحام بلدة بلعا، شرق طولكرم.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم ضاحية اكتابا شرق طولكرم",
-      "absolute_sentiment": 0,
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة الزاوية غرب سلفيت، وتداهم أحد المنازل.",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم منزلاً خلال اقتحام بلدة جيوس، وتقتحم بلدة حبلة، قضاء قلقيلية.",
+      "text": "مصادر محلية: قوات الاحتلال تطلق الرصاص الحي وتداهم منزلاً خلال اقتحام بلدة طمون جنوب طوباس.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام قوات الاحتلال ضاحية اكتابا شرق طولكرم",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
