@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-25T08:58:04.159Z",
+  "last_updated": "2026-07-25T10:35:40.904Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.55",
-    "global_norm_sentiment": "-0.21"
+    "global_knn_danger": "0.54",
+    "global_norm_sentiment": "-0.16"
   },
   "timeline": [
-    {
-      "time": "2026-07-20T22:55:46.302Z",
-      "danger": 0.594,
-      "sentiment": -0.277,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.605,
-          "sentiment": -0.467
-        },
-        "OSINTdefender": {
-          "danger": 0.579,
-          "sentiment": -0.9
-        },
-        "irna_1313": {
-          "danger": 0.563,
-          "sentiment": -0.4
-        },
-        "sepah_pasdaran": {
-          "danger": 0.439,
-          "sentiment": -0.233
-        },
-        "almanarnews": {
-          "danger": 0.389,
-          "sentiment": 0.033
-        },
-        "C_Military1": {
-          "danger": 0.809,
-          "sentiment": 0.033
-        },
-        "almayadeen": {
-          "danger": 0.806,
-          "sentiment": -0.5
-        },
-        "QudsN": {
-          "danger": 0.798,
-          "sentiment": -0.167
-        }
-      }
-    },
     {
       "time": "2026-07-20T23:54:42.807Z",
       "danger": 0.576,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.036
         }
       }
+    },
+    {
+      "time": "2026-07-25T10:35:40.904Z",
+      "danger": 0.535,
+      "sentiment": -0.157,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.655,
+          "sentiment": -0.533
+        },
+        "OSINTdefender": {
+          "danger": 0.491,
+          "sentiment": -0.167
+        },
+        "irna_1313": {
+          "danger": 0.567,
+          "sentiment": 0.267
+        },
+        "sepah_pasdaran": {
+          "danger": 0.431,
+          "sentiment": -0.1
+        },
+        "almanarnews": {
+          "danger": 0.482,
+          "sentiment": 0
+        },
+        "C_Military1": {
+          "danger": 0.689,
+          "sentiment": -0.1
+        },
+        "almayadeen": {
+          "danger": 0.524,
+          "sentiment": -0.233
+        },
+        "QudsN": {
+          "danger": 0.565,
+          "sentiment": -0.571
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.5874616811046209
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.6551922002076747
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.5588792173031716
+      "raw_sentiment": 0.26666666666666666,
+      "knn_danger_metric": 0.567329832409974
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.5337799473098811
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.43070661585484654
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.512415739307796
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.48161881510342364
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.7232977928642044
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.6887013774381818
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.5675953878720127
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.5243831190360076
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 14,
-      "raw_sentiment": -0.03571428571428571,
-      "knn_danger_metric": 0.5946865192125294
+      "raw_sentiment": -0.5714285714285714,
+      "knn_danger_metric": 0.5653778476335783
     }
   },
   "semantic_logs": [
@@ -2336,29 +2336,22 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "82 מתוך 125 החברות בבית הדין הפלילי בהאג הצביעו לפני זמן קצר בעד הדחתו של כרים ח&#39;אן, התובע הכללי שהוציא את צווי המעצר הבינ&quot;ל נגד ראש הממשלה נתניהו ונגד שר הביטחון לשעבר יואב גלנט.  13 מדינות התנגדו ו - 15 נמנעו. הוא הודח על רקע האשמות נגדו בנושא הטרדות מיניות…",
+      "text": "מועדון האסיר הפלסטיני מדווח שכוחות צה&quot;ל עצרו הלילה למעלה מ- 80 פלסטינים ברחבי איו&quot;ש, מעל ל - 40 מהם מהכפר תל - הכפר ממנו הגיעו המחבלים שביצעו את פיגוע הירי אתמול בשומרון.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "סעודיה תקפה לפני זמן קצר מהאוויר את נמל חודידה הימי של החות&#39;ים  ע&quot;פ מקורות ערבים הותקפו מחסני הדלק בנמל. כמו דווח על תקיפות באי כמראן הנמצא במחוז חודידה.  ## מוקדם יותר היום פגעו החות&#39;ים במיכלית גז סעודית שעברה בבאב אלמנדב. זו כנראה התגובה הסעודית לכך.  הבכיר…",
+      "text": "מקורות עזתיים מדווחים שעשרות משפחות עזתיות החלו להתפנות הבוקר מערבה, אחרי שהלילה הקו הצהוב באזור אבו אלעג&#39;ין, במזרח דיר אלבלח (מרכז הרצועה) זז מערבה לכיוון ציר צלאח א-דין.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "הבוקר ניסו שוב האוקראינים לתקוף מתחם של קמעונאית הסחר הרוסית Wildberries, הפעם ביקטרינבורג - כ - 1,700 ק&quot;מ מהגבול עם אוקראינה. הפעם התקיפה היתה פחות מוצלחת ופגעה באזור החניה של המתחם.  תגובה אחת",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️تا ساعتی دیگر بیانیه مهم نیروهای مسلح یمن منتشر می‌شود &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 1,
+      "text": "מת המחבל היפני שביצע את הפיגוע בשדה התעופה לוד ב 1972 בו נהרגו 24 איש  המחבל קוזו אוקומוטו, המכונה &quot;אחמד היפני&quot;, מת היום, בגיל 78 בביתו בדאחיה בביירות. אוקומוטו היה אחד משלושת המחבלים היפנים שביצעו טבח נורא בשדה התעופה לוד (עוד לפני שנקרא נתב&quot;ג) בשליחות ארגון…",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
@@ -2378,15 +2371,8 @@
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "🔵 بالفيديو | أعمدة الدخان تغطي سماء جيزان ومناطق جنوب المملكة العربية السعودية https://almanar.com.lb/article/1047937/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "كمال الخير: الاعتداءات الإسرائيلية تكشف ضعف موقف السلطة اللبنانية https://almanar.com.lb/article/1048022/?s=tg",
-      "absolute_sentiment": -1,
+      "text": "وزير الخارجية الإيراني: #واشنطن كانت تسعى الى دفع الامور نحو التصعيد وهي التي انتهكت الاتفاق وأوصلت الامور الى الوضع الراهن",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
@@ -2399,35 +2385,49 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: عبد السلام: ما يجب على السعودية أن تعيه في هذه المرحلة أنها لسوء تقديرها قد نصبت نفسها عدواً مبيناً لليمن",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: عبد السلام: إصرار السعودية على المكابرة ورفض القبول للحق ستكون له عواقب خطيرة عليها وعلى أمنها وعلى اقتصادها",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: بقائي: الاتحاد الأوروبي يعاني ليس فقدان المصداقية فقط بل قمة العداء وأبشع أشكال النفاق",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: عبد السلام: العدوان السعودي على ميناء ومدينة الحديدة وجزيرة كمران تصعيد جديد وانتهاك متواصل لسيادة اليمن",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "فلسطين المحتلة: مراسلة الميادين: قوات الاحتلال الإسرائيلي تواصل اقتحام بلدة تل قرب نابلس بالضفة وتعتقل أكثر من 50 فلسطينياً",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "غزة: مراسل الميادين: مصابون من جراء قصف إسرائيلي في محيط دوار أبو شرخ غرب مخيم جباليا شمالي القطاع",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "غزة: مراسل الميادين: مصابون من جراء غارة جوية إسرائيلية في محيط برج مشتهى بقرية الزوايدة وسط القطاع",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: الجيش اللبناني يتولى سير عملية دخول الأهالي عند مدخل زوطر الغربية",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: مصابون باعتداء إسرائيلي عبر غارة مسيّرة استهدفت حي الشيخ رضوان شمال غربي مدينة غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مراسلنا: إصابة خطيرة باستهداف الاحتلال لمركبة محيط الدفاع المدني بمنطقة أبو شرخ في شمال قطاع غزة، وأسفر القصق عن تضرر مركبات الدفاع المدني.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "متابعة| استهداف الاحتلال لدراجة هوائية في حي الشيخ رضوان شمال غرب مدينة غزة",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
