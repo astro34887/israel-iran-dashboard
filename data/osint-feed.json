@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-26T17:58:48.617Z",
+  "last_updated": "2026-07-26T19:18:35.378Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.55",
-    "global_norm_sentiment": "0.00"
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.21"
   },
   "timeline": [
-    {
-      "time": "2026-07-22T15:36:53.477Z",
-      "danger": 0.571,
-      "sentiment": -0.187,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.547,
-          "sentiment": -0.333
-        },
-        "OSINTdefender": {
-          "danger": 0.506,
-          "sentiment": -0.533
-        },
-        "irna_1313": {
-          "danger": 0.537,
-          "sentiment": -0.033
-        },
-        "sepah_pasdaran": {
-          "danger": 0.553,
-          "sentiment": -0.3
-        },
-        "almanarnews": {
-          "danger": 0.508,
-          "sentiment": 0.2
-        },
-        "C_Military1": {
-          "danger": 0.717,
-          "sentiment": -0.367
-        },
-        "almayadeen": {
-          "danger": 0.61,
-          "sentiment": -0.167
-        },
-        "QudsN": {
-          "danger": 0.782,
-          "sentiment": -0.167
-        }
-      }
-    },
     {
       "time": "2026-07-22T17:12:42.921Z",
       "danger": 0.517,
@@ -2261,13 +2214,60 @@
           "sentiment": 0.071
         }
       }
+    },
+    {
+      "time": "2026-07-26T19:18:35.378Z",
+      "danger": 0.522,
+      "sentiment": -0.214,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.409,
+          "sentiment": -0.367
+        },
+        "OSINTdefender": {
+          "danger": 0.477,
+          "sentiment": -0.133
+        },
+        "irna_1313": {
+          "danger": 0.456,
+          "sentiment": -0.571
+        },
+        "sepah_pasdaran": {
+          "danger": 0.398,
+          "sentiment": 0.1
+        },
+        "almanarnews": {
+          "danger": 0.447,
+          "sentiment": -0.1
+        },
+        "C_Military1": {
+          "danger": 0.608,
+          "sentiment": -0.1
+        },
+        "almayadeen": {
+          "danger": 0.768,
+          "sentiment": -0.4
+        },
+        "QudsN": {
+          "danger": 0.706,
+          "sentiment": -0.433
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.4456191007099498
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.4085132669760797
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
+      "raw_sentiment": -0.13333333333333333,
       "knn_danger_metric": 0.47747877675705847
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": 0.4666666666666667,
-      "knn_danger_metric": 0.34049805519836024
+      "num_messages": 14,
+      "raw_sentiment": -0.5714285714285714,
+      "knn_danger_metric": 0.4558697952424452
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.4198859344142936
+      "knn_danger_metric": 0.3982550769925422
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.5100752796815945
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.44706412955875535
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.6006902308991909
+      "knn_danger_metric": 0.6080350022155174
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.8575776271972875
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.7683280322591817
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 14,
-      "raw_sentiment": 0.07142857142857142,
-      "knn_danger_metric": 0.8603314373541643
+      "num_messages": 15,
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.7055057790899208
     }
   },
   "semantic_logs": [
@@ -2334,27 +2334,6 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "°תוכן שיווקי מטעם עמותת מבטחי ישראל",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "הצלחה למשטרת גרמניה: כוח עילית גרמני הצליח לחסל בברלין את עבדול באלוט, המוסלמי החשוד בביצוע פיגוע הדריסה אתמול ☝️במצעד של קהילת הלהט&quot;ב.  תגובה אחת",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️پاسخ رهبر معظم انقلاب به نامه دبیرکل و رزمندگان حزب‌الله: پایداری در راه مقاومت، نصرت الهی را در پی دارد  &rlm; بخشی از پاسخ رهبر انقلاب اسلامی به نامه بیعت دبیرکل و رزمندگان حزب‌الله لبنان: نامه‌ی شما برادران و فرزندانم، رزمندگان مؤمن و شجاع حزب‌الله سرافراز…",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
       "text": "&rlm; ️سیّدالشّهدای حزب‌الله  &rlm;🔹 سلام خدا بر روح ملکوتی سیّدالشّهدای حزب‌الله سیّدحسن نصرالله و همه‌ی فرماندهان سَلَف مقاومت و یاران شهیدش رضوان‌الله تعالی‌علیهم‌اجمعین که نهال مقاومت اسلامی را به درختی تنومند مبدّل کردند &lrm;✅ @sepah_pasdaran",
@@ -2362,51 +2341,9 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: قصف مدفعي إسرائيلي يستهدف بيت لاهيا شمال غربي القطاع",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: تفجير كبير نفذه الاحتلال الإسرائيلي في محيط بلدة كفرتبنيت قرب النبطية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: الاحتلال الإسرائيلي ينفذ تفجيراً في مدينة بنت جبيل",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: السيد مجتبى لمجاهدي حزب الله: لم يبق أمام الأحرار سبيل سوى الجهاد والمقاومة والثبات على الطريق كفيل بأن يورث المجاهدين النصر",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: السيد مجتبى لمجاهدي حزب الله: شعوب العالم ضاقت ذرعا بظلم الإدارة الأميركية وجورها وبجرائم الصهاينة الذين يعيثون بالأرض فسادا",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: السيد مجتبى لمجاهدي حزب الله: في لبنان يقف الحزب بوصفه رائد فصائل الجهاد صخرة صلبة بمواجهة عدوان الكيان الوحشي وداعميه",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: السيد مجتبى لمجاهدي حزب الله: صمودكم غدا رسالة ملهمة لشعوب العالم الحرة بمسيرتها نحو التحرر من ظلم الاستكبار العالمي وأتباعه",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️فیلم سرنگون شدن پهپاد متجاوز عربستان توسط پدافند ارتش یمن &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
@@ -2425,9 +2362,72 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "مصدر خاص للميادين: القوات المسلحة اليمنية استهدفت 3 سفن نفطية سعودية خلال الساعات الـ48 الماضية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "المصدر الخاص للميادين: عدد السفن السعودية التي عادت ولم يسمح لها بالعبور منذ الاثنين الماضي وحتى اليوم الأحد بلغ 16 سفينة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "المصدر الخاص للميادين: قرار الحظر على السفن السعودية لا يزال سارياً ولن تسمح القوات المسلحة اليمنية بعبور أي سفينة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: وزارة الصحة: الحصيلة التراكمية الإجمالية للعدوان الإسرائيلي بلغت 4332 شهيدا و12236 جريحا",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "غزة: مراسل الميادين: طائرات الاحتلال تدمر بناية سكنية في شارع صلاح الدين قرب مفترق الشجاعية شرق مدينة غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تعتدي علي شاب بالضرب المبرح في بلدة بيت فوريك شرق نابلس",
+      "text": "محدث| ثلاثة شهداء منذ فجر اليوم في قطاع غزة وصلوا المستشفيات جراء استهدافات الاحتلال",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية دير سامت غرب مدينة دورا جنوب الخليل وتطلق قنابل الغاز بكثافة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تطلق قنابل الغاز تجاه صيدلية خلال اقتحام بلدة دير سامت غرب الخليل",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل| إصابة فتى برصاص الاحتلال عند مدخل مخيم قلنديا شمال القدس المحتلة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تطلق قنابل الغاز بكافة في مخيم قلنديا شمال القدس المحتلة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
