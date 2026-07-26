@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-26T19:18:35.378Z",
+  "last_updated": "2026-07-26T20:53:34.195Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.21"
+    "global_knn_danger": "0.50",
+    "global_norm_sentiment": "-0.17"
   },
   "timeline": [
-    {
-      "time": "2026-07-22T17:12:42.921Z",
-      "danger": 0.517,
-      "sentiment": -0.213,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.48,
-          "sentiment": -0.367
-        },
-        "OSINTdefender": {
-          "danger": 0.506,
-          "sentiment": -0.533
-        },
-        "irna_1313": {
-          "danger": 0.433,
-          "sentiment": -0.433
-        },
-        "sepah_pasdaran": {
-          "danger": 0.415,
-          "sentiment": -0.467
-        },
-        "almanarnews": {
-          "danger": 0.457,
-          "sentiment": 0.133
-        },
-        "C_Military1": {
-          "danger": 0.717,
-          "sentiment": -0.367
-        },
-        "almayadeen": {
-          "danger": 0.727,
-          "sentiment": 0
-        },
-        "QudsN": {
-          "danger": 0.484,
-          "sentiment": 0.036
-        }
-      }
-    },
     {
       "time": "2026-07-22T19:08:58.613Z",
       "danger": 0.5,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.433
         }
       }
+    },
+    {
+      "time": "2026-07-26T20:53:34.195Z",
+      "danger": 0.504,
+      "sentiment": -0.173,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.298,
+          "sentiment": -0.533
+        },
+        "OSINTdefender": {
+          "danger": 0.477,
+          "sentiment": -0.133
+        },
+        "irna_1313": {
+          "danger": 0.602,
+          "sentiment": -0.133
+        },
+        "sepah_pasdaran": {
+          "danger": 0.434,
+          "sentiment": -0.467
+        },
+        "almanarnews": {
+          "danger": 0.506,
+          "sentiment": 0.033
+        },
+        "C_Military1": {
+          "danger": 0.608,
+          "sentiment": -0.1
+        },
+        "almayadeen": {
+          "danger": 0.508,
+          "sentiment": -0.367
+        },
+        "QudsN": {
+          "danger": 0.658,
+          "sentiment": 0.1
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.4085132669760797
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.2984541043898851
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,21 +2290,21 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 14,
-      "raw_sentiment": -0.5714285714285714,
-      "knn_danger_metric": 0.4558697952424452
+      "num_messages": 15,
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.60184413600096
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.3982550769925422
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.4342837949558224
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.44706412955875535
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.5058937845899665
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.7683280322591817
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.5083549110212907
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.7055057790899208
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.658370818616124
     }
   },
   "semantic_logs": [
@@ -2334,10 +2334,24 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️سیّدالشّهدای حزب‌الله  &rlm;🔹 سلام خدا بر روح ملکوتی سیّدالشّهدای حزب‌الله سیّدحسن نصرالله و همه‌ی فرماندهان سَلَف مقاومت و یاران شهیدش رضوان‌الله تعالی‌علیهم‌اجمعین که نهال مقاومت اسلامی را به درختی تنومند مبدّل کردند &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 1,
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "החות&#39;ים מציגים את שרידי הכטב&quot;מ - בירקטאר אקינצ&#39;י מתוצרת טורקיה (של חיל האוויר הסעודי), אותו הפילו מעל מחוז אלג&#39;וף.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "החות&#39;ים מציגים את שרידי הכטב&quot;מ - בירקטאר אקינצ&#39;י מתוצרת טורקיה (של חיל האוויר הסעודי), אותו הפילו מעל מחוז אלג&#39;וף.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "החות&#39;ים מציגים את שרידי הכטב&quot;מ - בירקטאר אקינצ&#39;י מתוצרת טורקיה (של חיל האוויר הסעודי), אותו הפילו מעל מחוז אלג&#39;וף.  תגובה אחת",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2348,45 +2362,17 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: وزارة الخارجية: عراقتشي وصف إقدام النظام الأوكراني على مهاجمة السفينة التجارية الإيرانية بأنه مغامرة خطيرة واعتداء واضح",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️لحظۀ سقوط پهپاد ترکیه‌ای «بیرقدار» متعلق به نیروهای سعودی در یمن &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: وزارة الخارجية: لافروف في اتصال مع عراقتشي دان بشدة الاعتداء على السفينة الإيرانية",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "مصدر خاص للميادين: القوات المسلحة اليمنية استهدفت 3 سفن نفطية سعودية خلال الساعات الـ48 الماضية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "المصدر الخاص للميادين: عدد السفن السعودية التي عادت ولم يسمح لها بالعبور منذ الاثنين الماضي وحتى اليوم الأحد بلغ 16 سفينة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "المصدر الخاص للميادين: قرار الحظر على السفن السعودية لا يزال سارياً ولن تسمح القوات المسلحة اليمنية بعبور أي سفينة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: وزارة الصحة: الحصيلة التراكمية الإجمالية للعدوان الإسرائيلي بلغت 4332 شهيدا و12236 جريحا",
-      "absolute_sentiment": -1,
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️تصویر گستاخانه و عجیبی که شیطان زرد منتشر کرد: حمله به خارک &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2397,38 +2383,52 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "محدث| ثلاثة شهداء منذ فجر اليوم في قطاع غزة وصلوا المستشفيات جراء استهدافات الاحتلال",
-      "absolute_sentiment": 1,
+      "text": "لبنان: مراسل الميادين في جنوب لبنان: تفجير عنيف نفذه &quot;جيش&quot; الاحتلال في بلدة القنطرة لجهة وادي الحجير",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية دير سامت غرب مدينة دورا جنوب الخليل وتطلق قنابل الغاز بكثافة.",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: قصف مدفعي إسرائيلي وإطلاق قنابل إنارة شرقي بلدة القرارة جنوبي قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تطلق قنابل الغاز تجاه صيدلية خلال اقتحام بلدة دير سامت غرب الخليل",
+      "text": "المركز الفلسطيني للدفاع عن الأسرى:  - أكثر من 120 حالة اعتقال نفذتها قوات الاحتلال في الضفة الغربية خلال اليومين الماضيين، ضمن حملة انتقامية واسعة طالت عشرات المواطنين.  - حملات الاعتقال تركزت في محافظات نابلس وطولكرم والخليل، وشملت اقتحامات واسعة للمنازل وترويع سكانها.  - قوات الاحتلال تعمدت تخريب المنازل والعبث بمحتوياتها، وإخضاع عدد من المواطنين لتحقيقات ميدانية تخللتها اعتداءات بالضرب والتنكيل.  - عددا من عمليات الاقتحام نُفذت بمرافقة مستوطنين مسلحين، وتحت حماية مباشرة من قوات الاحتلال.  - حملة الاعتقالات تأتي في إطار سياسة العقاب الجماعي والانتقام التي يصعدها الاحتلال بحق أبناء الشعب الفلسطيني في الضفة الغربية.  - استمرار الاعتقالات والاعتداءات بحق المدنيين يمثل انتهاكا صارخا للقانون الدولي الإنساني ولحقوق الإنسان.  - نطالب المجتمع الدولي بتوفير حماية دولية عاجلة للفلسطينيين في الضفة الغربية، ووضع حد لجرائم الاحتلال ومستوطنيه.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل| إصابة فتى برصاص الاحتلال عند مدخل مخيم قلنديا شمال القدس المحتلة",
+      "text": "جانب من اندلاع نيران في معهد قلنديا ومحيطه بفعل قنابل الغاز التي أطلقها الاحتلال خلال اقتحام المخيم.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تطلق قنابل الغاز بكافة في مخيم قلنديا شمال القدس المحتلة",
-      "absolute_sentiment": -1,
+      "text": "عاجل| مدفعية الاحتلال تستهدف شرق مدينة دير البلح وسط قطاع غزة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة مخماس شمال شرق القدس.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام قوات الاحتلال وسط مدينة جنين",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
   ]
