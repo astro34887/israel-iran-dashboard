@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-26T20:53:34.195Z",
+  "last_updated": "2026-07-26T21:55:43.189Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.50",
-    "global_norm_sentiment": "-0.17"
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.25"
   },
   "timeline": [
-    {
-      "time": "2026-07-22T19:08:58.613Z",
-      "danger": 0.5,
-      "sentiment": -0.303,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.406,
-          "sentiment": -0.267
-        },
-        "OSINTdefender": {
-          "danger": 0.532,
-          "sentiment": -0.533
-        },
-        "irna_1313": {
-          "danger": 0.461,
-          "sentiment": -0.6
-        },
-        "sepah_pasdaran": {
-          "danger": 0.29,
-          "sentiment": -0.667
-        },
-        "almanarnews": {
-          "danger": 0.405,
-          "sentiment": 0.033
-        },
-        "C_Military1": {
-          "danger": 0.716,
-          "sentiment": -0.4
-        },
-        "almayadeen": {
-          "danger": 0.727,
-          "sentiment": -0.333
-        },
-        "QudsN": {
-          "danger": 0.517,
-          "sentiment": -0.133
-        }
-      }
-    },
     {
       "time": "2026-07-22T21:01:37.365Z",
       "danger": 0.513,
@@ -2261,6 +2214,53 @@
           "sentiment": 0.1
         }
       }
+    },
+    {
+      "time": "2026-07-26T21:55:43.189Z",
+      "danger": 0.516,
+      "sentiment": -0.253,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.298,
+          "sentiment": -0.567
+        },
+        "OSINTdefender": {
+          "danger": 0.477,
+          "sentiment": -0.133
+        },
+        "irna_1313": {
+          "danger": 0.584,
+          "sentiment": -0.133
+        },
+        "sepah_pasdaran": {
+          "danger": 0.477,
+          "sentiment": -0.667
+        },
+        "almanarnews": {
+          "danger": 0.513,
+          "sentiment": 0.067
+        },
+        "C_Military1": {
+          "danger": 0.608,
+          "sentiment": -0.1
+        },
+        "almayadeen": {
+          "danger": 0.411,
+          "sentiment": -0.833
+        },
+        "QudsN": {
+          "danger": 0.845,
+          "sentiment": -0.033
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,7 +2279,7 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
+      "raw_sentiment": -0.5666666666666667,
       "knn_danger_metric": 0.2984541043898851
     },
     "OSINTdefender": {
@@ -2292,19 +2292,19 @@
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.60184413600096
+      "knn_danger_metric": 0.5841855002314429
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.4342837949558224
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.47671677816875063
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.5058937845899665
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.5126248675989136
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.5083549110212907
+      "raw_sentiment": -0.8333333333333334,
+      "knn_danger_metric": 0.41137018945121034
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.658370818616124
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.8449450079446255
     }
   },
   "semantic_logs": [
@@ -2357,13 +2357,6 @@
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️فیلم سرنگون شدن پهپاد متجاوز عربستان توسط پدافند ارتش یمن &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
       "text": "&rlm; ️لحظۀ سقوط پهپاد ترکیه‌ای «بیرقدار» متعلق به نیروهای سعودی در یمن &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
@@ -2376,9 +2369,9 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "غزة: مراسل الميادين: طائرات الاحتلال تدمر بناية سكنية في شارع صلاح الدين قرب مفترق الشجاعية شرق مدينة غزة",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️شهرک‌نشینان صهیونیست منطقه صنعتی شهرک «بیتا» در جنوب نابلس را به آتش کشیدند. &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2399,36 +2392,43 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "المركز الفلسطيني للدفاع عن الأسرى:  - أكثر من 120 حالة اعتقال نفذتها قوات الاحتلال في الضفة الغربية خلال اليومين الماضيين، ضمن حملة انتقامية واسعة طالت عشرات المواطنين.  - حملات الاعتقال تركزت في محافظات نابلس وطولكرم والخليل، وشملت اقتحامات واسعة للمنازل وترويع سكانها.  - قوات الاحتلال تعمدت تخريب المنازل والعبث بمحتوياتها، وإخضاع عدد من المواطنين لتحقيقات ميدانية تخللتها اعتداءات بالضرب والتنكيل.  - عددا من عمليات الاقتحام نُفذت بمرافقة مستوطنين مسلحين، وتحت حماية مباشرة من قوات الاحتلال.  - حملة الاعتقالات تأتي في إطار سياسة العقاب الجماعي والانتقام التي يصعدها الاحتلال بحق أبناء الشعب الفلسطيني في الضفة الغربية.  - استمرار الاعتقالات والاعتداءات بحق المدنيين يمثل انتهاكا صارخا للقانون الدولي الإنساني ولحقوق الإنسان.  - نطالب المجتمع الدولي بتوفير حماية دولية عاجلة للفلسطينيين في الضفة الغربية، ووضع حد لجرائم الاحتلال ومستوطنيه.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "جانب من اندلاع نيران في معهد قلنديا ومحيطه بفعل قنابل الغاز التي أطلقها الاحتلال خلال اقتحام المخيم.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل| مدفعية الاحتلال تستهدف شرق مدينة دير البلح وسط قطاع غزة",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة مخماس شمال شرق القدس.",
+      "text": "مصادر محلية: قوة من جيش الاحتلال تقتحم بلدة حزما شمال شرق القدس المحتلة.",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال وسط مدينة جنين",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة عرابة جنوب غرب جنين",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تداهم منزلاً خلال اقتحام قرية دير جرير، شرق رام الله.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تعتقل أحد الشبان خلال اقتحام قرية دير جرير، شرق رام الله.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مشاهد جديدة.. مدفعية الاحتلال تستهدف المناطق الشرقية لحي الزيتون، جنوب شرق مدينة غزة.",
       "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تشن حملة اعتقالات في قرية دير جرير شرق رام الله",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
   ]
