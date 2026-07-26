@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-26T10:41:14.488Z",
+  "last_updated": "2026-07-26T11:59:34.053Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.56",
+    "global_knn_danger": "0.53",
     "global_norm_sentiment": "-0.27"
   },
   "timeline": [
-    {
-      "time": "2026-07-22T02:12:10.179Z",
-      "danger": 0.578,
-      "sentiment": -0.23,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.488,
-          "sentiment": -0.6
-        },
-        "OSINTdefender": {
-          "danger": 0.533,
-          "sentiment": -0.533
-        },
-        "irna_1313": {
-          "danger": 0.579,
-          "sentiment": -0.6
-        },
-        "sepah_pasdaran": {
-          "danger": 0.503,
-          "sentiment": 0.1
-        },
-        "almanarnews": {
-          "danger": 0.471,
-          "sentiment": 0.067
-        },
-        "C_Military1": {
-          "danger": 0.713,
-          "sentiment": -0.333
-        },
-        "almayadeen": {
-          "danger": 0.709,
-          "sentiment": -0.133
-        },
-        "QudsN": {
-          "danger": 0.834,
-          "sentiment": -0.133
-        }
-      }
-    },
     {
       "time": "2026-07-22T05:45:19.807Z",
       "danger": 0.553,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.292
         }
       }
+    },
+    {
+      "time": "2026-07-26T11:59:34.053Z",
+      "danger": 0.534,
+      "sentiment": -0.27,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.472,
+          "sentiment": -0.533
+        },
+        "OSINTdefender": {
+          "danger": 0.545,
+          "sentiment": -0.367
+        },
+        "irna_1313": {
+          "danger": 0.449,
+          "sentiment": 0.067
+        },
+        "sepah_pasdaran": {
+          "danger": 0.569,
+          "sentiment": -0.333
+        },
+        "almanarnews": {
+          "danger": 0.514,
+          "sentiment": -0.318
+        },
+        "C_Military1": {
+          "danger": 0.742,
+          "sentiment": -0.333
+        },
+        "almayadeen": {
+          "danger": 0.561,
+          "sentiment": -0.567
+        },
+        "QudsN": {
+          "danger": 0.538,
+          "sentiment": -0.179
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2280,7 +2280,7 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.5086674616035239
+      "knn_danger_metric": 0.47174714967854353
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.5941155273584224
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.44908436794007195
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.5524499018919004
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.5686146194373245
     },
     "almanarnews": {
       "name": "Hezbollah",
-      "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.5342671796408276
+      "num_messages": 11,
+      "raw_sentiment": -0.3181818181818182,
+      "knn_danger_metric": 0.5136816651384586
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.786250839570433
+      "knn_danger_metric": 0.741754138630068
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.5666666666666667
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.5609666842742963
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 12,
-      "raw_sentiment": -0.2916666666666667,
-      "knn_danger_metric": 0.5899620366160144
+      "num_messages": 14,
+      "raw_sentiment": -0.17857142857142858,
+      "knn_danger_metric": 0.5380565658485514
     }
   },
   "semantic_logs": [
@@ -2357,13 +2357,6 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: العميد نيا: عملياتنا الأخيرة ركزت على استهداف منشآت الرادار ومراكز الدعم التابعة للعدو",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "لبنان: مراسلة الميادين: الجيش اللبناني يواصل عمليات المسح في بلدة زوطر الغربية في الجنوب بالتزامن مع عمليات رفع الأنقاض",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
@@ -2390,10 +2383,10 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "عاجل| وزارة الداخلية بغزة: الاحتلال يغتال مدير جهاز الأمن الداخلي بمحافظة الوسطى العقيد وائل اللداوي والضابط رامز أبو زريق بقصف لمركبتهم في دير البلح وسط قطاع غزة.",
-      "absolute_sentiment": -1,
+      "text": "لبنان: الجيش: استمرار الاعتداءات الإسرائيلية يعيق استكمال انتشار الجيش وفق التفاهمات القائمة",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2404,11 +2397,18 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 15 العبرية: من المتوقع أن تصادق الحكومة الإسرائيلية غدًا على تمديد حالة الطوارئ في الجبهة الداخلية حتى 11 أغسطس، بسبب حالة عدم اليقين الأمنية تجاه إيران.  #الإعلام_الحربي",
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "الاحتلال يهدم منزلا لعائلة فلسطينية في قرية جلبون شرق جنين",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9988217284876505
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "تفاصيل احراق كسارة عين سامية يرويها  الشاب عبد الكريم غنيمات من كفر مالك فجر اليوم.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
     },
     {
       "channelId": "C_Military1",
@@ -2420,7 +2420,7 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   المتحدث باسم حرس الثورة الإسلاميّة اللوا�� محبي:  استفدنا من فترة وقف إطلاق النار؛ عززنا قدراتنا، ورفعنا سرعة إنتاج الصواريخ، كما ازدادت دقة الصواريخ. وعلى عكس الولايات المتحدة التي لم تتمكن من الاستفادة. انظروا إلى احتياطي النفط الأمريكي. لم يتمكنوا من تعويض عجزهم النفطي، بل ازداد أيضًا.  #الإعلام_الحربي",
+      "text": "#الجمهورية_الإسلامية   المتحدث باسم حرس الثورة الإسلاميّة اللواء محبي:  استفدنا من فترة وقف إطلاق النار؛ عززنا قدراتنا، ورفعنا سرعة إنتاج الصواريخ، كما ازدادت دقة الصواريخ. وعلى عكس الولايات المتحدة التي لم تتمكن من الاستفادة. انظروا إلى احتياطي النفط الأمريكي. لم يتمكنوا من تعويض عجزهم النفطي، بل ازداد أيضًا.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9978943081120252
     },
