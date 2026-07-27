@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-27T13:36:46.744Z",
+  "last_updated": "2026-07-27T16:13:46.465Z",
   "tension": {
     "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.49",
-    "global_norm_sentiment": "-0.22"
+    "global_knn_danger": "0.48",
+    "global_norm_sentiment": "-0.18"
   },
   "timeline": [
-    {
-      "time": "2026-07-23T12:21:00.503Z",
-      "danger": 0.545,
-      "sentiment": -0.13,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.406,
-          "sentiment": -0.367
-        },
-        "OSINTdefender": {
-          "danger": 0.523,
-          "sentiment": -0.733
-        },
-        "irna_1313": {
-          "danger": 0.404,
-          "sentiment": -0.2
-        },
-        "sepah_pasdaran": {
-          "danger": 0.596,
-          "sentiment": -0.067
-        },
-        "almanarnews": {
-          "danger": 0.374,
-          "sentiment": 0.233
-        },
-        "C_Military1": {
-          "danger": 0.945,
-          "sentiment": 0.2
-        },
-        "almayadeen": {
-          "danger": 0.632,
-          "sentiment": -0.033
-        },
-        "QudsN": {
-          "danger": 0.62,
-          "sentiment": -0.2
-        }
-      }
-    },
     {
       "time": "2026-07-23T15:05:22.960Z",
       "danger": 0.533,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.3
         }
       }
+    },
+    {
+      "time": "2026-07-27T16:13:46.465Z",
+      "danger": 0.476,
+      "sentiment": -0.177,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.501,
+          "sentiment": -0.3
+        },
+        "OSINTdefender": {
+          "danger": 0.549,
+          "sentiment": -0.1
+        },
+        "irna_1313": {
+          "danger": 0.483,
+          "sentiment": -0.267
+        },
+        "sepah_pasdaran": {
+          "danger": 0.426,
+          "sentiment": -0.367
+        },
+        "almanarnews": {
+          "danger": 0.256,
+          "sentiment": 0
+        },
+        "C_Military1": {
+          "danger": 0.654,
+          "sentiment": -0.067
+        },
+        "almayadeen": {
+          "danger": 0.479,
+          "sentiment": -0.333
+        },
+        "QudsN": {
+          "danger": 0.467,
+          "sentiment": -0.2
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.4175724058177482
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.5012809073439491
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,20 +2291,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.3818969177144327
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.48284341260000974
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.49327892683638186
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.42625007295713035
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.357712972402464
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.25630388108123137
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.4374217739529635
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.4785460615229038
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.7018763701369614
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.46653560287675666
     }
   },
   "semantic_logs": [
@@ -2341,6 +2341,13 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "לא רק וונצואלה: מדינות אפריקאיות עוזבות את בית הדין הפלילי בהאג  צ&#39;אד מצטרפת לבורקינה פאסו, מאלי וניז&#39;ר ומודיעה היום על פרישה מבית הדין הפלילי בהאג (ICC) -  זאת בשל סלקטיביות בפעילותו וחוסר אפקטיביות לאורך שנים.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
       "text": "&rlm; ️‌خبرگزاری رسمی عربستان: چند پهپاد از سمت عراق وارد آسمان کشور شد. &lrm;☑️ @sepah_pasdaran",
@@ -2350,57 +2357,36 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: نقابة محرري الصحافة في لبنان عن اقتراح قانون الاعلام الجديد: نرفضه شكلاً ومضموناً وتوقيتاً لافتقاده الى رؤية إعلامية وطنية",
+      "text": "اليمن: ناجي للميادين: الرد اليمني على الحصار تأخر بسبب بعض الظروف لكنّ الوضع لم يعد يحتمل واليمنيون يعانون من التداعيات",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: نقابة محرري الصحافة: اقتراح القانون هذا لا يحمي العاملين في المهنة ولا يجعل منها قطاعاً منتجاً يرتبط بالدورة الاقتصادية",
-      "absolute_sentiment": -1,
+      "text": "اليمن: ناجي للميادين: الوضع اليمني متماسك وقوات التعبئة المسلحة تزيد على مليون فضلاً عن القوات النظامية التي تبلغ نصف مليون مقاتل",
+      "absolute_sentiment": -0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: نقابة محرري الصحافة: الاقتراح يجيز سجن الصحافيين والإعلاميين ونخشى أن يكون الهدف الأساس هو قتل المهنة وتكبيل الحريات",
-      "absolute_sentiment": -1,
+      "text": "اليمن: ناجي للميادين: اليمن يطور قدراته العسكرية في مختلف المجالات وهو مستعد للمواجهة لأن الشعب بات على حافة الجوع نتيجة الحصار",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: القوات المسلحة اليمنية: العملية تمت بعدد من الطائرات المسيرة رداً على اختراق المسيرات التابعة للعدو السعودي للأجواء اليمنية",
-      "absolute_sentiment": -1,
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: قصف مدفعي إسرائيلي شرقي خان يونس جنوبي قطاع غزة",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "&quot;تركوني أبني وأتعب وبعد ما دفعت أكثر من مليون ونصف شيكل، أجو هدموها&quot;..  صرخة فلسطيني أثناء هدم الاحتلال بنايته في بلدة عنزا، جنوب جنين.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "&quot;سأجنّ مما يحدث&quot;.. بصوت الأمومة والإنصاف، ناشطة أجنبية تُهاجم صمت العالم وتجاهل الإعلام الغربي لجرائم الاحتلال في غزة.",
+      "text": "تابعوا الأخبار أولاً بأول، عبر قناة واتساب من خلال الرابط التالي:  https://whatsapp.com/channel/0029VbCpgXo8fewqkgDTLM2z",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "سيدة حامل تفقد جنينها داخل مركبة إسعاف؛ بسبب إغلاقات الاحتلال، عند حاجز عورتا جنوب نابلس.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "&quot;تركوني أبني وأتعب وبعد ما دفعت أكثر من مليون ونصف شيكل، أجو هدموها&quot;..  صرخة فلسطيني أثناء هدم الاحتلال بنايته في بلدة عنزا، جنوب جنين.",
-      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2425,11 +2411,25 @@
       "semantic_danger_knn": 0.9957041576612946
     },
     {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸رومانی یک دیپلمات روس را اخراج کرد  🔹دولت رومانی در واکنش به ورود ادعایی سه پهپاد روسی به حریم هوایی این کشور، یکی از اعضای هیات دیپلماتیک روسیه در بخارست را اخراج کرد. #ایرنا_جهان https://irna.ir/xjXSxj @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9951957023429895
+    },
+    {
       "channelId": "OSINTdefender",
       "channel": "Global_OSINT",
       "text": "#Yemen #KSA  The Yemeni Armed Forces reported that they shot down a Turkish Bayraktar Akıncı drone, which they claimed was being used by Saudi Arabia.  Subscribe to @OSINTdefender Chat room",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.974490404666991
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | الدفاع المدني بغزة ينتشل جثامين 99 شهيداً من تحت أنقاض منزل عائلتي &quot;أبو شريعة&quot; و&quot;الحساينة&quot; في حي الصبرة، جنوب مدينة غزة.  - يذكر أنهم استشهدوا بعدوان الاحتلال بغارات سابقة خلال الحرب على غزة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9648357757292177
     }
   ]
 }
