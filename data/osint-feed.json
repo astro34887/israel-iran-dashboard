@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-27T10:47:29.058Z",
+  "last_updated": "2026-07-27T13:36:46.744Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.57",
-    "global_norm_sentiment": "-0.26"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.49",
+    "global_norm_sentiment": "-0.22"
   },
   "timeline": [
-    {
-      "time": "2026-07-23T10:16:46.994Z",
-      "danger": 0.517,
-      "sentiment": -0.317,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.433,
-          "sentiment": -0.433
-        },
-        "OSINTdefender": {
-          "danger": 0.485,
-          "sentiment": -0.633
-        },
-        "irna_1313": {
-          "danger": 0.349,
-          "sentiment": -0.133
-        },
-        "sepah_pasdaran": {
-          "danger": 0.47,
-          "sentiment": -0.467
-        },
-        "almanarnews": {
-          "danger": 0.44,
-          "sentiment": -0.467
-        },
-        "C_Military1": {
-          "danger": 0.747,
-          "sentiment": 0
-        },
-        "almayadeen": {
-          "danger": 0.554,
-          "sentiment": -0.5
-        },
-        "QudsN": {
-          "danger": 0.742,
-          "sentiment": -0.4
-        }
-      }
-    },
     {
       "time": "2026-07-23T12:21:00.503Z",
       "danger": 0.545,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.5
         }
       }
+    },
+    {
+      "time": "2026-07-27T13:36:46.744Z",
+      "danger": 0.494,
+      "sentiment": -0.22,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.418,
+          "sentiment": -0.367
+        },
+        "OSINTdefender": {
+          "danger": 0.549,
+          "sentiment": -0.1
+        },
+        "irna_1313": {
+          "danger": 0.382,
+          "sentiment": -0.433
+        },
+        "sepah_pasdaran": {
+          "danger": 0.493,
+          "sentiment": -0.267
+        },
+        "almanarnews": {
+          "danger": 0.358,
+          "sentiment": 0.033
+        },
+        "C_Military1": {
+          "danger": 0.654,
+          "sentiment": -0.067
+        },
+        "almayadeen": {
+          "danger": 0.437,
+          "sentiment": -0.567
+        },
+        "QudsN": {
+          "danger": 0.702,
+          "sentiment": -0.3
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.4853691607918923
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.4175724058177482
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 13,
-      "raw_sentiment": -0.34615384615384615,
-      "knn_danger_metric": 0.6137433819217466
+      "num_messages": 15,
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.3818969177144327
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.624790471317365
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.49327892683638186
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.4918036167758392
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.357712972402464
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.7277322497986906
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.6536624170132933
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.5242533157946042
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.4374217739529635
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.7570944022252699
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.7018763701369614
     }
   },
   "semantic_logs": [
@@ -2343,93 +2343,93 @@
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️لحظۀ سقوط پهپاد ترکیه‌ای «بیرقدار» متعلق به نیروهای سعودی در یمن &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️نخستین تصاویر از پهپاد سعودی ساقط‌شده در یمن &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️دلیل موشک خوردن مدرسه میناب چه بود ؟ &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️#فوری | برخی منابع خبری از وقوع انفجار در اردن خبر می‌دهند &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "📹 بالفيديو | من جنوب العراق.. قوافل الزائرين تواصل مسيرها نحو كربلاء لإحياء زيارة الأربعين https://almanar.com.lb/article/1053267/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 الرئيس بري: ما نريده هو تثبيت وقف إطلاق النار والانسحاب الإسرائيلي الكامل من الأراضي اللبنانية المحتلة https://almanar.com.lb/article/1053357/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 وزارة الشؤون الاجتماعية تعلن انطلاق المرحلة الثانية من برنامج شبكة الأمان الاجتماعي المستجيبة للصدمات https://almanar.com.lb/article/1053377/?s=tg",
+      "text": "&rlm; ️‌خبرگزاری رسمی عربستان: چند پهپاد از سمت عراق وارد آسمان کشور شد. &lrm;☑️ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: إصابة 3 صيادين من جراء إلقاء مسيّرة إسرائيلية قنبلة باتجاههم أثناء وجودهم في البحر قرب بوابة ميناء غزة",
+      "text": "لبنان: نقابة محرري الصحافة في لبنان عن اقتراح قانون الاعلام الجديد: نرفضه شكلاً ومضموناً وتوقيتاً لافتقاده الى رؤية إعلامية وطنية",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: إصابتان برصاص الاحتلال في شارع الطينة جنوبي مدينة خان يونس جنوبي قطاع غزة",
+      "text": "لبنان: نقابة محرري الصحافة: اقتراح القانون هذا لا يحمي العاملين في المهنة ولا يجعل منها قطاعاً منتجاً يرتبط بالدورة الاقتصادية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: نقابة محرري الصحافة: الاقتراح يجيز سجن الصحافيين والإعلاميين ونخشى أن يكون الهدف الأساس هو قتل المهنة وتكبيل الحريات",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "اليمن: القوات المسلحة اليمنية: العملية تمت بعدد من الطائرات المسيرة رداً على اختراق المسيرات التابعة للعدو السعودي للأجواء اليمنية",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "وزارة الصحة: 45 ألف فلسطيني راجعوا العيادات النفسية في قطاع غزة خلال النصف الأول من 2026.",
+      "text": "&quot;تركوني أبني وأتعب وبعد ما دفعت أكثر من مليون ونصف شيكل، أجو هدموها&quot;..  صرخة فلسطيني أثناء هدم الاحتلال بنايته في بلدة عنزا، جنوب جنين.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "هدم وتجريف واستيلاء.. الاحتلال يصعّد استهداف الوجود الفلسطيني في الضفة والقدس والداخل المحتل التفاصيل: https://qudsn.co/post/216753",
-      "absolute_sentiment": 0.5,
+      "text": "&quot;سأجنّ مما يحدث&quot;.. بصوت الأمومة والإنصاف، ناشطة أجنبية تُهاجم صمت العالم وتجاهل الإعلام الغربي لجرائم الاحتلال في غزة.",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تخطر بعمليات هدم في بلدة إذنا غرب الخليل.",
+      "text": "سيدة حامل تفقد جنينها داخل مركبة إسعاف؛ بسبب إغلاقات الاحتلال، عند حاجز عورتا جنوب نابلس.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "رئيس وزراء الاحتلال الأسبق، نفتالي بينت: سأعلن عن قطر دولة عدو بمجرد وصولي لرئاسة الوزراء، فأميرها لديه هدف وهو تدمير دولتنا من خلال دعمها لحماس وحزب الله والحرس الثوري ومد أذرعها السرطانية في الغرب ومكتب نتنياهو.",
+      "text": "&quot;تركوني أبني وأتعب وبعد ما دفعت أكثر من مليون ونصف شيكل، أجو هدموها&quot;..  صرخة فلسطيني أثناء هدم الاحتلال بنايته في بلدة عنزا، جنوب جنين.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   فك الارتباط الكامل عن واشنطن في هذا المجال غير ممكن، وأن أقصى ما يمكن تحقيقه هو تقليص حجم هذا الاعتماد ...  لقراءة المقال كاملاً:  https://central-media.net/44881/601/من-إعلام-العدو-|-إذاعة-جيش-الاحتلال-تتناول-الأزمات-المتعلقة-بجاهزية-سلاح-الجو-الاسرائيلي  #الإعلام_الحربي",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 0.9971549721199922
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 12 العبرية: في أعقاب الهجمات التي شنها الحوثيون ضد السفن السعودية: انخفاض في حركة السفن في مضيق باب المندب. نقلت &quot;رويترز&quot; عن بيانات شركة &quot;كابلر&quot; أن 11 سفينة فقط عبرت المضيق أمس  وهو أدنى مستوى في الأشهر الأخيرة.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9960376738431209
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   الجيش الإيراني: إن الجيش، اقتداءً بتوجيهات القائد العام للقوات المسلحة، وبالتعاون مع سائر القوات المسلحة، يقف على أهبة الاستعداد وأكثر يقظة من أي وقت مضى في مواجهة أي تهديد أو مؤامرة من الأعداء، ولن يتهاون قيد أنملة في مسار حماية وصون استقلال الوطن الإسلامي ووحدة أراضيه، وسيرد على اعتداءات الأعداء بردّ أشد.  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.9957041576612946
+    },
+    {
+      "channelId": "OSINTdefender",
+      "channel": "Global_OSINT",
+      "text": "#Yemen #KSA  The Yemeni Armed Forces reported that they shot down a Turkish Bayraktar Akıncı drone, which they claimed was being used by Saudi Arabia.  Subscribe to @OSINTdefender Chat room",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.974490404666991
     }
   ]
 }
