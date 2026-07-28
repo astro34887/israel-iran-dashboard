@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-28T13:55:27.562Z",
+  "last_updated": "2026-07-28T16:03:47.056Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.43"
+    "global_knn_danger": "0.50",
+    "global_norm_sentiment": "-0.20"
   },
   "timeline": [
-    {
-      "time": "2026-07-24T08:20:28.481Z",
-      "danger": 0.571,
-      "sentiment": -0.22,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.541,
-          "sentiment": -0.5
-        },
-        "OSINTdefender": {
-          "danger": 0.494,
-          "sentiment": -0.467
-        },
-        "irna_1313": {
-          "danger": 0.526,
-          "sentiment": 0
-        },
-        "sepah_pasdaran": {
-          "danger": 0.498,
-          "sentiment": -0.633
-        },
-        "almanarnews": {
-          "danger": 0.543,
-          "sentiment": -0.367
-        },
-        "C_Military1": {
-          "danger": 0.772,
-          "sentiment": -0.133
-        },
-        "almayadeen": {
-          "danger": 0.751,
-          "sentiment": 0.167
-        },
-        "QudsN": {
-          "danger": 0.639,
-          "sentiment": -0.133
-        }
-      }
-    },
     {
       "time": "2026-07-24T11:01:16.899Z",
       "danger": 0.542,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.767
         }
       }
+    },
+    {
+      "time": "2026-07-28T16:03:47.056Z",
+      "danger": 0.505,
+      "sentiment": -0.2,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.462,
+          "sentiment": -0.533
+        },
+        "OSINTdefender": {
+          "danger": 0.517,
+          "sentiment": -0.3
+        },
+        "irna_1313": {
+          "danger": 0.538,
+          "sentiment": 0
+        },
+        "sepah_pasdaran": {
+          "danger": 0.316,
+          "sentiment": -0.5
+        },
+        "almanarnews": {
+          "danger": 0.422,
+          "sentiment": 0.4
+        },
+        "C_Military1": {
+          "danger": 0.644,
+          "sentiment": -0.233
+        },
+        "almayadeen": {
+          "danger": 0.62,
+          "sentiment": -0.567
+        },
+        "QudsN": {
+          "danger": 0.579,
+          "sentiment": -0.133
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.5248420741098172
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.46176584884093885
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.7,
-      "knn_danger_metric": 0.5159122007711698
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.53775254744373
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.30736566980189495
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.315971822996378
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.5046940888181867
+      "raw_sentiment": 0.4,
+      "knn_danger_metric": 0.4217643441305908
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.6840677317194136
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.6440244847667774
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.8666666666666667,
-      "knn_danger_metric": 0.6583614680295672
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.6198851230068515
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.7666666666666667,
-      "knn_danger_metric": 0.7719622989928657
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.578748134342507
     }
   },
   "semantic_logs": [
@@ -2334,73 +2334,59 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "איספהאן: היום לפנות בוקר הוצאו להורג על ידי המשטר האיראני 2 מעצורי מחאות ינואר האחרונות  אמיר חסין ספארי ועבדאלפאזל ספאהי הורשעו על ידי בית המשפט האיראני בהריגת שוטרים במהלך המהומות האחרונות בחודש ינואר בכיכר עלי ח&#39;אני באיספהאן.   אזרחים רבים נאספו הלילה מול…",
-      "absolute_sentiment": -1,
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: دبابة &quot;ميركافا&quot; إسرائيلية تطلق قذيفتين باتجاه أطراف بلدة ياطر في قضاء بنت جبيل",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "רויטרס: חברת אראמכו הסעודית השביתה את בית הזיקוק בג&#39;יזאן, שמזקק 400 אלף חביות נפט ביום, בעקבות התקיפה החות&#39;ית שאירעה ב-25 ביולי☝️.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "מלחמת רוסיה - אוקראינה  מקורות רוסים רשמיים מדווחים על מתקפת ענק של 390 (&#33;) כטב&quot;מים אוקראיניים הבוקר על מוסקבה.  מרכז ההפצה של חברת הענק 3PL הסמוך למתחם של ענקית הקמעונאות Wildberries עולה באש - שריפת ענק.   יעדים נוספים נפגעו בהם בנייני משרדים ומגורים.  9…",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 الاحتلال يهدم منزلين في الخليل وغرفة زراعية وأسوارًا بسلفيت https://almanar.com.lb/article/1056152/?s=tg",
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: مصابون من جراء استهداف طائرات الاحتلال شقة سكنية قرب مطعم بالميرا في حي الرمال غربي مدينة غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: إصابة مواطنين برصاص قوات الاحتلال الإسرائيلي شرقي مدينة دير البلح وسط قطاع غزة",
+      "text": "اليمن: الشامي للميادين: السعودية تريد أن تفرض الوصاية على ملايين اليمنيين",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: 4 إصابات بنيران جيش الاحتلال في مواصي خان يونس جنوبي قطاع غزة",
+      "text": "اليمن: الشامي للميادين: كان على قطر أن تتفهم الرد اليمني وهي التي عانت من الحصار السعودي سابقاً كما اليمن تماماً",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "&quot;رويترز&quot;: أرامكو السعودية أغلقت مصفاة جازان للنفط التي تبلغ طاقتها الإنتاجية 400 ألف برميل يومياً عقب هجوم وقع في 25 تموز/يوليو",
+      "text": "لبنان: مراسل الميادين في الجنوب: &quot;جيش&quot; الاحتلال نفذ تفجيراً في بلدة زوطر الشرقية",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: وزارة الصحة: 4333 شهيداً و12236 جريحاً منذ بداية العدوان الإسرائيلي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: 5 إصابات إحداها خطيرة في قصف إسرائيلي استهدف مجموعة مواطنين في النصيرات",
+      "text": "لبنان: مراسل الميادين في الجنوب: &quot;جيش&quot; الاحتلال الإسرائيلي ينفذ تفجيراً في أطراف بلدة مجدل زون",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "تابعوا الأخبار أولاً بأول، عبر قناة واتساب من خلال الرابط التالي:  https://whatsapp.com/channel/0029VbCpgXo8fewqkgDTLM2z",
-      "absolute_sentiment": 1,
+      "text": "الشهيد &quot;أحمد حسين كفينة&quot; أحد عناصر الدفاع المدني، ارتقى بقصف الاحتلال في مخيم النصيرات وسط قطاع غزة، عصر اليوم.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جيش الاحتلال يقتحم فعالية تأبين الشهيد عودة الهذالين في قرية &quot;أم الخير&quot; بمسافر يطا، جنوب الخليل.",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2411,25 +2397,39 @@
       "semantic_danger_knn": 0.999356249200632
     },
     {
-      "channelId": "C_Military1",
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸 میانکاله خسته از آتش سوزی‌های سریالی  🔹کنعانی مدیرکل حفاظت محیط زیست مازندران در گزارشی اعلام کرد که وقوع ۲ مورد آتش‌سوزی جدید در پناهگاه حیات وحش میانکاله با حضور سریع محیط‌بانان و همکاری دستگاه‌های عملیات این آتش سوزی مهار شد.  🔹پس از اعلام وقوع حریق، محیط‌بانان و نیروهای یگان حفاظت در کمترین زمان ممکن در محل حاضر شدند و با هماهنگی فرمانداری بهشهر، اداره‌کل مدیریت بحران استانداری مازندران و سایر دستگاه‌های اجرایی، عملیات اطفای حریق آغاز شد.  https://irna.ir/xjXSWZ @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9904567943036928
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | قوات الاحتلال تطلق قنابل الصوت وتواصل الاستيلاء على منزلٍ وتحويله لثكنة عسكرية منذ 3 أيام في قرية جالود، جنوب شرق نابلس.",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.9724163723538048
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | جيش الاحتلال يقتحم فعالية تأبين الشهيد عودة الهذالين في قرية &quot;أم الخير&quot; بمسافر يطا، جنوب الخليل.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9596045227592704
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | قوات الاحتلال تعتقل الفتى &quot;معتز بسام النواجعة&quot; أثناء رعيه الأغنام في خلة الفرا، جنوب الخليل.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9596045227592704
+    },
+    {
+      "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   فك الارتباط الكامل عن واشنطن في هذا المجال غير ممكن، وأن أقصى ما يمكن تحقيقه هو تقليص حجم هذا الاعتماد ...  لقراءة المقال كاملاً:  https://central-media.net/44881/601/من-إعلام-العدو-|-إذاعة-جيش-الاحتلال-تتناول-الأزمات-المتعلقة-بجاهزية-سلاح-الجو-الاسرائيلي  #الإعلام_الحربي",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 0.9971549721199922
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | قوات الاحتلال تعتقل شاباً خلال اقتحام منزل عائلة الشهيد مصباح أبو صبيح، في بلدة &quot;الرام&quot; شمال القدس المحتلة.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | جرحى بقصف طيران الاحتلال شقة سكنية داخل بناية في حي الرمال بمدينة غزة.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
+      "text": "📹 في متابعة لآخر التطورات في جنوب لبنان، يطلعنا مراسلنا سامر حاج علي على المشهد الميداني وأبرز المستجدات. https://almanar.com.lb/article/1056332/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.942086037081971
     }
   ]
 }
