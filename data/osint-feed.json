@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-28T11:13:51.580Z",
+  "last_updated": "2026-07-28T13:55:27.562Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.55",
-    "global_norm_sentiment": "-0.28"
+    "global_knn_danger": "0.54",
+    "global_norm_sentiment": "-0.43"
   },
   "timeline": [
-    {
-      "time": "2026-07-24T05:46:43.044Z",
-      "danger": 0.531,
-      "sentiment": -0.237,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.521,
-          "sentiment": -0.433
-        },
-        "OSINTdefender": {
-          "danger": 0.478,
-          "sentiment": -0.567
-        },
-        "irna_1313": {
-          "danger": 0.647,
-          "sentiment": -0.3
-        },
-        "sepah_pasdaran": {
-          "danger": 0.423,
-          "sentiment": 0.033
-        },
-        "almanarnews": {
-          "danger": 0.625,
-          "sentiment": 0.033
-        },
-        "C_Military1": {
-          "danger": 0.751,
-          "sentiment": -0.333
-        },
-        "almayadeen": {
-          "danger": 0.302,
-          "sentiment": -0.367
-        },
-        "QudsN": {
-          "danger": 0.618,
-          "sentiment": -0.3
-        }
-      }
-    },
     {
       "time": "2026-07-24T08:20:28.481Z",
       "danger": 0.571,
@@ -2261,13 +2214,60 @@
           "sentiment": 0
         }
       }
+    },
+    {
+      "time": "2026-07-28T13:55:27.562Z",
+      "danger": 0.543,
+      "sentiment": -0.427,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.525,
+          "sentiment": -0.5
+        },
+        "OSINTdefender": {
+          "danger": 0.517,
+          "sentiment": -0.3
+        },
+        "irna_1313": {
+          "danger": 0.516,
+          "sentiment": -0.7
+        },
+        "sepah_pasdaran": {
+          "danger": 0.307,
+          "sentiment": -0.567
+        },
+        "almanarnews": {
+          "danger": 0.505,
+          "sentiment": -0.033
+        },
+        "C_Military1": {
+          "danger": 0.684,
+          "sentiment": -0.4
+        },
+        "almayadeen": {
+          "danger": 0.658,
+          "sentiment": -0.867
+        },
+        "QudsN": {
+          "danger": 0.772,
+          "sentiment": -0.767
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.6149404889524052
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.5248420741098172
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.516888290842685
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.512365271602106
+      "raw_sentiment": -0.7,
+      "knn_danger_metric": 0.5159122007711698
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.29858171265377564
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.30736566980189495
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.43628914239574745
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.5046940888181867
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.7211039429481793
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.6840677317194136
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.6823764825414717
+      "raw_sentiment": -0.8666666666666667,
+      "knn_danger_metric": 0.6583614680295672
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 7,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.7252769702681722
+      "num_messages": 15,
+      "raw_sentiment": -0.7666666666666667,
+      "knn_danger_metric": 0.7719622989928657
     }
   },
   "semantic_logs": [
@@ -2336,50 +2336,29 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "מלחמת רוסיה - אוקראינה  מקורות רוסים רשמיים מדווחים על מתקפת ענק של 390 (&#33;) כטב&quot;מים אוקראיניים הבוקר על מוסקבה.  מרכז ההפצה של חברת הענק 3PL הסמוך למתחם של ענקית הקמעונאות Wildberries עולה באש - שריפת ענק.   יעדים נוספים נפגעו בהם בנייני משרדים ומגורים.  9…",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "לשכת שר הביטחון:  שר הביטחון הנחה את צה&quot;ל להרחיב  את הפעילות ההתקפית מול הטרור הפלסטיני שמנסה להרים מחדש את ראשו, ולהיערך לכיבוש מחנה פליטים נוסף, לפי מודל הטיפול במחנות הטרור ג׳נין, טולכרם ונור שמס, שפונו מתושבים, טוהרו מתשתיות טרור וצה&quot;ל שוהה שם באופן קבוע.  תגובה אחת",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
       "text": "איספהאן: היום לפנות בוקר הוצאו להורג על ידי המשטר האיראני 2 מעצורי מחאות ינואר האחרונות  אמיר חסין ספארי ועבדאלפאזל ספאהי הורשעו על ידי בית המשפט האיראני בהריגת שוטרים במהלך המהומות האחרונות בחודש ינואר בכיכר עלי ח&#39;אני באיספהאן.   אזרחים רבים נאספו הלילה מול…",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🎥 مهاجرانی: تحریم‌ها کشور را به سمت استفاده از «تراستی‌ها» سوق داد  🔹باید به این نکته توجه داشت که اساساً تحریم‌ها کشور را به سمت استفاده از «تراستی‌ها» سوق داد، این یکی از پیامدهای زیان‌بار تحریم بود که به اقتصاد و شفافیت آسیب جدی وارد کرد.   🔹به همین دلیل…",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "רויטרס: חברת אראמכו הסעודית השביתה את בית הזיקוק בג&#39;יזאן, שמזקק 400 אלף חביות נפט ביום, בעקבות התקיפה החות&#39;ית שאירעה ב-25 ביולי☝️.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء بغارة من مسيرة إسرائيلية استهدف بلدة النبطية الفوقا دون وقوع إصابات",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "מלחמת רוסיה - אוקראינה  מקורות רוסים רשמיים מדווחים על מתקפת ענק של 390 (&#33;) כטב&quot;מים אוקראיניים הבוקר על מוסקבה.  מרכז ההפצה של חברת הענק 3PL הסמוך למתחם של ענקית הקמעונאות Wildberries עולה באש - שריפת ענק.   יעדים נוספים נפגעו בהם בנייני משרדים ומגורים.  9…",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: جيش الاحتلال الإسرائيلي نفذ تفجيرين في بلدة القصير",
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 الاحتلال يهدم منزلين في الخليل وغرفة زراعية وأسوارًا بسلفيت https://almanar.com.lb/article/1056152/?s=tg",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: نائب الرئيس الإيراني: لسنا أصحاب حرب بل نريد حل المشاكل والقضايا عبر الحوار ولكن إذا فُرضت علينا الحرب فسندافع عن بلادنا",
-      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
@@ -2404,32 +2383,53 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: وزارة الصحة: 4333 شهيداً و12236 جريحاً منذ بداية العدوان الإسرائيلي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: 5 إصابات إحداها خطيرة في قصف إسرائيلي استهدف مجموعة مواطنين في النصيرات",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "وزير الطاقة الإسرائيلي: نريد أن تصبح &quot;إسرائيل&quot; الممر الرئيس للنفط الخليجي بدلا من هرمز وباب المندب، لذلك نحن بحاجة للسلام مع السعودية",
+      "text": "تابعوا الأخبار أولاً بأول، عبر قناة واتساب من خلال الرابط التالي:  https://whatsapp.com/channel/0029VbCpgXo8fewqkgDTLM2z",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 12 العبرية: في مكتب رئيس الوزراء، حاولوا تحديد موعد اللقاء مع الرئيس ترامب في بداية الشهر، دون جدوى، ولم يظهر البيت الأبيض استعدادًا كبيرًا لاستقباله.  لكن، نقطة التحول التي أدت إلى هذا الاتفاق هي إشارة أمريكية تم إرسالها عبر قنوات دبلوماسية ومتعددة إلى القدس، وبموجبها، سيحتاج نتنياهو إلى القدوم إلى هذا اللقاء بـ &quot;شيء ما&quot;، أي نوع من التنازلات المسبقة التي تُظهر لترامب تقدمًا في أحد المجالات. الرسالة التي تم نقلها: إذا كنت تعتقد أنك ستصل وأنت فارغ اليدين، فلن تصل.  مصدران مطلعان على التفاصيل قالا بأنه، بعد استشارات اختار نتنياهو أن يُظهر تقدمًا في قطاع غزة. بعد نقاش مع إدارة ترامب، عقد نتنياهو أمس اجتماعًا طارئًا لمجلس الوزراء، دون أي تحضير مسبق، حيث تمت الموافقة على إدخال قوة حفظ سلام دولية إلى غزة، على الرغم من أن حركة حماس لم تنزع سلاحها.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.999356249200632
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   فك الارتباط الكامل عن واشنطن في هذا المجال غير ممكن، وأن أقصى ما يمكن تحقيقه هو تقليص حجم هذا الاعتماد ...  لقراءة المقال كاملاً:  https://central-media.net/44881/601/من-إعلام-العدو-|-إذاعة-جيش-الاحتلال-تتناول-الأزمات-المتعلقة-بجاهزية-سلاح-الجو-الاسرائيلي  #الإعلام_الحربي",
       "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
+      "semantic_danger_knn": 0.9971549721199922
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "آثار تدمير الاحتلال منزلين في مدينة دورا في الخليل.",
+      "text": "عاجل | قوات الاحتلال تعتقل شاباً خلال اقتحام منزل عائلة الشهيد مصباح أبو صبيح، في بلدة &quot;الرام&quot; شمال القدس المحتلة.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
+      "semantic_danger_knn": 0.9596045227592704
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "جرافات الاحتلال تقتحم مدينة جنين.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "وقفة في نابلس، تضامنا مع الأسرى في سجون الاحتلال.",
+      "text": "عاجل | جرحى بقصف طيران الاحتلال شقة سكنية داخل بناية في حي الرمال بمدينة غزة.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
+      "semantic_danger_knn": 0.9596045227592704
     }
   ]
 }
