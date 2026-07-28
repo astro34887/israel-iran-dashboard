@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-28T18:10:22.830Z",
+  "last_updated": "2026-07-28T20:13:36.356Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.36"
+    "global_norm_sentiment": "-0.39"
   },
   "timeline": [
-    {
-      "time": "2026-07-24T12:23:59.115Z",
-      "danger": 0.555,
-      "sentiment": -0.247,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.452,
-          "sentiment": -0.1
-        },
-        "OSINTdefender": {
-          "danger": 0.494,
-          "sentiment": -0.467
-        },
-        "irna_1313": {
-          "danger": 0.479,
-          "sentiment": -0.033
-        },
-        "sepah_pasdaran": {
-          "danger": 0.413,
-          "sentiment": -0.367
-        },
-        "almanarnews": {
-          "danger": 0.538,
-          "sentiment": -0.4
-        },
-        "C_Military1": {
-          "danger": 0.839,
-          "sentiment": -0.367
-        },
-        "almayadeen": {
-          "danger": 0.713,
-          "sentiment": -0.367
-        },
-        "QudsN": {
-          "danger": 0.673,
-          "sentiment": -0.233
-        }
-      }
-    },
     {
       "time": "2026-07-24T14:51:31.471Z",
       "danger": 0.51,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.633
         }
       }
+    },
+    {
+      "time": "2026-07-28T20:13:36.356Z",
+      "danger": 0.521,
+      "sentiment": -0.393,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.476,
+          "sentiment": -0.4
+        },
+        "OSINTdefender": {
+          "danger": 0.474,
+          "sentiment": -0.367
+        },
+        "irna_1313": {
+          "danger": 0.46,
+          "sentiment": -0.467
+        },
+        "sepah_pasdaran": {
+          "danger": 0.431,
+          "sentiment": -0.9
+        },
+        "almanarnews": {
+          "danger": 0.431,
+          "sentiment": -0.333
+        },
+        "C_Military1": {
+          "danger": 0.711,
+          "sentiment": -0.5
+        },
+        "almayadeen": {
+          "danger": 0.668,
+          "sentiment": -0.6
+        },
+        "QudsN": {
+          "danger": 0.605,
+          "sentiment": -0.233
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2278,51 +2278,51 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 12,
-      "raw_sentiment": -0.20833333333333334,
-      "knn_danger_metric": 0.44880244682982257
+      "num_messages": 15,
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.4763168463597499
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.5037379499127898
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.47353411321241273
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.4017251726177803
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.4602821522980991
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.3506480847531031
+      "raw_sentiment": -0.9,
+      "knn_danger_metric": 0.4307093641263372
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.4367382353510027
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.4308145032318487
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.7111357174747394
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.7111190642915993
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.9666666666666667,
-      "knn_danger_metric": 0.6894474898805993
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.6676294291302171
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.7280545440669483
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.6053528807363879
     }
   },
   "semantic_logs": [
@@ -2336,14 +2336,21 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "פיצוץ של קיץ   דרום לבנון: הלבנונים רוחצים בים וצופים בפיצוצים יזומים של צה&quot;ל בכפר אלמנצורי בגזרה המערבית (נפת צור).  תגובה אחת",
+      "text": "רצועת עזה - &quot;המסגד הנעלם&quot;  ליד שוק אלירמוכ בעיר עזה הותקף מסגד דאר אלמתקין - אחרי התרעת פינוי. מצורף תיעוד רגעי התקיפה.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸کشف عامل پنهان بی‌خوابی در مغز مبتلایان به آلزایمر  🔹به گزارش وبگاه&nbsp;سای‌تِک‌دِیلی،&nbsp;پژوهشگران با مطالعه روی موش‌ها دریافتند که سلول‌های ایمنی مغز (میکروگلیا) عامل اصلی اختلال خواب در بیماری آلزایمر هستند. حذف موقت این سلول‌ها با یک داروی خاص، بیش از دو ساعت…",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "תקיפת בית משפחת א-נג&#39;אר בדיר אלבלח במרכז רצועת עזה לפני זמן קצר - אחרי התרעת פינוי.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "ראש הממשלה נתניהו ונשיא אוקראינה זלנסקי תועדו משוחחים במהלך הביקור בוושינגטון.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2352,20 +2359,6 @@
       "channel": "IRGC",
       "text": "&rlm; ️نیروهای مسلح یمن: یک نفتکش سعودی به نام NCC GHAZAL پس‌از آنکه هشدارها را نادیده گرفت با پرتاب چند موشک بالستیک مجبور به عقب‌نشینی و بازگشت شد. &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: غريب آبادي: نحن لا نعترف ولو بساعة واحدة بالمسار الجنوبي لمضيق هرمز",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: غريب آبادي: خلال فترة الحصار نقوم عبر ممرات مختلفة بتأمين جزء كبير من سلعنا لكن إغلاق هرمز يضغط تقريباً على العالم بأسره",
-      "absolute_sentiment": -0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2383,17 +2376,31 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مشهد جديد.. لحظة تدمير طيران الاحتلال لمسجد &quot;دار المتقين&quot; في محيط ملعب اليرموك، بمدينة غزة.",
+      "text": "إيران: مراسلة الميادين في طهران: الإيرانيون المحتشدون في ميدان الثورة رددوا الليلة شعارات &quot;نحن شعب الثورة&quot; و&quot;نحن جنود القيادة&quot;",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: &quot;جيش&quot; الاحتلال ينفذ تفجيراً في محيط بلدة القنطرة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: مدفعية الاحتلال الإسرائيلي تستهدف بلدة النبطية الفوقا جنوبي البلاد",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "دمار وإصابات..  الاحتلال يقصف مسجد &quot;دار المتقين&quot; في مدينة غزة.",
-      "absolute_sentiment": -1,
+      "text": "آثار الدمار جراء قصف طيران الاحتلال لمسجد &quot;دار المتقين&quot; في مدينة غزة.",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2418,18 +2425,11 @@
       "semantic_danger_knn": 0.9958768668438669
     },
     {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | مجلس مستوطنة المطلة عند الحدود اللبنانية: قبل قليل، وقع انفجار بسبب إطلاق صاروخ اعتراض إسرائيلي.. التفاصيل قيد الفحص.",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 0.9873823808914542
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | مجلس مستوطنة المطلة عند الحدود اللبنانية: قبل قليل، وقع انفجار بسبب إطلاق صاروخ اعتراض إسرائيلي.. التفاصيل قيد الفحص.",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 0.9873823808914542
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸عربستان مدعی رهگیری پهپادهای مهاجم به تأسیسات نفتی شرق این کشور شد  🔹وزارت دفاع عربستان مدعی شد سامانه‌های پدافندی این کشور طی ساعات گذشته چند پهپاد را که قصد هدف قرار دادن تأسیسات نفتی در منطقه شرقی را داشتند، منهدم کرده‌اند. #ایرنا_جهان  https://irna.ir/xjXT2T @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9951957023429895
     }
   ]
 }
