@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-27T23:59:24.430Z",
+  "last_updated": "2026-07-28T02:55:30.600Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.51",
-    "global_norm_sentiment": "-0.26"
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.24"
   },
   "timeline": [
-    {
-      "time": "2026-07-23T20:58:27.201Z",
-      "danger": 0.585,
-      "sentiment": -0.308,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.547,
-          "sentiment": -0.333
-        },
-        "OSINTdefender": {
-          "danger": 0.461,
-          "sentiment": -0.667
-        },
-        "irna_1313": {
-          "danger": 0.62,
-          "sentiment": -0.577
-        },
-        "sepah_pasdaran": {
-          "danger": 0.496,
-          "sentiment": -0.767
-        },
-        "almanarnews": {
-          "danger": 0.41,
-          "sentiment": 0.133
-        },
-        "C_Military1": {
-          "danger": 0.818,
-          "sentiment": -0.033
-        },
-        "almayadeen": {
-          "danger": 0.721,
-          "sentiment": -0.2
-        },
-        "QudsN": {
-          "danger": 0.83,
-          "sentiment": -0.5
-        }
-      }
-    },
     {
       "time": "2026-07-23T22:07:47.022Z",
       "danger": 0.582,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.167
         }
       }
+    },
+    {
+      "time": "2026-07-28T02:55:30.600Z",
+      "danger": 0.518,
+      "sentiment": -0.24,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.303,
+          "sentiment": -0.333
+        },
+        "OSINTdefender": {
+          "danger": 0.566,
+          "sentiment": -0.3
+        },
+        "irna_1313": {
+          "danger": 0.578,
+          "sentiment": -0.333
+        },
+        "sepah_pasdaran": {
+          "danger": 0.51,
+          "sentiment": -0.633
+        },
+        "almanarnews": {
+          "danger": 0.335,
+          "sentiment": -0.033
+        },
+        "C_Military1": {
+          "danger": 0.629,
+          "sentiment": -0.3
+        },
+        "almayadeen": {
+          "danger": 0.43,
+          "sentiment": -0.233
+        },
+        "QudsN": {
+          "danger": 0.881,
+          "sentiment": -0.1
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,32 +2279,32 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.3030491685721285
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.5809457662167078
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.565899652734123
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.4740342979334486
+      "num_messages": 6,
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.5778880492181823
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.4091677924390998
+      "knn_danger_metric": 0.5100027078620637
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.35644708113254675
+      "knn_danger_metric": 0.3345644145286227
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.4403240488740668
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.42973164528089025
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.9946139363679029
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.8806790759767319
     }
   },
   "semantic_logs": [
@@ -2344,6 +2344,13 @@
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
       "text": "&rlm; ️آژیرهای هشدار حمله هوایی در کنسولگری آمریکا در أربیل به صدا درآمد &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️درگیری جوانان فلسطینی با نیروهای اشغالگر در شهر نابلس  همزمان با یورش نیروهای اشغالگر به شهر نابلس، جوانان فلسطینی به مقابله با صهیونیست ها پرداختند و لاستیک‌های خودرو را در خیابان فیصل به آتش کشیدند. &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2371,64 +2378,57 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم عددًا من المنازل خلال اقتحام عدة أحياء في مدينة قلقيلية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة طمون جنوب طوباس",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم منطقة دوار الشهيد ثابت ثابت وسط مدينة طولكرم",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال لحي غياظة في مدينة قلقيلية، ومداهمة أحد المنازل",
+      "text": "جانب من اقتحام قوات الاحتلال مخيم عسكر الجديد شرق نابلس",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم أحد المنازل خلال اقتحام قرية شوفة جنوب طولكرم",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم مخيم الأمعري في مدينة البيرة.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم ضاحية شويكة، شمال طولكرم.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "متابعة | قوات الاحتلال تداهم منزلاً خلال اقتحام قرية تل جنوب غرب نابلس",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال المستمر لمدينة قلقيلية",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم عددًا من المنازل خلال اقتحام بلدة قفين شمال طولكرم.",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة كفر قدوم شرق قلقيلية.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال مدينة نابلس من حاجز دير شرف.",
+      "text": "مصادر محلية: قوات الاحتلال تداهم منزلاً خلال اقتحام بلدة كفر قدوم شرق قلقيلية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام قوات الاحتلال المستمر لمدينة نابلس، وسط حملة مداهمات واعتقالات",
       "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "بالتزامن مع اقتحام قوات الاحتلال مدينة نابلس، شبان يشعلون إطارات مطاطية في شارع فيصل.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تعتقل الشاب &quot;غيث تحسين&quot; عقب مداهمة منزله في قرية تل جنوب غرب نابلس",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
   ]
