@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-29T05:47:35.342Z",
+  "last_updated": "2026-07-29T08:33:05.196Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.51",
-    "global_norm_sentiment": "-0.36"
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.31"
   },
   "timeline": [
-    {
-      "time": "2026-07-24T22:01:38.708Z",
-      "danger": 0.562,
-      "sentiment": -0.223,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.614,
-          "sentiment": -0.333
-        },
-        "OSINTdefender": {
-          "danger": 0.471,
-          "sentiment": -0.167
-        },
-        "irna_1313": {
-          "danger": 0.536,
-          "sentiment": -0.433
-        },
-        "sepah_pasdaran": {
-          "danger": 0.539,
-          "sentiment": -0.733
-        },
-        "almanarnews": {
-          "danger": 0.348,
-          "sentiment": 0.2
-        },
-        "C_Military1": {
-          "danger": 0.728,
-          "sentiment": -0.1
-        },
-        "almayadeen": {
-          "danger": 0.653,
-          "sentiment": -0.2
-        },
-        "QudsN": {
-          "danger": 0.777,
-          "sentiment": -0.333
-        }
-      }
-    },
     {
       "time": "2026-07-24T23:59:46.202Z",
       "danger": 0.557,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.2
         }
       }
+    },
+    {
+      "time": "2026-07-29T08:33:05.196Z",
+      "danger": 0.533,
+      "sentiment": -0.312,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.477,
+          "sentiment": -0.542
+        },
+        "OSINTdefender": {
+          "danger": 0.508,
+          "sentiment": -0.367
+        },
+        "irna_1313": {
+          "danger": 0.353,
+          "sentiment": -0.4
+        },
+        "sepah_pasdaran": {
+          "danger": 0.564,
+          "sentiment": 0.067
+        },
+        "almanarnews": {
+          "danger": 0.5,
+          "sentiment": -0.3
+        },
+        "C_Military1": {
+          "danger": 0.78,
+          "sentiment": -0.667
+        },
+        "almayadeen": {
+          "danger": 0.467,
+          "sentiment": -0.567
+        },
+        "QudsN": {
+          "danger": 0.735,
+          "sentiment": -0.214
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 12,
-      "raw_sentiment": -0.625,
-      "knn_danger_metric": 0.4596700198756418
+      "raw_sentiment": -0.5416666666666666,
+      "knn_danger_metric": 0.4770959252091688
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 14,
-      "raw_sentiment": -0.21428571428571427,
-      "knn_danger_metric": 0.5232552385153088
+      "num_messages": 15,
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.35266624803867563
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.5897912621978715
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.5638224640735143
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.4600419224343154
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.4996160902746011
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.7491539427482823
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.7795744655250451
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.21410162885735223
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.466911272793472
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.6350365925671252
+      "num_messages": 14,
+      "raw_sentiment": -0.21428571428571427,
+      "knn_danger_metric": 0.735021395289608
     }
   },
   "semantic_logs": [
@@ -2336,100 +2336,100 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "תקיפת בית משפחת א-נג&#39;אר בדיר אלבלח במרכז רצועת עזה לפני זמן קצר - אחרי התרעת פינוי.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "ראש הממשלה נתניהו ונשיא אוקראינה זלנסקי תועדו משוחחים במהלך הביקור בוושינגטון.  תגובה אחת",
+      "text": "ארגון אלחשד א-שעבי השיעי בעיראק:  לפחות 20 הרוגים ו - 32 פצועים בתקיפות הסעודיות - אמריקאיות בעיראק הלילה.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️تصاویر اولیه از حمله هوایی به پایگاه حشد الشعبی در استان واسط عراق &lrm;✅ @sepah_pasdaran",
+      "text": "&rlm; ️تصاویر جدید از حمله وحشیانه آمریکایی-سعودی به پایگاه تیپ ۲۴ در شهرستان مقدادیه واقع در استان دیالی در شرق عراق منتشر شد &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️تصاویری از حمله عربستان به پایگاه تیپ ۳۰ در استان نینوی در شمال عراق &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️منابع عراقی از حملۀ دشمن آمریکایی-سعودی به یک موکب حسینی در روستای «ابوعصید» در استان کربلای معلی خبر می‌دهند. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال مخيم الجلزون شمال رام الله",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم منزلاً خلال اقتحام قرية مادما جنوب نابلس",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "متابعة | قوات الاحتلال عددا من المنازل خلال اقتحام قرية تل جنوب غرب نابلس.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "الوجود الفلسطيني في دائرة النار..  الاحتلال يهدم أعدادا كبيرة من المنازل والبنايات في فترة قياسية، والمستوطنون يُدشنون البؤر الاستيطانية ويكثفون اعتداءاتهم في الضفة الغربية..",
+      "text": "&rlm; ️تصاویری از شهدای حشد الشعبی پس از حمله مشترک عربستان و آمریکا &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل| إطلاق نار مكثف من آليات الاحتلال جنوب شرقي خانيونس جنوبي القطاع.",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️ویدئویی دیگر از جنایت آمریکا و عربستان علیه حشد الشعبی در نینوا &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "إيران: الإجراءات الأميركية تهدد أمن مضيق هرمز والاستقرار الإقليمي https://almanar.com.lb/article/1057527/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "محفوظ: لماذا يُحرم المجلس الوطني للاعلام المرئي والمسموع من الرواتب الستة التي أقرّتها الحكومة؟ https://almanar.com.lb/article/1057707/?s=tg",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "20 شهيدًا و32 جريحًا جراء عدوان امريكي سعودي استهدف مقرات للحشد الشعبي في العراق https://almanar.com.lb/article/1057787/?s=tg",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية: تلقى وزراء ومسؤولون إسرائيليون كبار، سابقون وحاليون، تحذيرات في الأيام الأخيرة من مسؤولين أمنيين مفادها أن هناك مخاوف من أن إيران ستحاول إلحاق الضرر بعناصر مختلفة، كجزء من جهودها للانتقام من تصفية القيادة العليا في طهران.  من بين أمور أخرى، وُجّه إليهم تحذير عام بشأن مخاوف من محاولتهم إيذاء مسؤولين كبار. وفي ضوء هذه التحذيرات، سيُعزّز جهاز الأمن العام (الشاباك) الإجراءات الأمنية للشخصيات الإسرائيلية، وسيُوجّههم إلى الخروج عن الروتين واتخاذ تدابير احترازية.  #الإع��ام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: عملية تجريف تقوم بها جرافات الاحتلال الإسرائيلي في منطقة شميس في بلدة كفرشوبا",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: القوة البحرية لحرس الثورة الإسلامية: استهدفنا 3 ناقلات نفط مخالفة في مضيق هرمز",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: أوساط مطلعة في القصر الجمهوري للميادين: لقاء الرئيس جوزاف عون ورئيس البرلمان نبيه بري كان إيجابياً",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "الأربعاء 16 صفر  أذان فجر اليوم من المسجد الأقصى المبارك يرفعه المؤذن عادل القضماني..",
-      "absolute_sentiment": -1,
+      "text": "قوات الاحتلال تقتحم بلدة بيتونيا غرب رام الله.",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية: تلقى وزراء ومسؤولون إسرائيليون كبار، سابقون وحاليون، تحذيرات في الأيام الأخيرة من مسؤولين أمنيين مفادها أن هناك مخاوف من أن إيران ستحاول إلحاق الضرر بعناصر مختلفة، كجزء من جهودها للانتقام من تصفية القيادة العليا في طهران.  من بين أمور أخرى، وُجّه إليهم تحذير عام بشأن مخاوف من محاولتهم إيذاء مسؤولين كبار. وفي ضوء هذه التحذيرات، سيُعزّز جهاز الأمن العام (الشاباك) الإجراءات الأمنية للشخصيات الإسرائيلية، وسيُوجّههم إلى الخروج عن الروتين واتخاذ تدابير احترازية.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9979853054910217
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تقتحم مدينة رام الله",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 12 العبرية عن مصدر إسرائيلي في واشنطن: ترامب لم يطالب خلال الاجتماع مع نتنياهو بانسحاب إسرائيلي من أي جبهة.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9970636121595079
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#العراق  صادر عن الحشد الشعبي:  تعرّضت عددٌ من مقرات هيئة الحشد الشعبي الرسمية في مناطق متفرقة من العراق، صباح اليوم، لهجماتٍ إرهابية غادرة شنّتها القوات الأمريكية والسعودية، ما أسفر، بحسب المعلومات الأولية، عن ارتقاء عدد من الشهداء وإصابة آخرين، فضلًا عن وقوع أضرار مادية في عدد من المباني والممتلكات التابعة للهيئة.  وإننا نعدّ هذا الاستهداف تصعيدًا بالغ الخطورة، وانتهاكًا لسيادة العراق، واستهدافًا لمؤسساته الأمنية الرسمية، ونؤكد أن الجهات المختصة تتابع الموقف ميدانيًا، فيما لا تزال عمليات إحصاء الخسائر وتقييم الأضرار مستمرة.  وسيتم إطلاع الرأي العام على آخر المستجدات والتفاصيل الرسمية حال اكتمال المعلومات، عبر البيانات الصادرة عن هيئة الحشد الشعبي.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9960104776536741
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تقتحم مخيم الجلزون شمال رام الله",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
     }
   ]
 }
