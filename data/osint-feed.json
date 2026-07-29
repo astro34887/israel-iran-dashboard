@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-29T14:00:30.758Z",
+  "last_updated": "2026-07-29T15:53:55.873Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.48",
-    "global_norm_sentiment": "-0.28"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.30"
   },
   "timeline": [
-    {
-      "time": "2026-07-25T06:12:55.896Z",
-      "danger": 0.581,
-      "sentiment": -0.27,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.542,
-          "sentiment": -0.3
-        },
-        "OSINTdefender": {
-          "danger": 0.491,
-          "sentiment": -0.167
-        },
-        "irna_1313": {
-          "danger": 0.524,
-          "sentiment": -0.133
-        },
-        "sepah_pasdaran": {
-          "danger": 0.655,
-          "sentiment": -0.667
-        },
-        "almanarnews": {
-          "danger": 0.532,
-          "sentiment": 0.033
-        },
-        "C_Military1": {
-          "danger": 0.7,
-          "sentiment": -0.233
-        },
-        "almayadeen": {
-          "danger": 0.641,
-          "sentiment": -0.633
-        },
-        "QudsN": {
-          "danger": 0.775,
-          "sentiment": -0.433
-        }
-      }
-    },
     {
       "time": "2026-07-25T08:58:04.159Z",
       "danger": 0.552,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.433
         }
       }
+    },
+    {
+      "time": "2026-07-29T15:53:55.873Z",
+      "danger": 0.525,
+      "sentiment": -0.303,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.463,
+          "sentiment": -0.367
+        },
+        "OSINTdefender": {
+          "danger": 0.508,
+          "sentiment": -0.367
+        },
+        "irna_1313": {
+          "danger": 0.523,
+          "sentiment": -0.067
+        },
+        "sepah_pasdaran": {
+          "danger": 0.487,
+          "sentiment": -0.6
+        },
+        "almanarnews": {
+          "danger": 0.549,
+          "sentiment": -0.167
+        },
+        "C_Military1": {
+          "danger": 0.655,
+          "sentiment": -0.433
+        },
+        "almayadeen": {
+          "danger": 0.354,
+          "sentiment": -0.667
+        },
+        "QudsN": {
+          "danger": 0.765,
+          "sentiment": -0.233
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.4374292752522484
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.46332617195103093
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.7,
-      "knn_danger_metric": 0.4015945596223813
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.5232115296879402
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.3945480935350882
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.4869756665321822
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.452360398247371
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.5489768001048726
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.681508311938906
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.6554058927070358
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.2513551874074237
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.3539191327698872
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.6997014742871968
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.7650976739659215
     }
   },
   "semantic_logs": [
@@ -2334,6 +2334,13 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "פיצוץ יזום של צה&quot;ל בכפר תבנית סמוך לרכס עלי א-טאהר בנפת נבטיה.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
       "text": "&rlm; ️️شهادت ۴ ایرانی در حمله مشترک عربستان سعودی و آمریکا به کربلای معلی   &rlm;🔹 پاسدار شهید علی اصغر آستانه &rlm;🔹 پاسدار شهید ابوالفضل متقی &rlm;🔹 پاسدار شهید مرتضی اکبری &rlm;🔹 پاسدار شهید امیر عباس درهم فروش  &rlm;🔹 هر چهار شهید اهل کاشان بودند. &lrm;✅ @sepah_pasdaran",
@@ -2341,9 +2348,23 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️رونمایی چین از موشک بالستیک هایپرسونیک YJ-۲۰ &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
       "text": "مقتل شخص باطلاق نار في الشارع التحتاني في مخيم عين الحلوة https://almanar.com.lb/article/1058892/?s=tg",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "بلدية حولا عن النيترات داخل مبنى مهجور في البلدة والمدموغة بكتابات عبرية: نطالب السلطة اللبنانية بفتح تحقيق عاجل https://almanar.com.lb/article/1058922/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2357,79 +2378,58 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "&quot;رويترز&quot;: العقود الآجلة لخام برنت ترتفع بنحو 7 في المئة على خلفية تصاعد التوتر في &quot;الشرق الأوسط&quot;",
-      "absolute_sentiment": -0.5,
+      "text": "فلسطين المحتلة: وسائل إعلام فلسطينية: &quot;جيش&quot; الاحتلال يطلق صاروخاً تجاه منزل يحاصره في بلدة بيت أمر شمال الخليل",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في جنوب لبنان: &quot;جيش&quot; الاحتلال نفذ تفجيرات في بلدات حولا والطيبة وكفرتبنيت",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: مصابون أحدهم بحالة حرجة جراء استهداف طائرات الاحتلال مجموعة من المواطنين حي الرمال غربي مدينة غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: تمشيط بالأسلحة الرشاشة من قبل &quot;جيش&quot; الاحتلال الاسرائيلي باتجاه بلدة بيوت السياد جنوبي لبنان",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "لحظة اعتقال جنود الاحتلال شاباً من منزله في بلدة &quot;بيت أمر&quot; شمال الخليل، ظهر اليوم.",
+      "text": "حملة الحق في التعليم بجامعة بيرزيت: جيش الاحتلال يواصل اعتقال أكثر من 121 طالبًا وطالبة من طلبة الجامعة، بينهم 6 طالبات، في استمرار لسياسة تحرمهم من حقهم في التعليم وتعيق استكمال مسيرتهم الأكاديمية",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: وفقًا لتقرير وكالة &quot;رويترز&quot;، حذر قائد قيادة القوات المشتركة الأمريكية جنودًا أمريكيين في الشرق الأوسط، قائلًا إن مقاطع الفيديو والصور التي ينشرونها عبر هواتفهم المحمولة تساعد إيران على تقييم نتائج هجماتها وتوجيه هجمات لاحقة.  أحد الأحداث الأخيرة كان تسجيلًا نشرته شبكة إلكترونية، يظهر فيه جندي أمريكي إطلاق صواريخ أمريكية من الكويت. بعد فترة وجيزة، تعرض الموقع لهجوم من قبل إيران، التي تمكنت من تحديد موقعه بسهولة.  #الإعلام_الحربي",
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مدرعتان لجيش الاحتلال تواصلان اقتحام مدينة نابلس.",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9986256955089237
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   رئيس الأركان في الجيش الإيراني الأدميرال حبيب الله سياري:   - لا تحرك في مضيق هرمز دون إذن من إيران.  - القوات البحرية التابعة للجيش تفرض سيطرة كاملة على شرق مضيق هرمز وشمال المحيط الهندي وبحر عُمان.  - أبناء الشعب الإيراني في الجيش وحرس الثورة يقفون بثبات ولا يُسمح بأي تحرك في مضيق هرمز من دون موافقتهم.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9971738898694222
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: الآلية الهندسية التي استهدفها حزب الله كانت عبارة عن جرافة من نوع D9 ما أدى إلى احتراقها.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9961779009660325
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: التقدير في الجيش الإسرائيلي: حزب الله استهدف آلية هندسية بمحلقة مفخخة الليلة الماضية بعدما حاولت العمل في منطقة علي الطاهر.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9958174570708113
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: التقدير في الجيش الإسرائيلي: حزب الله استهدف آلية هندسية بمحلقة مفخخة الليلة الماضية بعدما حاولت العمل في منطقة علي الطاهر.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9958174570708113
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "#ایرنا_جهان 🔸روسیه از تصرف دو شهرک در استان سومی و دونتسک خبر داد   🔹وزارت دفاع روسیه اعلام کرد نیروهای این کشور طی ۲۴ ساعت گذشته دو شهرک در استان سومی و جمهوری خلق دونتسک را تصرف کرده‌اند. https://irna.ir/xjXTn7 @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9904567943036928
+      "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل | وزارة الصحة في غزة: 73,335 شهيداً و174,052 جريحاً، منذ بدء عدوان الاحتلال في أكتوبر 2023",
+      "text": "قتل مستمر في شوارع غزة..  شهيد بقصف الاحتلال قرب مسجد &quot;الكنز&quot; في حي الرمال بمدينة غزة.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9904427422373318
+      "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل | وزارة الصحة في غزة: منذ وقف إطلاق النار (11 أكتوبر):  🔴 إجمالي عدد الشهداء: 1,209 🔴 إجمالي عدد الجرحى: 3,943 🔴 إجمالي الشهداء المنتشلين: 803",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9879218157691484
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | قوات الاحتلال تقتحم قريتي عَجّول وعارورة، قضاء رام الله.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
+      "text": "وداع حزين لشهيد ارتقى بقصف الاحتلال قرب مسجد &quot;الكنز&quot; في حي الرمال بمدينة غزة.",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
     }
   ]
 }
