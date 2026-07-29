@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-29T11:21:57.531Z",
+  "last_updated": "2026-07-29T14:00:30.758Z",
   "tension": {
     "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.50",
+    "global_knn_danger": "0.48",
     "global_norm_sentiment": "-0.28"
   },
   "timeline": [
-    {
-      "time": "2026-07-25T03:26:36.347Z",
-      "danger": 0.574,
-      "sentiment": -0.278,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.609,
-          "sentiment": -0.333
-        },
-        "OSINTdefender": {
-          "danger": 0.459,
-          "sentiment": -0.167
-        },
-        "irna_1313": {
-          "danger": 0.535,
-          "sentiment": -0.682
-        },
-        "sepah_pasdaran": {
-          "danger": 0.467,
-          "sentiment": -0.567
-        },
-        "almanarnews": {
-          "danger": 0.499,
-          "sentiment": 0.133
-        },
-        "C_Military1": {
-          "danger": 0.728,
-          "sentiment": -0.1
-        },
-        "almayadeen": {
-          "danger": 0.617,
-          "sentiment": -0.4
-        },
-        "QudsN": {
-          "danger": 0.877,
-          "sentiment": -0.533
-        }
-      }
-    },
     {
       "time": "2026-07-25T06:12:55.896Z",
       "danger": 0.581,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.433
         }
       }
+    },
+    {
+      "time": "2026-07-29T14:00:30.758Z",
+      "danger": 0.478,
+      "sentiment": -0.283,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.437,
+          "sentiment": -0.233
+        },
+        "OSINTdefender": {
+          "danger": 0.508,
+          "sentiment": -0.367
+        },
+        "irna_1313": {
+          "danger": 0.402,
+          "sentiment": -0.7
+        },
+        "sepah_pasdaran": {
+          "danger": 0.395,
+          "sentiment": -0.367
+        },
+        "almanarnews": {
+          "danger": 0.452,
+          "sentiment": 0.133
+        },
+        "C_Military1": {
+          "danger": 0.682,
+          "sentiment": -0.3
+        },
+        "almayadeen": {
+          "danger": 0.251,
+          "sentiment": -0.433
+        },
+        "QudsN": {
+          "danger": 0.7,
+          "sentiment": -0.433
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.6051720807372161
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.4374292752522484
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 12,
-      "raw_sentiment": -0.4583333333333333,
-      "knn_danger_metric": 0.37533400630175545
+      "num_messages": 15,
+      "raw_sentiment": -0.7,
+      "knn_danger_metric": 0.4015945596223813
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.3617346567412087
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.3945480935350882
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.26666666666666666,
-      "knn_danger_metric": 0.31092393218946696
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.452360398247371
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.739560384884381
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.681508311938906
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.4978583504973526
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.2513551874074237
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.6383539469154983
+      "knn_danger_metric": 0.6997014742871968
     }
   },
   "semantic_logs": [
@@ -2334,72 +2334,37 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "רוסיה הכניסה את מייסד טלגרם פאבל דורוב לרשימת מבוקשים בינ&quot;ל בגין &quot;סיוע לטרור&quot; וזאת מפני שטלגרם לא חוסמת ערוצים של המודיעין האוקראיני.  ## מצורפת תגובת דורוב כפי שפורסמה בחשבון הרשמי של טלגרם ברשת X.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "תיעוד רחפן מדהים :  החללית סטארשיפ של Space X מבצעת &quot;נחיתה רכה&quot; באוקיינוס ההודי - לראשונה מבלי להתפוצץ לרסיסים.  הנחיתה היתה בשבוע שעבר - הפרסום מאמש.  תגובה אחת",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; #فوری |  منابع عربی از شنیده‌شدن صدای انفجار و بلندشدن دود در اردن خبر می‌دهند. &lrm;✅ ️@sepah_pasdaran",
+      "text": "&rlm; ️️شهادت ۴ ایرانی در حمله مشترک عربستان سعودی و آمریکا به کربلای معلی   &rlm;🔹 پاسدار شهید علی اصغر آستانه &rlm;🔹 پاسدار شهید ابوالفضل متقی &rlm;🔹 پاسدار شهید مرتضی اکبری &rlm;🔹 پاسدار شهید امیر عباس درهم فروش  &rlm;🔹 هر چهار شهید اهل کاشان بودند. &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️حمایت شورای همکاری خلیج فارس از سعودی پس از تجاوز علیه عراق  دبیرکل شورای همکاری خلیج فارس: ما همبستگی کامل کشورهای عضو شورای همکاری خلیج فارس با عربستان سعودی را تأیید می‌کنیم. &lrm;✅ @sepah_pasdaran",
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "مقتل شخص باطلاق نار في الشارع التحتاني في مخيم عين الحلوة https://almanar.com.lb/article/1058892/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: مساعد القائد العام للجيش للشؤون التنسيقية: القوات المسلحة الإيرانية لن تسمح بأي تحرك في مضيق هرمز دون إذنها",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: الأدميرال سياري: بحرية الجيش تسيطر بشكل كامل على الجزء الشرقي من مضيق هرمز والجزء الشمالي من المحيط الهندي وبحر عُمان",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "الاحتلال يهدم ثلاثة آبار ارتوازية في قرية عاطوف بالأغوار الشمالية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "تابعوا الأخبار أولاً بأول، عبر قناة واتساب من خلال الرابط التالي:  https://whatsapp.com/channel/0029VbCpgXo8fewqkgDTLM2z",
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#العراق   الأمين العام لعصائب أهل الحق الشيخ قيس الخزعلي:   - ندين هذا الاعتداء ونحذر من تداعياته الخطيرة.  - لضرورة إكمال خروج القوات الأجنبية من الأرض العراقية وتطوير القدرات الدفاعية.  #الاعلام_الحربي",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "عاجل| الهلال الأحمر: إصابة شاب برصاص جيش الاحتلال في البطن خلال اقتحام بلدة بيت أمر شمال الخليل.",
-      "absolute_sentiment": -1,
+      "text": "&quot;رويترز&quot;: العقود الآجلة لخام برنت ترتفع بنحو 7 في المئة على خلفية تصاعد التوتر في &quot;الشرق الأوسط&quot;",
+      "absolute_sentiment": -0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تغلق بوابات دوار سلمان الفارسي عند مدخل بلدة حوارة جنوب نابلس",
+      "text": "لحظة اعتقال جنود الاحتلال شاباً من منزله في بلدة &quot;بيت أمر&quot; شمال الخليل، ظهر اليوم.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2409,13 +2374,6 @@
       "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: وفقًا لتقرير وكالة &quot;رويترز&quot;، حذر قائد قيادة القوات المشتركة الأمريكية جنودًا أمريكيين في الشرق الأوسط، قائلًا إن مقاطع الفيديو والصور التي ينشرونها عبر هواتفهم المحمولة تساعد إيران على تقييم نتائج هجماتها وتوجيه هجمات لاحقة.  أحد الأحداث الأخيرة كان تسجيلًا نشرته شبكة إلكترونية، يظهر فيه جندي أمريكي إطلاق صواريخ أمريكية من الكويت. بعد فترة وجيزة، تعرض الموقع لهجوم من قبل إيران، التي تمكنت من تحديد موقعه بسهولة.  #الإعلام_الحربي",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 0.9986256955089237
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية: تلقى وزراء ومسؤولون إسرائيليون كبار، سابقون وحاليون، تحذيرات في الأيام الأخيرة من مسؤولين أمنيين مفادها أن هناك مخاوف من أن إيران ستحاول إلحاق الضرر بعناصر مختلفة، كجزء من جهودها للانتقام من تصفية القيادة العليا في طهران.  من بين أمور أخرى، وُجّه إليهم تحذير عام بشأن مخاوف من محاولتهم إيذاء مسؤولين كبار. وفي ضوء هذه التحذيرات، سيُعزّز جهاز الأمن العام (الشاباك) الإجراءات الأمنية للشخصيات الإسرائيلية، وسيُوجّههم إلى الخروج عن الروتين واتخاذ تدابير احترازية.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9979853054910217
     },
     {
       "channelId": "C_Military1",
@@ -2430,6 +2388,48 @@
       "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: الآلية الهندسية التي استهدفها حزب الله كانت عبارة عن جرافة من نوع D9 ما أدى إلى احتراقها.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9961779009660325
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: التقدير في الجيش الإسرائيلي: حزب الله استهدف آلية هندسية بمحلقة مفخخة الليلة الماضية بعدما حاولت العمل في منطقة علي الطاهر.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9958174570708113
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: التقدير في الجيش الإسرائيلي: حزب الله استهدف آلية هندسية بمحلقة مفخخة الليلة الماضية بعدما حاولت العمل في منطقة علي الطاهر.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9958174570708113
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "#ایرنا_جهان 🔸روسیه از تصرف دو شهرک در استان سومی و دونتسک خبر داد   🔹وزارت دفاع روسیه اعلام کرد نیروهای این کشور طی ۲۴ ساعت گذشته دو شهرک در استان سومی و جمهوری خلق دونتسک را تصرف کرده‌اند. https://irna.ir/xjXTn7 @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9904567943036928
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | وزارة الصحة في غزة: 73,335 شهيداً و174,052 جريحاً، منذ بدء عدوان الاحتلال في أكتوبر 2023",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9904427422373318
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | وزارة الصحة في غزة: منذ وقف إطلاق النار (11 أكتوبر):  🔴 إجمالي عدد الشهداء: 1,209 🔴 إجمالي عدد الجرحى: 3,943 🔴 إجمالي الشهداء المنتشلين: 803",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9879218157691484
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | قوات الاحتلال تقتحم قريتي عَجّول وعارورة، قضاء رام الله.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9596045227592704
     }
   ]
 }
