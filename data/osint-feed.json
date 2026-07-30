@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-30T11:48:38.891Z",
+  "last_updated": "2026-07-30T13:49:19.797Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.55",
-    "global_norm_sentiment": "-0.26"
+    "global_knn_danger": "0.54",
+    "global_norm_sentiment": "-0.19"
   },
   "timeline": [
-    {
-      "time": "2026-07-25T23:56:38.204Z",
-      "danger": 0.578,
-      "sentiment": -0.306,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.536,
-          "sentiment": -0.367
-        },
-        "OSINTdefender": {
-          "danger": 0.553,
-          "sentiment": -0.3
-        },
-        "irna_1313": {
-          "danger": 0.442,
-          "sentiment": -0.091
-        },
-        "sepah_pasdaran": {
-          "danger": 0.523,
-          "sentiment": -0.733
-        },
-        "almanarnews": {
-          "danger": 0.379,
-          "sentiment": -0.367
-        },
-        "C_Military1": {
-          "danger": 0.814,
-          "sentiment": -0.267
-        },
-        "almayadeen": {
-          "danger": 0.611,
-          "sentiment": -0.133
-        },
-        "QudsN": {
-          "danger": 0.969,
-          "sentiment": -0.633
-        }
-      }
-    },
     {
       "time": "2026-07-26T05:56:57.121Z",
       "danger": 0.547,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.333
         }
       }
+    },
+    {
+      "time": "2026-07-30T13:49:19.797Z",
+      "danger": 0.544,
+      "sentiment": -0.193,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.467,
+          "sentiment": -0.3
+        },
+        "OSINTdefender": {
+          "danger": 0.507,
+          "sentiment": -0.2
+        },
+        "irna_1313": {
+          "danger": 0.482,
+          "sentiment": 0
+        },
+        "sepah_pasdaran": {
+          "danger": 0.648,
+          "sentiment": -0.5
+        },
+        "almanarnews": {
+          "danger": 0.393,
+          "sentiment": 0.2
+        },
+        "C_Military1": {
+          "danger": 0.718,
+          "sentiment": -0.267
+        },
+        "almayadeen": {
+          "danger": 0.532,
+          "sentiment": -0.2
+        },
+        "QudsN": {
+          "danger": 0.738,
+          "sentiment": -0.533
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.5811166191326792
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.4672454016194963
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.4859228684604494
+      "num_messages": 14,
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.48229449850948025
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.5325664612217785
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.6475101823453341
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.5095204806295718
+      "raw_sentiment": 0.2,
+      "knn_danger_metric": 0.39341277475731895
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.7337499533236539
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.7180836240498806
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.6962051560343906
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.531821329995938
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.5294595905780459
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.7379104913139246
     }
   },
   "semantic_logs": [
@@ -2336,22 +2336,15 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "השבוע נאם יו&quot;ר הלשכה המדינית של חמאס, ח&#39;ליל אלחיה, לרגל היבחרו, על &quot;הניצחון בעזה ועל הצורך לנצח כך גם בגדה&quot;  - אחד העזתיים כתב הבוקר מסר לח&#39;ליל אלחיה על אחת הבטונדות הצהובות שהתקרבה לביתו:  &quot;ח&#39;ליל אלחיה, בוא תזיז את הבטונדה.&quot;   ##  העזתיים מרגישים שהבטונדות…",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "סוכנות הידיעות רויטרס מדווחת כי מיכלית גז אמריקאית נפגעה כתוצאה מכטב&quot;מ מתאבד בנמל דמיאט במצרים  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
       "text": "משמרות המהפכה האיראנים: 3 מאנשינו נהרגו בתקיפה אמריקאית בזנג&#39;אן (צפון איראן).  תגובה אחת",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "&quot;הפלישה לספרד&quot;  מדיניותה של ממשלתו של פדרו סאנצ&#39;ז מעודדת גלי הגירה מאפריקה לספרד.   סאוטה - טריטוריה ספרדית הנושקת למרוקו - באזור מצרי גיברלטר מוצפת במהגרים שמגיעים אליה ממרוקו ומשם בסירות אל היבשה.  מושל סאוטה ביקש מהממשלה להכריז מצב חירום בעקבות התגברות…",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2369,65 +2362,72 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "📹 تقارير مصورة | قلق صهيوني من تراجع نفوذ نتنياهو لدى الإدارة الأميركية https://almanar.com.lb/article/1060942/?s=tg",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️دو آشیانۀ پهپادی و یک مخزن سوخت هواپیما و بالگردهای نظامی در پایگاه علی السالم به آتش کشیده شدند &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 اعتصام امام وزارة التربية للأساتذة المتعاقدين مع الجامعة اللبنانية للمطالبة بإقرار التفرغ ومستشار الوزيرة كرامي أبلغهم بأن الملف أرسل الى رئاسة مجلس الوزراء تمهيدًا لإقراره https://www.almanar.com.lb/article/1061022?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#العراق   الأمين العام لعصائب أهل الحق الشيخ قيس الخزعلي:   - ندين هذا الاعتداء ونحذر من تداعياته الخطيرة.  - لضرورة إكمال خروج القوات الأجنبية من الأرض العراقية وتطوير القدرات الدفاعية.  #الاعلام_الحربي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة إسرائيل اليوم العبرية: تمرد في قاعدة سديه تيمان بعد خلاف مع قائد الكتيبة: ترك عشرات المقاتلين والقادة من كتيبة تسابار التابعة للواء جفعاتي أسلحتهم خلال الساعات الأخيرة، وغادروا القاعدة إلى منازلهم.  #ا��إعلام_الحربي",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️جزئیات ضربات پهپادی موشکی عملیات نصر ۲ در کویت و اردن &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة للشعب الأردني: رداً على العدوان الأميركي ومساعدةً لكم في تحرير الأردن من الاحتلال الأميركي استهدفنا قاعدة &quot;الأزرق&quot;",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: استهدفنا منصة تمركز وحظيرة صيانة مقاتلات &quot;F-35&quot; التابعة للعدو الأميركي في قاعدة &quot;الأزرق&quot; الجوية في الأردن",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: &quot;فارس&quot;: سفينة الحاويات الإيرانية &quot;نورا&quot; عبرت خط الحصار الأميركي ودخلت المياه الدولية بعد أن شوهدت سابقاً بالقرب من جزيرة قشم",
+      "text": "اليمن: السيد الحوثي: المخطط الصهيوني يمثّل خطراً شاملاً على الأمة ولا يستثني أحداً حتى من يرتبطون بعلاقات أو مواقف داعمة لواشنطن",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: محافظ خوزستان: العدوان الأميركي ليلة أمس على مدينة الأهواز ألحق أضراراً بمجمعين للسكن الطلابي",
+      "text": "اليمن: السيد الحوثي: يفترض أن تقابل الأمة العدوانية الصهيونية كأمة تعي المخطط الصهيوني المكشوف الذي يستهدفها",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "اليمن: السيد الحوثي: الحصار السعودي على اليمن ليس مجرد حصار فحسب بل هو ممارسة ظالمة ينتج عنه معاناة كبيرة جداً بحق الشعب اليمني",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: &quot;فارس&quot; عن حرس الثورة في بندر إمام خميني: اعتراض وإسقاط مسيرة في سماء مدينة بندر إمام خميني في الساعات الأولى من صباح اليوم",
+      "text": "اليمن: السيد الحوثي: هناك حرمان مستمر لليمنيين من الثروة الوطنية وهي ثروة للشعب وليس للسعودي مثقال ذرة فيها",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "اليمن: السيد الحوثي: الإيرادات التي يمكن أن تكون للمرتبات للخدمات الأساسية للشعب اليمني حرم منها شعبنا من قبل السعودية بإشراف أميركي",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "بالفيديوl تمرد داخل &quot;سديه تيمان&quot;.. لماذا سلّم نحو 100 جندي إسرائيلي أسلحتهم وغادروا معسكر الاعتقال؟   https://qudsn.co/post/216807",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "الاحتلال يُنكّل بالفلسطينيين في أراضي قرية زيتا جماعين، جنوب نابلس.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "وزارة الصحة في غزة:  - أسر أُبيدت بالكامل ومُسحت من السجل المدني: 2,276 أسرة | 8,858 فردًا.  - أسر تعرّضت لمجازر وبقي منها ناجٍ واحد: 2,348 أسرة | 8,340 أفراد.  - أسر تعرّضت لمجازر وبقي منها أكثر من ناجٍ: 4,903 أسر | 13,607 أفراد.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
