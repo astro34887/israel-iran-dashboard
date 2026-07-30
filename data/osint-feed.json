@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-30T09:27:26.453Z",
+  "last_updated": "2026-07-30T11:48:38.891Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.18"
+    "global_knn_danger": "0.55",
+    "global_norm_sentiment": "-0.26"
   },
   "timeline": [
-    {
-      "time": "2026-07-25T22:51:23.841Z",
-      "danger": 0.578,
-      "sentiment": -0.287,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.536,
-          "sentiment": -0.367
-        },
-        "OSINTdefender": {
-          "danger": 0.553,
-          "sentiment": -0.3
-        },
-        "irna_1313": {
-          "danger": 0.499,
-          "sentiment": -0.533
-        },
-        "sepah_pasdaran": {
-          "danger": 0.528,
-          "sentiment": -0.833
-        },
-        "almanarnews": {
-          "danger": 0.433,
-          "sentiment": -0.233
-        },
-        "C_Military1": {
-          "danger": 0.814,
-          "sentiment": -0.367
-        },
-        "almayadeen": {
-          "danger": 0.636,
-          "sentiment": 0.3
-        },
-        "QudsN": {
-          "danger": 0.832,
-          "sentiment": -0.4
-        }
-      }
-    },
     {
       "time": "2026-07-25T23:56:38.204Z",
       "danger": 0.578,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.067
         }
       }
+    },
+    {
+      "time": "2026-07-30T11:48:38.891Z",
+      "danger": 0.553,
+      "sentiment": -0.257,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.581,
+          "sentiment": -0.667
+        },
+        "OSINTdefender": {
+          "danger": 0.507,
+          "sentiment": -0.2
+        },
+        "irna_1313": {
+          "danger": 0.486,
+          "sentiment": -0.233
+        },
+        "sepah_pasdaran": {
+          "danger": 0.533,
+          "sentiment": -0.433
+        },
+        "almanarnews": {
+          "danger": 0.51,
+          "sentiment": -0.133
+        },
+        "C_Military1": {
+          "danger": 0.734,
+          "sentiment": -0.3
+        },
+        "almayadeen": {
+          "danger": 0.696,
+          "sentiment": -0.133
+        },
+        "QudsN": {
+          "danger": 0.529,
+          "sentiment": -0.333
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.7333333333333333,
-      "knn_danger_metric": 0.5929546047553614
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.5811166191326792
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.47368141349524673
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.4859228684604494
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.5812024073408825
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.5325664612217785
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.49405225140325904
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.5095204806295718
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.6919774333612316
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.7337499533236539
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.5021630729201181
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.6962051560343906
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.4121855584547091
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.5294595905780459
     }
   },
   "semantic_logs": [
@@ -2348,16 +2348,37 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "משמרות המהפכה האיראנים: 3 מאנשינו נהרגו בתקיפה אמריקאית בזנג&#39;אן (צפון איראן).  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️پلیس سیستان‌وبلوچستان: یکی دیگر از مأموران فراجا، گروهبان‌یکم میثم کرمی، در حمله افراد مسلح به مأموران انتظامی در ایرانشهر به شهادت رسید. &lrm;✅ @sepah_pasdaran",
+      "text": "&rlm; ️انهدام سه فروند هواپیمای F۳۵ و خسارت به سه فروند دیگر در پایگاه الازرق اردن در پاسخ سپاه به جنایت آمریکا در حمله به قشم &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️انهدام ‌پهپاد متخاصم در ‌بندر امام خمینی‌  ‌سپاه&nbsp; بندر امام خمینی:در ساعات اولیه بامداد امروز، پنج‌شنبه هشتم مردادماه، یک فروند پهپاد متخاصم در آسمان شهر بندر امام خمینی رهگیری و منهدم شد. &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "🔵 زورق إسرائيلي يخرق المياه الإقليمية اللبنانية قبالة شاطئ المنصوري https://almanar.com.lb/article/1060477/?s=tg",
+      "text": "📹 تقارير مصورة | قلق صهيوني من تراجع نفوذ نتنياهو لدى الإدارة الأميركية https://almanar.com.lb/article/1060942/?s=tg",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 اعتصام امام وزارة التربية للأساتذة المتعاقدين مع الجامعة اللبنانية للمطالبة بإقرار التفرغ ومستشار الوزيرة كرامي أبلغهم بأن الملف أرسل الى رئاسة مجلس الوزراء تمهيدًا لإقراره https://www.almanar.com.lb/article/1061022?s=tg",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
@@ -2369,67 +2390,46 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صحيفة إسرائيل اليوم العبرية: تمرد في قاعدة سديه تيمان بعد خلاف مع قائد الكتيبة: ترك عشرات المقاتلين والقادة من كتيبة تسابار التابعة للواء جفعاتي أسلحتهم خلال الساعات الأخيرة، وغادروا القاعدة إلى منازلهم.  #ا��إعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة الإسلامية: ستتم معاقبة المعتدي اليوم",
+      "text": "إيران: حرس الثورة للشعب الأردني: رداً على العدوان الأميركي ومساعدةً لكم في تحرير الأردن من الاحتلال الأميركي استهدفنا قاعدة &quot;الأزرق&quot;",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: غارتان إسرائيليتان استهدفت إحداهما دراجة نارية في اليرموك وأخرى استهدفت مواطنين في شارع الجلاء",
+      "text": "إيران: حرس الثورة: استهدفنا منصة تمركز وحظيرة صيانة مقاتلات &quot;F-35&quot; التابعة للعدو الأميركي في قاعدة &quot;الأزرق&quot; الجوية في الأردن",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: &quot;فارس&quot;: سفينة الحاويات الإيرانية &quot;نورا&quot; عبرت خط الحصار الأميركي ودخلت المياه الدولية بعد أن شوهدت سابقاً بالقرب من جزيرة قشم",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: 4 إصابات جراء الغارة الإسرائيلية التي استهدفت شارع الجلاء",
-      "absolute_sentiment": -1,
+      "text": "إيران: محافظ خوزستان: العدوان الأميركي ليلة أمس على مدينة الأهواز ألحق أضراراً بمجمعين للسكن الطلابي",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: 4 شهداء بينهم طفلان وأكثر من 20 مصابا جراء غارات إسرائيلية استهدفت مناطق متفرقة فجر اليوم",
+      "text": "إيران: &quot;فارس&quot; عن حرس الثورة في بندر إمام خميني: اعتراض وإسقاط مسيرة في سماء مدينة بندر إمام خميني في الساعات الأولى من صباح اليوم",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: الطيران المسيّر الإسرائيلي يواصل التحليق على علوّ منخفض فوق مناطق الجنوب في خرقٍ مستمر للسيادة اللبنانية",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "&rlm;الشهيد الطفل زيد نوفل (عام ونصف) قتله الاحتلال فجر اليوم بغارة استهدفت منزلاً في مخيم البريج وسط قطاع غزة.   - زيد هو طفل أمه الوحيد الذي أنجبته بالحرب، بعدما قتل الاحتلال أبناءها الثلاثة (أمين وحمزة وأحمد) في بداية حرب الإبادة.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "آثار التخريب جرّاء تنفيذ جيش الاحتلال تفجيرًا عقب مداهمة منزل في مدينة طوباس.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: وفقًا لتقرير وكالة &quot;رويترز&quot;، حذر قائد قيادة القوات المشتركة الأمريكية جنودًا أمريكيين في الشرق الأوسط، قائلًا إن مقاطع الفيديو والصور التي ينشرونها عبر هواتفهم المحمولة تساعد إيران على تقييم نتائج هجماتها وتوجيه هجمات لاحقة.  أحد الأحداث الأخيرة كان تسجيلًا نشرته شبكة إلكترونية، يظهر فيه جندي أمريكي إطلاق صواريخ أمريكية من الكويت. بعد فترة وجيزة، تعرض الموقع لهجوم من قبل إيران، التي تمكنت من تحديد موقعه بسهولة.  #الإعلام_الحربي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9986256955089237
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو    صحيفة &quot;ذا ماركر&quot; العبرية: استثمرت وزارة الحرب خلال الشهرين الماضيين ما يقارب 1.5 مليار شيكل في شراء معدات لمواجهة طائرات حزب الله المسيّرة المتفجرة. وهذا يعني أن معظم المبلغ الذي خصصته وزارة المالية ووزارة الحرب لشراء هذه المعدات قد تم تحويله بالفعل إلى الموردين. ومن المتوقع أن تستخدم وزارة الحرب الرصيد المتبقي لإجراء عمليات شراء إضافية بناءً على النتائج المستخلصة من استخدام هذه التقنيات ميدانياً.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9973354161980501
     }
   ]
 }
