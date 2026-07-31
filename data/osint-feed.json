@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-30T23:01:30.759Z",
+  "last_updated": "2026-07-31T02:25:37.319Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.48",
-    "global_norm_sentiment": "-0.16"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.50",
+    "global_norm_sentiment": "-0.33"
   },
   "timeline": [
-    {
-      "time": "2026-07-26T15:01:17.412Z",
-      "danger": 0.509,
-      "sentiment": -0.244,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.422,
-          "sentiment": -0.333
-        },
-        "OSINTdefender": {
-          "danger": 0.545,
-          "sentiment": -0.367
-        },
-        "irna_1313": {
-          "danger": 0.413,
-          "sentiment": -0.292
-        },
-        "sepah_pasdaran": {
-          "danger": 0.454,
-          "sentiment": -0.433
-        },
-        "almanarnews": {
-          "danger": 0.302,
-          "sentiment": 0
-        },
-        "C_Military1": {
-          "danger": 0.777,
-          "sentiment": -0.367
-        },
-        "almayadeen": {
-          "danger": 0.613,
-          "sentiment": -0.367
-        },
-        "QudsN": {
-          "danger": 0.618,
-          "sentiment": -0.115
-        }
-      }
-    },
     {
       "time": "2026-07-26T16:54:16.904Z",
       "danger": 0.545,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.133
         }
       }
+    },
+    {
+      "time": "2026-07-31T02:25:37.319Z",
+      "danger": 0.502,
+      "sentiment": -0.33,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.532,
+          "sentiment": -0.333
+        },
+        "OSINTdefender": {
+          "danger": 0.551,
+          "sentiment": 0.2
+        },
+        "irna_1313": {
+          "danger": 0.535,
+          "sentiment": -0.433
+        },
+        "sepah_pasdaran": {
+          "danger": 0.38,
+          "sentiment": -0.767
+        },
+        "almanarnews": {
+          "danger": 0.305,
+          "sentiment": -0.3
+        },
+        "C_Military1": {
+          "danger": 0.6,
+          "sentiment": -0.467
+        },
+        "almayadeen": {
+          "danger": 0.362,
+          "sentiment": -0.6
+        },
+        "QudsN": {
+          "danger": 0.804,
+          "sentiment": -0.467
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.4125096658293358
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.5353818801494691
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.3081042039430602
+      "raw_sentiment": -0.7666666666666667,
+      "knn_danger_metric": 0.3795008045703438
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.2328865934497413
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.304783990419144
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.4666666666666667,
       "knn_danger_metric": 0.600359021397275
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.42142739688344444
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.3615733536109425
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.7969905763428159
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.8040097611835406
     }
   },
   "semantic_logs": [
@@ -2341,86 +2341,72 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "الميادين تحصل على نسخة من الورقة التنفيذية لاتفاق شرم الشيخ",
-      "absolute_sentiment": 0,
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm;#فوری | اصابت پهپاد شاهد به مواضع تروریست های تجزیه طلب &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "البند الثامن من الورقة: عملية حصر وتخزين السلاح الثقيل تبدأ بعد دخول اللجنة الوطنية وإنتشار قوة الإستقرار الدولية في القطاع",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "البند الثامن من الورقة: سترتبط هذه العملية بإنسحاب إسرائيلى على مراحل من المناطق التى تسيطر عليها فى غزة",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "ورقة الاتفاق: ستكون اللجنة الوطنية وحدها هى التى تحتفظ أو تخزن أو تسيطر على السلاح فى غزة بعد تطبيق البنود 7-10 من الخارطة",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية مراح رباح في بيت لحم",
+      "text": "فلسطين المحتلة: غازي حمد للميادين: تخزين السلاح سيكون تحت اشراف اللجنة الوطنية الفلسطينية ولا علاق للاحتلال به",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة عتيل شمال طولكرم.",
+      "text": "قوات الاحتلال تداهم عددًا من المنازل خلال اقتحامها المستمر لبلدة علار شمال طولكرم",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم مدينة نابلس من حاجز حوارة.",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة علار، شمال طولكرم.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "متابعة | قوات الاحتلال تداهم عددًا من المنازل خلال اقتحام بلدة علار، شمال طولكرم.",
+      "text": "متابعة | قوات الاحتلال تقتحم قرية سالم شرق مدينة نابلس.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم مدينة بيت لحم.",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم حي الماصيون بمدينة رام الله.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "لحظة اعتقال قوات الاحتلال الأسير المحرر &quot;حسين عبيات&quot; عقب مداهمة منزله في منطقة واد شاهين بمدينة بيت لحم.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية تل جنوب غرب نابلس",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم منزلاً خلال اقتحام &quot;واد شاهين&quot; بمدينة بيت لحم.",
-      "absolute_sentiment": 0,
+      "text": "مصادر محلية: قوات الاحتلال تداهم منزلاً خلال اقتحام قرية سالم شرق مدينة نابلس.",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال شارع الصف وسط بيت لحم.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم مدينة البيرة، وسط الضفة الغربية.",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية عورتا، جنوب شرق نابلس.",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
@@ -2430,6 +2416,20 @@
       "text": "#إعلام_العدو   القناة 13 العبرية:   صرح مسؤولون أمريكيون بأن الرئيس الأمريكي دونالد ترامب هاجم مسؤولي الأمن ، بل وصرخ في وجوههم وسبهم خلال اجتماع عقد مؤخراً تلقى خلاله تحديثاً عن وضع الحرب في إيران، وأعرب عن إحباطه الشديد لعدم تمكن هؤلاء المسؤولين من الاتفاق على استراتيجية.  كما زعم شخص مقرب من الرئيس، تحدث معه مؤخراً عن الحرب، أن إحباط ترامب ينبع أيضاً من رفض إيران العنيد للتفاوض، قائلاً: &quot;لا أعتقد أن ترامب كان يعتقد أن التوصل إلى اتفاق مع الإيرانيين سيكون بهذه الصعوبة. لم تكن هناك استراتيجية حقيقية بشأن المدة التي سيستغرقها الأمر أو ما يحتاجون إلى تحقيقه لإنهاء الحرب. لم يكن يتوقع أن تستمر الحرب كل هذه المدة&quot;.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9988217284876505
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 13 العبرية: تقدّر &quot;إسرائيل&quot; مساء اليوم أنه إذا لم يحدث تحول دراماتيكي في الأحداث، فإن ترامب سيأمر بتوسيع نطاق الهجمات على إيران.  #الإعلام_الحربي",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9983660049992396
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸حمله به جنوب لبنان/رژیم صهیونیستی از ۷۰۰ تُن ماده منفجره استفاده کرد 🔹رسانه‌ها از وقوع انفجارهای شدید در جنوب لبنان و کاربرد حدود ۷۰۰ تُن ماده منفجره توسط رژیم صهیونیستی با ادعای از بین بردن یک تونل متعلق به حزب‌الله در نزدیکی قلعه «الشقیف» خبر دادند.  #ایرنا_جهان  https://irna.ir/xjXTKC @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9967898028530019
     }
   ]
 }
