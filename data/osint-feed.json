@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-31T16:00:03.384Z",
+  "last_updated": "2026-07-31T17:46:49.866Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.21"
+    "global_knn_danger": "0.51",
+    "global_norm_sentiment": "-0.18"
   },
   "timeline": [
-    {
-      "time": "2026-07-26T22:56:46.113Z",
-      "danger": 0.505,
-      "sentiment": -0.287,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.298,
-          "sentiment": -0.567
-        },
-        "OSINTdefender": {
-          "danger": 0.499,
-          "sentiment": -0.067
-        },
-        "irna_1313": {
-          "danger": 0.614,
-          "sentiment": -0.367
-        },
-        "sepah_pasdaran": {
-          "danger": 0.513,
-          "sentiment": -0.6
-        },
-        "almanarnews": {
-          "danger": 0.358,
-          "sentiment": -0.033
-        },
-        "C_Military1": {
-          "danger": 0.608,
-          "sentiment": -0.1
-        },
-        "almayadeen": {
-          "danger": 0.31,
-          "sentiment": -0.733
-        },
-        "QudsN": {
-          "danger": 0.902,
-          "sentiment": -0.267
-        }
-      }
-    },
     {
       "time": "2026-07-26T23:58:51.430Z",
       "danger": 0.506,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.385
         }
       }
+    },
+    {
+      "time": "2026-07-31T17:46:49.866Z",
+      "danger": 0.513,
+      "sentiment": -0.183,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.276,
+          "sentiment": -0.4
+        },
+        "OSINTdefender": {
+          "danger": 0.558,
+          "sentiment": 0.067
+        },
+        "irna_1313": {
+          "danger": 0.475,
+          "sentiment": 0.133
+        },
+        "sepah_pasdaran": {
+          "danger": 0.461,
+          "sentiment": -0.7
+        },
+        "almanarnews": {
+          "danger": 0.395,
+          "sentiment": 0.233
+        },
+        "C_Military1": {
+          "danger": 0.717,
+          "sentiment": -0.1
+        },
+        "almayadeen": {
+          "danger": 0.605,
+          "sentiment": -0.433
+        },
+        "QudsN": {
+          "danger": 0.695,
+          "sentiment": -0.467
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.4811102832238479
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.2764058562312659
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.43596035293578844
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.47526062432401195
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.3943457780062383
+      "raw_sentiment": -0.7,
+      "knn_danger_metric": 0.46138309411298667
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.46287037069735637
+      "raw_sentiment": 0.23333333333333334,
+      "knn_danger_metric": 0.3945173371374924
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.7222292956456889
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.7171794192809628
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.7333333333333333,
-      "knn_danger_metric": 0.5993277923784242
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.6047532613956679
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 13,
-      "raw_sentiment": -0.38461538461538464,
-      "knn_danger_metric": 0.686926961684612
+      "num_messages": 15,
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.6947113352761742
     }
   },
   "semantic_logs": [
@@ -2334,16 +2334,16 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "🛑 מזרן אורטופדי קונים חכם ובטוח רק עם ד&quot;ר קומפורט 🛑  בלי לקרוע את הכיס, בלי לקחת סיכון עם מזרן שאולי לא יתאים לכם, ובמחיר חסכוני מדהים&#33;  הכירו את DOUBLE – המזרן האורטופדי לחוויית שינה מושלמת, ובעל 2 דרגות קושי לבחירתכם – רך וקשה – מה שהופך אותו למזרן עם התמורה הטובה ביותר למחיר&#33; 🔥  רק ב-1,790 ₪ בלבד (מחיר מומלץ לצרכן 5,990 ₪), ו-30 לילות ניסיון אצלכם בבית&#33;  בנוסף, תקבלו גם זוג כריות וויסקו מפנקות בשווי 880 ₪ – ב-מ-ת-נ-ה&#33; 🎁🎁🎁  המזרן מגיע גם עם:  🔥 12 שנות אחריות&#33;  🔥 פריסת תשלומים גמישה במיוחד&#33;  🔥 התאמה אישית על ידי יועץ שינה מקצועי&#33;  אל תפספסו, מהרו להשאיר פרטים &gt;&gt;  https://lp.drcomfort.co.il/mattress/double/?channelID=691164&amp;utm_source=abu_ali_express_telegram&amp;utm_medium=post&amp;utm_campaign=mattress_double",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️#فوری |منابع عربی از وقوع انفجارهایی در کویت خبر می‌دهند &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️#فوری |منابع عربی از وقوع انفجارهایی در کویت خبر می‌دهند &lrm;✅ @sepah_pasdaran",
+      "text": "دلاورمردان نیروی هوایی ارتش همراه با تصاویر منتشرنشده از حملهٔ عقابان تیزپرواز نیروی هوایی به پایگاه آمریکا  @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2364,64 +2364,50 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: شهيد وجرحى في عدوان طيران الاحتلال على شارع صلاح الدين شمال دير البلح وسط القطاع",
+      "text": "لبنان: مراسل الميادين في الجنوب: &quot;جيش&quot; الاحتلال الإسرائيلي نفذ تفجيراً في بلدة كفرتبنيت",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: &quot;جيش&quot; الاحتلال نفذ تفجيراً في بلدة كفرتبنيت",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: إصابة مواطن برصاص الاحتلال في جباليا البلد شمالي القطاع",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: عبد السلام: على النظام السعودي أن يتحمل كامل المسؤولية عما تسبب به من عدوان وإمعان في الحصار",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: الرئيس اللبناني جوزاف عون: التفجيرات الضخمة في جنوب لبنان تشكل تصعيداً بالغ الخطورة وتهديداً مباشراً لمسار &quot;اتفاق الإطار&quot;",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: عون: توقيت هذه الاعتداءات في الجنوب اللبناني عشية جلسة روما حول تنفيذ &quot;إطار العمل&quot; الثلاثي يبعث برسائل سلبية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: حزب الله: ندين اقتحام المستوطنين عددًا من القرى قرب نابلس وإقامة بؤر استيطانية جديدة بحماية مباشرة من قوات الاحتلال",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: حزب الله: على الدول العربية والإسلامية التحرك العاجل واتخاذ كل أشكال الضغط لوقف الجرائم المتمادية بحق الشعب الفلسطيني",
+      "text": "لبنان: نواف سلام: الاعتداءات الإسرائيلية نهج تصعيدي مدان وتمثل أيضاً تهديداً لسلامة أهل الجنوب",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "بحراسة جنود الاحتلال..  مشاهد من اقتحام المستوطنين لمناطق في غرب مدينة نابلس.",
-      "absolute_sentiment": 0.5,
+      "text": "فلسطين المحتلة: الهلال الأحمر الفلسطيني: إصابة شاب في اعتداء جنود الاحتلال عليه خلال اعتقاله من قرية تل جنوب غربي نابلس شمالي الضفة الغربية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: &quot;جيش&quot; الاحتلال الإسرائيلي نفذ تفجيرات في بلدة الطيبة جنوب لبنان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "الوكالة الفرنسية: إيطاليا تعلق &quot;اتفاقية شينغن&quot; مع إسبانيا بعد قضية المهاجرين من المغرب",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مستوطنون يرفعون علم الاحتلال خلال اقتحامهم المنطقة الغربية من قرية دير عمار، غرب رام الله.",
-      "absolute_sentiment": 0.5,
+      "text": "إصابات بالاختناق جراء إطلاق قوات الاحتلال قنابل الغاز بكثافة خلال اقتحام قرية المغير شمال شرق رام الله",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2430,6 +2416,20 @@
       "text": "#إعلام_العدو   مراسل القناة 14 العبرية: الحدث الخطير في لواء غفعاتي: يبدو أن القيادة العليا قررت تفكيك كتيبة &quot;صبار&quot;، وهي كتيبة المشاة المتفوقة في الجيش الإسرائيلي، بسبب جنون قائد الكتيبة الذي يعاني من مشكلة قيادة خطيرة.  ما لا يقل عن 17 مقاتلًا أُرسلوا إلى السجن لمدة 30 يومًا، ومن المتوقع أن يتعرض 3 آخرون لعقوبة مماثلة، مع إبعادهم جميعًا عن القتال.  وفوق ذلك، فإن الكتيبة بأكملها، التي كان من المقرر أن تخرج إلى راحة في المنزل خلال عطلة السبت، تلقت عقوبة جماعية بالبقاء في القاعدة.  بعد محادثات عديدة مع قادة ومقاتلين، هناك أمر واحد مؤكد هذا الصباح: إذا استُدعيت هذه الكتيبة المتميزة للقتال في إحدى الساحات عقب حادث مفاجئ، وهو سيناريو واقعي للغاية في ظل الوضع الحساس، فإن 0% من المقاتلين يثقون بقادتهم في ساحة المعركة، ومن المشكوك فيه مدى جاهزيتها لتنفيذ مهامها، إن كانت قادرة على ذلك أصلًا.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9989992034923518
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸واژگونی اتوبوس در الجزایر ۲۵ کشته برجای گذاشت  🔹️منابع خبری گزارش دادند که بر اثر واژگونی یک دستگاه اتوبوس در شمال الجزایر ۲۵ نفر کشته و ۴۴ نفر دیگر زخمی شده‌اند. #ایرنا_جهان  https://irna.ir/xjXTVx @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9900416935917431
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "يُبعدونها عن الباحات فيقربها الشوق..   المرابطة &quot;نفيسة خويص&quot; تصلي على جبل الزيتون قبالة المسجد الأقصى؛ تحدياً لقرارات الإبعاد الإسرائيلية المتواصلة بحقها",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9676318739878256
     }
   ]
 }
