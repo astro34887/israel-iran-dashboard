@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-07-31T09:40:16.448Z",
+  "last_updated": "2026-07-31T11:55:20.304Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.56",
-    "global_norm_sentiment": "-0.26"
+    "global_knn_danger": "0.50",
+    "global_norm_sentiment": "-0.19"
   },
   "timeline": [
-    {
-      "time": "2026-07-26T19:18:35.378Z",
-      "danger": 0.522,
-      "sentiment": -0.214,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.409,
-          "sentiment": -0.367
-        },
-        "OSINTdefender": {
-          "danger": 0.477,
-          "sentiment": -0.133
-        },
-        "irna_1313": {
-          "danger": 0.456,
-          "sentiment": -0.571
-        },
-        "sepah_pasdaran": {
-          "danger": 0.398,
-          "sentiment": 0.1
-        },
-        "almanarnews": {
-          "danger": 0.447,
-          "sentiment": -0.1
-        },
-        "C_Military1": {
-          "danger": 0.608,
-          "sentiment": -0.1
-        },
-        "almayadeen": {
-          "danger": 0.768,
-          "sentiment": -0.4
-        },
-        "QudsN": {
-          "danger": 0.706,
-          "sentiment": -0.433
-        }
-      }
-    },
     {
       "time": "2026-07-26T20:53:34.195Z",
       "danger": 0.504,
@@ -2261,13 +2214,60 @@
           "sentiment": 0.167
         }
       }
+    },
+    {
+      "time": "2026-07-31T11:55:20.304Z",
+      "danger": 0.504,
+      "sentiment": -0.193,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.622,
+          "sentiment": -0.4
+        },
+        "OSINTdefender": {
+          "danger": 0.558,
+          "sentiment": 0.067
+        },
+        "irna_1313": {
+          "danger": 0.555,
+          "sentiment": 0.1
+        },
+        "sepah_pasdaran": {
+          "danger": 0.399,
+          "sentiment": -0.567
+        },
+        "almanarnews": {
+          "danger": 0.29,
+          "sentiment": 0
+        },
+        "C_Military1": {
+          "danger": 0.722,
+          "sentiment": -0.233
+        },
+        "almayadeen": {
+          "danger": 0.379,
+          "sentiment": -0.7
+        },
+        "QudsN": {
+          "danger": 0.568,
+          "sentiment": -0.033
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.7666666666666667,
-      "knn_danger_metric": 0.524341776492366
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.6223874394444358
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.5249150532032908
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.5549712690051983
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.41621847927496736
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.3992602561996082
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.40154012061726957
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.29024598602035556
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.7047856492237162
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.7222818543984919
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.8081944178105345
+      "raw_sentiment": -0.7,
+      "knn_danger_metric": 0.37888883141578306
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.6812289286587359
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.5684108876643352
     }
   },
   "semantic_logs": [
@@ -2336,28 +2336,35 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "ערוצים לבנוניים מפרסמים הבוקר תיעוד של ההרס שנגרם באזור הבופור בעקבות הפיצוץ הלילה של צה&quot;ל.  תגובה אחת",
+      "text": "הסבר על נתיב ההגירה ממרוקו לספרד באמצעות המובלעות הספרדיות בצפון אפריקה  ראשית אדגיש, סאוטה ומלילה הן שטח ספרדי לכל דבר ועניין. הן לא מוגדרות &quot;קולוניות&quot;. סאוטה נכבשה בשנת  1415 על ידי פורטוגל ומלילה נכבשה בשנת 1497, הרבה לפני שמרוקו קיבלה את עצמאותה בשנת 1956.…",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "המהגרים נהנים מחוקי ההגירה המקלים של אירופה ובמיוחד של ספרד...  תגובה אחת",
+      "absolute_sentiment": -0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "הפלישה לסאוטה נמשכת - מושל סאוטה: כ - 60 אלף מהגרים מרוקאים עברו לשטח סאוטה ביממה האחרונה  בסרטון המצורף שצולם באזור עין לחצן - כ 40 ק&quot;מ דרומית לסאוטה ניתן לראות את המהגרים שבדרך... כולם רוצים לסאוטה - מגיעים במשאיות.  תגובה אחת",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "הסבר על נתיב ההגירה ממרוקו לספרד באמצעות המובלעות הספרדיות בצפון אפריקה  ראשית אדגיש, סאוטה ומלילה הן שטח ספרדי לכל דבר ועניין. הן לא מוגדרות &quot;קולוניות&quot;. סאוטה נכבשה בשנת  1415 על ידי פורטוגל ומלילה נכבשה בשנת 1497, הרבה לפני שמרוקו קיבלה את עצמאותה בשנת 1956.…",
+      "text": "סאוטה: &quot;הספרדים החדשים&quot; מידיים אבנים ובוזזים חנויות ובתים.  ברוכים הבאים(:  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "📹 بالفيديو | صور أقمار صناعية توثّق أضرارًا جديدة في قاعدة علي السالم الأميركية بالكويت https://almanar.com.lb/article/1062547/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "📹 بالفيديو | غبار التفجيرات الإسرائيلية يغطي قرى الجنوب https://almanar.com.lb/article/1062607/?s=tg",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️&rlm; آتش سوزی میدان نفتی الأحدب در استان واسط عراق، به دلایل نامعلوم &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
@@ -2369,59 +2376,10 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: مدفعية الاحتلال الإسرائيلي استهدفت بلدة طلوسة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: مسيرة جماهيرية حاشدة في محافظة صعدة تحت شعار &quot;الحصار بالحصار والتصعيد بالتصعيد&quot;",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: محلقة إسرائيلية ألقت قنبلة صوتية في بلدة المنصوري في قضاء صور",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "الصين: وزارة الخارجية: ستواصل الصين دعمها الثابت لكوبا في حماية سيادتها الوطنية ومعارضة التدخل الأجنبي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: اعتداء إسرائيلي بغارة على شارع المخابرات شمال غرب غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: مصابون أحدهم بحالة حرجة جراء استهداف طائرة مسيّرة إسرائيلية مجموعة من المواطنين في منطقة المخابرات شمال غربي مدينة غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: الناقلتان كانتا تحت حراسة جوية من الجيش الأميركي الإرهابي وتجاهلتا تحذيراتنا",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: رداً على البيان الكاذب للقيادة المركزية الأميركية أبلغنا مالكي السفن وشركات التأمين بضرورة عدم الالتفات لبياناتها",
-      "absolute_sentiment": -1,
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   صادر عن العلاقات العامة لحرس الثورة الإسلامية:   إن أبناء الشعب الإيراني الإسلامي الغيور والصانع للتاريخ في القوة البحرية التابعة للحرس الثوري، إلى جانب استمرار فرض الإدارة الكاملة على مضيق هرمز، يواصلون صون الأمانة التي أودعتموها لديهم،…",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2430,6 +2388,48 @@
       "text": "إيران: حرس الثورة: نحذر مجدداً بأن التدخلات والإملاءات غير القانونية التي يفرضها الجيش الأميركي الإرهابي على السفن لن تمر دون رد",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "الكويت: الجيش الكويتي: دمرنا طائرات مسيرة دخلت المجال الجوي للبلاد صباح اليوم",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فرنسا: الرئاسة الفرنسية: إصدار تعليمات بتشديد الرقابة على الحدود مع إسبانيا وفرنسا مستعدة لتقديم أي دعم قد تحتاجه السلطات الاسبانية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: &quot;جيش&quot; الاحتلال الإسرائيلي ينفذ تفجيراً في قرية دير سريان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "وزارة الصحة في غزة: أكثر من 53% من الأدوية رصيدها &quot;صفر&quot; في قطاع غزة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   مراسل القناة 14 العبرية: الحدث الخطير في لواء غفعاتي: يبدو أن القيادة العليا قررت تفكيك كتيبة &quot;صبار&quot;، وهي كتيبة المشاة المتفوقة في الجيش الإسرائيلي، بسبب جنون قائد الكتيبة الذي يعاني من مشكلة قيادة خطيرة.  ما لا يقل عن 17 مقاتلًا أُرسلوا إلى السجن لمدة 30 يومًا، ومن المتوقع أن يتعرض 3 آخرون لعقوبة مماثلة، مع إبعادهم جميعًا عن القتال.  وفوق ذلك، فإن الكتيبة بأكملها، التي كان من المقرر أن تخرج إلى راحة في المنزل خلال عطلة السبت، تلقت عقوبة جماعية بالبقاء في القاعدة.  بعد محادثات عديدة مع قادة ومقاتلين، هناك أمر واحد مؤكد هذا الصباح: إذا استُدعيت هذه الكتيبة المتميزة للقتال في إحدى الساحات عقب حادث مفاجئ، وهو سيناريو واقعي للغاية في ظل الوضع الحساس، فإن 0% من المقاتلين يثقون بقادتهم في ساحة المعركة، ومن المشكوك فيه مدى جاهزيتها لتنفيذ مهامها، إن كانت قادرة على ذلك أصلًا.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9989992034923518
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 13 العبرية:   صرح مسؤولون أمريكيون بأن الرئيس الأمريكي دونالد ترامب هاجم مسؤولي الأمن ، بل وصرخ في وجوههم وسبهم خلال اجتماع عقد مؤخراً تلقى خلاله تحديثاً عن وضع الحرب في إيران، وأعرب عن إحباطه الشديد لعدم تمكن هؤلاء المسؤولين من الاتفاق على استراتيجية.  كما زعم شخص مقرب من الرئيس، تحدث معه مؤخراً عن الحرب، أن إحباط ترامب ينبع أيضاً من رفض إيران العنيد للتفاوض، قائلاً: &quot;لا أعتقد أن ترامب كان يعتقد أن التوصل إلى اتفاق مع الإيرانيين سيكون بهذه الصعوبة. لم تكن هناك استراتيجية حقيقية بشأن المدة التي سيستغرقها الأمر أو ما يحتاجون إلى تحقيقه لإنهاء الحرب. لم يكن يتوقع أن تستمر الحرب كل هذه المدة&quot;.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9988217284876505
     }
   ]
 }
