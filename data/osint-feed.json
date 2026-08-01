@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-01T11:13:17.894Z",
+  "last_updated": "2026-08-01T13:09:38.317Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.19"
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.15"
   },
   "timeline": [
-    {
-      "time": "2026-07-27T23:59:24.430Z",
-      "danger": 0.514,
-      "sentiment": -0.257,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.303,
-          "sentiment": -0.367
-        },
-        "OSINTdefender": {
-          "danger": 0.581,
-          "sentiment": -0.4
-        },
-        "irna_1313": {
-          "danger": 0.474,
-          "sentiment": -0.167
-        },
-        "sepah_pasdaran": {
-          "danger": 0.409,
-          "sentiment": -0.633
-        },
-        "almanarnews": {
-          "danger": 0.356,
-          "sentiment": -0.033
-        },
-        "C_Military1": {
-          "danger": 0.629,
-          "sentiment": -0.3
-        },
-        "almayadeen": {
-          "danger": 0.44,
-          "sentiment": -0.367
-        },
-        "QudsN": {
-          "danger": 0.995,
-          "sentiment": -0.167
-        }
-      }
-    },
     {
       "time": "2026-07-28T02:55:30.600Z",
       "danger": 0.518,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.267
         }
       }
+    },
+    {
+      "time": "2026-08-01T13:09:38.317Z",
+      "danger": 0.519,
+      "sentiment": -0.149,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.348,
+          "sentiment": -0.458
+        },
+        "OSINTdefender": {
+          "danger": 0.598,
+          "sentiment": -0.233
+        },
+        "irna_1313": {
+          "danger": 0.562,
+          "sentiment": -0.167
+        },
+        "sepah_pasdaran": {
+          "danger": 0.453,
+          "sentiment": -0.167
+        },
+        "almanarnews": {
+          "danger": 0.491,
+          "sentiment": 0.467
+        },
+        "C_Military1": {
+          "danger": 0.727,
+          "sentiment": 0.033
+        },
+        "almayadeen": {
+          "danger": 0.465,
+          "sentiment": -0.7
+        },
+        "QudsN": {
+          "danger": 0.593,
+          "sentiment": -0.1
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2278,9 +2278,9 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 13,
-      "raw_sentiment": -0.34615384615384615,
-      "knn_danger_metric": 0.3896556025428285
+      "num_messages": 12,
+      "raw_sentiment": -0.4583333333333333,
+      "knn_danger_metric": 0.34805720986632344
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.5319606214135254
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.562357802584486
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.4222482909422104
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.4534627581131761
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.539944658939575
+      "raw_sentiment": 0.4666666666666667,
+      "knn_danger_metric": 0.4909098150424338
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.6878118131765194
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.726785477994582
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.4764277074697722
+      "raw_sentiment": -0.7,
+      "knn_danger_metric": 0.46533397468497933
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.6935976215928251
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.5932540437747134
     }
   },
   "semantic_logs": [
@@ -2334,52 +2334,10 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "4 הרוגים בשלוש תקיפות כטב&quot;מ שונות של צה&quot;ל בשעתיים האחרונות ברצועת עזה:  1. תקיפה סמוך לבית המרקחת אחמד, ברחוב 3  בצפון מערב העיר עזה - שני הרוגים:  חסן אבראהים קחמאן. עלאא עמאד א-תראמסי. (מצורפות תמונות)   2. תקיפה באזור אלמחטה במזרח  דיר אלבלח - הרוג אחד:  צאבר מוחמד רביע (&quot;אבו מוחמד&quot;).  3. תקיפת אוהל סמוך לבית הספר א-צמוד באזור אלמואצי, בדרום רצועת עזה - הרוג אחד ומספר פצועים - ההרוג הוא סאלם אבו לבדה.   תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️انهدام انبار داروهای بخش کلیه بیمارستان شهدای الاقصی غزه در حمله رژیم صهیونیستی &lrm;✅ @sepah_pasdaran",
+      "text": "&rlm; ️پنجره متفاوتی به آخرین دیدار شهید هنیه با رهبر شهید انقلاب، در روز قبل از شهادت در مردادماه ۱۴۰۳  بازنشر به مناسبت سالگرد شهادت مجاهد بزرگ شهید اسماعیل هنیه &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️#فوری | برخی منابع خبری از شنیده شدن صدای انفجار در کویت خبر می‌دهند &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️منابع عراقی تصاویری از آتش‌سوزی گسترده و بلندشدن ستون دود در یک پالایشگاه نفت در اربیل منتشر کردند &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "📹 بلديات جنوبية تعتصم في النبطية رفضاً للاعتداءات الإسرائيلية وتفجير القرى https://almanar.com.lb/article/1065567/?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "📹 خرق متواصل لوقف إطلاق النار في غزة.. شهداء وإصابات ودمار واسع جراء الاعتداءات الإسرائيلية https://almanar.com.lb/article/1065642/?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: وزارة الصحة في قطاع غزة: نستنكر الجريمة النكراء التي ارتكبتها قوات الاحتلال فجر اليوم، باستهدافها المباشر والممنهج لمخازن الأدوية في مستشفى شهداء الأقصى",
-      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2404,32 +2362,74 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "عاجل| 3 شهداء وصلوا مستشفيات قطاع غزة منذ فجر اليوم",
+      "text": "وسائل إعلام إسرائيليّة: &quot;الجيش&quot; الإسرائيلي: أُصيب ضابط بجروح متوسطة خلال عملية عسكرية في جنوب لبنان ليلاً",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "تابعوا الأخبار أولاً بأول، عبر قناة واتساب من خلال الرابط التالي:  https://whatsapp.com/channel/0029VbCpgXo8fewqkgDTLM2z",
+      "text": "قوات الاحتلال تواصل اقتحام مدينة قلقيلية.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "فيديو يوثق تعمد إطلاق قوات الاحتلال قنابل الغاز داخل محلات تجارية في قرية &quot;المجد&quot; غرب مدينة دورا، جنوب الخليل.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "“أشعر أني أعيش لأجل فلسطين وغزة”..   منذ ثلاثة أعوام، يجوب &quot;العم أبو أحمد&quot; شوارع الأردن بعربته البسيطة، ناشرًا أدعيةً لفلسطين وغزة والمسجد الأقصى، في رسالة وفاء لا تنقطع",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم المنطقة الشرقية في نابلس",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸مقابله رزمندگان حزب‌الله با نفوذ یگان ویژه رژیم صهیونیستی  🔹شبکه الجزیره به نقل از رسانه‌های رژیم صهیونیستی گزارش داد که رزمندگان حزب‌الله ساعات اولیه بامداد امروز با نیروهای یگان ویژه «ایغوز» ارتش این رژیم که قصد نفوذ به منطقه «علی الطاهر» در جنوب لبنان را داشتند، درگیر شدند. #ایرنا_جهان https://irna.ir/xjXVcT @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9983912185822161
     },
     {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مجمل استهدافات الاحتلال في قطاع غزة، منذ فجر اليوم:  •⁠&nbsp; ⁠استهداف منزل لعائلة الصلحات في مخيم المغازي وسط قطاع غزة   •⁠&nbsp; ⁠⁠استهداف مستودع ومخزن للمستلزمات الطبية في مستشفى شهداء الأقصى وسط قطاع غزّة   •⁠&nbsp; ⁠إطلاق نار من الآليات الإسرائيلية تجاه منطقة الواحة شمال غرب غزة   •⁠&nbsp; ⁠إطلاق نار من الطيران المسيّر تجاه مناطق شرق مدينة غزة  •⁠&nbsp; ⁠قصف مدفعي تجاه مناطق شمال غرب مدينة رفح جنوب قطاع غزة  •⁠&nbsp; ⁠⁠استهداف من طيران الاستطلاع قرب صيدلية أحمد في الشارع الثالث شمال غرب مدينة غزة - شهيدان  •⁠&nbsp; ⁠استهداف منزل في منطقة المحطة في دير البلح وسط قطاع غزة - شهيد واحد  •&nbsp; ⁠استهداف خيمة قرب مدرسة الصمود في مواصي القرارة جنوب قطاع غزة - شهيد وإصابات⁠",
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية: أصدرت السفارة الأمريكية في &quot;إسرائيل&quot; بيان جاء فيه:   نظراً لتصاعد التوترات في الشرق الأوسط، لا يزال الوضع الأمني معقداً مع احتمال حدوث تصعيد غير متوقع.  يتعين على المواطنين الأمريكيين الموجودين حالياً في الشرق الأوسط توخي الحذر والتحلي بأقصى درجات اليقظة، والاستعداد لاحتمال إلغاء الرحلات الجوية، وإغلاق المجال الجوي بشكل متقطع، وحدوث اضطرابات في حركة السفر. فقد قامت بعض شركات الطيران في المنطقة بتأجيل استئناف جداول رحلاتها السابقة، بينما ألغت شركات أخرى بعض المسارات. لذا، ينبغي على الأمريكيين في المنطقة التفكير في المغادرة أو الاستعداد لها في حال حدوث تصعيد.  #الإعلام_الحربي",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
+      "semantic_danger_knn": 0.9979630785221282
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   أمين المجلس الأعلى للأمن القومي الإيراني محمد باقر ذو القدر: إن استمرار الحصار البحري والإستفزاز من قبل النظام الأمريكي، لن يقتصر على إحكام الإغلاق على مضيق هرمز، بل سيؤدي إلى إغلاق مضائق وممرات مائية أخرى، وسيدفع ثمن ذلك الاقتصاد العالمي، وسوق الطاقة، والناخبون الأمريكيون.  #الإعلام_الحربي",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9978700158505528
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   المراسل العسكري لموقع &quot;والاه&quot; العبري: علامة أخرى على التصعيد الوشيك في الشرق الأوسط.. تدعو الولايات المتحدة إلى توخي الحذر واليقظة بدرجة أكبر، والاستعداد لاحتمال إلغاء الرحلات الجوية وإغلاق المجال الجوي، بما في ذلك اضطرابات في حركة السفر.  #الإعلام_الحربي",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9973354161980501
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸تغذیه با شیر مادر، سدی در برابر چاقی و دیابت نوع ۲  🔹معاون بهداشت دانشگاه علوم پزشکی جندی شاپور اهواز گفت: ارتقای شاخص تغذیه با شیر مادر، شیوع اضافه وزن و چاقی دوران کودکی را ۱۳ و بروز دیابت نوع ۲ را ۳۵ درصد کاهش می‌دهد.  https://irna.ir/xjXV58 @IRNA_1313",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9904567943036928
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸روایت هزاران‌ساله انسان بر بوم سنگ و آسمان  🔹در میان دره‌ها و صخره‌های خاموش تیمره، سنگ‌ها همچنان روایتگر زندگی انسان‌هایی هستند که هزاران سال پیش، اندیشه‌ها، باورها و لحظه‌های زندگی خود را بر پیکره طبیعت حک کردند.   🔹نقش‌نگاره‌های تیمره به عنوان یکی از ارزشمندترین گنجینه‌های هنر صخره‌ای ایران، تصویری از پیوند دیرینه انسان با طبیعت، شکار، آیین‌ها و زندگی اجتماعی را پیش چشم امروز قرار می‌دهد. تصاویری که با گذر قرن‌ها نه‌تنها رنگ نباخته‌اند، بلکه به سندی ماندگار از تاریخ بشریت تبدیل شده‌اند.  📸عکاس: #احمد_ریاحی_دهکردی  https://irna.ir/xjXV7B @IRNA_1313",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.9900416935917431
     }
   ]
 }
