@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-01T22:53:48.232Z",
+  "last_updated": "2026-08-01T23:53:42.741Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.55",
-    "global_norm_sentiment": "-0.20"
+    "global_knn_danger": "0.57",
+    "global_norm_sentiment": "-0.21"
   },
   "timeline": [
-    {
-      "time": "2026-07-28T20:13:36.356Z",
-      "danger": 0.521,
-      "sentiment": -0.393,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.476,
-          "sentiment": -0.4
-        },
-        "OSINTdefender": {
-          "danger": 0.474,
-          "sentiment": -0.367
-        },
-        "irna_1313": {
-          "danger": 0.46,
-          "sentiment": -0.467
-        },
-        "sepah_pasdaran": {
-          "danger": 0.431,
-          "sentiment": -0.9
-        },
-        "almanarnews": {
-          "danger": 0.431,
-          "sentiment": -0.333
-        },
-        "C_Military1": {
-          "danger": 0.711,
-          "sentiment": -0.5
-        },
-        "almayadeen": {
-          "danger": 0.668,
-          "sentiment": -0.6
-        },
-        "QudsN": {
-          "danger": 0.605,
-          "sentiment": -0.233
-        }
-      }
-    },
     {
       "time": "2026-07-28T21:59:36.839Z",
       "danger": 0.552,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.633
         }
       }
+    },
+    {
+      "time": "2026-08-01T23:53:42.741Z",
+      "danger": 0.567,
+      "sentiment": -0.212,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.443,
+          "sentiment": -0.25
+        },
+        "OSINTdefender": {
+          "danger": 0.579,
+          "sentiment": -0.367
+        },
+        "irna_1313": {
+          "danger": 0.612,
+          "sentiment": -0.067
+        },
+        "sepah_pasdaran": {
+          "danger": 0.471,
+          "sentiment": -0.4
+        },
+        "almanarnews": {
+          "danger": 0.37,
+          "sentiment": 0.133
+        },
+        "C_Military1": {
+          "danger": 0.81,
+          "sentiment": -0.167
+        },
+        "almayadeen": {
+          "danger": 0.64,
+          "sentiment": -0.333
+        },
+        "QudsN": {
+          "danger": 0.796,
+          "sentiment": -0.533
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 12,
-      "raw_sentiment": -0.20833333333333334,
-      "knn_danger_metric": 0.4347258142994314
+      "raw_sentiment": -0.25,
+      "knn_danger_metric": 0.4434637675659637
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,20 +2291,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.6029812110376244
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.6122872251995497
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.3898773120300632
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.4710935584142647
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.23333333333333334,
-      "knn_danger_metric": 0.43066156022518626
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.37046151080901
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.580322676437878
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.6396961555767491
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.7548859869390596
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.7962589608046501
     }
   },
   "semantic_logs": [
@@ -2334,17 +2334,17 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "irna_1313",
+      "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "🎥 انفجار در مسکو سه کشته بر جای گذاشت  🔹منابع خبری گزارش دادند که بر اثر وقوع یک انفجار در نزدیکی یک کافه تابستانی در مرکز مسکو حداقل سه نفر جان خود را از دست داده و ۱۵ نفر مجروح شده‌اند.  🔹به گزارش خبرگزاری ریانووستی، یک مقام وزارت کشور روسیه اعلام کرد که…",
+      "text": "&rlm; ️منابع عربی از شنیده‌شدن صدای انفجارهای پیاپی در مقر تجزیه‌طلبان تروریست در سلیمانیه عراق خبر می‌دهند. &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️منابع عربی از شنیده‌شدن صدای انفجارهای پیاپی در مقر تجزیه‌طلبان تروریست در سلیمانیه عراق خبر می‌دهند. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
+      "text": "&rlm; ️فوری | پرواز پهپاد شاهد درآسمان اربیل و حرکت به سوی مخفیگاه های تروریست ها &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2376,9 +2376,16 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية فقوعة شرق جنين.",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: قصف مدفعي إسرائيلي شمال غربي مدينة رفح جنوبي القطاع",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: ارتقاء 3 شهداء ومصابون جراء قصف إسرائيلي استهدف شقة سكنية في برج السوسي غربي مدينة غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2418,18 +2425,11 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية    أكدت وزارة الخارجية في بيان، مع تقديرها للقوات المسلحة، على مواصلة الدفاع المقتدر عن كيان إيران في مواجهة التهديدات والهجمات غير القانونية الأمريكية.  وأعلنت وزارة الخارجية أن إيران ستستخدم جميع أدواتها للدفاع المشروع عن حقوقها ومصالحها وأمنها القومي في مواجهة اعتداءات الولايات المتحدة والكيان الصهيوني.  واعتبرت الوزارة أن استمرار الحصار البحري، والتهديدات غير القانونية، والهجمات على البنى التحتية غير المدنية، يُعدّ مصداقًا واضحًا لـ«العمل العدواني» وانتهاكًا لميثاق الأمم المتحدة.  وأكد البيان أن صمت مجلس الأمن وتقاعس الأمين العام للأمم المتحدة إزاء هذه الاعتداءات يتعارضان مع المسؤوليات القانونية الملقاة على عاتق هاتين المؤسستين.  وأشارت وزارة الخارجية إلى دور الولايات المتحدة في زعزعة أمن مضيق هرمز وتصعيد التوترات، معلنة أن اختلاق الذرائع بشأن عبور السفن كان غطاءً للإجراءات العسكرية وممارسة الضغوط ضد إيران.  كما شدد البيان على أن إيران، إلى جانب إدانتها للاعتداء الأمريكي، تؤكد الحفاظ على علاقات ودية مع دول الجوار، ومواصلة الدفاع عن الاستقلال والعزة الوطنية وسيادة البلاد.  #الإعلام_الحربي",
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تقتحم بلدة سنجل، شمال رام الله.",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9994328602588204
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 12 العبرية: صرّح مصدر إسرائيلي اليوم في حديث مع القناة بأن &quot;التوترات بلغت مستويات قياسية، والوضع على وشك الانفجار&quot;. ووفقًا للمصدر نفسه، تُقدّر &quot;إسرائيل&quot; أن الرئيس الأمريكي دونالد ترامب &quot;أقرب من أي وقت مضى إلى شنّ هجوم كبير على إيران، لكن الأمر ليس مؤكدًا بعد&quot;. وقال المصدر الإسرائيلي: &quot;يُقدر أن ترامب لم يقرر بعد نطاق الهجوم، وليس من المعروف ما إذا كان يريد &quot;إسرائيل&quot; معه في المرحلة الأولى أم لا&quot;.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9989630263203699
+      "semantic_danger_knn": 1
     }
   ]
 }
