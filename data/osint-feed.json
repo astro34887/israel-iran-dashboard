@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-01T19:02:33.787Z",
+  "last_updated": "2026-08-01T20:45:21.471Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.17"
+    "global_norm_sentiment": "-0.21"
   },
   "timeline": [
-    {
-      "time": "2026-07-28T13:55:27.562Z",
-      "danger": 0.543,
-      "sentiment": -0.427,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.525,
-          "sentiment": -0.5
-        },
-        "OSINTdefender": {
-          "danger": 0.517,
-          "sentiment": -0.3
-        },
-        "irna_1313": {
-          "danger": 0.516,
-          "sentiment": -0.7
-        },
-        "sepah_pasdaran": {
-          "danger": 0.307,
-          "sentiment": -0.567
-        },
-        "almanarnews": {
-          "danger": 0.505,
-          "sentiment": -0.033
-        },
-        "C_Military1": {
-          "danger": 0.684,
-          "sentiment": -0.4
-        },
-        "almayadeen": {
-          "danger": 0.658,
-          "sentiment": -0.867
-        },
-        "QudsN": {
-          "danger": 0.772,
-          "sentiment": -0.767
-        }
-      }
-    },
     {
       "time": "2026-07-28T16:03:47.056Z",
       "danger": 0.505,
@@ -2261,6 +2214,53 @@
           "sentiment": 0.033
         }
       }
+    },
+    {
+      "time": "2026-08-01T20:45:21.471Z",
+      "danger": 0.53,
+      "sentiment": -0.21,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.435,
+          "sentiment": -0.333
+        },
+        "OSINTdefender": {
+          "danger": 0.579,
+          "sentiment": -0.367
+        },
+        "irna_1313": {
+          "danger": 0.633,
+          "sentiment": -0.333
+        },
+        "sepah_pasdaran": {
+          "danger": 0.399,
+          "sentiment": -0.267
+        },
+        "almanarnews": {
+          "danger": 0.372,
+          "sentiment": 0.267
+        },
+        "C_Military1": {
+          "danger": 0.81,
+          "sentiment": -0.167
+        },
+        "almayadeen": {
+          "danger": 0.557,
+          "sentiment": -0.167
+        },
+        "QudsN": {
+          "danger": 0.568,
+          "sentiment": -0.6
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2278,9 +2278,9 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 15,
+      "num_messages": 12,
       "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.5827583574021629
+      "knn_danger_metric": 0.4347258142994314
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.4633502327272021
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.6326275679324698
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.3289346649409452
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.3986460513295705
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": 0.26666666666666666,
-      "knn_danger_metric": 0.3922517042764194
+      "knn_danger_metric": 0.3722424013827718
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.8234337151254968
+      "knn_danger_metric": 0.8100812751347187
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.6393295020920173
+      "knn_danger_metric": 0.5574573739503763
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.5359012983545431
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.5676964758755781
     }
   },
   "semantic_logs": [
@@ -2334,60 +2334,25 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "שלושה הרוגים בשתי תקיפות כטב&quot;מ של צה&quot;ל בעיר עזה בשעתיים האחרונות.  בכך מגיע מספר ההרוגים מתקיפות צה&quot;ל ברצועה היום ל 7.  תגובה אחת",
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "📹 بلديات جنوبية تعتصم في النبطية رفضاً للاعتداءات الإسرائيلية وتفجير القرى https://almanar.com.lb/article/1065567/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️#پنجره متفاوتی به مراسم اقامه نماز رهبر شهید انقلاب بر پیکر مجاهد بزرگ شهید اسماعیل هنیه. ۱۴۰۳/۵/۱۱ &lrm;✅ @sepah_pasdaran",
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية فقوعة شرق جنين.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: قوات الاحتلال الإسرائيلي تنفذ تفجيراً في بلدة زوطر الشرقية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: &quot;نورنيوز&quot;: مهاجمة البنى التحتية للطاقة ليس مجرد إجراء اقتصادي بل استهداف مباشر للأمن القومي والردع والمعادلات الاستراتيجية",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: &quot;نورنيوز&quot;: مهاجمة البنى التحتية للطاقة تعني استهدافاً مباشراً للأمن القومي والردع والمعادلات الاستراتيجية للأطراف المنخرطة",
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية    أكدت وزارة الخارجية في بيان، مع تقديرها للقوات المسلحة، على مواصلة الدفاع المقتدر عن كيان إيران في مواجهة التهديدات والهجمات غير القانونية الأمريكية.  وأعلنت وزارة الخارجية أن إيران ستستخدم جميع أدواتها للدفاع المشروع عن حقوقها ومصالحها وأمنها القومي في مواجهة اعتداءات الولايات المتحدة والكيان الصهيوني.  واعتبرت الوزارة أن استمرار الحصار البحري، والتهديدات غير القانونية، والهجمات على البنى التحتية غير المدنية، يُعدّ مصداقًا واضحًا لـ«العمل العدواني» وانتهاكًا لميثاق الأمم المتحدة.  وأكد البيان أن صمت مجلس الأمن وتقاعس الأمين العام للأمم المتحدة إزاء هذه الاعتداءات يتعارضان مع المسؤوليات القانونية الملقاة على عاتق هاتين المؤسستين.  وأشارت وزارة الخارجية إلى دور الولايات المتحدة في زعزعة أمن مضيق هرمز وتصعيد التوترات، معلنة أن اختلاق الذرائع بشأن عبور السفن كان غطاءً للإجراءات العسكرية وممارسة الضغوط ضد إيران.  كما شدد البيان على أن إيران، إلى جانب إدانتها للاعتداء الأمريكي، تؤكد الحفاظ على علاقات ودية مع دول الجوار، ومواصلة الدفاع عن الاستقلال والعزة الوطنية وسيادة البلاد.  #الإعلام_الحربي",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: مراسلة الميادين في طهران: في كل ليلة تشهد الساحات الإيرانية مبايعة متجددة للقيادة الإيرانية والقوات المسلحة وتأييداً لقراراتها",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "تابعوا الأخبار أولاً بأول، عبر قناة واتساب من خلال الرابط التالي:  https://whatsapp.com/channel/0029VbCpgXo8fewqkgDTLM2z",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "دعوات للمشاركة في فعاليات اليوم الوطني والعالمي لنصرة غزة والأسرى، يوم الإثنين المقبل، الساعة 11:00 صباحًا في مدينتي البيرة ونابلس.",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
+      "semantic_danger_knn": 0.9994328602588204
     },
     {
       "channelId": "C_Military1",
@@ -2418,18 +2383,53 @@
       "semantic_danger_knn": 0.9979630785221282
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   المراسل العسكري لموقع &quot;والاه&quot; العبري: علامة أخرى على التصعيد الوشيك في الشرق الأوسط.. تدعو الولايات المتحدة إلى توخي الحذر واليقظة بدرجة أكبر، والاستعداد لاحتمال إلغاء الرحلات الجوية وإغلاق المجال الجوي، بما في ذلك اضطرابات في حركة السفر.  #الإعلام_الحربي",
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "إجمالي اعتداءات الاحتلال وغاراته على قطاع غزة منذ فجر اليوم:  •⁠  ⁠استهداف منزل في مخيم المغازي وسط قطاع غزة   •⁠  ⁠⁠استهداف مستودع ومخزن للمستلزمات الطبية في مستشفى شهداء الأقصى وسط قطاع غزّة   •⁠  ⁠إطلاق نار من الآليات الإسرائيلية تجاه منطقة الواحة شمال غرب غزة   •⁠  ⁠إطلاق نار من الطيران المسيّر تجاه مناطق شرق مدينة غزة  •⁠  ⁠قصف مدفعي تجاه مناطق شمال غرب مدينة رفح جنوب قطاع غزة  •⁠  ⁠⁠استهداف من طيران الاستطلاع قرب صيدلية أحمد في الشارع الثالث شمال غرب مدينة غزة - شهيدان  •⁠  ⁠استهداف منزل في منطقة المحطة في دير البلح وسط قطاع غزة - شهيد واحد  •⁠  ⁠استهداف خيمة قرب مدرسة الصمود في مواصي القرارة جنوب قطاع غزة - شهيد وإصابات⁠  •⁠  ⁠⁠انفجار عدة طائرات مسيرة انتحارية بمحيط نادي الزيتون في حي الزيتون جنوب مدينة غزة  •⁠  ⁠⁠استهدف سيارة في شارع الثلاثيني قرب شركة الكهرباء بمدينة غزة - شهيد وإصابات  •⁠  ⁠⁠إطلاق نار من الآليات الإسرائيلية تجاه بلدة بيت لاهيا شمال قطاع غزة  •⁠  ⁠⁠استهداف سطح منزل في حارة الريس جنوب مدينة غزة - شهيدان",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9973354161980501
+      "semantic_danger_knn": 0.9831612638637988
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸تجاوز نظامیان صهیونیست به استان‌های درعا و قنیطره سوریه  🔹 منابع خبری گزارش دادند که نظامیان رژیم صهیونیستی به مناطقی از استان‌های درعا و قنیطره سوریه تجاوز کرده‌اند.  🔹 به گزارش شنبه شب ایرنا از تلویزیون سوریه، گروهی از نظامیان رژیم صهیونیستی به همراه دو دستگاه تانک و یک دستگاه خودرو وارد منطقه غرفه مجحم در غرب استان درعا شده‌اند. #ایرنا_جهان  https://irna.ir/xjXVk6  @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9690454659779068
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل | 7 شهداء بنيران الاحتلال في قطاع غزة، منذ فجر اليوم.",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.991473512586189
+      "text": "عاجل | قوات الاحتلال تطلق الرصاص خلال اقتحامها لبلدة عزون، شرق قلقيلية.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9596045227592704
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | جرحى بقصف مدفعية الاحتلال قرب مفترق &quot;دولة&quot; في حيّ الزيتون، جنوب شرق مدينة غزة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9596045227592704
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | قوات الاحتلال تطلق قنابل الغاز باتجاه المنازل خلال اقتحام بلدة تقوع، جنوب شرق بيت لحم.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9596045227592704
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "📹 حصيلة الاعتداءات الصهيونية على القرى الجنوبية اليوم https://almanar.com.lb/article/1066477/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9490029583342011
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸تداوم تجاوز رژیم صهیونیستی به جنوب لبنان  🔹به گزارش رادیو النور، ارتش رژیم صهیونیستی اقدام به انجام یک انفجار شدید در شهرک طلوسه در جنوب لبنان کرده است.  🔹هنوز از ماهیت این انفجار و خسارت‌های آن گزارشی منتشر نشده است. #ایرنا_جهان  https://irna.ir/xjXVkv  @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9058413931802778
     }
   ]
 }
