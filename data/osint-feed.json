@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-01T20:45:21.471Z",
+  "last_updated": "2026-08-01T21:51:11.919Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.21"
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.19"
   },
   "timeline": [
-    {
-      "time": "2026-07-28T16:03:47.056Z",
-      "danger": 0.505,
-      "sentiment": -0.2,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.462,
-          "sentiment": -0.533
-        },
-        "OSINTdefender": {
-          "danger": 0.517,
-          "sentiment": -0.3
-        },
-        "irna_1313": {
-          "danger": 0.538,
-          "sentiment": 0
-        },
-        "sepah_pasdaran": {
-          "danger": 0.316,
-          "sentiment": -0.5
-        },
-        "almanarnews": {
-          "danger": 0.422,
-          "sentiment": 0.4
-        },
-        "C_Military1": {
-          "danger": 0.644,
-          "sentiment": -0.233
-        },
-        "almayadeen": {
-          "danger": 0.62,
-          "sentiment": -0.567
-        },
-        "QudsN": {
-          "danger": 0.579,
-          "sentiment": -0.133
-        }
-      }
-    },
     {
       "time": "2026-07-28T18:10:22.830Z",
       "danger": 0.522,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.6
         }
       }
+    },
+    {
+      "time": "2026-08-01T21:51:11.919Z",
+      "danger": 0.525,
+      "sentiment": -0.193,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.435,
+          "sentiment": -0.333
+        },
+        "OSINTdefender": {
+          "danger": 0.579,
+          "sentiment": -0.367
+        },
+        "irna_1313": {
+          "danger": 0.53,
+          "sentiment": -0.167
+        },
+        "sepah_pasdaran": {
+          "danger": 0.367,
+          "sentiment": -0.2
+        },
+        "almanarnews": {
+          "danger": 0.39,
+          "sentiment": 0.233
+        },
+        "C_Military1": {
+          "danger": 0.81,
+          "sentiment": -0.167
+        },
+        "almayadeen": {
+          "danger": 0.557,
+          "sentiment": -0.167
+        },
+        "QudsN": {
+          "danger": 0.632,
+          "sentiment": -0.633
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2291,20 +2291,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.6326275679324698
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.5295336286672881
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.3986460513295705
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.3670066245278329
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.26666666666666666,
-      "knn_danger_metric": 0.3722424013827718
+      "raw_sentiment": 0.23333333333333334,
+      "knn_danger_metric": 0.3900090132223092
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2321,8 +2321,8 @@
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.5676964758755781
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.6316931710050252
     }
   },
   "semantic_logs": [
@@ -2331,6 +2331,13 @@
       "channel": "IDF",
       "text": "״אני קורא לאכולוסייה החרדית ולהנהגה החרדית לעודד כל פעם קצת יותר לגיוס. יש לנו מסלולים יוצאים מן הכלל, השתחררו מהם אנשים לא פחות חרדים ואזרחים טובים יותר למדינה. זה טוב לכולם״  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
       "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🎥 انفجار در مسکو سه کشته بر جای گذاشت  🔹منابع خبری گزارش دادند که بر اثر وقوع یک انفجار در نزدیکی یک کافه تابستانی در مرکز مسکو حداقل سه نفر جان خود را از دست داده و ۱۵ نفر مجروح شده‌اند.  🔹به گزارش خبرگزاری ریانووستی، یک مقام وزارت کشور روسیه اعلام کرد که…",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2345,6 +2352,27 @@
       "channel": "Arab_Axis",
       "text": "مصادر محلية: قوات الاحتلال تقتحم قرية فقوعة شرق جنين.",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "&quot;كل يوم بنموت مليون مرة، ولا حدا حاسس فينا&quot;..  دوي الغارات وانفجارات النسف تخلع القلوب، ومشاهد تفوق الوصف..  هكذا تبدو مشاهد الليل في غزة، منذ 3 سنوات",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تداهم عددًا من المنازل خلال اقتحام بلدة دير غزالة شرق جنين.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تحتجز شابًا خلال اقتحام قرية فقوعة شرق جنين",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2383,25 +2411,18 @@
       "semantic_danger_knn": 0.9979630785221282
     },
     {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "إجمالي اعتداءات الاحتلال وغاراته على قطاع غزة منذ فجر اليوم:  •⁠  ⁠استهداف منزل في مخيم المغازي وسط قطاع غزة   •⁠  ⁠⁠استهداف مستودع ومخزن للمستلزمات الطبية في مستشفى شهداء الأقصى وسط قطاع غزّة   •⁠  ⁠إطلاق نار من الآليات الإسرائيلية تجاه منطقة الواحة شمال غرب غزة   •⁠  ⁠إطلاق نار من الطيران المسيّر تجاه مناطق شرق مدينة غزة  •⁠  ⁠قصف مدفعي تجاه مناطق شمال غرب مدينة رفح جنوب قطاع غزة  •⁠  ⁠⁠استهداف من طيران الاستطلاع قرب صيدلية أحمد في الشارع الثالث شمال غرب مدينة غزة - شهيدان  •⁠  ⁠استهداف منزل في منطقة المحطة في دير البلح وسط قطاع غزة - شهيد واحد  •⁠  ⁠استهداف خيمة قرب مدرسة الصمود في مواصي القرارة جنوب قطاع غزة - شهيد وإصابات⁠  •⁠  ⁠⁠انفجار عدة طائرات مسيرة انتحارية بمحيط نادي الزيتون في حي الزيتون جنوب مدينة غزة  •⁠  ⁠⁠استهدف سيارة في شارع الثلاثيني قرب شركة الكهرباء بمدينة غزة - شهيد وإصابات  •⁠  ⁠⁠إطلاق نار من الآليات الإسرائيلية تجاه بلدة بيت لاهيا شمال قطاع غزة  •⁠  ⁠⁠استهداف سطح منزل في حارة الريس جنوب مدينة غزة - شهيدان",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9831612638637988
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🎥 تظاهرات در پایتخت سوئد در حمایت و همبستگی با فلسطین  🔹خبرگزاری آناتولی گزارش داد: صدها نفر روز شنبه (۱۰ مرداد) در شهر استکهلم پایتخت سوئد در اعتراض به حمله‌های رژیم صهیونیستی به نوار غزه و کرانه باختری دست به تظاهرات زدند. #ایرنا_جهان  https://irna.ir/xjXVjV  @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9951957023429894
     },
     {
       "channelId": "irna_1313",
       "channel": "IRGC",
-      "text": "🔸تجاوز نظامیان صهیونیست به استان‌های درعا و قنیطره سوریه  🔹 منابع خبری گزارش دادند که نظامیان رژیم صهیونیستی به مناطقی از استان‌های درعا و قنیطره سوریه تجاوز کرده‌اند.  🔹 به گزارش شنبه شب ایرنا از تلویزیون سوریه، گروهی از نظامیان رژیم صهیونیستی به همراه دو دستگاه تانک و یک دستگاه خودرو وارد منطقه غرفه مجحم در غرب استان درعا شده‌اند. #ایرنا_جهان  https://irna.ir/xjXVk6  @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9690454659779068
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | قوات الاحتلال تطلق الرصاص خلال اقتحامها لبلدة عزون، شرق قلقيلية.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
+      "text": "🔸هشدار رئیس کل دادگستری گیلان در خصوص کشت مواد مخدر در روستاها  🔹 رئیس‌کل دادگستری استان گیلان با تأکید بر برخورد قاطع و هوشمندانه با جرائم مواد مخدر، نقش دهیاران را در پیشگیری از کشت مواد مخدر کلیدی دانست و هشدار داد در صورت اطلاع از کشت این گیاهان و عدم گزارش آن، با متخلفان برخورد جدی و قانونی خواهد شد.  https://irna.ir/xjXVjM  @IRNA_1313",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9904567943036928
     },
     {
       "channelId": "QudsN",
@@ -2409,27 +2430,6 @@
       "text": "عاجل | جرحى بقصف مدفعية الاحتلال قرب مفترق &quot;دولة&quot; في حيّ الزيتون، جنوب شرق مدينة غزة.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9596045227592704
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | قوات الاحتلال تطلق قنابل الغاز باتجاه المنازل خلال اقتحام بلدة تقوع، جنوب شرق بيت لحم.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "📹 حصيلة الاعتداءات الصهيونية على القرى الجنوبية اليوم https://almanar.com.lb/article/1066477/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9490029583342011
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸تداوم تجاوز رژیم صهیونیستی به جنوب لبنان  🔹به گزارش رادیو النور، ارتش رژیم صهیونیستی اقدام به انجام یک انفجار شدید در شهرک طلوسه در جنوب لبنان کرده است.  🔹هنوز از ماهیت این انفجار و خسارت‌های آن گزارشی منتشر نشده است. #ایرنا_جهان  https://irna.ir/xjXVkv  @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9058413931802778
     }
   ]
 }
