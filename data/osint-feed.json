@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-01T21:51:11.919Z",
+  "last_updated": "2026-08-01T22:53:48.232Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.19"
+    "global_knn_danger": "0.55",
+    "global_norm_sentiment": "-0.20"
   },
   "timeline": [
-    {
-      "time": "2026-07-28T18:10:22.830Z",
-      "danger": 0.522,
-      "sentiment": -0.361,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.449,
-          "sentiment": -0.208
-        },
-        "OSINTdefender": {
-          "danger": 0.504,
-          "sentiment": -0.3
-        },
-        "irna_1313": {
-          "danger": 0.402,
-          "sentiment": -0.2
-        },
-        "sepah_pasdaran": {
-          "danger": 0.351,
-          "sentiment": -0.533
-        },
-        "almanarnews": {
-          "danger": 0.437,
-          "sentiment": -0.133
-        },
-        "C_Military1": {
-          "danger": 0.711,
-          "sentiment": -0.467
-        },
-        "almayadeen": {
-          "danger": 0.689,
-          "sentiment": -0.967
-        },
-        "QudsN": {
-          "danger": 0.728,
-          "sentiment": -0.633
-        }
-      }
-    },
     {
       "time": "2026-07-28T20:13:36.356Z",
       "danger": 0.521,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.633
         }
       }
+    },
+    {
+      "time": "2026-08-01T22:53:48.232Z",
+      "danger": 0.553,
+      "sentiment": -0.197,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.435,
+          "sentiment": -0.208
+        },
+        "OSINTdefender": {
+          "danger": 0.579,
+          "sentiment": -0.367
+        },
+        "irna_1313": {
+          "danger": 0.603,
+          "sentiment": 0
+        },
+        "sepah_pasdaran": {
+          "danger": 0.39,
+          "sentiment": -0.3
+        },
+        "almanarnews": {
+          "danger": 0.431,
+          "sentiment": 0.233
+        },
+        "C_Military1": {
+          "danger": 0.81,
+          "sentiment": -0.167
+        },
+        "almayadeen": {
+          "danger": 0.58,
+          "sentiment": -0.367
+        },
+        "QudsN": {
+          "danger": 0.755,
+          "sentiment": -0.633
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,7 +2279,7 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 12,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.20833333333333334,
       "knn_danger_metric": 0.4347258142994314
     },
     "OSINTdefender": {
@@ -2291,20 +2291,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.5295336286672881
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.6029812110376244
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.3670066245278329
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.3898773120300632
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": 0.23333333333333334,
-      "knn_danger_metric": 0.3900090132223092
+      "knn_danger_metric": 0.43066156022518626
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.5574573739503763
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.580322676437878
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.6316931710050252
+      "knn_danger_metric": 0.7548859869390596
     }
   },
   "semantic_logs": [
@@ -2341,9 +2341,37 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️منابع عربی از شنیده‌شدن صدای انفجارهای پیاپی در مقر تجزیه‌طلبان تروریست در سلیمانیه عراق خبر می‌دهند. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
       "text": "📹 بلديات جنوبية تعتصم في النبطية رفضاً للاعتداءات الإسرائيلية وتفجير القرى https://almanar.com.lb/article/1065567/?s=tg",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: مصابون من جراء قصف إسرائيلي استهدف منزلاً في منطقة المشاعلة جنوب دير البلح وسط القطاع",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: غارة إسرائيلية تستهدف شقة سكنية غربي مدينة غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: شهيدان و مصابون جراء قصف إسرائيلي استهدف منزلاً بمنطقة المشاعلة جنوبي دير البلح وسط قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2376,6 +2404,20 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تقتحم مدينة نابلس من حاجز حوارة.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية عوريف جنوب نابلس.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#الجمهورية_الإسلامية    أكدت وزارة الخارجية في بيان، مع تقديرها للقوات المسلحة، على مواصلة الدفاع المقتدر عن كيان إيران في مواجهة التهديدات والهجمات غير القانونية الأمريكية.  وأعلنت وزارة الخارجية أن إيران ستستخدم جميع أدواتها للدفاع المشروع عن حقوقها ومصالحها وأمنها القومي في مواجهة اعتداءات الولايات المتحدة والكيان الصهيوني.  واعتبرت الوزارة أن استمرار الحصار البحري، والتهديدات غير القانونية، والهجمات على البنى التحتية غير المدنية، يُعدّ مصداقًا واضحًا لـ«العمل العدواني» وانتهاكًا لميثاق الأمم المتحدة.  وأكد البيان أن صمت مجلس الأمن وتقاعس الأمين العام للأمم المتحدة إزاء هذه الاعتداءات يتعارضان مع المسؤوليات القانونية الملقاة على عاتق هاتين المؤسستين.  وأشارت وزارة الخارجية إلى دور الولايات المتحدة في زعزعة أمن مضيق هرمز وتصعيد التوترات، معلنة أن اختلاق الذرائع بشأن عبور السفن كان غطاءً للإجراءات العسكرية وممارسة الضغوط ضد إيران.  كما شدد البيان على أن إيران، إلى جانب إدانتها للاعتداء الأمريكي، تؤكد الحفاظ على علاقات ودية مع دول الجوار، ومواصلة الدفاع عن الاستقلال والعزة الوطنية وسيادة البلاد.  #الإعلام_الحربي",
@@ -2388,48 +2430,6 @@
       "text": "#إعلام_العدو   القناة 12 العبرية: صرّح مصدر إسرائيلي اليوم في حديث مع القناة بأن &quot;التوترات بلغت مستويات قياسية، والوضع على وشك الانفجار&quot;. ووفقًا للمصدر نفسه، تُقدّر &quot;إسرائيل&quot; أن الرئيس الأمريكي دونالد ترامب &quot;أقرب من أي وقت مضى إلى شنّ هجوم كبير على إيران، لكن الأمر ليس مؤكدًا بعد&quot;. وقال المصدر الإسرائيلي: &quot;يُقدر أن ترامب لم يقرر بعد نطاق الهجوم، وليس من المعروف ما إذا كان يريد &quot;إسرائيل&quot; معه في المرحلة الأولى أم لا&quot;.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9989630263203699
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 15 العبرية: التوتر مع إيران: تم رفع مستوى التأهب الدفاعي في &quot;إسرائيل&quot;. وهو ليس في أعلى مستوياته ولا في ذروته، لكنه ارتفع. ضغطة واحدة إضافية، والجميع بانتظار ترامب.  التقدير هو أنه إذا هاجمت الولايات المتحدة، فإن &quot;إسرائيل&quot; ستتلقى ضربة من إيران وسترد عليها.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9986358496212904
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية: أصدرت السفارة الأمريكية في &quot;إسرائيل&quot; بيان جاء فيه:   نظراً لتصاعد التوترات في الشرق الأوسط، لا يزال الوضع الأمني معقداً مع احتمال حدوث تصعيد غير متوقع.  يتعين على المواطنين الأمريكيين الموجودين حالياً في الشرق الأوسط توخي الحذر والتحلي بأقصى درجات اليقظة، والاستعداد لاحتمال إلغاء الرحلات الجوية، وإغلاق المجال الجوي بشكل متقطع، وحدوث اضطرابات في حركة السفر. فقد قامت بعض شركات الطيران في المنطقة بتأجيل استئناف جداول رحلاتها السابقة، بينما ألغت شركات أخرى بعض المسارات. لذا، ينبغي على الأمريكيين في المنطقة التفكير في المغادرة أو الاستعداد لها في حال حدوث تصعيد.  #الإعلام_الحربي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9979630785221282
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 13 العبرية: ترامب على وشك اتخاذ قرار بشن هجوم على إيران. وفي &quot;إسرائيل&quot;، يقولون: هذه ساعات حاسمة.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9979630785221282
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🎥 تظاهرات در پایتخت سوئد در حمایت و همبستگی با فلسطین  🔹خبرگزاری آناتولی گزارش داد: صدها نفر روز شنبه (۱۰ مرداد) در شهر استکهلم پایتخت سوئد در اعتراض به حمله‌های رژیم صهیونیستی به نوار غزه و کرانه باختری دست به تظاهرات زدند. #ایرنا_جهان  https://irna.ir/xjXVjV  @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9951957023429894
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸هشدار رئیس کل دادگستری گیلان در خصوص کشت مواد مخدر در روستاها  🔹 رئیس‌کل دادگستری استان گیلان با تأکید بر برخورد قاطع و هوشمندانه با جرائم مواد مخدر، نقش دهیاران را در پیشگیری از کشت مواد مخدر کلیدی دانست و هشدار داد در صورت اطلاع از کشت این گیاهان و عدم گزارش آن، با متخلفان برخورد جدی و قانونی خواهد شد.  https://irna.ir/xjXVjM  @IRNA_1313",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9904567943036928
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | جرحى بقصف مدفعية الاحتلال قرب مفترق &quot;دولة&quot; في حيّ الزيتون، جنوب شرق مدينة غزة.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
     }
   ]
 }
