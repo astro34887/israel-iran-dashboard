@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-02T02:24:11.406Z",
+  "last_updated": "2026-08-02T05:53:14.302Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.56",
-    "global_norm_sentiment": "-0.28"
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.21"
   },
   "timeline": [
-    {
-      "time": "2026-07-28T23:06:41.018Z",
-      "danger": 0.578,
-      "sentiment": -0.35,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.476,
-          "sentiment": -0.467
-        },
-        "OSINTdefender": {
-          "danger": 0.474,
-          "sentiment": -0.4
-        },
-        "irna_1313": {
-          "danger": 0.433,
-          "sentiment": -0.1
-        },
-        "sepah_pasdaran": {
-          "danger": 0.638,
-          "sentiment": -0.367
-        },
-        "almanarnews": {
-          "danger": 0.459,
-          "sentiment": -0.533
-        },
-        "C_Military1": {
-          "danger": 0.739,
-          "sentiment": -0.333
-        },
-        "almayadeen": {
-          "danger": 0.697,
-          "sentiment": -0.8
-        },
-        "QudsN": {
-          "danger": 0.918,
-          "sentiment": -0.333
-        }
-      }
-    },
     {
       "time": "2026-07-29T02:11:15.380Z",
       "danger": 0.56,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.433
         }
       }
+    },
+    {
+      "time": "2026-08-02T05:53:14.302Z",
+      "danger": 0.531,
+      "sentiment": -0.207,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.44,
+          "sentiment": -0.333
+        },
+        "OSINTdefender": {
+          "danger": 0.563,
+          "sentiment": -0.367
+        },
+        "irna_1313": {
+          "danger": 0.46,
+          "sentiment": 0.133
+        },
+        "sepah_pasdaran": {
+          "danger": 0.431,
+          "sentiment": -0.533
+        },
+        "almanarnews": {
+          "danger": 0.437,
+          "sentiment": -0.1
+        },
+        "C_Military1": {
+          "danger": 0.81,
+          "sentiment": -0.167
+        },
+        "almayadeen": {
+          "danger": 0.612,
+          "sentiment": -0.833
+        },
+        "QudsN": {
+          "danger": 0.605,
+          "sentiment": 0.3
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2278,33 +2278,33 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 12,
-      "raw_sentiment": -0.25,
-      "knn_danger_metric": 0.4434637675659637
+      "num_messages": 15,
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.4402194117884192
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.5792859584479885
+      "knn_danger_metric": 0.5632863469436212
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.539143491037596
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.4598268793885002
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.4710935584142647
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.4313641892766331
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.37046151080901
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.4371281774756766
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.6872426629629462
+      "raw_sentiment": -0.8333333333333334,
+      "knn_danger_metric": 0.6120830058234301
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.7957791358253511
+      "raw_sentiment": 0.3,
+      "knn_danger_metric": 0.6050832987131508
     }
   },
   "semantic_logs": [
@@ -2355,9 +2355,9 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: مصابون من جراء قصف إسرائيلي استهدف منزلاً في منطقة المشاعلة جنوب دير البلح وسط القطاع",
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 مقتل 3 أشخاص وإصابة اثنين آخرين في حادث إطلاق النار بولاية أيداهو الأمريكية https://almanar.com.lb/article/1066997/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2379,7 +2379,7 @@
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
       "text": "فلسطين المحتلة: مراسل الميادين في غزة: قصف مدفعي إسرائيلي شمال غربي مدينة رفح جنوبي القطاع",
-      "absolute_sentiment": 0,
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2406,29 +2406,29 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم مدينة نابلس من حاجز حوارة.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية عوريف جنوب نابلس.",
+      "text": "مصادر محلية: قوات الاحتلال تعتقل &quot;أحمد حسين دويكات&quot; خلال اقتحام مدينة نابلس.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم بلدة سنجل، شمال رام الله.",
-      "absolute_sentiment": 0.5,
+      "text": "مصادر محلية: قوات الاحتلال تقتحم مدينة قلقيلية",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم مخيم الدهيشة شرقي بيت لحم.",
-      "absolute_sentiment": -1,
+      "text": "“أشعر أني أعيش لأجل فلسطين وغزة”..   منذ ثلاثة أعوام، يجوب &quot;العم أبو أحمد&quot; شوارع الأردن بعربته البسيطة، ناشرًا أدعيةً لفلسطين وغزة والمسجد الأقصى، في رسالة وفاء لا تنقطع",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "المسجد الأقصى المبارك فجر اليوم..",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     }
   ]
