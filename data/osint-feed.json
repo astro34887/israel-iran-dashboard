@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-02T19:14:26.048Z",
+  "last_updated": "2026-08-02T20:50:13.661Z",
   "tension": {
     "level": "CALM_CEASEFIRE",
     "global_knn_danger": "0.49",
-    "global_norm_sentiment": "-0.15"
+    "global_norm_sentiment": "-0.21"
   },
   "timeline": [
-    {
-      "time": "2026-07-29T20:51:14.858Z",
-      "danger": 0.546,
-      "sentiment": -0.157,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.542,
-          "sentiment": -0.733
-        },
-        "OSINTdefender": {
-          "danger": 0.556,
-          "sentiment": -0.467
-        },
-        "irna_1313": {
-          "danger": 0.474,
-          "sentiment": 0.067
-        },
-        "sepah_pasdaran": {
-          "danger": 0.497,
-          "sentiment": -0.067
-        },
-        "almanarnews": {
-          "danger": 0.273,
-          "sentiment": 0.3
-        },
-        "C_Military1": {
-          "danger": 0.647,
-          "sentiment": -0.333
-        },
-        "almayadeen": {
-          "danger": 0.77,
-          "sentiment": -0.067
-        },
-        "QudsN": {
-          "danger": 0.75,
-          "sentiment": -0.1
-        }
-      }
-    },
     {
       "time": "2026-07-29T21:56:32.162Z",
       "danger": 0.546,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.567
         }
       }
+    },
+    {
+      "time": "2026-08-02T20:50:13.661Z",
+      "danger": 0.493,
+      "sentiment": -0.207,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.472,
+          "sentiment": -0.4
+        },
+        "OSINTdefender": {
+          "danger": 0.507,
+          "sentiment": -0.333
+        },
+        "irna_1313": {
+          "danger": 0.337,
+          "sentiment": -0.167
+        },
+        "sepah_pasdaran": {
+          "danger": 0.357,
+          "sentiment": -0.433
+        },
+        "almanarnews": {
+          "danger": 0.247,
+          "sentiment": 0.167
+        },
+        "C_Military1": {
+          "danger": 0.791,
+          "sentiment": -0.233
+        },
+        "almayadeen": {
+          "danger": 0.592,
+          "sentiment": -0.467
+        },
+        "QudsN": {
+          "danger": 0.678,
+          "sentiment": -0.071
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,26 +2279,26 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.4779517582783984
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.471791685593703
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.5558065475035391
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.5069089428324893
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.4747848644732126
+      "num_messages": 12,
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.3373083654306402
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.36242620356180366
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.3567283374974442
     },
     "almanarnews": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.5,
-      "knn_danger_metric": 0.5700056066724372
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.5915205496829619
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.5131727991871768
+      "num_messages": 14,
+      "raw_sentiment": -0.07142857142857142,
+      "knn_danger_metric": 0.6779130195959656
     }
   },
   "semantic_logs": [
@@ -2336,43 +2336,57 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: بقائي: وضع أي قاعدة أو إمكانات عسكرية ولوجستية تحت تصرف الطرف المعتدي سيجعل تلك الدولة في صفّ المعتدين",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: بقائي: من المقرر أن نتفاهم مع عُمان على مسار في مضيق هرمز يتفق عليه الطرفان لا يكون المسار الشمالي ولا المسار الجنوبي",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: بقائي: سنتفق مع عُمان على مسار يضمن الحقوق السيادية لكلا الطرفين ويوفر مصالحنا وأمننا الوطني",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: بزشكيان: مذكرة التفاهم كانت ثمرة الحكمة الجماعية لأعضاء المجلس الأعلى للأمن القومي وجميعهم متفقون عليها ومتضامنون معها",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "تتجدد الفاجعة وتتلطخ الشوارع بالدماء..  مشاهد لدماء شهداء ارتقوا بقصف الاحتلال لمركبة في مدينة غزة",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "في أعلى حصيلة شهرية منذ مطلع العام..   وزارة الصحة في غزة تعلن استشهاد 152 فلسطينياً، بينهم 21 طفلًا و14 امرأة، جراء الاعتداءات الإسرائيلية المتواصلة خلال شهر تموز الماضي.",
+      "text": "غزة: مراسل الميادين: 19 شهيداً وعشرات المصابين وتدمير 3 منازل وشقق من جراء العدوان الإسرائيلي على قطاع غزة منذ فجر اليوم",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "&quot;أ.ف.ب&quot; عن مجموعة محامي الطوارئ: مقتل 35 شخصاً في قصف من طائرات مسيرة على محكمة أهلية شمالي دارفور",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: وزارة الخارجية: الوزير عراقتشي يبحث هاتفياً مع نظيره السعودي وقائد الجيش الباكستاني جهود تعزيز الأمن في غرب آسيا",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: وزارة الخارجية: الأطراف الثلاثة أكدت ضرورة الاستفادة من طاقات التعاون الإقليمي والحلول السياسية",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "&quot;نيويورك تايمز&quot;:  الأسوأ من قيام ترامب بحرب غير دستورية هو فقدانه السيطرة على هذه الحرب",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "&quot;نيويورك تايمز&quot;: ترامب اعتقد أنه قادر على إسقاط نظام متجذر ببضع غارات جوية وانتفاضة شعبية وهمية",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "&quot;نيويورك تايمز&quot;: العالم يسير نحو حرب عالمية ولا يبدو أن أحداً بمن فيهم الرئيس الأميركي يسيطر على مجريات الأحداث",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "تصعيد في غزة.. 18 شهيدًا وعشرات الإصابات  التفاصيل: https://qudsn.co/share/216848",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
@@ -2399,7 +2413,7 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 12 العبرية: مع ذلك، ك��ا كان قرار ترامب بالتراجع أمس مفاجئًا، يقدّر المستوى السياسي أنه قد يتخذ قرارًا مختلفًا خلال فترة قصيرة، خاصة وأنه، بحسب جميع التقديرات في &quot;إسرائيل&quot;، فإن الإيرانيين لم يُظهروا فجأة أي اعتدال ملحوظ. &quot;في النهاية، لن يكون أمامه خيار&quot;، هذا ما يقدّرونه في &quot;إسرائيل&quot;.  #الإعلام_الحربي",
+      "text": "#إعلام_العدو   القناة 12 العبرية: مع ذلك، ��ما كان قرار ترامب بالتراجع أمس مفاجئًا، يقدّر المستوى السياسي أنه قد يتخذ قرارًا مختلفًا خلال فترة قصيرة، خاصة وأنه، بحسب جميع التقديرات في &quot;إسرائيل&quot;، فإن الإيرانيين لم يُظهروا فجأة أي اعتدال ملحوظ. &quot;في النهاية، لن يكون أمامه خيار&quot;، هذا ما يقدّرونه في &quot;إسرائيل&quot;.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9971053727196456
     },
@@ -2416,20 +2430,6 @@
       "text": "#إعلام_العدو   القناة 12 العبرية: يقول مسؤولون كبار في &quot;إسرائيل&quot;: &quot;الأمر ليس سحرًا. فعندما يتم خفض حالة التأهب والجاهزية، يستغرق الأمر وقتًا لإعادة الاستعداد من جديد. من المحبط تسخير جميع الموارد لساحة واحدة، ثم اكتشاف أن الاستنفار كان بلا جدوى. نحن لا نفهم ما هي الغاية النهائية للرئيس.&quot;  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9957890513813449
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸مسیر هوایی اصفهان - استانبول فعال می‌شود  🔹مدیرکل فرودگاه‌های اصفهان از برقراری پروازهای مستقیم این استان در مسیر  استانبول و برعکس از ۱۷ مردادماه سال جاری خبر داد.  https://irna.ir/xjXVJh @IRNA_1313",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9904567943036928
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | قوات الاحتلال تطلق قنابل الصوت خلال اقتحامها لبلدة دير دبوان، شرق رام الله.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
     }
   ]
 }
