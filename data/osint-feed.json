@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-03T16:19:49.819Z",
+  "last_updated": "2026-08-03T18:48:10.693Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.17"
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.30"
   },
   "timeline": [
-    {
-      "time": "2026-07-30T15:49:07.556Z",
-      "danger": 0.552,
-      "sentiment": -0.166,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.538,
-          "sentiment": 0.143
-        },
-        "OSINTdefender": {
-          "danger": 0.507,
-          "sentiment": -0.2
-        },
-        "irna_1313": {
-          "danger": 0.565,
-          "sentiment": -0.4
-        },
-        "sepah_pasdaran": {
-          "danger": 0.567,
-          "sentiment": -0.7
-        },
-        "almanarnews": {
-          "danger": 0.442,
-          "sentiment": 0.3
-        },
-        "C_Military1": {
-          "danger": 0.692,
-          "sentiment": -0.4
-        },
-        "almayadeen": {
-          "danger": 0.595,
-          "sentiment": -0.2
-        },
-        "QudsN": {
-          "danger": 0.662,
-          "sentiment": -0.067
-        }
-      }
-    },
     {
       "time": "2026-07-30T17:22:12.582Z",
       "danger": 0.53,
@@ -2261,6 +2214,53 @@
           "sentiment": 0
         }
       }
+    },
+    {
+      "time": "2026-08-03T18:48:10.693Z",
+      "danger": 0.529,
+      "sentiment": -0.297,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.526,
+          "sentiment": -0.6
+        },
+        "OSINTdefender": {
+          "danger": 0.516,
+          "sentiment": -0.433
+        },
+        "irna_1313": {
+          "danger": 0.518,
+          "sentiment": 0.2
+        },
+        "sepah_pasdaran": {
+          "danger": 0.391,
+          "sentiment": -0.733
+        },
+        "almanarnews": {
+          "danger": 0.498,
+          "sentiment": 0.067
+        },
+        "C_Military1": {
+          "danger": 0.854,
+          "sentiment": -0.733
+        },
+        "almayadeen": {
+          "danger": 0.388,
+          "sentiment": -0.267
+        },
+        "QudsN": {
+          "danger": 0.655,
+          "sentiment": -0.333
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.454704033033631
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.5261759783355368
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.5128932920602826
+      "raw_sentiment": 0.2,
+      "knn_danger_metric": 0.5175627223944388
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.40619147722437554
+      "raw_sentiment": -0.7333333333333333,
+      "knn_danger_metric": 0.3906922222215979
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.26666666666666666,
-      "knn_danger_metric": 0.34853828708347206
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.49752096091955467
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.8407135843631698
+      "raw_sentiment": -0.7333333333333333,
+      "knn_danger_metric": 0.8540943331543264
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.5224117864680852
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.38793290094608873
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.6341084382260674
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.6553045841618071
     }
   },
   "semantic_logs": [
@@ -2334,16 +2334,23 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "הלבנונים מתלוננים: רחפן כריזה ישראלי משדר מילים לא מובנות מעל רכס עלי א-טאהר.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️روزنامه‌نگار مطرح ایتالیایی:این واقعیت غرب است، به جای تقدیر از ژنرال سلیمانی که فرمانده مبارزه با داعش بود، او را ترور کردیم... &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
+      "text": "&rlm; ️یک اربعین دلتنگیم رفته به سوی کربلا، چون بر مشامم می‌رسد هر لحظه بوی کربلا &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "📹 الرئيس الإيراني يؤكد دعم بلاده للشعب الفلسطيني في اتصال مع خليل الحية https://almanar.com.lb/article/1070512/?s=tg",
+      "text": "وزارة البيئة اللبنانية.. متابعة علمية للاعتداء الإسرائيلي بالمبيدات https://almanar.com.lb/article/1070537/?s=tg",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
@@ -2357,49 +2364,21 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: حماس: الحيّة شدد على تمسك الشعب الفلسطيني بحقوقه كاملة واستخدام كل الوسائل والسبل المشروعة لتحقيقها",
-      "absolute_sentiment": 1,
+      "text": "لبنان: مراسل الميادين في الجنوب: قصف مدفعي إسرائيلي استهدف منطقة المشاع عند أطراف بلدة المنصوري في قضاء صور",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: وزارة الخارجية: الوزير عباس عراقتشي ناقش في اتصال مع نظيره العماني آخر المستجدات الإقليمية",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: وزارة الخارجية: عراقتشي ناقش في اتصال مع نظيره الباكستاني آخر المستجدات الإقليمية والعملية الدبلوماسية الحالية",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مشاهد لمقر جمعية &quot;أيدي جيل المستقبل&quot; الذي أغلقه الاحتلال في مدينة نابلس، فجر اليوم.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "القناة 12 العبرية عن تحليل صور أقمار صناعية: &quot;إسرائيل&quot; دمرت 18 ألف مبنى في 19 قرية لبنانية.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "نتنياهو: &quot;لا يزال هناك محور شيعي متطرف، وهناك أيضاً محور سني متطرف يبرز بقوة&quot;.",
+      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي شمالي مخيّم البريج وسط قطاع غزة",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "القناة 12 العبرية عن تحليل صور أقمار صناعية:  &quot;إسرائيل&quot; دمرت 18 ألف مبنى في 19 قرية لبنانية",
+      "text": "100 شاحنة يوميًا.. الأورومتوسطي يحذر من نقل الاحتلال ركام غزة لطمس معالم جرائمه  https://qudsn.co/share/216869",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2430,6 +2409,27 @@
       "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: في خطوة غير معتادة، أقال وزير الحرب &quot;يسرائيل كاتس&quot; قائد المنطقة الوسطى آفي بلوت على الهواء مباشرةً يوم أمس خلال مقابلة مع القناة 14، وأعلن تعيين اللواء دادو بار خليفا بديلاً له.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9971059803222341
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   مراسل القناة 14 العبرية: يجدر بـرئيس الأركان أن يقدّم تفسيرات جيدة ومعللة لوزير الحرب، وقيادة الجيش الإسرائيلي، وشعب &quot;إسرائيل&quot;، حول كيف يوصي بترقية لواء إلى منصب معين، ثم بعد عدة أشهر، يكون الوزير قد هبّ لمساعدته وأقنع ذلك اللواء بتولي المنصب، يقرر إلغاء التعيين في خطوة سياسية دنيئة.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9961486516080662
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 13 العبرية: مكتب رئيس الوزراء، باسم مصدر سياسي: لن تنسحب &quot;إسرائيل&quot; من الخط الحالي في قطاع غزة.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9961486516080662
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 12 العبرية: يجري رئيس الحكومة بنيامين نتنياهو مناقشة أمنية بمشاركة وزير الحرب ورئيس الأركان.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9957890513813449
     }
   ]
 }
