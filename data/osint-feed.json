@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-04T21:07:36.544Z",
+  "last_updated": "2026-08-04T22:58:47.040Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.33"
+    "global_knn_danger": "0.55",
+    "global_norm_sentiment": "-0.42"
   },
   "timeline": [
-    {
-      "time": "2026-07-31T17:46:49.866Z",
-      "danger": 0.513,
-      "sentiment": -0.183,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.276,
-          "sentiment": -0.4
-        },
-        "OSINTdefender": {
-          "danger": 0.558,
-          "sentiment": 0.067
-        },
-        "irna_1313": {
-          "danger": 0.475,
-          "sentiment": 0.133
-        },
-        "sepah_pasdaran": {
-          "danger": 0.461,
-          "sentiment": -0.7
-        },
-        "almanarnews": {
-          "danger": 0.395,
-          "sentiment": 0.233
-        },
-        "C_Military1": {
-          "danger": 0.717,
-          "sentiment": -0.1
-        },
-        "almayadeen": {
-          "danger": 0.605,
-          "sentiment": -0.433
-        },
-        "QudsN": {
-          "danger": 0.695,
-          "sentiment": -0.467
-        }
-      }
-    },
     {
       "time": "2026-07-31T19:18:28.367Z",
       "danger": 0.508,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.067
         }
       }
+    },
+    {
+      "time": "2026-08-04T22:58:47.040Z",
+      "danger": 0.554,
+      "sentiment": -0.417,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.344,
+          "sentiment": -0.333
+        },
+        "OSINTdefender": {
+          "danger": 0.505,
+          "sentiment": -0.5
+        },
+        "irna_1313": {
+          "danger": 0.537,
+          "sentiment": -0.667
+        },
+        "sepah_pasdaran": {
+          "danger": 0.461,
+          "sentiment": -0.733
+        },
+        "almanarnews": {
+          "danger": 0.381,
+          "sentiment": 0.367
+        },
+        "C_Military1": {
+          "danger": 0.942,
+          "sentiment": -0.733
+        },
+        "almayadeen": {
+          "danger": 0.548,
+          "sentiment": -0.733
+        },
+        "QudsN": {
+          "danger": 0.877,
+          "sentiment": -0.7
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.32525122334450823
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.3437634115645874
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,20 +2290,20 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 11,
-      "raw_sentiment": -0.6818181818181818,
-      "knn_danger_metric": 0.5124730558739891
+      "num_messages": 15,
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.5368765804868929
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.41842565910861057
+      "raw_sentiment": -0.7333333333333333,
+      "knn_danger_metric": 0.4612842815370392
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.26666666666666666,
+      "raw_sentiment": 0.36666666666666664,
       "knn_danger_metric": 0.3810794558432357
     },
     "C_Military1": {
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.7,
-      "knn_danger_metric": 0.4958473083090074
+      "raw_sentiment": -0.7333333333333333,
+      "knn_danger_metric": 0.5475197547527716
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.73330600668031
+      "raw_sentiment": -0.7,
+      "knn_danger_metric": 0.8770041074048007
     }
   },
   "semantic_logs": [
@@ -2369,67 +2369,67 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة بيت فوريك شرق نابلس.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية تلفيت، جنوب نابلس.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية تل جنوب غرب نابلس.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة حلحول، شمال الخليل.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة بيت أمر، شمال الخليل.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   استطلاع معهد الأمن القومي الإسرائيلي:  برأيك، كيف ستؤثر حملة عسكرية أخرى ضد إيران على تحقيق كل واحد من الأهداف المحتملة التالية؟  يبدي الرأي العام تشككًا واسعًا في أن حملة عسكرية أخرى ستحقق الأهداف الرئيسية. وعلى الرغم من أن صياغة السؤال ومقاييس الإجابة تغيرت بين جولات الاستطلاع، فإن تسلسل النتائج يشير إلى تراجع ملحوظ في مستوى التوقعات.  فقط 7% يعتقدون أن حملة عسكرية أخرى ضد إيران ستؤدي إلى تفكيك البرنامج النووي بالكامل، بينما يعتقد 22% إضافيون أن تفكيك البرنامج سيتحقق إلى حد كبير. أما بالنسبة إلى بقية الأهداف، فلا يعتقد سوى أقلية أن هذه الأهداف ستتحقق بالكامل أو إلى حد كبير.  #الإعلام_الحربي",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 0.9994430570995737
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   استطلاع معهد الأمن القومي الإسرائيلي:  إلى أي مدى توافق على العبارة التالية:   &quot;القرارات التي تتخذها القيادة السياسية في القضايا المتعلقة بالأمن القومي تستند بالدرجة الأولى إلى اعتبارات أمنية، وليس إلى اعتبارات سياسية أو شخصية.&quot;  56% لا يوافقون على هذه العبارة: 30% &quot;لا يوافقون إلى حد ما&quot;، و26% &quot;لا يوافقون بشدة&quot;. في المقابل، يوافق 39% على هذه العبارة.  - التوزيع السياسي: 64% من ناخبي الائتلاف يوافقون على أن القرارات التي تتخذها القيادة السياسية تستند بالدرجة الأولى إلى اعتبارات أمنية، مقارنة بـ17% فقط من ناخبي المعارضة.  - التوزيع حسب الفئات السكانية: 55% من الجمهور اليهودي و60% من الجمهور العربي لا يوافقون على هذه العبارة.  #الإعلام_الحربي",
+      "text": "فلسطين المحتلة: مراسل الميادين: إطلاق نار مكثف من آليات الاحتلال الإسرائيلي شرقي حي التفاح شرقي مدينة غزة",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9994396766368574
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   استطلاع معهد الأمن القومي الإسرائيلي:  إلى أي مدى تؤيد أو تعارض توجيه إسرائيل ضربة استباقية لإيران في الوقت الحالي؟   ينقسم الرأي العام بشأن توجيه &quot;إسرائيل&quot; ضربة استباقية لإيران في الوقت الحالي، مع إبداء تشكك واسع في قدرة أي حملة عسكرية جديدة على تحقيق أهدافها الرئيسية.  يؤيد 42% توجيه &quot;إسرائيل&quot; ضربة استباقية لإيران في الوقت الحالي، بينهم 22% يؤيدون إلى حد ما و20% يؤيدون بشدة، مقابل 46% يعارضون ذلك. فيما أجاب 12% بـ&quot;لا أعرف&quot;.   وبالمقارنة مع يناير/كانون الثاني 2026، لم يطرأ أي تغير جوهري، إلا أن هناك ميلًا طفيفًا نحو زيادة المعارضة.  - التوزيع السياسي: يؤيد 64% من ناخبي الائتلاف توجيه ضربة استباقية، مقارنة بـ31% فقط من ناخبي المعارضة.  - التوزيع حسب الفئات السكانية: يؤيد 49% من اليهود توجيه الضربة، مقابل 15% فقط من العرب.  #الإعلام_الحربي",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 0.9990786846311147
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تداهم منزلاً خلال اقتحام بلدة بيت أمر شمال الخليل.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 15 العبرية - يوسي يهوشع:  تفيد تقارير في الولايات المتحدة الأمريكية بوجود نقص في الصواريخ الاعتراضية وصواريخ الهجوم، ما يقيّد حرية العمل تجاه إيران.  في المؤسسة الأمنية الإسرائيلية يحذّرون منذ أسابيع طويلة من نقص خطير في الميزانية المخصصة لتعزيز القدرات. وعلى عكس الأمريكيين، لا يفصّلون لدينا ما الذي يدور الحديث عنه تحديدًا.  يُحظر تكرار خطأ &quot;جيش لم يكن مستعدًا للحرب&quot;، كما كان في 7 أكتوبر. ويُحظر الوصول مرة أخرى إلى وضع من النقص في الصواريخ الاعتراضية، كما ورد بالفعل في الجولة السابقة مع إيران. لن يتمكن نتنياهو من القول: لم أكن أعلم، وكذلك الجمهور.  #الإعلام_الحربي",
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تداهم منزل الأسير المحرر عبد الباسط الحاج في قرية جلقموس شرق جنين.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9986358496212904
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تداهم عددًا من المنازل خلال اقتحام قرية عربونة، شرق جنين.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تداهم منزلاً خلال اقتحام بلدة السيلة الحارثية غرب جنين.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تعتقل الشاب &quot;جعفر مجدي حنني&quot; عقب مداهمة منزله في قرية بيت فوريك شرق نابلس.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تداهم منزلاً خلال اقتحام بلدة برقين غرب جنين.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قصف مدفعي وإطلاق نار كثيف من آليات الاحتلال يستهدف محيط شارع &quot;الدعوة&quot; شمال شرق مخيم النصيرات، وسط قطاع غزة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "لحظة اعتقال قوات الاحتلال الشاب مصطفى العيد عقب مداهمة منزله في بلدة برقين غرب جنين.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
     }
   ]
 }
