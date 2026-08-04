@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-04T10:33:18.583Z",
+  "last_updated": "2026-08-04T12:57:55.267Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.21"
+    "global_norm_sentiment": "-0.32"
   },
   "timeline": [
-    {
-      "time": "2026-07-31T09:40:16.448Z",
-      "danger": 0.557,
-      "sentiment": -0.26,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.524,
-          "sentiment": -0.767
-        },
-        "OSINTdefender": {
-          "danger": 0.558,
-          "sentiment": 0.067
-        },
-        "irna_1313": {
-          "danger": 0.525,
-          "sentiment": -0.333
-        },
-        "sepah_pasdaran": {
-          "danger": 0.416,
-          "sentiment": -0.5
-        },
-        "almanarnews": {
-          "danger": 0.402,
-          "sentiment": -0.067
-        },
-        "C_Military1": {
-          "danger": 0.705,
-          "sentiment": -0.433
-        },
-        "almayadeen": {
-          "danger": 0.808,
-          "sentiment": -0.6
-        },
-        "QudsN": {
-          "danger": 0.681,
-          "sentiment": 0.167
-        }
-      }
-    },
     {
       "time": "2026-07-31T11:55:20.304Z",
       "danger": 0.504,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.65
         }
       }
+    },
+    {
+      "time": "2026-08-04T12:57:55.267Z",
+      "danger": 0.529,
+      "sentiment": -0.323,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.599,
+          "sentiment": -0.567
+        },
+        "OSINTdefender": {
+          "danger": 0.505,
+          "sentiment": -0.267
+        },
+        "irna_1313": {
+          "danger": 0.406,
+          "sentiment": 0.067
+        },
+        "sepah_pasdaran": {
+          "danger": 0.452,
+          "sentiment": -0.433
+        },
+        "almanarnews": {
+          "danger": 0.308,
+          "sentiment": -0.3
+        },
+        "C_Military1": {
+          "danger": 0.832,
+          "sentiment": -0.433
+        },
+        "almayadeen": {
+          "danger": 0.506,
+          "sentiment": -0.367
+        },
+        "QudsN": {
+          "danger": 0.727,
+          "sentiment": -0.8
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.6255180477177026
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.5992154159413086
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 12,
-      "raw_sentiment": 0.2916666666666667,
-      "knn_danger_metric": 0.3813118418110937
+      "num_messages": 15,
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.40631010506074333
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.42896268100655083
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.45243366790474365
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.37409835649554374
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.308403490708613
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.8366405460733798
+      "knn_danger_metric": 0.8324108740085742
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.46477868860808885
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.5057968482475037
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 10,
-      "raw_sentiment": -0.65,
-      "knn_danger_metric": 0.7400064294980613
+      "num_messages": 15,
+      "raw_sentiment": -0.8,
+      "knn_danger_metric": 0.7270805790402599
     }
   },
   "semantic_logs": [
@@ -2343,36 +2343,50 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "ערוץ רשמי של חמאס על הודעת &quot;מועצת השלום&quot; אמש ☝️:   &quot;מועצת רצח העם&quot;: זעם פלסטיני נרחב בעקבות אימוץ תנאיו של נתניהו בידי מועצת השלום.   ##  גם התמונה מאותו המקור.  תגובה אחת",
+      "text": "טורקיה &quot;מביעה דאגה&quot;:   כטב&quot;מים אוקראיניים תקפו אתמול בים השחור שתי ספינות סוחר טורקיות שיצאו מנמל נובורוסיסק  - 3 אנשי צוות טורקים נפגעו בתקיפה - הם חולצו על ידי הכוחות הרוסים.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "מלחמת רוסיה אוקראינה: ה - Wildberries היומי   מתחם לוגיסטי נוסף של Wildberries המשתרע על שטח של 154 אלף מ&quot;ר בקרסני בור, סמוך לסנט פטרבורג, הותקף הבוקר על ידי כטב&quot;מים אוקראיניים.  תגובה אחת",
+      "text": "טורקיה &quot;מביעה דאגה&quot;:   כטב&quot;מים אוקראיניים תקפו אתמול בים השחור שתי ספינות סוחר טורקיות שיצאו מנמל נובורוסיסק  - 3 אנשי צוות טורקים נפגעו בתקיפה - הם חולצו על ידי הכוחות הרוסים.  תגובה אחת",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "רצועת עזה: זוהו שני המחבלים המפוחמים שחוסלו אמש בתקיפת הרכב☝️ בו נסעו על חוף ימה של העיר עזה:  1. סמיר אבו דלאל (החמוש יותר בתמונה הנוספת)  2. מחמד דרוויש  שניהם קשורים ע&quot;פ מקורות עזתיים לג&#39;האד האסלאמי. אבו דלאל הוא הבכיר מביניהם.  ## במהלך הלילה צה&quot;ל לא תקף…",
+      "absolute_sentiment": -0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "נציראת, מרכז הרצועה:  הלוויית המחבל סמיר אבו דלאל☝️שחוסל אמש בתקיפה על חוף ימה של העיר עזה (תושב נציראת).  בסרטון ניתן לראות מספר רב של מחבלים חמושים בפנים גלויות - שיורים באוויר.  צה&quot;ל לא תקף היום ברצועה.  תגובה אחת",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️یک راننده اتوبوس فلسطینی در حمله مرگبار شهرک‌نشینان صهیونیست دربیت‌المقدس جان باخت &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 112 شهيدًا .. أكبر جنازة جماعية في غزة https://almanar.com.lb/article/1071967/?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "📹 الاحتلال يواصل خروقاته جنوب لبنان… توغلات وتفجيرات وإحراق للمنازل https://almanar.com.lb/article/1072052/?s=tg",
+      "text": "&rlm; ️#تکمیلی | آتش‌سوزی یک مخزن گاز در شهرک صنعتی شمس‌آباد شهر ری  عضو هیأت مدیره شهرک صنعتی شمس‌آباد: دقایقی پیش یک مخزن گاز مایع در یکی از کارخانجا�� شهرک صنعتی شمس‌آباد دچار آتش‌سوزی شد.نیروهای آتش‌نشانی و امدادی هم اکنون در محل حضور دارند و درحال اطفای حریق هستند. &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️#تکمیلی | آتش‌سوزی یک مخزن گاز در شهرک صنعتی شمس‌آباد شهر ری  عضو هیأت مدیره شهرک صنعتی شمس‌آباد: دقایقی پیش یک مخزن گاز مایع در یکی از کارخانجات شهرک صنعتی شمس‌آباد دچار آتش‌سوزی شد.نیروهای آتش‌نشانی و امدادی هم اکنون در محل حضور دارند و درحال اطفای حریق…",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 المتحدث الرسمي للقوات المسلحة اليمنية يعلن عن استهداف هدف حساس سعودي في مطار نجران بطائرة مسيرة https://almanar.com.lb/article/1072267/?s=tg",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2404,30 +2418,16 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "الاحتلال يهدم مدرسة في منطقة قواويس بمسافر يطا جنوب الخليل",
-      "absolute_sentiment": -1,
+      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي يستهدف شمال شرقي مخيم البريج وسط قطاع غزة",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مركز حقوقي: منع الاحتلال إدخال المستلزمات الطبية يهدد بانهيار الرعاية الصحية في غزة  https://qudsn.co/share/216880",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "من مراسم أكبر جنازة في تاريخ القضية الفلسطينية والتي شيع خلالها 112 شهيدا من عائلتي أبو شريعة والحساينة والذين تم انتشالهم من مجزرة واحدة قضى فيها 308 شهداء خلال حرب الإبادة.",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "موكب الدم الذي لم يتوقف.. غزة تودع 112 شهيدا من أبناء عائلة ارتقوا بمجزرة واحدة راح ضحيتها 308 منهم في حي الصبرة بغزة خلال حرب الإبادة.",
+      "text": "الاحتلال يهدم بناية سكنية لعائلة &quot;أبو جمعة&quot; داخل بلدة الطور في القدس المحتلة.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
