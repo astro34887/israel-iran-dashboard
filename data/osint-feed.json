@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-04T19:25:31.521Z",
+  "last_updated": "2026-08-04T21:07:36.544Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.50",
-    "global_norm_sentiment": "-0.29"
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.33"
   },
   "timeline": [
-    {
-      "time": "2026-07-31T16:00:03.384Z",
-      "danger": 0.529,
-      "sentiment": -0.205,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.481,
-          "sentiment": -0.233
-        },
-        "OSINTdefender": {
-          "danger": 0.558,
-          "sentiment": 0.067
-        },
-        "irna_1313": {
-          "danger": 0.436,
-          "sentiment": 0.033
-        },
-        "sepah_pasdaran": {
-          "danger": 0.394,
-          "sentiment": -0.533
-        },
-        "almanarnews": {
-          "danger": 0.463,
-          "sentiment": 0.033
-        },
-        "C_Military1": {
-          "danger": 0.722,
-          "sentiment": -0.167
-        },
-        "almayadeen": {
-          "danger": 0.599,
-          "sentiment": -0.733
-        },
-        "QudsN": {
-          "danger": 0.687,
-          "sentiment": -0.385
-        }
-      }
-    },
     {
       "time": "2026-07-31T17:46:49.866Z",
       "danger": 0.513,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.5
         }
       }
+    },
+    {
+      "time": "2026-08-04T21:07:36.544Z",
+      "danger": 0.526,
+      "sentiment": -0.335,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.325,
+          "sentiment": -0.367
+        },
+        "OSINTdefender": {
+          "danger": 0.505,
+          "sentiment": -0.5
+        },
+        "irna_1313": {
+          "danger": 0.512,
+          "sentiment": -0.682
+        },
+        "sepah_pasdaran": {
+          "danger": 0.418,
+          "sentiment": -0.4
+        },
+        "almanarnews": {
+          "danger": 0.381,
+          "sentiment": 0.267
+        },
+        "C_Military1": {
+          "danger": 0.942,
+          "sentiment": -0.733
+        },
+        "almayadeen": {
+          "danger": 0.496,
+          "sentiment": -0.7
+        },
+        "QudsN": {
+          "danger": 0.733,
+          "sentiment": -0.067
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2290,21 +2290,21 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.4677275494652811
+      "num_messages": 11,
+      "raw_sentiment": -0.6818181818181818,
+      "knn_danger_metric": 0.5124730558739891
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.41959657430360603
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.41842565910861057
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.5666666666666667,
-      "knn_danger_metric": 0.32385348984685997
+      "raw_sentiment": 0.26666666666666666,
+      "knn_danger_metric": 0.3810794558432357
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.4392817031444468
+      "raw_sentiment": -0.7,
+      "knn_danger_metric": 0.4958473083090074
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.6657499202438468
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.73330600668031
     }
   },
   "semantic_logs": [
@@ -2341,6 +2341,13 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️رادار اصلی فرودگاه نجران عربستان در حمله تلافی جویانه امروز انصارالله منهدم شد &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
       "text": "إيران: &quot;فارس&quot;: في الأيام الماضية أرسل مسؤولون أميركيون إشارات متناقضة وتسببوا مباشرة أو عبر شركاء إقليميين في إرباك مسار التفاوض",
@@ -2351,6 +2358,48 @@
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
       "text": "فلسطين المحتلة: مراسل الميادين: مدفعية الاحتلال تستهدف المناطق الشرقية لمدينة غزة",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: &quot;جيش&quot; الاحتلال الإسرائيلي نفذ تفجيراً في بلدة حداثا جنوبي البلاد",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة بيت فوريك شرق نابلس.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية تلفيت، جنوب نابلس.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية تل جنوب غرب نابلس.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة حلحول، شمال الخليل.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة بيت أمر، شمال الخليل.",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
@@ -2381,55 +2430,6 @@
       "text": "#إعلام_العدو   القناة 15 العبرية - يوسي يهوشع:  تفيد تقارير في الولايات المتحدة الأمريكية بوجود نقص في الصواريخ الاعتراضية وصواريخ الهجوم، ما يقيّد حرية العمل تجاه إيران.  في المؤسسة الأمنية الإسرائيلية يحذّرون منذ أسابيع طويلة من نقص خطير في الميزانية المخصصة لتعزيز القدرات. وعلى عكس الأمريكيين، لا يفصّلون لدينا ما الذي يدور الحديث عنه تحديدًا.  يُحظر تكرار خطأ &quot;جيش لم يكن مستعدًا للحرب&quot;، كما كان في 7 أكتوبر. ويُحظر الوصول مرة أخرى إلى وضع من النقص في الصواريخ الاعتراضية، كما ورد بالفعل في الجولة السابقة مع إيران. لن يتمكن نتنياهو من القول: لم أكن أعلم، وكذلك الجمهور.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9986358496212904
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة إسرائيل اليوم العبرية: أرسل وزير الحرب &quot;يسرائيل كاتس&quot; مساء أمس رسالة تحذير إلى رئيس الوزراء، كتبها نائب رئيس الأركان وبدعم من رئيس الأركان، جاء فيها أن وزارة المالية تنتهك الاتفاق الذي أقرّه رئيس الوزراء ولا تحوّل إلى وزارة الحرب الميزانية التي التزمت بها خلال الأشهر الأخيرة.  ويحذّر من أنه إذا لم تنقل وزارة المالية الميزانية التي وُعد بها، فقد يضطر الجيش إلى تقليص قوات الاحتياط ووقف التجنيد للخدمة الدائمة.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9986358496212903
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   المتحدث باسم الخارجية الإيرانية:   - سيتم الإعلان عن النتائج النهائية لمفاوضاتنا مع عمان بعد استكمالها.  - نسعى مع عمان لوضع الآليات اللازمة للترتيبات المستقبلية لإدارة الملاحة في مضيق هرمز.  #الإعلام_الحربي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.998473562506925
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة إسرائيل اليوم العبرية: إذا أُجريت الانتخابات اليوم، لارتفع الحماس في كتلة يسار الوسط بشكلٍ كبير. يعتقد 64% من مؤيدي المعارضة أن هذه الانتخابات مؤثرة ولها تأثير كبير على مستقبل البلاد، وأن المشاركة فيها ضرورية للغاية. أما في الائتلاف، فالنسبة 49% فقط. هذا يعني فجوة حماسية بنسبة 15%، وهي نسبة كبيرة بكل المقاييس. يُظهر ناخبو آيزنكوت حماسًا أكبر بنسبة 20% من ناخبي نتنياهو (70% مقابل 50%).  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9976922097644287
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة إسرائيل اليوم العبرية:  إذا استمرت هذه الأرقام حتى يوم الانتخابات، فهذا تمهيد لانقلابٍ قادم. نتنياهو وسموتريتش، وبن غفير، لا ينشغلون إلا ببثّ الخوف الذي سيُوقظ غريزة البقاء، والتي بدورها ستدفع الناخبين إلى صناديق الاقتراع. أمامهم 12 أسبوعًا لإيقاظ أولئك الذين لا يريدون سوى الاستمرار في سباتهم. أما آيزنكوت وغولان، فيمكنهما توفير المال المُنفَق على نظام النقل. سيصل الجميع بمفردهم، وعلى نفقتهم الخاصة.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9973354161980501
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 12 العبرية: تم تأجيل الاجتماع إلى يوم الخميس.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9961486516080662
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 12 العبرية: تم إلغاء اجتماع الكابينيت الذي كان مقررًا عقده اليوم، وكان من المفترض أن يناقش خطة مجلس السلام بشأن غزة.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9957890513813449
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 12 العبرية: تم إلغاء اجتماع الكابينيت الذي كان مقررًا عقده اليوم، وكان من المفترض أن يناقش خطة مجلس السلام بشأن غزة.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9957890513813449
     }
   ]
 }
