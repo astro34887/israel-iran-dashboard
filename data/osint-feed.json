@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-05T09:33:39.995Z",
+  "last_updated": "2026-08-05T11:56:00.935Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.60",
-    "global_norm_sentiment": "-0.19"
+    "global_knn_danger": "0.55",
+    "global_norm_sentiment": "-0.39"
   },
   "timeline": [
-    {
-      "time": "2026-08-01T03:17:53.563Z",
-      "danger": 0.529,
-      "sentiment": -0.258,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.341,
-          "sentiment": -0.4
-        },
-        "OSINTdefender": {
-          "danger": 0.578,
-          "sentiment": -0.033
-        },
-        "irna_1313": {
-          "danger": 0.411,
-          "sentiment": 0.115
-        },
-        "sepah_pasdaran": {
-          "danger": 0.536,
-          "sentiment": -0.733
-        },
-        "almanarnews": {
-          "danger": 0.48,
-          "sentiment": -0.367
-        },
-        "C_Military1": {
-          "danger": 0.693,
-          "sentiment": -0.1
-        },
-        "almayadeen": {
-          "danger": 0.616,
-          "sentiment": -0.333
-        },
-        "QudsN": {
-          "danger": 0.687,
-          "sentiment": -0.6
-        }
-      }
-    },
     {
       "time": "2026-08-01T06:24:43.421Z",
       "danger": 0.519,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.133
         }
       }
+    },
+    {
+      "time": "2026-08-05T11:56:00.935Z",
+      "danger": 0.546,
+      "sentiment": -0.392,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.686,
+          "sentiment": -0.6
+        },
+        "OSINTdefender": {
+          "danger": 0.574,
+          "sentiment": -0.5
+        },
+        "irna_1313": {
+          "danger": 0.532,
+          "sentiment": -0.267
+        },
+        "sepah_pasdaran": {
+          "danger": 0.504,
+          "sentiment": -0.467
+        },
+        "almanarnews": {
+          "danger": 0.542,
+          "sentiment": -0.2
+        },
+        "C_Military1": {
+          "danger": 0.74,
+          "sentiment": -0.767
+        },
+        "almayadeen": {
+          "danger": 0.385,
+          "sentiment": -0.6
+        },
+        "QudsN": {
+          "danger": 0.545,
+          "sentiment": -0.389
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.6285722497873449
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.6864771304799411
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.566876711820435
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.5744460454786108
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 8,
-      "raw_sentiment": 0.6875,
-      "knn_danger_metric": 0.5739129123932664
+      "num_messages": 15,
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.531956138997437
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.6246193876592159
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.5036140596549784
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.40788970931848273
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.5420935560973018
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.913820406399757
+      "raw_sentiment": -0.7666666666666667,
+      "knn_danger_metric": 0.7398413234445868
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.7046291922966679
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.38473018146276
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.610161094682231
+      "num_messages": 9,
+      "raw_sentiment": -0.3888888888888889,
+      "knn_danger_metric": 0.5445845326242401
     }
   },
   "semantic_logs": [
@@ -2348,10 +2348,38 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "דובר צה&quot;ל: תיעוד ממצלמת הגוף של כלב עוקץ   תוואי תת-קרקעי ובתוכו עשרות רקטות הושמד בדרום הרצועה  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️شب گذشته گزارشاتی از صدای چند انفجار در بندر جبل علی امارات مخابره و تصاویری نیز منتسب از برخاستن دود پس از انفجارها منتشر شد. &lrm;✅ @sepah_pasdaran",
+      "text": "&rlm; ️قیمت نفت به ۷۶ دلار رسید &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 1254 شهيدًا منذ وقف إطلاق النار بغزة https://almanar.com.lb/article/1074142/?s=tg",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 بلدية فرون ثمنت استجابة وزارة الأشغال: البدء بأعمال وصل طريق النبطية بمنطقتي بنت جبيل ومرجعيون عبر جسر مؤقت https://almanar.com.lb/article/1074387/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 وزارة التربية والتعليم تصدر بيانا عن اللغط القائم حول أوضاع الطلبات الحرة وآلية منح الإفادات https://almanar.com.lb/article/1074407/?s=tg",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2364,72 +2392,44 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: الاحتلال الاسرائيلي نفذ تفجيراً في زوطر الشرقية",
+      "text": "لبنان: مراسل الميادين في الجنوب: قصف مدفعي إسرائيلي استهدف منطقة شعب القلب في بلدة شبعا",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "وسائل إعلام إسرائيلية: قتيلان على الأقل في صفوف &quot;الجيش&quot; الإسرائيلي بانفجار عبوة ناسفة في جنوب لبنان",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: الاحتلال ينفذ أعمال تجريف في أطراف كفرشوبا بالتزامن مع أعمال تمشيط بالأسلحة الرشاشة",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: القوات المسلحة: استهدفنا سفينة &quot;وفاء&quot; النفطية السعودية شمالي البحرِ الأحمر أمام منطقة &quot;ينبع&quot;",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: القوات المسلحة: إجمالي السفن التي استهدفتها قواتنا بلغ 8 سفن نفطية سعودية منذ بدء الحظر البحري",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: سريع: بلغ إجمالي السفن التي تم منعها وإجبارها على التراجع والعودة في البحرين الأحمرِ والعربي 29 سفينة نفطية سعودية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: القوات المسلحة: استهدفنا سفينة &quot;وفاء&quot; النفطية السعودية شمالي البحر الأحمر بصواريخ باليستية وكانت الإصابة دقيقة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: محلقة إسرائيلية ألقت قنبلة صوتية عند أطراف بلدة كفرشوبا",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "الاحتلال يهدم منزل الحاج عبد ربه كوازبة في منطقة المينا جنوب بيت لحم.",
+      "text": "وسائل إعلام إسرائيليّة: قتيلان و7 جرحى من اللواء 55 بانفجار عبوة ناسفة داخل مبنى مفخخ في جنوب لبنان",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل| الهلال الأحمر: إصابة رجل (٥٣ عاما) جراء اعتداء بالضرب من قبل جيش الاحتلال في مخيم قلنديا شمال القدس المحتلة.",
-      "absolute_sentiment": -1,
+      "text": "مرضى التحويلات الطبية ينظمون وقفة احتجاجية أمام مقر منظمة الصحة العالمية بدير البلح للمطالبة بحقهم في السفر وتلقي العلاج وتسريع إجراءات الإجلاء الطبي للحالات المرضية الصعبة",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "الاحتلال يواصل حملة الاعتقالات الواسعة في مخيم قلنديا شمال القدس المحتلة",
-      "absolute_sentiment": 0.5,
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة سبسطية شمال غرب نابلس",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 15 العبرية - يوسي يهوشع:  تفيد تقارير في الولايات المتحدة الأمريكية بوجود نقص في الصواريخ الاعتراضية وصواريخ الهجوم، ما يقيّد حرية العمل تجاه إيران.  في المؤسسة الأمنية الإسرائيلية يحذّرون منذ أسابيع طويلة من نقص خطير في الميزانية المخصصة لتعزيز القدرات. وعلى عكس الأمريكيين، لا يفصّلون لدينا ما الذي يدور الحديث عنه تحديدًا.  يُحظر تكرار خطأ &quot;جيش لم يكن مستعدًا للحرب&quot;، كما كان في 7 أكتوبر. ويُحظر الوصول مرة أخرى إلى وضع من النقص في الصواريخ الاعتراضية، كما ورد بالفعل في الجولة السابقة مع إيران. لن يتمكن نتنياهو من القول: لم أكن أعلم، وكذلك الجمهور.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9986358496212904
     }
   ]
 }
