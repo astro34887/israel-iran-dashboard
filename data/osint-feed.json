@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-05T18:17:31.808Z",
+  "last_updated": "2026-08-05T20:22:49.726Z",
   "tension": {
     "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.48",
-    "global_norm_sentiment": "-0.30"
+    "global_knn_danger": "0.49",
+    "global_norm_sentiment": "-0.21"
   },
   "timeline": [
-    {
-      "time": "2026-08-01T13:09:38.317Z",
-      "danger": 0.519,
-      "sentiment": -0.149,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.348,
-          "sentiment": -0.458
-        },
-        "OSINTdefender": {
-          "danger": 0.598,
-          "sentiment": -0.233
-        },
-        "irna_1313": {
-          "danger": 0.562,
-          "sentiment": -0.167
-        },
-        "sepah_pasdaran": {
-          "danger": 0.453,
-          "sentiment": -0.167
-        },
-        "almanarnews": {
-          "danger": 0.491,
-          "sentiment": 0.467
-        },
-        "C_Military1": {
-          "danger": 0.727,
-          "sentiment": 0.033
-        },
-        "almayadeen": {
-          "danger": 0.465,
-          "sentiment": -0.7
-        },
-        "QudsN": {
-          "danger": 0.593,
-          "sentiment": -0.1
-        }
-      }
-    },
     {
       "time": "2026-08-01T14:56:34.502Z",
       "danger": 0.541,
@@ -2261,13 +2214,60 @@
           "sentiment": 0
         }
       }
+    },
+    {
+      "time": "2026-08-05T20:22:49.726Z",
+      "danger": 0.485,
+      "sentiment": -0.207,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.448,
+          "sentiment": -0.133
+        },
+        "OSINTdefender": {
+          "danger": 0.586,
+          "sentiment": -0.133
+        },
+        "irna_1313": {
+          "danger": 0.547,
+          "sentiment": -0.633
+        },
+        "sepah_pasdaran": {
+          "danger": 0.279,
+          "sentiment": -0.033
+        },
+        "almanarnews": {
+          "danger": 0.385,
+          "sentiment": 0.033
+        },
+        "C_Military1": {
+          "danger": 0.607,
+          "sentiment": -0.8
+        },
+        "almayadeen": {
+          "danger": 0.538,
+          "sentiment": -0.2
+        },
+        "QudsN": {
+          "danger": 0.515,
+          "sentiment": -0.033
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.4484061766685986
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.4483200237398996
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,20 +2291,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.3886037632723504
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.5467277111917269
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.43055263727143483
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.27947559114825005
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.3562736457589725
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.3846229296133869
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.4735675639518416
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.537563732163448
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.58198451938613
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.515011707290577
     }
   },
   "semantic_logs": [
@@ -2336,56 +2336,35 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "יש מצב שחדלו את המטוסים באוויר - אחרי שצה&quot;ל כבר הודיע שהחלו התקיפות... בפועל אין דיווחים לבנוניים על תקיפות בכפר אלמנצורי לגביו פורסמה התרעת פינוי.  תגובה אחת",
-      "absolute_sentiment": -1,
+      "text": "תמונת לוויין עדכנית מהיום של כפר תבנית, בנפת נבטיה, הנמצא למרגלות רכס עלי א-טאהר.  מומלץ להגדיל את התמונה.  ## לתשומת ליבו של העוקב נעים קאסם... ☝️  תגובה אחת",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "יש מצב שחדלו את המטוסים באוויר - אחרי שצה&quot;ל כבר הודיע שהחלו התקיפות... בפועל אין דיווחים לבנוניים על תקיפות בכפר אלמנצורי לגביו פורסמה התרעת פינוי.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️قیمت جدید بنزین سوپر در بورس انرژی ۸۴,۶۰۰ تومان تعیین شد &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️#فوری |منابع عربی از حملۀ موشکی به بحرین خبر می‌دهند. &lrm;✅ @sepah_pasdaran",
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: إصابة مواطن برصاص الاحتلال في مواصي مدينة خان يونس جنوبي القطاع",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: غريب آبادي: يقع جزء كبير من المسار الجديد داخل المياه الإقليمية الإيرانية بينما يقع الجزء الآخر داخل المياه الإقليمية لعمان",
+      "text": "لبنان: مراسل الميادين في جنوب لبنان: استمرار القصف المدفعي الإسرائيلي على بلدة مجدل زون وأطراف بلدتي المنصوري والحنية",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: الهلال الأحمر الفلسطيني: إصابة 5 فلسطينيين من جراء هجوم للمستوطنين على خربة طوبا بمسافر يطا جنوب الخليل",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "أحد المنازل التي حولها الاحتلال لثكنة عسكرية وطرد سكانها في حي &quot;سطح مرحبا&quot; بمدينة البيرة.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "برفقة جرافة عسكرية.. الاحتلال يدفع بتعزيزات إضافية لقواته في مخيم قلنديا، شمال القدس المحتلة.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم بلدتي حجة وعزون، شرق قلقيلية.",
+      "text": "قوات الاحتلال تطلق الرصاص الحي تجاه الشبان خلال مواجهات عنيفة في قرية قراوة بني زيد، شمال غرب رام الله.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2406,9 +2385,23 @@
     {
       "channelId": "irna_1313",
       "channel": "IRGC",
-      "text": "🔸بیانیه تند اتحادیه لیگ‌های اروپایی علیه اینفانتینو: فیفا به اصلاحات مدیریتی احتیاج دارد   🔹اتحادیه لیگ‌های اروپایی با رد پیشنهاد افزایش تعداد تیم‌های جام جهانی مردان ۲۰۳۰ به ۶۴ تیم و طرح فروش حقوق تجاری جام جهانی، خواستار اصلاحات مدیریتی در فیفا شد. https://irna.ir/xjXWJS @IRNA_1313",
+      "text": "🔸نیروهای مسلح یمن یک نفتکش دیگر عربستان را هدف قرار دادند  🔹 سخنگوی نیروهای مسلح یمن چهارشنبه شب اعلام کرد که نفتکش سعودی «دیزی» (Daisy)‌ در خلیج عدن با موشک بالستیک توسط نیروهای مسلح یمن هدف قرار گرفته شد. #ایرنا_جهان  https://irna.ir/xjXWKx @IRNA_1313",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9900416935917431
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | إصابة عدد من الفلسطينيين؛ جراء اعتداء جنود الاحتلال عليهم بالضرب في المنطقة الشرقية من بلدة بيت فوريك، شرق نابلس.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9596045227592704
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | قوات الاحتلال تواصل شن حملة مداهمات واسعة لمنازل الفلسطينيين في مخيم قلنديا، شمال القدس المحتلة.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9596045227592704
     },
     {
       "channelId": "C_Military1",
@@ -2430,6 +2423,13 @@
       "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: الحادث الصعب في جنوب لبنان: مقتل مقاتلين اثنين من الكتيبة 28 خلال نشاط عملياتي، وإصابة أربعة آخرين. وجاء في رسالة أُرسلت إلى عائلات أفراد الكتيبة 28 أنه خلال النشاط العملياتي الذي نفذته الكتيبة اليوم، قُتل اثنان من مقاتلي السرية &quot;أ&quot;، وأصيب أربعة مقاتلين آخرين.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.931944130094249
+    },
+    {
+      "channelId": "OSINTdefender",
+      "channel": "Global_OSINT",
+      "text": "#Russia #NK  North Korea has deployed a missile unit to Russia&#39;s Voronezh region to support strikes against Ukraine.   Subscribe to @OSINTdefender Chat room",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9193656830140879
     }
   ]
 }
