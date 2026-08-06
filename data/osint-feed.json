@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-06T08:27:54.385Z",
+  "last_updated": "2026-08-06T11:18:35.806Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.15"
+    "global_knn_danger": "0.54",
+    "global_norm_sentiment": "-0.25"
   },
   "timeline": [
-    {
-      "time": "2026-08-01T21:51:11.919Z",
-      "danger": 0.525,
-      "sentiment": -0.193,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.435,
-          "sentiment": -0.333
-        },
-        "OSINTdefender": {
-          "danger": 0.579,
-          "sentiment": -0.367
-        },
-        "irna_1313": {
-          "danger": 0.53,
-          "sentiment": -0.167
-        },
-        "sepah_pasdaran": {
-          "danger": 0.367,
-          "sentiment": -0.2
-        },
-        "almanarnews": {
-          "danger": 0.39,
-          "sentiment": 0.233
-        },
-        "C_Military1": {
-          "danger": 0.81,
-          "sentiment": -0.167
-        },
-        "almayadeen": {
-          "danger": 0.557,
-          "sentiment": -0.167
-        },
-        "QudsN": {
-          "danger": 0.632,
-          "sentiment": -0.633
-        }
-      }
-    },
     {
       "time": "2026-08-01T22:53:48.232Z",
       "danger": 0.553,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.133
         }
       }
+    },
+    {
+      "time": "2026-08-06T11:18:35.806Z",
+      "danger": 0.538,
+      "sentiment": -0.254,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.554,
+          "sentiment": -0.233
+        },
+        "OSINTdefender": {
+          "danger": 0.59,
+          "sentiment": 0
+        },
+        "irna_1313": {
+          "danger": 0.436,
+          "sentiment": -0.7
+        },
+        "sepah_pasdaran": {
+          "danger": 0.422,
+          "sentiment": -0.033
+        },
+        "almanarnews": {
+          "danger": 0.549,
+          "sentiment": 0.033
+        },
+        "C_Military1": {
+          "danger": 0.642,
+          "sentiment": -0.4
+        },
+        "almayadeen": {
+          "danger": 0.783,
+          "sentiment": -0.5
+        },
+        "QudsN": {
+          "danger": 0.45,
+          "sentiment": -0.577
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2278,9 +2278,9 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 13,
-      "raw_sentiment": -0.23076923076923078,
-      "knn_danger_metric": 0.5805904297664845
+      "num_messages": 15,
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.554361998637005
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,20 +2291,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.32144358709429244
+      "raw_sentiment": -0.7,
+      "knn_danger_metric": 0.4363892171266378
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.5648648529848008
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.42172977335598677
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.40229089639480736
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.5493100497265652
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.6911113715960726
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.78309391523599
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.5278879366127072
+      "num_messages": 13,
+      "raw_sentiment": -0.5769230769230769,
+      "knn_danger_metric": 0.4503948623677607
     }
   },
   "semantic_logs": [
@@ -2348,16 +2348,9 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️دستگیری ۸ تروریست که مهندسین حوزۀ زیرساخت را گروگان‌ می‌گرفتند  روابط‌عمومی قرارگاه قدس نیروی زمینی سپاه: ۸ نفر از اشرار و مرتبطین گروهک‌های تروریستی منطقه که با تشکیل تیم‌های مسلح اقدام به ایجاد ناامنی و اجرای اقدامات مختلف ضدامنیتی، گروگان‌گیری نیروها و مهندسین فعال در حوزۀ زیر ساخت‌های سیستان‌وبلوچستان، حمله به گشت‌ها و مقرهای نظامی و انتظامی، سرقت‌های مسلحانه و ایجاد رعب و وحشت در مناطق مرکزی استان می‌نمودند، دستگیر شدند. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️آتش زدن پرچم رژیم صهیونیستی به منظور اعلام همبستگی با غزه توسط تظاهر کنندگان مکزیک &lrm;✅ @sepah_pasdaran",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "החות&#39;ים שיגרו לפני זמן קצר טיל בליסטי מאזור צנעא - ככל הנראה לעבר סעודיה.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2376,10 +2369,10 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "&quot;نيويورك تايمز&quot;: الـCIA تشكل فرقة عمل سرية خاصة بكوبا في ظل ضغوط ترامب على هافانا",
-      "absolute_sentiment": -1,
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "📹 اقتحامات واعتداءات للاحتلال في الضفة.. حصار قلنديا وهجمات للمستوطنين جنوب الخليل https://almanar.com.lb/article/1076527/?s=tg",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2418,17 +2411,24 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "الهلال الأحمر: طواقمنا تتمكن من نقل رجل (٥٠ عاما) نتيجة اعتداء جيش الاحتلال عليه خلال الاقتحام المستمر لمخيم قلنديا.",
+      "text": "لبنان: مراسل الميادين في الجنوب: تصعيد إسرائيلي لافت في الساعات الـ24 الأخيرة حيث تستمر الاعتداءات على عدد من البلدات",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: آليات الاحتلال تُطلق نيرانها في مناطق جنوب المواصي غربي مدينة خان يونس جنوب القطاع",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم المنطقة الشرقية في نابلس",
-      "absolute_sentiment": 0.5,
+      "text": "فلسطين المحتلة: المكتب الإعلامي الحكومي في غزة: أكثر من 1254 شهيداً في 4091 خرقاً لاتفاق &quot;وقف إطلاق النار&quot; ارتكبها الاحتلال على مدار 300 يوم",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
   ]
