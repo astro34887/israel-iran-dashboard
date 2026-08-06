@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-06T11:18:35.806Z",
+  "last_updated": "2026-08-06T13:56:18.391Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.25"
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.18"
   },
   "timeline": [
-    {
-      "time": "2026-08-01T22:53:48.232Z",
-      "danger": 0.553,
-      "sentiment": -0.197,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.435,
-          "sentiment": -0.208
-        },
-        "OSINTdefender": {
-          "danger": 0.579,
-          "sentiment": -0.367
-        },
-        "irna_1313": {
-          "danger": 0.603,
-          "sentiment": 0
-        },
-        "sepah_pasdaran": {
-          "danger": 0.39,
-          "sentiment": -0.3
-        },
-        "almanarnews": {
-          "danger": 0.431,
-          "sentiment": 0.233
-        },
-        "C_Military1": {
-          "danger": 0.81,
-          "sentiment": -0.167
-        },
-        "almayadeen": {
-          "danger": 0.58,
-          "sentiment": -0.367
-        },
-        "QudsN": {
-          "danger": 0.755,
-          "sentiment": -0.633
-        }
-      }
-    },
     {
       "time": "2026-08-01T23:53:42.741Z",
       "danger": 0.567,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.577
         }
       }
+    },
+    {
+      "time": "2026-08-06T13:56:18.391Z",
+      "danger": 0.524,
+      "sentiment": -0.18,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.544,
+          "sentiment": -0.3
+        },
+        "OSINTdefender": {
+          "danger": 0.59,
+          "sentiment": 0
+        },
+        "irna_1313": {
+          "danger": 0.473,
+          "sentiment": -0.167
+        },
+        "sepah_pasdaran": {
+          "danger": 0.525,
+          "sentiment": -0.3
+        },
+        "almanarnews": {
+          "danger": 0.32,
+          "sentiment": 0
+        },
+        "C_Military1": {
+          "danger": 0.558,
+          "sentiment": -0.3
+        },
+        "almayadeen": {
+          "danger": 0.709,
+          "sentiment": -0.367
+        },
+        "QudsN": {
+          "danger": 0.572,
+          "sentiment": -0.233
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.554361998637005
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.544075281389329
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.7,
-      "knn_danger_metric": 0.4363892171266378
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.4728145735540816
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.42172977335598677
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.5247689488849727
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.5493100497265652
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.31979946608849785
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.6416082423291793
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.5576762536323606
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.78309391523599
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.7090742351679336
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 13,
-      "raw_sentiment": -0.5769230769230769,
-      "knn_danger_metric": 0.4503948623677607
+      "num_messages": 15,
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.572462156699109
     }
   },
   "semantic_logs": [
@@ -2336,78 +2336,29 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "דרום לבנון: מקורות לבנוניים מדווחים שצה&quot;ל מפוצץ מבנים הבוקר בכפר זוטר א-שרקיה בנפת נבטיה ומבצע ירי ארטילרי לעבר הכפר אלמנצורי בגזרה המערבית (שם גם תקף הלילה אחרי ההנחיה לפנות את הכפר).  תגובה אחת",
-      "absolute_sentiment": -1,
+      "text": "🎓 סטודנטים וסטודנטיות? קחו פסק זמן של חמישה ימים לחוויה אינטלקטואלית יוצאת דופן.  מכון פרידברג לכלכלה מזמין אתכם לסמינר הקיץ „כלכלה, צמיחה ושגשוג” — חמישה ימים של לימוד מעמיק, דיונים פתוחים ומפגש בלתי אמצעי עם מרצים מובילים מהארץ ומהעולם.   מה בתוכנית? 🔹 מרצים מהשורה הראשונה, ובהם מייקל אייזנברג (שותף מייסד קרן אלף), פרופ׳ יהונתן גבעתי (העברית), ניקלאס ברגרן (שוודיה), מיכאל שראל, מייק מאנגר (Duke University) ומומחים נוספים מישראל ומחו״ל. 🔹 הנושאים הכלכליים החשובים של זמננו — מיוקר המחיה ומדיניות הדיור ועד אינפלציה, צמיחה ומהפכת ה־AI. 🔹 אירוח מלא במלון רמת רחל, לצד פעילויות מיוחדות, ביקור ביקב וארוחת שף. 🔹 השתתפות בסבסוד מלא — כולל לינה וכל הארוחות, ללא עלות.  מי יכול להגיש מועמדות? סטודנטים וסטודנטיות מכל תחומי הלימוד — לתואר ראשון, שני או דוקטורט — שסיימו לפחות שנת לימודים אחת. דרושה אנגלית ברמה גבוהה.  ⚠️ מספר המקומות מוגבל ל־30 משתתפים בלבד.  📅 מתי? 30 באוגוסט–3 בספטמבר 2026 ⏳ הגשת מועמדות עד: 15 באוגוסט 2026  אל תישארו בחוץ — הגישו מועמדות עכשיו: https://bit.ly/2026_seminar",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "מקימים את חוות זית בגלבוע   קחו הצצה לעם ישראל היפה שרוצה לבוא ולעזור בחינם להקמת חוות זית בגלבוע - מתנדבים מכל רחבי הארץ, גם מהדרום - והמון מאזור תל אביב והמרכז שנרשמו בקישור שפרסמתי אתמול.   תפסה אותי במיוחד ההודעה של אלרואי בן ה - 17 (ממרכז הארץ): &quot;וואלה…",
+      "text": "אז איך לוקחים חלק?  כעת נדרשת הקמת המבנה המרכזי ��חווה שעלותו עומדת על 150 אלף ש&quot;ח.  הנה הלינק לתרומה להגעה למטרה זו👇👇👇:   https://pe4ch.com/ref/fBLgbJNM2che   ברגע שנגיע לסכום, ההתרמה תיפסק. הכסף ישמש למטרת הקמת המבנה וישוקף לכם העוקבים שלב אחר שלב.  אתם חלק…",
+      "absolute_sentiment": -0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️#الله_اکبر|کشته شدن ۴۵ مزدور سعودی در حمله نیروهای انصارالله به حضرموت و مأرب &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️&rlm; اردوگاه‌های مزدوران سعودی در مارب زیر آتش موشک‌ها و پهپادهای انصارالله &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "החות&#39;ים שיגרו לפני זמן קצר טיל בליסטי מאזור צנעא - ככל הנראה לעבר סעודיה.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️#فوری| شلیک موشک از یمن &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️#فوری| شلیک موشک از یمن &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "📹 اقتحامات واعتداءات للاحتلال في الضفة.. حصار قلنديا وهجمات للمستوطنين جنوب الخليل https://almanar.com.lb/article/1076527/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: العميد مسعود جعفري: كثافة الدفاعات الجوية للعدو في قاعدة العديد لم تمنع طياري سوخوي-24 من تنفيذ الهجوم على القاعدة",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: العميد مسعود جعفري: كوادرنا من الطيارين مدربون على قيادة المقاتلات في مختلف المهام دون استخدام نظامي GPS وINS",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: العميد مسعود جعفري: كوادرنا من الطيارين مدربون على الاعتماد فقط على الخرائط والأنظمة الأولية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيليّة: &quot;معاريف&quot;: الحادث في مجدل زون جنوب لبنان يمثل مؤشراً على اتجاه غير جيد بالنسبة لـ&quot;إسرائيل&quot;",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيليّة: &quot;معاريف&quot;: حزب الله يحاول خوض حرب عصابات على الأرض و&quot;الجيش&quot; الإسرائيلي تصرف يوم الأربعاء ببطء وارتباك",
-      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2429,6 +2380,55 @@
       "channel": "Arab_Axis",
       "text": "فلسطين المحتلة: المكتب الإعلامي الحكومي في غزة: أكثر من 1254 شهيداً في 4091 خرقاً لاتفاق &quot;وقف إطلاق النار&quot; ارتكبها الاحتلال على مدار 300 يوم",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "&quot;رويترز&quot;: مقتل ما لا يقل عن 30 من أفراد &quot;القوات الحكومية اليمنية&quot; في هجمات لأنصار الله على معسكرات في محافظتي مأرب وحضرموت في اليمن",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: شهيد متأثراً بجروح أصيب بها في قصف إسرائيلي سابق على منطقة البراق الجنوبي غربي خان يونس جنوبي القطاع",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي عنيف على بلدة المنصوري في قضاء صور يبدو أنه قصف من بوارج الاحتلال",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جرافات الاحتلال تواصل عمليات تجريف أراضي الفلسطينيين في قرية زبوبا غرب جنين واقتلاع عشرات أشجار الزيتون",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تقتحم قرية المزرعة الشرقية، شرق رام الله.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "النائب الأميركي بيرني ساندرز: علينا وقف دعم حكومة &quot;إسرائيل&quot; المتطرفة التي نفذت إبادة جماعية بحق الفلسطينيين.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تقتحم منطقة الباذان شرق مدينة نابلس",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
   ]
