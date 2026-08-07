@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-07T10:52:03.383Z",
+  "last_updated": "2026-08-07T11:42:06.619Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.49",
+    "level": "ESCALATING",
+    "global_knn_danger": "0.51",
     "global_norm_sentiment": "-0.28"
   },
   "timeline": [
-    {
-      "time": "2026-08-02T14:58:37.611Z",
-      "danger": 0.568,
-      "sentiment": -0.203,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.722,
-          "sentiment": -0.633
-        },
-        "OSINTdefender": {
-          "danger": 0.559,
-          "sentiment": -0.467
-        },
-        "irna_1313": {
-          "danger": 0.561,
-          "sentiment": 0.167
-        },
-        "sepah_pasdaran": {
-          "danger": 0.43,
-          "sentiment": -0.533
-        },
-        "almanarnews": {
-          "danger": 0.354,
-          "sentiment": 0.167
-        },
-        "C_Military1": {
-          "danger": 0.774,
-          "sentiment": -0.267
-        },
-        "almayadeen": {
-          "danger": 0.69,
-          "sentiment": -0.067
-        },
-        "QudsN": {
-          "danger": 0.64,
-          "sentiment": -0.233
-        }
-      }
-    },
     {
       "time": "2026-08-02T16:03:45.832Z",
       "danger": 0.543,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.167
         }
       }
+    },
+    {
+      "time": "2026-08-07T11:42:06.619Z",
+      "danger": 0.512,
+      "sentiment": -0.285,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.518,
+          "sentiment": -0.3
+        },
+        "OSINTdefender": {
+          "danger": 0.493,
+          "sentiment": -0.3
+        },
+        "irna_1313": {
+          "danger": 0.573,
+          "sentiment": -0.167
+        },
+        "sepah_pasdaran": {
+          "danger": 0.483,
+          "sentiment": -0.633
+        },
+        "almanarnews": {
+          "danger": 0.411,
+          "sentiment": -0.4
+        },
+        "C_Military1": {
+          "danger": 0.738,
+          "sentiment": -0.6
+        },
+        "almayadeen": {
+          "danger": 0.375,
+          "sentiment": -0.167
+        },
+        "QudsN": {
+          "danger": 0.58,
+          "sentiment": -0.15
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.4974251539942374
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.5178755430932204
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.5836532830482585
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.5728473534718569
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.4431926743536697
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.48324179714326987
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.39220002557303874
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.41079265681794297
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.7,
-      "knn_danger_metric": 0.8039836786159066
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.7375977418571503
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.30859616948650204
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.37526283615316874
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.4701202446272986
+      "num_messages": 10,
+      "raw_sentiment": -0.15,
+      "knn_danger_metric": 0.5797285673490845
     }
   },
   "semantic_logs": [
@@ -2355,10 +2355,38 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: محلقة إسرائيلية ألقت قنبلة صوتية في بلدة المنصوري",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "&quot;أوعك تخاف منهم.. ما تخاف إلا من ربك&quot;   رسالة شجاعة وجسارة وجّهها فلسطيني لابنه، غرس فيها الثبات والكرامة أمام جنود الاحتلال المدججين بالسلاح أثناء اقتحامهم مخيم قلنديا شمال القدس المحتلة",
-      "absolute_sentiment": 1,
+      "text": "قوة من جيش الاحتلال برفقة جرافة تقتحم محيط مسجد عبد الحي شاهين في مدينة الخليل.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "رغم حواجز الاحتلال وتهديداتهم.. الأهالي يؤدون صلاة الجمعة عند مدخل منطقة خلة الحمص في مسافر يطا جنوب الخليل تنديدا باعتداءات المستوطنين.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تغلق بالسواتر الترابية جسر بيت كاحل غرب الخليل.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تقتحم منطقة مثلث الطبقة جنوب مدينة دورا جنوب الخليل.",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2402,34 +2430,6 @@
       "text": "#إعلام_العدو   القناة 13 العبرية: تناولت جلسة الكابينت مساء أمس بشكل موسّع قضية غزة والتقدّم في الاتفاق مع حماس. وأعرب الوزراء عن غضبهم من رئيس الحكومة، بسبب كون المعلومات التي عُرضت عليهم في السابق بشأن تفاصيل الاتفاق كانت جزئية فقط.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9960376738431209
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   رئيس مجلس الشورى محمد باقر قاليباف:  «هجوم ضخم قادم... انتظروا، لا، لا بأس، إنهم يريدون التفاوض.» هذه هي دبلوماسية الاستعراض التي تتكرر باستمرار. استخدام الترهيب، والوعود المنكوثة، والأخبار الكاذبة كأوراق ضغط هي استراتيجية فاشلة.  اعترفوا بالحقائق، وأوفوا بالتزاماتكم. لسنا بحاجة إلى المزيد من الاستعراض.  #الإعلام_الحربي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9958018373673666
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 12 العبرية: أقال رئيس الموساد، من منصبيهما في الجهاز رئيسة مديرية الاستخبارات ورئيس دائرة إيران، في أعقاب فشل الخطة العملياتية لإسقاط النظام الإيراني.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9957890513813449
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 12 العبرية: لقد كثر الحديث عن فشل الخطة العملياتية للموساد في إيران، وهي الخطة التي كان من المفترض أن تُسقط النظام في إيران، بالاشتراك مع الأقليات، بحيث يُنصَّب في النهاية قادة إيرانيون آخرون.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9957890513813449
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "یک کارشناس بانکی در گفت و گو با ایرنا: بدون اصلاح سیاست‌های کلان، بانک مرکزی به تنهایی قادر به مهار تورم نیست #اختصاصی  🔹کارشناس اقتصادی و امور بانکی گفت: بخش قابل توجهی از مشکلات اقتصادی موجود، ریشه در سیاست‌های کلان اقتصادی و سیاست خارجی کشور دارد و تا زمانی که این متغیرهای اثرگذار اصلاح نشوند، نه در حوزه سیاست پولی و نه در حوزه سیاست مالی نمی‌توان انتظار تغییرات اساسی و پایدار داشت.  https://irna.ir/xjXWy6 @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9951957023429895
     }
   ]
 }
