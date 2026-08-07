@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-07T14:10:03.945Z",
+  "last_updated": "2026-08-07T15:52:06.848Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.22"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.48",
+    "global_norm_sentiment": "-0.24"
   },
   "timeline": [
-    {
-      "time": "2026-08-02T19:14:26.048Z",
-      "danger": 0.494,
-      "sentiment": -0.15,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.478,
-          "sentiment": -0.267
-        },
-        "OSINTdefender": {
-          "danger": 0.556,
-          "sentiment": -0.5
-        },
-        "irna_1313": {
-          "danger": 0.475,
-          "sentiment": 0.133
-        },
-        "sepah_pasdaran": {
-          "danger": 0.362,
-          "sentiment": -0.6
-        },
-        "almanarnews": {
-          "danger": 0.247,
-          "sentiment": 0.167
-        },
-        "C_Military1": {
-          "danger": 0.791,
-          "sentiment": -0.233
-        },
-        "almayadeen": {
-          "danger": 0.57,
-          "sentiment": 0.5
-        },
-        "QudsN": {
-          "danger": 0.513,
-          "sentiment": -0.567
-        }
-      }
-    },
     {
       "time": "2026-08-02T20:50:13.661Z",
       "danger": 0.493,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.033
         }
       }
+    },
+    {
+      "time": "2026-08-07T15:52:06.848Z",
+      "danger": 0.483,
+      "sentiment": -0.237,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.484,
+          "sentiment": -0.067
+        },
+        "OSINTdefender": {
+          "danger": 0.536,
+          "sentiment": -0.3
+        },
+        "irna_1313": {
+          "danger": 0.227,
+          "sentiment": -0.367
+        },
+        "sepah_pasdaran": {
+          "danger": 0.51,
+          "sentiment": -0.3
+        },
+        "almanarnews": {
+          "danger": 0.505,
+          "sentiment": 0.133
+        },
+        "C_Military1": {
+          "danger": 0.649,
+          "sentiment": -0.233
+        },
+        "almayadeen": {
+          "danger": 0.435,
+          "sentiment": -0.633
+        },
+        "QudsN": {
+          "danger": 0.531,
+          "sentiment": -0.467
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.47507005047423884
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.4840092480834037
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2292,37 +2292,37 @@
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.37682739663185083
+      "knn_danger_metric": 0.22732378092809155
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.5588533224642999
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.5104170771371074
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.3952273968694089
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.504984049478919
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.7375977418571503
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.649116921459193
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.7076571280582792
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.4354006623113725
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.5840056997568066
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.5307864210322227
     }
   },
   "semantic_logs": [
@@ -2334,6 +2334,13 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "🎓 סטודנטים וסטודנטיות? קחו פסק זמן של חמישה ימים לחוויה אינטלקטואלית יוצאת דופן.  מכון פרידברג לכלכלה מזמין אתכם לסמינר הקיץ „כלכלה, צמיחה ושגשוג” — חמישה ימים של לימוד מעמיק, דיונים פתוחים ומפגש בלתי אמצעי עם מרצים מובילים מהארץ ומהעולם.   מה בתוכנית? 🔹 מרצים מהשורה הראשונה, ובהם מייקל אייזנברג (שותף מייסד קרן אלף), פרופ׳ יהונתן גבעתי (העברית), ניקלאס ברגרן (שוודיה), מיכאל שראל, מייק מאנגר (Duke University) ומומחים נוספים מישראל ומחו״ל. 🔹 הנושאים הכלכליים החשובים של זמננו — מיוקר המחיה ומדיניות הדיור ועד אינפלציה, צמיחה ומהפכת ה־AI. 🔹 אירוח מלא במלון רמת רחל, לצד פעילויות מיוחדות, ביקור ביקב וארוחת שף. 🔹 השתתפות בסבסוד מלא — כולל לינה וכל הארוחות, ללא עלות.  מי יכול להגיש מועמדות? סטודנטים וסטודנטיות מכל תחומי הלימוד — לתואר ראשון, שני או דוקטורט — שסיימו לפחות שנת לימודים אחת. דרושה אנגלית ברמה גבוהה.  ⚠️ מספר המקומות מוגבל ל־30 משתתפים בלבד.  📅 מתי? 30 באוגוסט–3 בספטמבר 2026 ⏳ הגשת מועמדות עד: 15 באוגוסט 2026  אל תישארו בחוץ — הגישו מועמדות עכשיו: https://bit.ly/2026_seminar",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
       "text": "🔵 اعتصام للأساتذة المتعاقدين في الجامعة اللبنانية نفذوه في بعبدا تزامنا مع جلسة مجلس الوزراء مطالبين بإقرار ملف التفرغ https://www.almanar.com.lb/article/1079347?s=tg",
@@ -2341,72 +2348,44 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: محلقة إسرائيلية ألقت قنبلة صوتية في بلدة المنصوري",
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "📹 نشاط رئاسي في بعبدا: دعم الفاتيكان للبنان وتوثيق للانتهاكات الإسرائيلية واهتمام بقطاع الاتصالات https://almanar.com.lb/article/1079537/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "📹 التلفزيون الإيراني يعرض مشاهد لحطام طائرات حربية ومسيّرات أُسقطت في الحرب الأخيرة https://almanar.com.lb/article/1079602/?s=tg",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: بلدة المنصوري تتعرض لقصف مدفعي إسرائيلي",
+      "text": "اليمن: عضو المكتب السياسي لحركة أنصار الله محمد الفرح: نحن ماضون في كسر الحصار مهما كانت التحالفات التي تُشكّل ضدنا",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: مراسل الميادين في صنعاء: معلومات أولية تفيد بتنفيذ القوات المسلحة اليمنية عملية جديدة استهدفت معسكرات سعودية",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي مدفعي يستهدف بلدة المنصوري",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: بن حبتور: المواجهة التي تخوضها صنعاء اليوم ليست مع أبناء المحافظات الجنوبية بل مع مشروع الهيمنة والنفوذ السعودي في اليمن",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: بن حبتور: نطمئن إخواننا في المحافظات الجنوبية والشرقية بأن صنعاء لا تستهدفهم، بل تخوض حرباً ضد &quot;السعودية التي تمثل عدواً للشمال والجنوب&quot;",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: &quot;جيش&quot; الاحتلال ينفذ تفجيراً في بلدة زوطر الشرقية",
+      "text": "لبنان: وقفة في ساحة رياض الصلح في وسط العاصمة بيروت ضد التطبيع مع الاحتلال و&quot;اتفاق الإطار&quot;",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم بلدة بني نعيم، شرق الخليل.",
-      "absolute_sentiment": 0.5,
+      "text": "شاب يصرخ من شدة التعذيب لحظة اعتقاله داخل آلية لجيش الاحتلال في جنين.",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "أكثر من 70 ألف مصلِّ أدّوا صلاة الجمعة في المسجد الأقصى، اليوم.",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "هيئة مقاومة الجدار والاستيطان: الاحتلال أصدر 8 أوامر لاقتلاع أشجار الزيتون وإزالة النباتات من 316 دونمًا في جنين ونابلس والقدس لأغراض استيطانية",
+      "text": "الاحتلال يصادر أراضٍ والمستوطنون يهاجمون الفلسطينيين  https://qudsn.co/share/216934",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2427,9 +2406,30 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 12 العبرية: تقول لنا مصادر أمنية إنه لم تكن هناك منذ البداية حالة انسجام بين الاثنين وبين غوفمان، وإن فترة خدمتهما تنتهي باتفاق، لكن ذلك ليس من قبيل الصدفة، إذ إنهما المسؤولان اللذان ارتبطا بشكل مباشر، ووضعا وصاغا ونفذا عمليًا خطة الموساد لإسقاط النظام في إيران، حتى أصبحت وثيقة مكتوبة وعملية متكاملة.  هذان المسؤولان، اللذان لا تُقدَّر مساهمتهما في أمن الدولة بثمن، يغادران مناصبهما. وإذا شئت، فإن غوفمان يرى أنهما يجب أن يدفعا ثمن فشل الخطة التي عُرضت على الرئيس ترامب، ولم تُنفذ عمليًا على أرض الواقع.  #الإعلام_الحربي",
+      "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية، نقلًا عن مصدر أمني رفيع: قرار حزب الله بالانضمام إلى المعركة اتُّخذ من قِبل الحزب نفسه، دون تدخل أو توجيه من إيران حيث رأى في ذلك فرصة لتغيير واقع الاغتيالات والاستهدافات.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9983248571876306
+      "semantic_danger_knn": 0.9979853054910216
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#اليمن   رئيس المجلس السياسي الأعلى في اليمن مهدي المشاط:  - من يريد أن يشارك المعتدي السعودي في عدوانه وحصاره المستمر منذ 12 عامًا فهو معتدٍ، حتى وإن غلّف هذه المشاركة بعناوين برّاقة.  - من يشارك المعتدي السعودي في عدوانه وحصاره على بلدنا فهو معتدٍ، والقانون اليمني حدد كيفية التعامل مع الدول المعادية.  - حتى وإن حشدت السعودية كل العالم إلى جانبها فلن ينفعها.  - كلفة السلام العادل والمشرّف وحسن الجوار أقل بكثير من كلفة الحرب.  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.9971738898694221
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 13 العبرية: تناولت جلسة الكابينت مساء أمس بشكل موسّع قضية غزة والتقدّم في الاتفاق مع حماس. وأعرب الوزراء عن غضبهم من رئيس الحكومة، بسبب كون المعلومات التي عُرضت عليهم في السابق بشأن تفاصيل الاتفاق كانت جزئية فقط.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9960376738431209
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   رئيس مجلس الشورى محمد باقر قاليباف:  «هجوم ضخم قادم... انتظروا، لا، لا بأس، إنهم يريدون التفاوض.» هذه هي دبلوماسية الاستعراض التي تتكرر باستمرار. استخدام الترهيب، والوعود المنكوثة، والأخبار الكاذبة كأوراق ضغط هي استراتيجية فاشلة.  اعترفوا بالحقائق، وأوفوا بالتزاماتكم. لسنا بحاجة إلى المزيد من الاستعراض.  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.9958018373673666
     }
   ]
 }
