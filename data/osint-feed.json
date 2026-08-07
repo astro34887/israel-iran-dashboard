@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-07T09:57:12.327Z",
+  "last_updated": "2026-08-07T10:52:03.383Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.51",
-    "global_norm_sentiment": "-0.36"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.49",
+    "global_norm_sentiment": "-0.28"
   },
   "timeline": [
-    {
-      "time": "2026-08-02T13:39:26.132Z",
-      "danger": 0.56,
-      "sentiment": -0.285,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.627,
-          "sentiment": -0.367
-        },
-        "OSINTdefender": {
-          "danger": 0.559,
-          "sentiment": -0.5
-        },
-        "irna_1313": {
-          "danger": 0.521,
-          "sentiment": -0.115
-        },
-        "sepah_pasdaran": {
-          "danger": 0.337,
-          "sentiment": -0.467
-        },
-        "almanarnews": {
-          "danger": 0.535,
-          "sentiment": -0.167
-        },
-        "C_Military1": {
-          "danger": 0.774,
-          "sentiment": -0.267
-        },
-        "almayadeen": {
-          "danger": 0.687,
-          "sentiment": -0.6
-        },
-        "QudsN": {
-          "danger": 0.614,
-          "sentiment": -0.233
-        }
-      }
-    },
     {
       "time": "2026-08-02T14:58:37.611Z",
       "danger": 0.568,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.633
         }
       }
+    },
+    {
+      "time": "2026-08-07T10:52:03.383Z",
+      "danger": 0.494,
+      "sentiment": -0.28,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.497,
+          "sentiment": -0.267
+        },
+        "OSINTdefender": {
+          "danger": 0.493,
+          "sentiment": -0.3
+        },
+        "irna_1313": {
+          "danger": 0.584,
+          "sentiment": -0.1
+        },
+        "sepah_pasdaran": {
+          "danger": 0.443,
+          "sentiment": -0.6
+        },
+        "almanarnews": {
+          "danger": 0.392,
+          "sentiment": -0.267
+        },
+        "C_Military1": {
+          "danger": 0.804,
+          "sentiment": -0.7
+        },
+        "almayadeen": {
+          "danger": 0.309,
+          "sentiment": -0.267
+        },
+        "QudsN": {
+          "danger": 0.47,
+          "sentiment": -0.167
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.5061191948610085
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.4974251539942374
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.44330420165560463
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.5836532830482585
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.7,
-      "knn_danger_metric": 0.5064122728173532
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.4431926743536697
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.4529973156451625
+      "knn_danger_metric": 0.39220002557303874
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.7609617192387993
+      "raw_sentiment": -0.7,
+      "knn_danger_metric": 0.8039836786159066
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.7,
-      "knn_danger_metric": 0.4026036119205696
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.30859616948650204
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.5474099763090143
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.4701202446272986
     }
   },
   "semantic_logs": [
@@ -2348,27 +2348,6 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️#الله_اکبر|گزارش‌ها از حمله جدید یمن به مزدوران سعودی در مأرب  &rlm;🔹 برخی منابع یمنی از حمله ارتش یمن به مزدوران سعودی در داخل پادگان نظامی «صحن الجن» در مأرب یمن خبر می دهند. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "بيان القوات المسلحة اليمنية سيكون في تمام الساعة 5:30م، بعد قليل.  http://t.me/army21ye",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: إصابة جندي في الجيش اللبناني جراء القنبلة الصوتية التي القيت على جرافة تابعة للجيش في المنصوري",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
       "text": "فلسطين المحتلة: مراسل الميادين في غزة: إطلاق نار من آليات الاحتلال شرقي دير البلح وسط القطاع",
@@ -2378,22 +2357,8 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية خلة الضبع بمسافر يطا جنوب الخليل",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "الاحتلال ينسحب من قلنديا وكفر عقب مخلفًا دمارًا واسعًا   https://qudsn.co/share/216926",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "من اقتحام قوات الاحتلال لقرية خلة الضبعة بمسافر يطا جنوب الخليل ومداهمة مساكن الأهالي.",
-      "absolute_sentiment": 0.5,
+      "text": "&quot;أوعك تخاف منهم.. ما تخاف إلا من ربك&quot;   رسالة شجاعة وجسارة وجّهها فلسطيني لابنه، غرس فيها الثبات والكرامة أمام جنود الاحتلال المدججين بالسلاح أثناء اقتحامهم مخيم قلنديا شمال القدس المحتلة",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2406,16 +2371,30 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية: عضّ حزب الله على شفتيه طوال 15 شهرًا، وانتظر. وعندما أقلعت الطائرات إلى إيران، خرج حزب الله إلى المعركة بمبادرة منه. جهّز التنظيم نفسه وتدرّب على تشغيل المسيّرات ذات الألياف الضوئية.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9986256955089235
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
       "text": "#إعلام_العدو   القناة 12 العبرية: تقول لنا مصادر أمنية إنه لم تكن هناك منذ البداية حالة انسجام بين الاثنين وبين غوفمان، وإن فترة خدمتهما تنتهي باتفاق، لكن ذلك ليس من قبيل الصدفة، إذ إنهما المسؤولان اللذان ارتبطا بشكل مباشر، ووضعا وصاغا ونفذا عمليًا خطة الموساد لإسقاط النظام في إيران، حتى أصبحت وثيقة مكتوبة وعملية متكاملة.  هذان المسؤولان، اللذان لا تُقدَّر مساهمتهما في أمن الدولة بثمن، يغادران مناصبهما. وإذا شئت، فإن غوفمان يرى أنهما يجب أن يدفعا ثمن فشل الخطة التي عُرضت على الرئيس ترامب، ولم تُنفذ عمليًا على أرض الواقع.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9983248571876306
     },
     {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "زخمی شدن یک سرباز ارتش لبنان توسط رژیم صهیونیستی  🔹فرماندهی ارتش لبنان از زخمی شدن یک سرباز خود در شهرک المنصوری در جنوب این کشور در نتیجه حمله رژیم اسرائیل به یک بولدوزر ارتش خبر داد. #ایرنا_جهان   https://irna.ir/xjXX4h @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9980266155017786
+    },
+    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 12 العبرية: أقال رئيس الموساد، رئيسَي قسمين كبيرين في الجهاز، وذلك نتيجة فشل الخطة الرامية إلى إسقاط النظام في إيران.  #الإعلام_الحربي",
+      "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية، نقلًا عن مصدر أمني رفيع: قرار حزب الله بالانضمام إلى المعركة اتُّخذ من قِبل الحزب نفسه، دون تدخل أو توجيه من إيران حيث رأى في ذلك فرصة لتغيير واقع الاغتيالات والاستهدافات.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9979853054910217
+      "semantic_danger_knn": 0.9979853054910216
     },
     {
       "channelId": "C_Military1",
@@ -2430,6 +2409,27 @@
       "text": "#الجمهورية_الإسلامية   رئيس مجلس الشورى محمد باقر قاليباف:  «هجوم ضخم قادم... انتظروا، لا، لا بأس، إنهم يريدون التفاوض.» هذه هي دبلوماسية الاستعراض التي تتكرر باستمرار. استخدام الترهيب، والوعود المنكوثة، والأخبار الكاذبة كأوراق ضغط هي استراتيجية فاشلة.  اعترفوا بالحقائق، وأوفوا بالتزاماتكم. لسنا بحاجة إلى المزيد من الاستعراض.  #الإعلام_الحربي",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 0.9958018373673666
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 12 العبرية: أقال رئيس الموساد، من منصبيهما في الجهاز رئيسة مديرية الاستخبارات ورئيس دائرة إيران، في أعقاب فشل الخطة العملياتية لإسقاط النظام الإيراني.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9957890513813449
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 12 العبرية: لقد كثر الحديث عن فشل الخطة العملياتية للموساد في إيران، وهي الخطة التي كان من المفترض أن تُسقط النظام في إيران، بالاشتراك مع الأقليات، بحيث يُنصَّب في النهاية قادة إيرانيون آخرون.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9957890513813449
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "یک کارشناس بانکی در گفت و گو با ایرنا: بدون اصلاح سیاست‌های کلان، بانک مرکزی به تنهایی قادر به مهار تورم نیست #اختصاصی  🔹کارشناس اقتصادی و امور بانکی گفت: بخش قابل توجهی از مشکلات اقتصادی موجود، ریشه در سیاست‌های کلان اقتصادی و سیاست خارجی کشور دارد و تا زمانی که این متغیرهای اثرگذار اصلاح نشوند، نه در حوزه سیاست پولی و نه در حوزه سیاست مالی نمی‌توان انتظار تغییرات اساسی و پایدار داشت.  https://irna.ir/xjXWy6 @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9951957023429895
     }
   ]
 }
