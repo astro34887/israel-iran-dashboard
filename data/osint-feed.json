@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-07T12:53:40.625Z",
+  "last_updated": "2026-08-07T14:10:03.945Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.51",
-    "global_norm_sentiment": "-0.26"
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.22"
   },
   "timeline": [
-    {
-      "time": "2026-08-02T17:58:13.810Z",
-      "danger": 0.505,
-      "sentiment": -0.153,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.595,
-          "sentiment": -0.533
-        },
-        "OSINTdefender": {
-          "danger": 0.559,
-          "sentiment": -0.5
-        },
-        "irna_1313": {
-          "danger": 0.35,
-          "sentiment": 0.167
-        },
-        "sepah_pasdaran": {
-          "danger": 0.325,
-          "sentiment": -0.533
-        },
-        "almanarnews": {
-          "danger": 0.247,
-          "sentiment": 0.167
-        },
-        "C_Military1": {
-          "danger": 0.791,
-          "sentiment": -0.233
-        },
-        "almayadeen": {
-          "danger": 0.678,
-          "sentiment": 0.467
-        },
-        "QudsN": {
-          "danger": 0.555,
-          "sentiment": -0.4
-        }
-      }
-    },
     {
       "time": "2026-08-02T19:14:26.048Z",
       "danger": 0.494,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.067
         }
       }
+    },
+    {
+      "time": "2026-08-07T14:10:03.945Z",
+      "danger": 0.532,
+      "sentiment": -0.223,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.475,
+          "sentiment": -0.167
+        },
+        "OSINTdefender": {
+          "danger": 0.536,
+          "sentiment": -0.3
+        },
+        "irna_1313": {
+          "danger": 0.377,
+          "sentiment": -0.367
+        },
+        "sepah_pasdaran": {
+          "danger": 0.559,
+          "sentiment": -0.133
+        },
+        "almanarnews": {
+          "danger": 0.395,
+          "sentiment": -0.133
+        },
+        "C_Military1": {
+          "danger": 0.738,
+          "sentiment": -0.6
+        },
+        "almayadeen": {
+          "danger": 0.708,
+          "sentiment": -0.333
+        },
+        "QudsN": {
+          "danger": 0.584,
+          "sentiment": -0.033
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,32 +2279,32 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.46103368494820596
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.47507005047423884
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.49272966803720475
+      "knn_danger_metric": 0.5355575738843715
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.45646061847761016
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.37682739663185083
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.47472237212360646
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.5588533224642999
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.37745932348460964
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.3952273968694089
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.565192544153426
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.7076571280582792
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.6079087174676477
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.5840056997568066
     }
   },
   "semantic_logs": [
@@ -2334,10 +2334,10 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "תימן: הזירה החות&#39;ית - סעודית   בזמן שטורקיה, סעודיה ופקיסטן נערכות היום לחתום בריאד על &quot;הסכם מכה&quot; - ברית ההגנה המשולשת - החות&#39;ים נוטלים את היוזמה ושוב משיקים מתקפה על הכוחות הנאמנים לסעודיה במחוז מארב.  בינתיים נראה שידם של החות&#39;ים על העליונה בלחימה בתוך תימן.  תגובה אחת",
-      "absolute_sentiment": 0,
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 اعتصام للأساتذة المتعاقدين في الجامعة اللبنانية نفذوه في بعبدا تزامنا مع جلسة مجلس الوزراء مطالبين بإقرار ملف التفرغ https://www.almanar.com.lb/article/1079347?s=tg",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2358,7 +2358,7 @@
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
       "text": "اليمن: مراسل الميادين في صنعاء: معلومات أولية تفيد بتنفيذ القوات المسلحة اليمنية عملية جديدة استهدفت معسكرات سعودية",
-      "absolute_sentiment": 0,
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2369,17 +2369,24 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم منطقة مثلث الطبقة جنوب مدينة دورا جنوب الخليل.",
-      "absolute_sentiment": 0.5,
+      "text": "اليمن: بن حبتور: المواجهة التي تخوضها صنعاء اليوم ليست مع أبناء المحافظات الجنوبية بل مع مشروع الهيمنة والنفوذ السعودي في اليمن",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم المنطقة الغربية من بلدة بيت فوريك شرق نابلس",
-      "absolute_sentiment": 0.5,
+      "text": "اليمن: بن حبتور: نطمئن إخواننا في المحافظات الجنوبية والشرقية بأن صنعاء لا تستهدفهم، بل تخوض حرباً ضد &quot;السعودية التي تمثل عدواً للشمال والجنوب&quot;",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: &quot;جيش&quot; الاحتلال ينفذ تفجيراً في بلدة زوطر الشرقية",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2387,6 +2394,20 @@
       "channel": "Arab_Axis",
       "text": "قوات الاحتلال تقتحم بلدة بني نعيم، شرق الخليل.",
       "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "أكثر من 70 ألف مصلِّ أدّوا صلاة الجمعة في المسجد الأقصى، اليوم.",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "هيئة مقاومة الجدار والاستيطان: الاحتلال أصدر 8 أوامر لاقتلاع أشجار الزيتون وإزالة النباتات من 316 دونمًا في جنين ونابلس والقدس لأغراض استيطانية",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2409,27 +2430,6 @@
       "text": "#إعلام_العدو   القناة 12 العبرية: تقول لنا مصادر أمنية إنه لم تكن هناك منذ البداية حالة انسجام بين الاثنين وبين غوفمان، وإن فترة خدمتهما تنتهي باتفاق، لكن ذلك ليس من قبيل الصدفة، إذ إنهما المسؤولان اللذان ارتبطا بشكل مباشر، ووضعا وصاغا ونفذا عمليًا خطة الموساد لإسقاط النظام في إيران، حتى أصبحت وثيقة مكتوبة وعملية متكاملة.  هذان المسؤولان، اللذان لا تُقدَّر مساهمتهما في أمن الدولة بثمن، يغادران مناصبهما. وإذا شئت، فإن غوفمان يرى أنهما يجب أن يدفعا ثمن فشل الخطة التي عُرضت على الرئيس ترامب، ولم تُنفذ عمليًا على أرض الواقع.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9983248571876306
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "زخمی شدن یک سرباز ارتش لبنان توسط رژیم صهیونیستی  🔹فرماندهی ارتش لبنان از زخمی شدن یک سرباز خود در شهرک المنصوری در جنوب این کشور در نتیجه حمله رژیم اسرائیل به یک بولدوزر ارتش خبر داد. #ایرنا_جهان   https://irna.ir/xjXX4h @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9980266155017786
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية، نقلًا عن مصدر أمني رفيع: قرار حزب الله بالانضمام إلى المعركة اتُّخذ من قِبل الحزب نفسه، دون تدخل أو توجيه من إيران حيث رأى في ذلك فرصة لتغيير واقع الاغتيالات والاستهدافات.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9979853054910216
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 13 العبرية: تناولت جلسة الكابينت مساء أمس بشكل موسّع قضية غزة والتقدّم في الاتفاق مع حماس. وأعرب الوزراء عن غضبهم من رئيس الحكومة، بسبب كون المعلومات التي عُرضت عليهم في السابق بشأن تفاصيل الاتفاق كانت جزئية فقط.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9960376738431209
     }
   ]
 }
