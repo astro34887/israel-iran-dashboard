@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-08T08:35:18.390Z",
+  "last_updated": "2026-08-08T09:33:07.565Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.18"
+    "global_norm_sentiment": "-0.13"
   },
   "timeline": [
-    {
-      "time": "2026-08-04T10:33:18.583Z",
-      "danger": 0.531,
-      "sentiment": -0.209,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.626,
-          "sentiment": -0.6
-        },
-        "OSINTdefender": {
-          "danger": 0.505,
-          "sentiment": -0.267
-        },
-        "irna_1313": {
-          "danger": 0.381,
-          "sentiment": 0.292
-        },
-        "sepah_pasdaran": {
-          "danger": 0.429,
-          "sentiment": -0.067
-        },
-        "almanarnews": {
-          "danger": 0.374,
-          "sentiment": 0.167
-        },
-        "C_Military1": {
-          "danger": 0.837,
-          "sentiment": -0.433
-        },
-        "almayadeen": {
-          "danger": 0.465,
-          "sentiment": -0.4
-        },
-        "QudsN": {
-          "danger": 0.74,
-          "sentiment": -0.65
-        }
-      }
-    },
     {
       "time": "2026-08-04T12:57:55.267Z",
       "danger": 0.529,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.269
         }
       }
+    },
+    {
+      "time": "2026-08-08T09:33:07.565Z",
+      "danger": 0.54,
+      "sentiment": -0.132,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.516,
+          "sentiment": -0.633
+        },
+        "OSINTdefender": {
+          "danger": 0.65,
+          "sentiment": 0.4
+        },
+        "irna_1313": {
+          "danger": 0.511,
+          "sentiment": 0.182
+        },
+        "sepah_pasdaran": {
+          "danger": 0.459,
+          "sentiment": -0.433
+        },
+        "almanarnews": {
+          "danger": 0.527,
+          "sentiment": -0.267
+        },
+        "C_Military1": {
+          "danger": 0.649,
+          "sentiment": 0
+        },
+        "almayadeen": {
+          "danger": 0.632,
+          "sentiment": -0.1
+        },
+        "QudsN": {
+          "danger": 0.511,
+          "sentiment": -0.333
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2280,49 +2280,49 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.5512436818236726
+      "knn_danger_metric": 0.5155669652071998
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0.26666666666666666,
-      "knn_danger_metric": 0.655036708079327
+      "raw_sentiment": 0.4,
+      "knn_danger_metric": 0.649557950234062
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.3914294192052586
+      "num_messages": 11,
+      "raw_sentiment": 0.18181818181818182,
+      "knn_danger_metric": 0.5110385237606959
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.40047801331445393
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.45864406972390825
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.5950017835090492
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.5267996126750648
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
+      "raw_sentiment": 0,
       "knn_danger_metric": 0.6487942024478948
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.7189324003762766
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.6323819661817988
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 13,
-      "raw_sentiment": -0.2692307692307692,
-      "knn_danger_metric": 0.4806431759408844
+      "num_messages": 15,
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.5108707858782762
     }
   },
   "semantic_logs": [
@@ -2334,23 +2334,23 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️شاخص کل بورس در پایان معاملات امروز با جهش ۱۱۲ هزار واحدی به ۵ میلیون و ۵۲۰ هزار واحد رسید. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "🔵 إصابات بنيران الاحتلال جنوب قطاع غزة https://almanar.com.lb/article/1080857/?s=tg",
-      "absolute_sentiment": -1,
+      "text": "🔵 بزشكيان في ذكرى القصف الذري الأمريكي لمدينتي هيروشيما وناغازاكي: العقلية نفسها ما زالت سائدة اليوم https://almanar.com.lb/article/1081202/?s=tg",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية: أمر قائد المنطقة الشمالية رافي ميلو التكتم على حدث إطلاق حزب الله لطائرة بدون طيار مفخخة اتجاه القوات الإسرائيلية خلال الساعات الأربع والعشرين الماضية، وبناءً على طلب جهات عسكرية، لن تُنشر تفاصيل إضافية تتعلق بنشاط…",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في جنوب لبنان: الاحتلال الإسرائيلي نفذ تفجيراً في بلدة ميس الجبل",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2404,6 +2404,13 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جيش الاحتلال يحتجز جرافة عقب اقتحام المستوطنين مدرسة في مسافر يطا جنوب الخليل.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية: أمر قائد المنطقة الشمالية رافي ميلو التكتم على حدث إطلاق حزب الله لطائرة بدون طيار مفخخة اتجاه القوات الإسرائيلية خلال الساعات الأربع والعشرين الماضية، وبناءً على طلب جهات عسكرية، لن تُنشر تفاصيل إضافية تتعلق بنشاط القوات.  #الإعلام_الحربي",
@@ -2413,23 +2420,16 @@
     {
       "channelId": "OSINTdefender",
       "channel": "Global_OSINT",
-      "text": "#Turkey   ASELSAN&#39;s TOLUN-P bunker-penetrating guided munition is now operational, enhancing Turkey&#39;s defense capabilities. This development signifies a significant advancement in military technology for the Turkish defense industry.  Subscribe to @OSINTdefender Chat room",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9299383907288904
+      "text": "#ME  The current situation looks completely different.  Subscribe to @OSINTdefender Chat room",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9462767532373018
     },
     {
-      "channelId": "OSINTdefender",
-      "channel": "Global_OSINT",
-      "text": "#Germany #Russia   The German National Security Council is indeed convening to discuss the serious threat posed by a drone carrying explosives found at Leipzig/Halle Airport. This incident has raised significant security concerns in Germany.  Subscribe to @OSINTdefender Chat room",
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸از آتن به لیل با ستاره تیم ملی؛ آنچلوتی از طارمی چه می‌خواهد؟   امیر اسدی- خبرنگار ایرنا  🔹حضور لیل در لیگ قهرمانان اروپا، همکاری با داویده آنچلوتی و همچنین بازی در لوشامپیونا، شاید همه و همه باعث شوند تا مهدی طارمی علاقه‌مند به این انتقال باشد. البته که هنوز ماجرای او و المپیاکوس تمام نشده و ظرف روزهای آینده شاهد اخبار جدیدی در این زمینه خواهیم بود.    https://irna.ir/xjXXhM @IRNA_1313",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9250426719117755
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "بالفيديو | الطيران الحربي الإسرائيلي يحلق على علو منخفض فوق قرى جنوب لبنان ويلقي بالونات حرارية https://almanar.com.lb/article/1080817/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9077598178072934
+      "semantic_danger_knn": 0.9407085192501203
     }
   ]
 }
