@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-08T14:27:58.641Z",
+  "last_updated": "2026-08-08T15:25:14.990Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.49",
-    "global_norm_sentiment": "-0.22"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.50",
+    "global_norm_sentiment": "-0.27"
   },
   "timeline": [
-    {
-      "time": "2026-08-05T00:08:38.796Z",
-      "danger": 0.555,
-      "sentiment": -0.36,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.336,
-          "sentiment": -0.3
-        },
-        "OSINTdefender": {
-          "danger": 0.505,
-          "sentiment": -0.5
-        },
-        "irna_1313": {
-          "danger": 0.549,
-          "sentiment": -0.533
-        },
-        "sepah_pasdaran": {
-          "danger": 0.451,
-          "sentiment": -0.6
-        },
-        "almanarnews": {
-          "danger": 0.381,
-          "sentiment": 0.367
-        },
-        "C_Military1": {
-          "danger": 0.942,
-          "sentiment": -0.733
-        },
-        "almayadeen": {
-          "danger": 0.548,
-          "sentiment": -0.733
-        },
-        "QudsN": {
-          "danger": 0.893,
-          "sentiment": -0.433
-        }
-      }
-    },
     {
       "time": "2026-08-05T03:56:59.542Z",
       "danger": 0.562,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.267
         }
       }
+    },
+    {
+      "time": "2026-08-08T15:25:14.990Z",
+      "danger": 0.501,
+      "sentiment": -0.269,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.509,
+          "sentiment": -0.733
+        },
+        "OSINTdefender": {
+          "danger": 0.67,
+          "sentiment": 0.4
+        },
+        "irna_1313": {
+          "danger": 0.352,
+          "sentiment": -0.4
+        },
+        "sepah_pasdaran": {
+          "danger": 0.365,
+          "sentiment": -0.633
+        },
+        "almanarnews": {
+          "danger": 0.241,
+          "sentiment": -0.033
+        },
+        "C_Military1": {
+          "danger": 0.691,
+          "sentiment": -0.233
+        },
+        "almayadeen": {
+          "danger": 0.559,
+          "sentiment": -0.467
+        },
+        "QudsN": {
+          "danger": 0.675,
+          "sentiment": -0.462
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2280,49 +2280,49 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.7333333333333333,
-      "knn_danger_metric": 0.5110255276368155
+      "knn_danger_metric": 0.5087974102269182
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0.5333333333333333,
-      "knn_danger_metric": 0.6743830550495401
+      "raw_sentiment": 0.4,
+      "knn_danger_metric": 0.669527753016417
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.4165354532799595
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.352097668664946
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.363166779397009
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.3649363130047865
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.27409835649554376
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.2407650231622104
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.7030443203670821
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.6912494477702794
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.5840153714079092
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.5592181845725571
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.4191055011976768
+      "num_messages": 13,
+      "raw_sentiment": -0.46153846153846156,
+      "knn_danger_metric": 0.6751076808770518
     }
   },
   "semantic_logs": [
@@ -2341,16 +2341,9 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: بزشكيان: قرار الحرب ليس منوطاً بالحكومة والقيادة تتخذ القرار الأفضل لكننا في الحكومة مسؤولون عن توفير الإمدادات",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: إصابة طفل برصاص الاحتلال في شارع يافا في حي التفاح شرقي مدينة غزة",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "איחוד האמירויות מאשרת שמיכלית נפט ☝️נפגעה מירי טיל בעת שעברה בהורמוז. איחוד האמירויות גינתה את התקיפה.  ## המיכלית שייכת לחברה מאיחוד האמירויות.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2362,16 +2355,37 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "عاجل| وصول إصابة لمجمع ناصر الطبي إثر إصابته بعيار ناري من قبل الاحتلال في منطقة السطر الغربي شمال غربي مدينة خان يونس.",
+      "text": "بلغاريا تعلن أن المسيرة التي انفجرت في أراضيها من نوع يستعمله الجيش الأوكراني",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: مصابون برصاص الاحتلال في مواصي خان يونس جنوبي القطاع",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "الاحتلال يصدر أوامر بتجريف سهول العنب في جنين",
+      "text": "مليشيات المستوطنين تدمر ممتلكات زراعية وخزانات مياه، ويقتلعون أكثر من 100 شجرة زيتون، في دير شرف، غربيّ نابلس.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "إصابة طفل  بالرأس جراء إطلاق الاحتلال الرصاص العشوائي في شارع يافا بحي التفاح شرق مدينة غزة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل|  إصابات في صفوف النازحين برصاص دبابات الاحتلال قرب مفترق الإقليمي جنوب غرب خانيونس.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2406,9 +2420,9 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل | قوات الاحتلال تقتحم قرية المغير، شمال شرق رام الله.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9596045227592704
+      "text": "&quot;إسرائيل&quot; تفرض 400 ألف شيقل على مقدسيّ &quot;تعويضا&quot; للحاخام يهودا غليك  التفاصيل: https://qudsn.co/share/216951",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9496207460821101
     },
     {
       "channelId": "OSINTdefender",
@@ -2416,20 +2430,6 @@
       "text": "#ME  The current situation looks completely different.  Subscribe to @OSINTdefender Chat room",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9462767532373018
-    },
-    {
-      "channelId": "OSINTdefender",
-      "channel": "Global_OSINT",
-      "text": "#Ukraine #USA  President Zelensky has called for the supply of 100 Patriot missiles per month to Ukraine during the winter, totaling 300 missiles. This request aims to enhance Ukraine&#39;s air defense capabilities against Russian attacks.  Subscribe to @OSINTdefender Chat room",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9365290600249665
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   أمين المجلس الأعلى للأمن القومي محمد باقر ذوالقدر: ما لم تُصحّح أمريكا سلوكها، فلن يُفتح مضيق هرمز.  وتصحيح السلوك يعني: - أن لا تهدد إيران أبداً، بأي لغة كانت، ولا تهين مقدسات هذا الشعب. - أن تنهي إلى الأبد الحرب والعدوان على إيران وحلفاء إيران في لبنان وفلسطين واليمن والعراق. - أن ترفع الحصار البحري، وأن تُخرج قواتها العسكرية (البحرية والجوية) من محيط إيران. - أن تدفع، دون نقصان أو تقليل، تعويضات الحربين العدوانيتين والمفروضتين على إيران. - أن ترفع العقوبات الظالمة وغير القانونية المفروضة على الشعب الإيراني. - أن تُفرج، دون قيد أو شرط، عن أصول الشعب الإيراني المجمدة والمسروقة. هذه مطالب الشعب الإيراني التي هتف بها خلال مئة وستين يوماً من حضوره في الميدان والشوارع.  المجلس الأعلى للأمن القومي لن يتراجع أبداً؛ لا في الحرب ولا في المفاوضات.  #الإعلام_الحربي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9324580982444862
     }
   ]
 }
