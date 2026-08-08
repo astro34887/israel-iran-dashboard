@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-08T16:27:44.218Z",
+  "last_updated": "2026-08-08T17:24:50.852Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.13"
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.18"
   },
   "timeline": [
-    {
-      "time": "2026-08-05T06:27:17.534Z",
-      "danger": 0.566,
-      "sentiment": -0.333,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.413,
-          "sentiment": -0.533
-        },
-        "OSINTdefender": {
-          "danger": 0.567,
-          "sentiment": -0.467
-        },
-        "irna_1313": {
-          "danger": 0.418,
-          "sentiment": 0.033
-        },
-        "sepah_pasdaran": {
-          "danger": 0.522,
-          "sentiment": -0.6
-        },
-        "almanarnews": {
-          "danger": 0.444,
-          "sentiment": -0.2
-        },
-        "C_Military1": {
-          "danger": 0.942,
-          "sentiment": -0.633
-        },
-        "almayadeen": {
-          "danger": 0.62,
-          "sentiment": -0.533
-        },
-        "QudsN": {
-          "danger": 0.785,
-          "sentiment": -0.267
-        }
-      }
-    },
     {
       "time": "2026-08-05T09:33:39.995Z",
       "danger": 0.598,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.1
         }
       }
+    },
+    {
+      "time": "2026-08-08T17:24:50.852Z",
+      "danger": 0.529,
+      "sentiment": -0.177,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.535,
+          "sentiment": -0.6
+        },
+        "OSINTdefender": {
+          "danger": 0.67,
+          "sentiment": 0.4
+        },
+        "irna_1313": {
+          "danger": 0.341,
+          "sentiment": -0.367
+        },
+        "sepah_pasdaran": {
+          "danger": 0.386,
+          "sentiment": -0.7
+        },
+        "almanarnews": {
+          "danger": 0.31,
+          "sentiment": 0.3
+        },
+        "C_Military1": {
+          "danger": 0.743,
+          "sentiment": -0.367
+        },
+        "almayadeen": {
+          "danger": 0.693,
+          "sentiment": -0.133
+        },
+        "QudsN": {
+          "danger": 0.66,
+          "sentiment": -0.133
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.7333333333333333,
-      "knn_danger_metric": 0.4826453260239736
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.5346869124619912
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.3712859654575052
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.34103175582060724
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.43220574576797127
+      "raw_sentiment": -0.7,
+      "knn_danger_metric": 0.38641675830852656
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.304984049478919
+      "raw_sentiment": 0.3,
+      "knn_danger_metric": 0.310085565263568
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.6912494477702794
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.7429838668721226
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.7194636855905915
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.6934595705771118
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.5823073550850045
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.6597041175341573
     }
   },
   "semantic_logs": [
@@ -2404,6 +2404,13 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام قوات الاحتلال مدينة طوباس",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#الجمهورية_الإسلامية   وزير الخارجية عباس عراقجي:  - المفاوضات مع عُمان بشأن الآلية القانونية وإدارة مضيق هرمز، فيما يتعلق بتحديد مسار حركة المرور في مضيق هرمز، جارية، ونحن قريبون جدًا من التوصل إلى اتفاق، لكن فتح مضيق هرمز مرهون بظروف أخرى، منها جبر الأضرار الناجمة عن حالات انتهاك مذكرة تفاهم إسلام آباد من جانب أمريكا.  - خطة فصل حركة المرور السابقة في مضيق هرمز لم تعد مقبولة لدى طهران وهناك حاجة إلى مسار جديد، وهو ما ينطوي بالطبع على تعقيدات فنية وقانونية واسعة.  - نظرًا إلى التعقيدات الفنية والقانونية، نتحدث حاليًا عن مسار مؤقت. وقبل التوصل إلى المسار الجديد، سيتم اعتماد مسار مؤقت ليكون أساسًا للمسار الرئيسي، وفي هذا الصدد جرت مفاوضات بين القوات العسكرية والبحرية في البلدين استنادًا إلى الخرائط الموجودة، ومع الانتهاء من هذه المفاوضات، سيتم تحديد المسار الجديد.  #الإعلام_الحربي",
@@ -2420,16 +2427,9 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 12 العبرية: تُقرّ المؤسسة العسكرية بزيادة ملحوظة في رغبة وقدرة المنظمات المعادية لـ&quot;إسرائيل&quot; على تشغيل طائرات مسيّرة مفخخة، بما فيها تلك المزودة بألياف بصرية، من داخل المدن الإسرائيلية وتوجيهها نحو أهداف متنوعة. وهذا نشاط معقد يختلف عما نعرفه حتى الآن.  #الإعلام_الحربي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9985284543631757
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 12 العبرية: في العديد من المناقشات داخل المؤسسة العسكرية، بما في ذلك مناقشة ترأسها وزير الحرب يسرائيل كاتس، تبين أنه لا يوجد حاليًا حل عملي حقيقي لاستخدام الطائرات المسيرة المتفجرة.  #الإعلام_الحربي",
+      "text": "#إعلام_العدو   قناة كان العبرية: هذا المساء ننشر أن قائد القيادة المركزية الأمريكية، الأدميرال براد كوبر، هبط بعد ظهر اليوم في &quot;إسرائيل&quot; لعقد لقاءات مع رئيس الأركان زامير وكبار المسؤولين في الجيش الإسرائيلي، في إطار تقييم وضع متعدد الساحات. وصل المسؤول الأمريكي إلى &quot;إسرائيل&quot; بعد لقاءات أجراها في البحرين والإمارات العربية المتحدة.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9957890513813449
+      "semantic_danger_knn": 0.9986358496212904
     }
   ]
 }
