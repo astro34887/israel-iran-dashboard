@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-08T06:43:09.998Z",
+  "last_updated": "2026-08-08T07:44:38.451Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.56",
-    "global_norm_sentiment": "-0.19"
+    "global_knn_danger": "0.57",
+    "global_norm_sentiment": "-0.24"
   },
   "timeline": [
-    {
-      "time": "2026-08-04T04:09:27.860Z",
-      "danger": 0.565,
-      "sentiment": -0.29,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.618,
-          "sentiment": -0.6
-        },
-        "OSINTdefender": {
-          "danger": 0.497,
-          "sentiment": -0.433
-        },
-        "irna_1313": {
-          "danger": 0.474,
-          "sentiment": -0.167
-        },
-        "sepah_pasdaran": {
-          "danger": 0.292,
-          "sentiment": -0.2
-        },
-        "almanarnews": {
-          "danger": 0.379,
-          "sentiment": -0.167
-        },
-        "C_Military1": {
-          "danger": 0.854,
-          "sentiment": -0.633
-        },
-        "almayadeen": {
-          "danger": 0.719,
-          "sentiment": -0.7
-        },
-        "QudsN": {
-          "danger": 0.871,
-          "sentiment": 0.133
-        }
-      }
-    },
     {
       "time": "2026-08-04T07:35:00.434Z",
       "danger": 0.519,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.125
         }
       }
+    },
+    {
+      "time": "2026-08-08T07:44:38.451Z",
+      "danger": 0.57,
+      "sentiment": -0.236,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.551,
+          "sentiment": -0.533
+        },
+        "OSINTdefender": {
+          "danger": 0.655,
+          "sentiment": 0.167
+        },
+        "irna_1313": {
+          "danger": 0.583,
+          "sentiment": -0.143
+        },
+        "sepah_pasdaran": {
+          "danger": 0.497,
+          "sentiment": -0.667
+        },
+        "almanarnews": {
+          "danger": 0.551,
+          "sentiment": -0.333
+        },
+        "C_Military1": {
+          "danger": 0.699,
+          "sentiment": -0.167
+        },
+        "almayadeen": {
+          "danger": 0.719,
+          "sentiment": -0.333
+        },
+        "QudsN": {
+          "danger": 0.498,
+          "sentiment": -0.182
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.523525067094234
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.5511685221454089
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.4684566123397991
+      "num_messages": 14,
+      "raw_sentiment": -0.14285714285714285,
+      "knn_danger_metric": 0.5833024212427605
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.40668015669034674
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.4966497918834732
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.3719679879165622
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.5507606685776429
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.7189752608693315
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.6986321076098144
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.7788735901835772
+      "knn_danger_metric": 0.7189324003762766
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 12,
-      "raw_sentiment": -0.125,
-      "knn_danger_metric": 0.6899603077485447
+      "num_messages": 11,
+      "raw_sentiment": -0.18181818181818182,
+      "knn_danger_metric": 0.4977285221335989
     }
   },
   "semantic_logs": [
@@ -2348,6 +2348,13 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 إصابات بنيران الاحتلال جنوب قطاع غزة https://almanar.com.lb/article/1080857/?s=tg",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "بيانٌ صادرٌ عنِ القواتِ المسلحةِ اليمنيةِ   بسمِ اللهِ الرحمنِ الرحيم   قال تعالى: {فَلَا عُدۡوَ ٰ⁠نَ إِلَّا عَلَى ٱلظَّـٰلِمِینَ} صدق اللهُ العظيم  إصراراً على مواصلةِ حصارِ شعبِنا، وتصعيداً في العدوانِ على بلدِنا، يواصلُ العدوُّ السعوديُّ تحشيدَ قواتِهِ وتحريضَها ودفعَها إلى أتونِ حربٍ عدوانيةٍ باطلةٍ وخاسرةٍ. وعليهِ.. وبعدَ رصدٍ دقيقٍ لتحركاتِ قواتِهِ ومرتزقتِهِ،فقد تم ضربُ هذه الحشودَ بما معها من المخازنِ والآلياتِ والمعداتِ العسكريةِ في معسكرِ &quot;صحنِ الجنِّ&quot;، وكانت —بفضلِ اللهِ— ضرباتٍ نوعيةً ودقيقةً بعددٍ كبيرٍ من الصواريخِ والطائراتِ المسيرةِ. إنَّ القواتِ المسلحةَ اليمنيةَ ماضيةٌ في مواجهةِ التصعيدِ بالتصعيدِ، وتؤكدُ أنها ستضربُ بشدةٍ أيَّ تحشيدٍ أو قوةٍ يأتي بها العدوُّ السعوديُّ لإبقاءِ الحصارِ مفروضاً على بلدِنا، وتؤكدُ القواتُ المسلحةُ استمرارَها في تثبيتِ معادلتي: &quot;الحصارُ بالحصارِ&quot; و&quot;استهدافُ التحشيداتِ السعوديةِ العدوانيةِ أينما كانت&quot;، ولن تسمحَ بأن تمرَّ المخططاتُ العدوانيةُ على بلدِنا دونَ ردٍّ فوريٍّ وشديدٍ. نجددُ نصيحتَنا للمغررِ بهم والمخدوعينَ من أبناءِ بلدِنا بمغادرةِ معسكراتِ العدوِّ السعوديِّ والعودةِ إلى مناطقِهم قبلَ فواتِ الأوانِ، وندعوهم للمسارعةِ للنجاةِ بأنفسِهم وألا يكونوا وقوداً لجهاتٍ خائنةٍ رهنتْ مصيرَها للخارجِ وهي تتاجرُ بهم وبدمائِهم في سبيلِ مشاريعَ أجنبيةٍ احتلاليةٍ توسعيةٍ على حسابِ أمنِ وسيادةِ واستقلالِ الجمهوريةِ اليمنيةِ. نحيي بإعزازٍ قبائلَ مأربَ الأبيةَ والشرفاءَ الأحرارَ لوقوفِهم إلى جانبِ شعبِهم ضدَّ الاحتلالِ والوصايةِ، ونؤكدُ لهم ولكلِّ قبائلِ اليمنِ أننا إلى جانبِهم ومعَهم لانتزاعِ حقوقِ شعبِنا المحقةِ ورفعِ الحصارِ عنه.  واللهُ حسبُنا ونعمَ الوكيلُ، نعمَ المولى ونعمَ النصيرُ.  عاشَ اليمنُ حراً عزيزاً مستقلاً، والنصرُ لليمنِ ولكلِّ أحرارِ الأمةِ.  صنعاءُ، 24 صفر 1448هـ الموافقُ 7 أغسطس 2026م.  صادرٌ عنِ القواتِ المسلحةِ اليمنيةِ   http://t.me/army21ye",
@@ -2359,13 +2366,6 @@
       "channel": "Hezbollah",
       "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية: أمر قائد المنطقة الشمالية رافي ميلو التكتم على حدث إطلاق حزب الله لطائرة بدون طيار مفخخة اتجاه القوات الإسرائيلية خلال الساعات الأربع والعشرين الماضية، وبناءً على طلب جهات عسكرية، لن تُنشر تفاصيل إضافية تتعلق بنشاط…",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في جنوب لبنان: قصف مدفعي إسرائيلي يستهدف بلدة المنصوري مجدداً",
-      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2420,16 +2420,16 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "السبت ٢٥ صفر..   أذان فجر اليوم من المسجد الأقصى المبارك",
-      "absolute_sentiment": -1,
+      "text": "صلاة فجر اليوم في المصلى القبلي بالمسجد الأقصى المبارك",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل| مصادر محلية: إصابة سيدة بنيران جيش الاحتلال شمال مدينة حمد شمالي خانيونس.",
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية: فضيحة في &quot;إسرائيل&quot;: بدأ الأمر بحساب هندي مشكوك فيه، ثم حظي بتغطية على القناة 14، وردده يائير نتنياهو، ووصل إلى خطاب رئيس الوزراء في جبل هرتزل. وصلت كلمات أحمد وحيدي الملفقة، والتي مفادها أن &quot;طالما امتلكت &quot;إسرائيل&quot; والولايات المتحدة أسلحة نووية، ستواصل إيران العمل على تطويرها&quot;، إلى قناة فوكس نيوز وحساب السفير الأمريكي لدى الأمم المتحدة، ثم عادت إلى الهند، هذه المرة تحت اسم &quot;وسائل إعلام إسرائيلية&quot;.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
+      "semantic_danger_knn": 0.9993044699102988
     }
   ]
 }
