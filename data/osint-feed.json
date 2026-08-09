@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-09T04:59:59.225Z",
+  "last_updated": "2026-08-09T05:51:59.999Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.56",
-    "global_norm_sentiment": "-0.22"
+    "global_knn_danger": "0.57",
+    "global_norm_sentiment": "-0.21"
   },
   "timeline": [
-    {
-      "time": "2026-08-06T05:44:23.936Z",
-      "danger": 0.56,
-      "sentiment": -0.254,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.577,
-          "sentiment": -0.3
-        },
-        "OSINTdefender": {
-          "danger": 0.59,
-          "sentiment": 0
-        },
-        "irna_1313": {
-          "danger": 0.57,
-          "sentiment": -0.042
-        },
-        "sepah_pasdaran": {
-          "danger": 0.364,
-          "sentiment": -0.067
-        },
-        "almanarnews": {
-          "danger": 0.353,
-          "sentiment": -0.4
-        },
-        "C_Military1": {
-          "danger": 0.629,
-          "sentiment": -0.7
-        },
-        "almayadeen": {
-          "danger": 0.789,
-          "sentiment": -0.6
-        },
-        "QudsN": {
-          "danger": 0.781,
-          "sentiment": -0.3
-        }
-      }
-    },
     {
       "time": "2026-08-06T08:27:54.385Z",
       "danger": 0.527,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.067
         }
       }
+    },
+    {
+      "time": "2026-08-09T05:51:59.999Z",
+      "danger": 0.569,
+      "sentiment": -0.21,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.513,
+          "sentiment": -0.467
+        },
+        "OSINTdefender": {
+          "danger": 0.635,
+          "sentiment": 0.133
+        },
+        "irna_1313": {
+          "danger": 0.472,
+          "sentiment": 0.464
+        },
+        "sepah_pasdaran": {
+          "danger": 0.466,
+          "sentiment": -0.733
+        },
+        "almanarnews": {
+          "danger": 0.513,
+          "sentiment": -0.233
+        },
+        "C_Military1": {
+          "danger": 0.793,
+          "sentiment": -0.533
+        },
+        "almayadeen": {
+          "danger": 0.706,
+          "sentiment": -0.467
+        },
+        "QudsN": {
+          "danger": 0.64,
+          "sentiment": -0.133
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.43799341854771473
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.5129750812889645
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,21 +2290,21 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 11,
-      "raw_sentiment": -0.045454545454545456,
-      "knn_danger_metric": 0.5800765026330521
+      "num_messages": 14,
+      "raw_sentiment": 0.4642857142857143,
+      "knn_danger_metric": 0.47156544188720495
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.37470184262759354
+      "raw_sentiment": -0.7333333333333333,
+      "knn_danger_metric": 0.4659278444868591
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.5462128926152754
+      "knn_danger_metric": 0.5128795592819422
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2321,8 +2321,8 @@
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.5430305778518961
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.6404458508159216
     }
   },
   "semantic_logs": [
@@ -2334,16 +2334,9 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️پزشکیان: من از جنگیدن نمی‌ترسم  شهادت شیرین‌ترین آرزوی ماست و تا پای جان ایستاده‌ایم. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 العراق | أمين عام حركة النجباء: الدبلوماسية مع السعودية غير مجدية والصواريخ لا ترد إلا بالصواريخ https://almanar.com.lb/article/1082572/?s=tg",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "הערוצים העיראקים השיעים משתעשעים על חשבון הסעודים לנוכח השריפות...וברית ההגנה החדשה.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2351,6 +2344,13 @@
       "channelId": "almanarnews",
       "channel": "Hezbollah",
       "text": "🔵 البرازيل | مقتل 4 أشخاص جراء تحطم مروحية سياحية في ريو دي جانيرو https://almanar.com.lb/article/1082732/?s=tg",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "البنتاغون يطالب شركات السلاح الأميركية بتسريع الإنتاج لتعويض استنزاف المخزونات https://almanar.com.lb/article/1082802/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2425,11 +2425,11 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   وزير الخارجية عباس عراقجي:  - المفاوضات مع عُمان بشأن الآلية القانونية وإدارة مضيق هرمز، فيما يتعلق بتحديد مسار حركة المرور في مضيق هرمز، جارية، ونحن قريبون جدًا من التوصل إلى اتفاق، لكن فتح مضيق هرمز مرهون بظروف أخرى، منها جبر الأضرار الناجمة عن حالات انتهاك مذكرة تفاهم إسلام آباد من جانب أمريكا.  - خطة فصل حركة المرور السابقة في مضيق هرمز لم تعد مقبولة لدى طهران وهناك حاجة إلى مسار جديد، وهو ما ينطوي بالطبع على تعقيدات فنية وقانونية واسعة.  - نظرًا إلى التعقيدات الفنية والقانونية، نتحدث حاليًا عن مسار مؤقت. وقبل التوصل إلى المسار الجديد، سيتم اعتماد مسار مؤقت ليكون أساسًا للمسار الرئيسي، وفي هذا الصدد جرت مفاوضات بين القوات العسكرية والبحرية في البلدين استنادًا إلى الخرائط الموجودة، ومع الانتهاء من هذه المفاوضات، سيتم تحديد المسار الجديد.  #الإعلام_الحربي",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 0.9992311587558348
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "الأحد ٢٦ صفر..  أذان فجر اليوم من المسجد الأقصى المبارك يرفعه المؤذن عادل القضماني",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
     }
   ]
 }
