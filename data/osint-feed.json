@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-08T23:23:56.111Z",
+  "last_updated": "2026-08-09T01:20:08.257Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.57",
-    "global_norm_sentiment": "-0.22"
+    "global_norm_sentiment": "-0.23"
   },
   "timeline": [
-    {
-      "time": "2026-08-05T22:08:53.940Z",
-      "danger": 0.534,
-      "sentiment": -0.203,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.453,
-          "sentiment": -0.067
-        },
-        "OSINTdefender": {
-          "danger": 0.586,
-          "sentiment": -0.133
-        },
-        "irna_1313": {
-          "danger": 0.563,
-          "sentiment": -0.367
-        },
-        "sepah_pasdaran": {
-          "danger": 0.311,
-          "sentiment": -0.033
-        },
-        "almanarnews": {
-          "danger": 0.426,
-          "sentiment": 0.033
-        },
-        "C_Military1": {
-          "danger": 0.607,
-          "sentiment": -0.8
-        },
-        "almayadeen": {
-          "danger": 0.591,
-          "sentiment": -0.367
-        },
-        "QudsN": {
-          "danger": 0.852,
-          "sentiment": -0.167
-        }
-      }
-    },
     {
       "time": "2026-08-05T23:56:45.522Z",
       "danger": 0.57,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.3
         }
       }
+    },
+    {
+      "time": "2026-08-09T01:20:08.257Z",
+      "danger": 0.567,
+      "sentiment": -0.23,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.438,
+          "sentiment": -0.4
+        },
+        "OSINTdefender": {
+          "danger": 0.643,
+          "sentiment": 0.4
+        },
+        "irna_1313": {
+          "danger": 0.429,
+          "sentiment": -0.067
+        },
+        "sepah_pasdaran": {
+          "danger": 0.375,
+          "sentiment": -0.5
+        },
+        "almanarnews": {
+          "danger": 0.52,
+          "sentiment": -0.433
+        },
+        "C_Military1": {
+          "danger": 0.793,
+          "sentiment": -0.533
+        },
+        "almayadeen": {
+          "danger": 0.722,
+          "sentiment": -0.533
+        },
+        "QudsN": {
+          "danger": 0.805,
+          "sentiment": -0.1
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2291,8 +2291,8 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.4246440889672957
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.4289285717813004
     },
     "sepah_pasdaran": {
       "name": "IRGC",
@@ -2303,8 +2303,8 @@
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.45918537353592853
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.5199361979156759
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
+      "raw_sentiment": -0.5333333333333333,
       "knn_danger_metric": 0.7217182986359194
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.9417104342459484
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.805212156759365
     }
   },
   "semantic_logs": [
@@ -2343,15 +2343,8 @@
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "📹 في متابعة لآخر المستجدات من جنوب لبنان، ينقل مراسلنا هاشم السيد حسن تطورات الأوضاع الميدانية https://almanar.com.lb/article/1082037/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: قوات الاحتلال تنفذ اعتداءات عبر 3 تفجيرات في بلدة القنطرة",
-      "absolute_sentiment": 0,
+      "text": "🔵 العراق | أمين عام حركة النجباء: الدبلوماسية مع السعودية غير مجدية والصواريخ لا ترد إلا بالصواريخ https://almanar.com.lb/article/1082572/?s=tg",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2397,37 +2390,44 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم بلدة بيتا جنوب نابلس",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم عددًا من المنازل خلال اقتحام قرية عربونة، شمال شرق جنين.",
+      "text": "لبنان: مراسل الميادين: تفجيرات نفذها جيش الاحتلال الاسرائيلي في بلدتي زوطر الشرقية وحداثا جنوبي لبنان",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال بلدة بيت فوريك، شرق نابلس.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "جندي من قوات الاحتلال ينتزع العلم الفلسطيني خلال اقتحام بلدة قصرة، جنوب نابلس.",
+      "text": "قوات الاحتلال تداهم عددًا من المنازل خلال اقتحام قرية بيت فوريك شرق نابلس",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تعبث بصور الشهداء وتلحق بها أضرارًا خلال اقتحام بلدة قصرة، جنوب نابلس.",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم مدينة أريحا.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "تحركات مستمرة لآليات الاحتلال خلال اقتحامها المستمر لقرية بيت فوريك شرق نابلس.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تداهم منزلاً خلال اقتحام قرية عينابوس جنوب نابلس",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تواصل اقتحام قرية بيت فوريك شرق نابلس.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
