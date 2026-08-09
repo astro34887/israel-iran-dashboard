@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-09T10:28:59.240Z",
+  "last_updated": "2026-08-09T11:24:40.132Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.15"
+    "global_knn_danger": "0.50",
+    "global_norm_sentiment": "-0.22"
   },
   "timeline": [
-    {
-      "time": "2026-08-07T05:36:57.439Z",
-      "danger": 0.472,
-      "sentiment": -0.272,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.407,
-          "sentiment": -0.5
-        },
-        "OSINTdefender": {
-          "danger": 0.493,
-          "sentiment": -0.2
-        },
-        "irna_1313": {
-          "danger": 0.477,
-          "sentiment": -0.167
-        },
-        "sepah_pasdaran": {
-          "danger": 0.288,
-          "sentiment": -0.433
-        },
-        "almanarnews": {
-          "danger": 0.285,
-          "sentiment": -0.533
-        },
-        "C_Military1": {
-          "danger": 0.657,
-          "sentiment": -0.167
-        },
-        "almayadeen": {
-          "danger": 0.52,
-          "sentiment": -0.7
-        },
-        "QudsN": {
-          "danger": 0.639,
-          "sentiment": 0.15
-        }
-      }
-    },
     {
       "time": "2026-08-07T07:08:04.163Z",
       "danger": 0.492,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.267
         }
       }
+    },
+    {
+      "time": "2026-08-09T11:24:40.132Z",
+      "danger": 0.501,
+      "sentiment": -0.223,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.374,
+          "sentiment": -0.5
+        },
+        "OSINTdefender": {
+          "danger": 0.606,
+          "sentiment": 0.267
+        },
+        "irna_1313": {
+          "danger": 0.453,
+          "sentiment": -0.467
+        },
+        "sepah_pasdaran": {
+          "danger": 0.434,
+          "sentiment": -0.433
+        },
+        "almanarnews": {
+          "danger": 0.415,
+          "sentiment": 0.067
+        },
+        "C_Military1": {
+          "danger": 0.807,
+          "sentiment": -0.533
+        },
+        "almayadeen": {
+          "danger": 0.456,
+          "sentiment": 0
+        },
+        "QudsN": {
+          "danger": 0.512,
+          "sentiment": -0.5
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.37209501081777174
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.3744172443691981
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.45172903367540423
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.4527709294153279
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.5752732484288359
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.4337104241460752
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.34880285512090853
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.4152691522652052
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.860610174959612
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.8071941286995891
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.5640943850415867
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.45588594291263107
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.6933963504426524
+      "num_messages": 13,
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.5117079302422085
     }
   },
   "semantic_logs": [
@@ -2334,16 +2334,16 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "☑️حمله موشکی به بندر المخا تعز  @sepah_pasdaran",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "החות&#39;ים מקבלים אחריות באופן רשמי על תקיפת נמל אלמח&#39;א ☝️  בהודעה רשמית של הדובר הצבאי של החות&#39;ים, יחיא סריע, הודיעו החות&#39;ים כי תקפו את נמל אלמח&#39;א וגרמו להשמדת אמצעי לחימה ולהריגתם ופציעתם של עשרות אנשים בנמל, בהם גם סעודים.  ## החות&#39;ים עושים צחוק מהסעודים, על אף (ואולי בגלל) ברית ההגנה החדשה שחתמה סעודיה ביום שישי עם טורקיה ופקיסטן.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "وزارة الطاقة: لا ازمة محروقات ومادة البنزين متوافرة https://almanar.com.lb/article/1083242/?s=tg",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️پزشکیان: دشمن آدم‌هایی را ترور می‌کند که گره‌گشا هستند  برادران نظامی در سپاه و ارتش کاری کردند کارستان؛ با ایستادن مقابل دو قدرت اتمی دنیا را به حیرت وادار کردند &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2357,42 +2357,28 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: عباس عراقتشي: مفاوضاتنا مع عُمان تدور حول تحديد مسار بحري جديد في مضيق هرمز وحققنا تقدماً خلالها",
+      "text": "إيران: موقع قائد الثورة والجمهورية الاسلامية في إيران: تزامن اللقاء مع بداية السنة الثالثة لتولي بزشكيان الرئاسة",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: عراقتشي: سيتم استبدال المسارات القديمة بمسارات جديدة",
+      "text": "إيران: الموقع: الجانبان ناقشا في الاجتماع بالتفصيل قضايا البلاد ومشاكلها لا سيما تلبية احتياجات الشعب المعيشية",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: الموقع: الاجتماع ناقش الوضع الراهن للحرب المفروضة الثالثة والمرحلة المقبلة",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: القوات المسلحة اليمنية: نفذنا عملية عسكرية واسعة ونوعية استهدفت تحشيدات &quot;العدو السعودي&quot; ومخازن أسلحته في المخا",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: جهانشاهي: التواجد الفعال لوحدات التدخل السريع والقوات الخاصة في المناطق الحدودية يضمن الامن المستدام على الحدود",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم راس العين في نابلس",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم منطقة راس العين في نابلس.",
+      "text": "إيران: الموقع: الاجتماع ناقش التطورات في المجال العسكري واستراتيجيات تأمين الموارد وإدارة النفقات والعملات الأجنبية والطاقة",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
@@ -2427,9 +2413,23 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: ستوافق الحكومة غدًا على تمديد حالة الطوارئ في الجبهة الداخلية حتى الثامن من سبتمبر، وذلك في ظل التوتر مع إيران.  #الإعلام_الحربي",
+      "text": "#إعلام_العدو   صحيفة إسرائيل اليوم العبرية - يوآف ليمور: يعترف الموساد رسميًا بفشل &quot;إسرائيل&quot; في تحقيق أهدافها في الحرب الأخيرة ضد إيران. وهذا أمر بالغ الأهمية، ليس فقط لاستخلاص العبر للمستقبل، بل أيضًا لدحض الأكاذيب والحقائق العملية التي رُوّجت للرأي العام أثناء العملية وبعدها. والآن، لم يتبقَّ سوى تحديد المسؤولية عن هذا الفشل، وهو أمر لا ينتهي رؤساء الأقسام في الموساد، بل يعود إلى نفس النقطة التي ظلّ فيها عالقًا منذ 7 أكتوبر.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9988217284876506
+      "semantic_danger_knn": 0.9986358496212904
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية - بن درور يميني: يبدو أنه كلما مر الوقت، فإن أولئك الذين يتم القبض عليهم بعيدون عن كونهم أشخاصاً هامشيين. حتى الآن تم القبض على أكثر من سبعين شخصاً يُشتبه في تجسسهم أو أدينوا بالفعل بالتجسس لصالح إيران. نحو الثلث منهم من مواطني الاتحاد السوفييتي السابق. يمكن الافتراض أن معظمهم أو كلهم لا يشعرون بالانتماء إلى القاسم المشترك اليهودي. عشرون في المئة منهم عرب – تماماً كما نسبتهم في السكان. والباقي، نحو نصف المتورطين – إسرائيليون قديمون. ربما لم يكن بعضهم مدركاً في بداية الاتصال بالمشغّل الإيراني أنهم يدخلون مجال التجسس والخيانة. لكن لدى معظمهم – حتى في اللحظة التي عرفوا فيها – استمروا.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9983660049992394
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   وزير الخارجية الإيراني عباس عراقجي:   نحن ثابتون على العهد الذي قطعناه مع القائد العظيم، الشهيد آية الله العظمى السيد علي الخامنئي؛ فلا ننسى جرائم العدو، ولا نتنازل عن دماء الذين سُفكت دماؤهم ظلمًا.  إن فوران هذه الدماء يجعل شجرة المطالبة بالعدالة أكثر قوةً ونماءً؛ لأن النهضة الحسينية، وبعد 1400 عام، تحولت من حدث عاطفي إلى حركة متدفقة، تبني الإنسان وتتجاوز الحدود، في مواجهة الهيمنة والتسلّط.   إن الميثاق الذي تأسس على صرخة «مثلي لا يبايع مثله» تجلّى في كلام حسين زماننا، ليُظهر للعالم من جديد انتصار الدم على السيف.  #الإعلام_الحربي",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.9982909806180474
     }
   ]
 }
