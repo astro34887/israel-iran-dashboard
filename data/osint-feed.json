@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-10T12:57:59.591Z",
+  "last_updated": "2026-08-10T14:20:30.921Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "0.00"
+    "global_knn_danger": "0.54",
+    "global_norm_sentiment": "-0.09"
   },
   "timeline": [
-    {
-      "time": "2026-08-08T05:39:39.299Z",
-      "danger": 0.556,
-      "sentiment": -0.137,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.524,
-          "sentiment": -0.233
-        },
-        "OSINTdefender": {
-          "danger": 0.655,
-          "sentiment": 0.267
-        },
-        "irna_1313": {
-          "danger": 0.39,
-          "sentiment": 0.167
-        },
-        "sepah_pasdaran": {
-          "danger": 0.36,
-          "sentiment": -0.7
-        },
-        "almanarnews": {
-          "danger": 0.378,
-          "sentiment": -0.333
-        },
-        "C_Military1": {
-          "danger": 0.719,
-          "sentiment": -0.2
-        },
-        "almayadeen": {
-          "danger": 0.846,
-          "sentiment": -0.333
-        },
-        "QudsN": {
-          "danger": 0.738,
-          "sentiment": 0.133
-        }
-      }
-    },
     {
       "time": "2026-08-08T06:43:09.998Z",
       "danger": 0.556,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.033
         }
       }
+    },
+    {
+      "time": "2026-08-10T14:20:30.921Z",
+      "danger": 0.54,
+      "sentiment": -0.089,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.56,
+          "sentiment": -0.133
+        },
+        "OSINTdefender": {
+          "danger": 0.578,
+          "sentiment": -0.067
+        },
+        "irna_1313": {
+          "danger": 0.611,
+          "sentiment": -0.467
+        },
+        "sepah_pasdaran": {
+          "danger": 0.366,
+          "sentiment": -0.167
+        },
+        "almanarnews": {
+          "danger": 0.464,
+          "sentiment": 0.167
+        },
+        "C_Military1": {
+          "danger": 0.707,
+          "sentiment": 0.143
+        },
+        "almayadeen": {
+          "danger": 0.628,
+          "sentiment": -0.033
+        },
+        "QudsN": {
+          "danger": 0.536,
+          "sentiment": -0.2
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.6185670696807745
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.5599939015277876
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,20 +2291,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.26666666666666666,
-      "knn_danger_metric": 0.41778475273304205
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.6113520515576923
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.4261118782602254
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.3655665831496163
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.3669046209830868
+      "raw_sentiment": 0.16666666666666666,
+      "knn_danger_metric": 0.46377650272680626
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.7322813845782742
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.6278551711758129
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.40095015411613305
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.5356863735669334
     }
   },
   "semantic_logs": [
@@ -2357,20 +2357,6 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: بزشكيان: على الرغم من أن الأعداء أغلقوا أمامنا الطرق فإننا سنفتح طرقاً جديدة",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: بزشكيان: نهج قائدنا الشهيد سيستمر دائماً وعلينا أن نسلك هذا الطريق بالوحدة والقوة والتماسك والتنسيق",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "إيران: بزشكيان: اللقاء الذي جمعنا بقائدنا العزيز السيد مجتبى خامنئي كان لقاء ممتازاً للغاية",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
@@ -2390,9 +2376,30 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: قصف مدفعي إسرائيلي استهدف منطقة المشاع عند أطراف بلدة المنصوري جنوبي البلاد",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "ألبانيز: الإبادة والفصل العنصري مشروع دولة في &quot;إسرائيل&quot; التفاصيل: https://qudsn.co/share/216976",
+      "text": "مظاهرات حاشدة في مدينة روتردام؛ الهولندية رفضا للإبادة الجماعية ومطالبة بإنهاء التواطؤ مع الاحتلال",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تواصل تحويل منزل لثكنة عسكرية خلال اقتحام بلدة قصرة، جنوب شرق نابلس.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "صور من اقتحام قوات الاحتلال لبلدة &quot;بلعا&quot; شرق طولكرم، حيث تداهم أحد المنازل.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
@@ -2404,32 +2411,25 @@
       "semantic_danger_knn": 0.9979853054910217
     },
     {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸حمله پهپادی اوکراین به تاسیساتی در تاتارستان؛ ۷ شهروند ازبکستان کشته شدند  🔹درحالیکه درگیری بین اوکراین و روسیه به تاسیسات صنعتی و غیرنظامی کشیده شده‌است، در جریان حمله پهپادی کی‌یف به تاسیساتی در منطقه تاتارستان، ۷ شهروند ازبکستانی کشته شدند.  🔹این حمله پهپادی همچنین منجر به زخمی شدن ۳۸ نفر دیگر شد و یک روز عزای عمومی در جمهوری تاتارستان روسیه اعلام شد. #ایرنا_جهان  https://irna.ir/xjXYhF @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9974483205376711
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸 بحران اقتصادی در اروپا به دلیل گرمای بی‌سابقه و خشکسالی  🔹گرمای شدید و خشکسالی در تابستان ۲۰۲۶، از مزارع برنج ایتالیا تا مسیرهای کشتیرانی، نیروگاه‌ها و بخش گردشگری اروپا، خسارت‌های اقتصادی گسترده‌ای به همراه داشته و اقتصاددانان هشدار می‌دهند پیامدهای مالی و اقتصادی تغییرات اقلیمی در سال‌های آینده شدیدتر خواهد شد. #ایرنا_جهان  https://irna.ir/xjXYg4 @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9904567943036928
+    },
+    {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل | قوات الاحتلال تعتقل شاباً خلال اقتحام قرية المغير، شمال شرق رام الله.",
+      "text": "عاجل | قوات الاحتلال تداهم منزلاً في بلدة بَلعا، شرق طولكرم.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9596045227592704
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "من جنوب لبنان الاهالي يرفعون الصوت  مراسلنا سامر الحاج علي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9451672518425872
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "עיתונאים עזתיים מזוהי חמאס מדווחים כי צה&quot;ל החל להרוס את המבנה המסחרי הסמוך לאתר הנופש Happy City באזור קיזאן א-נג&#39;אר בדרום ח&#39;אן יונס.   ע&quot;פ מקורות אלו צה&quot;ל מרחיב את הקו הצהוב באזור זה.  ## דיווח ראשון מסוגו בשבוע האחרון  2 תגובות",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9354511687229239
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "עיתונאים עזתיים מזוהי חמאס מדווחים כי צה&quot;ל החל להרוס את המבנה המסחרי הסמוך לאתר הנופש Happy City באזור קיזאן א-נג&#39;אר בדרום ח&#39;אן יונס.   ע&quot;פ מקורות אלו צה&quot;ל מרחיב את הקו הצהוב באזור זה.  ## דיווח ראשון מסוגו בשבוע האחרון  2 תגובות",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9354511687229239
     }
   ]
 }
