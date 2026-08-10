@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-10T14:20:30.921Z",
+  "last_updated": "2026-08-10T15:56:16.713Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.09"
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "0.00"
   },
   "timeline": [
-    {
-      "time": "2026-08-08T06:43:09.998Z",
-      "danger": 0.556,
-      "sentiment": -0.192,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.524,
-          "sentiment": -0.333
-        },
-        "OSINTdefender": {
-          "danger": 0.655,
-          "sentiment": 0.167
-        },
-        "irna_1313": {
-          "danger": 0.468,
-          "sentiment": 0
-        },
-        "sepah_pasdaran": {
-          "danger": 0.407,
-          "sentiment": -0.633
-        },
-        "almanarnews": {
-          "danger": 0.372,
-          "sentiment": -0.367
-        },
-        "C_Military1": {
-          "danger": 0.719,
-          "sentiment": -0.133
-        },
-        "almayadeen": {
-          "danger": 0.779,
-          "sentiment": -0.333
-        },
-        "QudsN": {
-          "danger": 0.69,
-          "sentiment": -0.125
-        }
-      }
-    },
     {
       "time": "2026-08-08T07:44:38.451Z",
       "danger": 0.57,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.2
         }
       }
+    },
+    {
+      "time": "2026-08-10T15:56:16.713Z",
+      "danger": 0.524,
+      "sentiment": 0.002,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.618,
+          "sentiment": 0.033
+        },
+        "OSINTdefender": {
+          "danger": 0.578,
+          "sentiment": -0.067
+        },
+        "irna_1313": {
+          "danger": 0.438,
+          "sentiment": 0.1
+        },
+        "sepah_pasdaran": {
+          "danger": 0.307,
+          "sentiment": 0.233
+        },
+        "almanarnews": {
+          "danger": 0.429,
+          "sentiment": -0.2
+        },
+        "C_Military1": {
+          "danger": 0.805,
+          "sentiment": -0.036
+        },
+        "almayadeen": {
+          "danger": 0.631,
+          "sentiment": 0.233
+        },
+        "QudsN": {
+          "danger": 0.481,
+          "sentiment": -0.143
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.5599939015277876
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.617742113003266
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.6113520515576923
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.43787407565215974
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.3655665831496163
+      "raw_sentiment": 0.23333333333333334,
+      "knn_danger_metric": 0.30737558373541435
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.46377650272680626
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.4289292802577008
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 14,
-      "raw_sentiment": 0.14285714285714285,
-      "knn_danger_metric": 0.7072467178842302
+      "raw_sentiment": -0.03571428571428571,
+      "knn_danger_metric": 0.8049295229262752
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.6278551711758129
+      "raw_sentiment": 0.23333333333333334,
+      "knn_danger_metric": 0.630857706871115
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.5356863735669334
+      "num_messages": 14,
+      "raw_sentiment": -0.14285714285714285,
+      "knn_danger_metric": 0.48104229268108417
     }
   },
   "semantic_logs": [
@@ -2334,9 +2334,9 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 الحرس الثوري الايراني: بعض صواريخنا يمكنها تغيير مسارها في مواجهة منظومات الدفاع الجوي للعدو https://almanar.com.lb/article/1086012/?s=tg",
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "📌 سه نکته از این خبر:  ۱. ممنوعیت حضور نظامیان بیگانه و تثبیت امنیت: این کنوانسیون با ممنوعیت صریح حضور پایگاه‌ها و نیروهای نظامی کشورهای غیرساحلی، از تبدیل خزر به صحنه رقابت‌های بیگانگان جلوگیری می‌کند.  ۲. تعویق تحدید حدود و پذیرش شرایط ایران: سهم کشورمان…",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
@@ -2355,52 +2355,52 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: بزشكيان: اللقاء الذي جمعنا بقائدنا العزيز السيد مجتبى خامنئي كان لقاء ممتازاً للغاية",
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: أوضحت قيادة الشمال أن الأصوات غير المعتادة التي سمعت في الساعات الأخيرة في منطقة الجليل الغربي كانت نتيجة لأنشطة تدريبية لسلاح الجو.  #الاعلام_الحربي",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الاسلامية  بموجب قرارات منفصلة صادرة عن القائد العام للقوات المسلحة؛ تعيين ستة قادة رفيعي المستوى في هيئة الأركان العامة للقوات المسلحة، والحرس الثوري، وقوات التعبئة   أبلغ سماحة آية الله سيد مجتبى حسيني خامنئي، القائد العام للقوات المسلحة، بموجب قرارات منفصلة، المسؤوليات والمهام الموكلة إلى ستة من القادة والمديرين رفيعي المستوى في القوات المسلحة.  - وبناءً على هذه القرارات، عُيّن اللواء الطيار في الحرس علي عبد اللهي رئيسًا لهيئة الأركان العامة للقوات المسلحة، والعميد كيومرث حيدري نائبًا لرئيس هيئة الأركان العامة للقوات المسلحة.  - كما تولّى العميد في الحرس أحمد وحيدي، بعد منحه رتبة لواء، قيادة الحرس الثوري الإسلامي، وتولّى اللواء في الحرس مصطفى إيزدي مسؤولية نائب قائد الحرس الثوري.  - وفي سياق هذه القرارات، أُسندت مسؤولية قيادة القوة البحرية للحرس الثوري إلى العميد البحري في الحرس علي عظمايي، ورئاسة منظمة تعبئة المستضعفين إلى حجة الإسلام والمسلمين حسين طائب.  #الاعلام_الحربي",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: بزشكيان: استمر الاجتماع تقريباً 7 ساعات استطعنا خلالها التباحث في كل قضايا البلاد",
+      "text": "اليمن: وكالة &quot;سبأ&quot;: استشهاد فتى إثر تعرضه لقذيفة من قبل عناصر تابعين للسعودية جنوب مديرية الجراحي في محافظة الحديدة غرب البلاد",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: بزشكيان: الهاجس الأساسي المطروح تلخص في معيشة الشعب والمشكلات التي تسببت بها العقوبات وناقشنا باستفاضة صمودنا ووحدتنا",
+      "text": "كولومبيا: محافظ مدينة بيريرا: مقتل 18 شخصاً من جراء الزلزال الذي ضرب البلاد",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: التلفزيون الإيراني: السيد مجتبى خامنئي سيعلن في الساعات المقبلة أوامر بتعيين عدد من القادة العسكريين رفيعي المستوى في البلاد",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: قصف مدفعي إسرائيلي استهدف منطقة المشاع عند أطراف بلدة المنصوري جنوبي البلاد",
-      "absolute_sentiment": -1,
+      "text": "إيران: السيد مجتبى خامنئي يعين حجة الإسلام والمسلمين حسين طائب رئيساً لمنظمة &quot;تعبئة المستضعفين&quot;",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مظاهرات حاشدة في مدينة روتردام؛ الهولندية رفضا للإبادة الجماعية ومطالبة بإنهاء التواطؤ مع الاحتلال",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تواصل تحويل منزل لثكنة عسكرية خلال اقتحام بلدة قصرة، جنوب شرق نابلس.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "صور من اقتحام قوات الاحتلال لبلدة &quot;بلعا&quot; شرق طولكرم، حيث تداهم أحد المنازل.",
-      "absolute_sentiment": 0.5,
+      "text": "قبيل الانتخابات الإسرائيلية.. 3400 وحدة استيطانية جديدة في القدس  https://qudsn.co/share/216982",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2411,25 +2411,25 @@
       "semantic_danger_knn": 0.9979853054910217
     },
     {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸حمله پهپادی اوکراین به تاسیساتی در تاتارستان؛ ۷ شهروند ازبکستان کشته شدند  🔹درحالیکه درگیری بین اوکراین و روسیه به تاسیسات صنعتی و غیرنظامی کشیده شده‌است، در جریان حمله پهپادی کی‌یف به تاسیساتی در منطقه تاتارستان، ۷ شهروند ازبکستانی کشته شدند.  🔹این حمله پهپادی همچنین منجر به زخمی شدن ۳۸ نفر دیگر شد و یک روز عزای عمومی در جمهوری تاتارستان روسیه اعلام شد. #ایرنا_جهان  https://irna.ir/xjXYhF @IRNA_1313",
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 12 العبرية: الأمريكيون يواصلون تقليص عدد طائرات التزوّد بالوقود من مطار بن غوريون، وقد أصبح عدد طائرات التزوّد بالوقود قريبًا بالفعل من أيام وقف إطلاق النار، إذ كان في المطار حينها نحو 20 طائرة تزوّد بالوقود فقط.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9974483205376711
+      "semantic_danger_knn": 0.9978190552288908
     },
     {
       "channelId": "irna_1313",
       "channel": "IRGC",
-      "text": "🔸 بحران اقتصادی در اروپا به دلیل گرمای بی‌سابقه و خشکسالی  🔹گرمای شدید و خشکسالی در تابستان ۲۰۲۶، از مزارع برنج ایتالیا تا مسیرهای کشتیرانی، نیروگاه‌ها و بخش گردشگری اروپا، خسارت‌های اقتصادی گسترده‌ای به همراه داشته و اقتصاددانان هشدار می‌دهند پیامدهای مالی و اقتصادی تغییرات اقلیمی در سال‌های آینده شدیدتر خواهد شد. #ایرنا_جهان  https://irna.ir/xjXYg4 @IRNA_1313",
+      "text": "🔸زلزله ۴.۷ ریشتری اندیمشک شهرهای شمال خوزستان را لرزاند   🔹زمین لرزه ای به بزرگی ۴.۷ ریشتردقایقی پیش در شهر حسینیه اندیمشک به ثبت رسید که شدت این زمین لرزه در شهرهای شمال خوزستان احساس شد.  https://irna.ir/xjXYkR @IRNA_1313",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9904567943036928
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل | قوات الاحتلال تداهم منزلاً في بلدة بَلعا، شرق طولكرم.",
+      "text": "عاجل | قوات الاحتلال تقتحم مدينة نابلس وتتجه نحو منطقة &quot;كروم عاشور&quot;.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
+      "semantic_danger_knn": 0.9753639863943435
     }
   ]
 }
