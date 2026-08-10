@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-10T01:22:03.614Z",
+  "last_updated": "2026-08-10T03:49:35.933Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.57",
-    "global_norm_sentiment": "-0.27"
+    "global_norm_sentiment": "-0.29"
   },
   "timeline": [
-    {
-      "time": "2026-08-07T21:34:31.338Z",
-      "danger": 0.571,
-      "sentiment": -0.3,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.524,
-          "sentiment": -0.333
-        },
-        "OSINTdefender": {
-          "danger": 0.571,
-          "sentiment": -0.3
-        },
-        "irna_1313": {
-          "danger": 0.577,
-          "sentiment": -0.167
-        },
-        "sepah_pasdaran": {
-          "danger": 0.33,
-          "sentiment": -0.6
-        },
-        "almanarnews": {
-          "danger": 0.553,
-          "sentiment": -0.167
-        },
-        "C_Military1": {
-          "danger": 0.725,
-          "sentiment": -0.233
-        },
-        "almayadeen": {
-          "danger": 0.751,
-          "sentiment": -0.6
-        },
-        "QudsN": {
-          "danger": 0.734,
-          "sentiment": -0.433
-        }
-      }
-    },
     {
       "time": "2026-08-07T22:30:12.647Z",
       "danger": 0.583,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.6
         }
       }
+    },
+    {
+      "time": "2026-08-10T03:49:35.933Z",
+      "danger": 0.574,
+      "sentiment": -0.295,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.37,
+          "sentiment": -0.533
+        },
+        "OSINTdefender": {
+          "danger": 0.532,
+          "sentiment": 0.067
+        },
+        "irna_1313": {
+          "danger": 0.58,
+          "sentiment": -0.833
+        },
+        "sepah_pasdaran": {
+          "danger": 0.547,
+          "sentiment": -0.533
+        },
+        "almanarnews": {
+          "danger": 0.458,
+          "sentiment": -0.033
+        },
+        "C_Military1": {
+          "danger": 0.591,
+          "sentiment": 0.286
+        },
+        "almayadeen": {
+          "danger": 0.781,
+          "sentiment": -0.767
+        },
+        "QudsN": {
+          "danger": 0.928,
+          "sentiment": -0.467
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2290,9 +2290,9 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 13,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.45013455704233835
+      "num_messages": 12,
+      "raw_sentiment": -0.8333333333333334,
+      "knn_danger_metric": 0.5800979978972671
     },
     "sepah_pasdaran": {
       "name": "IRGC",
@@ -2304,7 +2304,7 @@
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.45825358072792827
+      "knn_danger_metric": 0.4582535807279282
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2321,8 +2321,8 @@
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.991920904551854
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.927947269701236
     }
   },
   "semantic_logs": [
@@ -2406,13 +2406,6 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تعتقل الشاب غسان عدوان عقب مداهمة منزله في بلدة عزون شرق قلقيلية.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
       "text": "مصادر محلية: قوات الاحتلال تعتقل 11 فلسطينيًا خلال اقتحامها قرية مراح رباح، جنوب بيت لحم.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
@@ -2428,6 +2421,13 @@
       "channelId": "QudsN",
       "channel": "Arab_Axis",
       "text": "جانب من اقتحام قوات الاحتلال مخيم الفوار، جنوب الخليل.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مشاهد من اقتحام قوات الاحتلال المستمر لبلدة بيت فوريك شرق نابلس.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
