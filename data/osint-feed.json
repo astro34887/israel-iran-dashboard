@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-10T18:51:13.490Z",
+  "last_updated": "2026-08-10T19:52:34.884Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.06"
+    "global_knn_danger": "0.51",
+    "global_norm_sentiment": "-0.17"
   },
   "timeline": [
-    {
-      "time": "2026-08-08T10:27:08.211Z",
-      "danger": 0.538,
-      "sentiment": -0.177,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.513,
-          "sentiment": -0.7
-        },
-        "OSINTdefender": {
-          "danger": 0.649,
-          "sentiment": 0.4
-        },
-        "irna_1313": {
-          "danger": 0.44,
-          "sentiment": 0.067
-        },
-        "sepah_pasdaran": {
-          "danger": 0.455,
-          "sentiment": -0.567
-        },
-        "almanarnews": {
-          "danger": 0.499,
-          "sentiment": -0.3
-        },
-        "C_Military1": {
-          "danger": 0.668,
-          "sentiment": 0
-        },
-        "almayadeen": {
-          "danger": 0.61,
-          "sentiment": -0.2
-        },
-        "QudsN": {
-          "danger": 0.593,
-          "sentiment": -0.3
-        }
-      }
-    },
     {
       "time": "2026-08-08T11:24:21.093Z",
       "danger": 0.525,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.533
         }
       }
+    },
+    {
+      "time": "2026-08-10T19:52:34.884Z",
+      "danger": 0.514,
+      "sentiment": -0.173,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.542,
+          "sentiment": -0.3
+        },
+        "OSINTdefender": {
+          "danger": 0.575,
+          "sentiment": -0.3
+        },
+        "irna_1313": {
+          "danger": 0.342,
+          "sentiment": -0.267
+        },
+        "sepah_pasdaran": {
+          "danger": 0.3,
+          "sentiment": -0.067
+        },
+        "almanarnews": {
+          "danger": 0.374,
+          "sentiment": 0.067
+        },
+        "C_Military1": {
+          "danger": 0.811,
+          "sentiment": -0.033
+        },
+        "almayadeen": {
+          "danger": 0.523,
+          "sentiment": -0.367
+        },
+        "QudsN": {
+          "danger": 0.719,
+          "sentiment": -0.333
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2280,7 +2280,7 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.5972338657661023
+      "knn_danger_metric": 0.542252935476869
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,21 +2290,21 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 14,
-      "raw_sentiment": 0.21428571428571427,
-      "knn_danger_metric": 0.3266267067153384
+      "num_messages": 15,
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.34209758859049283
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.3551493829475348
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.2996242298687777
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.34058559838757874
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.37391893172091206
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.6588248172609338
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.5229925378084407
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.7812886537920625
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.718614711752109
     }
   },
   "semantic_logs": [
@@ -2331,13 +2331,6 @@
       "channel": "IDF",
       "text": "״אני קורא לאכולוסייה החרדית ולהנהגה החרדית לעודד כל פעם קצת יותר לגיוס. יש לנו מסלולים יוצאים מן הכלל, השתחררו מהם אנשים לא פחות חרדים ואזרחים טובים יותר למדינה. זה טוב לכולם״  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "קולאז&#39; של 6 המינויים החדשים בהנהגה הצבאית-ביטחונית האיראנית החדשה.  תגובה אחת",
-      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
@@ -2352,6 +2345,13 @@
       "channel": "Israel_OSINT",
       "text": "לראשונה בצפון תל אביב - החל מ-39,000 ₪ למ&quot;ר  קבוצת חג&#39;ג&#39;-צים גאה להשיק את KITZIS Tel Aviv הפרויקט שמגדיר מחדש את החיים בצד הירוק של תל אביב.  - דירות 4-5 חדרים מרווחות ופנטהאוזים - על קו הרכבת קלה - מרחק נגיעה מפארק הירקון - חדר כושר ולאונג&#39; דיירים מפואר - חניה פרטית ומחסן לכל דירה - תנאי תשלום נוחים ללא הצמדה למדד  מוגבל ל-10 הרוכשים הראשונים  לפרטים נוספים &gt;&gt;&gt;  https://kitsis.co.il/?utm_source=KitzisTelegramAbuAli",
       "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "עוד תיעוד של הסוכות והאוהלים שמקימים אלפי מהגרים מרוקאים על חופי סאוטה הספרדית.  תגובה אחת",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
@@ -2399,36 +2399,36 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: السيد خامنئي: يُنتظر الاضطلاع بدور جهادي للارتقاء بالجاهزية التنظيمية عبر توزيع الأدوار انسجاماً مع توجيهات قائد حرس الثورة",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: السيد خامنئي: من المُؤمّل رفع مستوى التدريب والمهارات والمعدات والإمكانات البحرية وتحقيق الإحاطة الاستخباراتيّة",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: رسالة السيد خامنئي دعت لإقامة تفاعل بنّاء ّمع كل المؤسسات وأجهزة السلطة وتوسيع نطاق المجموعات الجهادية وتعبئة الفئات المختلفة",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيليّة: &quot;القناة 12&quot;: إصابة جندي إسرائيلي بجراح متوسطة نتيجة حادث عملاني في جنوب لبنان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "لبنان: مراسل الميادين في الجنوب: عملية تمشيط بالأسلحة الرشاشة من قبل &quot;جيش&quot; الاحتلال الإسرائيلي باتجاه بلدة المنصوري",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: &quot;جيش&quot; الاحتلال الإسرائيلي نفذ تفجيرين في بلدة الطيبة جنوب لبنان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي شمالي مخيم البريج وسط قطاع غزة",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تقتحم منزل عائلة الشهيد فاروق رمضان؛ تمهيداً لهدمه وتخلي عدداً آخر من المنازل في قرية تل، جنوب غرب نابلس.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مشاهد من الاقتحام الواسع الذي تنفذه قوات الاحتلال في قرية &quot;تل&quot; جنوب غرب نابلس؛ تمهيداً لتفجير منزل الشهيد فاروق رمضان.",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
   ]
