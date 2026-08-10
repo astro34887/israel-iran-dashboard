@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-10T03:49:35.933Z",
+  "last_updated": "2026-08-10T05:21:56.514Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.57",
-    "global_norm_sentiment": "-0.29"
+    "global_knn_danger": "0.55",
+    "global_norm_sentiment": "-0.22"
   },
   "timeline": [
-    {
-      "time": "2026-08-07T22:30:12.647Z",
-      "danger": 0.583,
-      "sentiment": -0.293,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.524,
-          "sentiment": -0.233
-        },
-        "OSINTdefender": {
-          "danger": 0.571,
-          "sentiment": -0.3
-        },
-        "irna_1313": {
-          "danger": 0.547,
-          "sentiment": -0.367
-        },
-        "sepah_pasdaran": {
-          "danger": 0.337,
-          "sentiment": -0.567
-        },
-        "almanarnews": {
-          "danger": 0.576,
-          "sentiment": -0.1
-        },
-        "C_Military1": {
-          "danger": 0.725,
-          "sentiment": -0.3
-        },
-        "almayadeen": {
-          "danger": 0.751,
-          "sentiment": -0.6
-        },
-        "QudsN": {
-          "danger": 0.845,
-          "sentiment": -0.333
-        }
-      }
-    },
     {
       "time": "2026-08-07T23:29:47.004Z",
       "danger": 0.588,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.467
         }
       }
+    },
+    {
+      "time": "2026-08-10T05:21:56.514Z",
+      "danger": 0.551,
+      "sentiment": -0.221,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.382,
+          "sentiment": -0.533
+        },
+        "OSINTdefender": {
+          "danger": 0.513,
+          "sentiment": 0.033
+        },
+        "irna_1313": {
+          "danger": 0.365,
+          "sentiment": -0.133
+        },
+        "sepah_pasdaran": {
+          "danger": 0.576,
+          "sentiment": -0.533
+        },
+        "almanarnews": {
+          "danger": 0.458,
+          "sentiment": -0.033
+        },
+        "C_Military1": {
+          "danger": 0.591,
+          "sentiment": 0.286
+        },
+        "almayadeen": {
+          "danger": 0.811,
+          "sentiment": -0.767
+        },
+        "QudsN": {
+          "danger": 0.867,
+          "sentiment": -0.367
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2280,25 +2280,25 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.3700463762387256
+      "knn_danger_metric": 0.38211496137123613
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.5321410267726854
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.512806476456985
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 12,
-      "raw_sentiment": -0.8333333333333334,
-      "knn_danger_metric": 0.5800979978972671
+      "num_messages": 15,
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.36484906271364675
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.5473380873220565
+      "knn_danger_metric": 0.5757435951650012
     },
     "almanarnews": {
       "name": "Hezbollah",
@@ -2316,13 +2316,13 @@
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.7666666666666667,
-      "knn_danger_metric": 0.7814803888260243
+      "knn_danger_metric": 0.8111232903264544
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.927947269701236
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.8673122756250335
     }
   },
   "semantic_logs": [
@@ -2337,7 +2337,7 @@
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
       "text": "&rlm; ️لحظۀ شلیک موشک‌ها و پهپادهای یمنی به تجمع نیروهای سعودی و انبارهای تسلیحاتی آن‌ها در المخا &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 1,
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2404,31 +2404,31 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تعتقل 11 فلسطينيًا خلال اقتحامها قرية مراح رباح، جنوب بيت لحم.",
+      "text": "لبنان: مراسل الميادين: جيش الاحتلال نفذ تفجيراً في منطقة المشاع أطراف بلدة المنصوري",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم مخيم الفوار، جنوب الخليل.",
-      "absolute_sentiment": 0,
+      "text": "مصادر محلية: قوات الاحتلال تقتحم حي &quot;أم الشرايط&quot; بمدينة البيرة.",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال مخيم الفوار، جنوب الخليل.",
-      "absolute_sentiment": 0.5,
+      "text": "قوات الاحتلال تعتقل الأسير المحرر محمود شلاتوة عقب مداهمة منزله في قرية عابود شمال غرب رام الله، وقد أمضى 10 سنوات في سجون الاحتلال.",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مشاهد من اقتحام قوات الاحتلال المستمر لبلدة بيت فوريك شرق نابلس.",
-      "absolute_sentiment": 0.5,
+      "text": "مصادر محلية: قوات الاحتلال تعتقل الصحفي علاء سراحنة عقب مداهمة منزله والعبث بمحتوياته في مخيم الفوار، جنوب الخليل.",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
   ]
