@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-11T11:40:14.138Z",
+  "last_updated": "2026-08-11T12:54:07.601Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.55",
-    "global_norm_sentiment": "-0.23"
+    "global_norm_sentiment": "-0.14"
   },
   "timeline": [
-    {
-      "time": "2026-08-08T23:23:56.111Z",
-      "danger": 0.575,
-      "sentiment": -0.223,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.438,
-          "sentiment": -0.4
-        },
-        "OSINTdefender": {
-          "danger": 0.643,
-          "sentiment": 0.4
-        },
-        "irna_1313": {
-          "danger": 0.425,
-          "sentiment": -0.2
-        },
-        "sepah_pasdaran": {
-          "danger": 0.375,
-          "sentiment": -0.5
-        },
-        "almanarnews": {
-          "danger": 0.459,
-          "sentiment": -0.1
-        },
-        "C_Military1": {
-          "danger": 0.793,
-          "sentiment": -0.533
-        },
-        "almayadeen": {
-          "danger": 0.722,
-          "sentiment": -0.467
-        },
-        "QudsN": {
-          "danger": 0.942,
-          "sentiment": -0.3
-        }
-      }
-    },
     {
       "time": "2026-08-09T01:20:08.257Z",
       "danger": 0.567,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.367
         }
       }
+    },
+    {
+      "time": "2026-08-11T12:54:07.601Z",
+      "danger": 0.549,
+      "sentiment": -0.145,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.596,
+          "sentiment": -0.633
+        },
+        "OSINTdefender": {
+          "danger": 0.593,
+          "sentiment": -0.3
+        },
+        "irna_1313": {
+          "danger": 0.443,
+          "sentiment": 0.154
+        },
+        "sepah_pasdaran": {
+          "danger": 0.357,
+          "sentiment": -0.6
+        },
+        "almanarnews": {
+          "danger": 0.499,
+          "sentiment": -0.233
+        },
+        "C_Military1": {
+          "danger": 0.811,
+          "sentiment": 0.067
+        },
+        "almayadeen": {
+          "danger": 0.679,
+          "sentiment": 0.2
+        },
+        "QudsN": {
+          "danger": 0.562,
+          "sentiment": 0.067
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.7,
-      "knn_danger_metric": 0.5823386480167088
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.5964538923114511
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.4711073043329307
+      "num_messages": 13,
+      "raw_sentiment": 0.15384615384615385,
+      "knn_danger_metric": 0.4431097598450991
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.4103875249121208
+      "knn_danger_metric": 0.35721315620319377
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.4502215133584645
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.4994245734946116
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
+      "raw_sentiment": 0.06666666666666667,
       "knn_danger_metric": 0.8109429610224709
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.5125272711568528
+      "raw_sentiment": 0.2,
+      "knn_danger_metric": 0.6792866145309131
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.7517003293134035
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.5622762708626341
     }
   },
   "semantic_logs": [
@@ -2336,13 +2336,6 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "תיעוד מרגעי פיצוץ ביתו של המחבל פארוק רמצ&#39;אן מהפיגוע בכפר תל☝️  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
       "text": "צפון מחנה הפליטים אלבריג&#39; במרכז הרצועה: הפלסטינים מדווחים לפני זמן קצר על התקדמות של דחפורים ישראלים באזור תחנת הדלק תמראז - הם מבצעים עבודות יישור של הקרקע במקום.  תגובה אחת",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
@@ -2350,7 +2343,7 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "דרום לבנון: בנת ג&#39;ביל החדשה - אזור בית הספר סעד והשוק של בנת ג&#39;ביל לפני כניסת כוחות צה&quot;ל וכעת...  בעיני זה פשוט מדהים&#33; כל הכבוד לבאגריסטים&#33;  בנת ג&#39;ביל, בירת ההתנגדות של חזבאללה נטחנה לעפר דק.  תגובה אחת",
+      "text": "בית המשפט בסוריה גזר היום עונש מוות על בשאר אסד, נשיא סוריה לשעבר ועל אחיו מאהר אלאסד - גזר הדין ניתן בהעדרם.  כמו כן גזר בית המשפט הסורי עונש מוות על עאטף נג&#39;יב, בן דודם ששימש בתפקיד בכיר במערכת הביטחון הסורית בזמן שלטון אסד. הוא כלוא בידי המשטר החדש וסביר להניח שיוצא להורג בקרוב.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2359,20 +2352,6 @@
       "channel": "IRGC",
       "text": "&rlm; ️#تکمیلی |  محل شکار سومین کشتی سعودی در طول امروز در دریای سرخ &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️واکنش رسانه‌های مختلف جهان به انتصابات جدید رهبر معظم انقلاب &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 الأمن الداخلي السوري يعلن عودة الهدوء إلى عين العرب https://almanar.com.lb/article/1088022/?s=tg",
-      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2400,7 +2379,7 @@
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#الجمهورية_الاسلامية  بموجب قرارات منفصلة صادرة عن القائد العام للقوات المسلحة؛ تعيين ستة قادة رفيعي المستوى في هيئة الأركان العامة للقوات المسلحة، والحرس الثوري، وقوات التعبئة   أبلغ سماحة آية الله سيد مجتبى حسيني خامنئي، القائد العام للقوات المسلحة، بموجب قرارات منفصلة، المسؤوليات والمهام الموكلة إلى ستة من القادة والمديرين رفيعي المستوى في القوات المسلحة.  - وبناءً على هذه القرارات، عُيّن اللواء الطيار في الحرس علي عبد اللهي رئيسًا لهيئة الأركان العامة للقوات المسلحة، والعميد كيومرث حيدري نائبًا لرئيس هيئة الأركان العامة للقوات المسلحة.  - كما تولّى العميد في الحرس أحمد وحيدي، بعد منحه رتبة لواء، قيادة الحرس الثوري الإسلامي، وتولّى اللواء في الحرس مصطفى إيزدي مسؤولية نائب قائد الحرس الثوري.  - وفي سياق هذه القرارات، أُسندت مسؤولية قيادة القوة البحرية للحرس الثوري إلى العميد البحري في الحرس علي عظمايي، ورئاسة منظمة تعبئة المستضعفين إلى حجة الإسلام والمسلمين حسين طائب.  #الاعلام_الحربي",
-      "absolute_sentiment": 0.5,
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2420,15 +2399,36 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: عبدالسلام: عملياتنا ضد السفن السعودية ومعسكراتها داخل بلدنا تأتي في إطار الرد على اعتداءاتها ومنها الاعتداء على مطار صنعاء",
-      "absolute_sentiment": 0.5,
+      "text": "إيران: رضائي: الأمن القومي ليس منفصلاً عن الاستقرار الاقتصادي والتماسك الاجتماعي والقدرة الدفاعية والقوة الدبلوماسية",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: عبدالسلام: قواتنا مستمرة في القيام بواجبها في مواجهة المؤامرات والدفاع عن سيادة واستقلال وكرامة اليمن وانتزاع حقوق الشعب كاملة",
+      "text": "إيران: رضائي: سيكون الأساس هو تعزيز القدرة على الردع ومقاومة استبداد الأعداء والرد الفوري والحازم على أي اعتداء",
       "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: رضائي: الوحدة الوطنية وتضامن الشعب والمسؤولين هما اليوم أكثر من أي وقت مضى ضرورة استراتيجية",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في بيروت: خلاف في مجلس النواب حول قانوني الإعلام والعفو العام",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مستوطنون يحاصرون منزلاً في بلدة قصرة جنوب نابلس ويمنعون عائلة من الخروج، وجنود الاحتلال يزورون خيمة المستوطنين لالتقاط الصور وأداء طقوس تلمودية",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
   ]
