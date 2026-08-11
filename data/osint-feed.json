@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-10T23:30:42.335Z",
+  "last_updated": "2026-08-11T01:19:56.449Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.57",
-    "global_norm_sentiment": "-0.23"
+    "global_knn_danger": "0.56",
+    "global_norm_sentiment": "-0.25"
   },
   "timeline": [
-    {
-      "time": "2026-08-08T15:25:14.990Z",
-      "danger": 0.501,
-      "sentiment": -0.269,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.509,
-          "sentiment": -0.733
-        },
-        "OSINTdefender": {
-          "danger": 0.67,
-          "sentiment": 0.4
-        },
-        "irna_1313": {
-          "danger": 0.352,
-          "sentiment": -0.4
-        },
-        "sepah_pasdaran": {
-          "danger": 0.365,
-          "sentiment": -0.633
-        },
-        "almanarnews": {
-          "danger": 0.241,
-          "sentiment": -0.033
-        },
-        "C_Military1": {
-          "danger": 0.691,
-          "sentiment": -0.233
-        },
-        "almayadeen": {
-          "danger": 0.559,
-          "sentiment": -0.467
-        },
-        "QudsN": {
-          "danger": 0.675,
-          "sentiment": -0.462
-        }
-      }
-    },
     {
       "time": "2026-08-08T16:27:44.218Z",
       "danger": 0.52,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.467
         }
       }
+    },
+    {
+      "time": "2026-08-11T01:19:56.449Z",
+      "danger": 0.559,
+      "sentiment": -0.253,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.549,
+          "sentiment": -0.167
+        },
+        "OSINTdefender": {
+          "danger": 0.575,
+          "sentiment": -0.3
+        },
+        "irna_1313": {
+          "danger": 0.493,
+          "sentiment": -0.433
+        },
+        "sepah_pasdaran": {
+          "danger": 0.416,
+          "sentiment": -0.233
+        },
+        "almanarnews": {
+          "danger": 0.47,
+          "sentiment": -0.5
+        },
+        "C_Military1": {
+          "danger": 0.811,
+          "sentiment": -0.033
+        },
+        "almayadeen": {
+          "danger": 0.584,
+          "sentiment": -0.367
+        },
+        "QudsN": {
+          "danger": 0.746,
+          "sentiment": -0.367
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,7 +2279,7 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
+      "raw_sentiment": -0.16666666666666666,
       "knn_danger_metric": 0.5493872699643384
     },
     "OSINTdefender": {
@@ -2291,8 +2291,8 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.5324477630173604
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.49313688233943875
     },
     "sepah_pasdaran": {
       "name": "IRGC",
@@ -2303,8 +2303,8 @@
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.45571717159896746
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.46989144580594566
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2321,8 +2321,8 @@
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.84306175328649
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.7457547851025388
     }
   },
   "semantic_logs": [
@@ -2359,13 +2359,6 @@
       "channel": "IRGC",
       "text": "&rlm; ️حمله پهپادی انصارالله به پایگاه العند وابسته به مزدوران سعودی در جنوب یمن &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "وزارة التربية اعلنت بدء تسليم إفادات الثالث الثانوي بكل فروعها إلى كل المناطق التربوية https://almanar.com.lb/article/1086792/?s=tg",
-      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2429,6 +2422,13 @@
       "channel": "Arab_Axis",
       "text": "لبنان: مراسل الميادين في الجنوب: قصف مدفعي اسرائيلي يستهدف وادي الحجير",
       "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام قوات الاحتلال لمدينة قلقيلية، وسط حملة مداهمات واعتقالات.",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
   ]
