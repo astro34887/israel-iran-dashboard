@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-11T16:56:34.956Z",
+  "last_updated": "2026-08-11T17:55:15.171Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.20"
+    "global_knn_danger": "0.54",
+    "global_norm_sentiment": "-0.15"
   },
   "timeline": [
-    {
-      "time": "2026-08-09T05:51:59.999Z",
-      "danger": 0.569,
-      "sentiment": -0.21,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.513,
-          "sentiment": -0.467
-        },
-        "OSINTdefender": {
-          "danger": 0.635,
-          "sentiment": 0.133
-        },
-        "irna_1313": {
-          "danger": 0.472,
-          "sentiment": 0.464
-        },
-        "sepah_pasdaran": {
-          "danger": 0.466,
-          "sentiment": -0.733
-        },
-        "almanarnews": {
-          "danger": 0.513,
-          "sentiment": -0.233
-        },
-        "C_Military1": {
-          "danger": 0.793,
-          "sentiment": -0.533
-        },
-        "almayadeen": {
-          "danger": 0.706,
-          "sentiment": -0.467
-        },
-        "QudsN": {
-          "danger": 0.64,
-          "sentiment": -0.133
-        }
-      }
-    },
     {
       "time": "2026-08-09T06:48:35.152Z",
       "danger": 0.559,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.233
         }
       }
+    },
+    {
+      "time": "2026-08-11T17:55:15.171Z",
+      "danger": 0.535,
+      "sentiment": -0.15,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.554,
+          "sentiment": -0.333
+        },
+        "OSINTdefender": {
+          "danger": 0.69,
+          "sentiment": -0.3
+        },
+        "irna_1313": {
+          "danger": 0.281,
+          "sentiment": -0.036
+        },
+        "sepah_pasdaran": {
+          "danger": 0.327,
+          "sentiment": -0.5
+        },
+        "almanarnews": {
+          "danger": 0.285,
+          "sentiment": 0.233
+        },
+        "C_Military1": {
+          "danger": 0.805,
+          "sentiment": -0.1
+        },
+        "almayadeen": {
+          "danger": 0.739,
+          "sentiment": -0.033
+        },
+        "QudsN": {
+          "danger": 0.726,
+          "sentiment": -0.267
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.570481831910852
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.5535549125771666
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.369599749546924
+      "num_messages": 14,
+      "raw_sentiment": -0.03571428571428571,
+      "knn_danger_metric": 0.2808101624657976
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.22434633248077146
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.32673469401138105
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": 0.23333333333333334,
-      "knn_danger_metric": 0.3180922771384707
+      "knn_danger_metric": 0.28475894380513733
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.8178739778274076
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.8046208167714834
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.6984173429268754
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.7386266140405184
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.706908936981362
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.7258292570904837
     }
   },
   "semantic_logs": [
@@ -2336,15 +2336,22 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "🎓 סטודנטים וסטודנטיות? קחו פסק זמן של חמישה ימים לחוויה אינטלקטואלית יוצאת דופן.  מכון פרידברג לכלכלה מזמין אתכם לסמינר הקיץ „כלכלה, צמיחה ושגשוג” — חמישה ימים של לימוד מעמיק, דיונים פתוחים ומפגש בלתי אמצעי עם מרצים מובילים מהארץ ומהעולם.   מה בתוכנית? 🔹 מרצים מהשורה הראשונה, ובהם מייקל אייזנברג (שותף מייסד קרן אלף), פרופ׳ יהונתן גבעתי (העברית), ניקלאס ברגרן (שוודיה), מיכאל שראל, מייק מאנגר (Duke University) ומומחים נוספים מישראל ומחו״ל. 🔹 הנושאים הכלכליים החשובים של זמננו — מיוקר המחיה ומדיניות הדיור ועד אינפלציה, צמיחה ומהפכת ה־AI. 🔹 אירוח מלא במלון רמת רחל, לצד פעילויות מיוחדות, ביקור ביקב וארוחת שף. 🔹 השתתפות בסבסוד מלא — כולל לינה וכל הארוחות, ללא עלות.  מי יכול להגיש מועמדות? סטודנטים וסטודנטיות מכל תחומי הלימוד — לתואר ראשון, שני או דוקטורט — שסיימו לפחות שנת לימודים אחת. דרושה אנגלית ברמה גבוהה.  ⚠️ מספר המקומות מוגבל ל־30 משתתפים בלבד.  📅 מתי? 30 באוגוסט–3 בספטמבר 2026 ⏳ הגשת מועמדות עד: 15 באוגוסט 2026  אל תישארו בחוץ — הגישו מועמדות עכשיו: https://bit.ly/2026_seminar",
-      "absolute_sentiment": 0.5,
+      "text": "צפון מחנה הפליטים אלבריג&#39; במרכז הרצועה: הפלסטינים מדווחים לפני זמן קצר על התקדמות של דחפורים ישראלים באזור תחנת הדלק תמראז - הם מבצעים עבודות יישור של הקרקע במקום.  תגובה אחת",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "צפון מחנה הפליטים אלבריג&#39; במרכז הרצועה: הפלסטינים מדווחים ��פני זמן קצר על התקדמות של דחפורים ישראלים באזור תחנת הדלק תמראז - הם מבצעים עבודות יישור של הקרקע במקום.  תגובה אחת",
-      "absolute_sentiment": 0,
+      "text": "ערוצים עזתיים מדווחים שצה&quot;ל מקים סוללת עפר חדשה בצפון מחנה הפליטים אלבריג&#39; במרכז רצועת עזה.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "&quot;שכונת העילית של כרמי גת צפון יוצאת לדרך&quot;:  הבוקר החלו מחירי ה-Pre-Sale של מתחם &quot;הכרם&quot;, מתחם מגורים שמציע &quot;שכונה פרטית&quot; בתוך כרמי גת צפון, עם גני ילדים, בתי ספר, תיכונים, מרכזי קניות ושדרה ירוקה.  בשלב הפריסייל יימכרו דירות 3-5 חדרים החל מ-1.72 מיליון ש&quot;ח.  להרשמה https://gl-lp.gl-re.co.il/hakerem/?utm_source=telegram&amp;campaign=Alios_5600_Leads_presale_August26",
+      "absolute_sentiment": -0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2352,6 +2359,13 @@
       "channel": "IRGC",
       "text": "&rlm; ️انفجار مهیب پالایشگاه نفت الزاویه لیبی را لرزاند  شبکه الجزیره از وقوع یک انفجار شدید در تاسیسات پالایشگاه نفت الزاویه واقع در شمال غرب لیبی خبر داد. &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️آتش‌سوزی گسترده در پالایشگاه نفت الزاویه در پی حمله پهپادی ناشناس &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2365,7 +2379,7 @@
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#الجمهورية_الاسلامية  بموجب قرارات منفصلة صادرة عن القائد العام للقوات المسلحة؛ تعيين ستة قادة رفيعي المستوى في هيئة الأركان العامة للقوات المسلحة، والحرس الثوري، وقوات التعبئة   أبلغ سماحة آية الله سيد مجتبى حسيني خامنئي، القائد العام للقوات المسلحة، بموجب قرارات منفصلة، المسؤوليات والمهام الموكلة إلى ستة من القادة والمديرين رفيعي المستوى في القوات المسلحة.  - وبناءً على هذه القرارات، عُيّن اللواء الطيار في الحرس علي عبد اللهي رئيسًا لهيئة الأركان العامة للقوات المسلحة، والعميد كيومرث حيدري نائبًا لرئيس هيئة الأركان العامة للقوات المسلحة.  - كما تولّى العميد في الحرس أحمد وحيدي، بعد منحه رتبة لواء، قيادة الحرس الثوري الإسلامي، وتولّى اللواء في الحرس مصطفى إيزدي مسؤولية نائب قائد الحرس الثوري.  - وفي سياق هذه القرارات، أُسندت مسؤولية قيادة القوة البحرية للحرس الثوري إلى العميد البحري في الحرس علي عظمايي، ورئاسة منظمة تعبئة المستضعفين إلى حجة الإسلام والمسلمين حسين طائب.  #الاعلام_الحربي",
-      "absolute_sentiment": 0.5,
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2379,13 +2393,6 @@
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية - بن درور يميني: يمثل الاتفاق المشترك بين السعودية وتركيا وباكستان خسارة كبيرة لـ&quot;إسرائيل&quot; والولايات المتحدة. فهو يُظهر خيبة أمل دول الخليج من الولايات المتحدة التي فشلت في مواجهة إيران، ويُبين بوضوح ثمن رفض &quot;إسرائيل&quot; التطبيع مع الرياض.  #الاعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "سوريا: الخارجية: نجدد رفضنا القاطع لاستمرار الاعتداءات والتوغلات الإسرائيلية داخل الأراضي السورية",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2411,24 +2418,17 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اللحظات الأولى للإفراج عن أسرى فلسطينيين من سجون الاحتلال، عصر اليوم.",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تهدم منشأة زراعية في تجمع &quot;يرزا&quot; شرق قرية تياسير، شرق طوباس.",
+      "text": "سوريا: المرصد السوري: بعد ساعات من تهديد قائد قوات العشائر.. مقتل عنصرين وإصابة آخرين بهجوم على نقطة عسكرية بريف القامشلي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تعتقل الشاب نسيم الطيطي خلال اقتحام مخيم العروب، شمال الخليل.",
-      "absolute_sentiment": 0.5,
+      "text": "اليمن: الإعلام الحربي اليمني: القوات المسلحة اليمنية نفذت عملية استهداف لسفينة نقل معدات عسكرية سعودية في باب المندب",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
   ]
