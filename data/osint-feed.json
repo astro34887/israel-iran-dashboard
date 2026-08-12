@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-12T14:21:55.127Z",
+  "last_updated": "2026-08-12T15:55:21.604Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.12"
+    "global_knn_danger": "0.55",
+    "global_norm_sentiment": "-0.15"
   },
   "timeline": [
-    {
-      "time": "2026-08-09T20:26:42.014Z",
-      "danger": 0.535,
-      "sentiment": -0.099,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.429,
-          "sentiment": -0.667
-        },
-        "OSINTdefender": {
-          "danger": 0.561,
-          "sentiment": -0.067
-        },
-        "irna_1313": {
-          "danger": 0.469,
-          "sentiment": 0.455
-        },
-        "sepah_pasdaran": {
-          "danger": 0.53,
-          "sentiment": -0.333
-        },
-        "almanarnews": {
-          "danger": 0.523,
-          "sentiment": -0.1
-        },
-        "C_Military1": {
-          "danger": 0.591,
-          "sentiment": 0.286
-        },
-        "almayadeen": {
-          "danger": 0.62,
-          "sentiment": -0.233
-        },
-        "QudsN": {
-          "danger": 0.68,
-          "sentiment": -0.2
-        }
-      }
-    },
     {
       "time": "2026-08-09T21:26:52.956Z",
       "danger": 0.548,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.033
         }
       }
+    },
+    {
+      "time": "2026-08-12T15:55:21.604Z",
+      "danger": 0.552,
+      "sentiment": -0.15,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.574,
+          "sentiment": -0.533
+        },
+        "OSINTdefender": {
+          "danger": 0.651,
+          "sentiment": 0.167
+        },
+        "irna_1313": {
+          "danger": 0.402,
+          "sentiment": -0.167
+        },
+        "sepah_pasdaran": {
+          "danger": 0.554,
+          "sentiment": -0.333
+        },
+        "almanarnews": {
+          "danger": 0.536,
+          "sentiment": 0.133
+        },
+        "C_Military1": {
+          "danger": 0.685,
+          "sentiment": -0.1
+        },
+        "almayadeen": {
+          "danger": 0.57,
+          "sentiment": -0.533
+        },
+        "QudsN": {
+          "danger": 0.592,
+          "sentiment": 0
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2278,51 +2278,51 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 12,
-      "raw_sentiment": -0.5416666666666666,
-      "knn_danger_metric": 0.4881208655615054
+      "num_messages": 15,
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.5743475813739941
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0.26666666666666666,
-      "knn_danger_metric": 0.6524315345570686
+      "raw_sentiment": 0.16666666666666666,
+      "knn_danger_metric": 0.6513491244955237
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 11,
-      "raw_sentiment": -0.09090909090909091,
-      "knn_danger_metric": 0.5381417726016636
+      "num_messages": 15,
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.40214821846058996
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.5654326043453041
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.553852410151547
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.4318477113613577
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.5363047689365145
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.6791285762383772
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.6851171369396897
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.4358513737849597
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.5703757776598247
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.5385819941167781
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.5920215447835466
     }
   },
   "semantic_logs": [
@@ -2341,10 +2341,17 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; دسته‌های عزاداری اطراف حرم مطهر رضوی در روز شهادت پیامبراسلام (ص) و امام حسن‌مجتبی (ع)  &lrm;✅ ️@sepah_pasdaran",
-      "absolute_sentiment": 1,
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "🛋️ סלון LIVIA פינתי – נוחות, עיצוב ופינוק בסלון אחד  🔥 רק 8,999 ₪ במקום 13,939 ₪&#33;  סלון פינתי בעיצוב מודרני ואלגנטי, בריפוד עור איטלקי ובשילוב מנגנון כיוונון חשמלי שמאפשר להתאים את תנוחת הישיבה לרגעים הכי נוחים שלכם.  ✨ ריפוד עור יוקרתי  ✨ מנגנון כיוונון חשמלי  ✨ עיצוב פינתי מרווח ומפנק  ✨ שילוב מושלם של נוחות וסטייל  ✨ אספקה מהירה  זה הזמן להתחדש בסלון שכיף לחזור אליו בכל יום. 🤎  לרכישת ופרטים נוספים&gt;&gt; https://did.li/95UOf  בתוקף עד 15.9 או עד גמר המלאי | מינימום 240 יח&#39; במלאי | עלות הובלה והרכבה 550 ₪ או באיסוף עצמי בתיאום מראש | אספקה 14–21 ימי עבודה | בכפוף לתקנון",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "דובר צה&quot;ל: צה&quot;ל תקף ראש חולייה מארגון הטרור חמאס בצפון רצועת עזה שתכנן לבצע מתווי טרור נגד כוחות צה&quot;ל  צה&quot;ל תקף לפני זמן קצר ראש חולייה מארגון הטרור חמאס בצפון רצועת עזה.  המחבל תכנן להוציא לפועל מתווי טרור נגד כוחות צה&quot;ל הפועלים ברצועת עזה. המחבל הותקף מהאוויר לצורך הסרת האיום על הכוחות.  תגובה אחת",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2376,31 +2383,10 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "📹 مواكبة لأبرز المستجدات والتطورات الميدانية من جنوب لبنان، مع مراسلنا علي شبيب https://almanar.com.lb/article/1091027/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: بعد اختفاء مواطنتين إسرائيليتين في النمسا يوم الجمعة الماضي، يحقق الموساد في القضية، وسط شكوك باختطافهما من قِبل جهات إيرانية.  #الاعلام_الحربي",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في جنوب لبنان: مدفعية الاحتلال استهدفت المنصوري",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "الكويت: وزارة الداخلية: ضبط مواطن ينتمي لتنظيم &quot;داعش&quot; قبل تنفيذ مخطط إرهابي يستهدف إحدى المنشآت الحيوية في البلاد",
-      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2411,25 +2397,39 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "الهجرة العكسية ترعب &quot;إسرائيل&quot;.. لهذا السبب  التفاصيل:   https://qudsn.co/share/217010",
+      "text": "فلسطين المحتلة: مراسل الميادين: جريحان برصاص مسيرة إسرائيلية بمحيط &quot;كراج رفح&quot; في مدينة خان يونس جنوبي قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: شهيد في عدوان الاحتلال على دوار بيت لاهيا شمال غربي قطاع غزة",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "وزارة الحرب الإسرائيلية: يُتوقع أن يتجاوز قريباً عدد مصابي &quot;الجيش&quot; الإسرائيلي الذين يتلقون العلاج في شعبة إعادة التأهيل 90 ألفاً",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تداهم منزل الأسير سلامة القطاوي، الذي أعادت اعتقاله قبل أسبوعين خلال اقتحام بلدة بيرزيت، شمال رام الله.",
-      "absolute_sentiment": -1,
+      "text": "قوات الاحتلال تقتحم قرية المغير، شمال شرق رام الله.",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "الأونروا: الاحتلال أغلق بالقوة 6 مدارس في القدس، بينها مدارس مخيم شعفاط، ما حرم نحو 800 طفل من التعليم",
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 14 العبرية: تقارير عن إصابة شخص بطلق ناري بالقرب من كريات أربع قرب الخليل. قوات الأمن في طريقها إلى الموقع.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
+      "semantic_danger_knn": 0.9961486516080662
     }
   ]
 }
