@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-13T21:39:55.333Z",
+  "last_updated": "2026-08-13T22:36:34.519Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.51",
-    "global_norm_sentiment": "-0.18"
+    "global_knn_danger": "0.54",
+    "global_norm_sentiment": "-0.19"
   },
   "timeline": [
-    {
-      "time": "2026-08-10T23:30:42.335Z",
-      "danger": 0.572,
-      "sentiment": -0.227,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.549,
-          "sentiment": -0.133
-        },
-        "OSINTdefender": {
-          "danger": 0.575,
-          "sentiment": -0.3
-        },
-        "irna_1313": {
-          "danger": 0.532,
-          "sentiment": -0.233
-        },
-        "sepah_pasdaran": {
-          "danger": 0.416,
-          "sentiment": -0.233
-        },
-        "almanarnews": {
-          "danger": 0.456,
-          "sentiment": -0.367
-        },
-        "C_Military1": {
-          "danger": 0.811,
-          "sentiment": -0.033
-        },
-        "almayadeen": {
-          "danger": 0.584,
-          "sentiment": -0.367
-        },
-        "QudsN": {
-          "danger": 0.843,
-          "sentiment": -0.467
-        }
-      }
-    },
     {
       "time": "2026-08-11T01:19:56.449Z",
       "danger": 0.559,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.3
         }
       }
+    },
+    {
+      "time": "2026-08-13T22:36:34.519Z",
+      "danger": 0.543,
+      "sentiment": -0.19,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.577,
+          "sentiment": -0.5
+        },
+        "OSINTdefender": {
+          "danger": 0.613,
+          "sentiment": -0.1
+        },
+        "irna_1313": {
+          "danger": 0.435,
+          "sentiment": -0.333
+        },
+        "sepah_pasdaran": {
+          "danger": 0.348,
+          "sentiment": -0.367
+        },
+        "almanarnews": {
+          "danger": 0.442,
+          "sentiment": 0.233
+        },
+        "C_Military1": {
+          "danger": 0.739,
+          "sentiment": -0.133
+        },
+        "almayadeen": {
+          "danger": 0.63,
+          "sentiment": -0.4
+        },
+        "QudsN": {
+          "danger": 0.691,
+          "sentiment": -0.167
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2292,7 +2292,7 @@
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.34203957631144066
+      "knn_danger_metric": 0.435473247476206
     },
     "sepah_pasdaran": {
       "name": "IRGC",
@@ -2303,8 +2303,8 @@
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.5333333333333333,
-      "knn_danger_metric": 0.3372673007670965
+      "raw_sentiment": 0.23333333333333334,
+      "knn_danger_metric": 0.4420935560973019
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.5639671564348437
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.6304183759656935
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.5919930582118116
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.6910647146389927
     }
   },
   "semantic_logs": [
@@ -2358,6 +2358,20 @@
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
       "text": "&rlm; ️تصاویری از شلیک موشک‌های انصارالله به سمت محل تجمع نیروهای مزدور سعودی در یمن &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 بريطانيا | اندلاع حرائق في منطقة ويست ميدلاندز في اليوم الأشد حرارة وسط موجة جفاف تعم البلاد https://almanar.com.lb/article/1094477/?s=tg",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 &quot;أدنوك&quot; الإماراتية تعلن تعرض سفينتين لهجوم في مضيق هرمز دون وقوع إصابات https://almanar.com.lb/article/1094552/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2411,23 +2425,9 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مذيعة بريطانية تكشف كواليس فصلها من عملها بسبب موقفها من غزة وحملة اللوبي الصهيوني ضدها  التفاصيل:   https://qudsn.co/share/217030",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "تابعوا الأخبار أولاً بأول، عبر قناة واتساب من خلال الرابط التالي:  https://whatsapp.com/channel/0029VbCpgXo8fewqkgDTLM2z",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم منزلاً خلال اقتحام بلدة الجديدة في جنين",
+      "text": "سوريا: مصادر محلية: دورية إسرائيلية تتوغل في سرية الهاون وتطلق نيراناً عشوائية باتجاه أحد أحياء قرية معرية بريف درعا الغربي",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     }
