@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-13T08:16:55.017Z",
+  "last_updated": "2026-08-13T09:59:36.348Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.15"
+    "global_knn_danger": "0.56",
+    "global_norm_sentiment": "-0.07"
   },
   "timeline": [
-    {
-      "time": "2026-08-10T12:57:59.591Z",
-      "danger": 0.52,
-      "sentiment": 0.004,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.619,
-          "sentiment": -0.233
-        },
-        "OSINTdefender": {
-          "danger": 0.578,
-          "sentiment": -0.067
-        },
-        "irna_1313": {
-          "danger": 0.418,
-          "sentiment": 0.267
-        },
-        "sepah_pasdaran": {
-          "danger": 0.426,
-          "sentiment": -0.1
-        },
-        "almanarnews": {
-          "danger": 0.367,
-          "sentiment": 0.067
-        },
-        "C_Military1": {
-          "danger": 0.707,
-          "sentiment": 0.143
-        },
-        "almayadeen": {
-          "danger": 0.732,
-          "sentiment": 0.133
-        },
-        "QudsN": {
-          "danger": 0.401,
-          "sentiment": -0.033
-        }
-      }
-    },
     {
       "time": "2026-08-10T14:20:30.921Z",
       "danger": 0.54,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.133
         }
       }
+    },
+    {
+      "time": "2026-08-13T09:59:36.348Z",
+      "danger": 0.557,
+      "sentiment": -0.065,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.596,
+          "sentiment": -0.1
+        },
+        "OSINTdefender": {
+          "danger": 0.599,
+          "sentiment": 0.167
+        },
+        "irna_1313": {
+          "danger": 0.538,
+          "sentiment": 0.033
+        },
+        "sepah_pasdaran": {
+          "danger": 0.546,
+          "sentiment": -0.267
+        },
+        "almanarnews": {
+          "danger": 0.427,
+          "sentiment": -0.133
+        },
+        "C_Military1": {
+          "danger": 0.626,
+          "sentiment": 0.133
+        },
+        "almayadeen": {
+          "danger": 0.662,
+          "sentiment": -0.567
+        },
+        "QudsN": {
+          "danger": 0.622,
+          "sentiment": 0.214
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.5441896546426851
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.5957327342038529
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 13,
-      "raw_sentiment": -0.07692307692307693,
-      "knn_danger_metric": 0.5052274840866858
+      "num_messages": 15,
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.5384334350755273
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.4999036389226659
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.5455171542902134
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.4049840494789189
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.4273120738927364
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.6451032699870737
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.6264353058673289
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.661787634754019
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.6617876347540189
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.5837951564742464
+      "num_messages": 14,
+      "raw_sentiment": 0.21428571428571427,
+      "knn_danger_metric": 0.6216838484473727
     }
   },
   "semantic_logs": [
@@ -2341,6 +2341,20 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "העוקב י&#39; מרחיב:  היישוב גנים שעלה היום לקרקע מחדש נקרא על שם היישוב המקראי &#39;עין גנים&#39;, שעל פי המקובל העיר ג&#39;נין משמרת את שמו.  איזכורים במקרא:   יהושע פרק יט  לְיִשָּׂשכָר יָצָא הַגּוֹרָל הָרְבִיעִי, לִבְנֵי יִשָּׂשכָר לְמִשְׁפְּחוֹתָם. וַיְהִי גְּבוּלָם יִזְרְעֶאלָה וְהַכְּסוּלֹת וְשׁוּנֵם... וְרֶמֶת וְעֵין גַּנִּים וְעֵין חַדָּה וּבֵית פַּצֵּץ.  יהושע פרק כא  וּמִמַּטֵּה יִשָּׂשכָר: אֶת קִשְׁיוֹן וְאֶת מִגְרָשֶׁהָ... אֶת עֵין גַּנִּים וְאֶת מִגְרָשֶׁהָ עָרִים אַרְבַּע  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "LIVIA - הסלון שמשלב נוחות מפנקת עם עיצוב אלגנטי  רק 8,999 ₪ במקום 13,939 ₪&#33;  סלון פינתי מרווח ומעוצב, בריפוד עור איטלקי איכותי ובשילוב מנגנון כיוונון חשמלי, שמאפשר לכם למצוא בקלות את התנוחה המושלמת ולהתרווח בדיוק כמו שאתם אוהבים.  ✨ ריפוד עור איטלקי יוקרתי  ✨ מנגנון כיוונון חשמלי לנוחות מרבית  ✨ מבנה פינתי מרווח ומפנק  ✨ עיצוב מודרני שמשתלב נהדר בחלל  ✨ אספקה מהירה  LIVIA - כי הסלון שלכם הוא המקום שבו נוחות ועיצוב נפגשים. 🤎  לרכישה ולפרטים נוספים https://did.li/95UOf &lt;&lt;  בתוקף עד 15.9 או עד גמר המלאי | מינימום 240 יח&#39; במלאי | עלות הובלה והרכבה 550 ₪ או באיסוף עצמי בתיאום מראש | אספקה 14–21 ימי עבודה | בכפוף לתקנון",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
       "text": "&rlm; قاب‌هایی خاص از خطبه‌خوانی شهادت امام رضا(ع) در حرم مطهر رضوی &lrm;✅ @sepah_pasdaran",
@@ -2355,10 +2369,17 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️پایان قلدری شرور اجیرشده با شلیک پلیس  در پی انتشار ویدئویی از صحنه شرارت و قدرت‌نمایی فردی با سلاح سرد در فضای مجازی که در آن متهم با استفاده از قمه به یکی از شهروندان حمله کرده بود، تیم‌های عملیاتی پلیس اطلاعات تهران بزرگ بلافاصله وارد عمل شده و متهم را دستگیرکردند. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "وزارة التربية: لا حرمان لطلاب المناهج الأجنبية من الإفادات والوزارة تطبق نص القانون https://almanar.com.lb/article/1092342/?s=tg",
-      "absolute_sentiment": -1,
+      "text": "📹 وزير المهجرين يعلن إطلاق منصة رقمية لمتابعة ملفات المواطنين https://almanar.com.lb/article/1092887/?s=tg",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2372,27 +2393,6 @@
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#إعلام_العدو   صحيفة معاريف العبرية: المعلومات الاستخبارية كانت تشير إلى أن حماس كانت تنوي القيام بتدريبات تحاكي اقتحام منطقة غلاف غزة مرة جديدة.  #الاعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: وزارة الخارجية: مرتفعات الجولان جزء من أراضي سوريا ولا يمكن للأطماع الاستعمارية أن تغير حقائقها القانونية والتاريخية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: وزارة الخارجية: خطوة كولومبيا لتأكيد سيادة الكيان الصهيوني على الجولان المحتل مرفوضة وتشكل انتهاكاً للقانون الدولي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: وزارة الخارجية: موقف كولومبيا من الجولان السوري المحتل يحمّلها المسؤولية الدولية",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
