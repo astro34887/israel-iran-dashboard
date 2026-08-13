@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-13T20:38:04.005Z",
+  "last_updated": "2026-08-13T21:39:55.333Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.49",
-    "global_norm_sentiment": "-0.11"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.51",
+    "global_norm_sentiment": "-0.18"
   },
   "timeline": [
-    {
-      "time": "2026-08-10T22:32:44.658Z",
-      "danger": 0.573,
-      "sentiment": -0.173,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.549,
-          "sentiment": -0.167
-        },
-        "OSINTdefender": {
-          "danger": 0.575,
-          "sentiment": -0.3
-        },
-        "irna_1313": {
-          "danger": 0.579,
-          "sentiment": 0.033
-        },
-        "sepah_pasdaran": {
-          "danger": 0.416,
-          "sentiment": -0.233
-        },
-        "almanarnews": {
-          "danger": 0.418,
-          "sentiment": -0.033
-        },
-        "C_Military1": {
-          "danger": 0.811,
-          "sentiment": -0.033
-        },
-        "almayadeen": {
-          "danger": 0.584,
-          "sentiment": -0.367
-        },
-        "QudsN": {
-          "danger": 0.85,
-          "sentiment": -0.5
-        }
-      }
-    },
     {
       "time": "2026-08-10T23:30:42.335Z",
       "danger": 0.572,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.1
         }
       }
+    },
+    {
+      "time": "2026-08-13T21:39:55.333Z",
+      "danger": 0.506,
+      "sentiment": -0.18,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.577,
+          "sentiment": -0.5
+        },
+        "OSINTdefender": {
+          "danger": 0.613,
+          "sentiment": -0.1
+        },
+        "irna_1313": {
+          "danger": 0.342,
+          "sentiment": -0.333
+        },
+        "sepah_pasdaran": {
+          "danger": 0.348,
+          "sentiment": -0.367
+        },
+        "almanarnews": {
+          "danger": 0.337,
+          "sentiment": 0.533
+        },
+        "C_Military1": {
+          "danger": 0.739,
+          "sentiment": -0.133
+        },
+        "almayadeen": {
+          "danger": 0.564,
+          "sentiment": -0.467
+        },
+        "QudsN": {
+          "danger": 0.592,
+          "sentiment": -0.3
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,7 +2279,7 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
+      "raw_sentiment": -0.5,
       "knn_danger_metric": 0.5771804778632783
     },
     "OSINTdefender": {
@@ -2291,14 +2291,14 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.26091934704937664
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.34203957631144066
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.3729078463839515
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.3483426297596753
     },
     "almanarnews": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.39982461147131865
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.5639671564348437
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.6416207293473317
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.5919930582118116
     }
   },
   "semantic_logs": [
@@ -2357,7 +2357,7 @@
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️تصاویری از شلیک موشک‌ه��ی انصارالله به سمت محل تجمع نیروهای مزدور سعودی در یمن &lrm;✅ @sepah_pasdaran",
+      "text": "&rlm; ️تصاویری از شلیک موشک‌های انصارالله به سمت محل تجمع نیروهای مزدور سعودی در یمن &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2392,22 +2392,22 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: وكالة سبأ في صنعاء: قصف مدفعي سعودي يستهدف قرى سكنية في منطقة غور المشوات في مديرية غمر الحدودية غربي محافظة صعدة شمال البلاد",
+      "text": "لبنان: مراسل الميادين في الجنوب: &quot;جيش&quot; الاحتلال ينفذ تفجيراً في بلدة حداثا",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: &quot;جيش&quot; الاحتلال ينفذ تفجيراً في بلدة حداثا",
+      "text": "لبنان: مراسل الميادين في جنوب لبنان: مدفعية الاحتلال الإسرائيلي استهدفت وادي زبقين في قضاء صور",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مدرعات وآليات ثقيلة.. شحنة عسكرية أمريكية تصل جيش الاحتلال  التفاصيل:  https://qudsn.co/share/217029",
-      "absolute_sentiment": 0,
+      "text": "لبنان: مراسل الميادين في جنوب لبنان: محلقة اسرائيلية تلقي مواد متفجرة على منطقة المشاع في المنصوري بقضاء صور",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2425,11 +2425,11 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   وزير الخارجية الإيراني عباس عراقجي:   إنّ الولايات المتحدة تعاني منذ فترة طويلة من أخطاء متكررة في الحسابات بسبب ضعفها الاستخباراتي. والحرب على إيران مثال واضح على ذلك. وهي الآن، في ما يتعلق بمضيق هرمز، ترتكب خطأً في الحسابات أكبر من ذلك بكثير.  أسوأ من الأخبار الكاذبة هي المعلومات الكاذبة. فاحذروا منها.  الله أكبر، وأكبر من أي قوة على وجه الأرض. نحن نتوكل على الله.  #الإعلام_الحربي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9985730078048678
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تداهم منزلاً خلال اقتحام بلدة الجديدة في جنين",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
     }
   ]
 }
