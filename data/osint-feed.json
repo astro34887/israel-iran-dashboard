@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-13T04:06:56.780Z",
+  "last_updated": "2026-08-13T06:13:11.435Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.56",
-    "global_norm_sentiment": "-0.21"
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.16"
   },
   "timeline": [
-    {
-      "time": "2026-08-10T09:14:37.830Z",
-      "danger": 0.556,
-      "sentiment": -0.121,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.542,
-          "sentiment": -0.067
-        },
-        "OSINTdefender": {
-          "danger": 0.569,
-          "sentiment": 0
-        },
-        "irna_1313": {
-          "danger": 0.51,
-          "sentiment": -0.233
-        },
-        "sepah_pasdaran": {
-          "danger": 0.439,
-          "sentiment": -0.1
-        },
-        "almanarnews": {
-          "danger": 0.427,
-          "sentiment": -0.167
-        },
-        "C_Military1": {
-          "danger": 0.643,
-          "sentiment": 0.036
-        },
-        "almayadeen": {
-          "danger": 0.717,
-          "sentiment": -0.267
-        },
-        "QudsN": {
-          "danger": 0.764,
-          "sentiment": -0.278
-        }
-      }
-    },
     {
       "time": "2026-08-10T11:03:54.687Z",
       "danger": 0.519,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.2
         }
       }
+    },
+    {
+      "time": "2026-08-13T06:13:11.435Z",
+      "danger": 0.529,
+      "sentiment": -0.163,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.411,
+          "sentiment": -0.5
+        },
+        "OSINTdefender": {
+          "danger": 0.599,
+          "sentiment": 0.167
+        },
+        "irna_1313": {
+          "danger": 0.522,
+          "sentiment": -0.267
+        },
+        "sepah_pasdaran": {
+          "danger": 0.478,
+          "sentiment": -0.267
+        },
+        "almanarnews": {
+          "danger": 0.52,
+          "sentiment": 0
+        },
+        "C_Military1": {
+          "danger": 0.684,
+          "sentiment": -0.233
+        },
+        "almayadeen": {
+          "danger": 0.567,
+          "sentiment": -0.367
+        },
+        "QudsN": {
+          "danger": 0.554,
+          "sentiment": -0.033
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2278,9 +2278,9 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 14,
-      "raw_sentiment": -0.4642857142857143,
-      "knn_danger_metric": 0.47667447168700466
+      "num_messages": 11,
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.41097565464317154
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,20 +2291,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.7,
-      "knn_danger_metric": 0.5341536394059786
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.5224354859017172
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.5046173456154548
+      "knn_danger_metric": 0.47833946879918027
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": 0,
-      "knn_danger_metric": 0.48700623473282734
+      "knn_danger_metric": 0.5203395680661607
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.5849106333115877
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.5669252656292562
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.7378613622864848
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.5539102758861277
     }
   },
   "semantic_logs": [
@@ -2336,15 +2336,8 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "שתי טיסות של מטוס ממשלתי VIP מאיחוד האמירויות נחתו אתמול והיום באיראן. והמריאו אחרי פרקי זמן קצרים של חצי שעה עד שעה.  לא ברור מה עומד מאחורי העניין.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️توییت یک کاربر: مردی که ادعا می‌شد در تونلی پنهان شده ، در دفتر کارش به شهادت رسید. در حالی که کسی که به ناوهای جنگی و جنگنده‌‌هایش می‌بالید، با کامیون حمل مواد غذایی از ترکیه گریخت. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
+      "text": "🎓 סטודנטים וסטודנטיות? קחו פסק זמן של חמישה ימים לחוויה אינטלקטואלית יוצאת דופן.  מכון פרידברג לכלכלה מזמין אתכם לסמינר הקיץ „כלכלה, צמיחה ושגשוג” — חמישה ימים של לימוד מעמיק, דיונים פתוחים ומפגש בלתי אמצעי עם מרצים מובילים מהארץ ומהעולם.  ההרשמה נסגרת במוצ&quot;ש הקרוב   מה בתוכנית? 🔹 מרצים מהשורה הראשונה, ובהם מייקל אייזנברג (שותף מייסד קרן אלף), פרופ׳ יהונתן גבעתי (העברית), ניקלאס ברגרן (שוודיה), מיכאל שראל, מייק מאנגר (Duke University) ומומחים נוספים מישראל ומחו״ל. 🔹 הנושאים הכלכליים החשובים של זמננו — מיוקר המחיה ומדיניות הדיור ועד אינפלציה, צמיחה ומהפכת ה־AI. 🔹 אירוח מלא במלון רמת רחל, לצד פעילויות מיוחדות, ביקור ביקב וארוחת שף. 🔹 השתתפות בסבסוד מלא — כולל לינה וכל הארוחות, ללא עלות.  מי יכול להגיש מועמדות? סטודנטים וסטודנטיות מכל תחומי הלימוד — לתואר ראשון, שני או דוקטורט — שסיימו לפחות שנת לימודים אחת. דרושה אנגלית ברמה גבוהה.  ⚠️ מספר המקומות מוגבל ל־30 משתתפים בלבד.  📅 מתי? 30 באוגוסט–3 בספטמבר 2026 ⏳ הגשת מועמדות עד: 15 באוגוסט 2026  אל תישארו בחוץ — הגישו מועמדות עכשיו: https://bit.ly/2026_seminar",
+      "absolute_sentiment": -0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2362,9 +2355,16 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "وزارة التربية: لا حرمان لطلاب المناهج الأجنبية من الإفادات والوزارة تطبق نص القانون https://almanar.com.lb/article/1092342/?s=tg",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   وسائل إعل��م إسرائيلية: بعد اختفاء مواطنتين إسرائيليتين في النمسا يوم الجمعة الماضي، يحقق الموساد في القضية، وسط شكوك باختطافهما من قِبل جهات إيرانية.  #الاعلام_الحربي",
+      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: بعد اختفاء مواطنتين إسرائيليتين في النمسا يوم الجمعة الماضي، يحقق الموساد في القضية، وسط شكوك باختطافهما من قِبل جهات إيرانية.  #الاعلام_الحربي",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
@@ -2406,29 +2406,29 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال حي الزهراء في مدينة جنين",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "جانب آخر من اقتحام قوات الاحتلال للمنطقة الشرقية في مدينة جنين",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة عقربا جنوب مدينة نابلس.",
+      "text": "مصادر محلية: قوات الاحتلال تعتقل الشاب زهير عماد طقاطقة عقب مداهمة منزله في بلدة علار شمال طولكرم.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مشاهد إضافية من اقتحام قوات الاحتلال للمنطقة الشرقية في مدينة جنين",
+      "text": "مصادر محلية: قوات الاحتلال تداهم عددًا من المنازل خلال اقتحام مدينة البيرة، وسط الضفة الغربية.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "برفقة جرافة عسكرية.. قوة كبيرة تابعة لجيش الاحتلال تقتحم بلدة قصرة جنوب نابلس.",
       "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تعتقل الشاب صدام حسين عصاعصة خلال اقتحام حي الزهرا، في مدينة جنين",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     }
   ]
