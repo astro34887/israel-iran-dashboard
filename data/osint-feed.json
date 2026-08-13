@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-13T18:57:04.984Z",
+  "last_updated": "2026-08-13T20:38:04.005Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.50",
-    "global_norm_sentiment": "-0.05"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.49",
+    "global_norm_sentiment": "-0.11"
   },
   "timeline": [
-    {
-      "time": "2026-08-10T21:37:03.713Z",
-      "danger": 0.574,
-      "sentiment": -0.193,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.549,
-          "sentiment": -0.3
-        },
-        "OSINTdefender": {
-          "danger": 0.575,
-          "sentiment": -0.3
-        },
-        "irna_1313": {
-          "danger": 0.596,
-          "sentiment": -0.333
-        },
-        "sepah_pasdaran": {
-          "danger": 0.416,
-          "sentiment": -0.233
-        },
-        "almanarnews": {
-          "danger": 0.374,
-          "sentiment": 0.067
-        },
-        "C_Military1": {
-          "danger": 0.811,
-          "sentiment": -0.033
-        },
-        "almayadeen": {
-          "danger": 0.584,
-          "sentiment": -0.267
-        },
-        "QudsN": {
-          "danger": 0.887,
-          "sentiment": -0.4
-        }
-      }
-    },
     {
       "time": "2026-08-10T22:32:44.658Z",
       "danger": 0.573,
@@ -2261,6 +2214,53 @@
           "sentiment": 0.133
         }
       }
+    },
+    {
+      "time": "2026-08-13T20:38:04.005Z",
+      "danger": 0.489,
+      "sentiment": -0.107,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.577,
+          "sentiment": -0.433
+        },
+        "OSINTdefender": {
+          "danger": 0.613,
+          "sentiment": -0.1
+        },
+        "irna_1313": {
+          "danger": 0.261,
+          "sentiment": -0.4
+        },
+        "sepah_pasdaran": {
+          "danger": 0.373,
+          "sentiment": -0.067
+        },
+        "almanarnews": {
+          "danger": 0.337,
+          "sentiment": 0.533
+        },
+        "C_Military1": {
+          "danger": 0.739,
+          "sentiment": -0.133
+        },
+        "almayadeen": {
+          "danger": 0.4,
+          "sentiment": -0.233
+        },
+        "QudsN": {
+          "danger": 0.642,
+          "sentiment": -0.1
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2280,49 +2280,49 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.5246232153126746
+      "knn_danger_metric": 0.5771804778632783
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.6014085118999366
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.6130606560516941
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 11,
-      "raw_sentiment": 0.13636363636363635,
-      "knn_danger_metric": 0.3967780002524161
+      "num_messages": 15,
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.26091934704937664
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.42034984623462945
+      "knn_danger_metric": 0.3729078463839515
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.36666666666666664,
-      "knn_danger_metric": 0.3875605553109313
+      "raw_sentiment": 0.5333333333333333,
+      "knn_danger_metric": 0.3372673007670965
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.7322777706714206
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.7390930740681193
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.3289539836214969
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.39982461147131865
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.6628693820323753
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.6416207293473317
     }
   },
   "semantic_logs": [
@@ -2336,28 +2336,28 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "&quot;שגרירות ישראל בקובה&quot; מצלצל טוב...  תגובה אחת",
-      "absolute_sentiment": 0.5,
+      "text": "הג&#39;יפ של מפקד משטרת מחוז עזה בחמאס לפני שעה קלה ☝️  תגובה אחת",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "הג&#39;יפ של מפקד משטרת מחוז עזה בחמאס לפני שעה קלה ☝️  תגובה אחת",
+      "text": "דובר צה&quot;ל: צה&quot;ל ושב&quot;כ חיסלו מפקד מארגון הטרור חמאס שפשט לשטח מדינת ישראל ב-7 באוקטובר  צה&quot;ל תקף☝️ בהכוונת שב&quot;כ מוקדם יותר היום (ה׳) במרחב העיר עזה וחיסל את המחבל ג׳מאל מחמוד אבו כמיל, מפקד מארגון הטרור חמאס שפשט לשטח מדינת ישראל בטבח ה-7 באוקטובר.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "דובר צה&quot;ל: צה&quot;ל ושב&quot;כ חיסלו מפקד מארגון הטרור חמאס שפשט לשטח מדינת ישראל ב-7 באוקטובר  צה&quot;ל תקף☝️ בהכוונת שב&quot;כ מוקדם יותר היום (ה׳) במרחב העיר עזה וחיסל את המחבל ג׳מאל מחמוד אבו כמיל, מפקד מארגון הטרור חמאס שפשט לשטח מדינת ישראל בטבח ה-7 באוקטובר.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️خیابان‌های منتهی به حرم رضوی میزبان جمعیت عزادار در شب شهادت امام رضا علیه السلام &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️تصاویری از شلیک موشک‌های انصارالله به سمت محل تجمع نیروهای مزدور سعودی در یمن &lrm;✅ @sepah_pasdaran",
+      "text": "&rlm; ️تصاویری از شلیک موشک‌ه��ی انصارالله به سمت محل تجمع نیروهای مزدور سعودی در یمن &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2397,24 +2397,10 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "كتائب القسام تنشر مشاهد لكمائن وعمليات خاضها الشهيد &quot;أنس كامل الدريملي&quot; ورفاقه، ضد قوات الاحتلال في مدينة غزة.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "تابعوا الأخبار أولاً بأول، عبر قناة واتساب من خلال الرابط التالي:  https://whatsapp.com/channel/0029VbCpgXo8fewqkgDTLM2z",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم بلدة بيت فجار، جنوب بيت لحم.",
-      "absolute_sentiment": 0.5,
+      "text": "لبنان: مراسل الميادين في الجنوب: &quot;جيش&quot; الاحتلال ينفذ تفجيراً في بلدة حداثا",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2422,6 +2408,20 @@
       "channel": "Arab_Axis",
       "text": "مدرعات وآليات ثقيلة.. شحنة عسكرية أمريكية تصل جيش الاحتلال  التفاصيل:  https://qudsn.co/share/217029",
       "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مذيعة بريطانية تكشف كواليس فصلها من عملها بسبب موقفها من غزة وحملة اللوبي الصهيوني ضدها  التفاصيل:   https://qudsn.co/share/217030",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "تابعوا الأخبار أولاً بأول، عبر قناة واتساب من خلال الرابط التالي:  https://whatsapp.com/channel/0029VbCpgXo8fewqkgDTLM2z",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
