@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-13T12:59:29.637Z",
+  "last_updated": "2026-08-13T14:23:53.610Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.55",
-    "global_norm_sentiment": "-0.17"
+    "global_knn_danger": "0.56",
+    "global_norm_sentiment": "-0.14"
   },
   "timeline": [
-    {
-      "time": "2026-08-10T16:51:18.072Z",
-      "danger": 0.563,
-      "sentiment": 0.039,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.687,
-          "sentiment": -0.067
-        },
-        "OSINTdefender": {
-          "danger": 0.578,
-          "sentiment": -0.167
-        },
-        "irna_1313": {
-          "danger": 0.541,
-          "sentiment": 0.367
-        },
-        "sepah_pasdaran": {
-          "danger": 0.352,
-          "sentiment": 0.133
-        },
-        "almanarnews": {
-          "danger": 0.425,
-          "sentiment": -0.2
-        },
-        "C_Military1": {
-          "danger": 0.805,
-          "sentiment": 0
-        },
-        "almayadeen": {
-          "danger": 0.694,
-          "sentiment": 0.633
-        },
-        "QudsN": {
-          "danger": 0.595,
-          "sentiment": -0.143
-        }
-      }
-    },
     {
       "time": "2026-08-10T17:48:17.370Z",
       "danger": 0.569,
@@ -2261,6 +2214,53 @@
           "sentiment": 0
         }
       }
+    },
+    {
+      "time": "2026-08-13T14:23:53.610Z",
+      "danger": 0.558,
+      "sentiment": -0.14,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.675,
+          "sentiment": -0.833
+        },
+        "OSINTdefender": {
+          "danger": 0.582,
+          "sentiment": 0.133
+        },
+        "irna_1313": {
+          "danger": 0.527,
+          "sentiment": -0.033
+        },
+        "sepah_pasdaran": {
+          "danger": 0.342,
+          "sentiment": -0.567
+        },
+        "almanarnews": {
+          "danger": 0.471,
+          "sentiment": 0.133
+        },
+        "C_Military1": {
+          "danger": 0.619,
+          "sentiment": 0.033
+        },
+        "almayadeen": {
+          "danger": 0.77,
+          "sentiment": -0.133
+        },
+        "QudsN": {
+          "danger": 0.644,
+          "sentiment": 0
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.4994734992206091
+      "raw_sentiment": -0.8333333333333334,
+      "knn_danger_metric": 0.6750388036981263
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.59913620282296
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.5819651216617996
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.5128742651671606
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.5265337518030073
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.4418599852746086
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.34159316649268373
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.4616870193535087
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.47127356544588184
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.6284211291204613
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.619218146544771
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.6724213449950384
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.7695672759864226
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
+      "num_messages": 14,
       "raw_sentiment": 0,
-      "knn_danger_metric": 0.7591236533429413
+      "knn_danger_metric": 0.643587720052086
     }
   },
   "semantic_logs": [
@@ -2334,17 +2334,24 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️پایان قلدری شرور اجیرشده با شلیک پلیس  در پی انتشار ویدئویی از صحنه شرارت و قدرت‌نمایی فردی با سلاح سرد در فضای مجازی که در آن متهم با استفاده از قمه به یکی از شهروندان حمله کرده بود، تیم‌های عملیاتی پلیس اطلاعات تهران بزرگ بلافاصله وارد عمل شده و متهم را دستگیرکردند. &lrm;✅ @sepah_pasdaran",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "כשחדשות 12 וגיא פלג החליטו לתבוע את נועם פתחי על העלילה נגד כח 100, הם לא דמיינו את מי הוא יביא להילחם מולם...",
+      "absolute_sentiment": -0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "הג&#39;יפ של מפקד משטרת מחוז עזה בחמאס לפני שעה קלה ☝️  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️تصاویری از آئین خطبه‌ خوانی شب شهادت حضرت امام رضا (ع) &lrm;✅ ️ @sepah_pasdaran",
-      "absolute_sentiment": 1,
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "📹 غياب كامل للسلطة اللبنانية مقابل الاعتداءات الاسرائيلية، موضوع نتابعه مع مراسلتنا منى طحيني https://almanar.com.lb/article/1093682/?s=tg",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2364,20 +2371,6 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: شهيد ومصاب جرّاء قصف استهدف دراجة في حيّ الأمل غربي خان يونس جنوبي قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: مقر &quot;خاتم الأنبياء&quot;: لم يكن ولن يكون بإمكان أي سفينة تجارية أو ناقلة نفط العبور بأمان من المضيق من دون تصريح القوات المسلحة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "إيران: مقر &quot;خاتم الأنبياء&quot;: القوات المسلحة الإيرانية لن تتردد قيد أنملة في الدفاع عن مبادئ الثورة تحت قيادة السيد مجتبى خامنئي",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
@@ -2390,46 +2383,53 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "طقوس واسعة مع رفع علم الاحتلال خلال اقتحام المستوطنين للمسجد الأقصى اليوم.",
+      "text": "فلسطين المحتلة: مراسل الميادين: شهيد وإصابات في عدوان بقصف سيارة في شارع الرشيد في غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: الاحتلال الإسرائيلي يغتال مدير شرطة محافظة غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: وزارة الداخلية والأمن الوطني في غزة: اغتيال مدير شرطة محافظة غزة جمال أبو كميل بقصف إسرائيلي استهدف مركبته على شارع الرشيد",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: نقيب محرري الصحافة جوزف القصيفي: نستغرب بيانات سفارات كندا وفنلندا وبريطانيا للترحيب بقانون إعدام حرية الإعلام",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مشاهد من اقتحام قوات الاحتلال لبلدة قصرة، جنوب شرق نابلس.",
-      "absolute_sentiment": 0.5,
+      "text": "لبنان: القصيفي: لا نرى أي إيجابية ولا أي إنجاز نوعي يمكن الاعتداد به سوى تشديد القبضة على عنق الصحافيين والإعلاميين وشرذمتهم",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم مخيم العَرّوب، شمال الخليل.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "المركبة التي قصفها الاحتلال ومحيطها بعدد من الصواريخ قرب الميناء الجديد في حي الشيخ عجلين، جنوب غرب مدينة غزة.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   وزير الخارجية الإيراني عباس عراقجي:   إنّ الولايات المتحدة تعاني منذ فترة طويلة من أخطاء متكررة في الحسابات بسبب ضعفها الاستخباراتي. والحرب على إيران مثال واضح على ذلك. وهي الآن، في ما يتعلق بمضيق هرمز، ترتكب خطأً في الحسابات أكبر من ذلك بكثير.  أسوأ من الأخبار الكاذبة هي المعلومات الكاذبة. فاحذروا منها.  الله أكبر، وأكبر من أي قوة على وجه الأرض. نحن نتوكل على الله.  #الإعلام_الحربي",
+      "text": "لبنان: القصيفي: البيان يشكل تدخلاً سافراً من سفارات هذه الدول في شأن لبناني سيادي نتمسك به انطلاقاً من نضالاتنا الوطنية والصحافية",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9985730078048678
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "أمبري للأمن البحري: نشارك في عمليات إنقاذ ناقلة نفط منكوبة قبالة ساحل عمان وسفن الإنقاذ في طريقها إلى الموقع.  #الإعلام_الحربي",
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تواصل اقتحامها لمنطقة &quot;العين&quot; في بلدة قصرة، جنوب شرق نابلس.",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9958018373673666
+      "semantic_danger_knn": 1
     }
   ]
 }
