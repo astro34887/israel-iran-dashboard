@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-14T19:44:18.216Z",
+  "last_updated": "2026-08-14T20:26:16.251Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.09"
+    "global_knn_danger": "0.55",
+    "global_norm_sentiment": "-0.25"
   },
   "timeline": [
-    {
-      "time": "2026-08-11T20:53:54.435Z",
-      "danger": 0.564,
-      "sentiment": -0.213,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.564,
-          "sentiment": -0.367
-        },
-        "OSINTdefender": {
-          "danger": 0.69,
-          "sentiment": -0.3
-        },
-        "irna_1313": {
-          "danger": 0.437,
-          "sentiment": -0.1
-        },
-        "sepah_pasdaran": {
-          "danger": 0.51,
-          "sentiment": -0.367
-        },
-        "almanarnews": {
-          "danger": 0.251,
-          "sentiment": 0.033
-        },
-        "C_Military1": {
-          "danger": 0.783,
-          "sentiment": -0.233
-        },
-        "almayadeen": {
-          "danger": 0.802,
-          "sentiment": -0.267
-        },
-        "QudsN": {
-          "danger": 0.655,
-          "sentiment": -0.4
-        }
-      }
-    },
     {
       "time": "2026-08-11T21:41:31.810Z",
       "danger": 0.57,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.267
         }
       }
+    },
+    {
+      "time": "2026-08-14T20:26:16.251Z",
+      "danger": 0.548,
+      "sentiment": -0.246,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.516,
+          "sentiment": -0.533
+        },
+        "OSINTdefender": {
+          "danger": 0.682,
+          "sentiment": -0.033
+        },
+        "irna_1313": {
+          "danger": 0.467,
+          "sentiment": -0.625
+        },
+        "sepah_pasdaran": {
+          "danger": 0.352,
+          "sentiment": -0.067
+        },
+        "almanarnews": {
+          "danger": 0.372,
+          "sentiment": 0.033
+        },
+        "C_Military1": {
+          "danger": 0.816,
+          "sentiment": -0.167
+        },
+        "almayadeen": {
+          "danger": 0.686,
+          "sentiment": -0.567
+        },
+        "QudsN": {
+          "danger": 0.638,
+          "sentiment": -0.367
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2280,25 +2280,25 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.5368791574693158
+      "knn_danger_metric": 0.5155556676986899
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.6706422354577307
+      "knn_danger_metric": 0.6819123982806349
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": 0.3,
-      "knn_danger_metric": 0.39460276605013545
+      "num_messages": 8,
+      "raw_sentiment": -0.625,
+      "knn_danger_metric": 0.4666967024187597
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.40620866749997886
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.3515060298503172
     },
     "almanarnews": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.553006181628902
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.6860664122421654
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.5165182220870895
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.6379190990127674
     }
   },
   "semantic_logs": [
@@ -2341,10 +2341,10 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️تصاویر تکان‌دهنده از لحظه شهادت یک کودک فلسطینی در پی حمله رژیم صهیونیستی &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 1,
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "דרום לבנון:  פלחה&quot;ן 55 חוגגים בכפר בני חיאן.  תגובה אחת",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2413,22 +2413,22 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيليّة: القناة &quot;13&quot;: أردوغان يريد السيطرة على مطارات ومخازن مدنية بمباركة الرئيس السوري",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: المكتب السياسي لأنصار الله: الاستهداف الأميركي والإسرائيلي يأتي لكون حزب الله يشكل سداً منيعاً في الدفاع عن لبنان وشعبه وسيادته واستقلاله في مواجهة المشاريع الأميركية والإسرائيلية",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "فلسطين المحتلة: مراسل الميادين: إصابة طفلة بنيران &quot;جيش&quot; الاحتلال في منطقة عسقولة جنوبي مدينة غزة",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: الرئيس مسعود بزشكيان: العقوبات الأميركية الأوربية ضد حرس الثورة هي دليل على ما يخافون منه",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: بزشكيان: التنوع والاختلاف أمر موجود في كل مكان لكن ليس حول قواتنا المسلحة فهم يستحقون كل التقدير وسندافع عنهم بأرواحنا",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     }
   ]
