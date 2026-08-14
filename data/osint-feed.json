@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-14T14:14:41.776Z",
+  "last_updated": "2026-08-14T15:46:45.566Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.14"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.49",
+    "global_norm_sentiment": "-0.03"
   },
   "timeline": [
-    {
-      "time": "2026-08-11T15:56:48.307Z",
-      "danger": 0.487,
-      "sentiment": -0.131,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.556,
-          "sentiment": -0.467
-        },
-        "OSINTdefender": {
-          "danger": 0.69,
-          "sentiment": -0.3
-        },
-        "irna_1313": {
-          "danger": 0.373,
-          "sentiment": -0.033
-        },
-        "sepah_pasdaran": {
-          "danger": 0.199,
-          "sentiment": -0.133
-        },
-        "almanarnews": {
-          "danger": 0.343,
-          "sentiment": 0.167
-        },
-        "C_Military1": {
-          "danger": 0.804,
-          "sentiment": -0.033
-        },
-        "almayadeen": {
-          "danger": 0.491,
-          "sentiment": -0.267
-        },
-        "QudsN": {
-          "danger": 0.463,
-          "sentiment": -0.107
-        }
-      }
-    },
     {
       "time": "2026-08-11T16:56:34.956Z",
       "danger": 0.535,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.267
         }
       }
+    },
+    {
+      "time": "2026-08-14T15:46:45.566Z",
+      "danger": 0.492,
+      "sentiment": -0.027,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.558,
+          "sentiment": -0.533
+        },
+        "OSINTdefender": {
+          "danger": 0.686,
+          "sentiment": -0.233
+        },
+        "irna_1313": {
+          "danger": 0.585,
+          "sentiment": 0.033
+        },
+        "sepah_pasdaran": {
+          "danger": 0.437,
+          "sentiment": -0.3
+        },
+        "almanarnews": {
+          "danger": 0.145,
+          "sentiment": 0.267
+        },
+        "C_Military1": {
+          "danger": 0.495,
+          "sentiment": 0.067
+        },
+        "almayadeen": {
+          "danger": 0.385,
+          "sentiment": 0
+        },
+        "QudsN": {
+          "danger": 0.679,
+          "sentiment": 0.563
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.5391649892325248
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.5581692294903414
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2292,37 +2292,37 @@
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.564119609200971
+      "knn_danger_metric": 0.5853184574261092
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.45535270064024924
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.437394572764557
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.433652158533509
+      "raw_sentiment": 0.26666666666666666,
+      "knn_danger_metric": 0.1451268984350774
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.5775306824977684
+      "knn_danger_metric": 0.49533697820325456
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.5006141864744953
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.38515316233588276
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.6438852591126227
+      "num_messages": 8,
+      "raw_sentiment": 0.5625,
+      "knn_danger_metric": 0.6791549504816242
     }
   },
   "semantic_logs": [
@@ -2336,35 +2336,14 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "לשכת שר הביטחון:   שר הביטחון ישראל כ״ץ הנחה את צה&quot;ל להכין תוכנית להעברת כלל סמכויות האכיפה בנושאים האזרחיים בקרב היישובים והאוכלוסייה הישראלית ביהודה ושומרון לידי משטרת ישראל: &quot;תפקיד צה&quot;ל הוא להילחם בטרור הפלסטיני ולהתמקד בהגנה על הגבולות והיישובים מול איומים.…",
-      "absolute_sentiment": 0,
+      "text": "🛑 מזרן אורטופדי קונים חכם ובטוח רק עם ד&quot;ר קומפורט 🛑  בלי לקרוע את הכיס, בלי לקחת סיכון עם מזרן שאולי לא יתאים לכם, ובמחיר חסכוני מדהים&#33;  הכירו את DOUBLE – המזרן האורטופדי לחוויית שינה מושלמת, ובעל 2 דרגות קושי לבחירתכם – רך וקשה – מה שהופך אותו למזרן עם התמורה הטובה ביותר למחיר&#33; 🔥  רק ב-1,790 ₪ בלבד (מחיר מומלץ לצרכן 5,990 ₪), ו-30 לילות ניסיון אצלכם בבית&#33;  בנוסף, תקבלו גם זוג כריות וויסקו מפנקות בשווי 880 ₪ – ב-מ-ת-נ-ה&#33; 🎁🎁🎁  המזרן מגיע גם עם:  🔥 12 שנות אחריות&#33;  🔥 פריסת תשלומים גמישה במיוחד&#33;  🔥 התאמה אישית על ידי יועץ שינה מקצועי&#33;  אל תפספסו, מהרו להשאיר פרטים &gt;&gt;  https://lp.drcomfort.co.il/mattress/double/?channelID=691164&amp;utm_source=abu_ali_express_telegram&amp;utm_medium=post&amp;utm_campaign=mattress_double",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
       "text": "&rlm; ️انهدام پهپاد MQ۹ در آسمان هرمزگان  &rlm;🔹 یک فروند پهپاد MQ۹ توسط سامانه نوین پدافند پیشرفته سپاه و تحت کنترل شبکه یکپارچه پدافند هوایی کشور در آسمان استان هرمزگان رهگیری و منهدم شد. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 كلمة للشيخ قاسم عند السادسة والنصف من عصر اليوم https://almanar.com.lb/article/1095562/?s=tg",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "بيان لوزارة التربية حول المسوغات التي دفعت إلى اعتماد الامتحان السريري المنصوص عنه في متن المرسوم الذي ينظم امتحانات الكولوكيوم https://almanar.com.lb/article/1095637/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "وسائل إعلام إيرانية: صورة عبر الأقمار الصناعية تُظهر أضرار كبيرة جراء الضربات الإيرانية  وشملت الأهداف:  الإمارات: الرادار الاستراتيجي TPS-57 في قاعدة الظفرة الإمارات: وحدة ضغط الغاز في مصفاة حبشان البحرين: مركز بيانات داعم لمعلومات الجيش الأميركي الإمارات: وحدة الكربون التابعة لصناعات الألمنيوم  #الاعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2376,10 +2355,10 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: التلفزيون الإيراني: اعتراض مسيّرة من طراز MQ-9 وتدميرها بواسطة منظومة الدفاع الجوي الحديثة التابعة لحرس الثورة في هرمزغان",
-      "absolute_sentiment": -1,
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#لبنان   بدء كلمة الأمين العام لحزب الله سماحة الشيخ نعيم قاسم في ذكرى انتصار تموز ٢٠٠٦.  #الاعلام_الحربي",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2399,14 +2378,14 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "أدَّى عشرات آلاف الفلسطينيين، صلاة الجمعة، اليوم في المسجد الأقصى المبارك وباحاته، رغم قيود الاحتلال..   https://qudsn.co/share/217039",
-      "absolute_sentiment": -1,
+      "text": "قوات الاحتلال تطلق قنابل الغاز والصوت وتواصل إغلاق مداخل بلدة حزما، شمال شرق القدس المحتلة.",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم بلدة بيت فوريك، شرق نابلس.",
+      "text": "مشاهد من قصف مدفعية الاحتلال لمناطق شرق مدينة خان يونس، جنوب قطاع غزة.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
@@ -2418,11 +2397,11 @@
       "semantic_danger_knn": 0.9980703478029744
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 14 العبرية: إحباط هجوم كان سيستهدف وزير الحرب يسرائيل كاتس صباح اليوم في جنين.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9957890513813449
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸بازگشت ۴۴ واحد صنعتی و معدنی سیستان و بلوچستان به چرخه تولید  🔹داود شهرکی مدیرکل صنعت، معدن و تجارت سیستان و بلوچستان از احیای ۳۱ واحد صنعتی و ۱۳ واحد معدنی در استان خبر داد و گفت: با فعال‌سازی دوباره این واحدها، زمینه اشتغال بیش از ۶۰۰ نفر فراهم شد.  https://irna.ir/xjXXYM @IRNA_1313",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.9967898028530019
     },
     {
       "channelId": "irna_1313",
@@ -2430,6 +2409,27 @@
       "text": "🔸مطالعه بزرگ زوال عقل؛ تفاوت‌های چشمگیر پس از ۹۰ سالگی  🔹پژوهشگران دانشگاه کالیفرنیا دیویس و مرکز سلامت کایزر پرمننته با بررسی بیش از ۸۰۰ فرد بالای ۹۰ سال دریافتند که خطر ابتلا به زوال عقل (دمانس) حتی پس از این سن نیز از بین نمی‌رود و میزان آن بر اساس جنسیت، نژاد، قومیت و ژنتیک تفاوت چشمگیری دارد. #ایرنا_جهان  https://irna.ir/xjXY9X @IRNA_1313",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 0.9951957023429895
+    },
+    {
+      "channelId": "OSINTdefender",
+      "channel": "Global_OSINT",
+      "text": "#Poland #Ukraine  Poland is expected to decide on transferring another batch of Patriot missiles to Ukraine within the next few days. This decision is influenced by recent security concerns following a Russian missile incident that violated Polish airspace.  Subscribe to @OSINTdefender | 💬 Chat room",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9813508874318634
+    },
+    {
+      "channelId": "OSINTdefender",
+      "channel": "Global_OSINT",
+      "text": "#China #Japan   On August 14, 2026, four Chinese Coast Guard vessels were reported operating around the Senkaku Islands, marking the sixth consecutive day of their presence in the area. This ongoing activity reflects China&#39;s increased maritime operations near these disputed islands.  Subscribe to @OSINTdefender | 💬 Chat room",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9624495292442476
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | مستوطنون يدهسون الشاب &quot;حمادة كواملة&quot; بدراجة نارية ويعتدون عليه أثناء زراعة أرضه برفقة أطفاله، وجنود الاحتلال يعتقلونه بمنطقة &quot;القرن&quot; بمحيط بلدة بيت أمر، شمال الخليل.",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.9596045227592704
     }
   ]
 }
