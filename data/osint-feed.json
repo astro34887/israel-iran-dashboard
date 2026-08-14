@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-14T16:48:53.406Z",
+  "last_updated": "2026-08-14T17:48:55.907Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.51",
-    "global_norm_sentiment": "-0.04"
+    "global_knn_danger": "0.56",
+    "global_norm_sentiment": "-0.13"
   },
   "timeline": [
-    {
-      "time": "2026-08-11T17:55:15.171Z",
-      "danger": 0.535,
-      "sentiment": -0.15,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.554,
-          "sentiment": -0.333
-        },
-        "OSINTdefender": {
-          "danger": 0.69,
-          "sentiment": -0.3
-        },
-        "irna_1313": {
-          "danger": 0.281,
-          "sentiment": -0.036
-        },
-        "sepah_pasdaran": {
-          "danger": 0.327,
-          "sentiment": -0.5
-        },
-        "almanarnews": {
-          "danger": 0.285,
-          "sentiment": 0.233
-        },
-        "C_Military1": {
-          "danger": 0.805,
-          "sentiment": -0.1
-        },
-        "almayadeen": {
-          "danger": 0.739,
-          "sentiment": -0.033
-        },
-        "QudsN": {
-          "danger": 0.726,
-          "sentiment": -0.267
-        }
-      }
-    },
     {
       "time": "2026-08-11T18:56:21.928Z",
       "danger": 0.554,
@@ -2261,6 +2214,53 @@
           "sentiment": 0.464
         }
       }
+    },
+    {
+      "time": "2026-08-14T17:48:55.907Z",
+      "danger": 0.56,
+      "sentiment": -0.13,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.517,
+          "sentiment": -0.5
+        },
+        "OSINTdefender": {
+          "danger": 0.68,
+          "sentiment": -0.133
+        },
+        "irna_1313": {
+          "danger": 0.676,
+          "sentiment": -0.1
+        },
+        "sepah_pasdaran": {
+          "danger": 0.517,
+          "sentiment": -0.5
+        },
+        "almanarnews": {
+          "danger": 0.272,
+          "sentiment": 0.167
+        },
+        "C_Military1": {
+          "danger": 0.732,
+          "sentiment": -0.367
+        },
+        "almayadeen": {
+          "danger": 0.564,
+          "sentiment": 0.2
+        },
+        "QudsN": {
+          "danger": 0.697,
+          "sentiment": 0.067
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,32 +2279,32 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.5157424756316844
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.5166630982084268
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.6864254882318992
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.6800498484010206
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.5370693087452546
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.6755176517939275
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.43020051250403024
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.5170301505937496
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.5333333333333333,
-      "knn_danger_metric": 0.12038436397415225
+      "raw_sentiment": 0.16666666666666666,
+      "knn_danger_metric": 0.2717908965285256
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.5104013989199229
+      "raw_sentiment": 0.2,
+      "knn_danger_metric": 0.5638414321435217
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 14,
-      "raw_sentiment": 0.4642857142857143,
-      "knn_danger_metric": 0.6451793658461427
+      "num_messages": 15,
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.6969013866153705
     }
   },
   "semantic_logs": [
@@ -2348,6 +2348,13 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️تصاویری از حملۀ موشکی ارتش یمن به مواضع مزدوران ریاض &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#لبنان   بدء كلمة الأمين العام لحزب الله سماحة الشيخ نعيم قاسم في ذكرى انتصار تموز ٢٠٠٦.  #الاعلام_الحربي",
@@ -2364,7 +2371,7 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#لبنان  أبرز ما جاء في كلمة الامين العام لحزب الله سماحة الشيخ نعيم قاسم بمناسبة انتصار تموز 2006:  - التضحيات التي قدمناها هي فعل إيمان وإرادة.  - يقول البعض أن اتفاق الإطار أعاد ٣٠٠ ألف من الأهالي.. وهذا مضحك.  -&nbsp; الذي أعاد الناس هو اتفاق اسلام أباد.  #الاعلام_الحربي",
+      "text": "#لبنان  أبرز ما جاء في كلمة الامين العام لحزب الله سماحة الشيخ نعيم قاسم بمناسبة انتصار تموز 2006:  - التضحيات التي قدمناها هي فعل إيمان وإرادة.  - يقول البعض أن اتفاق الإطار أعاد ٣٠٠ ألف من الأهالي.. وهذا مضحك.  -&nbsp; الذي أ��اد الناس هو اتفاق اسلام أباد.  #الاعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2387,13 +2394,6 @@
       "channel": "Hezbollah",
       "text": "🎥 فيديو كلمة الأمين العام لحزب الله سماحة الشيخ نعيم قاسم في الذكرى السنوية العشرين للانتصار 14-08-2026",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: الشيخ قاسم: ما هذه البدعة التي سميتموها &quot;مناطق تجريبية&quot;؟",
-      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2425,10 +2425,10 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مشاهد من قصف مدفعية الاحتلال لمناطق شرق مدينة خان يونس، جنوب قطاع غزة.",
-      "absolute_sentiment": 0.5,
+      "text": "فلسطين المحتلة: الهلال الأحمر الفلسطيني: جريحان برصاص المستوطنين خلال هجومهم على منطقة العديسة في بلدة سعير شمال الخليل",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
   ]
