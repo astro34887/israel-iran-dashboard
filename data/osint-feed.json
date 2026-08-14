@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-14T09:55:40.710Z",
+  "last_updated": "2026-08-14T10:55:08.364Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.30"
+    "global_norm_sentiment": "-0.28"
   },
   "timeline": [
-    {
-      "time": "2026-08-11T10:48:56.496Z",
-      "danger": 0.536,
-      "sentiment": -0.191,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.559,
-          "sentiment": -0.633
-        },
-        "OSINTdefender": {
-          "danger": 0.574,
-          "sentiment": -0.433
-        },
-        "irna_1313": {
-          "danger": 0.405,
-          "sentiment": 0.357
-        },
-        "sepah_pasdaran": {
-          "danger": 0.362,
-          "sentiment": -0.733
-        },
-        "almanarnews": {
-          "danger": 0.439,
-          "sentiment": -0.467
-        },
-        "C_Military1": {
-          "danger": 0.819,
-          "sentiment": -0.067
-        },
-        "almayadeen": {
-          "danger": 0.472,
-          "sentiment": 0.233
-        },
-        "QudsN": {
-          "danger": 0.778,
-          "sentiment": -0.038
-        }
-      }
-    },
     {
       "time": "2026-08-11T11:40:14.138Z",
       "danger": 0.553,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.2
         }
       }
+    },
+    {
+      "time": "2026-08-14T10:55:08.364Z",
+      "danger": 0.53,
+      "sentiment": -0.282,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.557,
+          "sentiment": -0.286
+        },
+        "OSINTdefender": {
+          "danger": 0.686,
+          "sentiment": -0.3
+        },
+        "irna_1313": {
+          "danger": 0.405,
+          "sentiment": -0.4
+        },
+        "sepah_pasdaran": {
+          "danger": 0.34,
+          "sentiment": -0.5
+        },
+        "almanarnews": {
+          "danger": 0.416,
+          "sentiment": -0.367
+        },
+        "C_Military1": {
+          "danger": 0.651,
+          "sentiment": -0.3
+        },
+        "almayadeen": {
+          "danger": 0.685,
+          "sentiment": -0.433
+        },
+        "QudsN": {
+          "danger": 0.606,
+          "sentiment": -0.067
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2278,9 +2278,9 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.5442361360073193
+      "num_messages": 14,
+      "raw_sentiment": -0.2857142857142857,
+      "knn_danger_metric": 0.5573276429227214
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,20 +2291,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.4528024995923893
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.40510565706175533
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.34507258099162447
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.34036259037211875
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.4209712121988149
+      "knn_danger_metric": 0.4159871627198959
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2321,8 +2321,8 @@
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.5659929371807745
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.6056265384396579
     }
   },
   "semantic_logs": [
@@ -2331,6 +2331,13 @@
       "channel": "IDF",
       "text": "״אני קורא לאכולוסייה החרדית ולהנהגה החרדית לעודד כל פעם קצת יותר לגיוס. יש לנו מסלולים יוצאים מן הכלל, השתחררו מהם אנשים לא פחות חרדים ואזרחים טובים יותר למדינה. זה טוב לכולם״  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
       "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "המצב בסאוטה - ספרד: מהגר מרוקאי מתאר את המחנות שהקימו המרוקאים בחוף טראמפולין בסאוטה.  נראה כמו פרק מ&quot;הישרדות&quot;.  תגובה אחת",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
@@ -2407,13 +2414,6 @@
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
       "text": "لبنان: مراسل الميادين في بيروت: بري أكد خلال لقائه عيسى أن &quot;إسرائيل&quot; لم توقف خروقاتها واعتداءاتها على لبنان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "بالأسماء.. الاحتلال يعتقل 7 فلسطينيين ويحتجز 30 آخرين في الضفة   https://qudsn.co/share/217031",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
