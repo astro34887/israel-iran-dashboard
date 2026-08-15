@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-15T16:18:57.406Z",
+  "last_updated": "2026-08-15T17:16:40.686Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.18"
+    "global_knn_danger": "0.54",
+    "global_norm_sentiment": "-0.30"
   },
   "timeline": [
-    {
-      "time": "2026-08-13T06:13:11.435Z",
-      "danger": 0.529,
-      "sentiment": -0.163,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.411,
-          "sentiment": -0.5
-        },
-        "OSINTdefender": {
-          "danger": 0.599,
-          "sentiment": 0.167
-        },
-        "irna_1313": {
-          "danger": 0.522,
-          "sentiment": -0.267
-        },
-        "sepah_pasdaran": {
-          "danger": 0.478,
-          "sentiment": -0.267
-        },
-        "almanarnews": {
-          "danger": 0.52,
-          "sentiment": 0
-        },
-        "C_Military1": {
-          "danger": 0.684,
-          "sentiment": -0.233
-        },
-        "almayadeen": {
-          "danger": 0.567,
-          "sentiment": -0.367
-        },
-        "QudsN": {
-          "danger": 0.554,
-          "sentiment": -0.033
-        }
-      }
-    },
     {
       "time": "2026-08-13T08:16:55.017Z",
       "danger": 0.539,
@@ -2261,6 +2214,53 @@
           "sentiment": 0.1
         }
       }
+    },
+    {
+      "time": "2026-08-15T17:16:40.686Z",
+      "danger": 0.538,
+      "sentiment": -0.297,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.585,
+          "sentiment": -0.333
+        },
+        "OSINTdefender": {
+          "danger": 0.586,
+          "sentiment": 0.033
+        },
+        "irna_1313": {
+          "danger": 0.505,
+          "sentiment": -0.533
+        },
+        "sepah_pasdaran": {
+          "danger": 0.498,
+          "sentiment": -0.467
+        },
+        "almanarnews": {
+          "danger": 0.416,
+          "sentiment": -0.3
+        },
+        "C_Military1": {
+          "danger": 0.392,
+          "sentiment": -0.5
+        },
+        "almayadeen": {
+          "danger": 0.762,
+          "sentiment": -0.667
+        },
+        "QudsN": {
+          "danger": 0.691,
+          "sentiment": -0.067
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.6382423868741119
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.584662877316735
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.5862688065970845
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.5045507299781645
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.4939658164150523
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.4984768084118435
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.44595839009207516
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.4159480865980683
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.5083042924822259
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.39214359628415524
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.46524745866201
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.7623545991453453
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.6381092696808938
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.6910055277303536
     }
   },
   "semantic_logs": [
@@ -2341,51 +2341,9 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "📹 في متابعة لآخر المستجدات من جنوب لبنان، ينقل مراسلنا هاشم السيد حسن تطورات الأوضاع الميدانية https://almanar.com.lb/article/1099342/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "هيئة التجارة البحرية بريطانية: بلاغ عن تعرض سفينة شحن لإصابة بمقذوف مجهول أمس في مضيق هرمز  #الاعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   رئيس مجلس الشورى الإيراني محمد باقر قاليباف:  في آخر هجوم وقع على الضاحية، أوقفتُ المفاوضات وأعلنتُ أننا سنضرب الكيان الصهيوني الليلة، وإذا ردّ فسنضرب المنطقة بأكملها.  وكانت النتيجة أنهم رفعوا الحصار في تلك الليلة نفسها؛ في حين كان من المقرر، وفقًا للتفاهم، أن يُفتح بعد 30 يومًا.  عندما نشر ترامب تغريدة قال فيها إن الحصار ومضيق هرمز سيفتحان معًا الليلة، أعلنتُ أنه إذا لم يتم تصحيح الادعاء الخاطئ بشأن مضيق هرمز، فسننفذ الهجوم، واضطر ترامب إلى تصحيح منشوره. هذا النوع من التفاوض يعني الكفاح.  #الاعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "وسائل إعلام أمريكية: بدأت مشاكل الإمدادات على حاملة الطائرات الأمريكية يو إس إس أبراهام لينكولن بعد هجوم إيراني بالصواريخ والطائرات المسيرة على قاعدة بحرية أمريكية في البحرين في بداية الحرب، ما أدى إلى تدمير مركز لوجستي رئيسي اعتمدت عليه البحرية لعقود. فاضطرت الولايات المتحدة إلى تحويل مركز الإمداد إلى جزيرة دييغو غارسيا البريطانية البعيدة نحو 2200 ميل عن منطقة العمليات في خليج عُمان، وهو ما ساهم في نقص الإمدادات الأساسية وتدهور الحالة النفسية لأفراد الطاقم البالغ عددهم نحو 5000 بحار خلال انتشار يقترب من تسعة أشهر.  #الاعلام_الحربي",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الاسلامية   المتحدث باسم وزارة الخارجية إسماعيل بقائي:  - رغم عرقلة واشنطن فإن المحادثات بين طهران ومسقط تسير بخطى ثابتة وإيجابية.  - لقد تم التوصل إلى اتفاق بشأن خريطة حركة الملاحة بين ايران وسلطنة عمان.  - هذه الخطوة هي ثمرة تعاون جماعي بين مختلف الجهات بقيادة وزارة الخارجية ومشاركة قطاعات الدفاع والأمن والبيئة في البلاد.  #الاعلام_الحربي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: حزب الله: على اللبنانيين جميعاً بكل مكوناتهم أن يدركوا خطورة النهج الذي تنتهجه هذه السلطة على لبنان ووحدته وأمنه واستقلاله",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: الاحتلال الإسرائيلي ينفذ تفجيراً في بلدة كفرتبنيت",
+      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: انفجار عبوة ناسفة بدبابة إسرائيلية في قطاع غزة.  #الاعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2411,25 +2369,67 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: طيران الاحتلال يشن غارة على وسط مدينة خان يونس جنوبي قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: غارة من مسيّرة استهدفت بلدة المنصوري",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "اليمن: القوات المدعومة سعودياً تطلق عدد من قذائف المدفعية على قرى مأهولة بالسكان في عزلتي الأعروق والأعبوس بمديرية حيفان في تعز",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: هيئة علماء بيروت: نعتبر أن الخيار المقاوم هو السبيل الوحيد لتحرير الأرض وحفظ السيادة وصون الكرامة الوطنية",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: شهيد برصاص قوات الاحتلال شمال شرقي مخيم النصيرات وسط قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: الهلال الأحمر الفلسطيني: إصابة 3 فلسطينيين جراء اعتداء المستوطنين على الأهالي في مسافر يطا جنوبي الخليل",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مدفعية الاحتلال تواصل قصف وسط مدينة خان يونس، جنوب قطاع غزة.",
+      "text": "صاحب مقولة &quot;ثابت&quot; مع إطلاق النار من مسافة صفر في موقع &quot;إيرز&quot; يوم 7 أكتوبر..  كتائب القسام تنشر مشاهد للشهيد محمود شقورة، من  كتيبة الشهيد فوزي أبو القرع في شمال قطاع غزة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "لحظة اقتحام جنود الاحتلال حفل تخريج لطلبة الثانوية العامة في قرية بلعين غرب رام الله.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🎥 نَحنُ لا نَقبَل بالإِستِسلَام وسَنَبقى صامِدين... حزب‌الله: هرگز تسلیم نخواهیم شد  🔹جنبش حزب الله لبنان ویدئوی جدیدی خطاب به رژیم صهیونیستی با عنوان «هرگز تسلیم نخواهیم شد و مقاومت خواهیم کرد»، منتشر کرد. #ایرنا_جهان   @IRNA_1313",
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل| طائرات الاحتلال تشن عدة غارات في شرق خانيونس جنوب قطاع غزة.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9951957023429894
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🎥گل اول پرسپولیس به شمس آذر توسط محبی در دقیقه ۱۰ شمس آذر صفر - پرسپولیس یک  @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9900416935917431
+      "semantic_danger_knn": 1
     }
   ]
 }
