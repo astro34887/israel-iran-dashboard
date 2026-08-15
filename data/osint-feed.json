@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-15T06:30:00.570Z",
+  "last_updated": "2026-08-15T07:26:26.345Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.57",
-    "global_norm_sentiment": "-0.21"
+    "global_knn_danger": "0.56",
+    "global_norm_sentiment": "-0.23"
   },
   "timeline": [
-    {
-      "time": "2026-08-12T12:58:49.685Z",
-      "danger": 0.552,
-      "sentiment": -0.17,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.46,
-          "sentiment": -0.433
-        },
-        "OSINTdefender": {
-          "danger": 0.667,
-          "sentiment": 0.067
-        },
-        "irna_1313": {
-          "danger": 0.539,
-          "sentiment": 0
-        },
-        "sepah_pasdaran": {
-          "danger": 0.567,
-          "sentiment": -0.167
-        },
-        "almanarnews": {
-          "danger": 0.483,
-          "sentiment": -0.433
-        },
-        "C_Military1": {
-          "danger": 0.744,
-          "sentiment": -0.233
-        },
-        "almayadeen": {
-          "danger": 0.482,
-          "sentiment": -0.2
-        },
-        "QudsN": {
-          "danger": 0.633,
-          "sentiment": -0.167
-        }
-      }
-    },
     {
       "time": "2026-08-12T14:21:55.127Z",
       "danger": 0.528,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.3
         }
       }
+    },
+    {
+      "time": "2026-08-15T07:26:26.345Z",
+      "danger": 0.557,
+      "sentiment": -0.227,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.542,
+          "sentiment": -0.567
+        },
+        "OSINTdefender": {
+          "danger": 0.601,
+          "sentiment": -0.033
+        },
+        "irna_1313": {
+          "danger": 0.471,
+          "sentiment": -0.1
+        },
+        "sepah_pasdaran": {
+          "danger": 0.335,
+          "sentiment": -0.267
+        },
+        "almanarnews": {
+          "danger": 0.52,
+          "sentiment": -0.267
+        },
+        "C_Military1": {
+          "danger": 0.798,
+          "sentiment": -0.033
+        },
+        "almayadeen": {
+          "danger": 0.666,
+          "sentiment": -0.633
+        },
+        "QudsN": {
+          "danger": 0.685,
+          "sentiment": -0.233
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2280,37 +2280,37 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.5562619343989968
+      "knn_danger_metric": 0.5423152239702823
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.6819123982806349
+      "knn_danger_metric": 0.6005868883640381
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 11,
-      "raw_sentiment": 0.13636363636363635,
-      "knn_danger_metric": 0.5688858696541153
+      "num_messages": 15,
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.4707914641258345
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.3014278765202681
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.335395260195464
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.556725904496398
+      "knn_danger_metric": 0.5202105904914543
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.7978758843075556
+      "knn_danger_metric": 0.7978758843075557
     },
     "almayadeen": {
       "name": "Arab_Axis",
@@ -2321,8 +2321,8 @@
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.6503191630251488
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.6851093420338175
     }
   },
   "semantic_logs": [
@@ -2331,13 +2331,6 @@
       "channel": "IDF",
       "text": "״אני קורא לאכולוסייה החרדית ולהנהגה החרדית לעודד כל פעם קצת יותר לגיוס. יש לנו מסלולים יוצאים מן הכלל, השתחררו מהם אנשים לא פחות חרדים ואזרחים טובים יותר למדינה. זה טוב לכולם״  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "🛑 מזרן אורטופדי קונים חכם ובטוח רק עם ד&quot;ר קומפורט 🛑  בלי לקרוע את הכיס, בלי לקחת סיכון עם מזרן שאולי לא יתאים לכם, ובמחיר חסכוני מדהים&#33;  הכירו את DOUBLE – המזרן האורטופדי לחוויית שינה מושלמת, ובעל 2 דרגות קושי לבחירתכם – רך וקשה – מה שהופך אותו למזרן עם התמורה הטובה ביותר למחיר&#33; 🔥  רק ב-1,790 ₪ בלבד (מחיר מומלץ לצרכן 5,990 ₪), ו-30 לילות ניסיון אצלכם בבית&#33;  בנוסף, תקבלו גם זוג כריות וויסקו מפנקות בשווי 880 ₪ – ב-מ-ת-נ-ה&#33; 🎁🎁🎁  המזרן מגיע גם עם:  🔥 12 שנות אחריות&#33;  🔥 פריסת תשלומים גמישה במיוחד&#33;  🔥 התאמה אישית על ידי יועץ שינה מקצועי&#33;  אל תפספסו, מהרו להשאיר פרטים &gt;&gt;  https://lp.drcomfort.co.il/mattress/double/?channelID=691164&amp;utm_source=abu_ali_express_telegram&amp;utm_medium=post&amp;utm_campaign=mattress_double",
-      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2362,9 +2355,9 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
+      "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "#لبنان  أبرز ما جاء في كلمة الامين العام لحزب الله سماحة الشيخ نعيم قاسم بمناسبة انتصار تموز 2006:  - حتى لو كان هناك عدم تكافؤ بالقوة لكننا لن نستسلم.  - يجب تأمين النازحين والمساعدات والإيواء.  -&nbsp; إلى أهلنا العظماء كل كلام يمكن أن نقوله لا شيء أمام تضحياتكم وإخلاصكم.  #الاعلام_الحربي",
+      "text": "وزارة الاشغال: الأعمال عند جسر القعقعية المتضرر تتقدم https://almanar.com.lb/article/1098312/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2407,6 +2400,13 @@
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "هيئة التجارة البحرية بريطانية: بلاغ عن تعرض سفينة شحن لإصابة بمقذوف مجهول أمس في مضيق هرمز  #الاعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   رئيس مجلس الشورى الإيراني محمد باقر قاليباف:  في آخر هجوم وقع على الضاحية، أوقفتُ المفاوضات وأعلنتُ أننا سنضرب الكيان الصهيوني الليلة، وإذا ردّ فسنضرب المنطقة بأكملها.  وكانت النتيجة أنهم رفعوا الحصار في تلك الليلة نفسها؛ في حين كان من المقرر، وفقًا للتفاهم، أن يُفتح بعد 30 يومًا.  عندما نشر ترامب تغريدة قال فيها إن الحصار ومضيق هرمز سيفتحان معًا الليلة، أعلنتُ أنه إذا لم يتم تصحيح الادعاء الخاطئ بشأن مضيق هرمز، فسننفذ الهجوم، واضطر ترامب إلى تصحيح منشوره. هذا النوع من التفاوض يعني الكفاح.  #الاعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
