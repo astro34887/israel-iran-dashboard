@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-15T12:29:13.393Z",
+  "last_updated": "2026-08-15T13:27:10.873Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.55",
-    "global_norm_sentiment": "-0.20"
+    "global_knn_danger": "0.57",
+    "global_norm_sentiment": "-0.17"
   },
   "timeline": [
-    {
-      "time": "2026-08-12T21:41:35.338Z",
-      "danger": 0.566,
-      "sentiment": -0.188,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.447,
-          "sentiment": -0.464
-        },
-        "OSINTdefender": {
-          "danger": 0.637,
-          "sentiment": 0.4
-        },
-        "irna_1313": {
-          "danger": 0.549,
-          "sentiment": -0.545
-        },
-        "sepah_pasdaran": {
-          "danger": 0.51,
-          "sentiment": -0.2
-        },
-        "almanarnews": {
-          "danger": 0.449,
-          "sentiment": 0.167
-        },
-        "C_Military1": {
-          "danger": 0.684,
-          "sentiment": -0.233
-        },
-        "almayadeen": {
-          "danger": 0.581,
-          "sentiment": -0.333
-        },
-        "QudsN": {
-          "danger": 0.857,
-          "sentiment": -0.533
-        }
-      }
-    },
     {
       "time": "2026-08-12T23:36:27.782Z",
       "danger": 0.57,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.423
         }
       }
+    },
+    {
+      "time": "2026-08-15T13:27:10.873Z",
+      "danger": 0.574,
+      "sentiment": -0.17,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.696,
+          "sentiment": -0.8
+        },
+        "OSINTdefender": {
+          "danger": 0.564,
+          "sentiment": 0.067
+        },
+        "irna_1313": {
+          "danger": 0.553,
+          "sentiment": -0.333
+        },
+        "sepah_pasdaran": {
+          "danger": 0.46,
+          "sentiment": -0.367
+        },
+        "almanarnews": {
+          "danger": 0.503,
+          "sentiment": 0.1
+        },
+        "C_Military1": {
+          "danger": 0.723,
+          "sentiment": -0.3
+        },
+        "almayadeen": {
+          "danger": 0.697,
+          "sentiment": 0.233
+        },
+        "QudsN": {
+          "danger": 0.594,
+          "sentiment": -0.167
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.7666666666666667,
-      "knn_danger_metric": 0.6546403909811846
+      "raw_sentiment": -0.8,
+      "knn_danger_metric": 0.6956016413177991
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2292,7 +2292,7 @@
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.36851268528049114
+      "knn_danger_metric": 0.5529429732468372
     },
     "sepah_pasdaran": {
       "name": "IRGC",
@@ -2303,26 +2303,26 @@
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.3333333333333333,
-      "knn_danger_metric": 0.2876868733436932
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.5027553501904406
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.7665430634793775
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.7231780648230548
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.8157320530837857
+      "raw_sentiment": 0.23333333333333334,
+      "knn_danger_metric": 0.6968783889003202
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 13,
-      "raw_sentiment": -0.4230769230769231,
-      "knn_danger_metric": 0.5968377705478081
+      "num_messages": 15,
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.5938127424455956
     }
   },
   "semantic_logs": [
@@ -2334,10 +2334,31 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "מקורות מזוהי חזבאללה: עלי סמיר אלחאג&#39; חסן☝️, שחוסל היום בתקיפה הישראלית בכפר אנצאר יחד עם 5 מבני משפחתו הוא קצין מבצעים של חזבאללה.  בסרטון המצורף הוא מתראיין עם טשטוש פנים לרשת אלמנאר של חזבאללה.  תגובה אחת",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "🎥 فيديو كلمة الأمين العام لحزب الله سماحة الشيخ نعيم قاسم في الذكرى السنوية العشرين للانتصار 14-08-2026",
-      "absolute_sentiment": 1,
+      "text": "📹 كيف حوّلت ضربة إيرانية دقيقة حاملة «أبراهام لينكولن» إلى رهينة الاستنزاف والعزلة؟ https://almanar.com.lb/article/1099252/?s=tg",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "📹 بالفيديو | غارة إسرائيلية تدمر منزلاً في محيط دار المعلمين بالنبطية فجر اليوم https://almanar.com.lb/article/1098382/?s=tg",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "📹 في متابعة لآخر المستجدات من جنوب لبنان، ينقل مراسلنا هاشم السيد حسن تطورات الأوضاع الميدانية https://almanar.com.lb/article/1099342/?s=tg",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2385,50 +2406,29 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسلة الميادين في الجنوب: أنباء عن مجزرة في دير الزهراني وسيارات الاسعاف تتوجه الى مكان العدوان",
+      "text": "فلسطين المحتلة: مراسلة الميادين: الاحتلال يوسع حصار بلدة رأس العين مع مواصلة العدوان على بلدة قصرة شمالي الضفة الغربية",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: سلام:شهداء الغارة الإسرائيلية على بلدة أنصار ليسوا &quot;بنية تحتية عسكرية&quot; والأطفال والنساء الذين قُتلوا فيه ليسوا أهدافاً عسكرية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: سلام: مسؤولية التعامل مع أي بنى عسكرية إذا وُجدت على الأراضي اللبنانية هي مسؤولية الدولة اللبنانية حصراً",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: سلام: لا يمنح وجود بنى تحتية عسكرية &quot;إسرائيل&quot; حق استباحة الأراضي اللبنانية أو تعريض المدنيين للخطر",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: إصابة مواطن بجروح خطرة في استهداف دراجة نارية على شارع صلاح الدين بالقرب من مستشفى شهداء الأقصى وسط قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: 3 إصابات في غارة من مسيرة إسرائيلية قرب مدخل مستشفى شهداء الأقصى في مدينة دير البلح وسط قطاع غزة",
+      "text": "لبنان: حزب الله: التصعيد الإسرائيلي وتوسيع دائرة المناطق المستهدفة يعبر عن رغبة وإرادة المجرم نتنياهو بتصعيد الحرب",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: الرئيس جوزاف عون يدين الاعتداءات الاسرائيلية المستمرة على مناطق الجنوب",
-      "absolute_sentiment": -1,
+      "text": "لبنان: حزب الله: نتنياهو يصعد الحرب تعزيزاً لواقعه السياسي الداخلي وخدمة لأهدافه الانتخابية وإرضاءً لليمين المتطرف",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: حزب الله: يجب على السلطة اللبنانية البحث عن السبل المتاحة لوقف العدوان وألا تصر على الاستمرار بالمفاوضات المباشرة المذلة",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     }
   ]
