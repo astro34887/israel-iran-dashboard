@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-15T14:17:17.445Z",
+  "last_updated": "2026-08-15T15:15:55.780Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.57",
-    "global_norm_sentiment": "-0.20"
+    "global_knn_danger": "0.54",
+    "global_norm_sentiment": "-0.15"
   },
   "timeline": [
-    {
-      "time": "2026-08-13T01:38:42.705Z",
-      "danger": 0.574,
-      "sentiment": -0.156,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.477,
-          "sentiment": -0.464
-        },
-        "OSINTdefender": {
-          "danger": 0.642,
-          "sentiment": 0.3
-        },
-        "irna_1313": {
-          "danger": 0.628,
-          "sentiment": -0.433
-        },
-        "sepah_pasdaran": {
-          "danger": 0.505,
-          "sentiment": -0.267
-        },
-        "almanarnews": {
-          "danger": 0.487,
-          "sentiment": 0
-        },
-        "C_Military1": {
-          "danger": 0.684,
-          "sentiment": -0.233
-        },
-        "almayadeen": {
-          "danger": 0.585,
-          "sentiment": -0.267
-        },
-        "QudsN": {
-          "danger": 0.779,
-          "sentiment": -0.033
-        }
-      }
-    },
     {
       "time": "2026-08-13T04:06:56.780Z",
       "danger": 0.556,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.133
         }
       }
+    },
+    {
+      "time": "2026-08-15T15:15:55.780Z",
+      "danger": 0.543,
+      "sentiment": -0.147,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.649,
+          "sentiment": -0.567
+        },
+        "OSINTdefender": {
+          "danger": 0.602,
+          "sentiment": 0.133
+        },
+        "irna_1313": {
+          "danger": 0.395,
+          "sentiment": -0.167
+        },
+        "sepah_pasdaran": {
+          "danger": 0.51,
+          "sentiment": -0.233
+        },
+        "almanarnews": {
+          "danger": 0.547,
+          "sentiment": -0.167
+        },
+        "C_Military1": {
+          "danger": 0.757,
+          "sentiment": -0.3
+        },
+        "almayadeen": {
+          "danger": 0.408,
+          "sentiment": 0.067
+        },
+        "QudsN": {
+          "danger": 0.609,
+          "sentiment": -0.1
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.6660050153931162
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.6489883656432943
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,15 +2290,15 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.5022476884504846
+      "num_messages": 9,
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.3951689056403458
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.5318595317212279
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.5102948214567147
     },
     "almanarnews": {
       "name": "Hezbollah",
@@ -2316,13 +2316,13 @@
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.36505401335092597
+      "knn_danger_metric": 0.4081387119392818
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.812707005094267
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.6090100874252761
     }
   },
   "semantic_logs": [
@@ -2331,6 +2331,13 @@
       "channel": "IDF",
       "text": "״אני קורא לאכולוסייה החרדית ולהנהגה החרדית לעודד כל פעם קצת יותר לגיוס. יש לנו מסלולים יוצאים מן הכלל, השתחררו מהם אנשים לא פחות חרדים ואזרחים טובים יותר למדינה. זה טוב לכולם״  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
       "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "מקורות מזוהי חזבאללה: עלי סמיר אלחאג&#39; חסן☝️, שחוסל היום בתקיפה הישראלית בכפר אנצאר יחד עם 5 מבני משפחתו הוא קצין מבצעים של חזבאללה.  בסרטון המצורף הוא מתראיין עם טשטוש פנים לרשת אלמנאר של חזבאללה.  תגובה אחת",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
@@ -2413,7 +2420,7 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#الجمهورية_الاسلامية   المتحدث باسم وزارة الخارجية إسماعيل بقائي:  - رغم عرقلة واشنطن فإن المحادثات بين طهران ومسقط تسير بخطى ثابتة وإيجابية.  - لقد تم التوصل إلى اتفاق بشأن خريطة حركة الملاحة بين ايران وسلطنة عمان.  - هذه الخطوة هي ثمرة تعاون جماعي بين مختلف الجهات بقيادة وزارة الخارجية ومشاركة قطاعات الدفاع والأمن والبيئة في البلاد.  #الاعلام_الحربي",
+      "text": "#الجمهورية_الاسلامية   المتحدث باسم وزارة الخارجية إسماعيل بقائي:  - رغم عرقلة واشنطن فإن المحادثات بين طهران ومسقط تسير بخطى ثابتة وإيجابية.  - لقد تم التوصل إلى اتفاق بشأن خريطة حركة الملاحة بين ايران وسلطنة عمان.  - هذه الخطوة هي ثمرة تعاو�� جماعي بين مختلف الجهات بقيادة وزارة الخارجية ومشاركة قطاعات الدفاع والأمن والبيئة في البلاد.  #الاعلام_الحربي",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
@@ -2422,13 +2429,6 @@
       "channel": "Arab_Axis",
       "text": "لبنان: حزب الله: آن للسلطة الإدراك أن الرهان على الضمانة والوساطة الأميركية هو رهان خائب فالأميركي شريك للعدو في جرائمه",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: حزب الله: على اللبنانيين جميعاً بكل مكوناتهم أن يدركوا خطورة النهج الذي تنتهجه هذه السلطة على لبنان ووحدته وأمنه واستقلاله",
-      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
   ]
