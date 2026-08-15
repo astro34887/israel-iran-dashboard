@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-15T17:16:40.686Z",
+  "last_updated": "2026-08-15T18:21:38.124Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.30"
+    "global_knn_danger": "0.55",
+    "global_norm_sentiment": "-0.32"
   },
   "timeline": [
-    {
-      "time": "2026-08-13T08:16:55.017Z",
-      "danger": 0.539,
-      "sentiment": -0.151,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.544,
-          "sentiment": -0.233
-        },
-        "OSINTdefender": {
-          "danger": 0.599,
-          "sentiment": 0.167
-        },
-        "irna_1313": {
-          "danger": 0.505,
-          "sentiment": -0.077
-        },
-        "sepah_pasdaran": {
-          "danger": 0.5,
-          "sentiment": -0.333
-        },
-        "almanarnews": {
-          "danger": 0.405,
-          "sentiment": -0.4
-        },
-        "C_Military1": {
-          "danger": 0.645,
-          "sentiment": 0.1
-        },
-        "almayadeen": {
-          "danger": 0.662,
-          "sentiment": -0.467
-        },
-        "QudsN": {
-          "danger": 0.584,
-          "sentiment": -0.133
-        }
-      }
-    },
     {
       "time": "2026-08-13T09:59:36.348Z",
       "danger": 0.557,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.067
         }
       }
+    },
+    {
+      "time": "2026-08-15T18:21:38.124Z",
+      "danger": 0.552,
+      "sentiment": -0.317,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.58,
+          "sentiment": -0.533
+        },
+        "OSINTdefender": {
+          "danger": 0.586,
+          "sentiment": 0.033
+        },
+        "irna_1313": {
+          "danger": 0.645,
+          "sentiment": -0.273
+        },
+        "sepah_pasdaran": {
+          "danger": 0.5,
+          "sentiment": -0.433
+        },
+        "almanarnews": {
+          "danger": 0.441,
+          "sentiment": -0.3
+        },
+        "C_Military1": {
+          "danger": 0.392,
+          "sentiment": -0.5
+        },
+        "almayadeen": {
+          "danger": 0.692,
+          "sentiment": -0.633
+        },
+        "QudsN": {
+          "danger": 0.736,
+          "sentiment": -0.4
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.584662877316735
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.5796461117405938
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,21 +2290,21 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.5045507299781645
+      "num_messages": 11,
+      "raw_sentiment": -0.2727272727272727,
+      "knn_danger_metric": 0.6446192447401485
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.4984768084118435
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.5001526393608341
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.4159480865980683
+      "knn_danger_metric": 0.44060732161559685
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.7623545991453453
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.6923285857533971
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.6910055277303536
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.736114099621686
     }
   },
   "semantic_logs": [
@@ -2341,30 +2341,16 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️منابع عربی از هدف‌ قراردادن مجدد مقرهای نیروهای وابسته به سعودی در مأرب توسط نیروهای انصارالله خبر می‌دهند. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: انفجار عبوة ناسفة بدبابة إسرائيلية في قطاع غزة.  #الاعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي يستهدف وسط خان يونس جنوبي قطاع غزة",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: جريحان نتيجة قصف مدفعي إسرائيلي استهدف مناطق مكتظة بالسكان وسط خان يونس جنوبي قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: مصاب بشظايا القصف الإسرائيلي على محيط دوار أبو حميد وسط مدينة خان يونس جنوبي قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2413,21 +2399,35 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "صاحب مقولة &quot;ثابت&quot; مع إطلاق النار من مسافة صفر في موقع &quot;إيرز&quot; يوم 7 أكتوبر..  كتائب القسام تنشر مشاهد للشهيد محمود شقورة، من  كتيبة الشهيد فوزي أبو القرع في شمال قطاع غزة.",
+      "text": "عاجل| طائرات الاحتلال تشن عدة غارات في شرق خانيونس جنوب قطاع غزة.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "لحظة اقتحام جنود الاحتلال حفل تخريج لطلبة الثانوية العامة في قرية بلعين غرب رام الله.",
+      "text": "جيش الاحتلال ينصب روبوت مفخخ في منطقة العلمي بمخيم جباليا شمال قطاع غزة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "&quot;مُعطى&quot;:  852 انتهاكًا لقوات الاحتلال والمستوطنين في الضفة الغربية خلال أسبوع",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل| طائرات الاحتلال تشن عدة غارات في شرق خانيونس جنوب قطاع غزة.",
+      "text": "وزارة الصحة في غزة: 12 محطة أكسجين فقط من أصل 34 محطة في القطاع لا تزال تعمل، في ظل ظروف فنية وميكانيكية بالغة التعقيد",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "لحظة قصف طائرات الاحتلال منازل لعائلة المصري في جورة اللوت شرق خانيونس جنوب قطاع غزة.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
