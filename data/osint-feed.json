@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-15T21:16:08.631Z",
+  "last_updated": "2026-08-15T22:16:09.164Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.35"
+    "global_knn_danger": "0.56",
+    "global_norm_sentiment": "-0.31"
   },
   "timeline": [
-    {
-      "time": "2026-08-13T14:23:53.610Z",
-      "danger": 0.558,
-      "sentiment": -0.14,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.675,
-          "sentiment": -0.833
-        },
-        "OSINTdefender": {
-          "danger": 0.582,
-          "sentiment": 0.133
-        },
-        "irna_1313": {
-          "danger": 0.527,
-          "sentiment": -0.033
-        },
-        "sepah_pasdaran": {
-          "danger": 0.342,
-          "sentiment": -0.567
-        },
-        "almanarnews": {
-          "danger": 0.471,
-          "sentiment": 0.133
-        },
-        "C_Military1": {
-          "danger": 0.619,
-          "sentiment": 0.033
-        },
-        "almayadeen": {
-          "danger": 0.77,
-          "sentiment": -0.133
-        },
-        "QudsN": {
-          "danger": 0.644,
-          "sentiment": 0
-        }
-      }
-    },
     {
       "time": "2026-08-13T15:55:18.901Z",
       "danger": 0.529,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.4
         }
       }
+    },
+    {
+      "time": "2026-08-15T22:16:09.164Z",
+      "danger": 0.558,
+      "sentiment": -0.307,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.597,
+          "sentiment": -0.333
+        },
+        "OSINTdefender": {
+          "danger": 0.586,
+          "sentiment": -0.067
+        },
+        "irna_1313": {
+          "danger": 0.557,
+          "sentiment": -0.3
+        },
+        "sepah_pasdaran": {
+          "danger": 0.435,
+          "sentiment": -0.433
+        },
+        "almanarnews": {
+          "danger": 0.46,
+          "sentiment": -0.367
+        },
+        "C_Military1": {
+          "danger": 0.566,
+          "sentiment": -0.6
+        },
+        "almayadeen": {
+          "danger": 0.609,
+          "sentiment": -0.533
+        },
+        "QudsN": {
+          "danger": 0.823,
+          "sentiment": -0.267
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2291,20 +2291,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.5403437518120124
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.556952401743107
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.4097010345278853
+      "knn_danger_metric": 0.4346079175327219
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.43948585587124717
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.46003998954007963
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2316,13 +2316,13 @@
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.6035222659640019
+      "knn_danger_metric": 0.6085966210424494
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.6873762844897541
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.8226920583625736
     }
   },
   "semantic_logs": [
@@ -2344,6 +2344,13 @@
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
       "text": "מכות רחוב בלימה, פרו. כזה לא ראיתם. יש שם הכל...  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 بريطانيا | ويلز تنال نصيبها من الحرائق التي تجتاح أوروبا وسط موجة حر تاريخية و جفاف شديد تشهده القارّة https://almanar.com.lb/article/1100077/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2423,13 +2430,6 @@
       "text": "جانب من اقتحام قوات الاحتلال قرية روجيب، شرق نابلس.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸پرواز پرتعداد جنگنده‌های ناشناس در نزدیکی مرز سوریه و اردن  🔹یک مرکز حقوق بشری سوری شنبه شب از گشت‌زنی و پرواز پرتعداد هواپیماهای جنگی ناشناس در مناطق مرزی میان سوریه و اردن از ساعات پایانی عصر خبر داد.  🔹به گزارش ایرنا&nbsp;به نقل از شبکه المیادین، نهاد موسوم به «دیده بان حقوق بشر سوریه» با اعلام این خبر تأکید کرد که جنگنده‌های ناشناس، پروازهای گسترده ای را در نزدیکی مناطق مرزی مشترک سوریه و اردن از ساعات پایانی عصر امروز انجام داده‌اند.  https://irna.ir/xjXZSn @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9949856863108548
     }
   ]
 }
