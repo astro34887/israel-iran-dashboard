@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-16T06:32:00.839Z",
+  "last_updated": "2026-08-16T07:26:51.577Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.30"
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.24"
   },
   "timeline": [
-    {
-      "time": "2026-08-13T23:36:36.007Z",
-      "danger": 0.578,
-      "sentiment": -0.263,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.577,
-          "sentiment": -0.5
-        },
-        "OSINTdefender": {
-          "danger": 0.63,
-          "sentiment": -0.1
-        },
-        "irna_1313": {
-          "danger": 0.566,
-          "sentiment": -0.767
-        },
-        "sepah_pasdaran": {
-          "danger": 0.338,
-          "sentiment": -0.333
-        },
-        "almanarnews": {
-          "danger": 0.509,
-          "sentiment": 0.133
-        },
-        "C_Military1": {
-          "danger": 0.739,
-          "sentiment": -0.133
-        },
-        "almayadeen": {
-          "danger": 0.692,
-          "sentiment": -0.5
-        },
-        "QudsN": {
-          "danger": 0.778,
-          "sentiment": -0.3
-        }
-      }
-    },
     {
       "time": "2026-08-14T01:29:53.259Z",
       "danger": 0.568,
@@ -2261,6 +2214,53 @@
           "sentiment": 0.033
         }
       }
+    },
+    {
+      "time": "2026-08-16T07:26:51.577Z",
+      "danger": 0.517,
+      "sentiment": -0.24,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.421,
+          "sentiment": -0.533
+        },
+        "OSINTdefender": {
+          "danger": 0.582,
+          "sentiment": -0.067
+        },
+        "irna_1313": {
+          "danger": 0.443,
+          "sentiment": -0.333
+        },
+        "sepah_pasdaran": {
+          "danger": 0.405,
+          "sentiment": -0.2
+        },
+        "almanarnews": {
+          "danger": 0.503,
+          "sentiment": -0.233
+        },
+        "C_Military1": {
+          "danger": 0.566,
+          "sentiment": -0.7
+        },
+        "almayadeen": {
+          "danger": 0.663,
+          "sentiment": -0.167
+        },
+        "QudsN": {
+          "danger": 0.636,
+          "sentiment": -0.033
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,32 +2279,32 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.4833675227087
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.4213496505231625
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.5930261612026393
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.5819368675194434
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.5144830390929628
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.44298372141420617
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.41429266514999774
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.40511047573031983
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.4300968754885362
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.5028255424366516
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.6861484870368637
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.6630654020687137
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.6666968734451809
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.6360565719278963
     }
   },
   "semantic_logs": [
@@ -2336,14 +2336,21 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "החוות - חומת המגן של המדינה 🇮🇱  משה תמיר ומשפחתו הם דוגמה ללמעלה מ100 חוות חקלאיות  שקמו בשנים האחרונות ברחבי הארץ. החוות מחזקות את הנוכחות בשטח ותורמות לביטחון מדינת ישראל.  איגוד החוות נמצא שם לאורך כל הדרך, מסייע בהקמת חוות חדשות ומלווה את החוות הקיימות בשגרה ובחירום.  ב 18 ₪ בלבד בחודש גם אתם הופכים לשותפים. שותפים להתיישבות, לחקלאות, לביטחון ולעשייה שמתרחשת בשטח בכל יום&#33;  הצטרפו עכשיו לקרן החוות ותהיו חלק מהפרחת השממה-https://pe4ch.com/ref/2A6frykr2che",
-      "absolute_sentiment": 1,
+      "text": "דרום לבנון: שוב תקיפות ברכס עלי א-טאהר   גם הלילה, לילה שני ברציפות, תקפו מטוסי קרב של צה&quot;ל מספר פעמים את רכס עלי א-טאהר.  בנוסף ע&quot;פ דיווחים לבנוניים תקפו מטוסי קרב ישראלים הלילה גם באזור אלקנטרה - דיר סריאן וכן הוטלו פצצות זרחן באזור כפר רמאן ורכס עלי א-טאהר (סמוכים זה לזה).   מצורף תיעוד.  תגובה אחת",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "דרום לבנון: שוב תקיפות ברכס עלי א-טאהר   גם הלילה, לילה שני ברציפות, תקפו מטוסי קרב של צה&quot;ל מספר פעמים את רכס עלי א-טאהר.  בנוסף ע&quot;פ דיווחים לבנוניים תקפו מטוסי קרב ישראלים הלילה גם באזור אלקנטרה - דיר סריאן וכן הוטלו פצצות זרחן באזור כפר רמאן ורכס עלי א-טאהר (סמוכים זה לזה).   מצורף תיעוד.  תגובה אחת",
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "بالفيديو | سلسلة اعتداءات طالت مرتفعات علي الطاهر فجر اليوم https://almanar.com.lb/article/1100547/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 قائد القيادة المركزية الأمريكية زار 6 دول بالمنطقة وتفقد حاملة طائرات https://almanar.com.lb/article/1100562/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2371,36 +2378,36 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: بقائي: استمرار صمت مجلس الأمن وتقاعسه إزاء الانتهاكات الجسيمة للقانون الدولي والقانون الدولي الإنساني أمر مؤسف",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: غارة إسرائيلية معادية استهدفت أطراف دوحة بلدة كفررمان لجهة مرتفع الدبشة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: قصف مدفعي إسرائيلي استهدف بلدة المنصوري في قضاء صور",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: الهلال الأحمر الفلسطيني: طواقمنا في الخليل تتعامل مع 10 إصابات من جراء اعتداءات المستوطنين وقوات الاحتلال",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "سوريا: مصادر محلية: دورية تابعة للاحتلال الإسرائيلي تتوغل في بلدة جباتا الخشب بريف القنيطرة وتفتش أحد المنازل",
       "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي بالتزامن مع إطلاق نار من آليات الاحتلال بشارع السكة شرق حي الزيتون شرقي مدينة غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: إطلاق نار مستمر من آليات الاحتلال جنوب شرق مدينة غزة بالتحديد شرق مفترق دولة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: قوات الاحتلال تنفذ تفجيراً في بلدة مجدل زون",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: القوات المسلحة: دعم أبناء شعبنا للقوات المسلحة يعكس الرغبة في الثأر لدم القائد الشهيد ويؤكد على القوة",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2423,13 +2430,6 @@
       "text": "لليوم الثامن.. الاحتلال يواصل حصار عدد من البيوت في قرية قصرة جنوب نابلس",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸شمار تلفات فوک خزری در سواحل مازندران به ۲۵ قلاده رسید  🔹معاون محیط زیست طبیعی و تنوع زیستی اداره‌کل حفاظت محیط زیست مازندران از ثبت ۲ مورد جدید تلف شدن فوک خزری در سواحل استان خبر داد و گفت: در مجموع از ابتدای سال جاری تاکنون لاشه ۲۵ قلاده از این گونه جانوری در سواحل این خطه از شمال کشف شد.  https://irna.ir/xjXZVw @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9951957023429895
     }
   ]
 }
