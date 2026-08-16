@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-16T20:16:26.464Z",
+  "last_updated": "2026-08-16T21:15:38.398Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.50",
-    "global_norm_sentiment": "-0.23"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.21"
   },
   "timeline": [
-    {
-      "time": "2026-08-14T19:44:18.216Z",
-      "danger": 0.522,
-      "sentiment": -0.087,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.537,
-          "sentiment": -0.533
-        },
-        "OSINTdefender": {
-          "danger": 0.671,
-          "sentiment": -0.033
-        },
-        "irna_1313": {
-          "danger": 0.395,
-          "sentiment": 0.3
-        },
-        "sepah_pasdaran": {
-          "danger": 0.406,
-          "sentiment": 0.1
-        },
-        "almanarnews": {
-          "danger": 0.372,
-          "sentiment": 0.033
-        },
-        "C_Military1": {
-          "danger": 0.816,
-          "sentiment": -0.167
-        },
-        "almayadeen": {
-          "danger": 0.553,
-          "sentiment": -0.167
-        },
-        "QudsN": {
-          "danger": 0.517,
-          "sentiment": -0.267
-        }
-      }
-    },
     {
       "time": "2026-08-14T20:26:16.251Z",
       "danger": 0.548,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.433
         }
       }
+    },
+    {
+      "time": "2026-08-16T21:15:38.398Z",
+      "danger": 0.525,
+      "sentiment": -0.21,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.474,
+          "sentiment": -0.567
+        },
+        "OSINTdefender": {
+          "danger": 0.549,
+          "sentiment": 0
+        },
+        "irna_1313": {
+          "danger": 0.493,
+          "sentiment": -0.1
+        },
+        "sepah_pasdaran": {
+          "danger": 0.268,
+          "sentiment": 0.067
+        },
+        "almanarnews": {
+          "danger": 0.469,
+          "sentiment": -0.1
+        },
+        "C_Military1": {
+          "danger": 0.84,
+          "sentiment": -0.8
+        },
+        "almayadeen": {
+          "danger": 0.451,
+          "sentiment": -0.333
+        },
+        "QudsN": {
+          "danger": 0.761,
+          "sentiment": -0.133
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.5088463368692077
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.47389906948702865
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.5652474419713234
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.5485623691523316
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.4467622080882652
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.49332915676033356
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.25347512971175695
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.26823134335689647
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
+      "raw_sentiment": -0.1,
       "knn_danger_metric": 0.4685799599732904
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.7,
+      "raw_sentiment": -0.8,
       "knn_danger_metric": 0.8401980050434407
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.478870466812019
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.45100588817905307
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.45648440686884323
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.7613952366316887
     }
   },
   "semantic_logs": [
@@ -2413,13 +2413,6 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: شهيد متأثراً بإصابته في عدوان الاحتلال على مواصي مدينة خان يونس جنوبي قطاع غزة ظهر اليوم",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "وسائل إعلام إسرائيليّة: &quot;القناة 14&quot;: الفشل الأمني في غزة مستمر مع استيلاء مقاتلي حماس مجدداً على معدات هندسية للقوات الإسرائيلية جنوب القطاع",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
@@ -2429,6 +2422,13 @@
       "channel": "Arab_Axis",
       "text": "لبنان: مراسل الميادين: قصف مدفعي إسرائيلي يستهدف بلدة المنصوري في قضاء صور جنوبي لبنان",
       "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: حماس: أكدنا الموافقة على خارطة الطريق للمرحلة الثانية من خطة الرئيس ترامب التي قدمها ميلادنوف الوسطاء",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
   ]
