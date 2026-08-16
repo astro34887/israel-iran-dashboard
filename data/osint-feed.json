@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-16T08:23:30.655Z",
+  "last_updated": "2026-08-16T09:22:51.016Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.13"
+    "global_knn_danger": "0.55",
+    "global_norm_sentiment": "-0.28"
   },
   "timeline": [
-    {
-      "time": "2026-08-14T04:03:38.048Z",
-      "danger": 0.55,
-      "sentiment": -0.268,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.577,
-          "sentiment": -0.433
-        },
-        "OSINTdefender": {
-          "danger": 0.63,
-          "sentiment": -0.1
-        },
-        "irna_1313": {
-          "danger": 0.457,
-          "sentiment": -0.567
-        },
-        "sepah_pasdaran": {
-          "danger": 0.372,
-          "sentiment": -0.367
-        },
-        "almanarnews": {
-          "danger": 0.534,
-          "sentiment": -0.3
-        },
-        "C_Military1": {
-          "danger": 0.739,
-          "sentiment": -0.133
-        },
-        "almayadeen": {
-          "danger": 0.524,
-          "sentiment": -0.433
-        },
-        "QudsN": {
-          "danger": 0.713,
-          "sentiment": -0.179
-        }
-      }
-    },
     {
       "time": "2026-08-14T06:09:49.163Z",
       "danger": 0.553,
@@ -2261,6 +2214,53 @@
           "sentiment": 0.091
         }
       }
+    },
+    {
+      "time": "2026-08-16T09:22:51.016Z",
+      "danger": 0.551,
+      "sentiment": -0.281,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.596,
+          "sentiment": -0.4
+        },
+        "OSINTdefender": {
+          "danger": 0.582,
+          "sentiment": -0.067
+        },
+        "irna_1313": {
+          "danger": 0.438,
+          "sentiment": -0.767
+        },
+        "sepah_pasdaran": {
+          "danger": 0.39,
+          "sentiment": -0.467
+        },
+        "almanarnews": {
+          "danger": 0.52,
+          "sentiment": 0.143
+        },
+        "C_Military1": {
+          "danger": 0.586,
+          "sentiment": -0.7
+        },
+        "almayadeen": {
+          "danger": 0.83,
+          "sentiment": -0.167
+        },
+        "QudsN": {
+          "danger": 0.624,
+          "sentiment": -0.25
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.5296137158732218
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.5955451356752974
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,20 +2291,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.5238349590024292
+      "raw_sentiment": -0.7666666666666667,
+      "knn_danger_metric": 0.43797276004321334
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.37395743015295113
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.38994056920668413
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 14,
-      "raw_sentiment": 0.25,
-      "knn_danger_metric": 0.47859509494431896
+      "raw_sentiment": 0.14285714285714285,
+      "knn_danger_metric": 0.5196494336717322
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.6982666730861753
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.8300718225444723
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 11,
-      "raw_sentiment": 0.09090909090909091,
-      "knn_danger_metric": 0.6183433742538436
+      "num_messages": 12,
+      "raw_sentiment": -0.25,
+      "knn_danger_metric": 0.6238037389542792
     }
   },
   "semantic_logs": [
@@ -2343,21 +2343,35 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "ערוצים פלסטינים: آلاف المستوطنين أدّوا الليلة الماضية ما تسمى بطقوس &quot;السليخوت&quot;، في ساحة حائط البراق غربي المسجد الأقصى المبارك  תרגום : אלפי מתנחלים ערכו הלילה טקסי סליחות ברחבת כותלו של אלבראק (&quot;הבהמה הפלאית&quot; של הנביא מחמד-א&quot;ע) במערב מסגד אלאקצא המבורך  תגובה אחת",
+      "text": "מלחמת רוסיה אוקראינה  המתחם הגדול ביותר של קמעונאית הסחר Wildberries בקלדינו (אזור מוסקבה) הותקף הלילה על ידי כטב&quot;מים אוקראיניים.  המרכז משתרע על פני 250 אלף מ&quot;ר.  נזק חסר תקדים מבחינת החברה.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "מלחמת רוסיה אוקראינה  המתחם הגדול ביותר של קמעונאית הסחר Wildberries בקלדינו (אזור מוסקבה) הותקף הלילה על ידי כטב&quot;מים אוקראיניים.  המרכז משתרע על פני 250 אלף מ&quot;ר.  נזק חסר תקדים מבחינת החברה.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "מתוך 30 המתחמים הגדולים של Wildberries ברוסיה, 14 נהרסו כליל ועוד שלושה ניזוקו באופן חלקי - הכל כתוצאה מתקיפות כטב&quot;מים אוקראיניים.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "بالفيديو | سلسلة اعتداءات طالت مرتفعات علي الطاهر فجر اليوم https://almanar.com.lb/article/1100547/?s=tg",
-      "absolute_sentiment": 0.5,
+      "text": "🔵 مقتل 12 وإصابة 10 في انقلاب حافلة بالمجر https://almanar.com.lb/article/1100782/?s=tg",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "🔵 قائد القيادة المركزية الأمريكية زار 6 دول بالمنطقة وتفقد حاملة طائرات https://almanar.com.lb/article/1100562/?s=tg",
+      "text": "🔵 شهيد وإصابة بنيران الاحتلال جنوب قطاع غزة https://almanar.com.lb/article/1100887/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2379,27 +2393,6 @@
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#إعلام_العدو   القناة 13 العبرية - رفيف دروكر: من اتخذ قرار التحرك في منطقة علي الطاهر كان ينبغي أن يفهم بأن حزب الله سيرد.  #الاعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "سوريا: مصادر محلية: دورية تابعة للاحتلال الإسرائيلي تتوغل في بلدة جباتا الخشب بريف القنيطرة وتفتش أحد المنازل",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي بالتزامن مع إطلاق نار من آليات الاحتلال بشارع السكة شرق حي الزيتون شرقي مدينة غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: إطلاق نار مستمر من آليات الاحتلال جنوب شرق مدينة غزة بالتحديد شرق مفترق دولة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2428,6 +2421,13 @@
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
       "text": "مراسل الميادين من مضيق هرمز: عشرات السفن والناقلات تنتشر في عمق المضيق بانتظار موافقة بحرية حرس الثورة للعبور",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "اليمن: مدير مكتب الميادين في صنعاء: صنعاء تربط فك الحصار عن السفن السعودية بوقف العمليات العسكرية",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
