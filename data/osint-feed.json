@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-16T15:17:06.561Z",
+  "last_updated": "2026-08-16T16:19:00.422Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.55",
+    "global_knn_danger": "0.53",
     "global_norm_sentiment": "-0.25"
   },
   "timeline": [
-    {
-      "time": "2026-08-14T14:14:41.776Z",
-      "danger": 0.535,
-      "sentiment": -0.143,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.539,
-          "sentiment": -0.233
-        },
-        "OSINTdefender": {
-          "danger": 0.686,
-          "sentiment": -0.233
-        },
-        "irna_1313": {
-          "danger": 0.564,
-          "sentiment": 0.033
-        },
-        "sepah_pasdaran": {
-          "danger": 0.455,
-          "sentiment": -0.2
-        },
-        "almanarnews": {
-          "danger": 0.434,
-          "sentiment": -0.4
-        },
-        "C_Military1": {
-          "danger": 0.578,
-          "sentiment": 0.067
-        },
-        "almayadeen": {
-          "danger": 0.501,
-          "sentiment": -0.067
-        },
-        "QudsN": {
-          "danger": 0.644,
-          "sentiment": -0.267
-        }
-      }
-    },
     {
       "time": "2026-08-14T15:46:45.566Z",
       "danger": 0.492,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.4
         }
       }
+    },
+    {
+      "time": "2026-08-16T16:19:00.422Z",
+      "danger": 0.532,
+      "sentiment": -0.253,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.575,
+          "sentiment": -0.367
+        },
+        "OSINTdefender": {
+          "danger": 0.626,
+          "sentiment": -0.067
+        },
+        "irna_1313": {
+          "danger": 0.481,
+          "sentiment": -0.133
+        },
+        "sepah_pasdaran": {
+          "danger": 0.45,
+          "sentiment": -0.433
+        },
+        "almanarnews": {
+          "danger": 0.351,
+          "sentiment": 0.133
+        },
+        "C_Military1": {
+          "danger": 0.758,
+          "sentiment": -0.7
+        },
+        "almayadeen": {
+          "danger": 0.568,
+          "sentiment": -0.2
+        },
+        "QudsN": {
+          "danger": 0.565,
+          "sentiment": -0.6
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.6222133606432875
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.5752638722029423
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.5967706987751685
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.626262112252105
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.5479604356413128
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.48137944068747063
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.48502905578574157
+      "knn_danger_metric": 0.4495740086030489
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.3917310048603151
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.35127635896944504
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.8,
-      "knn_danger_metric": 0.7184474809435704
+      "raw_sentiment": -0.7,
+      "knn_danger_metric": 0.7578785427818426
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.6436189014958411
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.5682676367475586
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.5207773641152256
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.5646327683095191
     }
   },
   "semantic_logs": [
@@ -2385,20 +2385,6 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: اللواء حاتمي: كل من يقتل أو يأسر ويسلم جندياً أميركياً معتدياً سيحصل على مكافأة تعادل 30 ألف دولار",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: اللواء حاتمي: بدأنا عمليا تنفيذ قرار طرد الأميركيين ولم يعد مسموحاً لهم بدخول الخليج وبحر عُمان ومضيق هرمز",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "إيران: اللواء حاتمي: أي ثمن نتكبده في سبيل الحفاظ على مضيق هرمز يستحق العناء وسنحميه بكل قوتنا بأوامر القائد الأعلى للقوات المسلحة",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
@@ -2408,6 +2394,13 @@
       "channel": "Arab_Axis",
       "text": "لبنان: وزارة الصحة: 4346 شهيداً و 12301 جريحاً حصيلة العدوان الاسرائيلي منذ 2 آذار/مارس",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في جنوب لبنان: إصابتان باستهداف مسيرة إسرائيلية منزلاً في بلدة كفرا",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2427,9 +2420,16 @@
     {
       "channelId": "irna_1313",
       "channel": "IRGC",
-      "text": "🔸پایان سفر فرمانده سنتکام به منطقه؛ از ادعای رسانه‌های صهیونیستی تا بحران در «لینکلن»  🔹 سنتکام اعلام کرد سفر ۱۰ روزه «برد کوپر» فرمانده این سازمان تروریستی به ۶ کشور منطقه و بازدید از ناو هواپیمابر «آبراهام لینکلن» در آب‌های دریای عرب روز ۱۵ آگوست (۲۴ مرداد) پایان یافت.  🔹رسانه‌های صهیونیستی سعی کردند همزمان با سفر کوپر، با انتشار اخباری بار دیگر اوضاع منطقه را متشنج کنند. #ایرنا_جهان   https://irna.ir/xjY2c5 @IRNA_1313",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9967898028530019
+      "text": "🔸نیروهای مسلح یمن در ادامه حملات علیه نیروهای وابسته به عربستان، مواضع نظامی این نیروها را در المخا و مأرب با موشک‌ها بالستیک و پهپاد هدف قرار دادند #ایرنا_جهان   https://irna.ir/xjY2dp @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9904567943036928
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸سریع‌ترین گل تاریخ جام خیریه انگلیس به نام آرسنال؛ سیتی ۲۳ ثانیه دوام آورد&#33;  🔹سریع‌ترین گل جام خیریه انگلیس به نام ریکارودو کالافیوری بازیکن آرسنال ثبت شد و این بازیکن توانست در ثانیه ۲۳ دروازه منچسترسیتی را باز کند.  https://irna.ir/xjY2cS @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9904567943036928
     }
   ]
 }
