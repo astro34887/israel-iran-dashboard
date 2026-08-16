@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-16T13:27:02.652Z",
+  "last_updated": "2026-08-16T14:17:37.607Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.55",
-    "global_norm_sentiment": "-0.23"
+    "global_norm_sentiment": "-0.16"
   },
   "timeline": [
-    {
-      "time": "2026-08-14T11:41:04.368Z",
-      "danger": 0.522,
-      "sentiment": -0.178,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.55,
-          "sentiment": -0.286
-        },
-        "OSINTdefender": {
-          "danger": 0.686,
-          "sentiment": -0.233
-        },
-        "irna_1313": {
-          "danger": 0.41,
-          "sentiment": -0.455
-        },
-        "sepah_pasdaran": {
-          "danger": 0.456,
-          "sentiment": -0.333
-        },
-        "almanarnews": {
-          "danger": 0.416,
-          "sentiment": -0.267
-        },
-        "C_Military1": {
-          "danger": 0.585,
-          "sentiment": -0.067
-        },
-        "almayadeen": {
-          "danger": 0.703,
-          "sentiment": -0.433
-        },
-        "QudsN": {
-          "danger": 0.459,
-          "sentiment": 0.423
-        }
-      }
-    },
     {
       "time": "2026-08-14T12:56:21.126Z",
       "danger": 0.512,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.633
         }
       }
+    },
+    {
+      "time": "2026-08-16T14:17:37.607Z",
+      "danger": 0.55,
+      "sentiment": -0.163,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.624,
+          "sentiment": -0.333
+        },
+        "OSINTdefender": {
+          "danger": 0.597,
+          "sentiment": -0.167
+        },
+        "irna_1313": {
+          "danger": 0.424,
+          "sentiment": 0.267
+        },
+        "sepah_pasdaran": {
+          "danger": 0.476,
+          "sentiment": -0.4
+        },
+        "almanarnews": {
+          "danger": 0.43,
+          "sentiment": 0.067
+        },
+        "C_Military1": {
+          "danger": 0.718,
+          "sentiment": -0.7
+        },
+        "almayadeen": {
+          "danger": 0.818,
+          "sentiment": 0.133
+        },
+        "QudsN": {
+          "danger": 0.465,
+          "sentiment": -0.333
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.6028052348714315
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.6235271944368945
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,21 +2290,21 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 12,
-      "raw_sentiment": 0.08333333333333333,
-      "knn_danger_metric": 0.4606895810493607
+      "num_messages": 15,
+      "raw_sentiment": 0.26666666666666666,
+      "knn_danger_metric": 0.42368927093286646
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.47919475246905174
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.4763210381430947
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.3708134108347778
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.4300483876725674
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.23333333333333334,
-      "knn_danger_metric": 0.7732336450774221
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.8184820899181258
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.5388982697503397
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.4649895784719236
     }
   },
   "semantic_logs": [
@@ -2336,15 +2336,29 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "מקורות עזתיים: 3 פצועים בתקיפת כטב&quot;מ ישראלי על אוהל של משפחת א-ראעי במואצי של ח&#39;אן יונס.  אחד הפצועים במצב קשה.  תגובה אחת",
+      "text": "תקיפה ברצועת עזה  עיתונאים עזתיים מדווחים לפני זמן קצר כי כטב&quot;מ ישראלי תקף אוהל במחנה האוהלים א-סלטאן מחמד, ליד בית החולים הכוויתי במואצי של ח&#39;אן יונס בדרום הרצועה.  יש נפגעים בתקיפה.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "אלג&#39;זירה מפי מקור פלסטיני:  קושנר ייפגש בעוד זמן קצר בקהיר עם הנהגת חמאס, בנוכחות בכירים מקטר, מצרים וטורקיה.  קושנר החליט להיפגש עם הנהגת חמאס בקהיר לפני שימשיך לתל אביב לפגישה עם ראש ממשלת ישראל.  תגובה אחת",
-      "absolute_sentiment": 0,
+      "text": "תקיפה ברצועת עזה  עיתונאים עזתיים מדווחים לפני זמן קצר כי כטב&quot;מ ישראלי תקף אוהל במחנה האוהלים א-סלטאן מחמד, ליד בית החולים הכוויתי במואצי של ח&#39;אן יונס בדרום הרצועה.  יש נפגעים בתקיפה.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "מקורות עזתיים: 3 פצועים בתקיפת כטב&quot;מ ישראלי על אוהל של משפחת א-ראעי במואצי של ח&#39;אן יונס.  אחד הפצועים במצב קשה.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️صدای انفجار در اطراف پالایشگاه جازان عربستان  &rlm;🔹 عربستان سعودی از فعال شدن آژیرهای هشدار در منطقه جازان خبر داد. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2411,25 +2425,11 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "الباحث والمختص بالشأن الإسرائيلي، محمد هلسة: إسناد صلاحيات أمن المستوطنات لشرطة الاحتلال خطوة تُسرّع الضم.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم قرية كفر قلّيل، جنوب شرق نابلس.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   قائد الجيش اللواء أمير حاتمي:   - يقول ترامب المجرم إنه يريد إعلان مضيق هرمز جزءًا من الولايات المتحدة ، إنه يخطئ كثيرًا&#33; وبعد أن رأى ردود الفعل، أعلن أنه كان يمزح.  - المزاح بهذا الكلام هو خطأ كبير، لأن هذه إيران، ولها حماة سيكسرون ساقك.  - لقد تم إخراج أمريكا عمليًا، ولم يعد لديهم تصريح بدخول الخليج الفارسي وبحر عُمان ومضيق هرمز.  - يجب أن يعلم الجميع أن القواعد الأمريكية غير قادرة بأي شكل من الأشكال على العودة إلى وضعها السابق، وإيران لن تسمح بهذا الأمر أبدًا.  #الإعلام_الحربي",
+      "text": "لبنان: وزارة الصحة: 4346 شهيداً و 12301 جريحاً حصيلة العدوان الاسرائيلي منذ 2 آذار/مارس",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9971738898694221
+      "semantic_danger_knn": 1
     }
   ]
 }
