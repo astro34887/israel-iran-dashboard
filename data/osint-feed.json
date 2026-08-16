@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-16T11:16:04.034Z",
+  "last_updated": "2026-08-16T12:30:30.141Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.56",
-    "global_norm_sentiment": "-0.19"
+    "global_knn_danger": "0.58",
+    "global_norm_sentiment": "-0.32"
   },
   "timeline": [
-    {
-      "time": "2026-08-14T09:55:40.710Z",
-      "danger": 0.53,
-      "sentiment": -0.3,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.544,
-          "sentiment": -0.4
-        },
-        "OSINTdefender": {
-          "danger": 0.686,
-          "sentiment": -0.3
-        },
-        "irna_1313": {
-          "danger": 0.453,
-          "sentiment": -0.267
-        },
-        "sepah_pasdaran": {
-          "danger": 0.345,
-          "sentiment": -0.567
-        },
-        "almanarnews": {
-          "danger": 0.421,
-          "sentiment": -0.367
-        },
-        "C_Military1": {
-          "danger": 0.651,
-          "sentiment": -0.3
-        },
-        "almayadeen": {
-          "danger": 0.685,
-          "sentiment": -0.433
-        },
-        "QudsN": {
-          "danger": 0.566,
-          "sentiment": -0.2
-        }
-      }
-    },
     {
       "time": "2026-08-14T10:55:08.364Z",
       "danger": 0.53,
@@ -2261,13 +2214,60 @@
           "sentiment": 0.067
         }
       }
+    },
+    {
+      "time": "2026-08-16T12:30:30.141Z",
+      "danger": 0.578,
+      "sentiment": -0.318,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.65,
+          "sentiment": -0.567
+        },
+        "OSINTdefender": {
+          "danger": 0.6,
+          "sentiment": -0.2
+        },
+        "irna_1313": {
+          "danger": 0.382,
+          "sentiment": -0.364
+        },
+        "sepah_pasdaran": {
+          "danger": 0.513,
+          "sentiment": -0.467
+        },
+        "almanarnews": {
+          "danger": 0.498,
+          "sentiment": -0.233
+        },
+        "C_Military1": {
+          "danger": 0.68,
+          "sentiment": -0.7
+        },
+        "almayadeen": {
+          "danger": 0.862,
+          "sentiment": -0.233
+        },
+        "QudsN": {
+          "danger": 0.643,
+          "sentiment": -0.25
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.5342856175152453
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.6498286957849954
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
+      "raw_sentiment": -0.2,
       "knn_danger_metric": 0.5995422173026514
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.4510755610428523
+      "num_messages": 11,
+      "raw_sentiment": -0.36363636363636365,
+      "knn_danger_metric": 0.38189341011277467
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.5038977109200135
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.5127409805463886
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.4644129099445905
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.4977462432779239
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.8,
-      "knn_danger_metric": 0.6313720370373433
+      "raw_sentiment": -0.7,
+      "knn_danger_metric": 0.6801834858443409
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.8634051558778056
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.8617526475036116
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.5959110809159734
+      "num_messages": 14,
+      "raw_sentiment": -0.25,
+      "knn_danger_metric": 0.6431118475054146
     }
   },
   "semantic_logs": [
@@ -2351,6 +2351,13 @@
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
       "text": "מלחמת רוסיה אוקראינה  המתחם הגדול ביותר של קמעונאית הסחר Wildberries בקלדינו (אזור מוסקבה) הותקף הלילה על ידי כטב&quot;מים אוקראיניים.  המרכז משתרע על פני 250 אלף מ&quot;ר.  נזק חסר תקדים מבחינת החברה.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "מקורות עזתיים: 3 פצועים בתקיפת כטב&quot;מ ישראלי על אוהל של משפחת א-ראעי במואצי של ח&#39;אן יונס.  אחד הפצועים במצב קשה.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2397,24 +2404,10 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: قوات الاحتلال تنفذ تفجيراً في بلدة مجدل زون",
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   رئيس مجلس الشورى الإيراني محمد باقر قاليباف:  - هاجمتنا الولايات المتحدة و &quot;إسرائيل&quot; بـ9 أهداف محددة، لكنهما لم تتمكنا من الوصول إلى أيٍّ من أهدافهما على أي مستوى، وكان هذا أكبر انتصار كبير لنا.  - اليوم نحن في حرب غير عادلة، تقف الولايات المتحدة والنظام الصهيوني على رأسها، لكن شعبنا صمد وقاتل بشجاعة ورجولة وإخلاص.  - باعتباري مطّلعًا على تفاصيل العمل، أقول بكل وجودي إننا في هذه الحرب انتصرنا بالمعنى الحقيقي، سواء في البعد العسكري أو البعد السياسي.  - مذكرة التفاهم بين إيران والولايات المتحدة هي وثيقة فخر وانتصار في إطار تثبيت الانتصار في ميدان الدبلوماسية.  - بالطبع أعتقد أن شعبنا لم يشعر بهذا الانتصار بالطريقة التي حدث بها، وفي بعض الحالات لم نتمكن من أداء الحق الذي كان للشعب على النحو الصحيح.  #الاعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: القوات المسلحة: دعم أبناء شعبنا للقوات المسلحة يعكس الرغبة في الثأر لدم القائد الشهيد ويؤكد على القوة",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: مسيرات اسرائيلية تحلق في أجواء مدينة صور وقراها",
-      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2429,6 +2422,13 @@
       "channel": "Arab_Axis",
       "text": "اليمن: مدير مكتب الميادين في صنعاء: صنعاء تربط فك الحصار عن السفن السعودية بوقف العمليات العسكرية",
       "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "اليمن: مدير مكتب الميادين في صنعاء: صنعاء تؤكد أن الضربات على &quot;ارامكو&quot; وأهداف سعودية هي ضربات دفاعية لا هجومية",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
   ]
