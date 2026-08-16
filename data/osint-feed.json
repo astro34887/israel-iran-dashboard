@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-16T19:17:59.667Z",
+  "last_updated": "2026-08-16T20:16:26.464Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.51",
-    "global_norm_sentiment": "-0.22"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.50",
+    "global_norm_sentiment": "-0.23"
   },
   "timeline": [
-    {
-      "time": "2026-08-14T18:46:42.427Z",
-      "danger": 0.553,
-      "sentiment": -0.154,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.517,
-          "sentiment": -0.533
-        },
-        "OSINTdefender": {
-          "danger": 0.671,
-          "sentiment": -0.033
-        },
-        "irna_1313": {
-          "danger": 0.562,
-          "sentiment": -0.208
-        },
-        "sepah_pasdaran": {
-          "danger": 0.515,
-          "sentiment": -0.2
-        },
-        "almanarnews": {
-          "danger": 0.331,
-          "sentiment": 0.033
-        },
-        "C_Military1": {
-          "danger": 0.844,
-          "sentiment": -0.267
-        },
-        "almayadeen": {
-          "danger": 0.562,
-          "sentiment": 0.067
-        },
-        "QudsN": {
-          "danger": 0.576,
-          "sentiment": -0.267
-        }
-      }
-    },
     {
       "time": "2026-08-14T19:44:18.216Z",
       "danger": 0.522,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.533
         }
       }
+    },
+    {
+      "time": "2026-08-16T20:16:26.464Z",
+      "danger": 0.497,
+      "sentiment": -0.23,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.509,
+          "sentiment": -0.6
+        },
+        "OSINTdefender": {
+          "danger": 0.565,
+          "sentiment": -0.133
+        },
+        "irna_1313": {
+          "danger": 0.447,
+          "sentiment": -0.133
+        },
+        "sepah_pasdaran": {
+          "danger": 0.253,
+          "sentiment": 0.033
+        },
+        "almanarnews": {
+          "danger": 0.469,
+          "sentiment": 0.033
+        },
+        "C_Military1": {
+          "danger": 0.84,
+          "sentiment": -0.7
+        },
+        "almayadeen": {
+          "danger": 0.479,
+          "sentiment": -0.2
+        },
+        "QudsN": {
+          "danger": 0.456,
+          "sentiment": -0.433
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.5428063980745544
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.5088463368692077
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.33306102150054157
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.4467622080882652
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.36466726366867924
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.25347512971175695
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
+      "raw_sentiment": 0.03333333333333333,
       "knn_danger_metric": 0.4685799599732904
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.8,
+      "raw_sentiment": -0.7,
       "knn_danger_metric": 0.8401980050434407
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.5693966992885195
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.478870466812019
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.4688351774923921
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.45648440686884323
     }
   },
   "semantic_logs": [
@@ -2343,7 +2343,7 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "עיתונאים עזתיים מדווחים שבתקיפה של האוהל של משפחת א-ראעי במ��אצי של ח&#39;אן יונס היום בצהריים ☝️חוסל טארק א-ראעי.  תגובה אחת",
+      "text": "עיתונאים עזתיים מדווחים שבתקיפה של האוהל של משפחת א-ראעי במואצי של ח&#39;אן יונס היום בצהריים ☝️חוסל טארק א-ראעי.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2351,20 +2351,6 @@
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
       "text": "עיתונאים עזתיים מדווחים שבתקיפה של האוהל של משפחת א-ראעי במואצי של ח&#39;אן יונס היום בצהריים ☝️חוסל טארק א-ראעי.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️زن بلاگری که به مقدسات توهین کرده بود دستگیر شد  یک زن بلاگر که در ایام پایانی ماه صفر با انتشار ویدئویی در فضای مجازی اقدام به توهین به مقدسات کرده بود، با دستور مقام قضایی شناسایی و دستگیر شد. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️تحویل جنگنده‌های پیشرفته چینی جی۱۰ به ازبکستان  &rlm;🔹 تصاویر منتشرشده نشان می‌دهد که جنگنده‌های جی۱۰ ساخت چین، به طور رسمی وارد ناوگان نیروی هوایی ازبکستان شده‌اند. &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2427,8 +2413,22 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: الرئاسة الإيرانية: الرئيس بزشكيان قدم في اجتماع الحكومة اليوم تقريراً عن لقائه الأخير مع قائد الثورة والجمهورية السيد مجتبى",
-      "absolute_sentiment": 1,
+      "text": "فلسطين المحتلة: مراسل الميادين: شهيد متأثراً بإصابته في عدوان الاحتلال على مواصي مدينة خان يونس جنوبي قطاع غزة ظهر اليوم",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "وسائل إعلام إسرائيليّة: &quot;القناة 14&quot;: الفشل الأمني في غزة مستمر مع استيلاء مقاتلي حماس مجدداً على معدات هندسية للقوات الإسرائيلية جنوب القطاع",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: قصف مدفعي إسرائيلي يستهدف بلدة المنصوري في قضاء صور جنوبي لبنان",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     }
   ]
