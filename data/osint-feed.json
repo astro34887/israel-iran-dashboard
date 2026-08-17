@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-17T13:36:04.655Z",
+  "last_updated": "2026-08-17T14:22:45.421Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.51",
-    "global_norm_sentiment": "-0.20"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.50",
+    "global_norm_sentiment": "-0.15"
   },
   "timeline": [
-    {
-      "time": "2026-08-15T12:29:13.393Z",
-      "danger": 0.546,
-      "sentiment": -0.202,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.655,
-          "sentiment": -0.767
-        },
-        "OSINTdefender": {
-          "danger": 0.564,
-          "sentiment": 0.067
-        },
-        "irna_1313": {
-          "danger": 0.369,
-          "sentiment": -0.333
-        },
-        "sepah_pasdaran": {
-          "danger": 0.46,
-          "sentiment": -0.367
-        },
-        "almanarnews": {
-          "danger": 0.288,
-          "sentiment": 0.333
-        },
-        "C_Military1": {
-          "danger": 0.767,
-          "sentiment": -0.167
-        },
-        "almayadeen": {
-          "danger": 0.816,
-          "sentiment": -0.233
-        },
-        "QudsN": {
-          "danger": 0.597,
-          "sentiment": -0.423
-        }
-      }
-    },
     {
       "time": "2026-08-15T13:27:10.873Z",
       "danger": 0.574,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.433
         }
       }
+    },
+    {
+      "time": "2026-08-17T14:22:45.421Z",
+      "danger": 0.497,
+      "sentiment": -0.147,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.51,
+          "sentiment": -0.5
+        },
+        "OSINTdefender": {
+          "danger": 0.585,
+          "sentiment": 0.367
+        },
+        "irna_1313": {
+          "danger": 0.315,
+          "sentiment": 0
+        },
+        "sepah_pasdaran": {
+          "danger": 0.321,
+          "sentiment": -0.367
+        },
+        "almanarnews": {
+          "danger": 0.346,
+          "sentiment": 0.033
+        },
+        "C_Military1": {
+          "danger": 0.72,
+          "sentiment": -0.433
+        },
+        "almayadeen": {
+          "danger": 0.582,
+          "sentiment": -0.1
+        },
+        "QudsN": {
+          "danger": 0.646,
+          "sentiment": -0.333
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.4620639439514438
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.5096151335751063
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 13,
-      "raw_sentiment": -0.2692307692307692,
-      "knn_danger_metric": 0.637918480682518
+      "num_messages": 15,
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.31505455085036893
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.3548266785946695
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.32149334526133616
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.3425953021938633
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.3460242635735964
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.7036162657462791
+      "knn_danger_metric": 0.7196002228219315
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.4939508179622218
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.5817534264448864
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.6019101315429686
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.6463906381898218
     }
   },
   "semantic_logs": [
@@ -2331,6 +2331,13 @@
       "channel": "IDF",
       "text": "״אני קורא לאכולוסייה החרדית ולהנהגה החרדית לעודד כל פעם קצת יותר לגיוס. יש לנו מסלולים יוצאים מן הכלל, השתחררו מהם אנשים לא פחות חרדים ואזרחים טובים יותר למדינה. זה טוב לכולם״  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
       "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "תקיפות במזרח העיר עזה לפנות בוקר   מקורות עזתיים מדווחים שצה&quot;ל תקף הלילה פעמיים באמצעות מטוסי קרב באזור מזרח העיר עזה.  בנוסף דווח על ירי ארטילרי מתמשך לעבר אזור שג&#39;אעיה במזרח העיר עזה - שגרם לתושבים להתפנות מהאזור - דווח על מספר נפגעים עזתיים כתוצאה מהירי.…",
+      "absolute_sentiment": -0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2378,15 +2385,8 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   ال��تحدث باسم الخارجية الإيرانية اسماعيل بقائي:   - في مذكرة التفاهم لا يوجد فيها ما يحدد الـ 60 يوماً وايران لا تقبل بأن توضع تحت ضغط الوقت بل نحن نعمل وفق مصلحتنا الوطنية  - التفاوض حول هرمز شائك ومعقد وعندما نتحدث عن سيادة دولتين عليه هما عمان وايران فذلك يحتاج لنقاش طويل  - أمريكا لم تلتزم بتعهداتها في مذكرة التفاهم لذلك لا موضوعية لقضية الـ60 يوماً، وقواتنا المسلحة يدها على الزناد   #الاعلام_الحربي",
+      "text": "#الجمهورية_الإسلامية   المتحدث باسم الخارجية الإيرانية اسماعيل بقائي:   - في مذكرة التفاهم لا يوجد فيها ما يحدد الـ 60 يوماً وايران لا تقبل بأن توضع تحت ضغط الوقت بل نحن نعمل وفق مصلحتنا الوطنية  - التفاوض حول هرمز شائك ومعقد وعندما نتحدث عن سيادة دولتين عليه هما عمان وايران فذلك يحتاج لنقاش طويل  - أمريكا لم تلتزم بتعهداتها في مذكرة التفاهم لذلك لا موضوعية لقضية الـ60 يوماً، وقواتنا المسلحة يدها على الزناد   #الاعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "مراسل الميادين من مضيق هرمز: مئات السفن جنوبي المضيق تنتظر الموافقات اللازمة من بحرية حرس الثورة للعبور",
-      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2404,10 +2404,17 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مستوطنون وقوات الاحتلال يواصلون حصار منازل في بلدة قصرة... وهذا ما قالته إسبانيا: https://qudsn.co/share/217093",
+      "text": "لبنان: مراسل الميادين: مدفعية الاحتلال تعتدي على أطراف بلدة زوطر الشرقية جنوب لبنان",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: نائب الرئيس الإيراني: المسألة الأكثر أهمية للحكومة في &quot;ظروف لا حرب ولا سلام&quot; هي الحفاظ على قدرة البلاد على الصمود وتعزيزها",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2423,13 +2430,6 @@
       "text": "الاحتلال ينفذ تفجيراً في بلدة بني حيان، جنوب لبنان، قبل قليل.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🎥 ادامه حملات رژیم صهیونیستی به مناطقی در جنوب لبنان   🔹ارتش رژیم صهیونیستی به حملات هوایی و توپخانه‌ای به مناطق مختلف جنوب لبنان از جمله شهرک‌های المنصوری و عیترون ادامه داد؛ همچنین نظامیان اشغالگر در مناطق اطراف شهرک میس الجبل پیشروی کردند. #ایرنا_جهان  https://irna.ir/xjY2BM @IRNA_1313",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9980703478029745
     }
   ]
 }
