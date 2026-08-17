@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-17T07:48:31.804Z",
+  "last_updated": "2026-08-17T08:37:08.493Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.55",
-    "global_norm_sentiment": "-0.18"
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.28"
   },
   "timeline": [
-    {
-      "time": "2026-08-15T06:30:00.570Z",
-      "danger": 0.573,
-      "sentiment": -0.206,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.556,
-          "sentiment": -0.567
-        },
-        "OSINTdefender": {
-          "danger": 0.682,
-          "sentiment": -0.033
-        },
-        "irna_1313": {
-          "danger": 0.569,
-          "sentiment": 0.136
-        },
-        "sepah_pasdaran": {
-          "danger": 0.301,
-          "sentiment": -0.233
-        },
-        "almanarnews": {
-          "danger": 0.557,
-          "sentiment": -0.267
-        },
-        "C_Military1": {
-          "danger": 0.798,
-          "sentiment": -0.033
-        },
-        "almayadeen": {
-          "danger": 0.666,
-          "sentiment": -0.633
-        },
-        "QudsN": {
-          "danger": 0.65,
-          "sentiment": -0.3
-        }
-      }
-    },
     {
       "time": "2026-08-15T07:26:26.345Z",
       "danger": 0.557,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.143
         }
       }
+    },
+    {
+      "time": "2026-08-17T08:37:08.493Z",
+      "danger": 0.52,
+      "sentiment": -0.282,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.395,
+          "sentiment": -0.7
+        },
+        "OSINTdefender": {
+          "danger": 0.56,
+          "sentiment": 0.367
+        },
+        "irna_1313": {
+          "danger": 0.442,
+          "sentiment": -0.333
+        },
+        "sepah_pasdaran": {
+          "danger": 0.46,
+          "sentiment": -0.6
+        },
+        "almanarnews": {
+          "danger": 0.372,
+          "sentiment": 0.033
+        },
+        "C_Military1": {
+          "danger": 0.806,
+          "sentiment": -0.8
+        },
+        "almayadeen": {
+          "danger": 0.586,
+          "sentiment": -0.3
+        },
+        "QudsN": {
+          "danger": 0.625,
+          "sentiment": -0.35
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.3708037502634904
+      "raw_sentiment": -0.7,
+      "knn_danger_metric": 0.39531985426514293
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0.26666666666666666,
-      "knn_danger_metric": 0.5381178338479444
+      "raw_sentiment": 0.36666666666666664,
+      "knn_danger_metric": 0.5600054896006396
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.5436596867039754
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.44222942253999403
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.48577710435418986
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.46013923281250635
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.3766347656245046
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.3716507161455856
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.8,
-      "knn_danger_metric": 0.7923494455497283
+      "knn_danger_metric": 0.8059621065828574
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.7350182874916796
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.5856580566645022
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 14,
-      "raw_sentiment": -0.14285714285714285,
-      "knn_danger_metric": 0.6632742946669455
+      "num_messages": 10,
+      "raw_sentiment": -0.35,
+      "knn_danger_metric": 0.6249920338973418
     }
   },
   "semantic_logs": [
@@ -2331,13 +2331,6 @@
       "channel": "IDF",
       "text": "״אני קורא לאכולוסייה החרדית ולהנהגה החרדית לעודד כל פעם קצת יותר לגיוס. יש לנו מסלולים יוצאים מן הכלל, השתחררו מהם אנשים לא פחות חרדים ואזרחים טובים יותר למדינה. זה טוב לכולם״  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️&rlm; ‌ ۹ عامل اصلی شکنجه و شهادت شهید حمیدرضا رجب‌زاده دستگیر شدند  &rlm;🔹 سرپرست دادسرای جنایی تهران: تمامی عوامل اصلی مرتبط با شکنجه و ترور شهید حمیدرضا رجب‌زاده دستگیر شدند. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2385,7 +2378,7 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 13 العبرية: بعد ستين يوماً، لم يتم التوصل إلى اتفاق، ولا حتى بنود أولية، و مضيق هرمز لا يزال مغلقًا وفشلت مساعي ترامب. وفي خضم ذلك، رُفعت العقوبات عن إيران لفترة محدودة، وتدفقت مليارات الدولارات إلى خزائنها، واكتشف العالم مدى النقص الحاد الذي تعاني منه الولايات المتحدة في صواريخ الاعتراض والهجوم، وقوبلت تهديدات ترامب بضم مضيق هرمز بسخرية إيرانية.  #الاعلام_الحربي",
+      "text": "#إعلام_العدو   القناة 13 العبرية: بعد ستين يوماً، لم يتم التوصل إلى اتفاق، ولا حتى بنود أولية، و مضيق هرمز لا يزال مغلقًا وفشلت مساعي ترامب. وفي خضم ذلك، رُفعت العقوبات عن إيران لفترة محدودة، وتدفقت مليارات الدولارات إلى خزائنها، واكتشف العالم مدى النقص الحاد الذي ت��اني منه الولايات المتحدة في صواريخ الاعتراض والهجوم، وقوبلت تهديدات ترامب بضم مضيق هرمز بسخرية إيرانية.  #الاعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2397,31 +2390,10 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "&quot;بلومبرغ&quot;: شركات تكرير آسيوية تطلب استلام النفط السعودي من خارج منطقة البحر الأحمر &quot;الخطرة&quot;",
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   المتحدث باسم الخارجية الإيرانية اسماعيل بقائي:   - في مذكرة التفاهم لا يوجد فيها ما يحدد الـ 60 يوماً وايران لا تقبل بأن توضع تحت ضغط الوقت بل نحن نعمل وفق مصلحتنا الوطنية  - التفاوض حول هرمز شائك ومعقد وعندما نتحدث عن سيادة دولتين عليه هما عمان وايران فذلك يحتاج لنقاش طويل  - أمريكا لم تلتزم بتعهداتها في مذكرة التفاهم لذلك لا موضوعية لقضية الـ60 يوماً، وقواتنا المسلحة يدها على الزناد   #الاعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: بقائي: علاقتنا مع قطر مستقرة وما حدث مؤخراً لا يضر بهذه العلاقة",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: بقائي: طلبنا من قطر توضيحا بشأن قضية الطيارين وأرسلنا رسالة الى الصليب الأحمر بهذا الشأن",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: بقائي: نحن نعتقد أنه تم أسر الطيارين وهم كانوا ينفذون مهام دفاعية",
-      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
@@ -2429,6 +2401,34 @@
       "channel": "Arab_Axis",
       "text": "إيران: بقائي: المباحثات حول هرمز مع عُمان مستمرة حتى هذه اللحظة ونسعى لوضع اللمسات الاخيرة لتثبيت مذكرة تفاهم والوصول الى صيغة نهائية",
       "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: بقائي: هناك ألاعيب اعلامية غربية لمحاولة ايجاد اشكال داخل مراكز القرار بإيران وأنا اؤكد لكم أن الايرانيين يثقون بفريق التفاوض",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: بقائي : نحن نحترم سيادة الدول على أراضيها",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل| قوات الاحتلال تشرع بهدم منشآت زراعية في بلدة بيت دجن شرق نابلس",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "هل أجرت السعودية تغييرات في مناهجها السعودية؟ ما هي العبارات المتعلقة بالموقف من دولة الاحتلال وفلسطين المرصودة في التقرير؟ https://qudsn.co/share/217088",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
   ]
