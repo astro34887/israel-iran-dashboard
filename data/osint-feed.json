@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-17T16:22:00.089Z",
+  "last_updated": "2026-08-17T17:22:21.854Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.50",
+    "level": "ESCALATING",
+    "global_knn_danger": "0.54",
     "global_norm_sentiment": "-0.10"
   },
   "timeline": [
-    {
-      "time": "2026-08-15T15:15:55.780Z",
-      "danger": 0.543,
-      "sentiment": -0.147,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.649,
-          "sentiment": -0.567
-        },
-        "OSINTdefender": {
-          "danger": 0.602,
-          "sentiment": 0.133
-        },
-        "irna_1313": {
-          "danger": 0.395,
-          "sentiment": -0.167
-        },
-        "sepah_pasdaran": {
-          "danger": 0.51,
-          "sentiment": -0.233
-        },
-        "almanarnews": {
-          "danger": 0.547,
-          "sentiment": -0.167
-        },
-        "C_Military1": {
-          "danger": 0.757,
-          "sentiment": -0.3
-        },
-        "almayadeen": {
-          "danger": 0.408,
-          "sentiment": 0.067
-        },
-        "QudsN": {
-          "danger": 0.609,
-          "sentiment": -0.1
-        }
-      }
-    },
     {
       "time": "2026-08-15T16:18:57.406Z",
       "danger": 0.531,
@@ -2261,6 +2214,53 @@
           "sentiment": 0.357
         }
       }
+    },
+    {
+      "time": "2026-08-17T17:22:21.854Z",
+      "danger": 0.538,
+      "sentiment": -0.099,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.572,
+          "sentiment": -0.385
+        },
+        "OSINTdefender": {
+          "danger": 0.585,
+          "sentiment": 0.367
+        },
+        "irna_1313": {
+          "danger": 0.483,
+          "sentiment": 0.067
+        },
+        "sepah_pasdaran": {
+          "danger": 0.418,
+          "sentiment": -0.533
+        },
+        "almanarnews": {
+          "danger": 0.356,
+          "sentiment": 0.267
+        },
+        "C_Military1": {
+          "danger": 0.688,
+          "sentiment": -0.533
+        },
+        "almayadeen": {
+          "danger": 0.719,
+          "sentiment": -0.233
+        },
+        "QudsN": {
+          "danger": 0.612,
+          "sentiment": 0.125
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2278,9 +2278,9 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.4880906599494006
+      "num_messages": 13,
+      "raw_sentiment": -0.38461538461538464,
+      "knn_danger_metric": 0.5724566253327393
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.42094775035414156
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.4825302836618348
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.42220503512559987
+      "knn_danger_metric": 0.41786165488096755
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.2864825575832866
+      "raw_sentiment": 0.26666666666666666,
+      "knn_danger_metric": 0.35627530541968855
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.7173152759679843
+      "knn_danger_metric": 0.6882390709421558
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.23333333333333334,
-      "knn_danger_metric": 0.5665082953180185
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.7189017660317346
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 14,
-      "raw_sentiment": 0.35714285714285715,
-      "knn_danger_metric": 0.5413691979246609
+      "num_messages": 12,
+      "raw_sentiment": 0.125,
+      "knn_danger_metric": 0.6120910047039759
     }
   },
   "semantic_logs": [
@@ -2341,10 +2341,10 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️تصویر تکان‌دهنده از وضعیت وخیم جسمی محمد عرب خبرنگار بعد از دو سال اسارت در زندان رژیم صهیونیستی &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "ערוצים פלסטינים: صور جديدة لمستوطنة، المقامة على جبل عيبال بمدينة نابلس.  תרגום: תמונות חדשות של ההתנחלות שהוקמה על הר עיבל בשכם.  תגובה אחת",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
@@ -2392,20 +2392,6 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: مدفعية الاحتلال تعتدي على أطراف بلدة زوطر الشرقية جنوب لبنان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: نائب الرئيس الإيراني: المسألة الأكثر أهمية للحكومة في &quot;ظروف لا حرب ولا سلام&quot; هي الحفاظ على قدرة البلاد على الصمود وتعزيزها",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "فلسطين المحتلة: شبان فلسطينيون يتصدون لهجوم المستوطنين عند أطراف بلدة المزرعة الشرقية شرق رام الله وسط الضفة الغربية",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
@@ -2418,18 +2404,32 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "موقع ميدل إيست آي: صوت الطائرات المسيّرة &quot;الزنانة&quot;، والبحث عن المياه، والأسنان المتآكلة، والأحذية المهترئة، تكشف ما تعجز أرقام الضحايا عن نقله بشأن المجازر الإسرائيلية المستمرة في غزة.",
-      "absolute_sentiment": 1,
+      "text": "لبنان: مراسل الميادين من الجنوب: مسيرة إسرائيلية أغارت على منطقة دوحة كفررمان",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "OSINTdefender",
-      "channel": "Global_OSINT",
-      "text": "#India   Kawa UAV Pvt. Ltd. (HoverIt) successfully conducted the maiden flight of the Divyastra Mk3, India&#39;s first indigenous jet-powered loitering munition, on August 11, 2026. The system is powered by an indigenous jet engine developed by DG Propulsion.  Subscribe to @OSINTdefender | 💬 Chat room",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9624495292442476
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "غزة: مراسل الميادين: قصف مدفعي إسرائيلي على حي الشيخ ناصر شرقي مدينة خانيونس جنوبي قطاع غزة",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: &quot;جيش&quot; الاحتلال نفذ تفجيراً في بلدة زوطر الشرقية في قضاء النبطية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: التلفزيون الإيراني: احتجاز ناقلة نفط مخالفة للقوانين في مضيق هرمز",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
     }
   ]
 }
