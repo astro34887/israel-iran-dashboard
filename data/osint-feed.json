@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-17T11:20:33.210Z",
+  "last_updated": "2026-08-17T12:34:44.310Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.51",
-    "global_norm_sentiment": "-0.21"
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.20"
   },
   "timeline": [
-    {
-      "time": "2026-08-15T10:17:31.525Z",
-      "danger": 0.563,
-      "sentiment": -0.196,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.66,
-          "sentiment": -0.8
-        },
-        "OSINTdefender": {
-          "danger": 0.564,
-          "sentiment": -0.1
-        },
-        "irna_1313": {
-          "danger": 0.381,
-          "sentiment": -0.2
-        },
-        "sepah_pasdaran": {
-          "danger": 0.402,
-          "sentiment": -0.367
-        },
-        "almanarnews": {
-          "danger": 0.398,
-          "sentiment": 0
-        },
-        "C_Military1": {
-          "danger": 0.767,
-          "sentiment": -0.167
-        },
-        "almayadeen": {
-          "danger": 0.785,
-          "sentiment": -0.267
-        },
-        "QudsN": {
-          "danger": 0.719,
-          "sentiment": 0.107
-        }
-      }
-    },
     {
       "time": "2026-08-15T11:16:16.659Z",
       "danger": 0.564,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.214
         }
       }
+    },
+    {
+      "time": "2026-08-17T12:34:44.310Z",
+      "danger": 0.523,
+      "sentiment": -0.203,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.541,
+          "sentiment": -0.6
+        },
+        "OSINTdefender": {
+          "danger": 0.589,
+          "sentiment": 0.367
+        },
+        "irna_1313": {
+          "danger": 0.518,
+          "sentiment": 0.1
+        },
+        "sepah_pasdaran": {
+          "danger": 0.39,
+          "sentiment": -0.367
+        },
+        "almanarnews": {
+          "danger": 0.409,
+          "sentiment": -0.033
+        },
+        "C_Military1": {
+          "danger": 0.738,
+          "sentiment": -0.467
+        },
+        "almayadeen": {
+          "danger": 0.548,
+          "sentiment": -0.467
+        },
+        "QudsN": {
+          "danger": 0.545,
+          "sentiment": -0.4
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2280,7 +2280,7 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.5211868642811447
+      "knn_danger_metric": 0.540878288079776
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.2,
-      "knn_danger_metric": 0.4183963598436823
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.5178282928092981
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.2985561473249687
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.3900402585370225
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.3908388466386878
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.40926196886052996
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.7,
-      "knn_danger_metric": 0.8059621065828574
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.7378300455564766
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.5988217045323717
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.5476080766074929
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 14,
-      "raw_sentiment": -0.21428571428571427,
-      "knn_danger_metric": 0.5104285029401353
+      "num_messages": 15,
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.5453846427398735
     }
   },
   "semantic_logs": [
@@ -2334,9 +2334,9 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   رئيس مجلس الشورى الإيراني محمد باقر قاليباف:  - هاجمتنا الولايات المتحدة و &quot;إسرائيل&quot; بـ9 أهداف محددة، لكنهما لم تتمكنا من الوصول إلى أيٍّ من أهدافهما على أي مستوى، وكان هذا أكبر انتصار كبير لنا.  - اليوم نحن في حرب غير عادلة، تقف الولايات المتحدة والنظام الصهيوني على رأسها، لكن شعبنا صمد وقاتل بشجاعة ورجولة وإخلاص.  - باعتباري مطّلعًا على تفاصيل العمل، أقول بكل وجودي إننا في هذه الحرب انتصرنا بالمعنى الحقيقي، سواء في البعد العسكري أو البعد السياسي.  - مذكرة التفاهم بين إيران والولايات المتحدة هي وثيقة فخر وانتصار في إطار تثبيت الانتصار في ميدان الدبلوماسية.  - بالطبع أعتقد أن شعبنا لم يشعر بهذا الانتصار بالطريقة التي حدث بها، وفي بعض الحالات لم نتمكن من أداء الحق الذي كان للشعب على النحو الصحيح.  #الاعلام_الحربي",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️تصویر تکان‌دهنده از وضعیت وخیم جسمی محمد عرب خبرنگار بعد از دو سال اسارت در زندان رژیم صهیونیستی &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2364,7 +2364,7 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 13 العبرية: بعد ستين يوماً، لم يتم التوصل إلى اتفاق، ولا حتى بنود أولية، و مضيق هرمز لا يزال مغلقًا وفشلت مساعي ترامب. وفي خضم ذلك، رُفعت العقوبات عن إيران لفترة محدودة، وتدفقت مليارات الدولارات إلى خزائنها، واكتشف العالم مدى النقص الحاد الذي ��عاني منه الولايات المتحدة في صواريخ الاعتراض والهجوم، وقوبلت تهديدات ترامب بضم مضيق هرمز بسخرية إيرانية.  #الاعلام_الحربي",
+      "text": "#إعلام_العدو   القناة 13 العبرية: بعد ستين يوماً، لم يتم التوصل إلى اتفاق، ولا حتى بنود أولية، و مضيق هرمز لا يزال مغلقًا وفشلت مساعي ترامب. وفي خضم ذلك، رُفعت العقوبات عن إيران لفترة محدودة، وتدفقت مليارات الدولارات إلى خزائنها، واكتشف العالم مدى النقص الحاد الذي تعاني منه الولايات المتحدة في صواريخ الاعتراض والهجوم، وقوبلت تهديدات ترامب بضم مضيق هرمز بسخرية إيرانية.  #الاعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2404,16 +2404,23 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "عاجل| الإسعاف والطوارئ: مصاب برصاص قوات الاحتلال خارج مناطق سيطرتها في مواصي مدينة رفح جنوبي قطاع غزة",
+      "text": "اليمن: القوات المسلحة اليمنية: استهدفنا سفينة إنزال عسكرية سعودية و4 زوارق مرافقة لها في البحر الأحمر أمام سواحل المخا",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "الاحتلال يجرف طريقا داخل منطقة جبل النصر بمحيط مخيم نور شمس في طولكرم ويدمر البنية التحتية",
+      "text": "اليمن: سريع: القوات المسلحة مستمرة في تثبيت معادلة الحصار بالحصار واستهداف كافة التحشيدات السعودية",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "مراسل الميادين من مضيق هرمز: مئات السفن جنوبي المضيق تنتظر الموافقات اللازمة من بحرية حرس الثورة للعبور",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
@@ -2423,13 +2430,6 @@
       "text": "&quot;كارثة.. أن يصحو الإنسان ويجد بيته كومة من الحجارة&quot;..   الاحتلال ينفذ عمليات هدم في قرية قلنديا شمال القدس المحتلة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   قائد الجيش اللواء أمير حاتمي:   - يقول ترامب المجرم إنه يريد إعلان مضيق هرمز جزءًا من الولايات المتحدة ، إنه يخطئ كثيرًا&#33; وبعد أن رأى ردود الفعل، أعلن أنه كان يمزح.  - المزاح بهذا الكلام هو خطأ كبير، لأن هذه إيران، ولها حماة سيكسرون ساقك.  - لقد تم إخراج أمريكا عمليًا، ولم يعد لديهم تصريح بدخول الخليج الفارسي وبحر عُمان ومضيق هرمز.  - يجب أن يعلم الجميع أن القواعد الأمريكية غير قادرة بأي شكل من الأشكال على العودة إلى وضعها السابق، وإيران لن تسمح بهذا الأمر أبدًا.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9971738898694221
     }
   ]
 }
