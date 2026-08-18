@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-18T20:18:01.082Z",
+  "last_updated": "2026-08-18T21:19:21.662Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.13"
+    "global_knn_danger": "0.56",
+    "global_norm_sentiment": "-0.15"
   },
   "timeline": [
-    {
-      "time": "2026-08-16T19:17:59.667Z",
-      "danger": 0.51,
-      "sentiment": -0.223,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.543,
-          "sentiment": -0.5
-        },
-        "OSINTdefender": {
-          "danger": 0.565,
-          "sentiment": -0.133
-        },
-        "irna_1313": {
-          "danger": 0.333,
-          "sentiment": 0.067
-        },
-        "sepah_pasdaran": {
-          "danger": 0.365,
-          "sentiment": -0.067
-        },
-        "almanarnews": {
-          "danger": 0.469,
-          "sentiment": -0.1
-        },
-        "C_Military1": {
-          "danger": 0.84,
-          "sentiment": -0.8
-        },
-        "almayadeen": {
-          "danger": 0.569,
-          "sentiment": -0.033
-        },
-        "QudsN": {
-          "danger": 0.469,
-          "sentiment": -0.533
-        }
-      }
-    },
     {
       "time": "2026-08-16T20:16:26.464Z",
       "danger": 0.497,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.3
         }
       }
+    },
+    {
+      "time": "2026-08-18T21:19:21.662Z",
+      "danger": 0.555,
+      "sentiment": -0.155,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.64,
+          "sentiment": -0.467
+        },
+        "OSINTdefender": {
+          "danger": 0.57,
+          "sentiment": 0.167
+        },
+        "irna_1313": {
+          "danger": 0.613,
+          "sentiment": -0.115
+        },
+        "sepah_pasdaran": {
+          "danger": 0.36,
+          "sentiment": -0.233
+        },
+        "almanarnews": {
+          "danger": 0.552,
+          "sentiment": 0.2
+        },
+        "C_Military1": {
+          "danger": 0.581,
+          "sentiment": -0.067
+        },
+        "almayadeen": {
+          "danger": 0.572,
+          "sentiment": -0.433
+        },
+        "QudsN": {
+          "danger": 0.715,
+          "sentiment": -0.467
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.6568880898551271
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.6401510968526398
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,21 +2290,21 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 11,
-      "raw_sentiment": -0.045454545454545456,
-      "knn_danger_metric": 0.5055706594191651
+      "num_messages": 13,
+      "raw_sentiment": -0.11538461538461539,
+      "knn_danger_metric": 0.6126823472012022
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.29917068118398377
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.3596869402504852
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": 0.2,
-      "knn_danger_metric": 0.5572501094808753
+      "knn_danger_metric": 0.5521865807625578
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.5510379650663436
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.5723961148998155
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.6840209436568908
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.7147006677123156
     }
   },
   "semantic_logs": [
@@ -2331,20 +2331,6 @@
       "channel": "IDF",
       "text": "״אני קורא לאכולוסייה החרדית ולהנהגה החרדית לעודד כל פעם קצת יותר לגיוס. יש לנו מסלולים יוצאים מן הכלל, השתחררו מהם אנשים לא פחות חרדים ואזרחים טובים יותר למדינה. זה טוב לכולם״  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "עיתונאים עזתיים מדווחים כי מספר ההרוגים בתקיפה הישראלית על נמל העיר עזה הערב עלה ל - 8.  בינתיים זוהו 6 מבין ההרוגים:  1. מחמד חמדי אחמד אלמצרי (מפקד בכיר בחמאס מצורפת תמונתו). 2. ג&#39;האד מחמד חמדי אלמצרי (בנו של מחמד).  3. עז א-דין סאלם דיב 4. עצאם מחמד מוסא…",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "התקיפה היום בעזה הביאה למספר ההרוגים הגבוה ביותר מאז &quot;יום החיסולים&quot; ב 2.8 אז חוסלו כ 20 עזתיים בתשע תקיפות שונות.  התקיפה היום מגיעה אחרי ביקורו של ג&#39;ארד קושנר ומועצת השלום בישראל ואחרי המפגש שלהם עם חמאס בקהיר - המסר העיקרי:  החיסולים ממשיכים&#33;  תגובה אחת",
-      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2359,6 +2345,13 @@
       "channel": "Israel_OSINT",
       "text": "תראו כמה כיף ויפה היה היום בחוות זית בגלבוע. יש עשייה ויש נופים מדהימים.   את התמונות הנפלאות צילם הצלם המוכשר ראובן ימרום, שהגיע לחווה דרך הפרסום בערוץ.  זה הלינק לעמוד שלו: https://www.instagram.com/reuven_yamrom?igsh=ZHl0czV6c3FwcTBj&amp;utm_source=qr  כדי…",
       "absolute_sentiment": -0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "לשכת ראש הממשלה על התקיפה בסוריה:  ישראל וסוריה הסכימו לשמור על הסטטוס קוו בענייני ביטחון, שסוריה עמדה להפר בכך שהתירה לכוחות טורקיים להתפרס בבסיס חיל אוויר סמוך לחלב.  ישראל הזהירה את סוריה פעם אחר פעם כי התפרסות כזו תהווה איום על ביטחונה של ישראל. סוריה…",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2392,20 +2385,6 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي شرقي حي الزيتون جنوب شرقي مدينة غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "&quot;رويترز&quot; عن توم باراك: لم تتلقَّ تركيا تحذيراً بشأن الضربات الإسرائيلية وكان بإمكانها بشكل معقول التحضير لردها الخاص",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "سوريا: الشركة السورية للبترول: انفجار خط تصدير الغاز من معمل غاز الجبسة فجر اليوم ناجم عن عمل تخريبي متعمد وفقا للتحقيقات الأولية",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
@@ -2418,16 +2397,37 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "وسائل إعلام إسرائيليّة: مكتب نتنياهو: سوريا كانت على وشك &quot;خرق الوضع الراهن&quot; في المسائل الأمنية والسماح للقوات التركية بالانتشار في قاعدة جوية قرب حلب",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "كوريا الشمالية: وكالة أنباء كوريا الشمالية: بيونغ يانغ ستواصل ممارسة حقها في الدفاع عن النفس للقضاء بشكل كامل على التهديد العسكري لأعدائها",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "نقص حاد في مروحياته القتالية.. الاحتلال يعيد توزيع أسراب الأباتشي  https://qudsn.co/share/217106",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة بيت فجار، جنوب بيت لحم.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم منطقة &quot;الحفر&quot; في قرية دير جرير، شرق رام الله.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "حزب الله ينشر مشاهد من عملية بالمسيرات خلال الأيام الأخيرة قبل وقف إطلاق النار، واستهدفت تجمعات لقوات الاحتلال عند أطراف بلدة زوطر الشرقيّة",
+      "text": "جانب من اقتحام قوات الاحتلال بلدة بيتا جنوب نابلس",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
