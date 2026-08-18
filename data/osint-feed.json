@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-18T00:58:23.681Z",
+  "last_updated": "2026-08-18T02:16:26.156Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.51",
-    "global_norm_sentiment": "-0.23"
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.22"
   },
   "timeline": [
-    {
-      "time": "2026-08-15T23:16:03.903Z",
-      "danger": 0.552,
-      "sentiment": -0.313,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.597,
-          "sentiment": -0.367
-        },
-        "OSINTdefender": {
-          "danger": 0.586,
-          "sentiment": 0.033
-        },
-        "irna_1313": {
-          "danger": 0.507,
-          "sentiment": -0.167
-        },
-        "sepah_pasdaran": {
-          "danger": 0.435,
-          "sentiment": -0.4
-        },
-        "almanarnews": {
-          "danger": 0.41,
-          "sentiment": -0.267
-        },
-        "C_Military1": {
-          "danger": 0.566,
-          "sentiment": -0.7
-        },
-        "almayadeen": {
-          "danger": 0.657,
-          "sentiment": -0.6
-        },
-        "QudsN": {
-          "danger": 0.815,
-          "sentiment": -0.533
-        }
-      }
-    },
     {
       "time": "2026-08-16T01:02:29.957Z",
       "danger": 0.546,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.633
         }
       }
+    },
+    {
+      "time": "2026-08-18T02:16:26.156Z",
+      "danger": 0.517,
+      "sentiment": -0.219,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.549,
+          "sentiment": -0.458
+        },
+        "OSINTdefender": {
+          "danger": 0.544,
+          "sentiment": 0.233
+        },
+        "irna_1313": {
+          "danger": 0.489,
+          "sentiment": -0.167
+        },
+        "sepah_pasdaran": {
+          "danger": 0.354,
+          "sentiment": -0.233
+        },
+        "almanarnews": {
+          "danger": 0.472,
+          "sentiment": -0.367
+        },
+        "C_Military1": {
+          "danger": 0.67,
+          "sentiment": -0.367
+        },
+        "almayadeen": {
+          "danger": 0.245,
+          "sentiment": -0.133
+        },
+        "QudsN": {
+          "danger": 0.9,
+          "sentiment": -0.536
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2291,20 +2291,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.4505954704522983
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.4886344083815727
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.31716735003231405
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.35422308339632796
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.44818347336542175
+      "knn_danger_metric": 0.47207610602846406
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2320,9 +2320,9 @@
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.9705985975155791
+      "num_messages": 14,
+      "raw_sentiment": -0.5357142857142857,
+      "knn_danger_metric": 0.8999553171410296
     }
   },
   "semantic_logs": [
@@ -2338,6 +2338,13 @@
       "channel": "IRGC",
       "text": "&rlm; ️&rlm; تصویری طنز از ماجرای حمله پهبادی به مقر مسرور بارزانی نخست وزیر اقلیم کردستان عراق که در رسانه ها منتشر شده است&#33; &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️تصاویری از آتش سوزی مهیب در سلیمانیه عراق &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2392,20 +2399,6 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال منطقة سكنات الجامعة العربية الأمريكية في جنين.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "جانب آخر من اقتحام قوات الاحتلال منطقة &quot;السكنات&quot; في محيط الجامعة العربية الأمريكية بجنين.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
       "text": "جيش الاحتلال يقتحم مدينة نابلس من حاجز الطور.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
@@ -2428,6 +2421,13 @@
       "channelId": "QudsN",
       "channel": "Arab_Axis",
       "text": "جانب من اقتحام قوات الاحتلال بلدة عقابا شمال طوباس",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تداهم منزلاً خلال اقتحام بلدة عقابا شمال طوباس",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
