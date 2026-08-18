@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-18T05:23:49.467Z",
+  "last_updated": "2026-08-18T06:35:36.342Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.50",
-    "global_norm_sentiment": "-0.23"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.24"
   },
   "timeline": [
-    {
-      "time": "2026-08-16T04:30:43.684Z",
-      "danger": 0.553,
-      "sentiment": -0.363,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.53,
-          "sentiment": -0.367
-        },
-        "OSINTdefender": {
-          "danger": 0.593,
-          "sentiment": 0.033
-        },
-        "irna_1313": {
-          "danger": 0.641,
-          "sentiment": -1
-        },
-        "sepah_pasdaran": {
-          "danger": 0.425,
-          "sentiment": -0.4
-        },
-        "almanarnews": {
-          "danger": 0.449,
-          "sentiment": -0.267
-        },
-        "C_Military1": {
-          "danger": 0.566,
-          "sentiment": -0.667
-        },
-        "almayadeen": {
-          "danger": 0.651,
-          "sentiment": -0.6
-        },
-        "QudsN": {
-          "danger": 0.725,
-          "sentiment": -0.233
-        }
-      }
-    },
     {
       "time": "2026-08-16T05:23:50.886Z",
       "danger": 0.522,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.308
         }
       }
+    },
+    {
+      "time": "2026-08-18T06:35:36.342Z",
+      "danger": 0.517,
+      "sentiment": -0.237,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.475,
+          "sentiment": -0.867
+        },
+        "OSINTdefender": {
+          "danger": 0.572,
+          "sentiment": 0.167
+        },
+        "irna_1313": {
+          "danger": 0.573,
+          "sentiment": -0.1
+        },
+        "sepah_pasdaran": {
+          "danger": 0.348,
+          "sentiment": -0.467
+        },
+        "almanarnews": {
+          "danger": 0.587,
+          "sentiment": -0.2
+        },
+        "C_Military1": {
+          "danger": 0.652,
+          "sentiment": -0.533
+        },
+        "almayadeen": {
+          "danger": 0.333,
+          "sentiment": 0.2
+        },
+        "QudsN": {
+          "danger": 0.679,
+          "sentiment": -0.433
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2278,9 +2278,9 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 13,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.5431043404435573
+      "num_messages": 15,
+      "raw_sentiment": -0.8666666666666667,
+      "knn_danger_metric": 0.4752641214228495
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 12,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.4160480621439142
+      "num_messages": 15,
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.5727962651348449
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.4180686079850939
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.3477741028911164
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.46615237390931014
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.5869459715807063
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.6763495739770234
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.6515648088453649
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.2448931076045137
+      "raw_sentiment": 0.2,
+      "knn_danger_metric": 0.3334900600881195
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 13,
-      "raw_sentiment": -0.3076923076923077,
-      "knn_danger_metric": 0.7082725544749631
+      "num_messages": 15,
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.6792099382228803
     }
   },
   "semantic_logs": [
@@ -2331,6 +2331,13 @@
       "channel": "IDF",
       "text": "״אני קורא לאכולוסייה החרדית ולהנהגה החרדית לעודד כל פעם קצת יותר לגיוס. יש לנו מסלולים יוצאים מן הכלל, השתחררו מהם אנשים לא פחות חרדים ואזרחים טובים יותר למדינה. זה טוב לכולם״  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
       "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "חמאס לא מוותרת על הנשק:   למרות הדיווחים האמריקאים על הסכמתה של חמאס להתחיל בתהליך התפרקותה מנשקה, מצהיר ח&#39;אלד קדומי, נציגה הרשמי של חמאס בטהרן כי &quot;הנשק יישאר כל עוד יש כיבוש&quot;.  תגובה אחת",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2355,24 +2362,10 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
+      "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 13 العبرية: لقد خصصت الولايات المتحدة 60 يوماً لوقف إطلاق النار مع إيران، واليوم تنتهي هذه المدة.  #الاعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 13 العبرية: بعد ستين يوماً، لم يتم التوصل إلى اتفاق، ولا حتى بنود أولية، و مضيق هرمز لا يزال مغلقًا وفشلت مساعي ترامب. وفي خضم ذلك، رُفعت العقوبات عن إيران لفترة محدودة، وتدفقت مليارات الدولارات إلى خزائنها، واكتشف العالم مدى النقص الحاد الذي تعاني منه الولايات المتحدة في صواريخ الاعتراض والهجوم، وقوبلت تهديدات ترامب بضم مضيق هرمز بسخرية إيرانية.  #الاعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 13 العبرية: لا شك أن ترامب يتعلم درسًا مألوفًا من تجربته الشخصية وتجاربنا جميعًا، فإشعال الحرب أسهل بكثير من إنهائها.  #الاعلام_الحربي",
-      "absolute_sentiment": 0.5,
+      "text": "🔵 &quot;لوموند&quot;: حصيلة ترمب كارثية في الشرق الأوسط https://almanar.com.lb/article/1105442/?s=tg",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
@@ -2390,45 +2383,52 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: إطلاق نار من آليات الاحتلال شمال شرقي خان يونس جنوبي قطاع غزة",
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صحيفة معاريف العبرية: رفض قبول النتائج، وقناة تلفزيونية تروج لرواية &quot;تزوير الانتخابات&quot;، وعشرات الآلاف من المواطنين المسلحين. تستعد المؤسسة الأمنية الإسرائيلية لسيناريو متطرف قد يتصاعد إلى حرب أهلية شاملة فور إعلان نتائج الانتخابات المقبلة في سيناريو شبيه بالانتخابات الأمريكية التي حصلت بين بايدن وترامب.  #الاعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: جيش الاحتلال ينفذ عملية نسف جنوب شرقي مدينة خان يونس جنوبي قطاع غزة",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "لحظة اعتقال قوات الاحتلال أحد الشبان خلال اقتحام بلدة تقوع جنوب شرق بيت لحم.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تعتقل شابًا خلال اقتحامها لحي بطن الهوى ببلدة سلوان، جنوب المسجد الأقصى.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم مدينة أريحا.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "بالاستيطان والتهجير وسحب الصلاحيات وغيرها من الأساليب..  الاحتلال يقوض صلاحيات السلطة الفلسطينية ويمهد للضم الفعلي للضفة الغربية",
+      "text": "إيران: عراقتشي خلال مؤتمر لمدراء وزارة التربية والتعليم: حاربنا بقوة وتفاوضنا بقوة و انتصرنا في الحرب والدبلوماسية",
       "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: عراقتشي: الطلاب والمعلمون الشهداء في مدرسة ميناب هم أسطورةً من أساطير الحرب وملحمةً خالدةً في الذاكرة",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تعتقل الطفل ظاهر أبو عيد عقب مداهمة منزل ذويه والعبث بمحتوياته في بلدة عناتا، شمال شرق القدس المحتلة، فجر اليوم.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تعتقل الدكتورة &quot;ديما أمين&quot; عقب مداهمة منزلها في مدينة رام الله.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تهدم مساكن الفلسطيني ياسر أبو صبحه في خربة &quot;الفخيت&quot; بمسافر يطا جنوب الخليل.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "المتحدث باسم جيش الاحتلال: إطلاق صاروخ اعتراضي باتجاه &quot;هدف وهمي&quot; في منطقة زرعيت، دون تفعيل صافرات الإنذار، والجيش يحقق في الحادثة.",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
   ]
