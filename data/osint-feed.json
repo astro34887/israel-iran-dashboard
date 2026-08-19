@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-19T07:34:08.483Z",
+  "last_updated": "2026-08-19T08:31:55.902Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.51",
-    "global_norm_sentiment": "-0.14"
+    "global_norm_sentiment": "-0.13"
   },
   "timeline": [
-    {
-      "time": "2026-08-17T06:44:02.554Z",
-      "danger": 0.517,
-      "sentiment": -0.197,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.381,
-          "sentiment": -0.533
-        },
-        "OSINTdefender": {
-          "danger": 0.539,
-          "sentiment": 0.433
-        },
-        "irna_1313": {
-          "danger": 0.442,
-          "sentiment": -0.2
-        },
-        "sepah_pasdaran": {
-          "danger": 0.343,
-          "sentiment": -0.467
-        },
-        "almanarnews": {
-          "danger": 0.402,
-          "sentiment": 0.067
-        },
-        "C_Military1": {
-          "danger": 0.84,
-          "sentiment": -0.8
-        },
-        "almayadeen": {
-          "danger": 0.537,
-          "sentiment": -0.4
-        },
-        "QudsN": {
-          "danger": 0.736,
-          "sentiment": 0.067
-        }
-      }
-    },
     {
       "time": "2026-08-17T07:48:31.804Z",
       "danger": 0.546,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.367
         }
       }
+    },
+    {
+      "time": "2026-08-19T08:31:55.902Z",
+      "danger": 0.513,
+      "sentiment": -0.134,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.526,
+          "sentiment": -0.233
+        },
+        "OSINTdefender": {
+          "danger": 0.538,
+          "sentiment": -0.033
+        },
+        "irna_1313": {
+          "danger": 0.5,
+          "sentiment": -0.077
+        },
+        "sepah_pasdaran": {
+          "danger": 0.445,
+          "sentiment": 0
+        },
+        "almanarnews": {
+          "danger": 0.365,
+          "sentiment": -0.1
+        },
+        "C_Military1": {
+          "danger": 0.581,
+          "sentiment": 0.033
+        },
+        "almayadeen": {
+          "danger": 0.459,
+          "sentiment": -0.233
+        },
+        "QudsN": {
+          "danger": 0.771,
+          "sentiment": -0.567
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,32 +2279,32 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.5243318864432567
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.5255455786340515
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.5402360991402457
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.5382610585167763
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.381095436317156
+      "num_messages": 13,
+      "raw_sentiment": -0.07692307692307693,
+      "knn_danger_metric": 0.5000591576772011
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": 0,
-      "knn_danger_metric": 0.42310635741286234
+      "knn_danger_metric": 0.4446901613790047
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.5156032165377061
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.364662801799261
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2316,13 +2316,13 @@
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.4703512048761388
+      "knn_danger_metric": 0.45908970138747635
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.7524436209413488
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.7707469621143805
     }
   },
   "semantic_logs": [
@@ -2392,20 +2392,6 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم مدينة نابلس صباح اليوم.",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تعتقل الشقيقين عدي ومحمد أبو اللبن، والشابين حربي عاشور، ومحمد عاشور، خلال اقتحام حي كروم عاشور في نابلس",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
       "text": "قوات الاحتلال تعتقل أحد  الشبان في مدينة الظاهرية جنوب الخليل.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
@@ -2428,6 +2414,20 @@
       "channelId": "QudsN",
       "channel": "Arab_Axis",
       "text": "قوات الاحتلال تحول منزلا لثكنة عسكرية خلال اقتحام مدينة الظاهرية في الخليل.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تحطّم مركبات أمام محل لبيع قطع السيارات خلال اقتحام الظاهرية جنوب الخليل.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تعتقل وزير شؤون القدس أشرف الأعور من منزله في بلدة سلوان بالقدس المحتلة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
