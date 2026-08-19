@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-19T15:27:23.840Z",
+  "last_updated": "2026-08-19T16:25:48.862Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.51",
-    "global_norm_sentiment": "-0.21"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.48",
+    "global_norm_sentiment": "-0.09"
   },
   "timeline": [
-    {
-      "time": "2026-08-17T14:22:45.421Z",
-      "danger": 0.497,
-      "sentiment": -0.147,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.51,
-          "sentiment": -0.5
-        },
-        "OSINTdefender": {
-          "danger": 0.585,
-          "sentiment": 0.367
-        },
-        "irna_1313": {
-          "danger": 0.315,
-          "sentiment": 0
-        },
-        "sepah_pasdaran": {
-          "danger": 0.321,
-          "sentiment": -0.367
-        },
-        "almanarnews": {
-          "danger": 0.346,
-          "sentiment": 0.033
-        },
-        "C_Military1": {
-          "danger": 0.72,
-          "sentiment": -0.433
-        },
-        "almayadeen": {
-          "danger": 0.582,
-          "sentiment": -0.1
-        },
-        "QudsN": {
-          "danger": 0.646,
-          "sentiment": -0.333
-        }
-      }
-    },
     {
       "time": "2026-08-17T15:20:49.979Z",
       "danger": 0.493,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.3
         }
       }
+    },
+    {
+      "time": "2026-08-19T16:25:48.862Z",
+      "danger": 0.481,
+      "sentiment": -0.093,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.595,
+          "sentiment": -0.667
+        },
+        "OSINTdefender": {
+          "danger": 0.56,
+          "sentiment": 0.133
+        },
+        "irna_1313": {
+          "danger": 0.687,
+          "sentiment": 0.233
+        },
+        "sepah_pasdaran": {
+          "danger": 0.344,
+          "sentiment": -0.4
+        },
+        "almanarnews": {
+          "danger": 0.268,
+          "sentiment": 0.333
+        },
+        "C_Military1": {
+          "danger": 0.433,
+          "sentiment": 0
+        },
+        "almayadeen": {
+          "danger": 0.262,
+          "sentiment": -0.167
+        },
+        "QudsN": {
+          "danger": 0.711,
+          "sentiment": -0.267
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.6810487889891462
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.595004311661144
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 14,
-      "raw_sentiment": -0.4642857142857143,
-      "knn_danger_metric": 0.6095880918662099
+      "num_messages": 15,
+      "raw_sentiment": 0.23333333333333334,
+      "knn_danger_metric": 0.6867643781455413
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.40175210224321134
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.34437020464604756
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.2871994053448354
+      "raw_sentiment": 0.3333333333333333,
+      "knn_danger_metric": 0.26799519960175816
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": 0,
-      "knn_danger_metric": 0.47900605000373786
+      "knn_danger_metric": 0.43289636646233304
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.5063547432811936
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.2622373818893658
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.6529050139310834
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.7109985912295078
     }
   },
   "semantic_logs": [
@@ -2336,27 +2336,6 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "עיתונאים עזתיים מפי מקורות רפואיים:  מספר ההרוגים בתקיפה בעיר עזה עלה ל - 9. לא סופי. מספר הפצועים עומד על 15.  בתקיפה נהרגה פאתן סחר, מפקדת משטרת הנשים של חמאס בעיר עזה.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "עיתונאים עזתיים מפי מקורות רפואיים:  מספר ההרוגים בתקיפה בעיר עזה עלה ל - 9. לא סופי. מספר הפצועים עומד על 15.  בתקיפה נהרגה פאתן סחר, מפקדת משטרת הנשים של חמאס בעיר עזה.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "חיסול איכותי בעיר עזה - חוסלו קבוצה של קצינים בכירים במשטרת חמאס  עיתונאים עזתיים מדווחים כי מבין 9 המחוסלים בתקיפה על תחנת המשטרה ,זוהו הקצינים הבכירים הבאים:  עמיד (תת ניצב) אבו אכרם ג&#39;נדיה  עקיד (ניצב משנה) אבו עבדאללה אלהג&#39;ין  עקיד (ניצב משנה) אבו ח&#39;ליל תמראז  עקיד (ניצב משנה) אבו עמר עליאן  עקיד (ניצב משנה) פאתן א-סחאר (מפקדת משטרת הנשים).   ראא&#39;ד (רב פקד) בלאל אבו סמעאן  תגובה אחת",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
       "text": "או כמו שאומרים בפלוגת החרמש של גדוד מלר - גדוד 9206:  עד החוטף האחרון&#33;  תגובה אחת",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
@@ -2364,15 +2343,15 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "חבר הלשכה המדינית של חמאס, באסם נעים מגיב לתקיפה הישראלית בעיר עזה :  &quot;הטבח היום במטה המשטרה, שבו נהרגו כמה מאנשי המשטרה, נושא מסר אחד: אנחנו, הציונים, מעל החוק. מותר לנו להשתולל ולבצע פשעים בכל מקום ובכל עת שנרצה, ואנחנו מקיימים הסכמים רק כשהם עולים בקנה אחד עם התוכניות שלנו.   המסר החצוף הזה, שנכתב  באש, אינו מופנה אלינו, אלא למועצת השלום ולהנהגתה.  המצב הזה אינו יכול להימשך.&quot;  ##  חמאס מעלה את רמת היבבות דרגה אחת נוספת בעקבות התקיפה היום.  תגובה אחת",
+      "text": "עיתונאים עזתיים מדווחים כי מספר ההרוגים בתקיפה הישראלית על נמל העיר עזה הערב עלה ל - 8.  בינתיים זוהו 6 מבין ההרוגים:  1. מחמד חמדי אחמד אלמצרי (מפקד בכיר בחמאס מצורפת תמונתו). 2. ג&#39;האד מחמד חמדי אלמצרי (בנו של מחמד).  3. עז א-דין סאלם דיב 4. עצאם מחמד מוסא…",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
+      "channelId": "irna_1313",
       "channel": "IRGC",
-      "text": "&rlm; ️&rlm; عامل حمله تروریستی به دادگستری بهبهان که عضو منافقین بود دستگیر شد &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
+      "text": "🎥پایش کارنامه پاستور در«دولت‌پلاس»  🔹&nbsp;این برنامه به رصد و تحلیل تصمیمات، مصوبات و سیاست‌گذاری‌های کلان دولت در هفته ای که گذشت، اختصاص دارد. ما در این بخش صرفا روایت گر نیستیم بلکه تلاش می کنیم «اثر عینی» اقدامات را بر زندگی، معیشت و کسب‌وکار شهروندان بررسی…",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2399,37 +2378,58 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: القوات المسلحة: نحذر النظام السعودي من خطورة الإقدام على أي تصعيد فأي تصعيد شامل سيواجه بتصعيد شامل",
-      "absolute_sentiment": 0,
+      "text": "فلسطين المحتلة: قوات الاحتلال الإسرائيلي تقتحم بلدة بيت فوريك شرق نابلس في الضفة الغربية",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
+      "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "إيران: قائد قوة القدس العميد إسماعيل قاآني: إن المحتلين مغتصبي فلسطين يعانون من &quot;سرطان اجتماعي&quot; من الداخل وانهيارهم حتمي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: العميد قاآني: إرهابيو الاحتلال في الضفة الغربية لن يستطيعوا بتوحشهم وقرصنتهم ضرب القضية الفلسطينية ومكانتها الكبرى في العالم",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: العميد قاآني: إن مشروع هؤلاء الوحوش بضم الضفة الغربية لن يحصل وانهيار كيان الاحتلال قطعي الحصول",
+      "text": "حادث سير ذاتي لمركبة فلسطينية بسبب اصطدامها بالبوابة الحديدية التي أغلقها الاحتلال بشكل مفاجئ عند مدخل بلدة ترمسعيا، شمال رام الله.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
+      "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "لبنان: وزارة الصحة: بلغت الحصيلة التراكمية الإجمالية للعدوان منذ 2 آذار/مارس حتى 19 آب/أغسطس 4348 شهيداً و12307 جرحى",
+      "text": "قوات الاحتلال تقتحم منطقة &quot;كرم نمر&quot; بمحيط جبل صبيح في بلدة بيتا، جنوب نابلس.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "الرضيعة &quot;إستبرق&quot; تودّع والدها الشهيد محمد العطار الذي ارتقى بقصف الاحتلال في غزة.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "&quot;استشهد وهو بخدم الناس، مقطّع تقطيع&quot;..  وداع مؤثر لجثمان أحد شهداء الشرطة الفلسطينية، الذين ارتقوا بقصف الاحتلال في غزة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مشاهد توثق جانباً من المجزرة الإسرائيلية المروعة بحق الشرطة في غزة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | مؤسسة &quot;هند رجب&quot;:   - لا نثق بقرار &quot;الجيش الإسرائيلي&quot; المعلن فتح تحقيقات جنائية بإعدام الطفلة هند رجب وأفراد من عائلتها ومسعفين  - التحقيقات الإسرائيلية تأتي وسط تصاعد الضغوط والتدقيق الدولي في الانتهاكات  - التحقيقات الداخلية الإسرائيلية غالبا ما تنتهي دون محاسبة أو عقوبات ذات معنى  - نطالب الحكومات بالتحقيق واعتقال ومحاكمة ومعاقبة المسؤولين عن الجرائم الإسرائيلية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9943734650285786
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸ادعای انگیزه سیاسی در قتل چارلی کرک؛ آیا متهم به اعدام محکوم خواهد شد؟  🔹رسانه‌های آمریکایی اعلام کردند ‌دادستان‌های پرونده قتل «چارلی کرک» مدعی شده‌اند که این فعال سیاسی محافظه‌کار به دلیل دیدگاه‌های سیاسی‌اش هدف قرار گرفته است؛ موضوعی که می‌تواند در تعیین مجازات «تایلر رابینسون»، متهم به قتل او نقش تعیین‌کننده‌ای داشته باشد. #ایرنا_جهان  https://irna.ir/xjY3vj @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9904567943036928
     }
   ]
 }
