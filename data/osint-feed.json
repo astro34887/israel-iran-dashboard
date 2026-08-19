@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-19T20:21:29.801Z",
+  "last_updated": "2026-08-19T21:20:56.318Z",
   "tension": {
     "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.50",
-    "global_norm_sentiment": "-0.20"
+    "global_knn_danger": "0.48",
+    "global_norm_sentiment": "-0.17"
   },
   "timeline": [
-    {
-      "time": "2026-08-17T19:24:02.686Z",
-      "danger": 0.473,
-      "sentiment": -0.127,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.536,
-          "sentiment": -0.5
-        },
-        "OSINTdefender": {
-          "danger": 0.544,
-          "sentiment": 0.233
-        },
-        "irna_1313": {
-          "danger": 0.376,
-          "sentiment": -0.267
-        },
-        "sepah_pasdaran": {
-          "danger": 0.452,
-          "sentiment": -0.333
-        },
-        "almanarnews": {
-          "danger": 0.317,
-          "sentiment": 0.367
-        },
-        "C_Military1": {
-          "danger": 0.67,
-          "sentiment": -0.433
-        },
-        "almayadeen": {
-          "danger": 0.43,
-          "sentiment": 0
-        },
-        "QudsN": {
-          "danger": 0.45,
-          "sentiment": -0.2
-        }
-      }
-    },
     {
       "time": "2026-08-17T20:20:40.882Z",
       "danger": 0.477,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.857
         }
       }
+    },
+    {
+      "time": "2026-08-19T21:20:56.318Z",
+      "danger": 0.482,
+      "sentiment": -0.17,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.508,
+          "sentiment": -0.567
+        },
+        "OSINTdefender": {
+          "danger": 0.615,
+          "sentiment": 0.233
+        },
+        "irna_1313": {
+          "danger": 0.548,
+          "sentiment": -0.533
+        },
+        "sepah_pasdaran": {
+          "danger": 0.312,
+          "sentiment": -0.2
+        },
+        "almanarnews": {
+          "danger": 0.41,
+          "sentiment": 0.267
+        },
+        "C_Military1": {
+          "danger": 0.585,
+          "sentiment": -0.333
+        },
+        "almayadeen": {
+          "danger": 0.325,
+          "sentiment": -0.1
+        },
+        "QudsN": {
+          "danger": 0.565,
+          "sentiment": -0.333
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,32 +2279,32 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.5272021420922236
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.508067558225223
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
       "raw_sentiment": 0.23333333333333334,
-      "knn_danger_metric": 0.6183842953885226
+      "knn_danger_metric": 0.6153413025962565
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.6235783545440837
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.548074306794158
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.3093193375799726
+      "knn_danger_metric": 0.3117744711373379
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.4034899084015556
+      "raw_sentiment": 0.26666666666666666,
+      "knn_danger_metric": 0.41026229958686167
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.35823902006833763
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.325272773749842
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 14,
-      "raw_sentiment": -0.8571428571428571,
-      "knn_danger_metric": 0.6153007075474491
+      "num_messages": 15,
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.5650260477424296
     }
   },
   "semantic_logs": [
@@ -2399,21 +2399,14 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: بزشكيان: هدفنا إنهاء الحرب ورفع الحصار وتحرير الموارد المجمدة ثم الحوار النووي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "إيران: محافظ البنك المركزي عبد الناصر همتي: لم يفرج حتى الآن عن أي من الأموال المجمدة في إطار مذكرة التفاهم",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم شارع الناصرة في مدينة جنين.",
+      "text": "فلسطين المحتلة: تلفزيون فلسطين: إصابة عدد من الأطفال إثر إقدام مستوطنين على رش غاز الفلفل داخل سيارة في قرية أبو نجيم ببيت لحم",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2427,9 +2420,16 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل | قوات الاحتلال تقتحم مخيم الأمعري ومحيطه، في مدينة البيرة.",
+      "text": "مؤسسة &quot;يوغوف&quot; البريطانية: 47% من البريطانيين يؤيدون تقليص هجرة مواطني الاحتلال أو منعها بالكامل.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة عورتا جنوب نابلس.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
     }
   ]
 }
