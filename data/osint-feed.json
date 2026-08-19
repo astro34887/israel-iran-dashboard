@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-19T18:27:57.838Z",
+  "last_updated": "2026-08-19T19:20:59.112Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.50",
-    "global_norm_sentiment": "-0.13"
+    "global_knn_danger": "0.51",
+    "global_norm_sentiment": "-0.16"
   },
   "timeline": [
-    {
-      "time": "2026-08-17T17:22:21.854Z",
-      "danger": 0.538,
-      "sentiment": -0.099,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.572,
-          "sentiment": -0.385
-        },
-        "OSINTdefender": {
-          "danger": 0.585,
-          "sentiment": 0.367
-        },
-        "irna_1313": {
-          "danger": 0.483,
-          "sentiment": 0.067
-        },
-        "sepah_pasdaran": {
-          "danger": 0.418,
-          "sentiment": -0.533
-        },
-        "almanarnews": {
-          "danger": 0.356,
-          "sentiment": 0.267
-        },
-        "C_Military1": {
-          "danger": 0.688,
-          "sentiment": -0.533
-        },
-        "almayadeen": {
-          "danger": 0.719,
-          "sentiment": -0.233
-        },
-        "QudsN": {
-          "danger": 0.612,
-          "sentiment": 0.125
-        }
-      }
-    },
     {
       "time": "2026-08-17T18:32:34.756Z",
       "danger": 0.513,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.3
         }
       }
+    },
+    {
+      "time": "2026-08-19T19:20:59.112Z",
+      "danger": 0.51,
+      "sentiment": -0.163,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.589,
+          "sentiment": -0.533
+        },
+        "OSINTdefender": {
+          "danger": 0.578,
+          "sentiment": 0.233
+        },
+        "irna_1313": {
+          "danger": 0.506,
+          "sentiment": -0.4
+        },
+        "sepah_pasdaran": {
+          "danger": 0.39,
+          "sentiment": -0.133
+        },
+        "almanarnews": {
+          "danger": 0.356,
+          "sentiment": 0.167
+        },
+        "C_Military1": {
+          "danger": 0.585,
+          "sentiment": -0.333
+        },
+        "almayadeen": {
+          "danger": 0.457,
+          "sentiment": 0.133
+        },
+        "QudsN": {
+          "danger": 0.692,
+          "sentiment": -0.633
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2280,49 +2280,49 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.6321484685650347
+      "knn_danger_metric": 0.5892021949786576
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.56025661138271
+      "raw_sentiment": 0.23333333333333334,
+      "knn_danger_metric": 0.5782028440775098
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.44565349303133917
+      "knn_danger_metric": 0.5061226139315012
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.46382586054158287
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.39012817467287597
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.3223984915856789
+      "raw_sentiment": 0.16666666666666666,
+      "knn_danger_metric": 0.3557318249190123
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.5183242326102092
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.5849269341991191
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.4200579860435807
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.4574184494853864
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.6924454315177397
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.691711051144709
     }
   },
   "semantic_logs": [
@@ -2383,9 +2383,9 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي على حي الزيتون جنوب شرقي مدينة غزة",
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 12 العبرية:   - ستقوم وزارة الحرب بافتتاح خطوط إنتاج للقنابل الذكية لصالح القوات الجوية.  - تهدف هذه الخطوة إلى تحقيق الاكتفاء الذاتي في مجال الأسلحة في مواجهة التوترات مع إيران.  - وافق رئيس الوزراء نتنياهو على تحويل 40 مليار شيكل لغرض شراء المعدات.  - وزارة المالية ترفض تحويل جميع الأموال المعتمدة إلى المؤسسة العسكرية.  - تزعم وزارة الحرب أن التأخير يؤدي إلى خسارة إمدادات باهظة الثمن لمدة عام.  #الاعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2401,6 +2401,13 @@
       "channel": "Arab_Axis",
       "text": "إيران: بزشكيان: هدفنا إنهاء الحرب ورفع الحصار وتحرير الموارد المجمدة ثم الحوار النووي",
       "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: محافظ البنك المركزي عبد الناصر همتي: لم يفرج حتى الآن عن أي من الأموال المجمدة في إطار مذكرة التفاهم",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2423,13 +2430,6 @@
       "text": "قوات الاحتلال تقتحم بلدة كفر ثلث، جنوب شرق قلقيلية.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🎥 پایان شایعات در پرسپولیس؛تارتار بالاخره ارونوف را بازی داد  🔹 علی‌رغم حواشی به وجود آمده بعد از بازی پرسپولیس با شمس‌آذر قزوین در خصوص ارونوف، مهدی تارتار بالاخره در بازی با استقلال خوزستان به این بازیکن بازی داد.  @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9904567943036928
     }
   ]
 }
