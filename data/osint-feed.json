@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-20T10:24:29.263Z",
+  "last_updated": "2026-08-20T11:21:40.051Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.50",
+    "global_knn_danger": "0.52",
     "global_norm_sentiment": "-0.24"
   },
   "timeline": [
-    {
-      "time": "2026-08-18T09:27:42.122Z",
-      "danger": 0.515,
-      "sentiment": -0.27,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.462,
-          "sentiment": -0.433
-        },
-        "OSINTdefender": {
-          "danger": 0.56,
-          "sentiment": 0.033
-        },
-        "irna_1313": {
-          "danger": 0.404,
-          "sentiment": -0.167
-        },
-        "sepah_pasdaran": {
-          "danger": 0.358,
-          "sentiment": -0.4
-        },
-        "almanarnews": {
-          "danger": 0.478,
-          "sentiment": -0.233
-        },
-        "C_Military1": {
-          "danger": 0.71,
-          "sentiment": -0.533
-        },
-        "almayadeen": {
-          "danger": 0.642,
-          "sentiment": -0.267
-        },
-        "QudsN": {
-          "danger": 0.582,
-          "sentiment": -0.567
-        }
-      }
-    },
     {
       "time": "2026-08-18T10:23:24.158Z",
       "danger": 0.505,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.5
         }
       }
+    },
+    {
+      "time": "2026-08-20T11:21:40.051Z",
+      "danger": 0.516,
+      "sentiment": -0.24,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.553,
+          "sentiment": -0.833
+        },
+        "OSINTdefender": {
+          "danger": 0.614,
+          "sentiment": 0.4
+        },
+        "irna_1313": {
+          "danger": 0.451,
+          "sentiment": -0.233
+        },
+        "sepah_pasdaran": {
+          "danger": 0.548,
+          "sentiment": -0.333
+        },
+        "almanarnews": {
+          "danger": 0.259,
+          "sentiment": 0.067
+        },
+        "C_Military1": {
+          "danger": 0.705,
+          "sentiment": -0.533
+        },
+        "almayadeen": {
+          "danger": 0.406,
+          "sentiment": -0.433
+        },
+        "QudsN": {
+          "danger": 0.674,
+          "sentiment": -0.333
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,20 +2279,20 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.8,
-      "knn_danger_metric": 0.6328559294885584
+      "raw_sentiment": -0.8333333333333334,
+      "knn_danger_metric": 0.5532837301586592
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0.36666666666666664,
-      "knn_danger_metric": 0.6136295125309524
+      "raw_sentiment": 0.4,
+      "knn_danger_metric": 0.6143247437074035
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 14,
-      "raw_sentiment": -0.03571428571428571,
-      "knn_danger_metric": 0.44866294649161675
+      "num_messages": 15,
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.45111374685915895
     },
     "sepah_pasdaran": {
       "name": "IRGC",
@@ -2303,26 +2303,26 @@
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.2687455599641827
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.25855461686001013
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.692283203603128
+      "knn_danger_metric": 0.7053376963714335
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.3113175391330444
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.40570796806684345
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 12,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.5846857144206089
+      "num_messages": 6,
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.6744768447399047
     }
   },
   "semantic_logs": [
@@ -2364,13 +2364,6 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   رئيس هيئة الأركان العامة للقوات المسلحة اللواء عبد اللهي:   - يجب على دول الساحل الجنوبي للخليج الفارسي التي تعلن من خلال إصدار بيانات مختلفة أنها لا تسمح للولايات المتحدة باستخدام أراضيها ضد إيران، أن تعلم أن شيئًا لا يخفى عن أنظارنا.  - من المستبعد أن يكون هذا العدد من الطائرات العسكرية، ولا سيما طائرات التزويد بالوقود، موجودًا في القواعد الإقليمية من دون علم الدول المضيفة.  - نحذّر: أي مساعدة أو تسهيل للجيش الأمريكي المعتدي يُعدّ بمثابة مشاركة مع القوات العسكرية الأمريكية.  #الاعلام_الحربي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
       "text": "#الجمهورية_الإسلامية   رئيس مجلس الشورى محمد باقر قاليباف:   - أميركا تبحث عن مخرج مشرف لها من المنطقة  -  تدخل القوى الأجنبية في المعادلات بين الدول أخذ بالانحسار بنحو متسارع في النظام الإقليمي الجديد.  - مشروع الكيان الصهيوني من النهر إلى البحر محض أضغاث أحلام.  #الاعلام_الحربي",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
@@ -2385,7 +2378,7 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 13 العبرية: استطلاع الرأي لهذا المساء:  ايزنكوت: 26 مقعدًا الليكود: 23 مقعدًا نفتالي بينت: 13 مقعدًا الديمقراطيون: 11 مقعدًا إسرائيل بيتنا: 9 مقاعد عوتسما ��هوديت (القوة اليهودية): 8 مقاعد يهدوت هتوراه (يهودية التوراة): 8 مقاعد شاس: 7 مقاعد الصهيونية الدينية: 5 مقاعد رَعَم: 5 مقاعد حداش-تعال: 5 مقاعد  - خريطة الكتل: كتلة المعارضة: 59. الأحزاب العربية: 10. كتلة الائتلاف: 51.  #الاعلام_الحربي",
+      "text": "#إعلام_العدو   القناة 13 العبرية: استطلاع الرأي لهذا المساء:  ايزنكوت: 26 مقعدًا الليكود: 23 مقعدًا نفتالي بينت: 13 مقعدًا الديمقراطيون: 11 مقعدًا إسرائيل بيتنا: 9 مقاعد عوتسما يهوديت (القوة اليهودية): 8 مقاعد يهدوت هتوراه (يهودية التوراة): 8 مقاعد شاس: 7 مقاعد الصهيونية الدينية: 5 مقاعد رَعَم: 5 مقاعد حداش-تعال: 5 مقاعد  - خريطة الكتل: كتلة المعارضة: 59. الأحزاب العربية: 10. كتلة الائتلاف: 51.  #الاعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2418,18 +2411,25 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اختطف قبل سنوات لدى الأمن المصري  مع 3 آخرين لـ4 أعوام.. كتائب القسام تنشر مشاهد للشهيد حسين الزبدة ولقطات له مع قادة أبرزهم الشهيد عزالدين الحداد.",
-      "absolute_sentiment": 0.5,
+      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي غربي بيت لاهيا شمالي قطاع غزة",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "تمدید فراخوان حمایت از توسعه فناوری و کاربرد هوش مصنوعی در حوزه عمران و حمل‌ونقل   🔹معاونت علمی، فناوری و اقتصاد دانش‌بنیان ریاست‌جمهوری، فراخوان حمایت از توسعه فناوری و کاربرد هوش مصنوعی در حوزه عمران و حمل‌ونقل را با هدف توسعه راهکارهای نوآورانه و رفع چالش‌های این حوزه تمدید کرد.  https://irna.ir/xjY3HG @IRNA_1313",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9904567943036928
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جرافات الاحتلال تجرف أراضي الفلسطينيين وتقتلع وتدمر أشجار الزيتون في مناطق باب الخارجة وقلصون وجبل درويش بقرية المغير.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: إضراب في مطار بن غوريون: تم تعليق عمليات الهبوط في المطار حاليًا حتى الساعة 20:00.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9942762319389167
     }
   ]
 }
