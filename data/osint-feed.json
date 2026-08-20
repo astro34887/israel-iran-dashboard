@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-20T15:28:47.559Z",
+  "last_updated": "2026-08-20T16:29:11.235Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.55",
-    "global_norm_sentiment": "-0.17"
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.10"
   },
   "timeline": [
-    {
-      "time": "2026-08-18T14:28:10.625Z",
-      "danger": 0.542,
-      "sentiment": -0.133,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.47,
-          "sentiment": -0.3
-        },
-        "OSINTdefender": {
-          "danger": 0.588,
-          "sentiment": 0.1
-        },
-        "irna_1313": {
-          "danger": 0.424,
-          "sentiment": 0.767
-        },
-        "sepah_pasdaran": {
-          "danger": 0.349,
-          "sentiment": 0
-        },
-        "almanarnews": {
-          "danger": 0.551,
-          "sentiment": 0.033
-        },
-        "C_Military1": {
-          "danger": 0.748,
-          "sentiment": -0.567
-        },
-        "almayadeen": {
-          "danger": 0.763,
-          "sentiment": -0.733
-        },
-        "QudsN": {
-          "danger": 0.578,
-          "sentiment": -0.5
-        }
-      }
-    },
     {
       "time": "2026-08-18T15:26:56.600Z",
       "danger": 0.566,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.233
         }
       }
+    },
+    {
+      "time": "2026-08-20T16:29:11.235Z",
+      "danger": 0.526,
+      "sentiment": -0.103,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.51,
+          "sentiment": -0.367
+        },
+        "OSINTdefender": {
+          "danger": 0.598,
+          "sentiment": 0.267
+        },
+        "irna_1313": {
+          "danger": 0.535,
+          "sentiment": -0.333
+        },
+        "sepah_pasdaran": {
+          "danger": 0.434,
+          "sentiment": 0.167
+        },
+        "almanarnews": {
+          "danger": 0.343,
+          "sentiment": -0.167
+        },
+        "C_Military1": {
+          "danger": 0.865,
+          "sentiment": -0.333
+        },
+        "almayadeen": {
+          "danger": 0.519,
+          "sentiment": 0.067
+        },
+        "QudsN": {
+          "danger": 0.503,
+          "sentiment": -0.167
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.5156222784133417
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.5101616480097231
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.5367768010853773
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.5352183945334422
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.570868023061211
+      "raw_sentiment": 0.16666666666666666,
+      "knn_danger_metric": 0.43408534244044367
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.34518369517764924
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.3431427367184694
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.8665147726474082
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.8649366142656177
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.5810602359187013
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.5193900481475905
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.5203852539185033
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.5025955226209384
     }
   },
   "semantic_logs": [
@@ -2334,17 +2334,10 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️️ بانک مرکزی: در ادامه اجرای حکم دادسرای جرائم اقتصادی، اسناد انتقال دارایی‌های تعاونی اعتبار منحله مولی‌الموحدین و بانک ایران‌زمین به بانک مرکزی امضا شد &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "في القطاع ، اعلنت وزارة الصحة أنه بلغ إجمالي ما وصل إلى المستشفيات خلال الـ24 ساعة الماضية 10 ش.ه.داء و25 مصابا مع مراسلنا يوسف فارس",
-      "absolute_sentiment": -1,
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "בשולי הסיקור נגד ישראל בפרשת הבתים בכפר קוסרה - אחת העיתונאיות שסיקרה את האירוע שקרה בשטח B - שטח בשליטה ביטחונית ישראלית היא נקאא&#39; חאמד - עיתונאית פלסטינית של רשת Press TV. רשת Press TV שייכת למשטר האיראני - מהתחלה ועד הסוף. זרוע מדיה איראנית רשמית.   כתבים…",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2392,13 +2385,6 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: سريع: المسيرة الأولى قصفت هدفاً سعودياً حساساً في مطار نجران والثانية استهدفت أرامكو نجران",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "إيران: وزارة الخارجية: العقوبات الاقتصادية الأميركية هي مثال على الإرهاب الاقتصادي والجريمة ضد الإنسانية",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
@@ -2408,6 +2394,13 @@
       "channel": "Arab_Axis",
       "text": "لبنان: مراسل الميادين: دبابة &quot;ميركافا&quot; تعتدي على أطراف بلدة برعشيت في قضاء بنت جبيل جنوبي لبنان بعدد من القذائف",
       "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: مدفعية الاحتلال تطلق قذيفة شمال غربي بيت لاهيا شمالي القطاع",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2423,6 +2416,13 @@
       "text": "قوات الاحتلال تقتحم قرية كوبر شمال رام الله",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸 لحظاتی از مراسم بزرگداشت چهلم «آقای شهید ایران» از سوی رهبر معظم انقلاب در حرم مطهر حضرت فاطمه معصومه سلام‌الله‌علیها (۲۸/مرداد/۱۴۰۵)  🔹 تا ساعتی دیگر در صحن پیامبر اعظم(ص) حرم مطهر رضوی پس از اقامه نماز مغرب و عشا مراسم بزرگداشت چهلم «آقای شهید ایران» برگزار می‌گردد.  @IRNA_1313",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.998674257278381
     },
     {
       "channelId": "C_Military1",
