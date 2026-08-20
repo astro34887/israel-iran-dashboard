@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-20T07:36:41.542Z",
+  "last_updated": "2026-08-20T08:32:26.946Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.51",
-    "global_norm_sentiment": "-0.20"
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.22"
   },
   "timeline": [
-    {
-      "time": "2026-08-18T06:35:36.342Z",
-      "danger": 0.517,
-      "sentiment": -0.237,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.475,
-          "sentiment": -0.867
-        },
-        "OSINTdefender": {
-          "danger": 0.572,
-          "sentiment": 0.167
-        },
-        "irna_1313": {
-          "danger": 0.573,
-          "sentiment": -0.1
-        },
-        "sepah_pasdaran": {
-          "danger": 0.348,
-          "sentiment": -0.467
-        },
-        "almanarnews": {
-          "danger": 0.587,
-          "sentiment": -0.2
-        },
-        "C_Military1": {
-          "danger": 0.652,
-          "sentiment": -0.533
-        },
-        "almayadeen": {
-          "danger": 0.333,
-          "sentiment": 0.2
-        },
-        "QudsN": {
-          "danger": 0.679,
-          "sentiment": -0.433
-        }
-      }
-    },
     {
       "time": "2026-08-18T07:33:47.581Z",
       "danger": 0.512,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.1
         }
       }
+    },
+    {
+      "time": "2026-08-20T08:32:26.946Z",
+      "danger": 0.522,
+      "sentiment": -0.217,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.472,
+          "sentiment": -0.6
+        },
+        "OSINTdefender": {
+          "danger": 0.614,
+          "sentiment": 0.267
+        },
+        "irna_1313": {
+          "danger": 0.462,
+          "sentiment": -0.3
+        },
+        "sepah_pasdaran": {
+          "danger": 0.436,
+          "sentiment": -0.333
+        },
+        "almanarnews": {
+          "danger": 0.393,
+          "sentiment": -0.267
+        },
+        "C_Military1": {
+          "danger": 0.657,
+          "sentiment": -0.4
+        },
+        "almayadeen": {
+          "danger": 0.497,
+          "sentiment": -0.4
+        },
+        "QudsN": {
+          "danger": 0.74,
+          "sentiment": 0
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.4163356912936795
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.4719609859361014
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0.23333333333333334,
-      "knn_danger_metric": 0.6139504456915028
+      "raw_sentiment": 0.26666666666666666,
+      "knn_danger_metric": 0.6140432865639505
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.4184606587768526
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.46184699387377126
     },
     "sepah_pasdaran": {
       "name": "IRGC",
-      "num_messages": 6,
+      "num_messages": 9,
       "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.4742906408511675
+      "knn_danger_metric": 0.435717942250007
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.34976804954166163
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.39306948183283297
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
+      "raw_sentiment": -0.4,
       "knn_danger_metric": 0.6566187813725805
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.6150618279329273
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.4974364329327419
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.6138162631985659
+      "num_messages": 11,
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.7395688345048664
     }
   },
   "semantic_logs": [
@@ -2385,51 +2385,51 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: حسين محبّي: إذا اندلعت حرب من جديد فمن المؤكد أن أسلحتنا ستكون مختلفة عن الماضي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: حسين محبي: هذا الاختلاف قد يظهر في جيل الرؤوس الحربية أو دقة الإصابة أو مدى الصواريخ أو في أي مجال آخر",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: حسين محبي: نحن نحرز تقدماً كل يوم وكل الاحتمالات في هذا المجال واردة",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: مدفعية الاحتلال الإسرائيلي تستهدف بلدة حولا",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: &quot;هيومن رايتس ووتش&quot;: أعمال العنف على أيدي المستوطنين تصاعدت في آذار/آمارس ونيسان/أبريل 2026",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: &quot;هيومن رايتس ووتش&quot;: تسلح السلطات الإسرائيلية المستوطنين العنيفين المسؤولين عن هذه الانتهاكات الدموية المتصاعدة وتمولهم وتحميهم",
+      "text": "فلسطين المحتلة: مراسل الميادين: بحرية الاحتلال تعتقل 4 صيادين في بحر مدينة غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم مخيم بلاطة شرق نابلس",
+      "text": "جانب من اقتحام قوات الاحتلال لمخيم بلاطة شرق نابلس",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تقتحم مخيم بلاطة في نابلس.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "الاحتلال يواصل اقتحام مخيم بلاطة في نابلس",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مناقصة استيطانية جديدة في &quot;إي 1&quot; قد تدفع لفرض عقوبات أوروبية ضد &quot;إسرائيل&quot;  https://qudsn.co/share/217134",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "الاحتلال يواصل اقتحاما واسعا لمخيم بلاطة في نابلس.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸 تنش تل‌آویو و آنکارا به مدیترانه کشیده شد؛ نگرانی از حضور دریایی ترکیه در سوریه  🔹شبکه ۱۲ تلویزیون رژیم صهیونیستی در گزارشی از افزایش نگرانی‌های امنیتی تل‌آویو درباره نفوذ و تثبیت حضور دریایی ترکیه در سوریه خبر داد؛ موضوعی که به گفته این رسانه، می‌تواند سطح تنش میان دو طرف را از عرصه زمینی سوریه به آب‌های شرق مدیترانه بکشاند. #ایرنا_جهان   https://irna.ir/xjY3Dx @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9967898028530019
     }
   ]
 }
