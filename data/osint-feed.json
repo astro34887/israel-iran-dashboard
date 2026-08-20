@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-20T08:32:26.946Z",
+  "last_updated": "2026-08-20T09:29:07.012Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.22"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.49",
+    "global_norm_sentiment": "-0.19"
   },
   "timeline": [
-    {
-      "time": "2026-08-18T07:33:47.581Z",
-      "danger": 0.512,
-      "sentiment": -0.271,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.493,
-          "sentiment": -0.767
-        },
-        "OSINTdefender": {
-          "danger": 0.567,
-          "sentiment": 0.033
-        },
-        "irna_1313": {
-          "danger": 0.517,
-          "sentiment": 0.233
-        },
-        "sepah_pasdaran": {
-          "danger": 0.36,
-          "sentiment": -0.8
-        },
-        "almanarnews": {
-          "danger": 0.444,
-          "sentiment": -0.433
-        },
-        "C_Military1": {
-          "danger": 0.652,
-          "sentiment": -0.533
-        },
-        "almayadeen": {
-          "danger": 0.54,
-          "sentiment": -0.2
-        },
-        "QudsN": {
-          "danger": 0.604,
-          "sentiment": -0.111
-        }
-      }
-    },
     {
       "time": "2026-08-18T08:30:56.757Z",
       "danger": 0.537,
@@ -2261,6 +2214,53 @@
           "sentiment": 0
         }
       }
+    },
+    {
+      "time": "2026-08-20T09:29:07.012Z",
+      "danger": 0.49,
+      "sentiment": -0.186,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.577,
+          "sentiment": -0.6
+        },
+        "OSINTdefender": {
+          "danger": 0.614,
+          "sentiment": 0.367
+        },
+        "irna_1313": {
+          "danger": 0.288,
+          "sentiment": -0.167
+        },
+        "sepah_pasdaran": {
+          "danger": 0.499,
+          "sentiment": -0.167
+        },
+        "almanarnews": {
+          "danger": 0.313,
+          "sentiment": -0.033
+        },
+        "C_Military1": {
+          "danger": 0.657,
+          "sentiment": -0.4
+        },
+        "almayadeen": {
+          "danger": 0.329,
+          "sentiment": -0.833
+        },
+        "QudsN": {
+          "danger": 0.674,
+          "sentiment": 0.107
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2280,31 +2280,31 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.4719609859361014
+      "knn_danger_metric": 0.5769574957875164
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0.26666666666666666,
-      "knn_danger_metric": 0.6140432865639505
+      "raw_sentiment": 0.36666666666666664,
+      "knn_danger_metric": 0.6136295125309524
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.46184699387377126
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.2879615462701792
     },
     "sepah_pasdaran": {
       "name": "IRGC",
-      "num_messages": 9,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.435717942250007
+      "num_messages": 12,
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.4986950405117789
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.39306948183283297
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.3130436654229574
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.4974364329327419
+      "raw_sentiment": -0.8333333333333334,
+      "knn_danger_metric": 0.3286806789304744
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 11,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.7395688345048664
+      "num_messages": 14,
+      "raw_sentiment": 0.10714285714285714,
+      "knn_danger_metric": 0.6742790809783872
     }
   },
   "semantic_logs": [
@@ -2334,6 +2334,20 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "רוצים עוד קצת להתעצבן על אירועי הנפילות בתל אביב?  שימו לב לכתב אחמד דראושה שמעביר ראיון מהזירה. מגיע אליו איש כוחות הביטחון עם חושים מחודדים ומבקש תעודת עיתונאי דראושה מציג את עצמו כך: ערוץ אלערבי בלונדון.  ## המיקרופון שהוא מחזיק ביד שייך לערוץ א-תלפזיון…",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "איך עובדת מכונת ההסתה נגד המתיישבים באיו&quot;ש?  הנה לפניכם דיווח מהבוקר ברשת הטלוויזיה הקטרית (מייסודו של עזמי בשארה) א-תלפזיון אלערבי.  הכתבת מסבירה בביטחון מלא כי &quot;חייה של משפחה פלסטינית באזור יטא ניצלו מהצתה מכוונת של מתנחלים מעתניאל&quot;.  לדבריה: המתנחלים פתחו…",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
       "text": "&rlm; ️حکم اعدام تبعه خارجی دخیل در جنایت میدان علیخانی اصفهان اجرا شد  &rlm;🔹 قائم حسینی، تبعه خارجی و از عناصر دخیل در جنایت میدان علیخانی اصفهان که منجر به شهادت مظلومانه چهار نیروی فراجا شد، پس از رسیدگی به پرونده و تأیید حکم در دیوان عالی کشور، به جرم کشیدن سلاح و ایجاد رعب و وحشت، ایجاد ناامنی عمومی و ناامنی در حد وسیع، اقدام علیه تمامیت جسمانی افراد و امنیت ملی به نحوی که موجب اخلال شدید در نظم عمومی شده بود، پس از طی روال قانونی به دار مجازات آویخته شد. &lrm;✅ @sepah_pasdaran",
@@ -2341,10 +2355,10 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "بالفيديو | مستوطنون يضرمون النيران في منزل فلسطيني بخربة الفخيت غرب يطا جنوب الخليل",
-      "absolute_sentiment": 0.5,
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️اهدای دست‌نوشتۀ سردار موسوی به خانواده‌ای با ۱۱ شهید  &rlm;🔹 دست‌نوشتۀ فرمانده نیروی هوافضای سپاه، به خانوادۀ اسدزاده بخشایش که ۱۱ نفر از اعضای آن در جنگ تحمیلی رمضان(۴۰ روزه) به شهادت رسیده‌اند، اهدا شد. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2390,17 +2404,10 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال لمخيم بلاطة شرق نابلس",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم مخيم بلاطة في نابلس.",
-      "absolute_sentiment": 0.5,
+      "text": "فلسطين المحتلة: وزارة الصحة في غزة: ارتقاء 73,417 شهيداً منذ بداية العدوان في 7 أكتوبر 2023",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2423,13 +2430,6 @@
       "text": "الاحتلال يواصل اقتحاما واسعا لمخيم بلاطة في نابلس.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸 تنش تل‌آویو و آنکارا به مدیترانه کشیده شد؛ نگرانی از حضور دریایی ترکیه در سوریه  🔹شبکه ۱۲ تلویزیون رژیم صهیونیستی در گزارشی از افزایش نگرانی‌های امنیتی تل‌آویو درباره نفوذ و تثبیت حضور دریایی ترکیه در سوریه خبر داد؛ موضوعی که به گفته این رسانه، می‌تواند سطح تنش میان دو طرف را از عرصه زمینی سوریه به آب‌های شرق مدیترانه بکشاند. #ایرنا_جهان   https://irna.ir/xjY3Dx @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9967898028530019
     }
   ]
 }
