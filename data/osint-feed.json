@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-20T16:29:11.235Z",
+  "last_updated": "2026-08-20T17:24:13.025Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.10"
+    "global_knn_danger": "0.58",
+    "global_norm_sentiment": "0.05"
   },
   "timeline": [
-    {
-      "time": "2026-08-18T15:26:56.600Z",
-      "danger": 0.566,
-      "sentiment": -0.157,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.557,
-          "sentiment": -0.6
-        },
-        "OSINTdefender": {
-          "danger": 0.576,
-          "sentiment": 0.1
-        },
-        "irna_1313": {
-          "danger": 0.696,
-          "sentiment": 0.433
-        },
-        "sepah_pasdaran": {
-          "danger": 0.342,
-          "sentiment": 0.167
-        },
-        "almanarnews": {
-          "danger": 0.546,
-          "sentiment": 0.133
-        },
-        "C_Military1": {
-          "danger": 0.748,
-          "sentiment": -0.567
-        },
-        "almayadeen": {
-          "danger": 0.54,
-          "sentiment": -0.533
-        },
-        "QudsN": {
-          "danger": 0.705,
-          "sentiment": -0.567
-        }
-      }
-    },
     {
       "time": "2026-08-18T16:25:38.733Z",
       "danger": 0.539,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.167
         }
       }
+    },
+    {
+      "time": "2026-08-20T17:24:13.025Z",
+      "danger": 0.577,
+      "sentiment": 0.047,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.549,
+          "sentiment": -0.233
+        },
+        "OSINTdefender": {
+          "danger": 0.598,
+          "sentiment": 0.267
+        },
+        "irna_1313": {
+          "danger": 0.727,
+          "sentiment": 0.3
+        },
+        "sepah_pasdaran": {
+          "danger": 0.485,
+          "sentiment": 0.567
+        },
+        "almanarnews": {
+          "danger": 0.401,
+          "sentiment": 0.033
+        },
+        "C_Military1": {
+          "danger": 0.867,
+          "sentiment": -0.2
+        },
+        "almayadeen": {
+          "danger": 0.518,
+          "sentiment": -0.067
+        },
+        "QudsN": {
+          "danger": 0.679,
+          "sentiment": -0.067
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.5101616480097231
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.5485475640414507
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.5352183945334422
+      "raw_sentiment": 0.3,
+      "knn_danger_metric": 0.726575422275666
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.43408534244044367
+      "raw_sentiment": 0.5666666666666667,
+      "knn_danger_metric": 0.4848704630716787
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.3431427367184694
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.40116983736238954
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.8649366142656177
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.8665147726474082
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.5193900481475905
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.5181251575086905
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.5025955226209384
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.6792145392943408
     }
   },
   "semantic_logs": [
@@ -2341,10 +2341,17 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 13 العبرية: استطلاع الرأي لهذا المساء:  ايزنكوت: 26 مقعدًا الليكود: 23 مقعدًا نفتالي بينت: 13 مقعدًا الديمقراطيون: 11 مقعدًا إسرائيل بيتنا: 9 مقاعد عوتسما يهوديت (القوة اليهودية): 8 مقاعد يهدوت هتوراه (يهودية التوراة): 8 مقاعد شاس: 7 مقاعد الصهيونية الدينية: 5 مقاعد رَعَم: 5 مقاعد حداش-تعال: 5 مقاعد  - خريطة الكتل: كتلة المعارضة: 59. الأحزاب العربية: 10. كتلة الائتلاف: 51.  #الاعلام_الحربي",
-      "absolute_sentiment": -1,
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "☑️تصاویر هوایی از خیل جمعیت در بزرگداشت چهلم تدفین «آقای شهید ایران» در حرم مطهر رضوی  @sepah_pasdaran",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️به هو الحیُ القیوم قسم، عزم خونخواهی و انتقام میکنیم...  نوحه‌خوانی حاج میثم مطیعی در مراسم شب شهادت امام حسن عسکری علیه‌السلام و بزرگداشت چهلم «آقای شهید ایران» از سوی رهبر معظم انقلاب در حرم مطهر امام رضا علیه‌السلام. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2383,6 +2390,13 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 15 العبرية: يعقد رئيس الوزراء حاليًا اجتماعًا خاصًا بمشاركة رؤساء الأجهزة الأمنية، بما في ذلك أجهزة الاستخبارات، لمناقشة جميع التطورات المستقبلية، لا سيما في سوريا، وفي العلاقة مع تركيا. ويأتي ذلك على خلفية إعلان الأتراك استمرار نشاطهم في سوريا.  #الاعلام_الحربي",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
       "text": "إيران: وزارة الخارجية: العقوبات الاقتصادية الأميركية هي مثال على الإرهاب الاقتصادي والجريمة ضد الإنسانية",
@@ -2406,30 +2420,16 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "اعترافات لأخطر جاسوس بغزة تكشف عن أسرار عمل مخابرات الاحتلال..",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
       "text": "قوات الاحتلال تقتحم قرية كوبر شمال رام الله",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸 لحظاتی از مراسم بزرگداشت چهلم «آقای شهید ایران» از سوی رهبر معظم انقلاب در حرم مطهر حضرت فاطمه معصومه سلام‌الله‌علیها (۲۸/مرداد/۱۴۰۵)  🔹 تا ساعتی دیگر در صحن پیامبر اعظم(ص) حرم مطهر رضوی پس از اقامه نماز مغرب و عشا مراسم بزرگداشت چهلم «آقای شهید ایران» برگزار می‌گردد.  @IRNA_1313",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.998674257278381
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: إضراب في مطار بن غوريون: تم تعليق عمليات الهبوط في المطار حاليًا حتى الساعة 20:00.  #الإعلام_الحربي",
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل| بيان فرنسي ألماني إيطالي بريطاني مشترك: طرح &quot;إسرائيل&quot; عرضا جديدا لتنفيذ مشروع إي 1 الاستيطاني بالضفة غير مقبول.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9942762319389167
+      "semantic_danger_knn": 1
     }
   ]
 }
