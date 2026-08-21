@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-21T04:33:29.572Z",
+  "last_updated": "2026-08-21T05:27:59.448Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.61",
-    "global_norm_sentiment": "-0.25"
+    "global_norm_sentiment": "-0.24"
   },
   "timeline": [
-    {
-      "time": "2026-08-19T03:41:46.672Z",
-      "danger": 0.583,
-      "sentiment": -0.103,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.64,
-          "sentiment": -0.5
-        },
-        "OSINTdefender": {
-          "danger": 0.554,
-          "sentiment": 0.433
-        },
-        "irna_1313": {
-          "danger": 0.637,
-          "sentiment": 0
-        },
-        "sepah_pasdaran": {
-          "danger": 0.393,
-          "sentiment": -0.267
-        },
-        "almanarnews": {
-          "danger": 0.703,
-          "sentiment": 0.1
-        },
-        "C_Military1": {
-          "danger": 0.581,
-          "sentiment": -0.067
-        },
-        "almayadeen": {
-          "danger": 0.577,
-          "sentiment": -0.533
-        },
-        "QudsN": {
-          "danger": 0.792,
-          "sentiment": -0.067
-        }
-      }
-    },
     {
       "time": "2026-08-19T04:32:49.564Z",
       "danger": 0.56,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.429
         }
       }
+    },
+    {
+      "time": "2026-08-21T05:27:59.448Z",
+      "danger": 0.612,
+      "sentiment": -0.238,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.529,
+          "sentiment": -0.367
+        },
+        "OSINTdefender": {
+          "danger": 0.647,
+          "sentiment": -0.2
+        },
+        "irna_1313": {
+          "danger": 0.554,
+          "sentiment": -0.267
+        },
+        "sepah_pasdaran": {
+          "danger": 0.296,
+          "sentiment": -0.433
+        },
+        "almanarnews": {
+          "danger": 0.52,
+          "sentiment": -0.067
+        },
+        "C_Military1": {
+          "danger": 0.922,
+          "sentiment": -0.267
+        },
+        "almayadeen": {
+          "danger": 0.853,
+          "sentiment": -0.5
+        },
+        "QudsN": {
+          "danger": 0.856,
+          "sentiment": -0.143
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,26 +2279,26 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
+      "raw_sentiment": -0.36666666666666664,
       "knn_danger_metric": 0.5286589943151169
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.6266731755302023
+      "knn_danger_metric": 0.6466737930488728
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 13,
-      "raw_sentiment": -0.07692307692307693,
-      "knn_danger_metric": 0.5118385923624366
+      "num_messages": 15,
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.5541166099232964
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.3245289681177187
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.29646244828624707
     },
     "almanarnews": {
       "name": "Hezbollah",
@@ -2309,8 +2309,8 @@
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.8738149123903478
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.9215560297028117
     },
     "almayadeen": {
       "name": "Arab_Axis",
@@ -2321,8 +2321,8 @@
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 14,
-      "raw_sentiment": -0.42857142857142855,
-      "knn_danger_metric": 0.8800457645216879
+      "raw_sentiment": -0.14285714285714285,
+      "knn_danger_metric": 0.8555556161374261
     }
   },
   "semantic_logs": [
@@ -2390,6 +2390,20 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   موقع والاه العبري: أفادت مصادر في المؤسسة العسكرية بأن احتمالات توسيع المواجهة العسكرية مع إيران في المستقبل القريب قد تضاءلت، وذلك عقب سلسلة من الاجتماعات والمحادثات مع مسؤولين أمريكيين رفيعي المستوى. ووفقًا لهذه المصادر، فإن قرار ترامب بفرض حزمة أخرى من العقوبات الاقتصادية القاسية يهدف إلى كسب الوقت حتى ما بعد انتخابات التجديد النصفي للكونغرس الأمريكي.  #الاعلام_الحربي",
+      "absolute_sentiment": -0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صحيفة معاريف العبرية: بحسب استطلاع رأي جديد أجرته الصحيفة، يواصل أيزنكوت تقدّمه ويوسّع الفارق مع حزب الليكود، ليحصل على 26 مقعدًا مقابل 23 مقعدًا لحزب الليكود. وتقترب المعارضة من تحقيق الأغلبية المطلوبة (61 مقعدًا)، إذ حصلت على 60 مقعدًا، مقابل 49 مقعدًا للائتلاف و11 مقعدًا للقوائم العربية.  #الاعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
       "text": "لبنان: مراسل الميادين في الجنوب: قوات الاحتلال تنفذ تفجيراً أطراف ميس الجبل",
@@ -2415,20 +2429,6 @@
       "channel": "Arab_Axis",
       "text": "لبنان: مراسل الميادين في الجنوب: محلقة إسرائيلية تلقي مواد متفجرة في محيط مرتفع &quot;علي الطاهر&quot;",
       "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: استشهاد طفل متأثراً بجراح أصيب بها برصاص قوات الاحتلال في مخيم للنازحين ببيت لاهيا شمالي القطاع",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: الطائرات الحربية الإسرائيلية اعتدت بغارات مستهدفة منطقة دوحة كفررمان لجهة تلة الدبشة في قضاء النبطية",
-      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
   ]
