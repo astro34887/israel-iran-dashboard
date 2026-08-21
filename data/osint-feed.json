@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-21T14:29:45.299Z",
+  "last_updated": "2026-08-21T15:27:53.245Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.55",
-    "global_norm_sentiment": "-0.23"
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.24"
   },
   "timeline": [
-    {
-      "time": "2026-08-19T13:40:28.596Z",
-      "danger": 0.526,
-      "sentiment": -0.207,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.745,
-          "sentiment": -0.6
-        },
-        "OSINTdefender": {
-          "danger": 0.556,
-          "sentiment": 0.033
-        },
-        "irna_1313": {
-          "danger": 0.471,
-          "sentiment": -0.033
-        },
-        "sepah_pasdaran": {
-          "danger": 0.361,
-          "sentiment": -0.567
-        },
-        "almanarnews": {
-          "danger": 0.286,
-          "sentiment": 0.067
-        },
-        "C_Military1": {
-          "danger": 0.479,
-          "sentiment": 0
-        },
-        "almayadeen": {
-          "danger": 0.795,
-          "sentiment": -0.6
-        },
-        "QudsN": {
-          "danger": 0.619,
-          "sentiment": -0.2
-        }
-      }
-    },
     {
       "time": "2026-08-19T14:28:19.894Z",
       "danger": 0.504,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.267
         }
       }
+    },
+    {
+      "time": "2026-08-21T15:27:53.245Z",
+      "danger": 0.532,
+      "sentiment": -0.237,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.476,
+          "sentiment": -0.767
+        },
+        "OSINTdefender": {
+          "danger": 0.601,
+          "sentiment": -0.033
+        },
+        "irna_1313": {
+          "danger": 0.552,
+          "sentiment": -0.042
+        },
+        "sepah_pasdaran": {
+          "danger": 0.441,
+          "sentiment": -0.633
+        },
+        "almanarnews": {
+          "danger": 0.501,
+          "sentiment": -0.2
+        },
+        "C_Military1": {
+          "danger": 0.389,
+          "sentiment": 0
+        },
+        "almayadeen": {
+          "danger": 0.692,
+          "sentiment": 0.067
+        },
+        "QudsN": {
+          "danger": 0.723,
+          "sentiment": -0.633
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,32 +2279,32 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.8,
-      "knn_danger_metric": 0.4871820589926361
+      "raw_sentiment": -0.7666666666666667,
+      "knn_danger_metric": 0.4756693368809618
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0,
+      "raw_sentiment": -0.03333333333333333,
       "knn_danger_metric": 0.6009905300149155
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.5587755375404495
+      "num_messages": 12,
+      "raw_sentiment": -0.041666666666666664,
+      "knn_danger_metric": 0.5523444988513088
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.7666666666666667,
-      "knn_danger_metric": 0.48291031275817814
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.4414053869879309
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.5688030949706818
+      "knn_danger_metric": 0.5012256323320984
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.7477781754717091
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.6916376300622754
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.6768121806955102
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.7227542698447981
     }
   },
   "semantic_logs": [
@@ -2336,14 +2336,7 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "נראה שהסיפור של רכס עלי א-טאהר נגמר. בחזבאללה מתחילים להפנים.  תגובה אחת",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "ע&quot;פ ערוצים פלסטינים כתוצאה מהירי של איש הביטחון הישראלי☝️ נהרג כרים שלאלדה, בן 17.  תגובה אחת",
+      "text": "לשכת ראש הממשלה נתניהו מגיבה להחלטה הטורקית לבקש מהאינטרפול התרעה אדומה נגד נתניהו☝️ :  &quot;ארדואן הוא דיקטטור אנטישמי שטבח בכורדים, מעניק מקלט למחבלי חמאס, כובש מחצית מקפריסין וכולא מספר שיא של עיתונאים ופוליטיקאים המתנגדים לו. כעת הוא מבקש להרחיב את תוקפנותו נגד ישראל גם לסוריה. ישראל לא תסבול זאת.  הניסיון העלוב של ארדואן להפחיד את מנהיגי ישראל ואת חייליה, הדמוקרטיה האמיתית היחידה במזרח התיכון, לא יצלח.&quot;  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2392,27 +2385,6 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: بزشكيان: الحرب يجب أن تنتهي في مرحلة ما ومن الأفضل أن ننهيها اليوم ونحن في موقع القوة والعالم بأسره يعترف بانتصارنا",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: بزشكيان: جميع قادتنا وقواتنا المسلحة على أتم الاستعداد للدفاع عن البلاد ونشيد بالدور الفريد للشعب في الدفاع عن كيان البلاد",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: حزب الله: ادعاء الإدارة الأميركية أن حزب الله خاضع لسيطرة فيلق القدس تبرير لإعادة إدراج الحزب على لائحة العقوبات",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "لبنان: حزب الله: القرار يؤكد أن الإدارة الأميركية التي اعتادت استخدام العقوبات لفرض سطوتها ما زالت تتعامل مع لبنان من موقع الوصاية",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
@@ -2429,6 +2401,34 @@
       "channel": "Arab_Axis",
       "text": "لبنان: مراسل الميادين في الجنوب: قوات الاحتلال نفذت تفجيراً كبيراً في بلدة حداثا",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: محلقة إسرائيلية ألقت قنبلة صوتية باتجاه راع في بلدة شبعا",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: قائد بحرية الجيش الأدميرال شهرام إيراني: القوات المسلحة تتصدى بكل قوتها للأعداء ولن تسمح لهم بالاقتراب قيد أنملة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: الأدميرال شهرام إيراني: القوات البحرية بحضورها القوي في المضائق والممرات المائية الاستراتيجية ستواصل الدفاع عن المصالح الوطنية وأمن البلاد",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: قائد الجيش اللواء أمير حاتمي: ما تم توفيره للقوات المسلحة اليوم هو بفضل جهود أبناء الوطن في الصناعات الدفاعية",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
   ]
