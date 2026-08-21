@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-21T07:38:40.300Z",
+  "last_updated": "2026-08-21T08:34:52.684Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.56",
-    "global_norm_sentiment": "-0.18"
+    "global_knn_danger": "0.57",
+    "global_norm_sentiment": "-0.16"
   },
   "timeline": [
-    {
-      "time": "2026-08-19T06:36:14.561Z",
-      "danger": 0.52,
-      "sentiment": -0.078,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.578,
-          "sentiment": -0.267
-        },
-        "OSINTdefender": {
-          "danger": 0.542,
-          "sentiment": 0
-        },
-        "irna_1313": {
-          "danger": 0.46,
-          "sentiment": -0.2
-        },
-        "sepah_pasdaran": {
-          "danger": 0.468,
-          "sentiment": -0.2
-        },
-        "almanarnews": {
-          "danger": 0.543,
-          "sentiment": -0.167
-        },
-        "C_Military1": {
-          "danger": 0.581,
-          "sentiment": 0.033
-        },
-        "almayadeen": {
-          "danger": 0.373,
-          "sentiment": 0.333
-        },
-        "QudsN": {
-          "danger": 0.706,
-          "sentiment": -0.179
-        }
-      }
-    },
     {
       "time": "2026-08-19T07:34:08.483Z",
       "danger": 0.514,
@@ -2261,13 +2214,60 @@
           "sentiment": 0
         }
       }
+    },
+    {
+      "time": "2026-08-21T08:34:52.684Z",
+      "danger": 0.574,
+      "sentiment": -0.163,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.672,
+          "sentiment": -0.433
+        },
+        "OSINTdefender": {
+          "danger": 0.604,
+          "sentiment": -0.067
+        },
+        "irna_1313": {
+          "danger": 0.619,
+          "sentiment": 0.3
+        },
+        "sepah_pasdaran": {
+          "danger": 0.345,
+          "sentiment": -0.233
+        },
+        "almanarnews": {
+          "danger": 0.566,
+          "sentiment": -0.3
+        },
+        "C_Military1": {
+          "danger": 0.803,
+          "sentiment": -0.333
+        },
+        "almayadeen": {
+          "danger": 0.507,
+          "sentiment": -0.1
+        },
+        "QudsN": {
+          "danger": 0.676,
+          "sentiment": -0.292
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.5910434387145941
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.6716544199360258
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.40039475109195904
+      "raw_sentiment": 0.3,
+      "knn_danger_metric": 0.6193484487467565
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.2763476955280433
+      "knn_danger_metric": 0.34487897501831444
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.5779298757282538
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.5663325875337939
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.8881744883989319
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.8033242285249522
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.6937827929377275
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.5069547694411098
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.6583802252708603
+      "num_messages": 12,
+      "raw_sentiment": -0.2916666666666667,
+      "knn_danger_metric": 0.6763485409404213
     }
   },
   "semantic_logs": [
@@ -2355,6 +2355,27 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "לא כולם בארה&quot;ב מרוצים משירותי &quot;המשלוח האווירי&quot; של אמזון.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️دست نوشته قالیباف در دفتر یادبود عتبۀ حسینی  &rlm;🔹 در قطعه‌ای از بهشت و محل ریخته‌شدن خون مطهرترین بندگان مجاهد راه حق و حقیقت، در فضای آکنده از عطر آسمانی ملائک، از دردانه اهل‌بیت(ع) طلب می‌کنم که آخرین برگ زندگی مرا با شهادت رقم بزند و به کاروان دوستان عزیزم که بسیار دلتنگ ایشان هستم و امام شهید انقلاب، مرا ملحق نماید. ان‌شاءالله. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️عزیزِ غریب  &rlm;🔹 بیانات رهبر شهید انقلاب درباره ویژگی‌های امام حسن عسکری علیه‌السلام. ۱۳۹۰/۱۲/۱۰  &rlm;🔹 بازنشر به مناسبت سالروز شهادت امام حسن عسکری(ع) &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
       "text": "ارتفاع حصيلة ضحايا الفيضانات في جنوب الصين إلى 159 قتيلا https://almanar.com.lb/article/1112957/?s=tg",
@@ -2362,9 +2383,9 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
+      "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: تم تعليق الإضراب في مطار بن غوريون.  #الاعلام_الحربي",
+      "text": "الطيران الحـربي الاسـرائيلي يشن غارة استهدفت منزلا في بلدة #برعشيت جنوب #لبنان",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2385,7 +2406,7 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 15 العبرية: يعقد رئيس الوزراء حاليًا اجتماعًا خاصًا بمشاركة رؤساء الأجهزة الأمنية، بما في ذلك أجهزة الاستخبارات، لمناقشة جميع التطورات المستقبلية، لا سيما في سوريا، وفي العلاقة مع تركيا. ويأتي ذلك على خلفية إعلان الأتراك استمر��ر نشاطهم في سوريا.  #الاعلام_الحربي",
+      "text": "#إعلام_العدو   القناة 15 العبرية: يعقد رئيس الوزراء حاليًا اجتماعًا خاصًا بمشاركة رؤساء الأجهزة الأمنية، بما في ذلك أجهزة الاستخبارات، لمناقشة جميع التطورات المستقبلية، لا سيما في سوريا، وفي العلاقة مع تركيا. ويأتي ذلك على خلفية إعلان الأتراك استمرار نشاطهم في سوريا.  #الاعلام_الحربي",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
@@ -2400,34 +2421,13 @@
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#إعلام_العدو   موقع والاه العبري: أفادت مصادر في المؤسسة العسكرية بأن احتمالات توسيع المواجهة العسكرية مع إيران في المستقبل القريب قد تضاءلت، وذلك عقب سلسلة من الاجتماعات والمحادثات مع مسؤولين أمريكيين رفيعي المستوى. ووفقًا لهذه المصادر، فإن قرار ترامب بفرض حزمة أخرى من العقوبات الاقتصادية القاسية يهدف إلى كسب الوقت حتى ما بعد انتخابات التجديد النصفي للكونغرس الأمريكي.  #الاعلام_الحربي",
-      "absolute_sentiment": -0.5,
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#إعلام_العدو   صحيفة معاريف العبرية: بحسب استطلاع رأي جديد أجرته الصحيفة، يواصل أيزنكوت تقدّمه ويوسّع الفارق مع حزب الليكود، ليحصل على 26 مقعدًا مقابل 23 مقعدًا لحزب الليكود. وتقترب المعارضة من تحقيق الأغلبية المطلوبة (61 مقعدًا)، إذ حصلت على 60 مقعدًا، مقابل 49 مقعدًا للائتلاف و11 مقعدًا للقوائم العربية.  #الاعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة معاريف العبرية: استطلاع مثير للقلق: يخشى نصف الإسرائيليين (50%) من عدم قبول الطرف الخاسر في انتخابات الكنيست للنتائج. 38% لا يخشون ذلك، بينما لا يعلم 12% آخرون شيئاً.  #الاعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: استشهاد طفل متأثراً بجراح أصيب بها برصاص قوات الاحتلال في مخيم للنازحين ببيت لاهيا شمالي القطاع",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: الطائرات الحربية الإسرائيلية اعتدت بغارات مستهدفة منطقة دوحة كفررمان لجهة تلة الدبشة في قضاء النبطية",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
