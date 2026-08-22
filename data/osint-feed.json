@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-22T05:22:32.728Z",
+  "last_updated": "2026-08-22T06:32:08.081Z",
   "tension": {
     "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.47",
-    "global_norm_sentiment": "-0.23"
+    "global_knn_danger": "0.48",
+    "global_norm_sentiment": "-0.20"
   },
   "timeline": [
-    {
-      "time": "2026-08-20T04:32:29.514Z",
-      "danger": 0.514,
-      "sentiment": -0.344,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.508,
-          "sentiment": -0.533
-        },
-        "OSINTdefender": {
-          "danger": 0.604,
-          "sentiment": 0.333
-        },
-        "irna_1313": {
-          "danger": 0.51,
-          "sentiment": -0.438
-        },
-        "sepah_pasdaran": {
-          "danger": 0.295,
-          "sentiment": -0.633
-        },
-        "almanarnews": {
-          "danger": 0.481,
-          "sentiment": -0.2
-        },
-        "C_Military1": {
-          "danger": 0.585,
-          "sentiment": -0.333
-        },
-        "almayadeen": {
-          "danger": 0.492,
-          "sentiment": -0.767
-        },
-        "QudsN": {
-          "danger": 0.711,
-          "sentiment": -0.7
-        }
-      }
-    },
     {
       "time": "2026-08-20T05:25:43.493Z",
       "danger": 0.503,
@@ -2261,6 +2214,53 @@
           "sentiment": 0.133
         }
       }
+    },
+    {
+      "time": "2026-08-22T06:32:08.081Z",
+      "danger": 0.479,
+      "sentiment": -0.202,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.318,
+          "sentiment": -0.333
+        },
+        "OSINTdefender": {
+          "danger": 0.515,
+          "sentiment": 0.1
+        },
+        "irna_1313": {
+          "danger": 0.531,
+          "sentiment": -0.1
+        },
+        "sepah_pasdaran": {
+          "danger": 0.519,
+          "sentiment": -0.5
+        },
+        "almanarnews": {
+          "danger": 0.345,
+          "sentiment": -0.467
+        },
+        "C_Military1": {
+          "danger": 0.464,
+          "sentiment": 0
+        },
+        "almayadeen": {
+          "danger": 0.494,
+          "sentiment": -0.533
+        },
+        "QudsN": {
+          "danger": 0.653,
+          "sentiment": -0.05
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2286,25 +2286,25 @@
       "name": "Global_OSINT",
       "num_messages": 15,
       "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.527072345365675
+      "knn_danger_metric": 0.51454189192535
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 11,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.5257185078887393
+      "num_messages": 15,
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.530652663486939
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.4592540563625168
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.5185518060368889
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.31199101489479947
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.34532434822813285
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.5506978893879075
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.49421895015152273
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.618991899472785
+      "num_messages": 10,
+      "raw_sentiment": -0.05,
+      "knn_danger_metric": 0.6527449192118062
     }
   },
   "semantic_logs": [
@@ -2341,24 +2341,17 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️رشد ۶ درصدی قیمت نفت در هفته‌ای که گذشت   نفت خام برنت، شاخص بین‌المللی نفت خام، با ۶۱ سنت (معادل ۰٫۶۵ درصد) افزایش، در سطح ۹۴٫۳۹ دلار در هر بشکه بسته شد &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#الجمهورية_الإسلامية   القائم بأعمال وزارة الدفاع الِإيرانية العميد مجيد ابن الرضا:  - القوة الدفاعية لإيران اليوم ليست من أجل إشعال الحرب، بل من أجل منع الحرب والاعتداء. لم نكن ولن نكون أبدًا البادئين بالاعتداء على أي دولة.  - نحن لسنا من دعاة الاعتداء العسكري، لكننا لن نسمح أيضًا بالاعتداء العسكري على أراضي البلاد واستقلالها وأمنها.  #الاعلام_الحربي",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: إصابة امرأة برصاص قوات الاحتلال قرب شارع الدعوة شمال شرقي مخيم النصيرات وسط قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: &quot;جيش&quot; الاحتلال الإسرائيلي نفذ تفجيراً في محيط بلدة المنصوري",
-      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2383,17 +2376,10 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "جيش الاحتلال يطلق قنابل إنارة في أجواء المناطق الجنوبية لمدينة خان يونس جنوبي قطاع غزة.",
+      "text": "لبنان: مراسل الميادين في الجنوب: مدفعية الاحتلال الاسرائيلي استهدفت أطراف ميس الجبل",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية | قوات الاحتلال تقتحم مدينة طوباس.",
-      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2407,6 +2393,20 @@
       "channelId": "QudsN",
       "channel": "Arab_Axis",
       "text": "عاجل| آليات الاحتلال تطلق النار بكثافة جنوبي خانيونس جنوبي قطاع غزة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جيش الاحتلال قدم تحذيرًا مكتوبًا للمستوى السياسي: الضفة الغربية قد تشهد انفجاراً واسعاً في أي لحظة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "وقفة حاشدة في مدينة مراكش المغربية مساء أمس رفضا لزيارة وزيرة النقل في حكومة الاحتلال",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
