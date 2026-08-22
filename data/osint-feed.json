@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-22T15:16:06.626Z",
+  "last_updated": "2026-08-22T16:18:13.397Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.21"
+    "global_norm_sentiment": "-0.22"
   },
   "timeline": [
-    {
-      "time": "2026-08-20T14:31:14.240Z",
-      "danger": 0.541,
-      "sentiment": -0.251,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.498,
-          "sentiment": -0.533
-        },
-        "OSINTdefender": {
-          "danger": 0.597,
-          "sentiment": 0.3
-        },
-        "irna_1313": {
-          "danger": 0.53,
-          "sentiment": -0.567
-        },
-        "sepah_pasdaran": {
-          "danger": 0.621,
-          "sentiment": -0.767
-        },
-        "almanarnews": {
-          "danger": 0.36,
-          "sentiment": 0.067
-        },
-        "C_Military1": {
-          "danger": 0.743,
-          "sentiment": -0.6
-        },
-        "almayadeen": {
-          "danger": 0.626,
-          "sentiment": 0
-        },
-        "QudsN": {
-          "danger": 0.489,
-          "sentiment": -0.273
-        }
-      }
-    },
     {
       "time": "2026-08-20T15:28:47.559Z",
       "danger": 0.548,
@@ -2261,13 +2214,60 @@
           "sentiment": 0.1
         }
       }
+    },
+    {
+      "time": "2026-08-22T16:18:13.397Z",
+      "danger": 0.519,
+      "sentiment": -0.22,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.583,
+          "sentiment": -0.567
+        },
+        "OSINTdefender": {
+          "danger": 0.572,
+          "sentiment": 0.033
+        },
+        "irna_1313": {
+          "danger": 0.426,
+          "sentiment": 0.267
+        },
+        "sepah_pasdaran": {
+          "danger": 0.409,
+          "sentiment": -0.5
+        },
+        "almanarnews": {
+          "danger": 0.314,
+          "sentiment": -0.267
+        },
+        "C_Military1": {
+          "danger": 0.645,
+          "sentiment": -0.231
+        },
+        "almayadeen": {
+          "danger": 0.578,
+          "sentiment": -0.567
+        },
+        "QudsN": {
+          "danger": 0.717,
+          "sentiment": -0.233
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2280,49 +2280,49 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.5793414882255338
+      "knn_danger_metric": 0.5830154575069569
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.5705382445789454
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.5717259594426067
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.6394847102922097
+      "raw_sentiment": 0.26666666666666666,
+      "knn_danger_metric": 0.42604310269980183
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.4449673680971565
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.4088593409069234
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.309440700670291
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.31442475014921
     },
     "C_Military1": {
       "name": "Hezbollah",
-      "num_messages": 11,
-      "raw_sentiment": -0.045454545454545456,
-      "knn_danger_metric": 0.530785501958277
+      "num_messages": 13,
+      "raw_sentiment": -0.23076923076923078,
+      "knn_danger_metric": 0.644891090181953
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.8,
-      "knn_danger_metric": 0.5852493914072393
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.5781160104631536
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.5499071183114063
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.7168760061034071
     }
   },
   "semantic_logs": [
@@ -2334,51 +2334,37 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🎥«خبرگردی» ۳۱ مرداد؛ بازار تقلب در آگهی‌های مسکن  🔹بسته خبری امروز نگاهی دارد به مهم‌ترین تحولات اقتصادی، اجتماعی و فرهنگی کشور؛ از شوک آمار مرگ‌ومیر ناشی از آلودگی هوا و جزئیات جدید واردات خودروهای کارکرده تا پیگیری وضعیت رزمندگان اسیر، اخبار کنکور و درخشش…",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   القائم بأعمال وزارة الدفاع الِإيرانية العميد مجيد ابن الرضا:  - القوة الدفاعية لإيران اليوم ليست من أجل إشعال الحرب، بل من أجل منع الحرب والاعتداء. لم نكن ولن نكون أبدًا البادئين بالاعتداء على أي دولة.  - نحن لسنا من دعاة الاعتداء العسكري، لكننا لن نسمح أيضًا بالاعتداء العسكري على أراضي البلاد واستقلالها وأمنها.  #الاعلام_الحربي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#الجمهورية_الإسلامية   رئيس مجلس الشورى محمد باقر قاليباف:   - لقد تلقينا رسائل متعددة من الدول المجاورة بشأن تشكيل ترتيبات أمنية جديدة وتعاون اقتصادي جديد في المنطقة.  - عرّضت الولايات المتحدة أمن كل واحد من حلفائها للخطر، من خلال التنمر والتجاهل المطلق لمصالحهم من أجل مصالح &quot;إسرائيل&quot;، إلى حد أنهم رأوا وجودهم بأكمله معرضاً للخطر للحظة.  - نظام إقليمي أصيل ومستقل سيجلب السلام والأمن حقاً إلى المنطقة.  #الاعلام_الحربي",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   قناة كان العبرية: بحسب مصدر مطّلع على النقاش بين &quot;إسرائيل&quot; والولايات المتحدة، أثارت &quot;إسرائيل&quot; أمام الأميركيين مخاوف من أن تركيا تستعد لنشر منظومة دفاع جوي في قاعدة «أبو الضهور» التي تعرّضت للهجوم.  #الاعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي بغارة استهدفت وادي صربين",
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   قناة كان العبرية: بحسب مصدر مطّلع على النقاش بين &quot;إسرائيل&quot; والولايات المتحدة، أثارت &quot;إسرائيل&quot; أمام الأميركيين مخاوف من أن تركيا تستعد لنشر منظومة دفاع جوي في قاعدة «أبو الضهور» التي تعرّضت للهجوم.  #الاعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "سوريا: وزارة الخارجية: ندين بشدة استهداف مسيرة للاحتلال الإسرائيلي سيارة مدنية على طريق مزرعة بيت جن - قرية بيت جن في ريف دمشق",
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   قناة كان العبرية: المعلومات الاستخبارية تشير إلى أن تركيا كانت تنوي نقل رادار إلى قاعد أبو الضهور في سوريا وبعدها ستنقل نظام دفاع جوي وجنود أتراك لتشغيله.  #الاعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: مدفعية الاحتلال استهدفت وادي السلوقي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في جنوب: اعتداء إسرائيلي بغارة استهدفت مجدداً وادي صربين",
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   قناة كان العبرية: &quot;إسرائيل&quot; اعتبرت بأن نقل منظومة دفاع جوي تركية الى سوريا خطوة من شأنها تغيير ميزان القوى الإقليمية في المنطقة.  #الاعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2397,10 +2383,31 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "كندا: كارني: كنا مستعدين لإلغاء الرسوم الانتقامية المتبقية على قطاعات استراتيجية لكننا لم نكن مستعدين لتقويض صناعاتنا الرئيسية",
+      "absolute_sentiment": -0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "سوريا: مصادر محلية من القنيطرة: دورية للاحتلال تتوغل على طريق جباثا الخشب وقرية أوفانيا بريف القنيطرة الشمالي وتنصب حاجزاً",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "سوريا: الإخبارية السورية: انفجار عبوة ناسفة يستهدف حافلة لقوى الأمن الداخلي على طريق معرونة صيدنايا ووقوع عدد من الإصابات",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "فلسطينيون يرعون أغنامهم وإبلهم قرب خيام ومبانٍ مدمرة في منطقة &quot;المغراقة&quot; وسط قطاع غزة، محاولين مواصلة حياتهم اليومية، وسط الحصار المستمر والأنقاض والدمار الواسع الذي خلفته الحرب الإسرائيلية.",
-      "absolute_sentiment": 1,
+      "text": "قوات الاحتلال تقتحم بلدة دير الغصون، شمال طولكرم.",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2413,23 +2420,16 @@
     {
       "channelId": "irna_1313",
       "channel": "IRGC",
-      "text": "🔸دستگیری شکارچیان ۵۰ راس آهو در «میمه»  🔹فرمانده انتظامی شهرستان شاهین شهر و میمه از دستگیری ۲ شکارچی غیرمجاز که اقدام به شکار ۵۰ رأس آهو کرده بودند، خبر داد.  🔹ماموران در بازدید از یک حلقه چاه تعداد ۴۱ جمجمه آهو را که متهمان از مناطق حفاظت‌شده شکار کرده بودند، کشف کردند.  https://irna.ir/xjY4p9 @IRNA_1313",
+      "text": "🔸تأکید قاهره بر کاهش تنش در منطقه و پایان تجاوزات اسرائیل علیه لبنان  🔹وزیر امور خارجه مصر در تماس تلفنی با همتای یونانی خود بر ضرورت کاهش تنش‌ها در منطقه و پایان دادن به تجاوزات رژیم صهیونیستی علیه لبنان تأکید کرد. #ایرنا_جهان   https://irna.ir/xjY4s4 @IRNA_1313",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9900416935917431
+      "semantic_danger_knn": 0.9951957023429895
     },
     {
       "channelId": "irna_1313",
       "channel": "IRGC",
-      "text": "🔸سوریه حمله پهپادی رژیم صهیونیستی به حومه دمشق را محکوم کرد  🔹وزارت امور خارجه سوریه حمله پهپادی ارتش رژیم اشغالگر به یک خودروی غیرنظامی در استان ریف دمشق را به شدت محکوم و اعلام کرد این تجاوز، نقض آشکار حاکمیت و یکپارچگی خاک سوریه و نقض آشکار قوانین بین‌المللی است. #ایرنا_جهان  https://irna.ir/xjY4pQ @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9545632319740609
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تعتدي على شبان فلسطينيين وتنكل بهم قرب مدخل ضاحية الجنان في جنين",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9262731058775845
+      "text": "🔸آغاز برخورد با اشغال معابر توسط نمایشگاه‌داران و مغازه‌داران  🔹رئیس پلیس ترافیک شهری راهور فراجا از آغاز فاز اجرایی طرح ساماندهی اشغال معابر توسط برخی نمایشگاه‌داران، مغازه‌داران و واحدهای تجاری خبر داد.  https://irna.ir/xjY4rh @IRNA_1313",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9949856863108547
     }
   ]
 }
