@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-22T07:27:51.550Z",
+  "last_updated": "2026-08-22T08:23:27.623Z",
   "tension": {
     "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.46",
-    "global_norm_sentiment": "-0.21"
+    "global_knn_danger": "0.47",
+    "global_norm_sentiment": "-0.23"
   },
   "timeline": [
-    {
-      "time": "2026-08-20T06:38:04.871Z",
-      "danger": 0.495,
-      "sentiment": -0.23,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.428,
-          "sentiment": -0.533
-        },
-        "OSINTdefender": {
-          "danger": 0.604,
-          "sentiment": 0.333
-        },
-        "irna_1313": {
-          "danger": 0.529,
-          "sentiment": -0.136
-        },
-        "sepah_pasdaran": {
-          "danger": 0.389,
-          "sentiment": -0.591
-        },
-        "almanarnews": {
-          "danger": 0.352,
-          "sentiment": -0.267
-        },
-        "C_Military1": {
-          "danger": 0.657,
-          "sentiment": -0.4
-        },
-        "almayadeen": {
-          "danger": 0.586,
-          "sentiment": -0.367
-        },
-        "QudsN": {
-          "danger": 0.456,
-          "sentiment": -0.208
-        }
-      }
-    },
     {
       "time": "2026-08-20T07:36:41.542Z",
       "danger": 0.511,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.292
         }
       }
+    },
+    {
+      "time": "2026-08-22T08:23:27.623Z",
+      "danger": 0.475,
+      "sentiment": -0.227,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.322,
+          "sentiment": -0.267
+        },
+        "OSINTdefender": {
+          "danger": 0.515,
+          "sentiment": 0.1
+        },
+        "irna_1313": {
+          "danger": 0.553,
+          "sentiment": -0.25
+        },
+        "sepah_pasdaran": {
+          "danger": 0.577,
+          "sentiment": -0.4
+        },
+        "almanarnews": {
+          "danger": 0.392,
+          "sentiment": -0.5
+        },
+        "C_Military1": {
+          "danger": 0.464,
+          "sentiment": 0
+        },
+        "almayadeen": {
+          "danger": 0.494,
+          "sentiment": -0.533
+        },
+        "QudsN": {
+          "danger": 0.48,
+          "sentiment": -0.292
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.2880132594430753
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.3218425623529998
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,21 +2290,21 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": 0.23333333333333334,
-      "knn_danger_metric": 0.4196927827072178
+      "num_messages": 14,
+      "raw_sentiment": -0.25,
+      "knn_danger_metric": 0.5527045785363149
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.5505269145427769
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.5774610413396567
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.35209673941343894
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.3918343311622721
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2322,7 +2322,7 @@
       "name": "Arab_Axis",
       "num_messages": 12,
       "raw_sentiment": -0.2916666666666667,
-      "knn_danger_metric": 0.5932408015554537
+      "knn_danger_metric": 0.4795911602886602
     }
   },
   "semantic_logs": [
@@ -2345,6 +2345,13 @@
       "channel": "IRGC",
       "text": "&rlm; ️رشد ۶ درصدی قیمت نفت در هفته‌ای که گذشت   نفت خام برنت، شاخص بین‌المللی نفت خام، با ۶۱ سنت (معادل ۰٫۶۵ درصد) افزایش، در سطح ۹۴٫۳۹ دلار در هر بشکه بسته شد &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 وزارة الدفاع الإيرانية: معدل إنتاج أسلحتنا الدفاعية خلال العام الماضي تضاعف https://almanar.com.lb/article/1115257/?s=tg",
+      "absolute_sentiment": -0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2385,13 +2392,6 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "جيش الاحتلال قدم تحذيرًا مكتوبًا للمستوى السياسي: الضفة الغربية قد تشهد انفجاراً واسعاً في أي لحظة.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
       "text": "وقفة حاشدة في مدينة مراكش المغربية مساء أمس رفضا لزيارة وزيرة النقل في حكومة الاحتلال",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
@@ -2411,11 +2411,11 @@
       "semantic_danger_knn": 0.998473562506925
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "לשכת ראש הממשלה נתניהו מגיבה להחלטה הטורקית לבקש מהאינטרפול התרעה אדומה נגד נתניהו☝️ :  &quot;ארדואן הוא דיקטטור אנטישמי שטבח בכורדים, מעניק מקלט למחבלי חמאס, כובש מחצית מקפריסין וכולא מספר שיא של עיתונאים ופוליטיקאים המתנגדים לו. כעת הוא מבקש להרחיב את תוקפנותו נגד ישראל גם לסוריה. ישראל לא תסבול זאת.  הניסיון העלוב של ארדואן להפחיד את מנהיגי ישראל ואת חייליה, הדמוקרטיה האמיתית היחידה במזרח התיכון, לא יצלח.&quot;  2 תגובות",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 0.9571000586552227
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "#ایرنا_جهان  🔸کشف انبار مخفی سلاح در نزدیکی برلین؛ مرحله تازه در تنش‌های آلمان و روسیه  🔹 روزنامه گاردین نوشت که مقامات آلمان پس از کشف یک انبار سلاح در جنگلی در نزدیکی برلین، بار دیگر انگشت اتهام را به سمت روسیه گرفتند و این کشور را به دست داشتن در طرح ترور و توطئه متهم کردند.  https://irna.ir/xjY48S @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9904567943036928
     },
     {
       "channelId": "sepah_pasdaran",
@@ -2425,11 +2425,11 @@
       "semantic_danger_knn": 0.9425644919004327
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   قائد الجيش اللواء أمير حاتمي:  - أدّت وزارة الدفاع وإسناد القوات المسلحة، خلال السنوات الماضية، دورًا فعّالًا في تعزيز قوة الردع والارتقاء بالقدرات الدفاعية للجمهورية الإسلامية الإيرانية، من خلال تصميم وتصنيع وتطوير مجموعة واسعة من المعدات والمنظومات الدفاعية التي تحتاج إليها القوات المسلحة.  - إنّ ما أصبح متاحًا اليوم للقوات المسلحة بفضل جهود أبناء الشعب في الصناعة الدفاعية، ليس مجرد مجموعة من المعدات والمنظومات؛ بل هو تجسيد للثقة بالقدرات الإيرانية، والاكتفاء الذاتي، والمعرفة المحلية، وإرادة شعب قرّر أن يضمن أمن بلاده واقتدارها بالاعتماد على قدراته الذاتية.  - وفي المجالات الصعبة الأخيرة أيضًا، أظهر الترابط بين القدرات القتالية للقوات المسلحة والإمكانات المتميزة للصناعة الدفاعية في البلاد، صورة واضحة لقوة إيران الوطنية، وأدى إلى أن يغيّر الأعداء حساباتهم أمام صمود الشعب الإيراني وقدرته الدفاعية، وأن يذعنوا في نهاية المطاف لقبول التفاهم والحل السياسي.  #الاعلام_الحربي",
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "بازگشت ایگور به تبریز  🔹 هافبک کروات تیم فوتبال تراکتور پس از سپری کردن مراحل درمانی خود، به تبریز بازگشت تا ادامه روند درمان و بازتوانی خود را زیر نظر کادر پزشکی و فنی این تیم دنبال کند.  https://irna.ir/xjY49C @IRNA_1313",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.8862122996333419
+      "semantic_danger_knn": 0.890662842493908
     }
   ]
 }
