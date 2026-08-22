@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-22T03:37:28.712Z",
+  "last_updated": "2026-08-22T04:28:08.014Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.51",
-    "global_norm_sentiment": "-0.21"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.47",
+    "global_norm_sentiment": "-0.25"
   },
   "timeline": [
-    {
-      "time": "2026-08-20T02:18:36.848Z",
-      "danger": 0.548,
-      "sentiment": -0.3,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.508,
-          "sentiment": -0.533
-        },
-        "OSINTdefender": {
-          "danger": 0.64,
-          "sentiment": 0.333
-        },
-        "irna_1313": {
-          "danger": 0.626,
-          "sentiment": -0.733
-        },
-        "sepah_pasdaran": {
-          "danger": 0.295,
-          "sentiment": -0.633
-        },
-        "almanarnews": {
-          "danger": 0.456,
-          "sentiment": 0.233
-        },
-        "C_Military1": {
-          "danger": 0.585,
-          "sentiment": -0.333
-        },
-        "almayadeen": {
-          "danger": 0.526,
-          "sentiment": -0.833
-        },
-        "QudsN": {
-          "danger": 0.9,
-          "sentiment": -0.367
-        }
-      }
-    },
     {
       "time": "2026-08-20T03:42:19.483Z",
       "danger": 0.538,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.067
         }
       }
+    },
+    {
+      "time": "2026-08-22T04:28:08.014Z",
+      "danger": 0.472,
+      "sentiment": -0.246,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.318,
+          "sentiment": -0.333
+        },
+        "OSINTdefender": {
+          "danger": 0.527,
+          "sentiment": 0.1
+        },
+        "irna_1313": {
+          "danger": 0.335,
+          "sentiment": -0.591
+        },
+        "sepah_pasdaran": {
+          "danger": 0.459,
+          "sentiment": -0.533
+        },
+        "almanarnews": {
+          "danger": 0.317,
+          "sentiment": -0.567
+        },
+        "C_Military1": {
+          "danger": 0.508,
+          "sentiment": 0
+        },
+        "almayadeen": {
+          "danger": 0.547,
+          "sentiment": -0.4
+        },
+        "QudsN": {
+          "danger": 0.761,
+          "sentiment": 0
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2285,14 +2285,14 @@
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.5374632031115306
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.527072345365675
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 11,
-      "raw_sentiment": -0.5454545454545454,
-      "knn_danger_metric": 0.3350290498682104
+      "raw_sentiment": -0.5909090909090909,
+      "knn_danger_metric": 0.3354399953901697
     },
     "sepah_pasdaran": {
       "name": "IRGC",
@@ -2303,26 +2303,26 @@
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.4228987964928724
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.3169750643737185
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 11,
       "raw_sentiment": 0,
-      "knn_danger_metric": 0.5094919612558133
+      "knn_danger_metric": 0.5084627196649889
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.7803407908883376
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.5470074575550044
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.7943044815062698
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.7609711481729364
     }
   },
   "semantic_logs": [
@@ -2341,13 +2341,6 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 إرشادات من وزارة الصحة للعاملين في ورش تصليح السيارات https://almanar.com.lb/article/1114587/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية - يوسي يهوشع: الأمريكيون تعلموا الدرس بالفعل في الحرب ضد إيران. دخلت الولايات المتحدة الأمريكية إلى المعركة بمخزونات أكبر بكثير من تلك الموجودة لدى &quot;إسرائيل&quot;، ومع ذلك، أدى الاستخدام المكثف للأسلحة وأنظمة الاعتراض إلى استنزاف هذه المخزونات بسرعة.  الآن، يحتاج الأمريكيون إلى سنوات لإعادة ملء هذه المخزونات.  وهذا بمثابة تحذير لـ&quot;إسرائيل&quot;: لا يمكن الاعتماد على &quot;خط إمداد جوي&quot; غير محدود. الولايات المتحدة الأمريكية هي الحليف الأهم لـ&quot;إسرائيل&quot;، ولكن حتى لدى الأمريكيين مخزونات، ومصانع، وحروب أخرى. في أي صراع شامل، ستحتاج &quot;إسرائيل&quot; إلى امتلاك مخزونات خاصة بها تمكنها من القتال لفترة طويلة.  لذلك، يجب أيضًا النظر في الاستقلالية الصناعية. يجب على &quot;إسرائيل&quot; زيادة الإنتاج المحلي للأسلحة وأنظمة الاعتراض، وتوسيع خطوط الإنتاج، والحفاظ على مخزونات استراتيجية أكبر.  #الاعلام_الحربي",
@@ -2359,34 +2352,6 @@
       "channel": "Hezbollah",
       "text": "#الجمهورية_الإسلامية   القائم بأعمال وزارة الدفاع الِإيرانية العميد مجيد ابن الرضا:  - القوة الدفاعية لإيران اليوم ليست من أجل إشعال الحرب، بل من أجل منع الحرب والاعتداء. لم نكن ولن نكون أبدًا البادئين بالاعتداء على أي دولة.  - نحن لسنا من دعاة الاعتداء العسكري، لكننا لن نسمح أيضًا بالاعتداء العسكري على أراضي البلاد واستقلالها وأمنها.  #الاعلام_الحربي",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: دبابة &quot;ميركافا&quot; إسرائيلية تستهدفت أطراف بلدة تبنين في قضاء بنت جبيل جنوبي البلاد",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: &quot;جيش&quot; الاحتلال ينفذ تفجيراً في قرية بيوت السياد في قضاء صور جنوبي البلاد",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: قصف مدفعي إسرائيلي يستهدف أطراف زوطر الشرقية بالتزامن مع عملية تمشيط بالأسلحة الرشاشة",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي يستهدف شرقي مدينة غزة",
-      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2427,8 +2392,43 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم مدينة دورا جنوب الخليل",
+      "text": "جيش الاحتلال قدم تحذيرًا مكتوبًا للمستوى السياسي: الضفة الغربية قد تشهد انفجاراً واسعاً في أي لحظة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "هكذا قتل جنود الاحتلال القيادي فتحي خازم &quot;أبو رعد&quot; داخل منزله في جنين.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم المنطقة الغربية في نابلس من حاجز دير شرف.",
       "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تقتحم منطقة دوار الشهداء وسط مدينة نابلس.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تحتجز شابا فلسطينيا خلال اقتحامها منطقة الدوار وسط مدينة نابلس.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جيش الاحتلال يطلق قنابل إنارة في أجواء المناطق الجنوبية لمدينة خان يونس جنوبي قطاع غزة.",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
   ]
