@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-22T14:16:32.679Z",
+  "last_updated": "2026-08-22T15:16:06.626Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.10"
+    "global_norm_sentiment": "-0.21"
   },
   "timeline": [
-    {
-      "time": "2026-08-20T13:42:00.435Z",
-      "danger": 0.532,
-      "sentiment": -0.223,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.521,
-          "sentiment": -0.6
-        },
-        "OSINTdefender": {
-          "danger": 0.597,
-          "sentiment": 0.3
-        },
-        "irna_1313": {
-          "danger": 0.605,
-          "sentiment": -0.533
-        },
-        "sepah_pasdaran": {
-          "danger": 0.642,
-          "sentiment": -0.667
-        },
-        "almanarnews": {
-          "danger": 0.391,
-          "sentiment": 0.2
-        },
-        "C_Military1": {
-          "danger": 0.719,
-          "sentiment": -0.6
-        },
-        "almayadeen": {
-          "danger": 0.479,
-          "sentiment": 0.3
-        },
-        "QudsN": {
-          "danger": 0.42,
-          "sentiment": -0.5
-        }
-      }
-    },
     {
       "time": "2026-08-20T14:31:14.240Z",
       "danger": 0.541,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.107
         }
       }
+    },
+    {
+      "time": "2026-08-22T15:16:06.626Z",
+      "danger": 0.516,
+      "sentiment": -0.208,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.579,
+          "sentiment": -0.567
+        },
+        "OSINTdefender": {
+          "danger": 0.571,
+          "sentiment": 0.067
+        },
+        "irna_1313": {
+          "danger": 0.639,
+          "sentiment": -0.233
+        },
+        "sepah_pasdaran": {
+          "danger": 0.445,
+          "sentiment": -0.233
+        },
+        "almanarnews": {
+          "danger": 0.309,
+          "sentiment": -0.2
+        },
+        "C_Military1": {
+          "danger": 0.531,
+          "sentiment": -0.045
+        },
+        "almayadeen": {
+          "danger": 0.585,
+          "sentiment": -0.8
+        },
+        "QudsN": {
+          "danger": 0.55,
+          "sentiment": 0.1
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.6688652882930924
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.5793414882255338
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.5801953289604308
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.5705382445789454
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.43066164354044056
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.6394847102922097
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.43125862171587986
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.4449673680971565
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
+      "raw_sentiment": -0.2,
       "knn_danger_metric": 0.309440700670291
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 11,
-      "raw_sentiment": 0.09090909090909091,
+      "raw_sentiment": -0.045454545454545456,
       "knn_danger_metric": 0.530785501958277
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.6894315392106815
+      "raw_sentiment": -0.8,
+      "knn_danger_metric": 0.5852493914072393
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 14,
-      "raw_sentiment": -0.10714285714285714,
-      "knn_danger_metric": 0.5655010623964922
+      "num_messages": 15,
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.5499071183114063
     }
   },
   "semantic_logs": [
@@ -2334,17 +2334,10 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "תקיפה ישראלית ברצועת עזה   עיתונאים עזתיים מדווחים לפני זמן קצר על הרוג בתקיפת כטב&quot;מ ישראלי בית משפחת אלחסנאת בדיר אלבלח במרכז רצועת עזה.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "תקיפה ישראלית ברצועת עזה   עיתונאים עזתיים מדווחים לפני זמן קצר על הרוג בתקיפת כטב&quot;מ ישראלי בית משפחת אלחסנאת בדיר אלבלח במרכז רצועת עזה.  תגובה אחת",
-      "absolute_sentiment": -1,
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🎥«خبرگردی» ۳۱ مرداد؛ بازار تقلب در آگهی‌های مسکن  🔹بسته خبری امروز نگاهی دارد به مهم‌ترین تحولات اقتصادی، اجتماعی و فرهنگی کشور؛ از شوک آمار مرگ‌ومیر ناشی از آلودگی هوا و جزئیات جدید واردات خودروهای کارکرده تا پیگیری وضعیت رزمندگان اسیر، اخبار کنکور و درخشش…",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2358,14 +2351,7 @@
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#الجمهورية_الإسلامية   رئيس مجلس الشورى محمد باقر قاليباف:   - لقد تلقينا رسائل متعددة من الدول المجاورة بشأن تشكيل ترتيبات أمنية جديدة وتعاون اقتصادي جديد في المنطقة.  - عرّضت الولايات المتحدة أمن كل واحد من حلفائها للخطر، من خلال التنمر والتجاهل المطلق لمصالحهم من أجل مصالح &quot;إسرائيل&quot;، إلى حد أنهم رأوا وجودهم بأكمله معرضاً للخطر للحظة.  - نظام إقليمي أصيل ومستقل سيجلب السلام والأمن حقاً إلى المنطقة.  #الاعلام_الحربي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: طائب: يجب أن تكون الوحدة الوطنية أساس داعم للقوة الصاروخية",
-      "absolute_sentiment": 0.5,
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2413,7 +2399,7 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "فلسطينيون يرعون أغنامهم وإبلهم قرب خيام ومبانٍ مدمرة في منطقة &quot;المغراقة&quot; وسط قطاع غزة، محاولين مواصل�� حياتهم اليومية، وسط الحصار المستمر والأنقاض والدمار الواسع الذي خلفته الحرب الإسرائيلية.",
+      "text": "فلسطينيون يرعون أغنامهم وإبلهم قرب خيام ومبانٍ مدمرة في منطقة &quot;المغراقة&quot; وسط قطاع غزة، محاولين مواصلة حياتهم اليومية، وسط الحصار المستمر والأنقاض والدمار الواسع الذي خلفته الحرب الإسرائيلية.",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
@@ -2427,9 +2413,23 @@
     {
       "channelId": "irna_1313",
       "channel": "IRGC",
-      "text": "🎥حمله توپخانه‌ای عصر امروز رژیم صهیونیستی به منطقه «علی الطاهر» در جنوب لبنان  #ایرنا_جهان @IRNA_1313",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9951957023429894
+      "text": "🔸دستگیری شکارچیان ۵۰ راس آهو در «میمه»  🔹فرمانده انتظامی شهرستان شاهین شهر و میمه از دستگیری ۲ شکارچی غیرمجاز که اقدام به شکار ۵۰ رأس آهو کرده بودند، خبر داد.  🔹ماموران در بازدید از یک حلقه چاه تعداد ۴۱ جمجمه آهو را که متهمان از مناطق حفاظت‌شده شکار کرده بودند، کشف کردند.  https://irna.ir/xjY4p9 @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9900416935917431
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸سوریه حمله پهپادی رژیم صهیونیستی به حومه دمشق را محکوم کرد  🔹وزارت امور خارجه سوریه حمله پهپادی ارتش رژیم اشغالگر به یک خودروی غیرنظامی در استان ریف دمشق را به شدت محکوم و اعلام کرد این تجاوز، نقض آشکار حاکمیت و یکپارچگی خاک سوریه و نقض آشکار قوانین بین‌المللی است. #ایرنا_جهان  https://irna.ir/xjY4pQ @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9545632319740609
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تعتدي على شبان فلسطينيين وتنكل بهم قرب مدخل ضاحية الجنان في جنين",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9262731058775845
     }
   ]
 }
