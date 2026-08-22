@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-22T09:22:27.752Z",
+  "last_updated": "2026-08-22T10:17:53.705Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.44",
-    "global_norm_sentiment": "-0.12"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.50",
+    "global_norm_sentiment": "-0.09"
   },
   "timeline": [
-    {
-      "time": "2026-08-20T08:32:26.946Z",
-      "danger": 0.522,
-      "sentiment": -0.217,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.472,
-          "sentiment": -0.6
-        },
-        "OSINTdefender": {
-          "danger": 0.614,
-          "sentiment": 0.267
-        },
-        "irna_1313": {
-          "danger": 0.462,
-          "sentiment": -0.3
-        },
-        "sepah_pasdaran": {
-          "danger": 0.436,
-          "sentiment": -0.333
-        },
-        "almanarnews": {
-          "danger": 0.393,
-          "sentiment": -0.267
-        },
-        "C_Military1": {
-          "danger": 0.657,
-          "sentiment": -0.4
-        },
-        "almayadeen": {
-          "danger": 0.497,
-          "sentiment": -0.4
-        },
-        "QudsN": {
-          "danger": 0.74,
-          "sentiment": 0
-        }
-      }
-    },
     {
       "time": "2026-08-20T09:29:07.012Z",
       "danger": 0.49,
@@ -2261,6 +2214,53 @@
           "sentiment": 0
         }
       }
+    },
+    {
+      "time": "2026-08-22T10:17:53.705Z",
+      "danger": 0.504,
+      "sentiment": -0.085,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.451,
+          "sentiment": -0.4
+        },
+        "OSINTdefender": {
+          "danger": 0.515,
+          "sentiment": 0.133
+        },
+        "irna_1313": {
+          "danger": 0.431,
+          "sentiment": 0.167
+        },
+        "sepah_pasdaran": {
+          "danger": 0.477,
+          "sentiment": -0.1
+        },
+        "almanarnews": {
+          "danger": 0.607,
+          "sentiment": 0.033
+        },
+        "C_Military1": {
+          "danger": 0.464,
+          "sentiment": 0
+        },
+        "almayadeen": {
+          "danger": 0.595,
+          "sentiment": -0.433
+        },
+        "QudsN": {
+          "danger": 0.546,
+          "sentiment": -0.083
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.356702552676743
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.45116254101212855
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,21 +2290,21 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.3220768919654561
+      "num_messages": 12,
+      "raw_sentiment": 0.16666666666666666,
+      "knn_danger_metric": 0.43064603988548206
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.5468842507887285
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.47681965299219026
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.4582622759871914
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.6071900018370694
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.4942191994604663
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.5949211832944624
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.33911021335941377
+      "num_messages": 12,
+      "raw_sentiment": -0.08333333333333333,
+      "knn_danger_metric": 0.5463125643736603
     }
   },
   "semantic_logs": [
@@ -2348,24 +2348,17 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "تفجير اسـرائيلي عنيف في في بلدة #كفرتبنيت في جنوب #لبنان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#الجمهورية_الإسلامية   القائم بأعمال وزارة الدفاع الِإيرانية العميد مجيد ابن الرضا:  - القوة الدفاعية لإيران اليوم ليست من أجل إشعال الحرب، بل من أجل منع الحرب والاعتداء. لم نكن ولن نكون أبدًا البادئين بالاعتداء على أي دولة.  - نحن لسنا من دعاة الاعتداء العسكري، لكننا لن نسمح أيضًا بالاعتداء العسكري على أراضي البلاد واستقلالها وأمنها.  #الاعلام_الحربي",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: مدفعية الاحتلال الاسرائيلي استهدفت أطراف ميس الجبل",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: الاحتلال يلقي قنبلة صوتية قرب احد الرعاة في بلدة صربين",
-      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2376,16 +2369,58 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مستوطنون برفقة شرطة الاحتلال يقتحمون خربة الخرابة شرق بلدة السموع جنوب الخليل ويحاولون سرقة أغنام من الأهالي",
-      "absolute_sentiment": 1,
+      "text": "لبنان: مراسل الميادين في الجنوب: التفجير الذي نفذه الاحتلال في بلدة كفرتبنيت سُمع صداه في كامل الجنوب",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: أهالي كفرتبنيت أفادوا بأن نسبة الدمار في بلدتهم نتيجة التفجيرات الإسرائيلية كبيرة جداً",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: &quot;جيش&quot; الاحتلال الاسرائيلي نفذ تفجيراً كبيراً في بلدة طلوسة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: &quot;جيش&quot; الاحتلال الاسرائيلي نفذ تفجيراً عند أطراف ميس الجبل",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال ومليشيات المستوطنين تحتجز عددا من الأهالي وطاقم بلدية بيت فوريك في المنطقة الشرقية من البلدة وتعتدي عليهم بالضرب.",
+      "text": "قوات الاحتلال تواصل احتجاز عدد من الأهالي في المنطقة الشرقية ببلدة بيت فوريك شرق نابلس",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر سورية: إصابة جراء قصف الاحتلال لمركبة قرب بلدة بيت جن بريف دمشق",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تعتقل شابًا وتنكل به، قرب شارع المعهد المحاذي لمخيم قلنديا شمال القدس المحتلة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تغلق المدخل الغربي لقرية المغير شمال شرق رام الله",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2395,41 +2430,6 @@
       "text": "#الجمهورية_الإسلامية   وزير الخارجية عباس عراقجي:  قبل 14 عامًا: «أشدّ العقوبات إيلامًا في التاريخ.» فشلت.  قبل 8 أعوام: «الضغط الأقصى.» فشل.  قبل 5 أشهر: «الاستسلام غير المشروط.» فشل.  اليوم: «أكثر العمليات الاقتصادية سحقًا على الإطلاق.» وهذه أيضًا محكوم عليها بالفشل.  لقد شاهدنا هذا الفيلم من قبل؛ الكلام نفسه والهراء نفسه، لكن المتجبّرين فقط هم الذين تغيّروا.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.998473562506925
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️سردار باقرزاده: وضعیت جسمی برخی خلبانان ایرانی در قطر مناسب نیست  &rlm;🔹 وی خواستار انتقال سریع اسرای مجروح و بیمار به ایران و انتقال محل نگهداری آن‌ها به خشکی و بیمارستان مجهز شد.باقرزاده همچنین خواستار رعایت حقوق اسرای جنگی و ارتباط آن‌ها با خانواده‌هایشان شد. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.8896033680271904
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   قائد الجيش اللواء أمير حاتمي:  - أدّت وزارة الدفاع وإسناد القوات المسلحة، خلال السنوات الماضية، دورًا فعّالًا في تعزيز قوة الردع والارتقاء بالقدرات الدفاعية للجمهورية الإسلامية الإيرانية، من خلال تصميم وتصنيع وتطوير مجموعة واسعة من المعدات والمنظومات الدفاعية التي تحتاج إليها القوات المسلحة.  - إنّ ما أصبح متاحًا اليوم للقوات المسلحة بفضل جهود أبناء الشعب في الصناعة الدفاعية، ليس مجرد مجموعة من المعدات والمنظومات؛ بل هو تجسيد للثقة بالقدرات الإيرانية، والاكتفاء الذاتي، والمعرفة المحلية، وإرادة شعب قرّر أن يضمن أمن بلاده واقتدارها بالاعتماد على قدراته الذاتية.  - وفي المجالات الصعبة الأخيرة أيضًا، أظهر الترابط بين القدرات القتالية للقوات المسلحة والإمكانات المتميزة للصناعة الدفاعية في البلاد، صورة واضحة لقوة إيران الوطنية، وأدى إلى أن يغيّر الأعداء حساباتهم أمام صمود الشعب الإيراني وقدرته الدفاعية، وأن يذعنوا في نهاية المطاف لقبول التفاهم والحل السياسي.  #الاعلام_الحربي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.8862122996333419
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸شتاب در بازسازی شریان‌های ارتباطی هرمزگان پس از تجاوز دشمن منوچهر صمدی - خبرنگار ایرنا  🔹 آسیب به برخی زیرساخت‌های محورهای ارتباطی هرمزگان در پی تجاوز دشمن، اگرچه بخشی از شریان‌های حیاتی تردد استان را با اختلال مواجه کرد، اما با آغاز عملیات جهادی دستگاه‌های اجرایی، روند ترمیم و بازسازی این زیرساخت‌ها با شتاب در حال انجام است و پل‌ها و مسیرهای آسیب‌دیده یکی پس از دیگری برای بازگشت به مدار تردد آماده می‌شوند.  https://irna.ir/xjY4bd @IRNA_1313",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.8538351551677783
-    },
-    {
-      "channelId": "OSINTdefender",
-      "channel": "Global_OSINT",
-      "text": "#Germany   STARK has delivered the first Seetaube autonomous unmanned surface vessel (USV) to the German Armed Forces&#39; Cyber Command.  Subscribe to @OSINTdefender | 💬 Chat room",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.8475904810162481
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ادامۀ تجاوزات رژیم صهیونیستی به جنوب لبنان   &rlm;🔹 منابع خبری از حملۀ هوایی رژیم صهیونیستی به حومۀ ارتفاعات «علی الطاهر» در جنوب لبنان خبر دادند. &lrm;✅ ️@sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.8324025503624157
     }
   ]
 }
