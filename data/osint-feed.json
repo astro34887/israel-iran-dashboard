@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-23T13:28:23.954Z",
+  "last_updated": "2026-08-23T14:18:26.489Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.19"
+    "global_knn_danger": "0.55",
+    "global_norm_sentiment": "-0.27"
   },
   "timeline": [
-    {
-      "time": "2026-08-21T12:37:32.932Z",
-      "danger": 0.524,
-      "sentiment": -0.147,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.597,
-          "sentiment": -0.5
-        },
-        "OSINTdefender": {
-          "danger": 0.619,
-          "sentiment": -0.167
-        },
-        "irna_1313": {
-          "danger": 0.321,
-          "sentiment": 0.367
-        },
-        "sepah_pasdaran": {
-          "danger": 0.453,
-          "sentiment": -0.367
-        },
-        "almanarnews": {
-          "danger": 0.429,
-          "sentiment": 0.033
-        },
-        "C_Military1": {
-          "danger": 0.748,
-          "sentiment": -0.367
-        },
-        "almayadeen": {
-          "danger": 0.641,
-          "sentiment": -0.067
-        },
-        "QudsN": {
-          "danger": 0.484,
-          "sentiment": -0.269
-        }
-      }
-    },
     {
       "time": "2026-08-21T13:41:08.225Z",
       "danger": 0.52,
@@ -2261,13 +2214,60 @@
           "sentiment": 0.125
         }
       }
+    },
+    {
+      "time": "2026-08-23T14:18:26.489Z",
+      "danger": 0.546,
+      "sentiment": -0.268,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.554,
+          "sentiment": -0.533
+        },
+        "OSINTdefender": {
+          "danger": 0.663,
+          "sentiment": 0.333
+        },
+        "irna_1313": {
+          "danger": 0.551,
+          "sentiment": -0.4
+        },
+        "sepah_pasdaran": {
+          "danger": 0.338,
+          "sentiment": -0.267
+        },
+        "almanarnews": {
+          "danger": 0.42,
+          "sentiment": -0.267
+        },
+        "C_Military1": {
+          "danger": 0.648,
+          "sentiment": -0.467
+        },
+        "almayadeen": {
+          "danger": 0.75,
+          "sentiment": -0.767
+        },
+        "QudsN": {
+          "danger": 0.591,
+          "sentiment": -0.143
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.574885529222389
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.5540989702157307
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 14,
-      "raw_sentiment": -0.42857142857142855,
-      "knn_danger_metric": 0.36205953736845004
+      "num_messages": 15,
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.5511690663728296
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.3582320716441061
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.33809465985286097
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.5000302381657142
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.4195991132490512
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.6717653576220449
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.6477896055286259
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.7454292510551574
+      "raw_sentiment": -0.7666666666666667,
+      "knn_danger_metric": 0.7496855608600402
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 8,
-      "raw_sentiment": 0.125,
-      "knn_danger_metric": 0.5744781602148124
+      "num_messages": 14,
+      "raw_sentiment": -0.14285714285714285,
+      "knn_danger_metric": 0.5908297558304093
     }
   },
   "semantic_logs": [
@@ -2336,14 +2336,7 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "עצמאיים, בואו נדבר תכל&#39;ס: כמה כסף אתם שורפים על ביורוקרטיה? 🚨 שוב סוף חודש? שוב הרואה חשבון רודף אחריכם על כל קבלה של פייסבוק או דלק? 🤦‍♂️ חלאס עם החיפושים המתישים במייל&#33; 📩 הזמן שלכם שווה כסף, ואתם מבזבזים אותו על ניירת. לא נמאס לכם???  קבלו את ה-GAME CHANGER של העסק שלכם: INBOT 🤖. מערכת ה-AI שלנו מתלבשת לכם על ה-GMAIL, שואבת אוטומטית כל חשבונית, מקטלגת אותה – ומשגרת הכל ישירות לרואה החשבון 🚀. בלי להוריד קבצים, בלי צילומי מסך, בלי כאב ראש. עובד על 100% אוטומט&#33; ⚙️  לא מאמינים? קחו אותנו לסיבוב על חשבוננו&#33; קבלו 30 ימים ראשונים ב-ח-י-נ-ם&#33; 🎁 (בלי טריקים ובלי אותיות קטנות). והשוס? אתם מקבלים סריקה של 60 ימים אחורה + 30 ימים קדימה&#33; מה שאומר שהדיווח הקרוב שלכם לרו&quot;ח כבר מוכן ומסודר&#33;&#33;&#33; ✅  אחרי שתבינו שאתם לא יכולים לחיות בלי זה, המחיר הוא פשוט בדיחה: החל מ-41 ש&quot;ח בחודש בלבד&#33; 🔥 כן, פחות ממנת שווארמה 🌯 בשביל שקט נפשי טוטאלי ושליטה מלאה בהוצאות שלכם.  למה אתם מחכים? תנו לרובוט לעשות את העבודה השחורה, ותתחילו להתעסק במה שבאמת מכניס כסף לעסק 💰.  קליק אחד ואתם בפנים. תתחילו את החודש בחינם עכשיו 👇 https://www.inbot.co.il",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "היסטוריה באיראן: המטבע המקומי חצה את רף שני מיליון הריאל לדולר אמריקאי אחד - השער הנמוך ביותר של המטבע האיראני בכל הזמנים - נשבר גם רף פסיכולוגי - 2 מיליון&#33; קידומת חדשה.  תגובה אחת",
+      "text": "היסטוריה באיראן: המטבע המקומי חצה את רף שני מיליון הריאל לדולר אמריקאי אחד - השער הנמו�� ביותר של המטבע האיראני בכל הזמנים - נשבר גם רף פסיכולוגי - 2 מיליון&#33; קידומת חדשה.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2358,7 +2351,7 @@
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
       "text": "°תוכן שיווקי  עצמאיים, בואו נדבר תכל&#39;ס: כמה כסף אתם שורפים על ביורוקרטיה? 🚨 שוב סוף חודש? שוב הרואה חשבון רודף אחריכם על כל קבלה של פייסבוק או דלק? 🤦‍♂️ חלאס עם החיפושים המתישים במייל&#33; 📩 הזמן שלכם שווה כסף, ואתם מבזבזים אותו על ניירת. לא נמאס לכם???  קבלו את ה-GAME CHANGER של העסק שלכם: INBOT 🤖. מערכת ה-AI שלנו מתלבשת לכם על ה-GMAIL, שואבת אוטומטית כל חשבונית, מקטלגת אותה – ומשגרת הכל ישירות לרואה החשבון 🚀. בלי להוריד קבצים, בלי צילומי מסך, בלי כאב ראש. עובד על 100% אוטומט&#33; ⚙️  לא מאמינים? קחו אותנו לסיבוב על חשבוננו&#33; קבלו 30 ימים ראשונים ב-ח-י-נ-ם&#33; 🎁 (בלי טריקים ובלי אותיות קטנות). והשוס? אתם מקבלים סריקה של 60 ימים אחורה + 30 ימים קדימה&#33; מה שאומר שהדיווח הקרוב שלכם לרו&quot;ח כבר מוכן ומסודר&#33;&#33;&#33; ✅  אחרי שתבינו שאתם לא יכולים לחיות בלי זה, המחיר הוא פשוט בדיחה: החל מ-41 ש&quot;ח בחודש בלבד&#33; 🔥 כן, פחות ממנת שווארמה 🌯 בשביל שקט נפשי טוטאלי ושליטה מלאה בהוצאות שלכם.  למה אתם מחכים? תנו לרובוט לעשות את העבודה השחורה, ותתחילו להתעסק במה שבאמת מכניס כסף לעסק 💰.  קליק אחד ואתם בפנים. תתחילו את החודש בחינם עכשיו 👇 https://www.inbot.co.il",
-      "absolute_sentiment": -1,
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2376,9 +2369,9 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
+      "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   قناة كان العبرية: بحسب مصدر مطّلع على النقاش بين &quot;إسرائيل&quot; والولايات المتحدة، أثارت &quot;إسرائيل&quot; أمام الأميركيين مخاوف من أن تركيا تستعد لنشر منظومة دفاع جوي في قاعدة «أبو الضهور» التي تعرّضت للهجوم.  #الاعلام_الحربي",
+      "text": "🔵 عراقجي: ليس أمام الادارة الاميركية خيار سوى التحدث باحترام مع الشعب الإيراني",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2399,35 +2392,42 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: اعتداءات إسرائيلية وعمليات إحراق لممتلكات المواطنين في بلدة زوطر الشرقية",
-      "absolute_sentiment": 0.5,
+      "text": "غزة: مراسل الميادين: قصف عنيف على الزوايدة وسط القطاع",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: ساتر جديد أقامته قوات الاحتلال في بلدة زوطر الشرقية",
+      "text": "غزة: مراسل الميادين: إصابات في قصف إسرائيلي لمربع سكني في الزوايدة وسط قطاع غزة",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: الاحتلال لا يدمر المنازل فحسب بل يقوم بعمليات سرقة ممنهجة للأشجار",
+      "text": "غزة: مراسل الميادين: استشهاد طفل في قصف إسرائيلي معادٍ استهدف بلدة الزوايدة أثناء توجهه لجلب المياه",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: استشهاد طفل يبلغ من العمر 4 سنوات باستهداف طائرات الاحتلال مخيم المغازي وسط قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: وزارة الصحة في غزة: شهيد و5 إصابات وصلت مستشفيات القطاع خلال الساعات الـ24 الماضية",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: 4 مصابين من جراء إلقاء مسيرة إسرائيلية قنبلة على مجموعة من المواطنين في حي المحطة شمالي مدينة خان يونس",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "غزة: مراسل الميادين: قصف عنيف على الزوايدة وسط القطاع",
+      "text": "فلسطين المحتلة: مراسل الميادين: مدفعية الاحتلال تعتدي على المناطق الشرقية لمدينة غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
