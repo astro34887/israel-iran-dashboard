@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-23T15:17:40.348Z",
+  "last_updated": "2026-08-23T16:19:33.180Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.55",
-    "global_norm_sentiment": "-0.20"
+    "global_knn_danger": "0.54",
+    "global_norm_sentiment": "-0.21"
   },
   "timeline": [
-    {
-      "time": "2026-08-21T14:29:45.299Z",
-      "danger": 0.546,
-      "sentiment": -0.23,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.487,
-          "sentiment": -0.8
-        },
-        "OSINTdefender": {
-          "danger": 0.601,
-          "sentiment": 0
-        },
-        "irna_1313": {
-          "danger": 0.559,
-          "sentiment": -0.267
-        },
-        "sepah_pasdaran": {
-          "danger": 0.483,
-          "sentiment": -0.767
-        },
-        "almanarnews": {
-          "danger": 0.569,
-          "sentiment": -0.2
-        },
-        "C_Military1": {
-          "danger": 0.389,
-          "sentiment": 0
-        },
-        "almayadeen": {
-          "danger": 0.748,
-          "sentiment": 0.167
-        },
-        "QudsN": {
-          "danger": 0.677,
-          "sentiment": -0.267
-        }
-      }
-    },
     {
       "time": "2026-08-21T15:27:53.245Z",
       "danger": 0.532,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.357
         }
       }
+    },
+    {
+      "time": "2026-08-23T16:19:33.180Z",
+      "danger": 0.535,
+      "sentiment": -0.213,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.681,
+          "sentiment": -0.633
+        },
+        "OSINTdefender": {
+          "danger": 0.663,
+          "sentiment": 0.333
+        },
+        "irna_1313": {
+          "danger": 0.353,
+          "sentiment": -0.333
+        },
+        "sepah_pasdaran": {
+          "danger": 0.306,
+          "sentiment": -0.267
+        },
+        "almanarnews": {
+          "danger": 0.401,
+          "sentiment": -0.2
+        },
+        "C_Military1": {
+          "danger": 0.648,
+          "sentiment": -0.433
+        },
+        "almayadeen": {
+          "danger": 0.766,
+          "sentiment": -0.233
+        },
+        "QudsN": {
+          "danger": 0.586,
+          "sentiment": -0.233
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.7666666666666667,
-      "knn_danger_metric": 0.5684166946156568
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.6811916307997017
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,21 +2290,21 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 11,
-      "raw_sentiment": 0.09090909090909091,
-      "knn_danger_metric": 0.43984652720235046
+      "num_messages": 15,
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.3530581748420489
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.35527243486252635
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.30601889413521205
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.4431443432542872
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.40073995718742766
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.7971229288607972
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.7658460960837153
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 14,
-      "raw_sentiment": -0.35714285714285715,
-      "knn_danger_metric": 0.6321255216729937
+      "num_messages": 15,
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.5863774145346708
     }
   },
   "semantic_logs": [
@@ -2357,6 +2357,13 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
+      "text": "החות&#39;ים הצליחו להפיל כטב&quot;ם סעודי נוסף - מסוג Scan Eagle מתוצרת בואינג.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
       "text": "שיקום זה הרבה יותר ממה שאתם חושבים:  טיפול נפשי לכל המשפחה – זה שיקום.  הטיפול הרפואי הטוב ביותר - שיקום.  וגם מימון תואר וראש שקט - זה שיקום.  פצועי ופצועות צה&#39;&#39;ל בגוף ובנפש  יש לנו עוד הרבה מענים עבורכם:  פעילויות ספורט וטיפולים אלטרנטיביים,  קבוצות טיפול בחוות בטבע וניידת חירום נפשית שתגיע עד אליכם – כל זה - שיקום.  היכנסו לאתר אגף השיקום במשרד הביטחון  וממשו את זכויותיכם.  https://shikum.mod.gov.il/",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
@@ -2376,13 +2383,6 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 عراقجي: ليس أمام الادارة الاميركية خيار سوى التحدث باحترام مع الشعب الإيراني",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#إعلام_العدو   قناة كان العبرية: المعلومات الاستخبارية تشير إلى أن تركيا كانت تنوي نقل رادار إلى قاعد أبو الضهور في سوريا وبعدها ستنقل نظام دفاع جوي وجنود أتراك لتشغيله.  #الاعلام_الحربي",
@@ -2399,36 +2399,36 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: طيران الاحتلال يعتدي على المناطق الغربية لمدينة خان يونس جنوبي قطاع غزة",
+      "text": "فلسطين المحتلة: مراسل الميادين: إصابة شاب برصاص &quot;جيش&quot; الاحتلال الإسرائيلي في ملعب مسجد السوسي شرقي مدينة غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "سوريا: مصادر محلية: دورية إسرائيلية تنصب حاجزاً في قرية أم العظام بريف القنيطرة الأوسط وتفتش المارة",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: جرحى في عدوان طيران الاحتلال على المناطق الغربية لمدينة خان يونس جنوبي قطاع غزة",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: 7 مصابين في غارة من مسيرة إسرائيلية غربي خان يونس",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: الدفاع المدني في غزة: 6 جرحى في عدوان طيران الاحتلال على مواطنين غربي مدينة خان يونس",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: &quot;جيش&quot; الاحتلال يطلق الرصاص باتجاه مراكز الإيواء بشكل متواصل منذ يومين",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسلة الميادين: استشهاد شاب من قرية بُرقة بنيران الاحتلال عند حاجز&quot; كاراميلو&quot; قرب بلدة الطيبة شرق رام الله وسط الضفة الغربية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: إصابة شاب برصاص &quot;جيش&quot; الاحتلال الإسرائيلي في ملعب مسجد السوسي شرقي مدينة غزة",
-      "absolute_sentiment": -1,
+      "text": "فلسطين المحتلة: مكتب الشهداء والأسرى والجرحى: احتجاز الأسيرات الحوامل يشكل خطراً مباشراً على حياتهن وسلامتهن وسلامة أجنتهن",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     }
   ]
