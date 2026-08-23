@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-23T18:22:41.329Z",
+  "last_updated": "2026-08-23T19:19:42.219Z",
   "tension": {
     "level": "CALM_CEASEFIRE",
     "global_knn_danger": "0.48",
-    "global_norm_sentiment": "-0.09"
+    "global_norm_sentiment": "-0.07"
   },
   "timeline": [
-    {
-      "time": "2026-08-21T17:23:55.463Z",
-      "danger": 0.498,
-      "sentiment": -0.221,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.385,
-          "sentiment": -0.5
-        },
-        "OSINTdefender": {
-          "danger": 0.601,
-          "sentiment": -0.033
-        },
-        "irna_1313": {
-          "danger": 0.422,
-          "sentiment": 0.067
-        },
-        "sepah_pasdaran": {
-          "danger": 0.415,
-          "sentiment": -0.8
-        },
-        "almanarnews": {
-          "danger": 0.464,
-          "sentiment": -0.067
-        },
-        "C_Military1": {
-          "danger": 0.508,
-          "sentiment": 0
-        },
-        "almayadeen": {
-          "danger": 0.658,
-          "sentiment": -0.533
-        },
-        "QudsN": {
-          "danger": 0.579,
-          "sentiment": -0.208
-        }
-      }
-    },
     {
       "time": "2026-08-21T18:30:06.597Z",
       "danger": 0.493,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.067
         }
       }
+    },
+    {
+      "time": "2026-08-23T19:19:42.219Z",
+      "danger": 0.482,
+      "sentiment": -0.067,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.563,
+          "sentiment": -0.533
+        },
+        "OSINTdefender": {
+          "danger": 0.652,
+          "sentiment": 0.233
+        },
+        "irna_1313": {
+          "danger": 0.385,
+          "sentiment": 0.133
+        },
+        "sepah_pasdaran": {
+          "danger": 0.267,
+          "sentiment": -0.267
+        },
+        "almanarnews": {
+          "danger": 0.305,
+          "sentiment": 0.3
+        },
+        "C_Military1": {
+          "danger": 0.674,
+          "sentiment": -0.4
+        },
+        "almayadeen": {
+          "danger": 0.352,
+          "sentiment": 0.233
+        },
+        "QudsN": {
+          "danger": 0.676,
+          "sentiment": -0.233
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.5257171418168082
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.5625324602728817
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.26666666666666666,
-      "knn_danger_metric": 0.544937355325123
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.385288901179724
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.2860127397680331
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.2665915314053111
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.3817481805493924
+      "raw_sentiment": 0.3,
+      "knn_danger_metric": 0.30511341492488775
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.6501606923408652
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.6743125783173483
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.036694725736577255
+      "raw_sentiment": 0.23333333333333334,
+      "knn_danger_metric": 0.35248075107351534
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.7854864582217443
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.6758507449319476
     }
   },
   "semantic_logs": [
@@ -2348,24 +2348,17 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️روسیه: مراکز کنترل پهپادی در شرق اوکراین را شناسایی و منهدم کردیم &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "أزمة خانقة.. قوات الاحتلال تغلق حاجز عين سينيا أمام الخارجين من مدينة رام الله.",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "תיעוד נוסף של מעצר פעילי חמאס בידי המיליציות המתנגדות לחמאס בצפון הרצועה:  פעילי החמאס מובלים כפותים בתא האחורי של רכב הפיקאפ.  הם סופגים קללות והשפלות.  ## עַל דַּאֲטֵפְתְּ, אַטְפוּךְ  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "طائرات ورقية تُرعب الاحتلال ونتنياهو يلوّح بتصعيد جديد في غزة&nbsp; التفاصيل: https://qudsn.co/share/217194",
-      "absolute_sentiment": 0.5,
+      "text": "لبنان: مراسل الميادين في الجنوب: الطائرات الحربية الإسرائيلية تستهدف محيط مرتفع الدبشة",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
@@ -2397,11 +2390,11 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 12 العبرية: طُلب من سكان المنطقة المحيطة بقطاع غزة الدخول إلى مكان محمي بسبب الاشتباه بوقوع حادث أمني.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9979853054910217
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية رابا جنوب شرق جنين",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
     },
     {
       "channelId": "C_Military1",
@@ -2416,6 +2409,20 @@
       "text": "#إعلام_العدو   القناة 12 العبرية: طُلب من سكان المنطقة المحيطة بقطاع غزة الدخول إلى مكان محمي بسبب الاشتباه بوقوع حادث أمني.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9979853054910217
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 12 العبرية: طُلب من سكان المنطقة المحيطة بقطاع غزة الدخول إلى مكان محمي بسبب الاشتباه بوقوع حادث أمني.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9979853054910217
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸نظامیان صهیونیست یک فلسطینی را در رام الله به شهادت رساندند  🔹ارتش رژیم صهیونیستی یک فلسطینی را در نزدیکی رام الله به شهادت رساند و ادعا کرد که این فلسطینی سعی داشت سلاح یک نظامی رژیم را تصاحب کند. #ایرنا_جهان  https://irna.ir/xjY4V7 @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9975895931717171
     },
     {
       "channelId": "C_Military1",
@@ -2423,13 +2430,6 @@
       "text": "#إعلام_العدو   القناة 12 العبرية: يتعلق الأمر بتشخيص خاطئ.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9957890513813449
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸 فرار بزرگ لیورپول از شکست با پنالتی دقیقه نود ستاره مجارستانی   🔹لیورپول در نخستین تجربه ایرائولا روی نیمکت این تیم با پنالتی سوبوسلای از شکست گریخت و برابر نیوکاسل به تساوی ۲ بر ۲ رسید.  @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9904567943036928
     }
   ]
 }
