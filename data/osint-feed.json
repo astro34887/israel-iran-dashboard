@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-23T16:19:33.180Z",
+  "last_updated": "2026-08-23T17:16:52.554Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.21"
+    "global_knn_danger": "0.55",
+    "global_norm_sentiment": "-0.13"
   },
   "timeline": [
-    {
-      "time": "2026-08-21T15:27:53.245Z",
-      "danger": 0.532,
-      "sentiment": -0.237,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.476,
-          "sentiment": -0.767
-        },
-        "OSINTdefender": {
-          "danger": 0.601,
-          "sentiment": -0.033
-        },
-        "irna_1313": {
-          "danger": 0.552,
-          "sentiment": -0.042
-        },
-        "sepah_pasdaran": {
-          "danger": 0.441,
-          "sentiment": -0.633
-        },
-        "almanarnews": {
-          "danger": 0.501,
-          "sentiment": -0.2
-        },
-        "C_Military1": {
-          "danger": 0.389,
-          "sentiment": 0
-        },
-        "almayadeen": {
-          "danger": 0.692,
-          "sentiment": 0.067
-        },
-        "QudsN": {
-          "danger": 0.723,
-          "sentiment": -0.633
-        }
-      }
-    },
     {
       "time": "2026-08-21T16:27:36.066Z",
       "danger": 0.522,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.233
         }
       }
+    },
+    {
+      "time": "2026-08-23T17:16:52.554Z",
+      "danger": 0.547,
+      "sentiment": -0.131,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.607,
+          "sentiment": -0.467
+        },
+        "OSINTdefender": {
+          "danger": 0.663,
+          "sentiment": 0.333
+        },
+        "irna_1313": {
+          "danger": 0.407,
+          "sentiment": -0.2
+        },
+        "sepah_pasdaran": {
+          "danger": 0.334,
+          "sentiment": -0.1
+        },
+        "almanarnews": {
+          "danger": 0.417,
+          "sentiment": 0
+        },
+        "C_Military1": {
+          "danger": 0.61,
+          "sentiment": -0.467
+        },
+        "almayadeen": {
+          "danger": 0.833,
+          "sentiment": -0.133
+        },
+        "QudsN": {
+          "danger": 0.649,
+          "sentiment": -0.107
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.6811916307997017
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.6069133455095782
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.3530581748420489
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.40744948671112335
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.30601889413521205
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.33387143044365364
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.40073995718742766
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.41725140845457764
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.6477896055286259
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.6104669495383576
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.7658460960837153
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.832512762750382
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.5863774145346708
+      "num_messages": 14,
+      "raw_sentiment": -0.10714285714285714,
+      "knn_danger_metric": 0.6492972904041542
     }
   },
   "semantic_logs": [
@@ -2336,22 +2336,8 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "היסטוריה באיראן: המטבע המקומי חצה את רף שני מיליון הריאל לדולר אמריקאי אחד - השער הנמוך ביותר של המטבע האיראני בכל הזמנים - נשבר גם רף פסיכולוגי - 2 מיליון&#33; קידומת חדשה.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "היסטוריה באיראן: המטבע המקומי חצה את רף שני מיליון הריאל לדולר אמריקאי אחד - השער הנמוך ביותר של המטבע האיראני בכל הזמנים - נשבר גם רף פסיכולוגי - 2 מיליון&#33; קידומת חדשה.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
       "text": "°תוכן שיווקי  עצמאיים, בואו נדבר תכל&#39;ס: כמה כסף אתם שורפים על ביורוקרטיה? 🚨 שוב סוף חודש? שוב הרואה חשבון רודף אחריכם על כל קבלה של פייסבוק או דלק? 🤦‍♂️ חלאס עם החיפושים המתישים במייל&#33; 📩 הזמן שלכם שווה כסף, ואתם מבזבזים אותו על ניירת. לא נמאס לכם???  קבלו את ה-GAME CHANGER של העסק שלכם: INBOT 🤖. מערכת ה-AI שלנו מתלבשת לכם על ה-GMAIL, שואבת אוטומטית כל חשבונית, מקטלגת אותה – ומשגרת הכל ישירות לרואה החשבון 🚀. בלי להוריד קבצים, בלי צילומי מסך, בלי כאב ראש. עובד על 100% אוטומט&#33; ⚙️  לא מאמינים? קחו אותנו לסיבוב על חשבוננו&#33; קבלו 30 ימים ראשונים ב-ח-י-נ-ם&#33; 🎁 (בלי טריקים ובלי אותיות קטנות). והשוס? אתם מקבלים סריקה של 60 ימים אחורה + 30 ימים קדימה&#33; מה שאומר שהדיווח הקרוב שלכם לרו&quot;ח כבר מוכן ומסודר&#33;&#33;&#33; ✅  אחרי שתבינו שאתם לא יכולים לחיות בלי זה, המחיר הוא פשוט בדיחה: החל מ-41 ש&quot;ח בחודש בלבד&#33; 🔥 כן, פחות ממנת שווארמה 🌯 בשביל שקט נפשי טוטאלי ושליטה מלאה בהוצאות שלכם.  למה אתם מחכים? תנו לרובוט לעשות את העבודה השחורה, ותתחילו להתעסק במה שבאמת מכניס כסף לעסק 💰.  קליק אחד ואתם בפנים. תתחילו את החודש בחינם עכשיו 👇 https://www.inbot.co.il",
-      "absolute_sentiment": -1,
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2379,27 +2365,13 @@
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
       "text": "&rlm; ️روسیه: مراکز کنترل پهپادی در شرق اوکراین را شناسایی و منهدم کردیم &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   قناة كان العبرية: المعلومات الاستخبارية تشير إلى أن تركيا كانت تنوي نقل رادار إلى قاعد أبو الضهور في سوريا وبعدها ستنقل نظام دفاع جوي وجنود أتراك لتشغيله.  #الاعلام_الحربي",
-      "absolute_sentiment": -1,
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#إعلام_العدو   قناة كان العبرية: &quot;إسرائيل&quot; اعتبرت بأن نقل منظومة دفاع جوي تركية الى سوريا خطوة من شأنها تغيير ميزان القوى الإقليمية في المنطقة.  #الاعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: إصابة شاب برصاص &quot;جيش&quot; الاحتلال الإسرائيلي في ملعب مسجد السوسي شرقي مدينة غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2429,6 +2401,34 @@
       "channel": "Arab_Axis",
       "text": "فلسطين المحتلة: مكتب الشهداء والأسرى والجرحى: احتجاز الأسيرات الحوامل يشكل خطراً مباشراً على حياتهن وسلامتهن وسلامة أجنتهن",
       "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: اللجنة البرلمانية الإيرانية: بموجب هذه المادة ستدفع سفن الدول المسموح لها بعبور مضيق هرمز رسوماً مقابل تقديم الخدمات",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: لجنة الأمن القومي في البرلمان الإيراني: ستُستوفى الرسوم مقابل خدمات تشمل الخدمات البيئية والتزويد بالوقود والتأمين والسلامة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: قصف مدفعي إسرائيلي بالقرب من منطقة الأكواخ بمواصي مدينة رفح جنوبي القطاع",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: الدفاع المدني في غزة: العثور على رفات 5 شهداء ارتقوا في الحرب في حي الزيتون بمدينة غزة",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
   ]
