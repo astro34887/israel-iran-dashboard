@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-24T20:24:39.077Z",
+  "last_updated": "2026-08-24T21:23:57.218Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.55",
-    "global_norm_sentiment": "-0.18"
+    "global_knn_danger": "0.57",
+    "global_norm_sentiment": "-0.20"
   },
   "timeline": [
-    {
-      "time": "2026-08-22T19:19:26.102Z",
-      "danger": 0.536,
-      "sentiment": -0.205,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.544,
-          "sentiment": -0.714
-        },
-        "OSINTdefender": {
-          "danger": 0.603,
-          "sentiment": 0.033
-        },
-        "irna_1313": {
-          "danger": 0.427,
-          "sentiment": 0.464
-        },
-        "sepah_pasdaran": {
-          "danger": 0.341,
-          "sentiment": -0.7
-        },
-        "almanarnews": {
-          "danger": 0.441,
-          "sentiment": 0.2
-        },
-        "C_Military1": {
-          "danger": 0.786,
-          "sentiment": -0.267
-        },
-        "almayadeen": {
-          "danger": 0.756,
-          "sentiment": -0.5
-        },
-        "QudsN": {
-          "danger": 0.508,
-          "sentiment": -0.433
-        }
-      }
-    },
     {
       "time": "2026-08-22T20:17:20.505Z",
       "danger": 0.545,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.538
         }
       }
+    },
+    {
+      "time": "2026-08-24T21:23:57.218Z",
+      "danger": 0.57,
+      "sentiment": -0.2,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.305,
+          "sentiment": -0.231
+        },
+        "OSINTdefender": {
+          "danger": 0.654,
+          "sentiment": -0.233
+        },
+        "irna_1313": {
+          "danger": 0.498,
+          "sentiment": -0.333
+        },
+        "sepah_pasdaran": {
+          "danger": 0.33,
+          "sentiment": 0.033
+        },
+        "almanarnews": {
+          "danger": 0.67,
+          "sentiment": -0.1
+        },
+        "C_Military1": {
+          "danger": 0.799,
+          "sentiment": -0.167
+        },
+        "almayadeen": {
+          "danger": 0.673,
+          "sentiment": -0.433
+        },
+        "QudsN": {
+          "danger": 0.826,
+          "sentiment": -0.4
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 13,
-      "raw_sentiment": -0.15384615384615385,
-      "knn_danger_metric": 0.3102716711409392
+      "raw_sentiment": -0.23076923076923078,
+      "knn_danger_metric": 0.3045992587373164
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,14 +2291,14 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.4604085842057591
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.49826842254213344
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.34246397027103587
+      "knn_danger_metric": 0.33006693999296716
     },
     "almanarnews": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.6316259681211661
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.6732504339295552
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 13,
-      "raw_sentiment": -0.5384615384615384,
-      "knn_danger_metric": 0.6624351253293755
+      "num_messages": 15,
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.8256921015199221
     }
   },
   "semantic_logs": [
@@ -2364,27 +2364,6 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: مدفعية الاحتلال استهدفت أطراف بلدة ديرميماس جنوبي لبنان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: الاحتلال يطلق قنابل إنارة شرقي دير البلح وسط قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: &quot;جيش&quot; الاحتلال الإسرائيلي نفّذ تفجيرين في بلدة حداثا جنوبي لبنان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "فلسطين المحتلة: مراسل الميادين: جريح بنيران آليات الاحتلال في مدينة حمد شمالي خان يونس جنوبي قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
@@ -2404,32 +2383,53 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 13 العبرية: عقب فرض عقوبات أمريكية على إيران، أرسلت الأخيرة رسائل إلى الإمارات والسعودية: أخلوا القواعد الأمريكية في بلادكم وإلا سوف تتعرض لهجوم. تشير تقديرات &quot;إسرائيل&quot; إلى أنه في حال تحقق التهديد الإيراني، فإن احتمالية نشوب حرب ستزداد.  #الإعلام_الحربي",
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: إصابة 3 فلسطينيين في هجوم لمستوطنين على قرية أغرين جنوب الخليل جنوبي الضفة الغربية",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9988217284876505
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   حرس الثورة الإسلامية: العدو، من خلال التخطيط للحرب الاقتصادية والعقوبات متعددة الطبقات، يسعى إلى خلق اليأس، والضغط على معيشة الشعب وانهيار الثقة الاجتماعية، وفي هذا المجال، لا شك أن الجهود الدؤوبة والذكية على مدار الساعة لجميع قطاعات الحكومة – من الاقتصاد والتجارة والنفط والصناعة والزراعة إلى القطاع المصرفي والدبلوماسية – في تحييد العقوبات، وإدارة السوق، وتأمين السلع الأساس��ة، والسيطرة على التضخم وخلق فرص العمل، لها دور لا مثيل له ومصيري.  #الإعلام_الحربي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.998783210321219
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: إطلاق نار من آليات الاحتلال شرقي خان يونس جنوبي قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 13 العبرية: كشف رئيس الوزراء هذا المساء ما تحظر الرقابة العسكرية نشره منذ أشهر طويلة: أن خلية بتوجيه إيراني أُرسلت لاغتيال ابنه. يمكن فقط التقدير بأن التوقيت لم يُختر مصادفة، في ظل الخلاف حول الحاجة إلى توفير الحماية لإيزنكوت.  #الإعلام_الحربي",
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: إطلاق نار من آليات الاحتلال شرق خان يونس جنوب القطاع",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9976922097644287
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 15 العبرية: نتنياهو يكشف: إيران حاولت قتل أحد أبنائي.  #الإعلام_الحربي",
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: إطلاق نار مكثف من آليات الاحتلال على خيام النازحين شرقي مدينة حمد شمال غربي مدينة خان يونس جنوب قطاع غزة",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.996238247963218
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "وداع الشهيد &quot;إبراهيم أبو أسد&quot;، الذي ارتقى متأثرًا بإصابته جراء قصف الاحتلال لمدينة دير البلح وسط قطاع غزة، فجر اليوم.",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تعتقل شابًا خلال اقتحامها لبلدة دير دبوان، شرق رام الله.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم مدينة نابلس من حاجز بيت فوريك.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
     }
   ]
 }
