@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-24T18:35:16.478Z",
+  "last_updated": "2026-08-24T19:25:01.268Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.57",
-    "global_norm_sentiment": "-0.21"
+    "global_knn_danger": "0.54",
+    "global_norm_sentiment": "-0.18"
   },
   "timeline": [
-    {
-      "time": "2026-08-22T17:16:33.145Z",
-      "danger": 0.501,
-      "sentiment": -0.205,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.541,
-          "sentiment": -0.5
-        },
-        "OSINTdefender": {
-          "danger": 0.572,
-          "sentiment": 0.067
-        },
-        "irna_1313": {
-          "danger": 0.23,
-          "sentiment": 0.033
-        },
-        "sepah_pasdaran": {
-          "danger": 0.394,
-          "sentiment": -0.567
-        },
-        "almanarnews": {
-          "danger": 0.523,
-          "sentiment": -0.033
-        },
-        "C_Military1": {
-          "danger": 0.645,
-          "sentiment": -0.346
-        },
-        "almayadeen": {
-          "danger": 0.611,
-          "sentiment": -0.567
-        },
-        "QudsN": {
-          "danger": 0.541,
-          "sentiment": 0.033
-        }
-      }
-    },
     {
       "time": "2026-08-22T18:22:16.168Z",
       "danger": 0.507,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.3
         }
       }
+    },
+    {
+      "time": "2026-08-24T19:25:01.268Z",
+      "danger": 0.543,
+      "sentiment": -0.183,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.438,
+          "sentiment": -0.3
+        },
+        "OSINTdefender": {
+          "danger": 0.64,
+          "sentiment": -0.333
+        },
+        "irna_1313": {
+          "danger": 0.517,
+          "sentiment": 0
+        },
+        "sepah_pasdaran": {
+          "danger": 0.342,
+          "sentiment": 0.1
+        },
+        "almanarnews": {
+          "danger": 0.703,
+          "sentiment": -0.1
+        },
+        "C_Military1": {
+          "danger": 0.789,
+          "sentiment": -0.267
+        },
+        "almayadeen": {
+          "danger": 0.614,
+          "sentiment": -0.233
+        },
+        "QudsN": {
+          "danger": 0.439,
+          "sentiment": -0.563
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,32 +2279,32 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.5669589123942138
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.43791216493862
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.6197417001143871
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.6403235337335839
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.4758340489460841
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.5171452123465037
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.3208636665297092
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.34182106467402407
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.6545895715040816
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.703049641012734
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.5453571017060506
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.6142201088061664
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.7664855780099061
+      "num_messages": 8,
+      "raw_sentiment": -0.5625,
+      "knn_danger_metric": 0.43884003079405703
     }
   },
   "semantic_logs": [
@@ -2331,13 +2331,6 @@
       "channel": "IDF",
       "text": "״אני קורא לאכולוסייה החרדית ולהנהגה החרדית לעודד כל פעם קצת יותר לגיוס. יש לנו מסלולים יוצאים מן הכלל, השתחררו מהם אנשים לא פחות חרדים ואזרחים טובים יותר למדינה. זה טוב לכולם״  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "ערוצים עזתיים מדווחים על הרוג, נעדרים ומספר פצועים בתקיפת בית משפחת אלור במחנה הפליטים אלבריג&#39; במרכז הרצועה - אף על פי  שניתנה התרעת פינוי.  בנוסף מדווחים העזתיים על התרעת פינוי נוספת רביעית בשעות האחרונות למבנה בדיר אלבלח במרכז רצועת עזה.  ##  עד כה בוצעו…",
-      "absolute_sentiment": -0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2355,6 +2348,13 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️تصاویر دیدنی جشن میلاد پیامبر(ص) در الحدیده یمن  فردا آغاز هفتۀ وحدت و روز میلاد پیامبر(ص) به روایت اهل‌سنت ‌است. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
       "text": "📹 آخر التطورات والمستجدات الميدانية من جنوب لبنان، ينقلها مراسلنا سامر حاج علي https://almanar.com.lb/article/1122412/?s=tg",
@@ -2369,10 +2369,10 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: 8 شهداء وأكثر من 14 جريحاً في الغارات الإسرائيلية على قطاع غزة منذ فجر اليوم",
-      "absolute_sentiment": -1,
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "بالصورة | اجتماع قاليباف وعاصم منير بحضور وزير الخارجية الإيراني ووزير الداخلية الباكستاني",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2397,24 +2397,10 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "تابعوا الأخبار أولاً بأول، عبر قناة واتساب من خلال الرابط التالي:  https://whatsapp.com/channel/0029VbCpgXo8fewqkgDTLM2z",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "آثار الدمار؛ جراء قصف الاحتلال مسجد &quot;أبو سليم&quot; في مدينة دير البلح، وسط قطاع غزة.",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مشاهد جديدة.. لحظة قصف الاحتلال مصلى &quot;عسقلان&quot; في مخيم الشاطئ، غرب مدينة غزة",
-      "absolute_sentiment": 0.5,
+      "text": "لبنان: مراسل الميادين: مدفعية الاحتلال استهدفت أطراف بلدة ديرميماس جنوبي لبنان",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2430,6 +2416,20 @@
       "text": "#الجمهورية_الإسلامية   حرس الثورة الإسلامية: العدو، من خلال التخطيط للحرب الاقتصادية والعقوبات متعددة الطبقات، يسعى إلى خلق اليأس، والضغط على معيشة الشعب وانهيار الثقة الاجتماعية، وفي هذا المجال، لا شك أن الجهود الدؤوبة والذكية على مدار الساعة لجميع قطاعات الحكومة – من الاقتصاد والتجارة والنفط والصناعة والزراعة إلى القطاع المصرفي والدبلوماسية – في تحييد العقوبات، وإدارة السوق، وتأمين السلع الأساسية، والسيطرة على التضخم وخلق فرص العمل، لها دور لا مثيل له ومصيري.  #الإعلام_الحربي",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 0.998783210321219
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 13 العبرية: كشف رئيس الوزراء هذا المساء ما تحظر الرقابة العسكرية نشره منذ أشهر طويلة: أن خلية بتوجيه إيراني أُرسلت لاغتيال ابنه. يمكن فقط التقدير بأن التوقيت لم يُختر مصادفة، في ظل الخلاف حول الحاجة إلى توفير الحماية لإيزنكوت.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9976922097644287
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 15 العبرية: نتنياهو يكشف: إيران حاولت قتل أحد أبنائي.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.996238247963218
     }
   ]
 }
