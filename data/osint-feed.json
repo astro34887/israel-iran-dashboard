@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-24T05:34:15.160Z",
+  "last_updated": "2026-08-24T06:49:07.275Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.51",
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.48",
     "global_norm_sentiment": "-0.12"
   },
   "timeline": [
-    {
-      "time": "2026-08-22T04:28:08.014Z",
-      "danger": 0.472,
-      "sentiment": -0.246,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.318,
-          "sentiment": -0.333
-        },
-        "OSINTdefender": {
-          "danger": 0.527,
-          "sentiment": 0.1
-        },
-        "irna_1313": {
-          "danger": 0.335,
-          "sentiment": -0.591
-        },
-        "sepah_pasdaran": {
-          "danger": 0.459,
-          "sentiment": -0.533
-        },
-        "almanarnews": {
-          "danger": 0.317,
-          "sentiment": -0.567
-        },
-        "C_Military1": {
-          "danger": 0.508,
-          "sentiment": 0
-        },
-        "almayadeen": {
-          "danger": 0.547,
-          "sentiment": -0.4
-        },
-        "QudsN": {
-          "danger": 0.761,
-          "sentiment": 0
-        }
-      }
-    },
     {
       "time": "2026-08-22T05:22:32.728Z",
       "danger": 0.473,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.1
         }
       }
+    },
+    {
+      "time": "2026-08-24T06:49:07.275Z",
+      "danger": 0.481,
+      "sentiment": -0.122,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.433,
+          "sentiment": -0.346
+        },
+        "OSINTdefender": {
+          "danger": 0.667,
+          "sentiment": 0.133
+        },
+        "irna_1313": {
+          "danger": 0.432,
+          "sentiment": -0.179
+        },
+        "sepah_pasdaran": {
+          "danger": 0.355,
+          "sentiment": -0.167
+        },
+        "almanarnews": {
+          "danger": 0.341,
+          "sentiment": -0.1
+        },
+        "C_Military1": {
+          "danger": 0.707,
+          "sentiment": -0.433
+        },
+        "almayadeen": {
+          "danger": 0.404,
+          "sentiment": -0.233
+        },
+        "QudsN": {
+          "danger": 0.521,
+          "sentiment": 0.267
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2278,51 +2278,51 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 14,
-      "raw_sentiment": -0.32142857142857145,
-      "knn_danger_metric": 0.39236449523036576
+      "num_messages": 13,
+      "raw_sentiment": -0.34615384615384615,
+      "knn_danger_metric": 0.43332957622321006
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0.26666666666666666,
-      "knn_danger_metric": 0.6713027126013883
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.6672077806846879
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 13,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.4518288290899482
+      "num_messages": 14,
+      "raw_sentiment": -0.17857142857142858,
+      "knn_danger_metric": 0.4316402105828873
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.3540555008956103
+      "knn_danger_metric": 0.35454383149088375
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.3701419135886022
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.34133461024458217
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.7058750994303987
+      "knn_danger_metric": 0.7074244951760671
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.6233507222919236
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.40418937433361773
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.5943364227616716
+      "raw_sentiment": 0.26666666666666666,
+      "knn_danger_metric": 0.5208378077389443
     }
   },
   "semantic_logs": [
@@ -2334,65 +2334,16 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "ברצועת עזה לא מבינים על מה המהומה הגדולה בישראל מכמה עפיפונים שהגיעו לעוטף.  התגובות נעות על המנעד שבין קמפיין מיסכנות על ילדי עזה שילדותם נגזלת ובין לעג לישראל וחייליה שאוחז בהם הפחד לנוכח העפיפונים העזתיים.  ## בעיני העניין בעיקר מדגדג את אזור &quot;הכוויה התודעתית&quot;…",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "☑️#فوری| شلیک موج جدید موشک‌ها از سوی انصارالله اليمن به سمت عربستان سعودی  @sepah_pasdaran",
+      "text": "&rlm; ️#فوری| شلیک موج جدید موشک‌ها از سوی انصارالله اليمن به سمت عربستان سعودی &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: &quot;جيش&quot; الاحتلال نفذ تفجيراً في بلدة حداثا",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: شهيد ومصابون من جراء قصف إسرائيلي استهدف خيمة تؤوي نازحين في محيط مستشفى شهداء الأقصى بدير البلح وسط قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: شهيدان ومصابون من جراء قصف إسرائيلي استهدف خيمة تؤوي نازحين في محيط مستشفى شهداء الأقصى بدير البلح وسط قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي يستهدف منطقة المصدر وسط قطاع غزة",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "صحيفة &quot;معاريف&quot; العبرية: كمية الذخائر التي استهلكها &quot;الجيش الإسرائيلي&quot; منذ 7 أكتوبر 2023 تعادل كمية الذخائر التي أطلقها خلال السنوات الثلاثين التي سبقت الحرب.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم عددًا من المنازل خلال اقتحام بلدة عزون شرق قلقيلية.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تعتقل الشاب &quot;يزن شقيقات&quot; عقب مداهمة منزله في بلدة جبع جنوب جنين.",
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "كبلر: أربع سفن فقط عبرت مضيق هرمز خلال اليوم الماضي https://almanar.com.lb/article/1120187/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2411,6 +2362,27 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من وداع الشهيد القائد بالقسام حازم بسام موسى الذي اغتاله الاحتلال أمس في خانيونس جنوب قطاع غزة",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مشهد من وداع الشهيد القيادي بالقسام حازم بسام موسى الذي اغتاله الاحتلال أمس في خانيونس",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 12 العبرية: طُلب من سكان المنطقة المحيطة بقطاع غزة الدخول إلى مكان محمي بسبب الاشتباه بوقوع حادث أمني.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9979853054910217
+    },
+    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#إعلام_العدو   القناة 12 العبرية: طُلب من سكان المنطقة المحيطة بقطاع غزة الدخول إلى مكان محمي بسبب الاشتباه بوقوع حادث أمني.  #الإعلام_الحربي",
@@ -2427,9 +2399,37 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 12 العبرية: طُلب من سكان المنطقة المحيطة بقطاع غزة الدخول إلى مكان محمي بسبب الاشتباه بوقوع حادث أمني.  #الإعلام_الحربي",
+      "text": "#إعلام_العدو   القناة 12 العبرية: التقدير في الجيش الإسرائيلي: حزب الله يستغل وقف إطلاق النار ويعزز قوته عبر الكثير من العمليات نقل الأسلحة من إيران.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9979853054910217
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 12 العبرية: يتعلق الأمر بتشخيص خاطئ.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9957890513813449
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   هيئة إدارة الممر المائي في الخليج الفارسي:  - السفن المخالفة للترتيبات الإيرانية للعبور من مضيق هرمز ستواجه قيوداً خلال رحلاتها المقبلة.  - يتعين على أصحاب البضائع المتجهة من وإلى الخليج الاطلاع على القائمة المحدثة للسفن المخالفة.  #الإعلام_الحربي",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9957041576612946
+    },
+    {
+      "channelId": "OSINTdefender",
+      "channel": "Global_OSINT",
+      "text": "#USA   The U.S. Navy is leading efforts to develop a new version of the Evolved SeaSparrow Missile (ESSM), known as the Next Significant Variant (NSV), to enhance air defense capabilities against evolving threats.   Subscribe to @OSINTdefender | 💬 Chat room",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9799615029856364
+    },
+    {
+      "channelId": "OSINTdefender",
+      "channel": "Global_OSINT",
+      "text": "#Germany #Ukraine   German Foreign Minister Johann Wadephul believes that Ukraine is on the path to victory against Russia, despite Kremlin leader Vladimir Putin&#39;s expectations of Kyiv&#39;s defeat. Wadephul emphasized the importance of continued support for Ukraine in its struggle.  Subscribe to @OSINTdefender | 💬 Chat room",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9255148264094013
     }
   ]
 }
