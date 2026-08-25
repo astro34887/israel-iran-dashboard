@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-25T16:31:35.563Z",
+  "last_updated": "2026-08-25T17:27:07.173Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.19"
+    "global_knn_danger": "0.51",
+    "global_norm_sentiment": "-0.18"
   },
   "timeline": [
-    {
-      "time": "2026-08-23T15:17:40.348Z",
-      "danger": 0.55,
-      "sentiment": -0.2,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.568,
-          "sentiment": -0.767
-        },
-        "OSINTdefender": {
-          "danger": 0.663,
-          "sentiment": 0.333
-        },
-        "irna_1313": {
-          "danger": 0.44,
-          "sentiment": 0.091
-        },
-        "sepah_pasdaran": {
-          "danger": 0.355,
-          "sentiment": -0.233
-        },
-        "almanarnews": {
-          "danger": 0.443,
-          "sentiment": 0
-        },
-        "C_Military1": {
-          "danger": 0.648,
-          "sentiment": -0.433
-        },
-        "almayadeen": {
-          "danger": 0.797,
-          "sentiment": -0.5
-        },
-        "QudsN": {
-          "danger": 0.632,
-          "sentiment": -0.357
-        }
-      }
-    },
     {
       "time": "2026-08-23T16:19:33.180Z",
       "danger": 0.535,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.567
         }
       }
+    },
+    {
+      "time": "2026-08-25T17:27:07.173Z",
+      "danger": 0.508,
+      "sentiment": -0.183,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.387,
+          "sentiment": -0.667
+        },
+        "OSINTdefender": {
+          "danger": 0.609,
+          "sentiment": -0.167
+        },
+        "irna_1313": {
+          "danger": 0.307,
+          "sentiment": -0.267
+        },
+        "sepah_pasdaran": {
+          "danger": 0.411,
+          "sentiment": -0.133
+        },
+        "almanarnews": {
+          "danger": 0.33,
+          "sentiment": 0
+        },
+        "C_Military1": {
+          "danger": 0.84,
+          "sentiment": -0.067
+        },
+        "almayadeen": {
+          "danger": 0.545,
+          "sentiment": -0.267
+        },
+        "QudsN": {
+          "danger": 0.706,
+          "sentiment": -0.1
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,32 +2279,32 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.43586756932060605
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.3865910627235091
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
+      "raw_sentiment": -0.16666666666666666,
       "knn_danger_metric": 0.6086641178582478
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.40688278117025395
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.30742662700244733
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.3841621111504254
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.4106379252336314
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.4527015483046403
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.3303347646027895
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.37426178153283823
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.5452092136324697
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.779770556706089
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.7062898009700398
     }
   },
   "semantic_logs": [
@@ -2364,13 +2364,6 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: إصابة نازح برصاص قوات الاحتلال الإسرائيلي شرقي قرية المصدر وسط قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "فلسطين المحتلة: 3 شهداء وعدد كبير من الجرحى بقصف مسيرات إسرائيلية في مخيم جباليا شمال قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
@@ -2383,38 +2376,52 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "عاجل| قوات الاحتلال تطلق الرصاص الحي خلال اقتحام ضاحية شويكة، شمال طولكرم.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم بلدة بيتا، جنوب نابلس.",
+      "text": "فلسطين المحتلة: مراسلة الميادين في رام الله: مركز الأونروا في قلنديا الذي اقتحمه الاحتلال اليوم يقدم خدماته منذ العام 1953 للاجئين الفلسطينيين",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تعتقل عدداً من الشبان قرب المدخل الشرقي لمدينة قلقيلية.",
+      "text": "فلسطين المحتلة: مراسلة الميادين في رام الله: قوات الاحتلال وجهت إنذارات بالإخلاء لعشرات المباني في محيط مركز الأونروا في قلنديا",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسلة الميادين في رام الله: إصابة فتى بشطايا رصاص قوات الاحتلال في محيط مركز الأونروا في قلنديا",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "بلديات شمال غزة:  - نحذّر من تفاقم أزمة المياه في شمال قطاع غزة ودخول المنطقة مرحلة العطش الشديد، وسط استمرار الحصار.  - نؤكد تعطل نحو 60% من مولدات البلديات، ما يعيق تشغيل مرافق المياه والصرف الصحي.  - منع الاحتلال إدخال المعدات وقطع الغيار والوقود يفاقم الأزمة ويسهم في انتشار الأمراض والقوارض والحشرات.  - نطالب المجتمع الدولي بالضغط لضمان إدخال الآليات والمعدات والوقود والمواد اللازمة لإعادة تشغيل خدمات المياه والصرف الصحي.",
+      "text": "تابعوا الأخبار أولاً بأول، عبر قناة واتساب من خلال الرابط التالي:  https://whatsapp.com/channel/0029VbCpgXo8fewqkgDTLM2z",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "ماذا يريد الاحتلال من معهد قلنديا؟ وما الذي يعنيه فرض السيطرة عليه وإخلائه لمستقبل الأونروا واللاجئين الفلسطينيين؟   علي هويدي، مدير &quot;الهيئة 302&quot; للدفاع عن حقوق اللاجئين، يجيب عن هذه الأسئلة:",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "الاحتلال يفرج عن القيادي الفلسطيني والأسير المحرر &quot;رأفت ناصيف&quot; من طولكرم.  - صورة أرشيفية",
+      "text": "آليات الاحتلال تجوب شوارع مدينة طوباس.",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تواصل اقتحام مفرق مخيم قلنديا وشارع المعهد شمال القدس المحتلة، وتطلق قنابل الغاز.",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2423,13 +2430,6 @@
       "text": "#إعلام_العدو   موقع والاه العبري:  - قبل بدء الحرب على إيران، حذّرت رئيسة الاستخبارات الوطنية تولسي غابارد وكبار قادة الجيش ترامب من مخاطر الهجوم، بينها الخسائر البشرية، استنزاف الذخائر، وإغلاق مضيق هرمز واحتمال صعود نظام إيراني أكثر تطرفًا وفقًا لتحقيق نشرته اليوم صحيفة «وول ستريت جورنال».  - نتنياهو ومسؤولون في الإدارة الأمريكية أقنعوا ترامب بأن إيران تمر بأضعف مرحلة لها منذ عقود، وأن الحرب تمثل فرصة لتدمير برنامجها النووي وإسقاط النظام.  - بعد نحو ستة أشهر من تعهد ترامب بإنهاء الحرب خلال ستة أسابيع، لا تزال الحرب مستمرة، وبعد انتهاء المفاوضات في 17 أغسطس، انتقلت واشنطن إلى استراتيجية العقوبات والحصار البحر بهدف إسقاط النظام الإيراني.  - مسؤول أمريكي سابق في مجلس الأمن القومي خلص إلى أن التحذيرات التي سبقت الحرب تحققت إلى حد كبير، معتبرًا أن غياب هدف سياسي واضح أدى إلى سوء إدارة الجهود الدبلوماسية لإنهاء الحرب.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9992436324309595
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 13 العبرية: عقب فرض عقوبات أمريكية على إيران، أرسلت الأخيرة رسائل إلى الإمارات والسعودية: أخلوا القواعد الأمريكية في بلادكم وإلا سوف تتعرض لهجوم. تشير تقديرات &quot;إسرائيل&quot; إلى أنه في حال تحقق التهديد الإيراني، فإن احتمالية نشوب حرب ستزداد.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9988217284876505
     }
   ]
 }
