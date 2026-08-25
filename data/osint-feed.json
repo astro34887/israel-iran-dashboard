@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-25T03:44:04.280Z",
+  "last_updated": "2026-08-25T04:34:10.951Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.55",
-    "global_norm_sentiment": "-0.27"
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.21"
   },
   "timeline": [
-    {
-      "time": "2026-08-23T02:57:54.002Z",
-      "danger": 0.587,
-      "sentiment": -0.345,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.478,
-          "sentiment": -0.538
-        },
-        "OSINTdefender": {
-          "danger": 0.603,
-          "sentiment": 0.033
-        },
-        "irna_1313": {
-          "danger": 0.416,
-          "sentiment": -0.682
-        },
-        "sepah_pasdaran": {
-          "danger": 0.418,
-          "sentiment": -0.733
-        },
-        "almanarnews": {
-          "danger": 0.565,
-          "sentiment": -0.433
-        },
-        "C_Military1": {
-          "danger": 0.786,
-          "sentiment": -0.267
-        },
-        "almayadeen": {
-          "danger": 0.75,
-          "sentiment": 0
-        },
-        "QudsN": {
-          "danger": 0.91,
-          "sentiment": -0.7
-        }
-      }
-    },
     {
       "time": "2026-08-23T03:51:39.288Z",
       "danger": 0.57,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.233
         }
       }
+    },
+    {
+      "time": "2026-08-25T04:34:10.951Z",
+      "danger": 0.534,
+      "sentiment": -0.208,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.294,
+          "sentiment": -0.269
+        },
+        "OSINTdefender": {
+          "danger": 0.636,
+          "sentiment": -0.2
+        },
+        "irna_1313": {
+          "danger": 0.528,
+          "sentiment": -0.182
+        },
+        "sepah_pasdaran": {
+          "danger": 0.377,
+          "sentiment": -0.333
+        },
+        "almanarnews": {
+          "danger": 0.4,
+          "sentiment": -0.5
+        },
+        "C_Military1": {
+          "danger": 0.784,
+          "sentiment": -0.167
+        },
+        "almayadeen": {
+          "danger": 0.697,
+          "sentiment": -0.4
+        },
+        "QudsN": {
+          "danger": 0.677,
+          "sentiment": 0.1
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2291,8 +2291,8 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 11,
-      "raw_sentiment": -0.5454545454545454,
-      "knn_danger_metric": 0.5558174063688239
+      "raw_sentiment": -0.18181818181818182,
+      "knn_danger_metric": 0.528044057474438
     },
     "sepah_pasdaran": {
       "name": "IRGC",
@@ -2303,8 +2303,8 @@
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.4585966877262919
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.3995885688963652
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2321,8 +2321,8 @@
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.7352923008071509
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.6772417472275578
     }
   },
   "semantic_logs": [
@@ -2345,13 +2345,6 @@
       "channel": "IRGC",
       "text": "&rlm; ️تصاویر دیدنی جشن میلاد پیامبر(ص) در الحدیده یمن  فردا آغاز هفتۀ وحدت و روز میلاد پیامبر(ص) به روایت اهل‌سنت ‌است. &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 كندا | كارني يعلن الاستعداد لمواجهة تحديات الحرب التجارية مع واشنطن عبر البناء بالداخل وتنويع التجارة في الخارج https://almanar.com.lb/article/1122812/?s=tg",
-      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2413,22 +2406,29 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم منزلاً خلال اقتحام بلدة عتيل شمال طولكرم.",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية كفر قود، شمال غرب جنين.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تشن حملة مداهمات واعتقالات خلال اقتحام قرية جلقموس شرق مدينة جنين.",
+      "text": "لحظة قصف طيران الاحتلال مصلى ومحطة لتحلية المياه في حي الشيخ رضوان، شمال مدينة غزة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تداهم عددًا من المنازل خلال اقتحام بلدة تفوح بمدينة الخليل",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية عوريف جنوب نابلس.",
-      "absolute_sentiment": -1,
+      "text": "جيش الاحتلال ينشر مشاهد للحظة اعتقال الشاب &quot;همام خازم&quot;، نجل الشهيد فتحي خازم، عقب مداهمة منزله في مدينة جنين.",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
   ]
