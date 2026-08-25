@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-25T21:23:09.384Z",
+  "last_updated": "2026-08-25T22:21:20.549Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.24"
+    "global_knn_danger": "0.55",
+    "global_norm_sentiment": "-0.26"
   },
   "timeline": [
-    {
-      "time": "2026-08-23T20:17:26.678Z",
-      "danger": 0.503,
-      "sentiment": 0.05,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.582,
-          "sentiment": -0.45
-        },
-        "OSINTdefender": {
-          "danger": 0.652,
-          "sentiment": 0.233
-        },
-        "irna_1313": {
-          "danger": 0.474,
-          "sentiment": 0.545
-        },
-        "sepah_pasdaran": {
-          "danger": 0.306,
-          "sentiment": 0
-        },
-        "almanarnews": {
-          "danger": 0.243,
-          "sentiment": 0.4
-        },
-        "C_Military1": {
-          "danger": 0.696,
-          "sentiment": -0.4
-        },
-        "almayadeen": {
-          "danger": 0.548,
-          "sentiment": 0.2
-        },
-        "QudsN": {
-          "danger": 0.582,
-          "sentiment": 0.1
-        }
-      }
-    },
     {
       "time": "2026-08-23T21:16:58.634Z",
       "danger": 0.501,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.567
         }
       }
+    },
+    {
+      "time": "2026-08-25T22:21:20.549Z",
+      "danger": 0.546,
+      "sentiment": -0.26,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.412,
+          "sentiment": -0.467
+        },
+        "OSINTdefender": {
+          "danger": 0.523,
+          "sentiment": 0.133
+        },
+        "irna_1313": {
+          "danger": 0.477,
+          "sentiment": -0.4
+        },
+        "sepah_pasdaran": {
+          "danger": 0.232,
+          "sentiment": -0.467
+        },
+        "almanarnews": {
+          "danger": 0.423,
+          "sentiment": -0.2
+        },
+        "C_Military1": {
+          "danger": 0.84,
+          "sentiment": -0.067
+        },
+        "almayadeen": {
+          "danger": 0.773,
+          "sentiment": -0.433
+        },
+        "QudsN": {
+          "danger": 0.834,
+          "sentiment": -0.533
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,7 +2279,7 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
+      "raw_sentiment": -0.4666666666666667,
       "knn_danger_metric": 0.41231558081728303
     },
     "OSINTdefender": {
@@ -2291,20 +2291,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.40541859361512417
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.47693877052154365
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.19664603279920242
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.2320585435113533
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.3827811757741115
+      "knn_danger_metric": 0.4232630946613308
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
+      "raw_sentiment": -0.43333333333333335,
       "knn_danger_metric": 0.7734190874190582
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.7713129411752363
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.8337565824067916
     }
   },
   "semantic_logs": [
@@ -2338,6 +2338,13 @@
       "channel": "Israel_OSINT",
       "text": "מט&#39;לום עבדי, מפקד כוחות סוריה הדמוקרטים (כוחות ה - SDF הכורדים בסוריה) הודיע לפני זמן קצר על פירוק הארגון הכורדי הלוחם ועל מיזוגו באופן מלא עם מוסדות המדינה הסורית.  ## זהו ניצחון גדול לאבו מחמד אלג&#39;ולאני ולארדואן - ה SDF היה הארגון הכורדי הלוחם המשמעותי ביותר בסוריה שזכה לתמיכה אמריקאית במשך שנים ארוכות. כעת סוריה של אלג&#39;ולאני &quot;בולעת&quot; לקרבה את המיעוט הכורדי.  הדרוזים של חכמת אלהג&#39;רי בא-סווידאא&#39; עומדים בסירובם למהלך דומה.  תגובה אחת",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "الخارجية القطرية: بحث المقترح العماني الإيراني لإنشاء ممر ملاحي مؤقت في مضيق هرمز https://almanar.com.lb/article/1125862/?s=tg",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
@@ -2406,29 +2413,22 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال مدينة طوباس",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة عرابة جنوب غرب جنين",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: شرطة الاحتلال تقتحم شارع المعهد قرب مخيم قلنديا شمال القدس المحتلة",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
       "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة عزون، شرق قلقيلية.",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام قوات الاحتلال لمخيم قلنديا شمال القدس المحتلة.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة ميثلون، جنوب جنين.",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     }
   ]
