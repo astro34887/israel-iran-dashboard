@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-25T18:33:34.968Z",
+  "last_updated": "2026-08-25T19:27:26.882Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.16"
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.17"
   },
   "timeline": [
-    {
-      "time": "2026-08-23T17:16:52.554Z",
-      "danger": 0.547,
-      "sentiment": -0.131,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.607,
-          "sentiment": -0.467
-        },
-        "OSINTdefender": {
-          "danger": 0.663,
-          "sentiment": 0.333
-        },
-        "irna_1313": {
-          "danger": 0.407,
-          "sentiment": -0.2
-        },
-        "sepah_pasdaran": {
-          "danger": 0.334,
-          "sentiment": -0.1
-        },
-        "almanarnews": {
-          "danger": 0.417,
-          "sentiment": 0
-        },
-        "C_Military1": {
-          "danger": 0.61,
-          "sentiment": -0.467
-        },
-        "almayadeen": {
-          "danger": 0.833,
-          "sentiment": -0.133
-        },
-        "QudsN": {
-          "danger": 0.649,
-          "sentiment": -0.107
-        }
-      }
-    },
     {
       "time": "2026-08-23T18:22:41.329Z",
       "danger": 0.481,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.7
         }
       }
+    },
+    {
+      "time": "2026-08-25T19:27:26.882Z",
+      "danger": 0.532,
+      "sentiment": -0.173,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.383,
+          "sentiment": -0.567
+        },
+        "OSINTdefender": {
+          "danger": 0.509,
+          "sentiment": 0.2
+        },
+        "irna_1313": {
+          "danger": 0.601,
+          "sentiment": -0.1
+        },
+        "sepah_pasdaran": {
+          "danger": 0.357,
+          "sentiment": -0.267
+        },
+        "almanarnews": {
+          "danger": 0.31,
+          "sentiment": 0
+        },
+        "C_Military1": {
+          "danger": 0.84,
+          "sentiment": -0.067
+        },
+        "almayadeen": {
+          "danger": 0.744,
+          "sentiment": -0.133
+        },
+        "QudsN": {
+          "danger": 0.631,
+          "sentiment": -0.633
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,32 +2279,32 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.37768862143353493
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.3825588921570788
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0.3,
-      "knn_danger_metric": 0.5704421254146879
+      "raw_sentiment": 0.2,
+      "knn_danger_metric": 0.5087721371144953
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.435117145329238
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.6006828567258978
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.3598368992654998
+      "knn_danger_metric": 0.3567749405086424
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.3231861790489035
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.3096051437405126
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.6222264825307638
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.7440659890616241
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.7,
-      "knn_danger_metric": 0.7115707759481139
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.6314227763360629
     }
   },
   "semantic_logs": [
@@ -2341,13 +2341,6 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "الحكومة الكندية تعلن حزمة بـ7.5 مليار دولار لمواجهة الرسوم الأميركية https://almanar.com.lb/article/1125212/?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#الجمهورية_الإسلامية   القائم بأعمال وزارة الدفاع العميد مجيد ابن الرضا:  - بالنسبة لإيران، فإن الاقتصاد وراحة الناس ورفاههم إلى جانب الأمن، هي جزء من ميدان الدفاع؛ وكل ضغط يستهدف معيشة الناس وأمنهم هو جزء من الحرب.  - ليعلم الذين يوسّعون ميدان الضغط، أننا أيضًا، من أجل الدفاع عن الشعب، سنوسّع الميدان في إطار المصالح الوطنية.  #الاعلام_الحربي",
@@ -2359,27 +2352,6 @@
       "channel": "Hezbollah",
       "text": "#اليمن   أبرز ما جاء في كلمة قائد أنصار الله السيد عبدالملك الحوثي بمناسبة المولد النبوي الشريف:  - في الوقت الذي يَحرِم المعتدي السعودي شعبنا العزيز من ثروته الوطنية ويُغلق عليه المطارات، يفتح أجواء بلاد الحرمين وأجواء مكة والمدينة لليهود الصهاينة  - إصرار النظام السعودي على مواصلة الحصار وسعيه لتشديده وما يقوم به من تحشيد عسكري للتصعيد ومساعيه في تفكيك الشعب اليمني لهو ظلم وطغيان لا مبرر له وخدمة للصهيونية  - ما يقوم به النظام السعودي ضد شعبنا يدل على ضرورة التحرك الجاد بكل السبل المشروعة لوضع حد لذلك الطغيان والظلم  - ما يقوم به النظام السعودي يدل على صوابية خيار شعبنا العزيز في اعتماده لمعادلة الحصار بالحصار وفي الاستهداف للتحشيد العسكري  - النظام السعودي المعتدي العميل للصهيونية يتحمل كامل المسؤولية لكل ما يترتب على استهدافه لشعبنا  - أدعو شعبنا العزيز إلى الاستعانة بالله والتوكل عليه وتكثيف جهوده حتى يستعيد حقوقه المشروعة ويدفع عن نفسه الظلم الذي تمارسه مملكة قرن الشيطان بدون حق ولا مبرر  #الاعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: 3 شهداء وعدد كبير من الجرحى بقصف مسيرات إسرائيلية في مخيم جباليا شمال قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: قوات الاحتلال الإسرائيلي تنفذ تفجيرا عند أطراف بلدة صربين",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسلة الميادين في رام الله: مركز الأونروا في قلنديا الذي اقتحمه الاحتلال اليوم يقدم خدماته منذ العام 1953 للاجئين الفلسطينيين",
-      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2404,16 +2376,37 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "وقفة لأطفال غزة؛ رفضاً لتحذيرات الاحتلال بشأن إطلاق الطائرات الورقية وللمطالبة بحقهم في اللعب والحياة.",
+      "text": "لبنان: مراسل الميادين في الجنوب: طائرات الاحتلال الإسرائيلي الحربية تعتدي بغارة على أطراف وادي السلوقي لجهة بلدة شقرا",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: الخارجيه الإيرانية: الوزير عراقتشي والمشير عاصم منير تشاورا بشأن آخر التطورات الإقليمية والموضوعات ذات الاهتمام المشترك",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: طائرات الاحتلال الإسرائيلي الحربية تعتدي بغارة على بلدة المنصوري في قضاء صور",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: عراقتشي: الإطار المقترح لإنشاء ممر جديد وإزالة الألغام والإدارة المستقبلية لمضيق هرمز خير مثال على أهمية الحلول الإقليمية",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "المستشار الإعلامي لوكالة الأونروا، عدنان أبو حسنة لـ&quot;شبكة قدس&quot;:  - الأونروا تدين بشدة اقتحام قوات الاحتلال مركز تدريب قلنديا، وتؤكد أن دخول منشأة تابعة للأمم المتحدة دون تفويض هو أمر غي�� مقبول.  - مركز قلنديا هو أقدم مراكز التدريب المهني التابعة للأونروا، وفقدانه يعني حرمان مئات الشباب الفلسطينيين من التعليم والتأهيل المهني وفرص الاستقلال الاقتصادي.  - الأونروا تطالب المجتمع الدولي بالتدخل الفوري لحماية المركز وضمان استمرار عمل الوكالة، وتؤكد التزامها بتقديم خدماتها التعليمية والصحية والإغاثية للاجئين الفلسطينيين.",
+      "text": "الاحتلال يمنع خريجي جامعات الضفة من التدريس بالداخل المحتل  التفاصيل:   https://qudsn.co/share/217229",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2430,6 +2423,13 @@
       "text": "#إعلام_العدو   القناة 13 العبرية: عقب فرض عقوبات أمريكية على إيران، أرسلت الأخيرة رسائل إلى الإمارات والسعودية: أخلوا القواعد الأمريكية في بلادكم وإلا سوف تتعرض لهجوم. تشير تقديرات &quot;إسرائيل&quot; إلى أنه في حال تحقق التهديد الإيراني، فإن احتمالية نشوب حرب ستزداد.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9988217284876505
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 13 العبرية: كشف رئيس الوزراء هذا المساء ما تحظر الرقابة العسكرية نشره منذ أشهر طويلة: أن خلية بتوجيه إيراني أُرسلت لاغتيال ابنه. يمكن فقط التقدير بأن التوقيت لم يُختر مصادفة، في ظل الخلاف حول الحاجة إلى توفير الحماية لإيزنكوت.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9976922097644287
     }
   ]
 }
