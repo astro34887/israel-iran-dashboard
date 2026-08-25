@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-25T09:31:01.574Z",
+  "last_updated": "2026-08-25T10:26:33.348Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.24"
+    "global_knn_danger": "0.56",
+    "global_norm_sentiment": "-0.27"
   },
   "timeline": [
-    {
-      "time": "2026-08-23T08:24:07.350Z",
-      "danger": 0.562,
-      "sentiment": -0.294,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.65,
-          "sentiment": -0.6
-        },
-        "OSINTdefender": {
-          "danger": 0.672,
-          "sentiment": 0.3
-        },
-        "irna_1313": {
-          "danger": 0.537,
-          "sentiment": -0.333
-        },
-        "sepah_pasdaran": {
-          "danger": 0.396,
-          "sentiment": -0.6
-        },
-        "almanarnews": {
-          "danger": 0.412,
-          "sentiment": -0.4
-        },
-        "C_Military1": {
-          "danger": 0.732,
-          "sentiment": -0.467
-        },
-        "almayadeen": {
-          "danger": 0.672,
-          "sentiment": -0.5
-        },
-        "QudsN": {
-          "danger": 0.597,
-          "sentiment": -0.208
-        }
-      }
-    },
     {
       "time": "2026-08-23T09:23:01.899Z",
       "danger": 0.568,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.222
         }
       }
+    },
+    {
+      "time": "2026-08-25T10:26:33.348Z",
+      "danger": 0.559,
+      "sentiment": -0.266,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.522,
+          "sentiment": -0.367
+        },
+        "OSINTdefender": {
+          "danger": 0.636,
+          "sentiment": -0.167
+        },
+        "irna_1313": {
+          "danger": 0.494,
+          "sentiment": -0.4
+        },
+        "sepah_pasdaran": {
+          "danger": 0.4,
+          "sentiment": -0.567
+        },
+        "almanarnews": {
+          "danger": 0.477,
+          "sentiment": -0.067
+        },
+        "C_Military1": {
+          "danger": 0.814,
+          "sentiment": -0.367
+        },
+        "almayadeen": {
+          "danger": 0.668,
+          "sentiment": -0.333
+        },
+        "QudsN": {
+          "danger": 0.631,
+          "sentiment": -0.231
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,32 +2279,32 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.6076224240795806
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.5218188313909158
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
+      "raw_sentiment": -0.16666666666666666,
       "knn_danger_metric": 0.635915119792514
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.33769230313718107
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.4935666750747784
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.3735379020852882
+      "knn_danger_metric": 0.3998073470863712
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.41184114514461123
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.4773900145300893
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.5240956661274698
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.6678001963926185
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 9,
-      "raw_sentiment": -0.2222222222222222,
-      "knn_danger_metric": 0.7017653000855225
+      "num_messages": 13,
+      "raw_sentiment": -0.23076923076923078,
+      "knn_danger_metric": 0.6311924842816785
     }
   },
   "semantic_logs": [
@@ -2331,13 +2331,6 @@
       "channel": "IDF",
       "text": "״אני קורא לאכולוסייה החרדית ולהנהגה החרדית לעודד כל פעם קצת יותר לגיוס. יש לנו מסלולים יוצאים מן הכלל, השתחררו מהם אנשים לא פחות חרדים ואזרחים טובים יותר למדינה. זה טוב לכולם״  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "תיעוד התקיפה היום בשכונת שיח&#39; רצ&#39;ואן בצפון העיר עזה (אחרי התרעת פינוי).  תגובה אחת",
-      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2383,16 +2376,9 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: الاحتلال الإسرائيلي نفذ تفجيراً في بلدة عيناتا",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: الاحتلال الإسرائيلي نفذ تفجيراً في بلدة ميس الجبل",
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 الشرع عقب رفع اسم سوريا من قائمة العقوبات الأميركية: اليوم نمزّق صفحة من ماضينا الأليم https://almanar.com.lb/article/1123837/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2404,10 +2390,31 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "في ذكرى المولد النبوي.. الاحتلال ينكل بالأهالي ويعرقل وصولهم للحرم الإبراهيمي في الخليل لإحياء ذكرى المولد النبوي",
-      "absolute_sentiment": 1,
+      "text": "لبنان: مراسل الميادين: &quot;جيش&quot; الاحتلال ينفذ تفجيراً عند أطراف بلدة مجدل زون جنوبي لبنان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: الاحتلال الإسرائيلي ينفذ تفجيراً في إحدى قرى قضاء بنت جبيل جنوبي لبنان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: محلقة إسرائيلية ألقت قنبلة صوتية في بلدة ياطر",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: إصابة فتاة بجروح خطيرة برصاص قوات الاحتلال شرقي مدينة دير البلح وسط قطاع غزة",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2421,13 +2428,6 @@
       "channelId": "QudsN",
       "channel": "Arab_Axis",
       "text": "قوات الاحتلال تقتحم مدينة نابلس من حاجز عورتا",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات كبيرة من شرطة الاحتلال تقتحم مخيم قلنديا وكفر عقب شمال القدس المحتلة لتأمين اقتحام بن غفير لمعهد قلنديا",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
