@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-25T11:22:42.260Z",
+  "last_updated": "2026-08-25T12:38:59.028Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.55",
-    "global_norm_sentiment": "-0.18"
+    "global_knn_danger": "0.54",
+    "global_norm_sentiment": "-0.17"
   },
   "timeline": [
-    {
-      "time": "2026-08-23T10:18:50.492Z",
-      "danger": 0.531,
-      "sentiment": -0.198,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.451,
-          "sentiment": -0.4
-        },
-        "OSINTdefender": {
-          "danger": 0.672,
-          "sentiment": 0.3
-        },
-        "irna_1313": {
-          "danger": 0.37,
-          "sentiment": -0.167
-        },
-        "sepah_pasdaran": {
-          "danger": 0.44,
-          "sentiment": -0.433
-        },
-        "almanarnews": {
-          "danger": 0.354,
-          "sentiment": -0.036
-        },
-        "C_Military1": {
-          "danger": 0.738,
-          "sentiment": -0.467
-        },
-        "almayadeen": {
-          "danger": 0.799,
-          "sentiment": -0.233
-        },
-        "QudsN": {
-          "danger": 0.536,
-          "sentiment": -0.375
-        }
-      }
-    },
     {
       "time": "2026-08-23T11:17:10.929Z",
       "danger": 0.519,
@@ -2261,6 +2214,53 @@
           "sentiment": 0
         }
       }
+    },
+    {
+      "time": "2026-08-25T12:38:59.028Z",
+      "danger": 0.537,
+      "sentiment": -0.166,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.444,
+          "sentiment": -0.5
+        },
+        "OSINTdefender": {
+          "danger": 0.636,
+          "sentiment": -0.2
+        },
+        "irna_1313": {
+          "danger": 0.326,
+          "sentiment": 0.267
+        },
+        "sepah_pasdaran": {
+          "danger": 0.357,
+          "sentiment": -0.367
+        },
+        "almanarnews": {
+          "danger": 0.626,
+          "sentiment": -0.267
+        },
+        "C_Military1": {
+          "danger": 0.817,
+          "sentiment": -0.2
+        },
+        "almayadeen": {
+          "danger": 0.692,
+          "sentiment": -0.033
+        },
+        "QudsN": {
+          "danger": 0.524,
+          "sentiment": -0.231
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.49035497929484995
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.44386145167602903
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,20 +2291,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.4,
-      "knn_danger_metric": 0.4005018498003457
+      "raw_sentiment": 0.26666666666666666,
+      "knn_danger_metric": 0.325827843404939
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.7666666666666667,
-      "knn_danger_metric": 0.37348701056670813
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.35717439159619696
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.5627845949587447
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.6260223002456783
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.7067961620449323
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.691868966743623
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 13,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.5916212409522031
+      "raw_sentiment": -0.23076923076923078,
+      "knn_danger_metric": 0.523921863920339
     }
   },
   "semantic_logs": [
@@ -2369,38 +2369,17 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 القائم بأعمال وزارة الدفاع الايرانية: ليعلم الذين يوسّعون ميدان الضغط  أننا أيضًا سنوسّع الميدان https://almanar.com.lb/article/1124437/?s=tg",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#الجمهورية_الإسلامية   القائم بأعمال وزارة الدفاع العميد مجيد ابن الرضا:  - بالنسبة لإيران، فإن الاقتصاد وراحة الناس ورفاههم إلى جانب الأمن، هي جزء من ميدان الدفاع؛ وكل ضغط يستهدف معيشة الناس وأمنهم هو جزء من الحرب.  - ليعلم الذين يوسّعون ميدان الضغط، أننا أيضًا، من أجل الدفاع عن الشعب، سنوسّع الميدان في إطار المصالح الوطنية.  #الاعلام_الحربي",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: &quot;جيش&quot; الاحتلال ينفذ تفجيراً عند أطراف بلدة مجدل زون جنوبي لبنان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: الاحتلال الإسرائيلي ينفذ تفجيراً في إحدى قرى قضاء بنت جبيل جنوبي لبنان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: محلقة إسرائيلية ألقت قنبلة صوتية في بلدة ياطر",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: إصابة فتاة بجروح خطيرة برصاص قوات الاحتلال شرقي مدينة دير البلح وسط قطاع غزة",
-      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2428,6 +2407,27 @@
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
       "text": "فلسطين المحتلة: مراسل الميادين: طواقم الإسعاف تنقل مصابين من جراء قصف إسرائيلي استهدف مجموعة من المواطنين في مخيم طبريا",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: شهيد و4 إصابات في القصف الإسرائيلي على في مخيم طبريا بمواصي خان يونس جنوبي قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: مدفعية الاحتلال الإسرائيلي تستهدف بلدة بني حيان",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: شهيد متأثراً بجروح أصيب بها إثر قصف إسرائيلي قبل أيام استهدف دراجة نارية في شارع صلاح الدين وسط قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
