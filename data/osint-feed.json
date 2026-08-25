@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-25T01:00:44.871Z",
+  "last_updated": "2026-08-25T02:54:04.765Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.56",
-    "global_norm_sentiment": "-0.25"
+    "global_norm_sentiment": "-0.29"
   },
   "timeline": [
-    {
-      "time": "2026-08-22T23:16:08.838Z",
-      "danger": 0.581,
-      "sentiment": -0.264,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.474,
-          "sentiment": -0.538
-        },
-        "OSINTdefender": {
-          "danger": 0.603,
-          "sentiment": 0.033
-        },
-        "irna_1313": {
-          "danger": 0.424,
-          "sentiment": -0.567
-        },
-        "sepah_pasdaran": {
-          "danger": 0.418,
-          "sentiment": -0.733
-        },
-        "almanarnews": {
-          "danger": 0.529,
-          "sentiment": -0.167
-        },
-        "C_Military1": {
-          "danger": 0.786,
-          "sentiment": -0.267
-        },
-        "almayadeen": {
-          "danger": 0.727,
-          "sentiment": -0.067
-        },
-        "QudsN": {
-          "danger": 0.902,
-          "sentiment": -0.2
-        }
-      }
-    },
     {
       "time": "2026-08-23T01:03:43.278Z",
       "danger": 0.592,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.267
         }
       }
+    },
+    {
+      "time": "2026-08-25T02:54:04.765Z",
+      "danger": 0.56,
+      "sentiment": -0.286,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.294,
+          "sentiment": -0.308
+        },
+        "OSINTdefender": {
+          "danger": 0.659,
+          "sentiment": -0.2
+        },
+        "irna_1313": {
+          "danger": 0.555,
+          "sentiment": -0.682
+        },
+        "sepah_pasdaran": {
+          "danger": 0.377,
+          "sentiment": -0.333
+        },
+        "almanarnews": {
+          "danger": 0.459,
+          "sentiment": -0.4
+        },
+        "C_Military1": {
+          "danger": 0.784,
+          "sentiment": -0.167
+        },
+        "almayadeen": {
+          "danger": 0.718,
+          "sentiment": -0.367
+        },
+        "QudsN": {
+          "danger": 0.799,
+          "sentiment": -0.267
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2285,26 +2285,26 @@
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.645099471618042
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.659370789484667
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.45960930639286385
+      "num_messages": 11,
+      "raw_sentiment": -0.6818181818181818,
+      "knn_danger_metric": 0.5545819824897038
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.3771152030245497
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.5283717634391023
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.4585966877262919
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2322,7 +2322,7 @@
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.7992659356577688
+      "knn_danger_metric": 0.7992659356577689
     }
   },
   "semantic_logs": [
@@ -2345,13 +2345,6 @@
       "channel": "IRGC",
       "text": "&rlm; ️تصاویر دیدنی جشن میلاد پیامبر(ص) در الحدیده یمن  فردا آغاز هفتۀ وحدت و روز میلاد پیامبر(ص) به روایت اهل‌سنت ‌است. &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "بالصورة | اجتماع قاليباف وعاصم منير بحضور وزير الخارجية الإيراني ووزير الداخلية الباكستاني",
-      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2420,15 +2413,22 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قصف مدفعي متواصل.. مدفعية الاحتلال تستهدف المناطق الشمالية لمخيم البريج وسط قطاع غزة.",
-      "absolute_sentiment": 0.5,
+      "text": "مصادر محلية: قوات الاحتلال تداهم منزلاً خلال اقتحام بلدة عتيل شمال طولكرم.",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية جلقموس شرق مدينة جنين.",
-      "absolute_sentiment": 0,
+      "text": "مصادر محلية: قوات الاحتلال تشن حملة مداهمات واعتقالات خلال اقتحام قرية جلقموس شرق مدينة جنين.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية عوريف جنوب نابلس.",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
   ]
