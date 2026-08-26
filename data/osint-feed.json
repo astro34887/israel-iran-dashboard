@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-26T03:00:04.406Z",
+  "last_updated": "2026-08-26T03:58:13.892Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.55",
-    "global_norm_sentiment": "-0.30"
+    "global_knn_danger": "0.54",
+    "global_norm_sentiment": "-0.29"
   },
   "timeline": [
-    {
-      "time": "2026-08-24T01:02:00.814Z",
-      "danger": 0.549,
-      "sentiment": -0.193,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.544,
-          "sentiment": -0.292
-        },
-        "OSINTdefender": {
-          "danger": 0.652,
-          "sentiment": 0.233
-        },
-        "irna_1313": {
-          "danger": 0.46,
-          "sentiment": -0.4
-        },
-        "sepah_pasdaran": {
-          "danger": 0.309,
-          "sentiment": -0.1
-        },
-        "almanarnews": {
-          "danger": 0.308,
-          "sentiment": -0.233
-        },
-        "C_Military1": {
-          "danger": 0.696,
-          "sentiment": -0.4
-        },
-        "almayadeen": {
-          "danger": 0.7,
-          "sentiment": -0.533
-        },
-        "QudsN": {
-          "danger": 0.875,
-          "sentiment": -0.067
-        }
-      }
-    },
     {
       "time": "2026-08-24T02:58:38.493Z",
       "danger": 0.519,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.6
         }
       }
+    },
+    {
+      "time": "2026-08-26T03:58:13.892Z",
+      "danger": 0.544,
+      "sentiment": -0.293,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.412,
+          "sentiment": -0.4
+        },
+        "OSINTdefender": {
+          "danger": 0.558,
+          "sentiment": 0.4
+        },
+        "irna_1313": {
+          "danger": 0.556,
+          "sentiment": -0.864
+        },
+        "sepah_pasdaran": {
+          "danger": 0.341,
+          "sentiment": -0.733
+        },
+        "almanarnews": {
+          "danger": 0.392,
+          "sentiment": -0.3
+        },
+        "C_Military1": {
+          "danger": 0.84,
+          "sentiment": -0.067
+        },
+        "almayadeen": {
+          "danger": 0.537,
+          "sentiment": -0.433
+        },
+        "QudsN": {
+          "danger": 0.856,
+          "sentiment": -0.4
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2285,14 +2285,14 @@
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0.5333333333333333,
-      "knn_danger_metric": 0.5976226879908109
+      "raw_sentiment": 0.4,
+      "knn_danger_metric": 0.5577284340776202
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.9,
-      "knn_danger_metric": 0.5603002736629236
+      "num_messages": 11,
+      "raw_sentiment": -0.8636363636363636,
+      "knn_danger_metric": 0.5555541719374835
     },
     "sepah_pasdaran": {
       "name": "IRGC",
@@ -2321,8 +2321,8 @@
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.9048557269550036
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.8561314058388201
     }
   },
   "semantic_logs": [
@@ -2392,20 +2392,6 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم بناية سكنية خلال اقتحام حي الزهرة بمدينة جنين",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم عددًا من المنازل خلال اقتحام بلدة عتيل شمال طولكرم.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
       "text": "قوات الاحتلال تعتقل سيدة فلسطينية عقب مداهمة بناية سكنية في حي الزهرة بمدينة جنين",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
@@ -2427,8 +2413,22 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "بلديات شمال غزة:  - نحذّر من تفاقم أزمة المياه في شمال قطاع غزة ودخول المنطقة مرحلة العطش الشديد، وسط استمرار الحصار.  - نؤكد تعطل نحو 60% من مولدات البلديات، ما يعيق تشغيل مرافق المياه والصرف الصحي.  - منع الاحتلال إدخال المعدات وقطع الغيار والوقود يفاقم الأزمة ويسهم في انتشار الأمراض والقوارض والحشرات.  - نطالب المجتمع الدولي بالضغط لضمان إدخال الآليات والمعدات والوقود والمواد اللازمة لإعادة تشغيل خدمات المياه والصرف الصحي.",
+      "text": "بلديات شمال غزة:  - نحذّر من تفاقم أزمة المياه في شمال قطاع غزة ودخول المنطقة مرحلة العطش الشديد، وسط استمرار الحصار.  - نؤكد تعطل نحو 60% من مولدات البلديات، ما يعيق تشغيل مرافق المياه والصرف الصحي.  - منع الاحتلال إدخال المعدات وقطع الغيار والو��ود يفاقم الأزمة ويسهم في انتشار الأمراض والقوارض والحشرات.  - نطالب المجتمع الدولي بالضغط لضمان إدخال الآليات والمعدات والوقود والمواد اللازمة لإعادة تشغيل خدمات المياه والصرف الصحي.",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم مدينة طوباس.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "متابعة | قوات الاحتلال تداهم منزلاً خلال اقتحام مدينة طوباس.",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
   ]
