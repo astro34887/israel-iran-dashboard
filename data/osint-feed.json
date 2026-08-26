@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-26T10:30:46.791Z",
+  "last_updated": "2026-08-26T11:25:09.568Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.54",
+    "global_knn_danger": "0.55",
     "global_norm_sentiment": "-0.13"
   },
   "timeline": [
-    {
-      "time": "2026-08-24T09:41:31.079Z",
-      "danger": 0.536,
-      "sentiment": -0.16,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.61,
-          "sentiment": -0.433
-        },
-        "OSINTdefender": {
-          "danger": 0.652,
-          "sentiment": -0.033
-        },
-        "irna_1313": {
-          "danger": 0.473,
-          "sentiment": -0.467
-        },
-        "sepah_pasdaran": {
-          "danger": 0.284,
-          "sentiment": -0.467
-        },
-        "almanarnews": {
-          "danger": 0.292,
-          "sentiment": 0.233
-        },
-        "C_Military1": {
-          "danger": 0.863,
-          "sentiment": -0.333
-        },
-        "almayadeen": {
-          "danger": 0.631,
-          "sentiment": 0.367
-        },
-        "QudsN": {
-          "danger": 0.608,
-          "sentiment": -0.333
-        }
-      }
-    },
     {
       "time": "2026-08-24T10:32:55.899Z",
       "danger": 0.524,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.667
         }
       }
+    },
+    {
+      "time": "2026-08-26T11:25:09.568Z",
+      "danger": 0.548,
+      "sentiment": -0.133,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.599,
+          "sentiment": -0.467
+        },
+        "OSINTdefender": {
+          "danger": 0.563,
+          "sentiment": 0.4
+        },
+        "irna_1313": {
+          "danger": 0.483,
+          "sentiment": -0.233
+        },
+        "sepah_pasdaran": {
+          "danger": 0.39,
+          "sentiment": -0.467
+        },
+        "almanarnews": {
+          "danger": 0.424,
+          "sentiment": 0.1
+        },
+        "C_Military1": {
+          "danger": 0.831,
+          "sentiment": -0.067
+        },
+        "almayadeen": {
+          "danger": 0.641,
+          "sentiment": -0.1
+        },
+        "QudsN": {
+          "danger": 0.599,
+          "sentiment": -0.364
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.5475086593712795
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.5994204908365585
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,26 +2291,26 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.5113920883370645
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.4831646604177059
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.46113237802965706
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.3895184530695451
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.23333333333333334,
-      "knn_danger_metric": 0.3252854013578201
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.42421220294066786
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.8551740977867036
+      "knn_danger_metric": 0.8313948381735581
     },
     "almayadeen": {
       "name": "Arab_Axis",
@@ -2320,9 +2320,9 @@
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 9,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.5855585015710727
+      "num_messages": 11,
+      "raw_sentiment": -0.36363636363636365,
+      "knn_danger_metric": 0.5990184711874519
     }
   },
   "semantic_logs": [
@@ -2385,7 +2385,7 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#اليمن   أبرز ما جاء في كلمة قائد أنصار الله السيد عبدالملك الحوثي بمناسبة المولد النبوي الشريف:  - في الوقت الذي يَحرِم المعتدي السعودي شعبنا العزيز من ثروته الوطنية ويُغلق عليه المطارات، يفتح أجواء بلاد الحرمين وأجواء مكة والمدينة لليهود الصهاينة  - إصرار النظام السعودي على مواصلة الحصار وسعيه لتشديده وما يقوم به من تحشيد عسكري للتصعيد ومساعيه في تفكيك الشعب اليمني لهو ظلم وطغيان لا مبرر له وخدمة للصهيونية  - ما يقوم به النظام السعودي ضد شعبنا يدل على ضرورة التحرك الجاد بكل السبل المشروعة لوضع حد لذلك الطغيان والظلم  - ما يقوم به النظام السعودي يدل على صوابية خيار شعبنا العزيز في اعتماده لمعادلة الحصار بالحصار وفي الاستهداف للتحشيد العسكري  - النظام السعودي المعتدي العميل للصهيونية يتحمل كامل المسؤولية لكل ما يترتب على استهدافه لشعبنا  - أدعو شعبنا العزيز إلى الاستعانة بالله والتوكل عليه وتكثيف جهوده حتى يستعيد حقوقه المشروعة ويدفع عن نفسه الظلم الذي تمارسه مملكة قرن الشيطان بدون حق ولا مبرر  #الاعلام_الحربي",
+      "text": "#اليمن   أبرز ما جاء في كلمة قائد أنصار الله السيد عبدالملك الحوثي بمناسبة المولد النبوي الشريف:  - في الوقت الذي يَحرِم المعتدي السعودي شعبنا العزيز من ثروته الوطنية ويُغلق عليه المطارات، يفتح أجواء بلاد الحرمين وأجواء مكة والمدينة لليهود الصهاينة  - إصرار النظام السعودي على مواصلة الحصار وسعيه لتشديده وما يقوم به من تحشيد عسكري للتصعيد ومساعيه في تفكيك الشعب اليمني لهو ظلم وطغيان لا مبرر له وخدمة للصهيونية  - ما يقوم به النظام السعودي ضد شعبنا يدل على ضرورة التحرك الجاد بكل السبل المشروعة لوضع حد لذلك الطغيان والظلم  - ما يقوم به النظام السعودي يدل على صوابية خيار شعبنا العزيز في اعتماده لمعادلة الحصار بالحصار وفي الاستهداف للتحشيد العسكري  - النظام السعودي المعتدي العميل للصهيونية يتحمل كامل المسؤولية لكل ما يترتب على استهدافه لشعبنا  - أدعو شعبنا العزيز إلى الاستعانة بالل�� والتوكل عليه وتكثيف جهوده حتى يستعيد حقوقه المشروعة ويدفع عن نفسه الظلم الذي تمارسه مملكة قرن الشيطان بدون حق ولا مبرر  #الاعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2393,27 +2393,6 @@
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#إعلام_العدو   صحيفة معاريف العبرية: يقوم حزب الليكود وحاشيته من رئيس الوزراء بنيامين نتنياهو بالفعل بتحليل السيناريو الذي قد ينشأ في اليوم التالي للانتخابات: عدم حصول أي من الكتل على 61 مقعداً، وعدم وجود إمكانية لتشكيل حكومة ضيقة، ووصول النظام إلى طريق مسدود.…",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: الاحتلال الإسرائيلي نفذ تفجيراً في بلدة مجدل زون",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: مدفعية الاحتلال الإسرائيلي تستهدف بلدة المنصوري",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: &quot;جيش&quot; الاحتلال الإسرائيلي نفذ تفجيرين في مدينة بنت جبيل",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2428,6 +2407,27 @@
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
       "text": "فلسطين المحتلة: مراسل الميادين: مصابون جراء غارة من مسيرة إسرائيلية على خيمة داخل مخيم غيث بمواصي خان يونس جنوبي قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: مدفعية الاحتلال استهدفت بلدة بني حيان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: &quot;جيش&quot; الاحتلال نفذ تفجيراً عند أطراف بلدة برعشيت لجهة بلدة عيترون",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: &quot;جيش&quot; الاحتلال نفذ تفجيراً أطراف بلدة برعشيت لجهة بلدة عيترون",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
