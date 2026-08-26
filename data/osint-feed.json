@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-26T06:40:10.995Z",
+  "last_updated": "2026-08-26T07:41:39.454Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.14"
+    "global_knn_danger": "0.54",
+    "global_norm_sentiment": "-0.24"
   },
   "timeline": [
-    {
-      "time": "2026-08-24T05:34:15.160Z",
-      "danger": 0.511,
-      "sentiment": -0.122,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.392,
-          "sentiment": -0.321
-        },
-        "OSINTdefender": {
-          "danger": 0.671,
-          "sentiment": 0.267
-        },
-        "irna_1313": {
-          "danger": 0.452,
-          "sentiment": 0
-        },
-        "sepah_pasdaran": {
-          "danger": 0.354,
-          "sentiment": -0.167
-        },
-        "almanarnews": {
-          "danger": 0.37,
-          "sentiment": -0.267
-        },
-        "C_Military1": {
-          "danger": 0.706,
-          "sentiment": -0.433
-        },
-        "almayadeen": {
-          "danger": 0.623,
-          "sentiment": -0.033
-        },
-        "QudsN": {
-          "danger": 0.594,
-          "sentiment": -0.1
-        }
-      }
-    },
     {
       "time": "2026-08-24T06:49:07.275Z",
       "danger": 0.481,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.267
         }
       }
+    },
+    {
+      "time": "2026-08-26T07:41:39.454Z",
+      "danger": 0.535,
+      "sentiment": -0.24,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.438,
+          "sentiment": -0.2
+        },
+        "OSINTdefender": {
+          "danger": 0.569,
+          "sentiment": 0.4
+        },
+        "irna_1313": {
+          "danger": 0.493,
+          "sentiment": -0.167
+        },
+        "sepah_pasdaran": {
+          "danger": 0.503,
+          "sentiment": -0.833
+        },
+        "almanarnews": {
+          "danger": 0.465,
+          "sentiment": -0.6
+        },
+        "C_Military1": {
+          "danger": 0.855,
+          "sentiment": -0.067
+        },
+        "almayadeen": {
+          "danger": 0.628,
+          "sentiment": -0.467
+        },
+        "QudsN": {
+          "danger": 0.452,
+          "sentiment": -0.333
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.38979113683864813
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.43817834473935785
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0.43333333333333335,
-      "knn_danger_metric": 0.563248639276775
+      "raw_sentiment": 0.4,
+      "knn_danger_metric": 0.5685598635594697
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.4,
-      "knn_danger_metric": 0.5021744817754407
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.49306168115290505
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.8333333333333334,
-      "knn_danger_metric": 0.42378311372576316
+      "knn_danger_metric": 0.5032030264306433
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.39196338760319516
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.4650966715203522
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.8521561407595679
+      "knn_danger_metric": 0.8551740977867036
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.5279089025898913
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.6279089025898912
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.5934177214327624
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.4515655850016515
     }
   },
   "semantic_logs": [
@@ -2348,10 +2348,24 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️اولین تصاویر از برادران نجفی که حکم اعدامشان امروز اجرا شد. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
       "text": "الخارجية القطرية: بحث المقترح العماني الإيراني لإنشاء ممر ملاحي مؤقت في مضيق هرمز https://almanar.com.lb/article/1125862/?s=tg",
       "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "وزارة التربية ذكّرت بضرورة تسجيل التلامذة في المدارس والثانويات الرسمية https://almanar.com.lb/article/1126212/?s=tg",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2397,39 +2411,25 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تعتقل 3 فلسطينيين خلال اقتحام بلدة دير الغصون شمال طولكرم، وهم: مازن الزبيدي، عكرمة غانم، وساهر غانم.",
+      "text": "لبنان: مراسل الميادين في الجنوب: &quot;جيش&quot; الاحتلال الإسرائيلي نفذ تفجيرين في مدينة بنت جبيل",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: &quot;جيش&quot; الاحتلال نفذ 4 تفجيرات صباح اليوم في بلدة الخيام جنوبي البلاد",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تعتقل الأسير المحرر يمان عمر خشّان عقب مداهمة منزله في مخيم الفوار جنوب الخليل، فجر اليوم.",
+      "text": "53 ألف شيكل شهريًا.. الحرب تستنزف اقتصاد الاحتلال عبر جنود الاحتياط التفاصيل: https://qudsn.co/share/217233",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تعتقل الشاب سليمان الزلفي خلال اقتحام منطقة السكنات في محيط الجامعة العربية الأمريكية بجنين",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   موقع والاه العبري:  - قبل بدء الحرب على إيران، حذّرت رئيسة الاستخبارات الوطنية تولسي غابارد وكبار قادة الجيش ترامب من مخاطر الهجوم، بينها الخسائر البشرية، استنزاف الذخائر، وإغلاق مضيق هرمز واحتمال صعود نظام إيراني أكثر تطرفًا وفقًا لتحقيق نشرته اليوم صحيفة «وول ستريت جورنال».  - نتنياهو ومسؤولون في الإدارة الأمريكية أقنعوا ترامب بأن إيران تمر بأضعف مرحلة لها منذ عقود، وأن الحرب تمثل فرصة لتدمير برنامجها النووي وإسقاط النظام.  - بعد نحو ستة أشهر من تعهد ترامب بإنهاء الحرب خلال ستة أسابيع، لا تزال الحرب مستمرة، وبعد انتهاء المفاوضات في 17 أغسطس، انتقلت واشنطن إلى استراتيجية العقوبات والحصار البحر بهدف إسقاط النظام الإيراني.  - مسؤول أمريكي سابق في مجلس الأمن القومي خلص إلى أن التحذيرات التي سبقت الحرب تحققت إلى حد كبير، معتبرًا أن غياب هدف سياسي واضح أدى إلى سوء إدارة الجهود الدبلوماسية لإنهاء الحرب.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9992436324309595
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة معاريف العبرية: في مثل هذا السيناريو، أحد الخيارات التي تتداولها مصادر الليكود هو تشكيل حكومة واسعة بالتناوب بين نتنياهو وغادي آيزنكوت . والسؤال الذي يشغلهم منذ مرحلة التحليل هو ما الذي يمكن أن يقدمه نتنياهو لآيزنكوت ليوافق على حكومة التناوب، وليقنعه أيضاً بأن اتفاقية التناوب ستُحترم هذه المرة، بعد سابقة حكومة نتنياهو-غانتس.  #الإعلام_الحربي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9986983872846683
     }
   ]
 }
