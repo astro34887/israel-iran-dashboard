@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-26T18:54:06.988Z",
+  "last_updated": "2026-08-26T21:36:42.789Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.11"
+    "global_knn_danger": "0.59",
+    "global_norm_sentiment": "-0.25"
   },
   "timeline": [
-    {
-      "time": "2026-08-24T15:34:47.969Z",
-      "danger": 0.573,
-      "sentiment": -0.197,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.71,
-          "sentiment": -0.4
-        },
-        "OSINTdefender": {
-          "danger": 0.684,
-          "sentiment": 0.033
-        },
-        "irna_1313": {
-          "danger": 0.35,
-          "sentiment": -0.267
-        },
-        "sepah_pasdaran": {
-          "danger": 0.415,
-          "sentiment": -0.267
-        },
-        "almanarnews": {
-          "danger": 0.361,
-          "sentiment": 0.4
-        },
-        "C_Military1": {
-          "danger": 0.775,
-          "sentiment": -0.367
-        },
-        "almayadeen": {
-          "danger": 0.699,
-          "sentiment": -0.567
-        },
-        "QudsN": {
-          "danger": 0.785,
-          "sentiment": -0.4
-        }
-      }
-    },
     {
       "time": "2026-08-24T16:31:28.603Z",
       "danger": 0.592,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.3
         }
       }
+    },
+    {
+      "time": "2026-08-26T21:36:42.789Z",
+      "danger": 0.593,
+      "sentiment": -0.247,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.543,
+          "sentiment": -0.467
+        },
+        "OSINTdefender": {
+          "danger": 0.573,
+          "sentiment": 0.067
+        },
+        "irna_1313": {
+          "danger": 0.575,
+          "sentiment": -0.767
+        },
+        "sepah_pasdaran": {
+          "danger": 0.578,
+          "sentiment": -0.433
+        },
+        "almanarnews": {
+          "danger": 0.41,
+          "sentiment": 0.167
+        },
+        "C_Military1": {
+          "danger": 0.837,
+          "sentiment": -0.267
+        },
+        "almayadeen": {
+          "danger": 0.571,
+          "sentiment": -0.2
+        },
+        "QudsN": {
+          "danger": 0.894,
+          "sentiment": -0.4
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,32 +2279,32 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.4691278874808128
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.5432931661224405
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0.2,
-      "knn_danger_metric": 0.6069716369285469
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.5727677587685527
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.42191246727072035
+      "raw_sentiment": -0.7666666666666667,
+      "knn_danger_metric": 0.5749684201362122
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.4447413629878834
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.5779065601232644
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.2763144345276994
+      "raw_sentiment": 0.16666666666666666,
+      "knn_danger_metric": 0.4097905590827107
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.5749355817296153
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.5706403602165158
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.6480930358750784
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.8942591261231562
     }
   },
   "semantic_logs": [
@@ -2341,95 +2341,95 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: محلقة إسرائيلية تلقي مواد متفجرة في بلدة المنصوري",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي على مدينة بيت لاهيا شمالي قطاع غزة",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "מפעילי רחפנים אוקראיניים אורבים למפעילי רחפנים רוסים ומחסלים אחד מהם - יחד עם &quot;הסחורה&quot;.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: الطائرات الحربية الإسرائيلية تغير مجدداً على بلدة المنصوري قضاء صور",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "&quot;بدي جثمان ابني ناصر، أولادنا مش أرقام، بدنا جثامين أولادنا&quot;..  رسالة أم الشهداء والأسرى &quot;لطيفة أبو حميد&quot; خلال فعالية للمطالبة باسترداد جثامين الشهداء التي يحتجزها الاحتلال.",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة معاريف العبرية: في مثل هذا السيناريو، أحد الخيارات التي تتداولها مصادر الليكود هو تشكيل حكومة واسعة بالتناوب بين نتنياهو وغادي آيزنكوت . والسؤال الذي يشغلهم منذ مرحلة التحليل هو ما الذي يمكن أن يقدمه نتنياهو لآيزنكوت ليوافق على حكومة التناوب، وليقنعه أيضاً بأن اتفاقية التناوب ستُحترم هذه المرة، بعد سابقة حكومة نتنياهو-غانتس.  #الإعلام_الحربي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9986983872846683
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   بلدية سديروت: لا علم لنا بأي استعدادات بشأن إطلاق صواريخ من قطاع غزة.  #الإعلام_الحربي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9973354161980501
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 15 العبرية: اجتماع رئيس جهاز الموساد ووزير الخارجية السوري: &quot;إسرائيل&quot; وسوريا اتفقتا على مواصلة الحوار برعاية الولايات المتحدة الأمريكية والتي ستمثل أيضًا تركيا.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.99733541619805
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 13 العبرية: نتائج استطلاع توزيع المقاعد لهذا اليوم:نتنياهو يتراجع وبنيت مستقر ولا توجد حكومة لأي من الطرفين.  حزب ايزنكوت: 24. الليكود: 19. «معًا»: 13. الديمقراطيون: 11. القائمة المشتركة: 10. إسرائيل بيتنا: 9. شاس: 8. يهودية التوراة: 8. عوتسما يهوديت: 8. الصهيونية الدينية: 5. رَعَم: 5.  خريطة الكتل: الائتلاف: 48 الأحزاب العربية: 15 المعارضة: 57  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9966432724251408
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   وسائل إعلام إيرانية: ناقلة نفط هندية بإسم «HAANA» كانت تعتزم قبل قليل العبور عبر المسار الجنوبي لمضيق هرمز، لكنها تراجعت عن ذلك بعد تحذير وُجّه إليها.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9954409552297614
-    },
-    {
-      "channelId": "irna_1313",
+      "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "🔸مقام ارشد وزارت امور خارجه انگلیس با صدور بیانیه‌ای، تخریب مرکز آموزشی قلندیا متعلق به آژانس کار و امداد سازمان ملل متحد (آنروا) در قدس اشغالی توسط اسرائیل را «ظالمانه» خواند و آن را محکوم کرد #ایرنا_جهان   https://irna.ir/xjY6kJ @IRNA_1313",
+      "text": "&rlm; ️&rlm;تصاویری از شلیک موشک‌های بالستیک توسط نیروهای یمن به سمت تجمع‌ها و انبارهای متعلق به عربستان سعودی در منطقه المخا. &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9949856863108547
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   قناة كان العبرية: نتنياهو يخشى الخسارة في الانتخابات وقال لمقربيه: «لقد فقدنا 10 مقاعد».  #الإعلام_الحربي",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️تصاویری از حمله به مقر تروریست‌های ضدایرانی در کردستان عراق  منابع عراقی از حملۀ هوایی به مقر مرکزی گروه‌های تروریستی جدایی‌طلب در شهرستان سوران در استان اربیل، و وقوع آتش‌سوزی گسترده خبر دادند. &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9922770823938796
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️‌تصاویر سرنگونی یک فروند پهپاد جاسوسی متخاصم در آسمان شهر «إب» در یمن. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: مدفعية الاحتلال الإسرائيلي استهدفت أطراف بلدة عيتا الجبل جنوبي لبنان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: محلقة إسرائيلية تلقي مواد متفجرة في بلدة المنصوري بقضاء صور جنوبي لبنان",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "سوريا: مصادر محلية: قوات الاحتلال الإسرائيلي تستهدف محيط بلدة بيت جن بريف دمشق الغربي بثلاث قذائف مدفعية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: &quot;جيش&quot; الاحتلال الإسرائيلي ينفذ تفجيراً في بلدة المنصوري بقضاء صور جنوبي لبنان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: مدفعية الاحتلال الإسرائيلي تستهدف دوحة كفررمان في قضاء النبطية بالقذائف الفوسفورية",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل | آليات الاحتلال تجوب شوارع مدينة جنين، برفقة مركبة إسرائيلية غير عسكرية.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.979944721873049
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة حزما، شمال القدس المحتلة.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل | مدفعية الاحتلال تقصف مناطق في مدينة بيت لاهيا، شمال قطاع غزة.",
+      "text": "قوات الاحتلال تواصل اقتحام المنطقة الشرقية في نابلس",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام المستوطنين لقبر يوسف في المنطقة الشرقية بمدينة نابلس، بحماية قوات الاحتلال.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تداهم عدداً من المنازل خلال اقتحام قرية زيتا جماعين، جنوب نابلس.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
+      "semantic_danger_knn": 1
     }
   ]
 }
