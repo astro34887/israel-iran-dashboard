@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-29T19:07:52.739Z",
+  "last_updated": "2026-08-29T22:15:44.600Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.56",
-    "global_norm_sentiment": "-0.20"
+    "global_norm_sentiment": "-0.19"
   },
   "timeline": [
-    {
-      "time": "2026-08-25T01:00:44.871Z",
-      "danger": 0.556,
-      "sentiment": -0.247,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.294,
-          "sentiment": -0.308
-        },
-        "OSINTdefender": {
-          "danger": 0.645,
-          "sentiment": -0.233
-        },
-        "irna_1313": {
-          "danger": 0.46,
-          "sentiment": -0.433
-        },
-        "sepah_pasdaran": {
-          "danger": 0.377,
-          "sentiment": -0.467
-        },
-        "almanarnews": {
-          "danger": 0.528,
-          "sentiment": -0.1
-        },
-        "C_Military1": {
-          "danger": 0.784,
-          "sentiment": -0.167
-        },
-        "almayadeen": {
-          "danger": 0.718,
-          "sentiment": -0.367
-        },
-        "QudsN": {
-          "danger": 0.799,
-          "sentiment": -0.267
-        }
-      }
-    },
     {
       "time": "2026-08-25T02:54:04.765Z",
       "danger": 0.56,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.286
         }
       }
+    },
+    {
+      "time": "2026-08-29T22:15:44.600Z",
+      "danger": 0.564,
+      "sentiment": -0.192,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.596,
+          "sentiment": -0.633
+        },
+        "OSINTdefender": {
+          "danger": 0.596,
+          "sentiment": 0.267
+        },
+        "irna_1313": {
+          "danger": 0.392,
+          "sentiment": -0.318
+        },
+        "sepah_pasdaran": {
+          "danger": 0.26,
+          "sentiment": -0.033
+        },
+        "almanarnews": {
+          "danger": 0.362,
+          "sentiment": 0.133
+        },
+        "C_Military1": {
+          "danger": 0.83,
+          "sentiment": -0.633
+        },
+        "almayadeen": {
+          "danger": 0.755,
+          "sentiment": -0.267
+        },
+        "QudsN": {
+          "danger": 0.903,
+          "sentiment": -0.3
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.5275579112145654
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.5959087743843113
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.5069599911635717
+      "num_messages": 11,
+      "raw_sentiment": -0.3181818181818182,
+      "knn_danger_metric": 0.39222839593269504
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.3967342545989563
+      "knn_danger_metric": 0.25975228318028376
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.23333333333333334,
-      "knn_danger_metric": 0.2927724663113426
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.36210668044751443
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
+      "raw_sentiment": -0.6333333333333333,
       "knn_danger_metric": 0.8298823092725371
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.8,
-      "knn_danger_metric": 0.7450644319018734
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.7549017613317269
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 14,
-      "raw_sentiment": -0.2857142857142857,
-      "knn_danger_metric": 0.7431668184570732
+      "num_messages": 15,
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.9033312525736856
     }
   },
   "semantic_logs": [
@@ -2336,15 +2336,15 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "2. לאחר הפרסום בערוץ &quot;כאן&quot; ☝️דובר צה&quot;ל פרסם את ההודעה הבאה על מה שקרה בכפר קוסרה:  הודעה משותפת לדובר צה״ל ודוברות מג״ב:  כוחות צה״ל ומג״ב קפצו לכפר קוצרה בעקבות דיווח על הגעת פורעים ישראלים למרחב הכפר וחיכוך אלים שכלל יידוי אבנים לעבר פלסטינים ואזרחים נוספים.…",
+      "text": "🛑 מזרן אורטופדי קונים חכם ובטוח רק עם ד&quot;ר קומפורט 🛑  בלי לקרוע את הכיס, בלי לקחת סיכון עם מזרן שאולי לא יתאים לכם, ובמחיר חסכוני מדהים&#33;  הכירו את DOUBLE – המזרן האורטופדי לחוויית שינה מושלמת, ובעל 2 דרגות קושי לבחירתכם – רך וקשה – מה שהופך אותו למזרן עם התמורה הטובה ביותר למחיר&#33; 🔥  רק ב-1,790 ₪ בלבד (מחיר מומלץ לצרכן 5,990 ₪), ו-30 לילות ניסיון אצלכם בבית&#33;  בנוסף, תקבלו גם זוג כריות וויסקו מפנקות בשווי 880 ₪ – ב-מ-ת-נ-ה&#33; 🎁🎁🎁  המזרן מגיע גם עם:  🔥 12 שנות אחריות&#33;  🔥 פריסת תשלומים גמישה במיוחד&#33;  🔥 התאמה אישית על ידי יועץ שינה מקצועי&#33;  אל תפספסו, מהרו להשאיר פרטים &gt;&gt;  https://lp.drcomfort.co.il/mattress/double/?channelID=691164&amp;utm_source=abu_ali_express_telegram&amp;utm_medium=post&amp;utm_campaign=mattress_double",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "🛑 מזרן אורטופדי קונים חכם ובטוח רק עם ד&quot;ר קומפורט 🛑  בלי לקרוע את הכיס, בלי לקחת סיכון עם מזרן שאולי לא יתאים לכם, ובמחיר חסכוני מדהים&#33;  הכירו את DOUBLE – המזרן האורטופדי לחוויית שינה מושלמת, ובעל 2 דרגות קושי לבחירתכם – רך וקשה – מה שהופך אותו למזרן עם התמורה הטובה ביותר למחיר&#33; 🔥  רק ב-1,790 ₪ בלבד (מחיר מומלץ לצרכן 5,990 ₪), ו-30 לילות ניסיון אצלכם בבית&#33;  בנוסף, תקבלו גם זוג כריות וויסקו מפנקות בשווי 880 ₪ – ב-מ-ת-נ-ה&#33; 🎁🎁🎁  המזרן מגיע גם עם:  🔥 12 שנות אחריות&#33;  🔥 פריסת תשלומים גמישה במיוחד&#33;  🔥 התאמה אישית על ידי יועץ שינה מקצועי&#33;  אל תפספסו, מהרו להשאיר פרטים &gt;&gt;  https://lp.drcomfort.co.il/mattress/double/?channelID=691164&amp;utm_source=abu_ali_express_telegram&amp;utm_medium=post&amp;utm_campaign=mattress_double",
-      "absolute_sentiment": -1,
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️تصاویر هوایی از آسمان نورانی تبریز در شب ولادت پیامبر(ص) &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2358,7 +2358,7 @@
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#لبنان  أبرز ما جاء في كلمة الامين العام لحزب الله سماحة الشيخ نعيم قاسم&nbsp; في المهرجان النبوي المركزي &quot;رسول الأحرار&quot; في باحة عاشوراء بالضاحية الجنوبية لبيروت:   - للسلطة اللبنانية:&nbsp; تدّفعون البلد ثمناً في المفاوضات للبقاء على عروشكم وإرضاء أميركا المتواطئة مع &quot;إسرائيل&quot;.  - لا نريد الحرب والدليل موافقتنا على اتفاق 27 تشرين 2024 والتزامنا به.  - ما هو قائم اليوم ليس حربًا متبادلة بل عدوان إسرائيلي موصوف يتصاعد وينخفض ولولا إيران ومذكرة التفاهم لما انخفض.  #الاعلام_الحربي",
-      "absolute_sentiment": -1,
+      "absolute_sentiment": -0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2406,29 +2406,29 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في جنوب لبنان: الاحتلال ينفذ تفجيراً في بلدة بيوت السياد",
+      "text": "فلسطين المحتلة: مراسل الميادين: شهيد وجرحى في عدوان طيران الاحتلال على حي الأمل غربي مدينة خان يونس جنوبي قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: إصابة برصاص الاحتلال في منطقة السطر الغربي شمالي مدينة خان يونس جنوبي القطاع",
+      "text": "سوريا: مصادر محلية: قوات الاحتلال الإسرائيلي تعتدي بقذائف المدفعية على تلة باط الوردة عند أطراف بلدة بيت جن في ريف دمشق الغربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: إصابة طفل برصاص قوات الاحتلال في مخيم شعشاعة شرق حي الشيخ رضوان شمالي مدينة غزة",
-      "absolute_sentiment": -1,
+      "text": "إيران: غريب ابادي: القوات المسلحة الإيرانية لديها إشراف كامل على التحركات في مضيق هرمز",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: قوات الاحتلال تنفذ تفجيراً في بلدة طلوسة جنوبي البلاد",
-      "absolute_sentiment": -1,
+      "text": "إيران: غريب ابادي: لا نؤكد الادعاءات المتداولة بشأن عبور السفن من المضيق من دون تنسيق مسبق",
+      "absolute_sentiment": -0.5,
       "semantic_danger_knn": 1
     }
   ]
