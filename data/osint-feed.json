@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-29T10:42:40.286Z",
+  "last_updated": "2026-08-29T15:26:29.625Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.22"
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.03"
   },
   "timeline": [
-    {
-      "time": "2026-08-24T22:20:39.688Z",
-      "danger": 0.582,
-      "sentiment": -0.241,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.285,
-          "sentiment": -0.308
-        },
-        "OSINTdefender": {
-          "danger": 0.654,
-          "sentiment": -0.233
-        },
-        "irna_1313": {
-          "danger": 0.51,
-          "sentiment": -0.267
-        },
-        "sepah_pasdaran": {
-          "danger": 0.389,
-          "sentiment": -0.2
-        },
-        "almanarnews": {
-          "danger": 0.602,
-          "sentiment": -0.2
-        },
-        "C_Military1": {
-          "danger": 0.799,
-          "sentiment": -0.167
-        },
-        "almayadeen": {
-          "danger": 0.718,
-          "sentiment": -0.467
-        },
-        "QudsN": {
-          "danger": 0.916,
-          "sentiment": -0.433
-        }
-      }
-    },
     {
       "time": "2026-08-24T23:18:27.731Z",
       "danger": 0.568,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.083
         }
       }
+    },
+    {
+      "time": "2026-08-29T15:26:29.625Z",
+      "danger": 0.534,
+      "sentiment": -0.03,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.555,
+          "sentiment": -0.833
+        },
+        "OSINTdefender": {
+          "danger": 0.631,
+          "sentiment": 0.5
+        },
+        "irna_1313": {
+          "danger": 0.451,
+          "sentiment": 0.1
+        },
+        "sepah_pasdaran": {
+          "danger": 0.487,
+          "sentiment": -0.133
+        },
+        "almanarnews": {
+          "danger": 0.461,
+          "sentiment": 0.167
+        },
+        "C_Military1": {
+          "danger": 0.742,
+          "sentiment": -0.433
+        },
+        "almayadeen": {
+          "danger": 0.368,
+          "sentiment": 0.3
+        },
+        "QudsN": {
+          "danger": 0.691,
+          "sentiment": 0.167
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.7333333333333333,
-      "knn_danger_metric": 0.5505104844006667
+      "raw_sentiment": -0.8333333333333334,
+      "knn_danger_metric": 0.5546619081026862
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0.36666666666666664,
-      "knn_danger_metric": 0.642065653736413
+      "raw_sentiment": 0.5,
+      "knn_danger_metric": 0.630879075446129
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.4132557441170478
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.4505887595471078
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.4430802419225635
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.48723998757426185
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.41534016632970155
+      "raw_sentiment": 0.16666666666666666,
+      "knn_danger_metric": 0.46146147894348954
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
+      "raw_sentiment": -0.43333333333333335,
       "knn_danger_metric": 0.7423532988317835
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.7666666666666667,
-      "knn_danger_metric": 0.7035134769888906
+      "raw_sentiment": 0.3,
+      "knn_danger_metric": 0.36792197975411284
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 12,
-      "raw_sentiment": -0.08333333333333333,
-      "knn_danger_metric": 0.5781639295525275
+      "num_messages": 15,
+      "raw_sentiment": 0.16666666666666666,
+      "knn_danger_metric": 0.6911559829705584
     }
   },
   "semantic_logs": [
@@ -2334,31 +2334,31 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "כך כותב תיסיר עבד, פרשן עזתי, על שלט חוצות בערבית של מפלגת &quot;עמך ישראל&quot; הקורא לערבים ישראלים שגאים בהיותם ישראלים להצביע למפלגה:  &quot;הימין הישראלי בונה על קולות ערביי ישראל ששונאים את עזה והגדה וקוראים למיזוג מלא עם הכיבוש.  (כך נראה) שלט פרסומת של תעמולת הבחירות, שהוצב באזור שפרעם של עופר וינטר ויוסף חדאד.&quot;  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "תקיפה בעיר עזה:  הרוג ופצוע אנוש בתקיפת כטב&quot;מ ישראלי לפני זמן קצר על אופניים באזור כיכר &quot;אלמאליה&quot; בשכונת תל אלהווא בעיר עזה.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "תקיפה בעיר עזה:  הרוג ופצוע אנוש בתקיפת כטב&quot;מ ישראלי לפני זמן קצר על אופניים באזור כיכר &quot;אלמאליה&quot; בשכונת תל אלהווא בעיר עזה.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️سردار کرمی: بعد از آنکه تفاهم‌نامه نوشته شد و آمریکا زیر میز زد اعلام کردیم یک موشک بزنید ۱۰ تا می‌زنیم و همین اتفاق افتاد &lrm;✅ @sepah_pasdaran",
+      "text": "&rlm; ️جای زخم دشمن بر دستان کودک ایرانی؛ سندی از جنایت حمله آمریکایی-صهیونیستی به#میناب &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "الدفاع المدني يحذر من خطورة الرياضات البحرية اليوم وغدا بسبب ارتفاع الأمواج وشدة التيارات https://almanar.com.lb/article/1135017/?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "المديرية العامة للدفاع المدني اللبناني: إبتعدو عن البحر اليوم وغداً https://almanar.com.lb/article/1135017/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#لبنان  أبرز ما جاء في كلمة الامين العام لحزب الله سماحة الشيخ نعيم قاسم&nbsp; في المهرجان النبوي المركزي &quot;رسول الأحرار&quot; في باحة عاشوراء بالضاحية الجنوبية لبيروت:   - اليوم نحتفل بولادة رسول الأحرار محمد (ص) وسنتحدث بهذه المناسبة عن الولادة الميمونة وعن الدور العظيم لسيد الرسل والأنبياء على مستوى البشرية جمعاء كذلك سنتعرض لبعض الموضوعات ومنها الموضوع السياسي في بلدنا.   #الاعلام_الحربي",
-      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2390,45 +2390,45 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: النيابة العامة في طهران: إصدار لائحة الاتهامات بقضية العدوان الإرهابي الذي أدى لاستشهاد قائد الثورة والجمهورية و4 أفراد من عائلته",
-      "absolute_sentiment": -1,
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   وزير الخارجية عباس عراقجي:  بناءً على معلوماتنا وتقييماتنا الاستخباراتية، تجري جهود واسعة النطاق للتلاعب بأسواق الطاقة وتوجيهها. وتسعى بعض عناصر الحكومة الأمريكية، باستخدام وسائل إعلام ساذجة وسريعة التصديق، إلى التأثير على الأسعار لتحقيق مصالح شخصية، وفي الوقت نفسه إبقاء الرئيس الأمريكي عالقًا في حرب خسرها.  كما يسعى اللاعبون المتحالفون مع &quot;إسرائيل&quot;، من خلال تقديم تقييمات متفائلة وغير واقعية، إلى الترويج لاستمرار الحرب وتشجيعه.  المستهلكون الأمريكيون يدفعون التكلفة الحقيقية لهذا الوضع.  #الاعلام_الحربي",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: شهيد في غارة للاحتلال على مواصي خانيونس هو الثاني منذ الصباح في قطاع غزة",
+      "text": "لبنان: مراسل الميادين: غارة من مسيرة إسرائيلية استهدفت مبنى عند جادة نبيه بري في محيط حي المسلخ قرب النبطية جنوبي البلاد",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
+      "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: شهيد برصاص الاحتلال شرقي قرية المصدر وسط القطاع",
+      "text": "الاحتلال يستهدف مخازن الأدوية في غزة وسط تفاقم الأزمة الدوائية وتهديد حياة آلاف المرضى  التفاصيل:   https://qudsn.co/share/217286",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
+      "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: مدفعية الاحتلال استهدفت أطراف بلدة حولا",
-      "absolute_sentiment": -1,
+      "text": "مستوطنون يقتحمون بأغنامهم محيط منازل الفلسطينيين قرب المدخل الغربي لبلدة المغير شمال شرق رام الله، بحماية قوات الاحتلال.",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
+      "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي شرقي حي الزيتون شرقي مدينة غزة",
-      "absolute_sentiment": -1,
+      "text": "استشهاد الشاب &quot;رائد عادل عليان&quot; جراء قصف الاحتلال لدراجته الكهربائية أثناء عمله في توصيل الطلبات بحي تل الهوا جنوب غرب مدينة غزة.",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
+      "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسلة الميادين في رام الله: المستوطنون يهاجمون منطقة خلة الحمص ويعتدون على المواطنين",
-      "absolute_sentiment": -1,
+      "text": "آثار استهداف طيران الاحتلال دراجة في حي تل الهوا جنوب مدينة غزة، ما أدى لاستشهاد فلسطيني وإصابة آخرين",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
   ]
