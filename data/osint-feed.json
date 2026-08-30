@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-08-29T22:15:44.600Z",
+  "last_updated": "2026-08-30T00:59:14.539Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.56",
-    "global_norm_sentiment": "-0.19"
+    "global_norm_sentiment": "-0.16"
   },
   "timeline": [
-    {
-      "time": "2026-08-25T02:54:04.765Z",
-      "danger": 0.56,
-      "sentiment": -0.286,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.294,
-          "sentiment": -0.308
-        },
-        "OSINTdefender": {
-          "danger": 0.659,
-          "sentiment": -0.2
-        },
-        "irna_1313": {
-          "danger": 0.555,
-          "sentiment": -0.682
-        },
-        "sepah_pasdaran": {
-          "danger": 0.377,
-          "sentiment": -0.333
-        },
-        "almanarnews": {
-          "danger": 0.459,
-          "sentiment": -0.4
-        },
-        "C_Military1": {
-          "danger": 0.784,
-          "sentiment": -0.167
-        },
-        "almayadeen": {
-          "danger": 0.718,
-          "sentiment": -0.367
-        },
-        "QudsN": {
-          "danger": 0.799,
-          "sentiment": -0.267
-        }
-      }
-    },
     {
       "time": "2026-08-25T03:44:04.280Z",
       "danger": 0.549,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.3
         }
       }
+    },
+    {
+      "time": "2026-08-30T00:59:14.539Z",
+      "danger": 0.563,
+      "sentiment": -0.155,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.596,
+          "sentiment": -0.633
+        },
+        "OSINTdefender": {
+          "danger": 0.596,
+          "sentiment": 0.267
+        },
+        "irna_1313": {
+          "danger": 0.37,
+          "sentiment": 0
+        },
+        "sepah_pasdaran": {
+          "danger": 0.279,
+          "sentiment": -0.133
+        },
+        "almanarnews": {
+          "danger": 0.53,
+          "sentiment": -0.067
+        },
+        "C_Military1": {
+          "danger": 0.83,
+          "sentiment": -0.667
+        },
+        "almayadeen": {
+          "danger": 0.755,
+          "sentiment": -0.267
+        },
+        "QudsN": {
+          "danger": 0.724,
+          "sentiment": 0.115
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 11,
-      "raw_sentiment": -0.3181818181818182,
-      "knn_danger_metric": 0.39222839593269504
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.37020247072873397
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.25975228318028376
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.2789911467460872
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.36210668044751443
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.5298018603519375
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
+      "raw_sentiment": -0.6666666666666666,
       "knn_danger_metric": 0.8298823092725371
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.7549017613317269
+      "knn_danger_metric": 0.7549017613317268
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.9033312525736856
+      "num_messages": 13,
+      "raw_sentiment": 0.11538461538461539,
+      "knn_danger_metric": 0.7243578624341291
     }
   },
   "semantic_logs": [
@@ -2358,7 +2358,7 @@
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#لبنان  أبرز ما جاء في كلمة الامين العام لحزب الله سماحة الشيخ نعيم قاسم&nbsp; في المهرجان النبوي المركزي &quot;رسول الأحرار&quot; في باحة عاشوراء بالضاحية الجنوبية لبيروت:   - للسلطة اللبنانية:&nbsp; تدّفعون البلد ثمناً في المفاوضات للبقاء على عروشكم وإرضاء أميركا المتواطئة مع &quot;إسرائيل&quot;.  - لا نريد الحرب والدليل موافقتنا على اتفاق 27 تشرين 2024 والتزامنا به.  - ما هو قائم اليوم ليس حربًا متبادلة بل عدوان إسرائيلي موصوف يتصاعد وينخفض ولولا إيران ومذكرة التفاهم لما انخفض.  #الاعلام_الحربي",
-      "absolute_sentiment": -0.5,
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2406,13 +2406,6 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: شهيد وجرحى في عدوان طيران الاحتلال على حي الأمل غربي مدينة خان يونس جنوبي قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "سوريا: مصادر محلية: قوات الاحتلال الإسرائيلي تعتدي بقذائف المدفعية على تلة باط الوردة عند أطراف بلدة بيت جن في ريف دمشق الغربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
@@ -2429,6 +2422,13 @@
       "channel": "Arab_Axis",
       "text": "إيران: غريب ابادي: لا نؤكد الادعاءات المتداولة بشأن عبور السفن من المضيق من دون تنسيق مسبق",
       "absolute_sentiment": -0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: إصابة شاب برصاص قوات الاحتلال الإسرائيلي في منطقة التوام شمال غربي مدينة غزة",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
   ]
