@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-01T17:32:52.819Z",
+  "last_updated": "2026-09-01T20:27:44.014Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.51",
-    "global_norm_sentiment": "-0.31"
+    "global_knn_danger": "0.57",
+    "global_norm_sentiment": "-0.17"
   },
   "timeline": [
-    {
-      "time": "2026-08-25T16:31:35.563Z",
-      "danger": 0.523,
-      "sentiment": -0.193,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.436,
-          "sentiment": -0.367
-        },
-        "OSINTdefender": {
-          "danger": 0.609,
-          "sentiment": -0.2
-        },
-        "irna_1313": {
-          "danger": 0.407,
-          "sentiment": -0.1
-        },
-        "sepah_pasdaran": {
-          "danger": 0.384,
-          "sentiment": -0.3
-        },
-        "almanarnews": {
-          "danger": 0.453,
-          "sentiment": -0.1
-        },
-        "C_Military1": {
-          "danger": 0.84,
-          "sentiment": -0.067
-        },
-        "almayadeen": {
-          "danger": 0.374,
-          "sentiment": -0.1
-        },
-        "QudsN": {
-          "danger": 0.78,
-          "sentiment": -0.567
-        }
-      }
-    },
     {
       "time": "2026-08-25T17:27:07.173Z",
       "danger": 0.508,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.433
         }
       }
+    },
+    {
+      "time": "2026-09-01T20:27:44.014Z",
+      "danger": 0.573,
+      "sentiment": -0.173,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.598,
+          "sentiment": -0.533
+        },
+        "OSINTdefender": {
+          "danger": 0.526,
+          "sentiment": 0.067
+        },
+        "irna_1313": {
+          "danger": 0.684,
+          "sentiment": -0.333
+        },
+        "sepah_pasdaran": {
+          "danger": 0.445,
+          "sentiment": -0.067
+        },
+        "almanarnews": {
+          "danger": 0.451,
+          "sentiment": -0.1
+        },
+        "C_Military1": {
+          "danger": 0.63,
+          "sentiment": -0.6
+        },
+        "almayadeen": {
+          "danger": 0.714,
+          "sentiment": -0.067
+        },
+        "QudsN": {
+          "danger": 0.728,
+          "sentiment": 0.042
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.6070583687451222
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.5979881320943838
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
       "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.5364179376233883
+      "knn_danger_metric": 0.5259576308508029
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.35966860440452025
+      "knn_danger_metric": 0.6835413565416155
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.3142132214740822
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.44536115356188877
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.20361959203405744
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.45080871354360236
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.6380994643513115
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.6297561617107399
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.7,
-      "knn_danger_metric": 0.7912396171333457
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.7141384587558572
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.6771942192380938
+      "num_messages": 12,
+      "raw_sentiment": 0.041666666666666664,
+      "knn_danger_metric": 0.728112654960719
     }
   },
   "semantic_logs": [
@@ -2336,22 +2336,29 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "בפעילות משותפת של צה&quot;ל ושב&quot;כ: כוחות הביטחון עצרו את ראש ביטחון הפנים של ארגון הטרור חמאס ברצועת עזה  צה&quot;ל ושב&quot;כ, בפיקוד ובהובלת שב״כ ופיקוד הדרום, יצאו מוקדם יותר היום (ג&#39;) לפעילות ממוקדת להסרת איומים של ארגון הטרור חמאס במרחב צפון רצועת עזה.  במסגרת הפעילות…",
-      "absolute_sentiment": 0.5,
+      "text": "מקורות אופוזיציה איראנים מדווחים על שיגורים איראנים מחומיין, יזד וכרמאנשאה.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "מקורות אופוזיציה איראנים מדווחים על שיגורים איראנים מחומיין, יזד וכרמאנשאה.  תגובה אחת",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️عراقچی: در بیانیهٔ پایانی اجلاس شانگهای تجاوز آمریکا و رژیم صهیونیستی به‌صراحت محکوم شد. &lrm;✅ @sepah_pasdaran",
+      "text": "&rlm; #یامرتضی_علی| تصاویری از لحظه اصابت موشک ایرانی به پایگاه موفق السلطی در اردن &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 15 العبرية: ترامب سيشن هجومًا على إيران ولكن الاستراتيجية كانت ولا تزال: الضغط الاقتصادي والحصار على إيران، وليس حربًا شاملة.  #الاعلام_الحربي",
-      "absolute_sentiment": -0.5,
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️#ضربه_سهمگین| حرکت آزادانه موشک ها در آسمان اردن &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2371,65 +2378,58 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: مدفعية الاحتلال الإسرائيلي استهدفت بلدتي حولا والمنصوري جنوبي البلاد",
+      "text": "لبنان: مراسل الميادين: الطائرات الحربية الإسرائيلية اعتدت على بلدة القنطرة جنوبي البلاد",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: المجلس المذهبي لطائفة الموحدين الدروز: ندعو للالتزام الكامل بمندرجات القرار 1701 لخفض التوتر وإحلال الاستقرار",
+      "text": "إيران: العلاقات العامة لحرس الثورة: بدأنا رداً حاسماً على المعتدين",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: المجلس المذهبي لطائفة الموحدين الدروز: ندعو اللبنانيين للتمسك بالوحدة الوطنية في مواجهة مشاريع تتناقض مع رسالة لبنان الحضارية",
+      "text": "إيران: حرس الثورة: أسقط نظام الدفاع الجوي الفضائي الجديد الطائرة المسيرة &quot;MQ9&quot; المتطورة رقم 50 التابعة للجيش الأميركي",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: وزارة الصحة الإيرانية: 50 جريحاً على الأقل نتيجة الغارات الأميركية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "الأردن: التلفزيون الرسمي: تفعيل صفارات الإنذار في البلاد",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
+      "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: &quot;جيش&quot; الاحتلال الإسرائيلي نفذ تفجيراً في بلدة حولا جنوبي البلاد",
+      "text": "شهادات مروعة لجنود سابقين..  جيش الاحتلال يطلق النار أولاً ثم يبحث عن مبررات للقتل الجماعي..  إليكم ما كشفته منظمة &quot;كسر الصمت&quot; الإسرائيلية",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
+      "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: غارة من مسيّرة إسرائيلية استهدفت النبطية الفوقا",
-      "absolute_sentiment": -1,
+      "text": "مستوطنون بحماية جيش الاحتلال يسرقون عددًا من رؤوس الأغنام في قرية كيسان جنوب بيت لحم.",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: &quot;جيش&quot; الاحتلال الإسرائيلي نفذ تفجيراً في محيط بلدة كفرتبنيت",
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "هيئة العمليات البحرية البريطانية: أفادت ناقلة نفط بتعرضها ليلاً لضربات بـ3 مقذوفات مجهولة خلال عبورها مضيق هرمز  #الإعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: التلفزيون الإيراني: سُمع دوي انفجارات شرقي بندر عباس كما سُمع دوي 4 انفجارات في محيط قرية مَسَن بجزيرة قشم",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: &quot;جيش&quot; الاحتلال الإسرائيلي نفذ تفجيرين في حولا وميس الجبل",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: التلفزيون الإيراني: سماع دوي انفجارات في ميناء جاسك ومدينة ميناب بمحافظة هرمزغان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
+      "semantic_danger_knn": 0.9908637620933594
     }
   ]
 }
