@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-01T13:00:38.138Z",
+  "last_updated": "2026-09-01T17:32:52.819Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.57",
-    "global_norm_sentiment": "-0.23"
+    "global_knn_danger": "0.51",
+    "global_norm_sentiment": "-0.31"
   },
   "timeline": [
-    {
-      "time": "2026-08-25T15:37:50.182Z",
-      "danger": 0.513,
-      "sentiment": -0.137,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.445,
-          "sentiment": -0.267
-        },
-        "OSINTdefender": {
-          "danger": 0.636,
-          "sentiment": -0.2
-        },
-        "irna_1313": {
-          "danger": 0.271,
-          "sentiment": 0.033
-        },
-        "sepah_pasdaran": {
-          "danger": 0.378,
-          "sentiment": -0.2
-        },
-        "almanarnews": {
-          "danger": 0.556,
-          "sentiment": 0.2
-        },
-        "C_Military1": {
-          "danger": 0.84,
-          "sentiment": -0.067
-        },
-        "almayadeen": {
-          "danger": 0.502,
-          "sentiment": -0.267
-        },
-        "QudsN": {
-          "danger": 0.555,
-          "sentiment": -0.467
-        }
-      }
-    },
     {
       "time": "2026-08-25T16:31:35.563Z",
       "danger": 0.523,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.3
         }
       }
+    },
+    {
+      "time": "2026-09-01T17:32:52.819Z",
+      "danger": 0.508,
+      "sentiment": -0.313,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.607,
+          "sentiment": -0.3
+        },
+        "OSINTdefender": {
+          "danger": 0.536,
+          "sentiment": 0.067
+        },
+        "irna_1313": {
+          "danger": 0.36,
+          "sentiment": -0.333
+        },
+        "sepah_pasdaran": {
+          "danger": 0.314,
+          "sentiment": -0.633
+        },
+        "almanarnews": {
+          "danger": 0.204,
+          "sentiment": -0.2
+        },
+        "C_Military1": {
+          "danger": 0.638,
+          "sentiment": -0.467
+        },
+        "almayadeen": {
+          "danger": 0.791,
+          "sentiment": -0.7
+        },
+        "QudsN": {
+          "danger": 0.677,
+          "sentiment": -0.433
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.6829179865264755
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.6070583687451222
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 13,
-      "raw_sentiment": -0.2692307692307692,
-      "knn_danger_metric": 0.526877829304094
+      "num_messages": 15,
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.35966860440452025
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.42043439414840417
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.3142132214740822
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.4,
-      "knn_danger_metric": 0.49348385926580746
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.20361959203405744
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.6169669804736928
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.6380994643513115
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.7728197394601519
+      "raw_sentiment": -0.7,
+      "knn_danger_metric": 0.7912396171333457
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.6831971283403093
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.6771942192380938
     }
   },
   "semantic_logs": [
@@ -2336,28 +2336,14 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "לפני הודעת שר הביטחון ישראל כ&quot;ץ על המעצר המוצלח, פרסמה רשת אלג&#39;זירה, מפי מקור ביטחוני פלסטיני:  &quot;מבצע מיוחד של ישראל ממערב לעיר עזה נכשל, ובכיר ביטחוני פלסטיני ניצל מניסיון התנקשות.  הכוח המיוחד נסוג מאזור אלכתיבה בעזה על גבי אופנועים, בחיפוי ישראלי.  כמה…",
-      "absolute_sentiment": -1,
+      "text": "בפעילות משותפת של צה&quot;ל ושב&quot;כ: כוחות הביטחון עצרו את ראש ביטחון הפנים של ארגון הטרור חמאס ברצועת עזה  צה&quot;ל ושב&quot;כ, בפיקוד ובהובלת שב״כ ופיקוד הדרום, יצאו מוקדם יותר היום (ג&#39;) לפעילות ממוקדת להסרת איומים של ארגון הטרור חמאס במרחב צפון רצועת עזה.  במסגרת הפעילות…",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️نخستین خبری که امروز از اجلاس شانگهای مخابره شد چه بود؟ &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "تحديد مواعيد التسجيل في الجامعة اللبنانية https://almanar.com.lb/article/1143882/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#لبنان    رئيس مجلس النواب الاستاذ نبيه بري في الذكرى الـ48 لتغييب الإمام السيد موسى الصدر ورفيقيه:   - &quot;إسرائيل&quot; تحاول محو ذاكرتنا بتدمير قرانا وبلداتنا ومدننا.  - الوطن هو للمقاومين والعائلات التي شطبتها &quot;إسرائيل&quot; من قيود النفوس ولا مجال للمساومة عليه.  - نؤكد موقف كتلتنا بأن السلم الأهلي والجيش خطّان أحمران.  - الجنوب هو من مسؤولية الدولة ولن نقبل بأن يكون منطقة عازلة أو حزاماً أمنياً تحت أي ظرف من الظروف.  - نرفض التنازل عن الإبادة التي ترتكبها &quot;إسرائيل&quot; في الجنوب  - نؤكد أننا مارسنا حقنا الطبيعي في رفض اتفاق الإطار وما زلنا على رفضنا له.  #الاعلام_الحربي",
+      "text": "&rlm; ️عراقچی: در بیانیهٔ پایانی اجلاس شانگهای تجاوز آمریکا و رژیم صهیونیستی به‌صراحت محکوم شد. &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2376,58 +2362,72 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: 4 شهداء بينهم سيدة وطفلان ومصابون من جراء القصف الإسرائيلي في محيط منطقة الكتيبة غربي مدينة غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: الرئاسة الإيرانية: الرئيس بزشكيان التقى نظيره الروسي فلاديمير بوتين على هامش قمة منظمة &quot;شنغهاي&quot; للتعاون في قيرغيزستان",
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   رئيس مجلس الشورى محمد باقر قاليباف:   - القوات المسلحة الإيرانية تستثمر كل فرصة تتاح لها لإعادة بناء قوتها ولن تضيع ساعة ولا لحظة في سبيل ذلك  - أميركا تحاول كالقراصنة تهريب عدة سفن عبر مضيق هرمز لكن قواتنا لها بالمرصاد  - مضيق هرمز يخضع لسيطرة قواتنا المسلحة بالكامل &nbsp;  - إذا كان مضيق هرمز بيد أميركا فلماذا تكرر هجومها يوميًا على جزرنا؟  - الأميركيون يطمئنون السفن كذبًا بشأن إمكانية عبورها المضيق لكن تلك السفن تتعرض للاستهداف  - أميركا تسعى خلافًا للتفاهم استخدام المسار الجنوبي لمضيق هرمز لكننا لن نسمح لها بذلك  - قبل الحرب كانت تمر عبر مضيق هرمز ما لا يقل عن 120 سفينة يوميًا وحتى لو عبرت سفينة أو سفينتان فقط فلا يمكن بأي شكل مقارنتها بمستويات العبور قبل الحرب  - التوصل إلى اتفاق مع عُمان كدولة ساحلية على مضيق هرمز حصل عبر الدبلوماسية  - تم الحفاظ على قدرة إيران العسكرية في مضيق هرمز وتعزيزها  - إدارة إيران لمضيق هرمز لا تتعارض مع القوانين الدولية ابدًا.  #الاعلام_الحربي",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: 6 شهداء من بينهم 3 أطفال بنيران قوات الاحتلال في مدينتي غزة ودير البلح منذ صباح اليوم",
+      "text": "لبنان: مراسل الميادين: مدفعية الاحتلال الإسرائيلي استهدفت بلدتي حولا والمنصوري جنوبي البلاد",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: الرئاسة الإيرانية: الجانبان ناقشا آخر مستجدات العلاقات والتعاون الثنائي وسبل تعزيز التعاون المشترك",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: القائم بأعمال وزارة الدفاع العميد مجيد ابن الرضا: يجب تطوير قواتنا الدفاعية باستمرار من خلال رصد التهديدات الجديدة",
+      "text": "لبنان: المجلس المذهبي لطائفة الموحدين الدروز: ندعو للالتزام الكامل بمندرجات القرار 1701 لخفض التوتر وإحلال الاستقرار",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "قرغيزستان: بزشكيان لبوتين: ليس للقوى العظمى الحق في الاعتداء على بقية الدول وانتهاك الأطر والقوانين الدولية",
+      "text": "لبنان: المجلس المذهبي لطائفة الموحدين الدروز: ندعو اللبنانيين للتمسك بالوحدة الوطنية في مواجهة مشاريع تتناقض مع رسالة لبنان الحضارية",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: &quot;جيش&quot; الاحتلال الإسرائيلي نفذ تفجيراً في بلدة حولا جنوبي البلاد",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: قوات الاحتلال نفذت غطاءً نارياً ودخانياً كثيفاً في مدينة غزة في موازاة تسلل قوات خاصة",
+      "text": "لبنان: مراسل الميادين في الجنوب: غارة من مسيّرة إسرائيلية استهدفت النبطية الفوقا",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: قوات الاحتلال تحدثت عن اعتقال قيادي في حماس والحركة لم تعلن عن أي شيء",
+      "text": "لبنان: مراسل الميادين في الجنوب: &quot;جيش&quot; الاحتلال الإسرائيلي نفذ تفجيراً في محيط بلدة كفرتبنيت",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: التلفزيون الإيراني: سُمع دوي انفجارات شرقي بندر عباس كما سُمع دوي 4 انفجارات في محيط قرية مَسَن بجزيرة قشم",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: &quot;جيش&quot; الاحتلال الإسرائيلي نفذ تفجيرين في حولا وميس الجبل",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: التلفزيون الإيراني: سماع دوي انفجارات في ميناء جاسك ومدينة ميناب بمحافظة هرمزغان",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
