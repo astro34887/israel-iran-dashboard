@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-01T07:10:03.251Z",
+  "last_updated": "2026-09-01T13:00:38.138Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.49",
-    "global_norm_sentiment": "-0.17"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.57",
+    "global_norm_sentiment": "-0.23"
   },
   "timeline": [
-    {
-      "time": "2026-08-25T14:39:49.841Z",
-      "danger": 0.549,
-      "sentiment": -0.163,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.41,
-          "sentiment": -0.367
-        },
-        "OSINTdefender": {
-          "danger": 0.636,
-          "sentiment": -0.2
-        },
-        "irna_1313": {
-          "danger": 0.372,
-          "sentiment": 0.067
-        },
-        "sepah_pasdaran": {
-          "danger": 0.358,
-          "sentiment": -0.467
-        },
-        "almanarnews": {
-          "danger": 0.582,
-          "sentiment": 0.1
-        },
-        "C_Military1": {
-          "danger": 0.84,
-          "sentiment": -0.067
-        },
-        "almayadeen": {
-          "danger": 0.567,
-          "sentiment": -0.3
-        },
-        "QudsN": {
-          "danger": 0.778,
-          "sentiment": -0.267
-        }
-      }
-    },
     {
       "time": "2026-08-25T15:37:50.182Z",
       "danger": 0.513,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.208
         }
       }
+    },
+    {
+      "time": "2026-09-01T13:00:38.138Z",
+      "danger": 0.568,
+      "sentiment": -0.23,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.683,
+          "sentiment": -0.667
+        },
+        "OSINTdefender": {
+          "danger": 0.536,
+          "sentiment": 0.067
+        },
+        "irna_1313": {
+          "danger": 0.527,
+          "sentiment": -0.269
+        },
+        "sepah_pasdaran": {
+          "danger": 0.42,
+          "sentiment": -0.567
+        },
+        "almanarnews": {
+          "danger": 0.493,
+          "sentiment": 0.4
+        },
+        "C_Military1": {
+          "danger": 0.617,
+          "sentiment": -0.633
+        },
+        "almayadeen": {
+          "danger": 0.773,
+          "sentiment": -0.2
+        },
+        "QudsN": {
+          "danger": 0.683,
+          "sentiment": -0.3
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.4588833804863513
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.6829179865264755
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.5451033062797349
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.5364179376233883
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.29201379416109036
+      "num_messages": 13,
+      "raw_sentiment": -0.2692307692307692,
+      "knn_danger_metric": 0.526877829304094
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.32237975173154915
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.42043439414840417
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.43948513040345744
+      "raw_sentiment": 0.4,
+      "knn_danger_metric": 0.49348385926580746
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.7077502013891497
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.6169669804736928
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.6179393617351537
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.7728197394601519
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 12,
-      "raw_sentiment": -0.20833333333333334,
-      "knn_danger_metric": 0.5550624216288359
+      "num_messages": 15,
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.6831971283403093
     }
   },
   "semantic_logs": [
@@ -2334,9 +2334,23 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "לפני הודעת שר הביטחון ישראל כ&quot;ץ על המעצר המוצלח, פרסמה רשת אלג&#39;זירה, מפי מקור ביטחוני פלסטיני:  &quot;מבצע מיוחד של ישראל ממערב לעיר עזה נכשל, ובכיר ביטחוני פלסטיני ניצל מניסיון התנקשות.  הכוח המיוחד נסוג מאזור אלכתיבה בעזה על גבי אופנועים, בחיפוי ישראלי.  כמה…",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️نخستین خبری که امروز از اجلاس شانگهای مخابره شد چه بود؟ &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة معاريف العبرية: في الليكود يغيّرون الاستراتيجية تجاه ��يتمار بن غفير: بعد فترة حاولوا خلالها الدفع نحو توحيد القائمة مع بتسلئيل سموتريتش، تقدّر الآن قيادة حزب السلطة أن احتمال حدوث مثل هذا الاندماج ضئيل إلى حد يقترب من الصفر - وينتقلون إلى حملة هدفها تقليص قوة «عوتسما يهوديت». ويهدف التحرك إلى تحقيق هدفين في الوقت نفسه: إعادة ناخبي اليمين إلى الليكود الذين انتقلوا إلى بن غفير، وتحسين وضع سموتريتش، الذي يتواجد في بعض استطلاعات الرأي على عتبة نسبة الحسم.  #الاعلام_الحربي",
+      "text": "تحديد مواعيد التسجيل في الجامعة اللبنانية https://almanar.com.lb/article/1143882/?s=tg",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
@@ -2355,81 +2369,67 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: همتي: لدينا موارد لا يمكن الكشف عنها بالتفصيل ونحن على استعداد لضخ ملياري دولار من العملات الأجنبية في السوق",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: همتي: ستهدأ الأمور في سوق الصرف الأجنبي والارتفاع الأخير في سعر الصرف متأثر بالحرب النفسية أكثر من العوامل الحقيقية",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: مدفعية الاحتلال الإسرائيلي تستهدف بلدة المنصوري",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: القائد العام للجيش اللواء أمير حاتمي: تطوير الدفاع الجوي جاء بالاعتماد على كفاءات المتخصصين الإيرانيين",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تعـتقل الدكتور براء بدير خلال اقتحام منزله في ضاحية ذنابة شرق طولكرم.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل| تعليق الدوام في جميع مدارس القدس رفضا لمحاولات سلطات الاحتلال فرض المناهج التعليمية الإسرائيلية.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "وزير الصحة اليوناني أدونيس جورجياديس خلال سجال مع نائب مؤيد لفلسطين: تحالفنا مع &quot;إسرائيل&quot; في غاية الأهمية ويحمينا من التهديد التركي.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "لجان الصيادين الفلسطينيين: بحرية الاحتلال تعتقل 10 صيادين قبالة شواطئ مدينة غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "الاحتلال يصعّد في الضفة: اقتحامات واعتقالات واعتداءات للمستوطنين  https://qudsn.co/share/217326",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "هيئة العمليات البحرية البريطانية: أفادت ناقلة نفط بتعرضها ليلاً لضربات بـ3 مقذوفات مجهولة خلال عبورها مضيق هرمز  #الإعلام_الحربي",
+      "text": "#إعلام_العدو   القناة 15 العبرية: أفادت وكالة رويترز بأن ناقلتا نفط سعوديتان تحملان نحو 4 ملايين برميل تضررت مساء أمس في مضيق هرمز، بفارق دقائق، إثر إطلاق صواريخ من إيران.  #الاعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9908637620933594
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "OSINTdefender",
-      "channel": "Global_OSINT",
-      "text": "#USA  San Francisco-based defense startup Mara secured &#036;7 million in a pre-seed round to develop Spike, a backpack-portable counter-drone system using 250g autonomous interceptors called Seekers that cost roughly one-to-one against attack drones.  Subscribe to @OSINTdefender | 💬 Chat room",
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: 4 شهداء بينهم سيدة وطفلان ومصابون من جراء القصف الإسرائيلي في محيط منطقة الكتيبة غربي مدينة غزة",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9437763907400518
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: الرئاسة الإيرانية: الرئيس بزشكيان التقى نظيره الروسي فلاديمير بوتين على هامش قمة منظمة &quot;شنغهاي&quot; للتعاون في قيرغيزستان",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: 6 شهداء من بينهم 3 أطفال بنيران قوات الاحتلال في مدينتي غزة ودير البلح منذ صباح اليوم",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: الرئاسة الإيرانية: الجانبان ناقشا آخر مستجدات العلاقات والتعاون الثنائي وسبل تعزيز التعاون المشترك",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: القائم بأعمال وزارة الدفاع العميد مجيد ابن الرضا: يجب تطوير قواتنا الدفاعية باستمرار من خلال رصد التهديدات الجديدة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "قرغيزستان: بزشكيان لبوتين: ليس للقوى العظمى الحق في الاعتداء على بقية الدول وانتهاك الأطر والقوانين الدولية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: قوات الاحتلال نفذت غطاءً نارياً ودخانياً كثيفاً في مدينة غزة في موازاة تسلل قوات خاصة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: قوات الاحتلال تحدثت عن اعتقال قيادي في حماس والحركة لم تعلن عن أي شيء",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
     }
   ]
 }
