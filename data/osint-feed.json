@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-02T10:30:33.804Z",
+  "last_updated": "2026-09-02T14:55:35.963Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.59",
-    "global_norm_sentiment": "-0.23"
+    "global_knn_danger": "0.54",
+    "global_norm_sentiment": "-0.15"
   },
   "timeline": [
-    {
-      "time": "2026-08-25T20:23:08.750Z",
-      "danger": 0.526,
-      "sentiment": -0.233,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.449,
-          "sentiment": -0.7
-        },
-        "OSINTdefender": {
-          "danger": 0.523,
-          "sentiment": 0.133
-        },
-        "irna_1313": {
-          "danger": 0.471,
-          "sentiment": -0.1
-        },
-        "sepah_pasdaran": {
-          "danger": 0.219,
-          "sentiment": -0.467
-        },
-        "almanarnews": {
-          "danger": 0.373,
-          "sentiment": -0.1
-        },
-        "C_Military1": {
-          "danger": 0.84,
-          "sentiment": -0.067
-        },
-        "almayadeen": {
-          "danger": 0.771,
-          "sentiment": -0.4
-        },
-        "QudsN": {
-          "danger": 0.661,
-          "sentiment": -0.467
-        }
-      }
-    },
     {
       "time": "2026-08-25T21:23:09.384Z",
       "danger": 0.525,
@@ -2261,6 +2214,53 @@
           "sentiment": 0
         }
       }
+    },
+    {
+      "time": "2026-09-02T14:55:35.963Z",
+      "danger": 0.542,
+      "sentiment": -0.145,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.491,
+          "sentiment": -0.6
+        },
+        "OSINTdefender": {
+          "danger": 0.593,
+          "sentiment": -0.033
+        },
+        "irna_1313": {
+          "danger": 0.343,
+          "sentiment": 0.033
+        },
+        "sepah_pasdaran": {
+          "danger": 0.392,
+          "sentiment": 0.045
+        },
+        "almanarnews": {
+          "danger": 0.441,
+          "sentiment": -0.1
+        },
+        "C_Military1": {
+          "danger": 0.763,
+          "sentiment": -0.333
+        },
+        "almayadeen": {
+          "danger": 0.796,
+          "sentiment": 0.2
+        },
+        "QudsN": {
+          "danger": 0.652,
+          "sentiment": -0.5
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.7,
-      "knn_danger_metric": 0.6689755032577689
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.49064754093386576
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.5149640322547614
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.34322761565021814
     },
     "sepah_pasdaran": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.49059064191530255
+      "num_messages": 11,
+      "raw_sentiment": 0.045454545454545456,
+      "knn_danger_metric": 0.3916872313340268
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.49273164459855806
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.4409165513477617
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.7866419699888978
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.7632527006772154
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.8511517268880893
+      "raw_sentiment": 0.2,
+      "knn_danger_metric": 0.7957587200757279
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 13,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.5737746913757258
+      "num_messages": 15,
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.6519835612428896
     }
   },
   "semantic_logs": [
@@ -2336,36 +2336,22 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "המטבע האיראני נופל לשפל חדש (גם היום)  אחרי שחצה בימים האחרונים את רף ה- 2 מיליון ריאל לדולר, נשחק המטבע האיראני ב 5% נוספים ונסחר כעת לפי שער של 2.1 מיליון ריאל לדולר.  והיד עוד נטויה  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "המטבע האיראני מוסיף להיחלש לשפל חדש  מאז שחצה את הרף של 2 מיליון ריאל לדולר אמריקאי אחד לפני כשבוע וחצי, איבד המטבע האיראני כמעט 10% נוספים מערכו והוא נסחר כעת סביב שער של 2.18 מיליון ריאל לדולר.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "טורקיה: שתי אוניות משא טורקיות התנגשו זו בזו לפנות בוקר מול חופי סיליברי שבאיסטנבול, בים מרמרה.  האונייה Tuğberk İmamoğlu, שנשאה 4,199 טונות של גלילי פלדה, טבעה בתוך 11 דקות ושקעה לעומק של כ - 900 מטרים.  כל עשרת אנשי הצוות הטורקים נעדרים.  סירת ההצלה ואפודי ההצלה נמצאו ריקים על פני המים.  תגובה אחת",
+      "text": "דובר צה&quot;ל: חזבאללה שיגר שני רחפני נפץ לעבר כוחותינו הפועלים במרחב הביטחוני: צה&quot;ל תקף תשתיות טרור של הארגון בתגובה  ארגון הטרור חיזבאללה שיגר במהלך הלילה (ד׳) שני רחפני נפץ לעבר כוחות צה&quot;ל במרחב רכס עלי טאהר, הלוחמים ירו לעבר אחד הרחפנים ויירטו אותו. אין נפגעים…",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️&rlm; روایت دوست صمیمی داماد از جنایت آمریکا در حمله به عروسی در سیریک &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 0.5,
+      "text": "&rlm; ️تصاویر ماهواره‌ای از اصابت موشک‌ها و پهپادهای ایرانی در فرودگاه اربیل &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
+      "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   العلاقات العامة لحرس الثورة الإسلامية:   أيها الشعب البطل والناهض الإيراني الإسلامي، إن الجيش الأمريكي الإرهابي والمهزوم، العاجز عن المواجهة المباشرة مع مقاتلي الإسلام، شنّ هجومًا وحشيًا على منزل سكني في سيريك، كان مكانًا لعقد قران شابين…",
-      "absolute_sentiment": 1,
+      "text": "📹 أوساط الاحتلال: المواجهة الأميركية الإيرانية لن تنزلق إلى حرب شاملة https://almanar.com.lb/article/1147172/?s=tg",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2376,58 +2362,72 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: محلقة اسرائيلية القت قنبلة صوتية في بلدة ياطر",
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   موقع والاه العبري عن مسؤول سياسي رفيع المستوى: &quot;محاولة التوصل إلى اتفاق أمني مع سوريا، فشلت&quot;   #الاعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: الجيش اللبناني:عناصر المؤسسة ملتزمون توجيهاتها والمهمات الموكلة إليهم ويؤدون واجباتهم انطلاقًا من إيمانهم بمسؤوليتهم الوطنية",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: الجيش اللبناني: تحظى القيادة بثقة الدول الشقيقة والصديقة التي تواصل دعمها للجيش إيماناً منها بأهمية دوره",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: الجيش اللبناني: توقيت إطلاق هذه الشائعات يكشف خطورة محاولات استهداف الجيش وقيادته وزرع الشك في صفوف المؤسسة",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: الجيش اللبناني: حملات التضليل أيًّا تكن الجهات التي تقف خلفها لن تؤثّر في تماسك المؤسسة العسكرية أو في قيامها بواجباتها",
+      "text": "إيران: بقائي: يبدو أنه نسي سجله العسكري من عمليات كاكاراك 2002 وموكاراديب 2004 وديه بالا وويتش باغتو 2008 في أفغانستان والعراق",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: الجيش اللبناني: حملات التضليل لن تثني المؤسسة عن مواصلة تنفيذ مهماتها للحفاظ على أمن لبنان واستقراره",
+      "text": "إيران: بقائي: حتى مسلسل &quot;هوملاند&quot; وهو مسلسل تلفزيوني أميركي صوّر في موسمه الرابع غارة أميركية بطائرة مسيرة على حفل زفاف في باكستان",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في قطاع غزة : شهيد جراء قصف إسرائيلي على منطقة الهوجا بمخيم جباليا شمالي القطاع",
+      "text": "إيران: بقائي: الحقيقة مروعة لدرجة أن الدعاية الأميركية لم تجرؤ قط على الادعاء بالذي يدّعيه تيم هوكينز اليوم",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: بقائي: سيريك ليست مجرد قصة.. المدنيون حقيقيون والضحايا حقيقيون",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: مدفعية الاحتلال تعتدي على بلدتي القنطرة والمنصوري",
+      "text": "لبنان: مراسل الميادين: مدفعية الاحتلال الإسرائيلي تستهدف الخيام والمنصوري جنوبي البلاد",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: شهيد وجرحى من جراء غارة من مسيرة إسرائيلية استهدفت خيمة نازحين في مواصي خان يونس جنوبي قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: وزارة الخارجية: عراقتشي أكد الموقف المبدئي والحازم لإيران بمواصلة الدفاع الشامل عن البلاد في مواجهة المعتدين",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: وزارة الخارجية: نعيم طالب بتحرك وإجراء جاد وعاجل من المجتمع الدولي للتصدي للجرائم الصهيونية بحق الشعب الفلسطيني",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: الشهيدة سماح الخالدي، اشتبكت بالرصاص مع القوة الخاصة الإسرائيلية في مدينة غزة أمس؛ دفاعاً عن زوجها الضابط المعتقل، وقتلت اثنين من أفراد القوة الخاصة قبل استشهادها.",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     }
