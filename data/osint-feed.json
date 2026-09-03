@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-03T12:31:58.756Z",
+  "last_updated": "2026-09-03T16:53:09.516Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.58",
-    "global_norm_sentiment": "-0.19"
+    "global_knn_danger": "0.56",
+    "global_norm_sentiment": "-0.14"
   },
   "timeline": [
-    {
-      "time": "2026-08-26T04:42:14.095Z",
-      "danger": 0.537,
-      "sentiment": -0.25,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.412,
-          "sentiment": -0.367
-        },
-        "OSINTdefender": {
-          "danger": 0.552,
-          "sentiment": 0.4
-        },
-        "irna_1313": {
-          "danger": 0.507,
-          "sentiment": -0.7
-        },
-        "sepah_pasdaran": {
-          "danger": 0.341,
-          "sentiment": -0.733
-        },
-        "almanarnews": {
-          "danger": 0.392,
-          "sentiment": -0.3
-        },
-        "C_Military1": {
-          "danger": 0.84,
-          "sentiment": -0.067
-        },
-        "almayadeen": {
-          "danger": 0.537,
-          "sentiment": -0.433
-        },
-        "QudsN": {
-          "danger": 0.834,
-          "sentiment": -0.167
-        }
-      }
-    },
     {
       "time": "2026-08-26T05:29:56.413Z",
       "danger": 0.525,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.067
         }
       }
+    },
+    {
+      "time": "2026-09-03T16:53:09.516Z",
+      "danger": 0.563,
+      "sentiment": -0.136,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.622,
+          "sentiment": -0.5
+        },
+        "OSINTdefender": {
+          "danger": 0.672,
+          "sentiment": 0.1
+        },
+        "irna_1313": {
+          "danger": 0.515,
+          "sentiment": 0.2
+        },
+        "sepah_pasdaran": {
+          "danger": 0.397,
+          "sentiment": 0
+        },
+        "almanarnews": {
+          "danger": 0.49,
+          "sentiment": -0.3
+        },
+        "C_Military1": {
+          "danger": 0.563,
+          "sentiment": -0.273
+        },
+        "almayadeen": {
+          "danger": 0.803,
+          "sentiment": -0.2
+        },
+        "QudsN": {
+          "danger": 0.623,
+          "sentiment": -0.25
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.5654788333825664
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.621811210572373
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 13,
-      "raw_sentiment": -0.4230769230769231,
-      "knn_danger_metric": 0.4360952576784714
+      "num_messages": 15,
+      "raw_sentiment": 0.2,
+      "knn_danger_metric": 0.5154173282760142
     },
     "sepah_pasdaran": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.4796313699479679
+      "num_messages": 11,
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.39674010650938557
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.46728479251117566
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.4895345080056201
     },
     "C_Military1": {
       "name": "Hezbollah",
-      "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.6651783838671156
+      "num_messages": 11,
+      "raw_sentiment": -0.2727272727272727,
+      "knn_danger_metric": 0.5626348736858359
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.8940472500368646
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.802955178992336
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.6993453023325383
+      "num_messages": 10,
+      "raw_sentiment": -0.25,
+      "knn_danger_metric": 0.6233147826848223
     }
   },
   "semantic_logs": [
@@ -2334,31 +2334,24 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "נלחמת ביוקר המחייה&#33; רשת חצי חינם שוברת את השוק עם מאות מבצעים מטורפים לראש השנה  לקראת ראש השנה רשת הסופרים חצי חינם מרסקת מחירים ומציעה מאות מוצרים מובילים לחג במבצעים חסרי תקדים  לדוגמה: צנצנת דבש 450 גרם &quot;ממלכת הדבש&quot; רק ב 7.90 ₪ | בשר בקר טחון טרי 3 ק&quot;ג רק ב 110 ₪ | פילה סלמון נורבגי טרי רק ב 89.90 ₪ לק&quot;ג | קפה טורקי עלית 100 גרם רק ב 6.90 ש&quot;ח | סטייק אנטריקוט טרי עם עצם רק ב 99 ש&quot;ח לק&quot;ג  המבצעים פתוחים לכולם ולא רק לחברי מועדון וללא אותיות קטנות  לחוברת מבצעי החג לחצו&gt;&gt;https://bit.ly/3SLKImO",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "גולש עזתי בולט על פעולת הכוח שחטף את מפקד מנגנון ביטחון הפנים של חמאס מלב העיר עזה:  &quot;הם הקימו בסטה ממש מול המקום שבו התגורר מנהל מנגנון ביטחון הפנים, מועין, באמצע העיר&#33; המסתערבים כבר נמצאים בינינו, יא חג&#39;.  הם מכרו שם ירקות. הזכירו לי את הסדרה &quot;פאודה&quot;. יש לי הרגשה שהעונה החדשה מצולמת בתוך רצועת עזה...&quot;  תגובה אחת",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "العلاقات العامة للجيش الإيراني: استهدفنا منظومات الاتصالات عبر الأقمار الصناعية وحظائر الطائرات الأميركية في قاعدة أحمد الجابر بالكويت https://almanar.com.lb/article/1149177/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   موقع والاه العبري عن مسؤول سياسي رفيع المستوى: &quot;محاولة التوصل إلى اتفاق أمني مع سوريا، فشلت&quot;   #الاعلام_الحربي",
+      "text": "📹 خروقات متتالية للسيادة اللبنانية... الاحتلال يكثّف تفجيراته وتحركاته جنوبًا https://almanar.com.lb/article/1149792/?s=tg",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية:  كشف رئيس الوزراء الأسبق إيهود أولمرت بأن &quot;إسرائيل&quot; هي من تقف وراء قتل مستشار الرئيس السوري السابق محمد سليمان عام 2008 بعد تسلل قوة خاصة عبر البحر وإطلاق 3 رصاصات قنص. كان سليمان العقل المدبر للمفاعل السوري النووي في دير الزور.  #الاعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية: تشير مصادر أمنية إلى أن حزب الله يواصل جمع المعلومات الاستخباراتية عن مقاتلي الجيش الإسرائيلي، ودراسة أساليب عملهم، ورسم خرائط لمواقعهم، وتحديد أساليب عملياتهم، استعداداً لسيناريو يستأنف فيه القتال على شكل عمليات تسلل وكمائن وإطلاق طائرات مسيرة متفجرة وزرع عبوات ناسفة.  #الاعلام_الحربي",
-      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2378,48 +2371,6 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: محمد رضا عارف: على الأميركيين أن يفكروا في تخزين البنزين والوقود فأشهر سوداء تنتظر الاقتصاد الأميركي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: الجيش اللبناني تسلم من الصليب الأحمر الأسير مالك غازي الذي افرج عنه الاحتلال عبر معبر الناقورة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: قوات الاحتلال تنفذ تفجيرا في بلدة كفرتبنيت",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: اللواء وحيدي: مجدداً انكشف أمام أنظار العالم الوجه الخبيث والشيطاني لأميركا في عمل إرهابي ومعادٍ للإنسانية",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: اللواء وحيدي: الهجوم الإرهابي على حفل الزفاف في كوهستك كشف الوجه الشرير والشيطاني لأميركا باستهداف المدنيين الأبرياء",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: اللواء وحيدي: الجريمة المروعة تكشف عمق عداء أعداء الثورة والنظام الإسلامي وحقدهم المتجذر",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "إيران: اللواء وحيدي: الجريمة تكشف عجزهم وعدم قدرتهم في مواجهة عظمة صمود أبناء هذه الأرض وإرادتهم الفولاذية",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
@@ -2428,6 +2379,55 @@
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
       "text": "إيران: اللواء وحيدي: لا شك في أن دماء هؤلاء الشهداء المظلومين لن تذهب سدى أبداً وستطال مرتكبي هذه الجريمة والآمرين بها من دون أدنى شك",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: اللواء وحيدي: حرس الثورة وسائر القوات المسلحة المقتدرة سيواصلون بكل ما أوتوا من قوة وصلابة حماية أمن الشعب والبلاد",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: تسنيم: استشهاد 6 من عناصر القوة البحرية للجيش في العدوان الأميركي على جنوب البلاد قبل ليلتين",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: حرس الثورة في محافظة إيلام: إلقاء القبض على فريق مؤلف من سبعة عناصر مرتبطين بالجماعات الكردية الانفصالية بعد تحديد هويتهم",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: قصف مدفعي يستهدف وادي السلوقي جنوبي البلاد",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "سوريا: مصادر محلية: قصف مدفعي إسرائيلي على تلة باط الوردة بريف دمشق الغربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "سوريا: مصادر محلية: دورية إسرائيلية تنصب حاجزاً في قرية أم باطنة بريف القنيطرة الأوسط وتفتش المارة",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مزارعون يفككون بيوتًا بلاستيكية في قرية عرانة جنوب جنين، عقب إخطارهم من قوات الاحتلال بهدمها.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
