@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-04T21:11:37.271Z",
+  "last_updated": "2026-09-04T23:40:00.723Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.58",
-    "global_norm_sentiment": "-0.30"
+    "global_knn_danger": "0.57",
+    "global_norm_sentiment": "-0.31"
   },
   "timeline": [
-    {
-      "time": "2026-08-26T12:42:24.952Z",
-      "danger": 0.556,
-      "sentiment": -0.103,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.533,
-          "sentiment": -0.5
-        },
-        "OSINTdefender": {
-          "danger": 0.563,
-          "sentiment": 0.4
-        },
-        "irna_1313": {
-          "danger": 0.535,
-          "sentiment": -0.233
-        },
-        "sepah_pasdaran": {
-          "danger": 0.367,
-          "sentiment": -0.367
-        },
-        "almanarnews": {
-          "danger": 0.285,
-          "sentiment": 0.067
-        },
-        "C_Military1": {
-          "danger": 0.811,
-          "sentiment": -0.1
-        },
-        "almayadeen": {
-          "danger": 0.797,
-          "sentiment": 0.1
-        },
-        "QudsN": {
-          "danger": 0.714,
-          "sentiment": -0.233
-        }
-      }
-    },
     {
       "time": "2026-08-26T13:51:04.359Z",
       "danger": 0.553,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.3
         }
       }
+    },
+    {
+      "time": "2026-09-04T23:40:00.723Z",
+      "danger": 0.574,
+      "sentiment": -0.309,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.518,
+          "sentiment": -0.667
+        },
+        "OSINTdefender": {
+          "danger": 0.589,
+          "sentiment": 0.167
+        },
+        "irna_1313": {
+          "danger": 0.489,
+          "sentiment": -0.4
+        },
+        "sepah_pasdaran": {
+          "danger": 0.318,
+          "sentiment": -0.467
+        },
+        "almanarnews": {
+          "danger": 0.469,
+          "sentiment": -0.4
+        },
+        "C_Military1": {
+          "danger": 0.739,
+          "sentiment": -0.458
+        },
+        "almayadeen": {
+          "danger": 0.784,
+          "sentiment": -0.3
+        },
+        "QudsN": {
+          "danger": 0.884,
+          "sentiment": -0.4
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2280,31 +2280,31 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.5157704119376881
+      "knn_danger_metric": 0.5180709412262172
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
       "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.5679926841039749
+      "knn_danger_metric": 0.5893558553781856
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.49719196833769236
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.4888966828983182
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.3418361596164902
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.3183354291478097
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.5587110629796312
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.4694990623992486
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.7333377888850036
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.7837190854428562
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.8594688671061329
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.8844915477214743
     }
   },
   "semantic_logs": [
@@ -2331,6 +2331,13 @@
       "channel": "IDF",
       "text": "״אני קורא לאכולוסייה החרדית ולהנהגה החרדית לעודד כל פעם קצת יותר לגיוס. יש לנו מסלולים יוצאים מן הכלל, השתחררו מהם אנשים לא פחות חרדים ואזרחים טובים יותר למדינה. זה טוב לכולם״  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
       "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "بالصورة | من اقتحام قوات الاحتلال لبلدة تقوع جنوب شرق مدينة بيت لحم",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2359,13 +2366,6 @@
       "channel": "Hezbollah",
       "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية: شوهدت عمليات اعتراض من بحيرة طبريا في سماء الأردن بالتزامن مع ورود تقارير عن إطلاق صواريخ من إيران.  #الاعلام_الحربي",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: غارة إسرائيلية تستهدف بلدة عين التينة في البقاع الغربي شرقي لبنان",
-      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2411,23 +2411,23 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: آليات الاحتلال تطلق قنابل إنارة في سماء المناطق الشرقية لمدينة دير البلح وسط قطاع غزة، بالتزامن مع إطلاق نار شرقي المدينة.",
+      "text": "لبنان: مراسل الميادين في الجنوب: قصف مدفعي استهدف دوحة كفررمان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: قصف مدفعي إسرائيلي شرقي حي التفاح شرقي مدينة غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة تقوع جنوب شرق مدينة بيت لحم",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل: آليات الاحتلال تطلق نيرانها تجاه المناطق الشرقية لمخيم البريج وسط قطاع غزة",
+      "text": "قوات الاحتلال تقتحم قرية النزلة الشرقية شمال طولكرم.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
