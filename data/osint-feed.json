@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-03T19:36:25.894Z",
+  "last_updated": "2026-09-04T00:42:10.820Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.22"
+    "global_knn_danger": "0.58",
+    "global_norm_sentiment": "-0.24"
   },
   "timeline": [
-    {
-      "time": "2026-08-26T06:40:10.995Z",
-      "danger": 0.519,
-      "sentiment": -0.14,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.39,
-          "sentiment": -0.3
-        },
-        "OSINTdefender": {
-          "danger": 0.563,
-          "sentiment": 0.433
-        },
-        "irna_1313": {
-          "danger": 0.502,
-          "sentiment": 0.4
-        },
-        "sepah_pasdaran": {
-          "danger": 0.424,
-          "sentiment": -0.833
-        },
-        "almanarnews": {
-          "danger": 0.392,
-          "sentiment": -0.4
-        },
-        "C_Military1": {
-          "danger": 0.852,
-          "sentiment": -0.067
-        },
-        "almayadeen": {
-          "danger": 0.528,
-          "sentiment": -0.233
-        },
-        "QudsN": {
-          "danger": 0.593,
-          "sentiment": -0.267
-        }
-      }
-    },
     {
       "time": "2026-08-26T07:41:39.454Z",
       "danger": 0.535,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.269
         }
       }
+    },
+    {
+      "time": "2026-09-04T00:42:10.820Z",
+      "danger": 0.58,
+      "sentiment": -0.236,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.586,
+          "sentiment": -0.3
+        },
+        "OSINTdefender": {
+          "danger": 0.64,
+          "sentiment": 0.167
+        },
+        "irna_1313": {
+          "danger": 0.526,
+          "sentiment": -0.3
+        },
+        "sepah_pasdaran": {
+          "danger": 0.487,
+          "sentiment": -0.433
+        },
+        "almanarnews": {
+          "danger": 0.471,
+          "sentiment": 0.267
+        },
+        "C_Military1": {
+          "danger": 0.539,
+          "sentiment": -0.227
+        },
+        "almayadeen": {
+          "danger": 0.692,
+          "sentiment": -0.633
+        },
+        "QudsN": {
+          "danger": 0.911,
+          "sentiment": -0.767
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2280,31 +2280,31 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.583989924463315
+      "knn_danger_metric": 0.5860130614915036
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.6373593119846224
+      "raw_sentiment": 0.16666666666666666,
+      "knn_danger_metric": 0.6395615820510056
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.3644112189025068
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.5257409031385035
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.43624682870145065
+      "knn_danger_metric": 0.48650774707843375
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.465097655290359
+      "raw_sentiment": 0.26666666666666666,
+      "knn_danger_metric": 0.4714075222546275
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.8130368874249932
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.6915158432635076
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 13,
-      "raw_sentiment": -0.2692307692307692,
-      "knn_danger_metric": 0.4762633643501546
+      "num_messages": 15,
+      "raw_sentiment": -0.7666666666666667,
+      "knn_danger_metric": 0.9114264459037923
     }
   },
   "semantic_logs": [
@@ -2362,52 +2362,17 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: قاليباف لبيسنت: راقب جيداً سعر النفط الآجل لعمان وعوائد سندات الحكومة الأميركية ومستوى المخزونات الاستراتيجية للنفط",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: قاليباف لبينست: يا بطل ابذل كل ما لديك من قوة للتدخل أكثر في أسعار النفط الآجلة أو استمر في تفريغ النفط من المخزونات",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: انتشال جثمان شهيد استهدفته قوات الاحتلال صباح اليوم شرق حي الدعوة شمال شرقي مخيم النصيرات وسط القطاع",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: إصابة طفلة برصاص جيش الاحتلال في مخيم قطر شرق مدينة حمد شمالي مدينة خان يونس جنوبي قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيطاليا: النائبة الإيطالية في البرلمان الأوروبي بينيديتا سكوديري: بحاجة الى ترسيخ نظام دولي قائم على العدلة وتوفير المساعدات الإنسانية",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: إصابة شخص برصاص قوات الاحتلال الإسرائيلي جنوبي مدينة خان يونس جنوبي القطاع",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي شمال شرقي مخيم البريج وسط قطاع غزة",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️#فوری | حمله نیروهای مسلح یمن به مواضع مزدوران سعودی در بندر المخا &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️از تکثیر شهید سلیمانی وحشت دارند&#33;  رهبر شهید انقلاب: امروز مستکبران از نام شهید سلیمانی وحشت دارند، ببینید در فضای مجازی با اسم او چه برخوردی دارند میکنند؛ از اسمش هم میترسند و از تکثیر او وحشت دارند. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2425,11 +2390,46 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوة راجلة تابعة لجيش الاحتلال تقتحم حي الجابريات، بمحيط مخيم جنين.",
-      "absolute_sentiment": 0,
+      "text": "&quot;الاندبندنت&quot;: الرسوم الجمركية المفروضة على النفط والغاز الكنديين تهدد بإلحاق ضرر بالغ بالمستهلكين الأميركيين",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: بقائي: الوثيقة المسجلة من قبل قطر في الاتحاد الدولي للاتصالات أكدت أن الضربات الإيرانية استهدفت فقط القواعد الأميركية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: بقائي: وثيقة قطر أكدت أن الهجمات الدفاعية الإيرانية استهدفت حصراً المنشآت العسكرية الأميركية ولم يتم استهداف أي منطقة مدنية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: إطلاق نار من آليات الاحتلال شمالي مخيم البريج وسط قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: آليات الاحتلال تطلق قنابل إنارة شرقي حي التفاح شرقي مدينة غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 12 العبرية: الاستعداد لشن هجمات ضد إسرائيليين في الخارج  برعاية إيران.  - المخاوف: في إيران يزيدون محاولات الإيذاء من خلال قوة القدس وحماس في الخارج.  - التوقيت: فترة الأعياد ومرور ثلاث سنوات على السابع من أكتوبر.  - التقدير في &quot;إسرائيل&quot;: إطلاق الصواريخ على العقبة كان يهدف إلى أن يكون بمثابة ضوء تحذير &quot;لإسرائيل&quot;.  - يوم الأحد سيتم تمديد الوضع الخاص في الجبهة الداخلية حتى 23 سبتمبر.  #الإعلام_الحربي",
+      "absolute_sentiment": -0.5,
+      "semantic_danger_knn": 0.9994027911741136
     }
   ]
 }
