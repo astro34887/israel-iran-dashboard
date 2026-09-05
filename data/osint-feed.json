@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-05T11:34:25.208Z",
+  "last_updated": "2026-09-05T14:29:01.357Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.30"
+    "global_norm_sentiment": "-0.22"
   },
   "timeline": [
-    {
-      "time": "2026-08-26T18:54:06.988Z",
-      "danger": 0.523,
-      "sentiment": -0.107,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.469,
-          "sentiment": -0.4
-        },
-        "OSINTdefender": {
-          "danger": 0.607,
-          "sentiment": 0.2
-        },
-        "irna_1313": {
-          "danger": 0.422,
-          "sentiment": 0.067
-        },
-        "sepah_pasdaran": {
-          "danger": 0.445,
-          "sentiment": -0.333
-        },
-        "almanarnews": {
-          "danger": 0.276,
-          "sentiment": -0.033
-        },
-        "C_Military1": {
-          "danger": 0.837,
-          "sentiment": -0.267
-        },
-        "almayadeen": {
-          "danger": 0.575,
-          "sentiment": 0.133
-        },
-        "QudsN": {
-          "danger": 0.648,
-          "sentiment": -0.3
-        }
-      }
-    },
     {
       "time": "2026-08-26T21:36:42.789Z",
       "danger": 0.593,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.385
         }
       }
+    },
+    {
+      "time": "2026-09-05T14:29:01.357Z",
+      "danger": 0.519,
+      "sentiment": -0.223,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.518,
+          "sentiment": -0.767
+        },
+        "OSINTdefender": {
+          "danger": 0.654,
+          "sentiment": 0.367
+        },
+        "irna_1313": {
+          "danger": 0.439,
+          "sentiment": -0.333
+        },
+        "sepah_pasdaran": {
+          "danger": 0.381,
+          "sentiment": -0.467
+        },
+        "almanarnews": {
+          "danger": 0.396,
+          "sentiment": -0.033
+        },
+        "C_Military1": {
+          "danger": 0.715,
+          "sentiment": -0.429
+        },
+        "almayadeen": {
+          "danger": 0.513,
+          "sentiment": -0.267
+        },
+        "QudsN": {
+          "danger": 0.624,
+          "sentiment": -0.167
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.8666666666666667,
-      "knn_danger_metric": 0.549794957162337
+      "raw_sentiment": -0.7666666666666667,
+      "knn_danger_metric": 0.5180931703962381
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,20 +2291,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.7333333333333333,
-      "knn_danger_metric": 0.5086877750128921
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.43948303055115845
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.3358353571131024
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.38111845406349637
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.4184305687889609
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.3958242802661853
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.5296739207449923
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.5133938876377894
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 13,
-      "raw_sentiment": -0.38461538461538464,
-      "knn_danger_metric": 0.558978500833305
+      "num_messages": 15,
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.6236981070693263
     }
   },
   "semantic_logs": [
@@ -2334,10 +2334,10 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "📹 تقارير مصورة | تصعيد إسرائيلي في الجنوب.. استشهاد وإصابة عدد من المواطنين والمسعفين https://almanar.com.lb/article/1154302/?s=tg",
-      "absolute_sentiment": 0.5,
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️انصارالله از یک سلاح بومی رونمایی کرد/سلاح تک تیرانداز که با گلوله های ۲۳ میلی متری شلیک می‌کند&#33; &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2378,43 +2378,36 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: &quot;تسنيم&quot;: عدوان أميركي صاروخي استهدف ناقلة نفط إيرانية صباح اليوم كانت ترسو على بعد 6 أميال بحرية من جزيرة خارك",
+      "text": "لبنان: حزب الله: العدوان الإسرائيلي المستمر بشراكة وغطاء وتخطيط أميركي كامل لا مبرّر له سوى الضغط على السلطة اللبنانية وابتزازها",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: &quot;تسنيم&quot;: الناقلة تعرضت لأربعة مقذوفات خلال العدوان ولم تسجل إصابات بشرية حتى الآن",
+      "text": "لبنان: حزب الله: الإفراج عن بعض الأسرى على أهميته لا يمكن أن يكون غطاءً للتغاضي عن العدوان ولا مبررًا للاستمرار في مسار أثبت فشله",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: &quot;تسنيم&quot;: الجهات المختصة تجري تحقيقات حول حجم الأضرار والحجم الدقيق للحادث وسيتم نشر معلومات إضافية لاحقاً",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: القوات البرية لحرس الثورة في سيستان و بلوشستان: تم تفكيك خلية إرهابية تابعة للعدو الاسرائيلي الأميركي",
+      "text": "لبنان: مراسل الميادين في الجنوب: قوات الاحتلال الإسرائيلي تنفذ تفجيرا في بلدة بني حيان في قضاء مرجعيون",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: القوات البرية: الخلية كانت تخطط للقيام بعمل ارهابي في المحافظة",
-      "absolute_sentiment": -1,
+      "text": "سوريا: المرصد السوري: قوة إسرائيلية نفذت توغلا جديدا داخل الأراضي السورية في منطقة وادي الرقاد بريف درعا الغربي",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "سفير الولايات المتحدة لدى الاحتلال يقر بشرعية الاستيطان ويشكك بعدد ضحايا إرهاب المستوطنين ويؤكد أنه لا وجود لشيء اسمه الضفة وإنما &quot;يهودا وسامرة&quot;.",
-      "absolute_sentiment": -1,
+      "text": "بإمكانيات محدودة.. الدفاع المدني يشرع بعمليات البحث لمحاولة انتشال رفات قرابة 150 شهيدًا فلسطينيًا من تحت أنقاض برج المهندسين الذي دمره الاحتلال خلال الحرب في مخيم النصيرات، وسط قطاع غزة.",
+      "absolute_sentiment": -0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2425,11 +2418,18 @@
       "semantic_danger_knn": 0.9994027911741136
     },
     {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | قوات الاحتلال تقتحم قرية &quot;دير الحطب&quot; شرق نابلس، وتنصب حاجزاً فيها لاعتراض المركبات.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9596045227592704
+    },
+    {
       "channelId": "irna_1313",
       "channel": "IRGC",
-      "text": "🔸رضا قیطاسی با پوشش ایران باستان؛ فاتح سکوی قهرمانی در قرقیزستان  🔹 رضا قیطاسی از کبودرآهنگ با کسب مدال طلای چوب‌کشی، نخستین طلای کاروان ایران در بازی‌های جهانی روستایی و عشایری ۲۰۲۶ قرقیزستان را به دست آورد؛ سجاد سلطانی‌نژاد نیز در بخش قوی‌ترین مردان طلا گرفت و مریم فراهانی‌نیا به مدال برنز رسید. https://irna.ir/xjY9F8 @IRNA_1313",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9904567943036928
+      "text": "🔸وزش باد همراه با خیزش خاک در تهران   مدیرکل هواشناسی استان تهران: 🔹از فردا شاهد وزش باد همراه با خیزش خاک خواهیم بود که در ساعات عصر و شامگاهی این وزش باد بیشتر خواهد بود. بیشترین وزش باد در مناطق جنوبی و غربی استان تهران شاهد خواهیم بود که با خیزش خاک همراه خواهد بود.  🔹از روز سه شنبه نیز در ارتفاعات و مناطق کوهستانی استان شاهد افزایش ابر همراه با وزش باد و رگبار و رعد و برق خواهیم بود. https://irna.ir/xjY9TX @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9516098479908012
     }
   ]
 }
