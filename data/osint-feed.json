@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-05T19:51:30.763Z",
+  "last_updated": "2026-09-05T21:52:28.387Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.15"
+    "global_knn_danger": "0.57",
+    "global_norm_sentiment": "-0.24"
   },
   "timeline": [
-    {
-      "time": "2026-08-27T13:40:55.569Z",
-      "danger": 0.565,
-      "sentiment": -0.23,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.578,
-          "sentiment": -0.8
-        },
-        "OSINTdefender": {
-          "danger": 0.584,
-          "sentiment": -0.133
-        },
-        "irna_1313": {
-          "danger": 0.387,
-          "sentiment": 0.033
-        },
-        "sepah_pasdaran": {
-          "danger": 0.545,
-          "sentiment": -0.3
-        },
-        "almanarnews": {
-          "danger": 0.415,
-          "sentiment": 0.533
-        },
-        "C_Military1": {
-          "danger": 0.882,
-          "sentiment": -0.633
-        },
-        "almayadeen": {
-          "danger": 0.831,
-          "sentiment": -0.4
-        },
-        "QudsN": {
-          "danger": 0.48,
-          "sentiment": -0.467
-        }
-      }
-    },
     {
       "time": "2026-08-28T08:47:51.377Z",
       "danger": 0.512,
@@ -2261,13 +2214,60 @@
           "sentiment": 0
         }
       }
+    },
+    {
+      "time": "2026-09-05T21:52:28.387Z",
+      "danger": 0.567,
+      "sentiment": -0.243,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.434,
+          "sentiment": -0.433
+        },
+        "OSINTdefender": {
+          "danger": 0.601,
+          "sentiment": 0
+        },
+        "irna_1313": {
+          "danger": 0.365,
+          "sentiment": -0.625
+        },
+        "sepah_pasdaran": {
+          "danger": 0.346,
+          "sentiment": -0.567
+        },
+        "almanarnews": {
+          "danger": 0.42,
+          "sentiment": -0.167
+        },
+        "C_Military1": {
+          "danger": 0.724,
+          "sentiment": -0.167
+        },
+        "almayadeen": {
+          "danger": 0.939,
+          "sentiment": -0.1
+        },
+        "QudsN": {
+          "danger": 0.888,
+          "sentiment": -0.233
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.4105647672786172
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.43387796655639277
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.6322003775184097
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.6013265631363126
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.2899136756464133
+      "num_messages": 8,
+      "raw_sentiment": -0.625,
+      "knn_danger_metric": 0.3652510415506672
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.34286726745378826
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.34561917373426293
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.3538960088375404
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.41991865136848533
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.7649299903338312
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.7242994707250965
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.8711650573261911
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.9387902345515732
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.616856405613848
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.8876994216885623
     }
   },
   "semantic_logs": [
@@ -2334,9 +2334,16 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
+      "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   المتحدث باسم الجيش العميد أكرمي‌ نيا:  - إن مشكلات جيش الولايات المتحدة في المنطقة ومشكلات شعب هذا البلد ناجمة عن أخطاء المسؤولين الأمريكيين في الاعتداء على دولة مستقلة ومتحضرة.  - الحل المناسب للولايات المتحدة هو قبول الحقائق، ودفع التكاليف والخروج من المنطقة. هذا الأمر سيجعل المنطقة أكثر أمناً ويقرّب الشعب الأمريكي من الرفاه.  - حاول الأمريكيون إضعاف سيطرة القوات المسلحة الإيرانية على مضيق هرمز، لكنهم واجهوا رداً حازماً ومدوياً.  - في هذه العمليات، استُهدفت القواعد الأمريكية في أنحاء المنطقة العربية، من الأردن إلى الإمارات.  #الاعلام_الحربي",
+      "text": "📹 موجز الاعتداءات الصهيونية... تفجيرات وعمليات نسف متواصلة https://almanar.com.lb/article/1155382/?s=tg",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 ايران | الحرس الثوري ينشر مشاهد لاستهداف السفن المخالفة في مضيق هرمز https://almanar.com.lb/article/1155472/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2366,27 +2373,6 @@
       "channel": "Hezbollah",
       "text": "#إعلام_العدو   القناة 14 العبرية: في المؤسسة الأمنية الأمريكية تتزايد المخاوف من أن تختار إيران تصعيد الحملة وتوسيع نطاق هجماتها. وقال مسؤول إسرائيلي مطّلع على التفاصيل إن «هناك أساسًا حقيقيًا للتقدير»، وإن الهجمات الأخيرة في الأردن شكّلت في الواقع «إشارة» إلى ما قد تفعله طهران أيضًا.  وبحسب التقديرات، فإن أحد الدوافع الرئيسية للنظام الإيراني هو الوضع الداخلي الصعب في البلاد والرغبة في ممارسة ضغط اقتصادي وسياسي على الرئيس الأمريكي دونالد ترامب في فترة قد تتغير فيها نافذة الفرص السياسية المتاحة له بعد انتخابات التجديد النصفي.  في &quot;إسرائيل&quot; والولايات المتحدة يستعدون لاحتمال حدوث تصعيد إضافي في الشرق الأوسط.  #الاعلام_الحربي",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: وزارة الخارجية: مسؤولية التداعيات عن استمرار الإجراءات العدوانية ستقع على عاتق النظام الأميركي والمتواطئين معه وشركائه",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "سوريا: مصادر محلية: قوات الاحتلال الإسرائيلي تقصف بالمدفعية الثقيلة تل باط الوردة عند أطراف بلدة بيت جن في ريف دمشق الغربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: 4 جرحى من بينهم طفلة في عدوان طيران الاحتلال على حي التفاح شمال شرقي مدينة غزة",
-      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2428,6 +2414,20 @@
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
       "text": "إيران: قائد قوة القدس العميد إسماعيل قاآني: حزب الله لبنان شجرة باسقة ذات جذور عميقة وإلهية وشعبية وهو واقع لا يتغير في لبنان العزيز",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: العميد قآاني: حزب الله سيضمن كل يوم عزّة لبنان واستقلاله وهو ينمو ويزداد رفعةً وفخراً أكثر من ذي قبل",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: العميد قاآني: وضعت الأزمات العميقة والشاملة العسكرية والأمنية والسياسية والاقتصادية والأخلاقية &quot;إسرائيل&quot; على أعتاب الانهيار",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     }
