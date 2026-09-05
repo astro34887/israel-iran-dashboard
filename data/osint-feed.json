@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-05T21:52:28.387Z",
+  "last_updated": "2026-09-05T23:30:52.170Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.57",
-    "global_norm_sentiment": "-0.24"
+    "global_knn_danger": "0.56",
+    "global_norm_sentiment": "-0.20"
   },
   "timeline": [
-    {
-      "time": "2026-08-28T08:47:51.377Z",
-      "danger": 0.512,
-      "sentiment": -0.163,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.422,
-          "sentiment": -0.5
-        },
-        "OSINTdefender": {
-          "danger": 0.591,
-          "sentiment": 0.133
-        },
-        "irna_1313": {
-          "danger": 0.477,
-          "sentiment": -0.5
-        },
-        "sepah_pasdaran": {
-          "danger": 0.31,
-          "sentiment": -0.2
-        },
-        "almanarnews": {
-          "danger": 0.312,
-          "sentiment": 0.033
-        },
-        "C_Military1": {
-          "danger": 0.709,
-          "sentiment": -0.2
-        },
-        "almayadeen": {
-          "danger": 0.623,
-          "sentiment": -0.233
-        },
-        "QudsN": {
-          "danger": 0.729,
-          "sentiment": -0.033
-        }
-      }
-    },
     {
       "time": "2026-08-28T20:39:25.154Z",
       "danger": 0.529,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.233
         }
       }
+    },
+    {
+      "time": "2026-09-05T23:30:52.170Z",
+      "danger": 0.557,
+      "sentiment": -0.2,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.434,
+          "sentiment": -0.433
+        },
+        "OSINTdefender": {
+          "danger": 0.608,
+          "sentiment": -0.133
+        },
+        "irna_1313": {
+          "danger": 0.409,
+          "sentiment": -0.273
+        },
+        "sepah_pasdaran": {
+          "danger": 0.356,
+          "sentiment": -0.733
+        },
+        "almanarnews": {
+          "danger": 0.48,
+          "sentiment": 0
+        },
+        "C_Military1": {
+          "danger": 0.694,
+          "sentiment": -0.167
+        },
+        "almayadeen": {
+          "danger": 0.834,
+          "sentiment": -0.2
+        },
+        "QudsN": {
+          "danger": 0.806,
+          "sentiment": 0.071
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2285,44 +2285,44 @@
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.6013265631363126
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.6078198131346418
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 8,
-      "raw_sentiment": -0.625,
-      "knn_danger_metric": 0.3652510415506672
+      "num_messages": 11,
+      "raw_sentiment": -0.2727272727272727,
+      "knn_danger_metric": 0.408967578325489
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.34561917373426293
+      "raw_sentiment": -0.7333333333333333,
+      "knn_danger_metric": 0.356023095746208
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.41991865136848533
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.480390086810772
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.7242994707250965
+      "knn_danger_metric": 0.6944360733595452
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.9387902345515732
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.8336354233026755
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.8876994216885623
+      "num_messages": 14,
+      "raw_sentiment": 0.07142857142857142,
+      "knn_danger_metric": 0.8063386543139467
     }
   },
   "semantic_logs": [
@@ -2350,13 +2350,6 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية: شوهدت عمليات اعتراض من بحيرة طبريا في سماء الأردن بالتزامن مع ورود تقارير عن إطلاق صواريخ من إيران.  #الاعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
       "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: على ما يبدو جندي يعاني من اضطراب ما بعد الصدمة أطلق النار في الشارع وتم تحييده.  #الاعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
@@ -2371,63 +2364,70 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 14 العبرية: في المؤسسة الأمنية الأمريكية تتزايد المخاوف من أن تختار إيران تصعيد الحملة وتوسيع نطاق هجماتها. وقال مسؤول إسرائيلي مطّلع على التفاصيل إن «هناك أساسًا حقيقيًا للتقدير»، وإن الهجمات الأخيرة في الأردن شكّلت في الواقع «إشارة» إلى ما قد تفعله طهران أيضًا.  وبحسب التقديرات، فإن أحد الدوافع الرئيسية للنظام الإيراني هو الوضع الداخلي الصعب في البلاد والرغبة في ممارسة ضغط اقتصادي وسياسي على الرئيس الأمريكي دونالد ترامب في فترة قد تتغير فيها نافذة الفرص السياسية المتاحة له بعد انتخابات التجديد النصفي.  في &quot;إسرائيل&quot; والولايات المتحدة يستعدون لاحتمال حدوث تصعيد إضافي في الشرق الأوسط.  #الاعلام_الحربي",
+      "text": "#إعلام_العدو   القناة 14 العبرية: في المؤسسة الأمنية الأمريكية تتزايد المخاوف من أن تختار إيران تصعيد الحملة وتوسيع نطاق هجماتها. وقال مسؤول إسرائيلي مطّلع على التفاصيل إن «هناك أساسًا حقيقيًا للتقدير»، وإن الهجمات الأخيرة في الأردن شكّلت في الواقع «إشارة» إلى ما قد تفعله طهران أيضًا.  وبحسب التقديرات، فإن أحد الدوافع الرئيسية للنظام الإيراني هو الوضع الداخلي الصعب في ال��لاد والرغبة في ممارسة ضغط اقتصادي وسياسي على الرئيس الأمريكي دونالد ترامب في فترة قد تتغير فيها نافذة الفرص السياسية المتاحة له بعد انتخابات التجديد النصفي.  في &quot;إسرائيل&quot; والولايات المتحدة يستعدون لاحتمال حدوث تصعيد إضافي في الشرق الأوسط.  #الاعلام_الحربي",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: 9 جرحى من بينهم طفلة في عدوان طيران الاحتلال على حي التفاح شمال شرقي مدينة غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: قصف مدفعي إسرائيلي استهدف دوحة كفررمان في قضاء النبطية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: قائد البحرية التابعة لحرس الثورة: استهدفنا 3 ناقلات نفط في الممر غير المصرح به عبر مضيق هرمز",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: قائد البحرية التابعة لحرس الثورة للسفن في مضيق هرمز والخليج: &quot;لا تنخدعوا بالجيش الإرهابي الأميركي&quot;",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: قائد البحرية التابعة لحرس الثورة للسفن في مضيق هرمز والخليج: تجنبوا عبور المجاري المائية غير المصرح بها وإلا ستكونون هدفاً",
+      "text": "لبنان: مراسل الميادين في الجنوب: قصف مدفعي للاحتلال على دوحة كفررمان",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: قائد قوة القدس العميد إسماعيل قاآني: حزب الله لبنان شجرة باسقة ذات جذور عميقة وإلهية وشعبية وهو واقع لا يتغير في لبنان العزيز",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: غارة إسرائيلية تستهدف المناطق الشرقية لمدينة غزة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: قصف مدفعي إسرائيلي في محيط مفترق السنافور بحي التفاح شمال شرقي مدينة غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: طائرات الاحتلال تدمّر مبنى مجمّع الصخرة التجاري على شارع صلاح الدين بحي التفاح",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: حرس الثورة: استهدفنا بالصواريخ الباليستية حاملة طائرات ومدمرة تابعتين للجيش الأميركي المعتدي قاتل الأطفال",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: حرس الثورة: حاملة الطائرات والمدمرة الأميركيتان المستهدفتان تسببتا في مضايقات للسفن الإيرانية وشاركتا في الحصار البحري",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: حرس الثورة: اعتراف &quot;سنتكوم&quot; بتأكيد هذه العملية يمثل دليلاً حياً على الهزيمة الاستراتيجية للعدو وإثباتاً لقدرتنا الهجومية",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: العميد قآاني: حزب الله سيضمن كل يوم عزّة لبنان واستقلاله وهو ينمو ويزداد رفعةً وفخراً أكثر من ذي قبل",
-      "absolute_sentiment": 1,
+      "text": "إيران: حرس الثورة: في حال استمرار الأعمال العدائية والاعتداءات فعلى النظام الأميركي أن ينتظر ردودا هائلة من القوات المسلحة الإيرانية",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
+      "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "إيران: العميد قاآني: وضعت الأزمات العميقة والشاملة العسكرية والأمنية والسياسية والاقتصادية والأخلاقية &quot;إسرائيل&quot; على أعتاب الانهيار",
+      "text": "سمح بالإعلان عن مقتل دافيد عمراني، من حرس الحدود الإسرائيلي، جراء إطلاق النار في نتانيا اليوم.",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     }
