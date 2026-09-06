@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-06T21:56:02.308Z",
+  "last_updated": "2026-09-06T23:27:50.827Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.56",
+    "global_knn_danger": "0.62",
     "global_norm_sentiment": "-0.28"
   },
   "timeline": [
-    {
-      "time": "2026-08-30T06:23:23.230Z",
-      "danger": 0.58,
-      "sentiment": -0.057,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.591,
-          "sentiment": -0.233
-        },
-        "OSINTdefender": {
-          "danger": 0.583,
-          "sentiment": -0.133
-        },
-        "irna_1313": {
-          "danger": 0.483,
-          "sentiment": 0.2
-        },
-        "sepah_pasdaran": {
-          "danger": 0.49,
-          "sentiment": -0.067
-        },
-        "almanarnews": {
-          "danger": 0.457,
-          "sentiment": 0.167
-        },
-        "C_Military1": {
-          "danger": 0.826,
-          "sentiment": -0.6
-        },
-        "almayadeen": {
-          "danger": 0.647,
-          "sentiment": 0.5
-        },
-        "QudsN": {
-          "danger": 0.77,
-          "sentiment": -0.267
-        }
-      }
-    },
     {
       "time": "2026-08-30T12:33:24.330Z",
       "danger": 0.536,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.179
         }
       }
+    },
+    {
+      "time": "2026-09-06T23:27:50.827Z",
+      "danger": 0.616,
+      "sentiment": -0.28,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.618,
+          "sentiment": -0.4
+        },
+        "OSINTdefender": {
+          "danger": 0.569,
+          "sentiment": -0.067
+        },
+        "irna_1313": {
+          "danger": 0.67,
+          "sentiment": -0.5
+        },
+        "sepah_pasdaran": {
+          "danger": 0.47,
+          "sentiment": -0.167
+        },
+        "almanarnews": {
+          "danger": 0.54,
+          "sentiment": -0.067
+        },
+        "C_Military1": {
+          "danger": 0.628,
+          "sentiment": -0.433
+        },
+        "almayadeen": {
+          "danger": 0.863,
+          "sentiment": -0.533
+        },
+        "QudsN": {
+          "danger": 0.851,
+          "sentiment": -0.5
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2285,26 +2285,26 @@
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.5693379131227526
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.5692003050002938
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.5366322201962598
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.6704634071197912
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.34531836163549107
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.47046335522202415
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.23333333333333334,
-      "knn_danger_metric": 0.40890384696094917
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.5397804942613588
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.9333333333333333,
-      "knn_danger_metric": 0.7959106323174291
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.8631574594388901
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 14,
-      "raw_sentiment": -0.17857142857142858,
-      "knn_danger_metric": 0.7431678281832866
+      "num_messages": 15,
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.8505995591344726
     }
   },
   "semantic_logs": [
@@ -2355,13 +2355,6 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "فيديو | تشير صور الأقمار الصناعية الجديدة  لقاعدة علي السالم الجوية في الكويت إلى تدمير مبنى في المنطقة التي تتمركز فيها القوات الاميركية",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#إعلام_العدو   القناة 12 العبرية: تعرضت طائرة MQ-9، التي كانت رمزاً للتفوق الجوي الأمريكي في العقود الأخيرة، لضربات موجعة في الحرب ضد إيران. ووفقاً لتقارير رسمية وتسريبات من البنتاغون، فقد أُسقطت 45 طائرة مسيرة على الأقل من هذا النوع منذ بدء القتال. وهذا يعني أن حوالي 25% من الأسطول العملياتي للقوات الجوية الأمريكية لهذه الطائرة قد دُمّر.  #الاعلام_الحربي",
@@ -2385,49 +2378,56 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: مصابون من جرّاء استهداف طائرات الاحتلال مجموعة من المواطنين قرب مطعم الطابون غربي مدينة غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: شهيد و مصابون من جرّاء استهداف طائرات الاحتلال مجموعة من المواطنين قرب مطعم الطابون غربي مدينة غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء مدفعي للاحتلال استهدف بلدة دوحة كفر رمان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: استشهاد طفل وإصابات بقصف مدفعي إسرائيلي على مدرسة شرقي دير البلح وسط قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: 4 شهداء بينهم طفلان من جراء العدوان الإسرائيلي على قطاع غزة منذ فجر اليوم",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي شرقي مدينة خان يونس جنوبي قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "فلسطين المحتلة: مراسل الميادين: شهيد متأثراً بإصابته بإطلاق نار إسرائيلي قرب ملعب فلسطين غربي مدينة غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: مصابون بنيران قوات الاحتلال في محيط أبراج القسطل شرقي دير البلح وسط قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: إطلاق نار من آليات الاحتلال غربي مدينة رفح جنوبي قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: الأهالي يتصدون لهجوم المستوطنين على منطقة أبو الحمرا جنوبي بلدة بيتا جنوب نابلس شمالي الضفة الغربية",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: استشهاد شاب برصاص المستوطنين خلال هجومهم بحماية &quot;جيش&quot; الاحتلال على بلدة حجة شرق قلقيلية شمالي الضفة الغربية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: طيران الاحتلال يعتدي بـ4 صواريخ على شرق مدينة غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: إصابات في عدوان طيران الاحتلال على مركبة في بلدة كفر رمان جنوب لبنان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: اعتداء إسرائيلي بغارتين شرقي مدينة غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
