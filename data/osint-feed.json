@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-07T23:56:08.640Z",
+  "last_updated": "2026-09-08T03:03:01.589Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.56",
-    "global_norm_sentiment": "-0.23"
+    "global_knn_danger": "0.55",
+    "global_norm_sentiment": "-0.18"
   },
   "timeline": [
-    {
-      "time": "2026-08-31T17:49:30.509Z",
-      "danger": 0.522,
-      "sentiment": -0.243,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.515,
-          "sentiment": -0.367
-        },
-        "OSINTdefender": {
-          "danger": 0.58,
-          "sentiment": -0.5
-        },
-        "irna_1313": {
-          "danger": 0.473,
-          "sentiment": -0.133
-        },
-        "sepah_pasdaran": {
-          "danger": 0.397,
-          "sentiment": -0.567
-        },
-        "almanarnews": {
-          "danger": 0.395,
-          "sentiment": -0.033
-        },
-        "C_Military1": {
-          "danger": 0.73,
-          "sentiment": -0.133
-        },
-        "almayadeen": {
-          "danger": 0.622,
-          "sentiment": -0.1
-        },
-        "QudsN": {
-          "danger": 0.56,
-          "sentiment": -0.467
-        }
-      }
-    },
     {
       "time": "2026-08-31T22:21:25.479Z",
       "danger": 0.528,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.467
         }
       }
+    },
+    {
+      "time": "2026-09-08T03:03:01.589Z",
+      "danger": 0.549,
+      "sentiment": -0.184,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.593,
+          "sentiment": -0.333
+        },
+        "OSINTdefender": {
+          "danger": 0.65,
+          "sentiment": 0.267
+        },
+        "irna_1313": {
+          "danger": 0.571,
+          "sentiment": -0.333
+        },
+        "sepah_pasdaran": {
+          "danger": 0.423,
+          "sentiment": -0.467
+        },
+        "almanarnews": {
+          "danger": 0.467,
+          "sentiment": -0.333
+        },
+        "C_Military1": {
+          "danger": 0.509,
+          "sentiment": -0.036
+        },
+        "almayadeen": {
+          "danger": 0.536,
+          "sentiment": -0.3
+        },
+        "QudsN": {
+          "danger": 0.788,
+          "sentiment": -0.167
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,20 +2279,20 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.5926728965268271
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
       "raw_sentiment": 0.26666666666666666,
-      "knn_danger_metric": 0.6549054431540587
+      "knn_danger_metric": 0.6503655622882144
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.44980840609714806
+      "num_messages": 9,
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.5712548855005634
     },
     "sepah_pasdaran": {
       "name": "IRGC",
@@ -2303,8 +2303,8 @@
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.37002400888513937
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.4672560485841472
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.7070891968600778
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.535607309871126
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.902867703417146
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.7878199302004248
     }
   },
   "semantic_logs": [
@@ -2341,23 +2341,9 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: وزارة الصحة: شهيد و10 جرحى من بينهم طفلان في غارات الاحتلال الإسرائيلي على الريحان والنبطية والنبطية الفوقا جنوبي لبنان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: المجلس السياسي الأعلى: جريمة استهداف الإصلاحية المركزية بالجوف تطور بالغ الخطورة تتحمل السعودية كامل المسؤولية عنها",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: إطلاق نار مكثف من آليات الاحتلال شرقي مدينة غزة",
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "بالفيديو | قوات الاحتلال تطلق الرصاص بكثافة في بلدة عقربا جنوب نابلس",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2392,44 +2378,58 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تداهم عددًا من المنازل خلال اقتحام بلدة ميثلون جنوب جنين.",
+      "text": "مصادر محلية: قوات الاحتلال تعتقل الأسير المحرر &quot;رأفت الناصيف&quot; خلال اقتحام مدينة طولكرم.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تداهم المنازل خلال اقتحام مدينة دورا جنوب الخليل",
+      "text": "قوات الاحتلال تقتحم قرية كفر قليل شرق مدينة نابلس.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "اندلاع اشتباكات مع قوات الاحتلال خلال محاصرتهم أحد المنازل في بلدة عقربا جنوب نابلس.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم ضاحية شويكة شمال طولكرم.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة قبلان جنوب نابلس.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال مدينة دورا جنوب الخليل، وسط حملة مداهمات واعتقالات.",
+      "text": "مصادر محلية: قوات الاحتلال تداهم منزلاً  في محيط قرية الباذان، شمال شرق نابلس.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية أوصرين جنوب نابلس.",
+      "text": "مصادر محلية: جيش الاحتلال يطلق قنابل إنارة في أجواء بلدة عقربا جنوب نابلس، عقب محاصرة أحد المنازل.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب آخر.. اندلاع اشتباكات عقب محاصرة قوات الاحتلال أحد المنازل في بلدة عقربا جنوب نابلس.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تطلق قذائف &quot;أنيرجا&quot; باتجاه المنزل المحاصر في بلدة عقربا جنوب نابلس.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸شنیده شدن صدای انفجارهای قوی در پایتخت اوکراین  🔹رسانه‌های غربی بامداد سه‌شنبه از شنیده شدن صدای انفجارهای «قوی» در کی‌یف پایتخت اوکراین خبر دادند.  🔹 این رسانه‌ها اعلام کردند که این انفجارها پس از اعلام هشدار حمله هوایی توسط ارتش در شهر کی‌یف به گوش رسید به گونه‌ای که باعث به صدا درآمدن آژیر ماشین‌ها در مرکز شهر شد. #ایرنا_جهان   https://irna.ir/xjYbR3 @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9966669206650797
     }
   ]
 }
