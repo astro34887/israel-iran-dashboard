@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-09T19:40:13.868Z",
+  "last_updated": "2026-09-09T22:12:51.192Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.50",
+    "level": "ESCALATING",
+    "global_knn_danger": "0.54",
     "global_norm_sentiment": "-0.41"
   },
   "timeline": [
-    {
-      "time": "2026-09-02T18:23:47.810Z",
-      "danger": 0.546,
-      "sentiment": -0.133,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.366,
-          "sentiment": -0.3
-        },
-        "OSINTdefender": {
-          "danger": 0.639,
-          "sentiment": -0.067
-        },
-        "irna_1313": {
-          "danger": 0.364,
-          "sentiment": -0.133
-        },
-        "sepah_pasdaran": {
-          "danger": 0.367,
-          "sentiment": -0.2
-        },
-        "almanarnews": {
-          "danger": 0.523,
-          "sentiment": 0.433
-        },
-        "C_Military1": {
-          "danger": 0.746,
-          "sentiment": -0.333
-        },
-        "almayadeen": {
-          "danger": 0.84,
-          "sentiment": -0.2
-        },
-        "QudsN": {
-          "danger": 0.664,
-          "sentiment": -0.4
-        }
-      }
-    },
     {
       "time": "2026-09-02T21:32:27.025Z",
       "danger": 0.533,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.5
         }
       }
+    },
+    {
+      "time": "2026-09-09T22:12:51.192Z",
+      "danger": 0.54,
+      "sentiment": -0.409,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.421,
+          "sentiment": -0.6
+        },
+        "OSINTdefender": {
+          "danger": 0.607,
+          "sentiment": -0.2
+        },
+        "irna_1313": {
+          "danger": 0.539,
+          "sentiment": -0.933
+        },
+        "sepah_pasdaran": {
+          "danger": 0.414,
+          "sentiment": -0.667
+        },
+        "almanarnews": {
+          "danger": 0.435,
+          "sentiment": 0.067
+        },
+        "C_Military1": {
+          "danger": 0.715,
+          "sentiment": -0.727
+        },
+        "almayadeen": {
+          "danger": 0.67,
+          "sentiment": -0.6
+        },
+        "QudsN": {
+          "danger": 0.646,
+          "sentiment": -0.3
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,32 +2279,32 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.4033145399622116
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.4209648196275049
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
+      "raw_sentiment": -0.2,
       "knn_danger_metric": 0.6069202661208809
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.3583049033243289
+      "raw_sentiment": -0.9333333333333333,
+      "knn_danger_metric": 0.5392314006619702
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.8,
-      "knn_danger_metric": 0.38744033379220005
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.4139515952023498
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.45974749342940574
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.4351359121163092
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.8333333333333334,
-      "knn_danger_metric": 0.47472718103543016
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.6699423859769392
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.634929626187171
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.6460843044882142
     }
   },
   "semantic_logs": [
@@ -2334,9 +2334,16 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️آژیر هشدار در شمال فلسطین اشغالی  رسانه‌های صهیونیستی بامداد پنجشنبه از فعال‌شدن آژیرهای خطر در پی حمله پهپادی به شهرک‌های شمال فلسطین اشغالی خبر دادند. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "📹 في اليوم الدولي لحماية التعليم.. استهداف مدرسة المنصوري ودعوات لمحاسبة المعتدين https://almanar.com.lb/article/1166647/?s=tg",
+      "text": "📹 الجيش اللبناني: نلتزم بتعهداتنا والاعتداءات الإسرائيلية المتواصلة تعيق جهودنا وتهدد الاستقرار https://almanar.com.lb/article/1166857/?s=tg",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
@@ -2357,79 +2364,72 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: مراسل الميادين في اليمن: طائرات مسيرة سعودية تستهدف مديرية كِتَاف والبُقع في صعدة شمال اليمن",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: مراسل الميادين: السعودية شنت 70 غارة على محافظات مأرب والجوف وتعز والحديدة وصعدة والبيضاء خلال الساعات الماضية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "لبنان: مراسل الميادين في جنوب لبنان: جيش الاحتلال يشن غارة على بلدة النبطية الفوقا وينفذ تفجيراً في بلدة المنصوري",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "في خربة &quot;إبزيق&quot; شمال شرق طوباس، يفتتح الطلبة عامهم الدراسي الجديد داخل &quot;كرفانات&quot;، عقب تهجير الاحتلال لهم قسراً من مدرستهم في الأغوار الشمالية.",
+      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي وإطلاق نار مكثف من دبابات الاحتلال شرقي مدينة غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: التلفزيون الإيراني: سماع دوي انفجار في قشم",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: وكالة فارس: سماع دوي عدة انفجارات في المناطق الساحلية لسيريك وقشم وكذلك المناطق الساحلية التابعة لمدينة ميناب",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: وكالة فارس: أعلنت محافظة هرمزغان أن الأصوات التي سُمعت صادرة من جهة البحر",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: وكالة إيرنا عن مصادر رسمية: الأصوات التي سُمعت في ميناب وسيريك وقشم كانت صادرة من جهة البحر",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي وإطلاق نار مكثف من دبابات الاحتلال شرقي جباليا شمالي قطاع غزة",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "رام الله: الاحتلال يعتقل 3 ضباط من الشرطة الفلسطينية بذريعة &quot;تجاوز الصلاحيات&quot;  https://qudsn.co/share/217479",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية العرقة غرب جنين",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تداهم عدداً من المنازل خلال اقتحام بلدة بلعا شرق طولكرم",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸حملات روسیه به مراکز لجستیکی و تأسیسات نظامی اوکراین  🔹 وزارت دفاع روسیه در بیانیه‌ای اعلام کرد که نظامیان این کشور در ادامه حملات گسترده به تاسیسات صنایع نظامی، بنادر و مراکز مرتبط با نیروهای اوکراینی، چندین مرکز لجستیکی و انبار تجهیزات نظامی در مناطق مختلف این کشور را هدف قرار داده‌اند. #ایرنا_جهان  https://irna.ir/xjYcH8  @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9967898028530019
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸یک دستگاه پوشیدنی، اختلال پنهان فشار خون را آشکار کرد  🔹پژوهشگران چند دانشگاه و موسسه علمی اروپایی با استفاده از یک دستگاه پوشیدنی به اندازه یک گوشی همراه، موفق به شناسایی الگوهای هورمونیِ پنهان در بیماران مبتلا به&nbsp;آلدوسترونیسم اولیه&nbsp;شده‌اند؛ این اختلال زمانی رخ می‌دهد که غدد فوق‌کلیوی (آدرنال)&nbsp;هورمون آلدوسترون&nbsp;را بیش از حد تولید می‌کنند و باعث اختلال در تنظیم نمک، آب و فشار خون در بدن می‌شوند.  https://irna.ir/xjYbM8 @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9951957023429894
-    },
-    {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل | الهلال الأحمر الفلسطيني: إصابة شابين؛ جرّاء اعتداء قوات الاحتلال عليهما بالضرب في قرية عورتا، جنوب شرق نابلس.",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة عورتا جنوب نابلس.",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9785379486051118
-    },
-    {
-      "channelId": "OSINTdefender",
-      "channel": "Global_OSINT",
-      "text": "#Ukraine   Ukraine publicly unveiled the self-propelled launcher for its indigenous Koral surface-to-air missile system at the MSPO 2026 defense exhibition in Kielce, Poland.  Subscribe to @OSINTdefender | 💬 Chat room",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9596542290485596
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل | &quot;ترجمة قدس&quot; عن مصادر عبرية: تضرر حافلة مستوطنين؛ جرّاء رشقها بالحجارة قرب بلدة تقوع، جنوب شرق بيت لحم.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "صحيفة &quot;يني شفق&quot;: وزارة الثقافة والسياحة التركية تلغي حفلًا للمغنية الفرنسية &quot;إيما شابلاّن&quot; كان مقررًا إقامته في إسطنبول؛ بسبب مواقف المغنية وتصريحاتها الداعمة للاحتلال، وزيارتها &quot;تل أبيب&quot; خلال حرب الإبادة الجماعية على قطاع غزة.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.94962074608211
+      "semantic_danger_knn": 1
     }
   ]
 }
