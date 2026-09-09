@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-09T02:49:49.851Z",
+  "last_updated": "2026-09-09T07:49:18.730Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.60",
-    "global_norm_sentiment": "-0.15"
+    "global_knn_danger": "0.54",
+    "global_norm_sentiment": "-0.17"
   },
   "timeline": [
-    {
-      "time": "2026-09-01T22:57:53.271Z",
-      "danger": 0.603,
-      "sentiment": -0.25,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.638,
-          "sentiment": -0.467
-        },
-        "OSINTdefender": {
-          "danger": 0.526,
-          "sentiment": 0.1
-        },
-        "irna_1313": {
-          "danger": 0.527,
-          "sentiment": -0.9
-        },
-        "sepah_pasdaran": {
-          "danger": 0.658,
-          "sentiment": -0.933
-        },
-        "almanarnews": {
-          "danger": 0.442,
-          "sentiment": 0.3
-        },
-        "C_Military1": {
-          "danger": 0.678,
-          "sentiment": -0.433
-        },
-        "almayadeen": {
-          "danger": 0.702,
-          "sentiment": 0.167
-        },
-        "QudsN": {
-          "danger": 0.904,
-          "sentiment": -0.167
-        }
-      }
-    },
     {
       "time": "2026-09-02T05:24:11.773Z",
       "danger": 0.598,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.6
         }
       }
+    },
+    {
+      "time": "2026-09-09T07:49:18.730Z",
+      "danger": 0.54,
+      "sentiment": -0.168,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.366,
+          "sentiment": -0.767
+        },
+        "OSINTdefender": {
+          "danger": 0.676,
+          "sentiment": 0.2
+        },
+        "irna_1313": {
+          "danger": 0.39,
+          "sentiment": -0.192
+        },
+        "sepah_pasdaran": {
+          "danger": 0.464,
+          "sentiment": -0.4
+        },
+        "almanarnews": {
+          "danger": 0.565,
+          "sentiment": -0.433
+        },
+        "C_Military1": {
+          "danger": 0.541,
+          "sentiment": 0.533
+        },
+        "almayadeen": {
+          "danger": 0.789,
+          "sentiment": -0.3
+        },
+        "QudsN": {
+          "danger": 0.663,
+          "sentiment": -0.154
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,32 +2279,32 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.6355107030570967
+      "raw_sentiment": -0.7666666666666667,
+      "knn_danger_metric": 0.3663475301493852
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
       "raw_sentiment": 0.2,
-      "knn_danger_metric": 0.692180808186447
+      "knn_danger_metric": 0.6764363293664127
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 12,
-      "raw_sentiment": -0.2916666666666667,
-      "knn_danger_metric": 0.5056873280478086
+      "num_messages": 13,
+      "raw_sentiment": -0.19230769230769232,
+      "knn_danger_metric": 0.3903409981468159
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.456480712550333
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.4643132862998618
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.5864471247286616
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.5651821856959237
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.7922524842531192
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.7890568279998967
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.8402508141536877
+      "num_messages": 13,
+      "raw_sentiment": -0.15384615384615385,
+      "knn_danger_metric": 0.6626039431227381
     }
   },
   "semantic_logs": [
@@ -2334,17 +2334,38 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "סוכנות הידיעות האיראנית תסנים המזוהה עם משמרות המהפכה:  מיכלית נפט איראנית הותקפה בטיל אמריקאי כששהתה באזור המעגן - במרחק של כארבעה מייל מהאי ח&#39;ארג.  תגובה אחת",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️ببینید تصاویری زیبا از قیامت موشک های ایرانی در آسمان اردن &lrm;☑️@sepah_pasdaran",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️آتش‌گرفتن یک کشتی در قطر  &rlm;🔹 قطر از وقوع آتش‌سوزی در یک کشتی در بندر «الوکره» و مهار آن خبر داد. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "الحرس الثوري: استهداف مدمرتين حربيتين أميركيتين بصواريخ باليستية https://almanar.com.lb/article/1164617/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "بيان العلاقات العامة للحرس الثوري الإسلامي: https://almanar.com.lb/article/1164192/?s=tg",
-      "absolute_sentiment": 0,
+      "text": "قاليباف ساخرًا من واشنطن: صيدٌ جديد للقوات البحرية للحرس الثوري https://almanar.com.lb/article/1164762/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "قاليباف ساخرًا من واشنطن: أحدث روبوت غواصة ذكي أميركي... «وقع في شباك» القوات البحرية للحرس الثوري",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2359,27 +2380,6 @@
       "channel": "Hezbollah",
       "text": "#الجمهورية_الاسلامية   العلاقات العامة لحرس الثورة الإسلامية:   ردًا على الإجراءات العدوانية والمضايقات العدائية التي يمارسها جيش الشيطان الأكبر الإرهابي ضد ناقلات النفط والسفن الإيرانية، استهدفت القوة الجوفضائية التابعة لحرس الثورة الإسلامية، في إطار عملية…",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: إطلاق نار كثيف من زوارق حربية إسرائيلية في بحر مدينة رفح جنوبي قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: وجهنا ضربات صاروخية حاسمة وموجعة لقاعدة &quot;الأزرق&quot; الأميركية في الأردن",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: استهدفنا حظائر صيانة وتجهيز ونشر مقاتلات &quot;F-35&quot; و&quot;F-16&quot; و&quot;F-15&quot; في القاعدة الأميركية بالأردن",
-      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2418,16 +2418,16 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "منصات عبرية: في &quot;إسرائيل&quot; فوجئوا بالقدرة الإيرانية، إذ نفذت عمليات الإطلاق قبل قليل من 12 قاعدة مختلفة بشكل متزامن ومحكم.",
-      "absolute_sentiment": 0.5,
+      "text": "إيران: حرس الثورة: استهدفت القوة البحرية التابعة للحرس سفينتين أميركيتين و8 ناقلات نفط في الخليج وألحقت بها أضراراً كبيرة",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم منطقة السكنات محيط الجامعة العربية الأمريكية في جنين.",
+      "text": "اليمن: مدير مكتب الميادين: 32 غارة جوية استهدفت عدداً من المحافظات منها مأرب والجوف وتعز والحديدة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
