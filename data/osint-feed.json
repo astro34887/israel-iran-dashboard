@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-10T10:29:55.228Z",
+  "last_updated": "2026-09-10T14:45:31.187Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.26"
+    "global_knn_danger": "0.57",
+    "global_norm_sentiment": "-0.27"
   },
   "timeline": [
-    {
-      "time": "2026-09-03T07:42:36.415Z",
-      "danger": 0.581,
-      "sentiment": -0.169,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.47,
-          "sentiment": -0.286
-        },
-        "OSINTdefender": {
-          "danger": 0.672,
-          "sentiment": 0.1
-        },
-        "irna_1313": {
-          "danger": 0.675,
-          "sentiment": 0.1
-        },
-        "sepah_pasdaran": {
-          "danger": 0.555,
-          "sentiment": -0.167
-        },
-        "almanarnews": {
-          "danger": 0.421,
-          "sentiment": -0.2
-        },
-        "C_Military1": {
-          "danger": 0.705,
-          "sentiment": -0.467
-        },
-        "almayadeen": {
-          "danger": 0.671,
-          "sentiment": -0.367
-        },
-        "QudsN": {
-          "danger": 0.687,
-          "sentiment": -0.267
-        }
-      }
-    },
     {
       "time": "2026-09-03T12:31:58.756Z",
       "danger": 0.583,
@@ -2261,6 +2214,53 @@
           "sentiment": 0.107
         }
       }
+    },
+    {
+      "time": "2026-09-10T14:45:31.187Z",
+      "danger": 0.566,
+      "sentiment": -0.266,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.386,
+          "sentiment": -0.3
+        },
+        "OSINTdefender": {
+          "danger": 0.582,
+          "sentiment": -0.3
+        },
+        "irna_1313": {
+          "danger": 0.47,
+          "sentiment": -0.267
+        },
+        "sepah_pasdaran": {
+          "danger": 0.662,
+          "sentiment": -0.1
+        },
+        "almanarnews": {
+          "danger": 0.558,
+          "sentiment": -0.1
+        },
+        "C_Military1": {
+          "danger": 0.707,
+          "sentiment": -0.625
+        },
+        "almayadeen": {
+          "danger": 0.658,
+          "sentiment": -0.467
+        },
+        "QudsN": {
+          "danger": 0.691,
+          "sentiment": -0.367
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.4539621868997123
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.3859436599775749
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.4239317611891439
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.4703355241193857
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.3929928309628373
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.6617979996288953
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.3449671084356031
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.5579386722827415
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 12,
-      "raw_sentiment": -0.75,
-      "knn_danger_metric": 0.7031793239545053
+      "raw_sentiment": -0.625,
+      "knn_danger_metric": 0.7072685498287457
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.6802313603172182
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.6579520198279962
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 14,
-      "raw_sentiment": 0.10714285714285714,
-      "knn_danger_metric": 0.693676008433434
+      "num_messages": 15,
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.6914907506378773
     }
   },
   "semantic_logs": [
@@ -2334,30 +2334,30 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "הישג מרשים לחות&#39;ים: כבשו רצועת חוף אסטרטגית בתוך יממה  ערוצים שיעים ואיראנים חוגגים את התקדמותם המרשימה של החות&#39;ים ביממה האחרונה: כיבוש החוף המערבי של תימן.  החות&#39;ים הצליחו לכבוש את חיס, אלח&#39;וחה, יח&#39;תל והם כעת בתוך תחומי עיר הנמל המרכזית - אלמח&#39;א.  הכוחות…",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; با تصرف احتمالی ذُباب، انصار الله ۳۰ کیلومتر تا باب المندب فاصله دارد &lrm;✅ ️@sepah_pasdaran",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; #فوری | سقوط اردوگاه استراتژیک العُمری در نزدیکی باب‌المندب  انصارالله یمن کنترل اردوگاه استراتژیک العُمری را که بر منطقه باب‌المندب اشراف دارد به دست گرفتند. &lrm;✅ ️@sepah_pasdaran",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️ #فوری | حنیش بزرگ و کوچک نیز به کنترل انصارالله درآمد  اکنون پس از جزیره زُقَر، نیروهای انصارالله پیشروی کرده و کنترل جزایر راهبردی حنیش بزرگ و حنیش کوچک را نیز به دست گرفته‌اند. &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "תימן: הבכיר החות&#39;י, מחמד עלי אלחות&#39;י (חבר הנהגה), עושה &quot;סיבוב ניצחון&quot; באזור אלג&#39;ראחי - בצפון החלק אותו כבשו החות&#39;ים ביומיים האחרונים.  הוא נוהג במשוריין ששלחה בעבר איחוד האמירויות לנאמניה (לפני שאיחוד האמירויות נאלצה לנטוש את תימן בלחץ סעודי משמעותי) - כעת הוא שלל בידי החות&#39;ים.  מחמד עלי אלחות&#39;י מעצים את ההישג התודעתי: נהיגה ברכב שלל. מסר חזק למי מנאמני סעודיה שעדיין חושב להישאר נאמן לה...  קריסה מהירה של הכוחות הנאמנים לסעודיה.  תגובה אחת",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️نیروهای مسلح یمن یک پهپاد شناسایی مسلح سعودی از نوع kariyal را در آسمان حجه سرنگون کردند. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️گزارش خبرنگار شبکه المسیره یمن از مرکز شهر آزاد شده الخوخه &lrm;✅ @sepah_pasdaran",
+      "text": "&rlm; ️#فوری | رزمندگان یمنی ۲ جزیره دیگر را آزاد کردند  رویترز به‌نقل از منابعی دولت وابسته به ریاض نوشت که ارتش و انصارالله یمن بر ۲ جزیرهٔ «حنیش الکبری» و «حنیش الصغری» در نزدیکی باب‌المندب مسلط شده‌اند. &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2378,57 +2378,57 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: انتشال جثامين 4 شهداء من عائلة &quot;أحمد&quot; من تحت أنقاض منزل دمّرته طائرات الاحتلال الليلة الماضية في مشروع بيت لاهيا شمالي قطاع غزة",
+      "text": "اليمن: مراسل الميادين: القوات المسلحة اليمنية تواصل التقدم في الساحل الغربي نحو باب المندب",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "اليمن: مراسل الميادين: القوات المسلحة اليمنية بدأت عملية تمشيط الجزر مقابل الساحل الغربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: مراسل الميادين: لا بيان رسمي من صنعاء حول سيطرة القوات المسلحة على المخا",
+      "text": "لبنان: مراسل الميادين: طيران الاحتلال يعتدي على بلدة النبطية الفوقا جنوب البلاد",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيليّة: إذاعة &quot;الجيش&quot; الإسرائيلي: نجاح &quot;الحوثيين&quot; في السيطرة على مساحات إضافية بساحل البحر الأحمر يعزز هيمنتهم على مضيق باب المندب",
+      "text": "لبنان: مراسل الميادين في الجنوب: قصف مدفعي استهدف بلدة النبطية الفوقا",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "اليمن: مدير مكتب الميادين في اليمن: لا تأكيد رسميا من صنعاء بالسيطرة على مدينة المخا ومديرية ذوباب لها أهمية كبيرة بعد المخا",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "اليمن: مدير مكتب الميادين في اليمن: ثمة سيناريوهات أعدت لها القوات المسلحة اليمنية تطال الداخل السعودي اذا طال أمد المعركة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "&quot;معاريف&quot;: المسؤولون في &quot;إسرائيل&quot; يشعرون بالقلق من نجاح &quot;أنصار الله&quot; في السيطرة على ميناء مدينة المخا",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيليّة: إذاعة &quot;الجيش&quot; الإسرائيلي: هذا النجاح لـ &quot;الحوثيين&quot; يساعدهم على فرض حصار بحري على السعودية وقناة السويس وميناء &quot;إيلات&quot;",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: إصابة طفلة برصاص الاحتلال في مخيّم قطر شرقي مدينة حمد شمالي خان يونس جنوبي القطاع",
+      "text": "&quot;معاريف&quot;: سيطرة &quot;أنصار الله&quot; على ميناء المخا سيسمح لهم بفرض حصار في باب المندب",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: قوات الاحتلال تنفذ تفجيرات في بلدات المنصوري وميس الجبل وبني حيان",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيليّة: موقع مدينة المخا والميناء يتيح لـ&quot;الحوثيين&quot; إنشاء نقطة خنق جديدة وقاتلة عند مدخل البحر الأحمر",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "متابعة| 4 شهداء وصلوا مستشفيات قطاع غزة منذ الصباح",
-      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
   ]
