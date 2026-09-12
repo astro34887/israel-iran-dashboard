@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-12T21:09:50.128Z",
+  "last_updated": "2026-09-12T23:40:53.105Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.19"
+    "global_knn_danger": "0.56",
+    "global_norm_sentiment": "-0.21"
   },
   "timeline": [
-    {
-      "time": "2026-09-05T21:52:28.387Z",
-      "danger": 0.567,
-      "sentiment": -0.243,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.434,
-          "sentiment": -0.433
-        },
-        "OSINTdefender": {
-          "danger": 0.601,
-          "sentiment": 0
-        },
-        "irna_1313": {
-          "danger": 0.365,
-          "sentiment": -0.625
-        },
-        "sepah_pasdaran": {
-          "danger": 0.346,
-          "sentiment": -0.567
-        },
-        "almanarnews": {
-          "danger": 0.42,
-          "sentiment": -0.167
-        },
-        "C_Military1": {
-          "danger": 0.724,
-          "sentiment": -0.167
-        },
-        "almayadeen": {
-          "danger": 0.939,
-          "sentiment": -0.1
-        },
-        "QudsN": {
-          "danger": 0.888,
-          "sentiment": -0.233
-        }
-      }
-    },
     {
       "time": "2026-09-05T23:30:52.170Z",
       "danger": 0.557,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.7
         }
       }
+    },
+    {
+      "time": "2026-09-12T23:40:53.105Z",
+      "danger": 0.558,
+      "sentiment": -0.213,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.504,
+          "sentiment": -0.467
+        },
+        "OSINTdefender": {
+          "danger": 0.517,
+          "sentiment": 0.167
+        },
+        "irna_1313": {
+          "danger": 0.403,
+          "sentiment": -0.633
+        },
+        "sepah_pasdaran": {
+          "danger": 0.511,
+          "sentiment": -0.3
+        },
+        "almanarnews": {
+          "danger": 0.498,
+          "sentiment": -0.2
+        },
+        "C_Military1": {
+          "danger": 0.588,
+          "sentiment": 0.033
+        },
+        "almayadeen": {
+          "danger": 0.786,
+          "sentiment": -0.267
+        },
+        "QudsN": {
+          "danger": 0.825,
+          "sentiment": -0.3
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2285,44 +2285,44 @@
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0.2,
+      "raw_sentiment": 0.16666666666666666,
       "knn_danger_metric": 0.5172181432988215
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.42879262473076885
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.4033533979719289
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.550598337927841
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.511015142175424
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.4754268894306352
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.497673016391264
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.5395318956828318
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.5883738042282161
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.2,
-      "knn_danger_metric": 0.605635510709188
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.7855912773995156
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.7,
-      "knn_danger_metric": 0.7867585281201677
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.82543337243837
     }
   },
   "semantic_logs": [
@@ -2357,22 +2357,15 @@
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️رهبر شهید انقلاب: ریشهٔ مردمان زیدیه شیعه در یمن، که امروزه انصارالله یمن را تشکیل می‌دهند، به مازندران و گیلان بازمی‌گردد. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️ فرزند شهید دهه هشتادی جنگ رمضان متولد شد  دختر شهید جوان پاسدار امیرحسین کاویانی‌نیا امروز در اندیمشک متولد شد.  شهید کاویانی‌نیا در عملیات پهپادی ارتش تروریستی آمریکا و رژیم صهیونیستی در جنگ رمضان مجروح و بعداز گذشت بیست روز تحمل جراحت در چهارم فروردین امسال به درجه رفیع شهادت نائل آمد. &lrm;✅ @sepah_pasdaran",
+      "text": "&rlm; ️ فرزند شهید دهه هشتادی جنگ رمضان متولد شد  دختر شهید جوان پاسدار امیرحسین کاویانی‌نیا امروز در اندیمشک متولد شد.  شهید کاویانی‌نیا در عملیات پهپادی ارتش تروریستی آمریکا و رژیم صهیونیستی در جنگ رمضان مجروح و بعداز گذشت بیست روز تحمل جراحت در چهارم فروردین امسال به درجه رفیع شهادت نائل آمد . &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "صور التقطتها الأقمار الصناعية تُظهر الأضرار التي لحقت بمصفاة النفط في مدينة نجران السعودية، والتي تعرضت لهجوم من قبل القوات المسلحة اليمنية.",
-      "absolute_sentiment": -1,
+      "text": "🔵 العميد سريع: القوات المسلحة اليمنية استهدفت بالصواريخ الباليستية والمسيرات القاعدة العسكرية بمنطقة شروة السعودية https://almanar.com.lb/article/1173812/?s=tg",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2406,28 +2399,35 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: وكالة &quot;إرنا&quot;: سماع دوي انفجارين في قشم من جهة البحر قبل دقائق",
-      "absolute_sentiment": -1,
+      "text": "سوريا: دورية تابعة للاحتلال الإسرائيلي مؤلفة من عدة آليات عسكرية تتوغل في قرية رسم الحيادرة جنوبي القنيطرة السورية",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: بزشكيان لولي عهد أبو ظبي: لم نكن نحن من بدأ الحرب بل استهدفنا القواعد الأميركية التي هاجموا منها بلدنا دفاعاً عن أنفسنا",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: وزارة الخارجية: عراقتشي بحث هاتفياً مع نظيره العراقي فؤاد حسين الموضوعات الثنائية والتطورات الإقليمية والمسارات الجارية",
+      "text": "اليمن: العميد يحيى سريع: نفذت القوات المسلحة اليمنية عملية عسكرية نوعية استهدفت من خلالها القاعدة العسكرية بمنطقة شرورة السعودية",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "الفلسطينيون الحمر.. أيديولوجيا تجمع الاحتلال والولايات المتحدة&nbsp;  يكتب كميل أبو حنيش:   https://qudsn.co/share/217532",
+      "text": "اليمن: العميد يحيى سريع: نؤكد للعدو السعودي المجرم أن استمرار عدوانه على شعبنا سيقابل بعمليات أشد وأكبر فى عمق أراضيه",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: بزشكيان: اذا كان الأميركيون محاربين فليواجهوا قواتنا العسكرية الباسلة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: بزشكيان: لماذا يشنّون الحرب على البنية التحتية المدنية وإمدادات الغذاء وسبل عيش الناس؟",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
