@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-14T11:38:09.031Z",
+  "last_updated": "2026-09-14T17:33:17.905Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.27"
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.32"
   },
   "timeline": [
-    {
-      "time": "2026-09-07T02:37:26.500Z",
-      "danger": 0.648,
-      "sentiment": -0.243,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.618,
-          "sentiment": -0.4
-        },
-        "OSINTdefender": {
-          "danger": 0.573,
-          "sentiment": 0.033
-        },
-        "irna_1313": {
-          "danger": 0.67,
-          "sentiment": -0.5
-        },
-        "sepah_pasdaran": {
-          "danger": 0.507,
-          "sentiment": -0.3
-        },
-        "almanarnews": {
-          "danger": 0.717,
-          "sentiment": 0.3
-        },
-        "C_Military1": {
-          "danger": 0.626,
-          "sentiment": -0.433
-        },
-        "almayadeen": {
-          "danger": 0.969,
-          "sentiment": -0.433
-        },
-        "QudsN": {
-          "danger": 0.85,
-          "sentiment": -0.567
-        }
-      }
-    },
     {
       "time": "2026-09-07T07:51:09.106Z",
       "danger": 0.56,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.679
         }
       }
+    },
+    {
+      "time": "2026-09-14T17:33:17.905Z",
+      "danger": 0.533,
+      "sentiment": -0.32,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.522,
+          "sentiment": -0.5
+        },
+        "OSINTdefender": {
+          "danger": 0.488,
+          "sentiment": -0.467
+        },
+        "irna_1313": {
+          "danger": 0.258,
+          "sentiment": -0.167
+        },
+        "sepah_pasdaran": {
+          "danger": 0.596,
+          "sentiment": -0.367
+        },
+        "almanarnews": {
+          "danger": 0.503,
+          "sentiment": 0.167
+        },
+        "C_Military1": {
+          "danger": 0.769,
+          "sentiment": -0.4
+        },
+        "almayadeen": {
+          "danger": 0.609,
+          "sentiment": -0.633
+        },
+        "QudsN": {
+          "danger": 0.635,
+          "sentiment": -0.7
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2280,49 +2280,49 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.6385693021121627
+      "knn_danger_metric": 0.5223276704208379
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.5133261819964792
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.4876522129543115
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 14,
-      "raw_sentiment": -0.35714285714285715,
-      "knn_danger_metric": 0.42038169022297783
+      "num_messages": 15,
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.2583870288969681
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.3515268967452613
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.5962314813540416
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.3,
-      "knn_danger_metric": 0.3109860195912772
+      "raw_sentiment": 0.16666666666666666,
+      "knn_danger_metric": 0.5029069800120224
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.8312760311977289
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.7689578835428156
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.7166207266733802
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.6090760315274866
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 14,
-      "raw_sentiment": -0.6785714285714286,
-      "knn_danger_metric": 0.6235287298250395
+      "num_messages": 15,
+      "raw_sentiment": -0.7,
+      "knn_danger_metric": 0.6353064144006859
     }
   },
   "semantic_logs": [
@@ -2336,57 +2336,43 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "תקיפה ישראלית ברצועת עזה   עיתונאים עזתיים מדווחים לפני זמן קצר על פצועים באורח קשה כתוצאה מתקיפת כטב&quot;מ ישראלי על אוהל ליד &quot;דרים פאלאס&quot; במואצי של ח&#39;אן יונס בדרום הרצועה.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "החות&#39;ים תוקפים בשעות האחרונות את סעודיה:  אזעקות נשמעו בשעות האחרונות מספר פעמים ב:  נג&#39;ראן (מטרות אנרגיה)  ג&#39;יזאן (מטרות אנרגיה)  אבהא (שדה תעופה אזרחי)  ח&#39;מיס משיט (בסיס צבאי)  ע&quot;פ ערוצים שיעים, החות&#39;ים ביצעו עשרות שיגורים לערים הללו בשעות האחרונות.  הסעודים…",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "תקיפה ישראלית ברצועת עזה   עיתונאים עזתיים מדווחים לפני זמן קצר על פצועים באורח קשה כתוצאה מתקיפת כטב&quot;מ ישראלי על אוהל ליד &quot;דרים פאלאס&quot; במואצי של ח&#39;אן יונס בדרום הרצועה.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "נפגעים בתקיפת כטב&quot;מ ישראלי (בשלושה טילים) על בית משפחת עג&#39;ור ליד בניין יולדות של בית החולים שפאא&#39; במערב העיר עזה.  זו תקיפת הכטב&quot;מ הרביעית מהבוקר ברצועת עזה.  עד כה דווח רק על נפגעים בתקיפות אלה.  תגובה אחת",
+      "text": "הרמטכ״ל, אייל זמיר נגד יוצרי הסרט נז&quot;א:   ״על פי הפרסומים העולים עד כה זהו אינו סרט ביקורת על צה״ל ואינו ניסיון לברר את האמת. הוא מבוסס על עלילות דם, עיוות מכוון של המציאות והאשמות שקריות וחמורות נגד חיילי צה״ל ומפקדיו.  זהו מהלך נגד מדינת ישראל, לא רק נגד…",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️شبکه‌های رژیم صهیونیستی همکاری با شبکه‌های لبنانی را آغاز کردند&#33; &lrm;✅ @sepah_pasdaran",
+      "text": "&rlm; ️افزایش قیمت نفت برنت در دقایق اخیر &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️شهادت امام جماعت اهل سنت مسجد محمد رسول‌الله زاهدان  مولوی یوسف گرگیچ امام جماعت اهل سنت مسجد محمد رسول‌الله شهرستان زاهدان توسط افراد مسلح ناشناس به شهادت رسید. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️ آخرین مصاحبهٔ مولوی شهید یوسف گرگیج: راه شهدا با اقتدار ادامه دارد &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "الجيش يوقف 12 شخصًا لإطلاقهم النار و123 سوريًّا لتجولهم داخل الأراضي اللبنانية دون أوراق قانونية https://almanar.com.lb/article/1177962/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "كنعان: لجنة المال أقرت 3 قوانين لدعم الجيش والطاقة المتجددة وتصحيح رواتب موظفين في اللبنانية https://almanar.com.lb/article/1177052/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية: يُبقي الهجوم الحوثي المكثف المؤسسة الأمنية الإسرائيلية في حالة تأهب قصوى، وهي تتابع آخر التطورات في المنطقة بقلق بالغ. ففي الأيام الأخيرة، واصل الحوثيون سيطرتهم على بلدات على طول الساحل الجنوبي للبحر الأحمر، كما سيطروا على مضيق باب المندب ، أحد أهم الممرات الملاحية الاقتصادية في العالم.  #الاعلام_الحربي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية: في الخفاء، ينتقد البعض في &quot;إسرائيل&quot; بشدة انهيار الردع على الأرض، ويتساءلون عن سبب عدم وجود رد فعل من السعودية والحكومة اليمنية والجهات الفاعلة الأخرى في المنطقة على هذا الحادث. وهكذا، يجد الحوثيون أنفسهم عملياً في موقف قوة، دون مقاومة تُذكر، إذ كشف الحادث أيضاً عن افتقارٍ للمرونة والكفاءة العسكرية على أعلى المستويات لدى من يُفترض بهم التصدي في اليمن.  #الاعلام_الحربي",
-      "absolute_sentiment": -1,
+      "text": "استشهاد أستاذ من برعشيت برصاص الاحتلال وتصعيد الغارات والقصف والتفجيرات جنوبًا https://almanar.com.lb/article/1177972/?s=tg",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2406,8 +2392,8 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#الجمهورية_الاسلامية&nbsp;   المتحدث باسم وزارة الخارجية الإيرانية إسماعيل بقائي:  - ننفي بشكل قاطع الادعاءات الأميركية بشأن تورط إيران في الهجوم على خط أنابيب النفط السعودي انطلاقًا من الأراضي العراقية، ونؤكد أنها غير صحيحة إطلاقًا.  - الولايات المتحدة تواصل اختلاق الأخبار والادعاءات الكاذبة بهدف تعميق الخلافات بين دول المنطقة وزيادة تعقيد الأوضاع فيها.  - معالجة قضايا المنطقة يجب أن تتم بين دولها، بعيدًا عن الأطراف التي تسعى إلى زيادة التوتر وتعقيد الأوضاع.  #الاعلام_الحربي",
-      "absolute_sentiment": 0,
+      "text": "#الجمهورية_الاسلامية&nbsp;   المتحدث باسم وزارة الخارجية الإيرانية إسماعيل بقائي:  - ننفي بشكل قاطع الادعاءات الأميركية بشأن تورط إيران في الهجوم على خط أنابيب النفط السعودي انطلاقًا من الأراضي العراقية، ونؤكد أنها غير صحيحة إطلاقًا.  - الولايات المتحدة تو��صل اختلاق الأخبار والادعاءات الكاذبة بهدف تعميق الخلافات بين دول المنطقة وزيادة تعقيد الأوضاع فيها.  - معالجة قضايا المنطقة يجب أن تتم بين دولها، بعيدًا عن الأطراف التي تسعى إلى زيادة التوتر وتعقيد الأوضاع.  #الاعلام_الحربي",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2425,9 +2411,23 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   موقع والاه العبري: بحسب مصادر دبلوماسية في الشرق الأوسط، فقد أجرت المملكة العربية السعودية و&quot;إسرائيل&quot; محادثات بوساطة القيادة المركزية الأمريكية، بهدف مساعدة السعوديين للعمل ضد الحوثيين من خلال تقديم المعلومات الاستخباراتية.  #الاعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   موقع والاه العبري: بحسب مصادر أمنية، فإن هذا الواقع الأمني يثير قلقاً بالغاً ليس فقط لدى السعوديين، بل أيضاً لدى دول أخرى في المنطقة. ويستند الخوف إلى سيناريو تتوصل فيه الولايات المتحدة إلى تفاهم مع الإيرانيين والحوثيين، وعندما يتوصل الطرفان إلى تفاهم، سيتركان السعوديين وغيرهم مع مشاكلهم دون حل في المستقبل المنظور، بينما يتعرضون لهجمات مستمرة.  #الاعلام_الحربي",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في قطاع غزة: مصابون جراء غارة إسرائيلية غربي مدينة خان يونس جنوبي القطاع",
+      "text": "فلسطين المحتلة: مراسل الميادين: شهيد ومصابون في قصف إسرائيلي استهدف خيمة في مواصي خان يونس جنوبي قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
