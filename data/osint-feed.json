@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-14T21:22:37.771Z",
+  "last_updated": "2026-09-15T00:12:36.356Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.59",
-    "global_norm_sentiment": "-0.36"
+    "global_norm_sentiment": "-0.35"
   },
   "timeline": [
-    {
-      "time": "2026-09-07T13:55:34.582Z",
-      "danger": 0.547,
-      "sentiment": -0.208,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.676,
-          "sentiment": -0.6
-        },
-        "OSINTdefender": {
-          "danger": 0.615,
-          "sentiment": 0.2
-        },
-        "irna_1313": {
-          "danger": 0.615,
-          "sentiment": -0.233
-        },
-        "sepah_pasdaran": {
-          "danger": 0.38,
-          "sentiment": -0.433
-        },
-        "almanarnews": {
-          "danger": 0.275,
-          "sentiment": -0.143
-        },
-        "C_Military1": {
-          "danger": 0.601,
-          "sentiment": -0.036
-        },
-        "almayadeen": {
-          "danger": 0.653,
-          "sentiment": -0.5
-        },
-        "QudsN": {
-          "danger": 0.702,
-          "sentiment": -0.2
-        }
-      }
-    },
     {
       "time": "2026-09-07T18:34:22.538Z",
       "danger": 0.499,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.1
         }
       }
+    },
+    {
+      "time": "2026-09-15T00:12:36.356Z",
+      "danger": 0.592,
+      "sentiment": -0.353,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.571,
+          "sentiment": -0.467
+        },
+        "OSINTdefender": {
+          "danger": 0.53,
+          "sentiment": -0.433
+        },
+        "irna_1313": {
+          "danger": 0.376,
+          "sentiment": -0.533
+        },
+        "sepah_pasdaran": {
+          "danger": 0.515,
+          "sentiment": -0.6
+        },
+        "almanarnews": {
+          "danger": 0.468,
+          "sentiment": -0.033
+        },
+        "C_Military1": {
+          "danger": 0.711,
+          "sentiment": -0.4
+        },
+        "almayadeen": {
+          "danger": 0.799,
+          "sentiment": -0.467
+        },
+        "QudsN": {
+          "danger": 0.997,
+          "sentiment": -0.464
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.5479710369032169
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.5705740428778221
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.5186038088006554
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.5304068926454781
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.4783766538356714
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.37559230512127423
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.8333333333333334,
-      "knn_danger_metric": 0.41690356723212457
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.5152349577697467
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.5519470731699135
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.46799519960175817
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
+      "raw_sentiment": -0.4,
       "knn_danger_metric": 0.7105826177952543
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.7,
-      "knn_danger_metric": 0.8117651084841542
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.7993062666659232
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.8904219302731698
+      "num_messages": 14,
+      "raw_sentiment": -0.4642857142857143,
+      "knn_danger_metric": 0.9971146087685193
     }
   },
   "semantic_logs": [
@@ -2336,15 +2336,29 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
+      "text": "תקיפה ברצועת עזה   הרוג ומספר פצועים, בהם באורח קשה, בתקיפת כטב&quot;מ ישראלי לפני זמן קצר על רכב ליד סופר אלבאשא באזור א-צפטאוי בצפון העיר עזה.  זו תקיפת הכטב&quot;מ השביעית היום של צה&quot;ל ברצועה. עד כה נמנו 3 הרוגים בתקיפות אלה.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "תקיפה ברצועת עזה   הרוג ומספר פצועים, בהם באורח קשה, בתקיפת כטב&quot;מ ישראלי לפני זמן קצר על רכב ליד סופר אלבאשא באזור א-צפטאוי בצפון העיר עזה.  זו תקיפת הכטב&quot;מ השביעית היום של צה&quot;ל ברצועה. עד כה נמנו 3 הרוגים בתקיפות אלה.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
       "text": "מקורות עזתיים: המחוסל הטרי בתקיפת הרכב☝️ בצפון העיר עזה הוא אחמד אלבטש (אבו אסאמה) מפקד גדוד בחטיבת צפון רצועת עזה בזרוע הצבאית של חמאס.  תגובה אחת",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "📹 لجنة المال تحيل قانون تصحيح رواتب موظفي الفئة الثالثة في الجامعة اللبنانية الى الهيئة العامة لاقراره  https://almanar.com.lb/article/1178407/?s=tg",
-      "absolute_sentiment": -1,
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️‌لحظه ترور و شهادت مولوی یوسف گرگیج در زاهدان &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2379,42 +2393,7 @@
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#إعلام_العدو   موقع والاه العبري: بحسب مصادر أمنية، فإن هذا الواقع الأمني يثير قلقاً بالغاً ليس فقط لدى السعوديين، بل أيضاً لدى دول أخرى في المنطقة. ويستند الخوف إلى سيناريو تتوصل فيه الولايات المتحدة إلى تفاهم مع الإيرانيين والحوثيين، وعندما يتوصل الطرفان إلى تفاهم، سيتركان السعوديين وغيرهم مع مشاكلهم دون حل في المستقبل المنظور، بينما يتعرضون لهجمات مستمرة.  #الاعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: بحرية حرس الثورة: محاولات إخماد الحريق باءت بالفشل والتهمت النيران الناقلة بالكامل",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: بحرية حرس الثورة: الناقلة تلقت تحذيرات مسبقة بشأن مخاطر العبور غير القانوني من مضيق هرمز",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: بحرية حرس الثورة: نؤكد أن مضيق هرمز مغلق ويخضع لسيطرتنا الذكية",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: وكالة &quot;سبأ&quot;: طائرات سعودية تشن 7 غارات على محافظة صعدة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: سريع: تصدينا للطائرات السعودية بعدد من صواريخ الدفاع الجوي محلية الصنع وأجبرناها على التراجع",
-      "absolute_sentiment": 0,
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2429,6 +2408,27 @@
       "channel": "Arab_Axis",
       "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي يستهدف جنوبي مدينة خان يونس جنوبي قطاع غزة",
       "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: اللواء رضائي: المعادلات المتعلقة بالنفط والمضائق تغيرت",
+      "absolute_sentiment": -0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: اللواء رضائي: محاولات احتواء الأضرار لن توقف ما هو قادم",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: مراسل الميادين: &quot;جيش&quot; الاحتلال الإسرائيلي يطلق قنابل إنارة شمال شرق النصيرات وسط قطاع غزة",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
   ]
