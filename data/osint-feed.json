@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-15T00:12:36.356Z",
+  "last_updated": "2026-09-15T05:44:28.956Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.59",
-    "global_norm_sentiment": "-0.35"
+    "global_knn_danger": "0.56",
+    "global_norm_sentiment": "-0.31"
   },
   "timeline": [
-    {
-      "time": "2026-09-07T18:34:22.538Z",
-      "danger": 0.499,
-      "sentiment": -0.08,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.606,
-          "sentiment": -0.333
-        },
-        "OSINTdefender": {
-          "danger": 0.624,
-          "sentiment": 0.2
-        },
-        "irna_1313": {
-          "danger": 0.515,
-          "sentiment": -0.033
-        },
-        "sepah_pasdaran": {
-          "danger": 0.462,
-          "sentiment": -0.133
-        },
-        "almanarnews": {
-          "danger": 0.397,
-          "sentiment": 0.133
-        },
-        "C_Military1": {
-          "danger": 0.546,
-          "sentiment": 0.071
-        },
-        "almayadeen": {
-          "danger": 0.213,
-          "sentiment": 0.233
-        },
-        "QudsN": {
-          "danger": 0.678,
-          "sentiment": -0.8
-        }
-      }
-    },
     {
       "time": "2026-09-07T21:53:25.069Z",
       "danger": 0.541,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.464
         }
       }
+    },
+    {
+      "time": "2026-09-15T05:44:28.956Z",
+      "danger": 0.559,
+      "sentiment": -0.312,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.666,
+          "sentiment": -0.567
+        },
+        "OSINTdefender": {
+          "danger": 0.552,
+          "sentiment": -0.3
+        },
+        "irna_1313": {
+          "danger": 0.523,
+          "sentiment": -0.25
+        },
+        "sepah_pasdaran": {
+          "danger": 0.514,
+          "sentiment": -0.333
+        },
+        "almanarnews": {
+          "danger": 0.524,
+          "sentiment": 0.133
+        },
+        "C_Military1": {
+          "danger": 0.687,
+          "sentiment": -0.6
+        },
+        "almayadeen": {
+          "danger": 0.381,
+          "sentiment": -0.733
+        },
+        "QudsN": {
+          "danger": 0.794,
+          "sentiment": -0.333
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.5705740428778221
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.6662712021494418
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.5304068926454781
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.5522114011442275
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.37559230512127423
+      "num_messages": 14,
+      "raw_sentiment": -0.25,
+      "knn_danger_metric": 0.5227699921323263
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.5152349577697467
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.5141149038541134
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.46799519960175817
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.5239043677681771
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.7105826177952543
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.6867089844173557
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.7993062666659232
+      "raw_sentiment": -0.7333333333333333,
+      "knn_danger_metric": 0.38098131679085145
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 14,
-      "raw_sentiment": -0.4642857142857143,
-      "knn_danger_metric": 0.9971146087685193
+      "num_messages": 12,
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.7939726134556118
     }
   },
   "semantic_logs": [
@@ -2355,17 +2355,24 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "מקורות עזתיים: המחוסל הטרי בתקיפת הרכב☝️ בצפון העיר עזה הוא אחמד אלבטש (אבו אסאמה) מפקד גדוד בחטיבת צפון רצועת עזה בזרוע הצבאית של חמאס.  תגובה אחת",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "בכיר החמאס שחוסל הלילה: זו תמונתו של אחמד אלבטש אותו חיסל הלילה צה&quot;ל בתקיפת כטב&quot;מ על רכבו מעט לפני חצות (יש סרטונים לא סימפטיים של גופתו חסרת הגפיים בהם בהחלט ניתן לזהותו).  מקורות עזתיים המזוהים עם חמאס מדווחים כי אלבטש שימש כראש מטה החימוש של החטיבה הצפונית…",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
       "text": "&rlm; ️‌لحظه ترور و شهادت مولوی یوسف گرگیج در زاهدان &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الاسلامية&nbsp;   المتحدث باسم وزارة الخارجية الإيرانية إسماعيل بقائي:  - ننفي بشكل قاطع الادعاءات الأميركية بشأن تورط إيران في الهجوم على خط أنابيب النفط السعودي انطلاقًا من الأراضي العراقية، ونؤكد أنها غير صحيحة إطلاقًا.  - الولايات المتحدة تواصل اختلاق الأخبار والادعاءات الكاذبة بهدف تعميق الخلافات بين دول المنطقة وزيادة تعقيد الأوضاع فيها.  - معالجة قضايا المنطقة يجب أن تتم بين دولها، بعيدًا عن الأطراف التي تسعى إلى زيادة التوتر وتعقيد الأوضاع.  #الاعلام_الحربي",
-      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
@@ -2399,36 +2406,29 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: شهيد ومصابون من جراء استهداف طائرات الاحتلال سيارة قرب سوبر ماركت الباشا في منطقة الصفطاوي شمالي مدينة غزة",
+      "text": "إيران: حرس الثورة الاسلامية: جرى اعتراض وتدمير مسيّرة متطورة من طراز MQ-1 في المجال الجوي الواقع غرب مضيق هرمز",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي يستهدف جنوبي مدينة خان يونس جنوبي قطاع غزة",
-      "absolute_sentiment": 0,
+      "text": "إيران: حرس الثورة: إسقاط المسيرة جرى بواسطة منظومة الدفاع الجوي الحديثة التابعة للقوة الجو فضائية للحرس",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
+      "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "إيران: اللواء رضائي: المعادلات المتعلقة بالنفط والمضائق تغيرت",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: اللواء رضائي: محاولات احتواء الأضرار لن توقف ما هو قادم",
+      "text": "الهلال الأحمر الفلسطيني: إصابة خطيرة بالرصاص الحي في البطن والفخذ خلال اقتحام قوات الاحتلال منطقة أم الشرايط بمدينة البيرة.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
+      "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "إيران: مراسل الميادين: &quot;جيش&quot; الاحتلال الإسرائيلي يطلق قنابل إنارة شمال شرق النصيرات وسط قطاع غزة",
-      "absolute_sentiment": -1,
+      "text": "من صلاة فجر اليوم في المسجد الأقصى المبارك.",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     }
   ]
