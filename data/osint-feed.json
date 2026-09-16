@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-16T20:49:43.198Z",
+  "last_updated": "2026-09-16T23:30:14.193Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.56",
-    "global_norm_sentiment": "-0.04"
+    "global_knn_danger": "0.58",
+    "global_norm_sentiment": "-0.12"
   },
   "timeline": [
-    {
-      "time": "2026-09-09T07:49:18.730Z",
-      "danger": 0.54,
-      "sentiment": -0.168,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.366,
-          "sentiment": -0.767
-        },
-        "OSINTdefender": {
-          "danger": 0.676,
-          "sentiment": 0.2
-        },
-        "irna_1313": {
-          "danger": 0.39,
-          "sentiment": -0.192
-        },
-        "sepah_pasdaran": {
-          "danger": 0.464,
-          "sentiment": -0.4
-        },
-        "almanarnews": {
-          "danger": 0.565,
-          "sentiment": -0.433
-        },
-        "C_Military1": {
-          "danger": 0.541,
-          "sentiment": 0.533
-        },
-        "almayadeen": {
-          "danger": 0.789,
-          "sentiment": -0.3
-        },
-        "QudsN": {
-          "danger": 0.663,
-          "sentiment": -0.154
-        }
-      }
-    },
     {
       "time": "2026-09-09T12:40:48.533Z",
       "danger": 0.546,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.5
         }
       }
+    },
+    {
+      "time": "2026-09-16T23:30:14.193Z",
+      "danger": 0.576,
+      "sentiment": -0.122,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.568,
+          "sentiment": -0.133
+        },
+        "OSINTdefender": {
+          "danger": 0.583,
+          "sentiment": 0.367
+        },
+        "irna_1313": {
+          "danger": 0.566,
+          "sentiment": -0.318
+        },
+        "sepah_pasdaran": {
+          "danger": 0.481,
+          "sentiment": -0.4
+        },
+        "almanarnews": {
+          "danger": 0.514,
+          "sentiment": -0.133
+        },
+        "C_Military1": {
+          "danger": 0.696,
+          "sentiment": 0
+        },
+        "almayadeen": {
+          "danger": 0.518,
+          "sentiment": 0.033
+        },
+        "QudsN": {
+          "danger": 0.888,
+          "sentiment": -0.5
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2280,7 +2280,7 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.5366032748841357
+      "knn_danger_metric": 0.5675932249343295
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,21 +2290,21 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": 0.23333333333333334,
-      "knn_danger_metric": 0.3911243647274178
+      "num_messages": 11,
+      "raw_sentiment": -0.3181818181818182,
+      "knn_danger_metric": 0.5661766522458239
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.497838482462588
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.4811494684235175
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.5092822441829379
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.513972233004681
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.4,
-      "knn_danger_metric": 0.597354370963931
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.5179275847328586
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.802075973758859
+      "knn_danger_metric": 0.8876787120454924
     }
   },
   "semantic_logs": [
@@ -2341,10 +2341,24 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "כוח ישראלי מיוחד פשט על חנותו של המבוקש ראמי שלבאיה במחנה הפליטים בלאטה בשכם ו&quot;שלף&quot; אותו במצב מאוזן...  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
       "text": "&rlm; ️حمله توپخانه‌ای رژیم صهیونیستی به حومه دمشق  منابع سوری از حمله توپخانه‌ای ارتش رژیم صهیونیستی به مناطقی در حومه دمشق، پایتخت سوریه خبر دادند. &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️ آتش‌سوزی گسترده در یک انبار نفت در استان کرکوک عراق &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2364,13 +2378,6 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: العميد زادة للميادين: 33 مليون إيراني أبدوا استعدادهم للانخراط في تنظيم الصفوف وتلقّي التدريبات العسكرية لمواجهة الأعداء",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "فلسطين المحتلة: مراسل الميادين في غزة: مصابون في قصف إسرائيلي استهدف سطح مدرسة الدرج وسط القطاع",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
@@ -2385,51 +2392,44 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تعتقل 4 شبان خلال اقتحام مدينة البيرة.",
+      "text": "لحظة اقتحام قوات الاحتلال أحد المنازل في محيط مخيم العين غرب نابلس.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة السيلة الحارثية غرب مدينة جنين.",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال بلدة بيرزيت شمال رام الله",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم حي الكتف في مدينة أريحا",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة الزبابدة جنوب جنين.",
+      "text": "قوات الاحتلال تطالب الأهالي عبر مكبرات الصوت بإخلاء منازلهم في شارع &quot;السكة&quot; بمحيط مخيم العين غربي نابلس.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية - رون بن يشاي: أظهر الحوثيون في الأسابيع الأخيرة قدرةً مذهلةً على نقل قواتهم مسافة 2500 كيلومتر جنوبًا على طول ساحل البحر الأحمر، والسيطرة على مدينة المخا، والسيطرة على مضيق باب المندب وجزره. وقد مُني الطرف الأخر، الذي حاول الدفاع عن المناطق الخاضعة لسيطرته على طول ساحل البحر الأحمر وداخل اليمن، بهزيمة ساحقة، على الرغم من امتلاكه سلاح جو وقوات مجهزة بأحدث الأسلحة والمركبات المدرعة التي زودتها بها المملكة العربية السعودية.  #الإعلام_الحربي",
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تطلق الرصاص الحي تجاه الشبان خلال اقتحام مخيم العين غرب نابلس.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "لحظة إطلاق جنود الاحتلال الرصاص الحي باتجاه شابين خلال اقتحام مخيم العين غرب نابلس.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام قوات الاحتلال بلدة علار شمال طولكرم، ومداهمة عددًا من المنازل",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9986049269354907
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية عن قائد وحدة &quot;ماغلان&quot;: في المراحل الأولى من الدخول إلى التل، كانت المعارك دامية. خلال السيطرة على القرية، خاضت الوحدة معركة صعبة جدًا، قُتل فيها جراء صاروخ المقاتل الرقيب أول نير بن آري، وأصيب عدد من المقاتلين.  #الإعلام_الحربي",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 0.9983660049992394
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية - رون بن يشاي: فشلت الولايات المتحدة الأمريكية مؤخرًا ثلاث مرات في محاولاتها لهزيمة الحوثيين جوًا. إن ما نحتاجه للقضاء على خطر الحوثيين هو قوة فعّالة قادرة على التحرك برًا في اليمن.   #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.998058778202374
+      "semantic_danger_knn": 1
     }
   ]
 }
