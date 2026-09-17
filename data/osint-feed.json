@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-16T23:30:14.193Z",
+  "last_updated": "2026-09-17T03:09:32.721Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.58",
-    "global_norm_sentiment": "-0.12"
+    "global_knn_danger": "0.54",
+    "global_norm_sentiment": "-0.18"
   },
   "timeline": [
-    {
-      "time": "2026-09-09T12:40:48.533Z",
-      "danger": 0.546,
-      "sentiment": -0.31,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.691,
-          "sentiment": -0.733
-        },
-        "OSINTdefender": {
-          "danger": 0.676,
-          "sentiment": 0.067
-        },
-        "irna_1313": {
-          "danger": 0.5,
-          "sentiment": -0.3
-        },
-        "sepah_pasdaran": {
-          "danger": 0.481,
-          "sentiment": -0.533
-        },
-        "almanarnews": {
-          "danger": 0.219,
-          "sentiment": -0.067
-        },
-        "C_Military1": {
-          "danger": 0.728,
-          "sentiment": -0.433
-        },
-        "almayadeen": {
-          "danger": 0.634,
-          "sentiment": -0.4
-        },
-        "QudsN": {
-          "danger": 0.584,
-          "sentiment": -0.567
-        }
-      }
-    },
     {
       "time": "2026-09-09T16:59:58.938Z",
       "danger": 0.559,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.5
         }
       }
+    },
+    {
+      "time": "2026-09-17T03:09:32.721Z",
+      "danger": 0.537,
+      "sentiment": -0.184,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.568,
+          "sentiment": -0.167
+        },
+        "OSINTdefender": {
+          "danger": 0.583,
+          "sentiment": 0.367
+        },
+        "irna_1313": {
+          "danger": 0.412,
+          "sentiment": -0.269
+        },
+        "sepah_pasdaran": {
+          "danger": 0.481,
+          "sentiment": -0.567
+        },
+        "almanarnews": {
+          "danger": 0.406,
+          "sentiment": -0.467
+        },
+        "C_Military1": {
+          "danger": 0.696,
+          "sentiment": -0.107
+        },
+        "almayadeen": {
+          "danger": 0.428,
+          "sentiment": -0.133
+        },
+        "QudsN": {
+          "danger": 0.847,
+          "sentiment": -0.333
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,7 +2279,7 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
+      "raw_sentiment": -0.16666666666666666,
       "knn_danger_metric": 0.5675932249343295
     },
     "OSINTdefender": {
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 11,
-      "raw_sentiment": -0.3181818181818182,
-      "knn_danger_metric": 0.5661766522458239
+      "num_messages": 13,
+      "raw_sentiment": -0.2692307692307692,
+      "knn_danger_metric": 0.41198835892667607
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
+      "raw_sentiment": -0.5666666666666667,
       "knn_danger_metric": 0.4811494684235175
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.513972233004681
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.4060174714437811
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 14,
-      "raw_sentiment": 0,
+      "raw_sentiment": -0.10714285714285714,
       "knn_danger_metric": 0.6955098254691262
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.5179275847328586
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.42805411715096187
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.8876787120454924
+      "num_messages": 12,
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.8469579135743383
     }
   },
   "semantic_logs": [
@@ -2378,57 +2378,57 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: مصابون في قصف إسرائيلي استهدف سطح مدرسة الدرج وسط القطاع",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: العميد زاده للميادين: 33 مليون إيراني أبدوا استعدادهم للانخراط في تنظيم الصفوف وتلقّي التدريبات العسكرية لمواجهة الأعداء",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "لحظة اقتحام قوات الاحتلال أحد المنازل في محيط مخيم العين غرب نابلس.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم حي الكتف في مدينة أريحا",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تطالب الأهالي عبر مكبرات الصوت بإخلاء منازلهم في شارع &quot;السكة&quot; بمحيط مخيم العين غربي نابلس.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تطلق الرصاص الحي تجاه الشبان خلال اقتحام مخيم العين غرب نابلس.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "لحظة إطلاق جنود الاحتلال الرصاص الحي باتجاه شابين خلال اقتحام مخيم العين غرب نابلس.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال بلدة علار شمال طولكرم، ومداهمة عددًا من المنازل",
+      "text": "إيران: عراقتشي: تُعد المبادئ الأربعة للسلام التي طرحها الرئيس الصيني لها اهمية بالغة",
       "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مشاهد من اقتحام قوات الاحتلال لبلدة حلحول، شمال الخليل.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تواصل اقتحام بلدة حجة شرق قلقيلية، وسط حملة مداهمات واعتقالات واسعة.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم مخيم عقبة جبر، في مدينة أريحا.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تشن حملة مداهمات واعتقالات واسعة خلال اقتحامها الواسع لمخيم العين ومحيطه غرب مدينة نابلس.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تواصل اقتحام بلدة حلحول شمال الخليل، وسط حملة مداهمات واعتقالات.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تداهم أحد المنازل خلال اقتحام قرية كفر قليل شرق نابلس.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم مخيم الدهيشة جنوب بيت لحم، وتداهم أحد المنازل.",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     }
   ]
