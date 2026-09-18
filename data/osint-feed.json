@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-18T08:00:18.807Z",
+  "last_updated": "2026-09-18T12:55:19.774Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.51",
-    "global_norm_sentiment": "0.03"
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.15"
   },
   "timeline": [
-    {
-      "time": "2026-09-10T18:01:26.356Z",
-      "danger": 0.519,
-      "sentiment": -0.222,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.539,
-          "sentiment": -0.633
-        },
-        "OSINTdefender": {
-          "danger": 0.566,
-          "sentiment": -0.2
-        },
-        "irna_1313": {
-          "danger": 0.418,
-          "sentiment": -0.133
-        },
-        "sepah_pasdaran": {
-          "danger": 0.517,
-          "sentiment": -0.367
-        },
-        "almanarnews": {
-          "danger": 0.293,
-          "sentiment": 0.067
-        },
-        "C_Military1": {
-          "danger": 0.607,
-          "sentiment": -0.423
-        },
-        "almayadeen": {
-          "danger": 0.673,
-          "sentiment": -0.1
-        },
-        "QudsN": {
-          "danger": 0.627,
-          "sentiment": -0.3
-        }
-      }
-    },
     {
       "time": "2026-09-10T21:21:21.134Z",
       "danger": 0.573,
@@ -2261,6 +2214,53 @@
           "sentiment": 0.05
         }
       }
+    },
+    {
+      "time": "2026-09-18T12:55:19.774Z",
+      "danger": 0.532,
+      "sentiment": -0.152,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.498,
+          "sentiment": -0.467
+        },
+        "OSINTdefender": {
+          "danger": 0.506,
+          "sentiment": -0.033
+        },
+        "irna_1313": {
+          "danger": 0.508,
+          "sentiment": -0.4
+        },
+        "sepah_pasdaran": {
+          "danger": 0.54,
+          "sentiment": 0.417
+        },
+        "almanarnews": {
+          "danger": 0.337,
+          "sentiment": 0.233
+        },
+        "C_Military1": {
+          "danger": 0.721,
+          "sentiment": -0.467
+        },
+        "almayadeen": {
+          "danger": 0.704,
+          "sentiment": -0.367
+        },
+        "QudsN": {
+          "danger": 0.552,
+          "sentiment": -0.3
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.3369665471628121
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.49794706840428904
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.4,
-      "knn_danger_metric": 0.5034276595713806
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.5082694329865943
     },
     "sepah_pasdaran": {
       "name": "IRGC",
-      "num_messages": 6,
-      "raw_sentiment": 0.6666666666666666,
-      "knn_danger_metric": 0.286155030378696
+      "num_messages": 12,
+      "raw_sentiment": 0.4166666666666667,
+      "knn_danger_metric": 0.5401375463043829
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.38862171068903134
+      "raw_sentiment": 0.23333333333333334,
+      "knn_danger_metric": 0.3367622947130664
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
+      "raw_sentiment": -0.4666666666666667,
       "knn_danger_metric": 0.7212995229614168
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.4666666666666667,
-      "knn_danger_metric": 0.8127933147632743
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.7041051523501513
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 10,
-      "raw_sentiment": 0.05,
-      "knn_danger_metric": 0.6372102273010956
+      "num_messages": 15,
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.5518227460993594
     }
   },
   "semantic_logs": [
@@ -2334,10 +2334,38 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "מעניין כמה מתוכם רשומים על שמו של מועין אלעראביד, ראש השב&quot;כ העזתי שחטף צה&quot;ל מלב העיר עזה.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "זה הזמן להתחדש&#33; ✨  35% הנחה על כל האתר&#33;🔥🥳 בהזנת קוד קופון: ABUPANDA35  אל תפספסו - לסופ&quot;ש אחד בלבד&#33; ⏰  לרכישה&gt;&gt;&gt; https://pandazzz.co/ABUPANDAAAA  בתוקף עד 19.09.26 | ללא כפל קופונים | בכפוף לתקנון | מלאי מינימלי 500 יח&#39; ועד גמר המלאי",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️ تصاویر هوایی از رزمایش جان‌فدایان ایران‌زمین &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; حضور عروس ‌‌و دامادهای جوان در رژه بزرگ جان‌فدا &lrm;✅ ️ @sepah_pasdaran",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "🔵 الحرس الثوري يستهدف ناقلة نفط حاولت عبور مضيق هرمز https://almanar.com.lb/article/1187117/?s=tg",
-      "absolute_sentiment": -1,
+      "text": "📹 بعثة صندوق النقد تبحث الملفات المالية والاقتصادية في وزارة المالية https://almanar.com.lb/article/1187792/?s=tg",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2350,86 +2378,58 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: العميد زاده للميادين: نحن اليوم أكثر استعداداً مما كنا عليه قبل حرب الـ 12 يوماً وقبل حرب رمضان لأي رد فعل أو استجابة",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: العميد زاده للميادين: نحن نتحرك في إطار استراتيجية دفاعية للدفاع عن أنفسنا وعن بلدنا وقيمنا وشعبنا",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: العميد زاده للميادين: بات الأميركيون اليوم مطالبين بحماية أنفسهم ومعداتهم من التعرض للتدمير على أيدي مقاتلينا",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: العميد زاده للميادين: قوتنا ذاتية المنشأ وبنية قواتنا المسلحة تشكلت بطريقة تجعلنا غير متوقفين عن إنتاج القوة في أي ظرف",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: العميد زاده للميادين: لدينا العديد من القدرات الأخرى التي لم نستخدم سوى جزء منها وإذا اقتضى الأمر سيختبر أعداؤنا هذه القدرات",
+      "text": "فلسطين المحتلة: مراسل الميادين: إصابة سيدة حامل بطلق ناري من آليات الاحتلال في مخيم النصيرات وسط قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: العميد زاده للميادين: في هذه الجغرافيا المحدودة لا يستطيع الأميركيون الوقوف في مواجهة قوة الإيرانيين",
-      "absolute_sentiment": 0,
+      "text": "فلسطين المحتلة: مراسل الميادين: 3 إصابات برصاص مسيّرة إسرائيلية شرقي مخيم البريج وسط قطاع غزة",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: العميد زاده للميادين: مضيق هرمز منطقة استراتيجية بالكامل وهو في حوزتنا وتحت سيطرتنا",
+      "text": "إيران: أكبري: الوضع في الميدان جيد ومقاتلونا لديهم إشراف كامل على ساحة المعركة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: أكبري: الإدارة الإيرانية الكاملة لمضيق هرمز هي أيضاً أحد الموضوعات المهمة في هذه الأيام",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: العميد زاده للميادين: يؤدي اليمنيون اليوم دورهم بصورة جيدة ويفرضون إرادة شعبهم بصورة جيدة",
-      "absolute_sentiment": 1,
+      "text": "إيران: العميد شكارتشي: تهديدات ترامب والاحتلال لا يمكنها إنقاذ جيشهم المتجه نحو الزوال من الهزائم على يد الشعب ومقاتلي قواتنا المسلحة",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: الرئيس مسعود بزشكيان على هامش مناورة &quot;فيدائيو إيران&quot;: إذا كان الشعب حاضراً في الميدان فلا توجد أي قوة قادرة على تهديدنا",
-      "absolute_sentiment": 0,
+      "text": "فلسطين المحتلة: مراسل الميادين: قوات الاحتلال تنفذ عملية نسف شرقي مدينة رفح جنوبي قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: اعتداء إسرائيلي مدفعي يستهدف بلدة المنصوري",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل| استشهاد فلسطيني متأثرا بإصابته بنيران جيش الاحتلال بمخيم النصيرات وسط قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم قرية اللبن الشرقية جنوب نابلس",
+      "text": "مشهد يوثّق لحظة إعدام شرطة الاحتلال الشاب علاء محاميد في مدينة أم الفحم بالداخل المحتل",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية:  ملخص استطلاعات الرأي لهذا الأسبوع لانتخابات الكنيست:  القناة 11: 52-52  القناة 12: 54-50 لصالح اليسار. القناة 13: 52-54 لصالح اليمين. القناة 14: 46-64 لصالح اليمين. القناة 15: 48-60 لصالح اليمين. &quot;زمان إسرائيل&quot;: 55-51 لصالح اليسار. &quot;إسرائيل اليوم&quot;: 52-52.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9982188990806365
     }
   ]
 }
