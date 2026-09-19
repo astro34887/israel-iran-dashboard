@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-19T19:59:34.256Z",
+  "last_updated": "2026-09-19T22:14:24.974Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.50",
-    "global_norm_sentiment": "-0.16"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.55",
+    "global_norm_sentiment": "-0.24"
   },
   "timeline": [
-    {
-      "time": "2026-09-12T05:20:54.155Z",
-      "danger": 0.573,
-      "sentiment": -0.084,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.586,
-          "sentiment": -0.4
-        },
-        "OSINTdefender": {
-          "danger": 0.62,
-          "sentiment": 0.033
-        },
-        "irna_1313": {
-          "danger": 0.516,
-          "sentiment": 0.4
-        },
-        "sepah_pasdaran": {
-          "danger": 0.553,
-          "sentiment": -0.6
-        },
-        "almanarnews": {
-          "danger": 0.664,
-          "sentiment": 0.1
-        },
-        "C_Military1": {
-          "danger": 0.564,
-          "sentiment": -0.367
-        },
-        "almayadeen": {
-          "danger": 0.488,
-          "sentiment": -0.067
-        },
-        "QudsN": {
-          "danger": 0.789,
-          "sentiment": 0.227
-        }
-      }
-    },
     {
       "time": "2026-09-12T09:59:11.795Z",
       "danger": 0.497,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.233
         }
       }
+    },
+    {
+      "time": "2026-09-19T22:14:24.974Z",
+      "danger": 0.548,
+      "sentiment": -0.24,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.553,
+          "sentiment": -0.533
+        },
+        "OSINTdefender": {
+          "danger": 0.611,
+          "sentiment": -0.167
+        },
+        "irna_1313": {
+          "danger": 0.446,
+          "sentiment": -0.467
+        },
+        "sepah_pasdaran": {
+          "danger": 0.34,
+          "sentiment": -0.467
+        },
+        "almanarnews": {
+          "danger": 0.441,
+          "sentiment": 0.2
+        },
+        "C_Military1": {
+          "danger": 0.712,
+          "sentiment": -0.2
+        },
+        "almayadeen": {
+          "danger": 0.502,
+          "sentiment": -0.2
+        },
+        "QudsN": {
+          "danger": 0.928,
+          "sentiment": -0.4
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.6057104236518269
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.552536496124721
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
+      "raw_sentiment": -0.16666666666666666,
       "knn_danger_metric": 0.6105485640103883
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.45120746018998825
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.446063601386023
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.3491288843027657
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.34040067289862924
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.26666666666666666,
-      "knn_danger_metric": 0.28539841563961904
+      "raw_sentiment": 0.2,
+      "knn_danger_metric": 0.44089146548406144
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.7124048089890987
+      "knn_danger_metric": 0.7121544043319001
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.5202188017603211
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.5018504003821402
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.508343681701341
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.927947269701236
     }
   },
   "semantic_logs": [
@@ -2355,10 +2355,17 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 توضيح من الجامعة اللبنانية عن مباراة الدخول إلى كليات الطب وطب الأسنان والصيدلة https://almanar.com.lb/article/1191327/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#الجمهورية_الاسلامية   أمين المجلس الأعلى للأمن القومي الإيراني:  - الإجراءات الأميركية والإسرائيلية تتيح لنا الانسحاب من معاهدة عدم انتشار الأسلحة النووية (NPT).  - لم نتخذ حتى الآن أي قرار بالانسحاب من معاهدة عدم انتشار الأسلحة النووية، وهذا الأمر يعتمد على سلوك واشنطن.  #الاعلام_الحربي",
-      "absolute_sentiment": -1,
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2372,7 +2379,7 @@
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#الجمهورية_الاسلامية   أمين مجلس الأمن القومي الإيراني اللواء محسن رضائي:  - تقديرات وحسابات الرئيس الأميركي بشأن إيران كانت خاطئة والحرب كانت بتحريض من نتنياهو.  - من صالح واشنطن القبول بشروطنا للخروج من الحرب وتهديدات ترامب لن تحقق أي نتيجة ومستعدون لحرب حاسمة.  - نعرف نقاط ضعف الجيش الأميركي ومستعدون أكثر من قبل لمواجهة هجماته الجوية.  - وصلنا إلى قناعة بتغيير استراتيجيتنا تجاه  واشنطن بعد انسحابها من مذكرة التفاهم.  - اختبرنا أخيرا صاروخا مضادا للسفن بالقرب من حاملة طائرات أميركية  - جادون في الدفاع وسنضرب القواعد الأميركية ومصالح واشنطن في المنطقة بقوة أكبر إذا هوجمنا  - المشاورات متواصلة مع الوسيطين القطري والباكستاني وأبلغناهما بشروطنا للتفاوض.  #الاعلام_الحربي",
-      "absolute_sentiment": 0.5,
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2387,13 +2394,6 @@
       "channel": "Hezbollah",
       "text": "كلمة الامين العام لحزب الله سماحة #الشيخ_نعيم_قاسم خلال مؤتمر الشهيد المقاوم في الذكرى الـ 55 لتأسيس منظمة الطلبة الامامية في باكستان",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: العميد شكارتشي: لا يزال زمام المبادرة في مضيق هرمز بيد القوات المسلحة الإيرانية القوية",
-      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
@@ -2418,17 +2418,17 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "الوجه الآخر لـ&quot;روبرت كرافت&quot;.. هكذا يمول جيش الاحتلال ويزعم تقديم مساعدات للفلسطينيين&nbsp;  التفاصيل:   https://qudsn.co/share/217663",
-      "absolute_sentiment": 0.5,
+      "text": "لبنان: مراسل الميادين في الجنوب: الطيران الحربي الإسرائيلي شن عدواناً بعدة غارات استهدفت بلدتي النبطية الفوقا وكفرتبنيت",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "&quot;إحنا شفنا إللي ما شافه حدا، الحرب مستمرة، أنا تعبت، كل يوم شهداء وإصابات&quot;..  شاهد عيان يتحدث عن تفاصيل قصف الاحتلال لمركبة مدنية واستشهاد شاب في حي الشيخ رضوان بمدينة غزة.",
-      "absolute_sentiment": 1,
+      "text": "مصادر محلية: مستوطنون بحماية جيش الاحتلال يقتحمون مدينة أريحا.",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
   ]
