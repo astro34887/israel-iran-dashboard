@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-20T10:32:12.683Z",
+  "last_updated": "2026-09-20T14:27:32.606Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.55",
-    "global_norm_sentiment": "-0.23"
+    "global_knn_danger": "0.56",
+    "global_norm_sentiment": "-0.22"
   },
   "timeline": [
-    {
-      "time": "2026-09-12T18:54:51.774Z",
-      "danger": 0.564,
-      "sentiment": -0.199,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.485,
-          "sentiment": -0.533
-        },
-        "OSINTdefender": {
-          "danger": 0.517,
-          "sentiment": 0.2
-        },
-        "irna_1313": {
-          "danger": 0.611,
-          "sentiment": -0.321
-        },
-        "sepah_pasdaran": {
-          "danger": 0.668,
-          "sentiment": -0.633
-        },
-        "almanarnews": {
-          "danger": 0.544,
-          "sentiment": 0.033
-        },
-        "C_Military1": {
-          "danger": 0.516,
-          "sentiment": 0
-        },
-        "almayadeen": {
-          "danger": 0.62,
-          "sentiment": -0.1
-        },
-        "QudsN": {
-          "danger": 0.725,
-          "sentiment": -0.5
-        }
-      }
-    },
     {
       "time": "2026-09-12T21:09:50.128Z",
       "danger": 0.536,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.467
         }
       }
+    },
+    {
+      "time": "2026-09-20T14:27:32.606Z",
+      "danger": 0.559,
+      "sentiment": -0.22,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.511,
+          "sentiment": -0.5
+        },
+        "OSINTdefender": {
+          "danger": 0.668,
+          "sentiment": 0
+        },
+        "irna_1313": {
+          "danger": 0.574,
+          "sentiment": -0.2
+        },
+        "sepah_pasdaran": {
+          "danger": 0.388,
+          "sentiment": -0.5
+        },
+        "almanarnews": {
+          "danger": 0.453,
+          "sentiment": 0.567
+        },
+        "C_Military1": {
+          "danger": 0.757,
+          "sentiment": -0.433
+        },
+        "almayadeen": {
+          "danger": 0.6,
+          "sentiment": -0.533
+        },
+        "QudsN": {
+          "danger": 0.691,
+          "sentiment": -0.467
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.6689940056733684
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.5107199475129734
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.6595642338959743
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.6678632653735195
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 12,
-      "raw_sentiment": -0.125,
-      "knn_danger_metric": 0.5149053226003276
+      "num_messages": 15,
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.5741637535102467
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.42290848173451845
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.3883740786882554
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.4547520990205806
+      "raw_sentiment": 0.5666666666666667,
+      "knn_danger_metric": 0.45326953124900926
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.7239876173925909
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.7571852668083294
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.4176488589861904
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.6001909747093961
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.6841267747186308
+      "knn_danger_metric": 0.6909498477715322
     }
   },
   "semantic_logs": [
@@ -2334,102 +2334,102 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "פצוע אנוש בפיגוע ירי במעיין ליד נווה צוף. מצוד אחר המחבל.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "פצוע אנוש בפיגוע ירי במעיין ליד נווה צוף. מצוד אחר המחבל.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "פצוע אנוש בפיגוע ירי במעיין ליד נווה צוף. מצוד אחר המחבל.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
+      "channelId": "irna_1313",
       "channel": "IRGC",
-      "text": "&rlm; ️دستگیری مأمورنمای اخاذ در میدان هرندی  &rlm;🔹 مرکز اطلاع‌رسانی پلیس تهران بزرگ از شناسایی و دستگیری فردی خبر داد که با جعل عنوان مأمور نظامی و استفاده از تجهیزات غیرمجاز، در محدوده میدان هرندی اقدام به اخاذی از شهروندان می‌کرد. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
+      "text": "🎥«خبرگردی» ۲۹ شهریور؛ هشدار «ال‌نینو» و تغییر ساعت کار ادارات  🔹در برنامه امروز از تغییر دوباره ساعات کاری دستگاه‌های اجرایی تا هشدارهای جدی سازمان هواشناسی، آخرین آمار پرداخت خسارت‌های جنگی و نکات مهم بهداشتی در آستانه بازگشایی مدارس گفتیم.  مهم ترین عناوین…",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "بالفيديو | من مكان العملية التي قُتل فيها مستوطن في نفيه تسوف https://almanar.com.lb/article/1192217/?s=tg",
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: مدفعية الاحتلال تستهدف أطراف بلدة ميفدون",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "مقتل مستوطن وإصابة آخرين بإطلاق نار غرب رام الله https://almanar.com.lb/article/1192232/?s=tg",
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: مدفعية الاحتلال تعتدي على بلدة يحمر الشقيف في جنوب لبنان",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: قصف مدفعي إسرائيلي استهدف مدينة الخيام في قضاء مرجعيون حنوبي لبنان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "سوريا: الإخبارية السورية : قوات الاحتلال الإسرائيلي تقصف بالمدفعية جنوب شرقي بلدة الرفيد في ريف القنيطرة الجنوبي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تحاصر المصلين داخل مسجد في بلدة &quot;بِدوّ&quot; شمال غرب القدس المحتلة، وهي مسقط رأس منفذ عملية رام الله اليوم.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "الضفة تشتعل.. 3 عملياتِ مقاومة متزامنة، وشهيد ومقتل مستوطن.  تفاصيل ما جرى منذ صباح اليوم:",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "المستوطن &quot;نتنئيل شكرون&quot; هو القتيل بعملية إطلاق النار في &quot;وادي ريا&quot; شمال غرب مدينة رام الله.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تواصل اقتحام منزل منفذ عملية رام الله، الأسير &quot;قدري محمد سمارة&quot; وتحاصر مسجداً ملاصقاً له في بلدة بدّو، شمال غرب القدس المحتلة.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸ظفرقندی:&nbsp;۷۳ بیمارستان و ۳۰۰ آمبولانس در جنگ‌های اخیر آسیب دید  🔹وزیر بهداشت، درمان و آموزش پزشکی در نشست کمیسیون فرهنگی اجتماعی دولت با تشریح مهم‌ترین اقدامات و چالش‌های حوزه سلامت، از تاب‌آوری نظام سلامت در جریان جنگ، از آسیب به ۷۳ بیمارستان و حدود ۳۰۰ دستگاه آمبولانس خبر داد و گفت: حدود ۱۶ کارخانه تولید دارو نیز در این شرایط آسیب دید، اما مجموعه نظام سلامت توانست تاب‌آوری مناسبی از خود نشان دهد.  https://irna.ir/xjYhyW @IRNA_1313",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 0.9987397470837845
     },
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "كلمة الامين العام لحزب الله سماحة #الشيخ_نعيم_قاسم خلال مؤتمر الشهيد المقاوم في الذكرى الـ 55 لتأسيس منظمة الطلبة الامامية في باكستان",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: حماس: اقتحام المجرم نتنياهو الأنفاق والحفريات أسفل المسجد الأقصى المبارك وحائط البراق اعتداء صارخ على هوية المسجد ومكانته",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: إصابتان بنيران &quot;جيش&quot; الاحتلال في محيط دوار بني سهيلا جنوبي قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل| قوات الاحتلال تقتحم بلدة بيت ريما شمال غرب رام الله",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "من موقع عملية إطلاق النار قرب مستوطنة &quot;حلميش&quot; قرب رام الله",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل| قوات الاحتلال تطلق النار تجاه مركبة بداخلها شابين قرب معسكر جيش الاحتلال الجديد بمنطقة حداد بمدينة جنين، بزعم محاولة تنفيذ عملية دهس.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مستشفى الكويت التخصصي في مواصي خانيونس يوقف كافة أقسامه عدا قسم الطوارئ بسبب وقف إمدادات الوقود",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل| مصدر لشبكة قدس: بنك فلسطين يقرر إزالة برج البنك في حي الرمال وسط مدينة غزة بالتعاون مع وزارة الأشغال والهيئة العربية للإعمار.",
+      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: يدعو مصدر أمني إلى أن يتوجه الذين يحملون تراخيص أسلحة إلى الكنيس مع أسلحتهم الشخصية خلال يوم الغفران، وأن يكونوا يقظين ومستعدين لأي طارئ.  #الإعلام_الحربي",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
+      "semantic_danger_knn": 0.9979853054910216
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: لحظة إطلاق النار في نيفي تسوف.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9961486516080663
+    },
+    {
+      "channelId": "OSINTdefender",
+      "channel": "Global_OSINT",
+      "text": "#Italy #KSA  An Italian Air Force Eurofighter Typhoon F-2000 was damaged during an overnight attack on King Fahd Air Base in Ta&#39;if, Saudi Arabia.   Subscribe to @OSINTdefender | 💬 Chat room",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9882628954071351
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | قوات الاحتلال تداهم منزل منفذ عملية رام الله، المعتقل &quot;قدري محمد سمارة&quot; في بلدة &quot;بدّو&quot; شمال غرب القدس.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9596045227592704
     }
   ]
 }
