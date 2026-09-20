@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-20T00:36:30.238Z",
+  "last_updated": "2026-09-20T05:40:22.229Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.20"
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.23"
   },
   "timeline": [
-    {
-      "time": "2026-09-12T13:29:37.102Z",
-      "danger": 0.534,
-      "sentiment": -0.14,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.517,
-          "sentiment": -0.667
-        },
-        "OSINTdefender": {
-          "danger": 0.555,
-          "sentiment": 0.4
-        },
-        "irna_1313": {
-          "danger": 0.457,
-          "sentiment": -0.167
-        },
-        "sepah_pasdaran": {
-          "danger": 0.364,
-          "sentiment": 0.133
-        },
-        "almanarnews": {
-          "danger": 0.525,
-          "sentiment": 0.1
-        },
-        "C_Military1": {
-          "danger": 0.586,
-          "sentiment": 0
-        },
-        "almayadeen": {
-          "danger": 0.679,
-          "sentiment": -0.467
-        },
-        "QudsN": {
-          "danger": 0.712,
-          "sentiment": -0.6
-        }
-      }
-    },
     {
       "time": "2026-09-12T16:42:07.019Z",
       "danger": 0.558,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.067
         }
       }
+    },
+    {
+      "time": "2026-09-20T05:40:22.229Z",
+      "danger": 0.533,
+      "sentiment": -0.227,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.466,
+          "sentiment": -0.533
+        },
+        "OSINTdefender": {
+          "danger": 0.611,
+          "sentiment": -0.133
+        },
+        "irna_1313": {
+          "danger": 0.486,
+          "sentiment": -0.233
+        },
+        "sepah_pasdaran": {
+          "danger": 0.407,
+          "sentiment": -0.433
+        },
+        "almanarnews": {
+          "danger": 0.484,
+          "sentiment": -0.2
+        },
+        "C_Military1": {
+          "danger": 0.712,
+          "sentiment": -0.2
+        },
+        "almayadeen": {
+          "danger": 0.395,
+          "sentiment": -0.4
+        },
+        "QudsN": {
+          "danger": 0.821,
+          "sentiment": 0
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.5418272565590101
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.46601053124885206
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,21 +2290,21 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 10,
-      "raw_sentiment": -0.35,
-      "knn_danger_metric": 0.45517720930894245
+      "num_messages": 15,
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.48592339639610926
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.34259060137725694
+      "knn_danger_metric": 0.4072476432411881
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.2,
-      "knn_danger_metric": 0.5008332653840297
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.4835887950123435
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.5018504003821402
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.39527764146090166
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.7974576730334537
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.8209517230160447
     }
   },
   "semantic_logs": [
@@ -2331,34 +2331,6 @@
       "channel": "IDF",
       "text": "״אני קורא לאכולוסייה החרדית ולהנהגה החרדית לעודד כל פעם קצת יותר לגיוס. יש לנו מסלולים יוצאים מן הכלל, השתחררו מהם אנשים לא פחות חרדים ואזרחים טובים יותר למדינה. זה טוב לכולם״  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "זה הזמן להתחדש&#33; ✨  35% הנחה על כל האתר&#33;🔥🥳 בהזנת קוד קופון: ABUPANDA35  אל תפספסו - לסופ&quot;ש אחד בלבד&#33; ⏰  לרכישה&gt;&gt;&gt; https://pandazzz.co/ABUPANDAAAA  בתוקף עד 19.09.26 | ללא כפל קופונים | בכפוף לתקנון | מלאי מינימלי 500 יח&#39; ועד גמר המלאי",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "חיסול מח&quot;ט רפיח אמש: חמאס מזמינה את תושבי עזה להשתתף בהלוויתו של נאא&#39;ל אבו עביד, מח&quot;ט רפיח שתיערך ב... ח&#39;אן יונס (אין כל כך רפיח...). ההלוויה תצא ממסגד בית החולים נאצר אחרי תפילת הצהריים.  בתמונות המצורפות נראה אבו עביד במכה (סעודיה), בשנת 2012 יחד עם אחמד…",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "דובר צה&quot;ל: בסגירת מעגל מהירה: לוחמי צה״ל ושב״כ עצרו מחבלים שהציתו שריפה בחטיבת שומרון  כוחות צה״ל קפצו אתמול (ו׳) למרחב הסמוך לכפר בורקא שבחטיבת שומרון בעקבות דיווח על הצתת שריפה במרחב, ללא נפגעים.   בהגעתם, הכוחות סרקו אחר חשודים במרחב ולאחר זמן קצר עצרו שני מחבלים שהודו כי ביצעו את ההצתה.  המחבלים הועברו להמשך חקירת כוחות הביטחון.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 توضيح من الجامعة اللبنانية عن مباراة الدخول إلى كليات الطب وطب الأسنان والصيدلة https://almanar.com.lb/article/1191327/?s=tg",
-      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2406,13 +2378,6 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: الشيخ قاسم: مواجهة الاستكبار و&quot;إسرائيل&quot; لا يمكن أن تتم إلا بالمقاومة",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "لبنان: الشيخ قاسم: نحن أصحاب حق وأصحاب الأرض وعلينا أن نقاوم مهما غلت التضحيات",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
@@ -2429,6 +2394,41 @@
       "channel": "Arab_Axis",
       "text": "لبنان: مراسل الميادين في الجنوب: الطيران الحربي الإسرائيلي شن عدواناً بعدة غارات استهدفت بلدتي النبطية الفوقا وكفرتبنيت",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تواصل اقتحام قرية المغير شمال شرق رام الله، وسط حملة مداهمات للمنازل.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عضوان ديمقراطيان بارزان بالكونغرس الأميركي، &quot;غريغوري ميكس&quot; و&quot;جين شاهين&quot;، يجمّدان مؤقتًا صفقة أسلحة لـ&quot;إسرائيل&quot; بقيمة نحو 2.8 مليار دولار، بسبب مخاوف من استخدامها في مناطق مكتظة بالسكان في غزة ولبنان.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تشن حملة مداهمات واعتقالات واسعة خلال اقتحامها المستمر لقرية المغير شمال شرق رام الله",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "آثار التخريب الذي خلفه جيش الاحتلال عقب مداهمة أحد المنازل خلال اقتحام قرية المغير شمال شرق رام الله",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تعتقل الشابين أنس جواد عبد الرؤوف وهادي جهاد عبد الرؤوف، خلال اقتحام قرية عصيرة القبلية جنوب نابلس.",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     }
   ]
