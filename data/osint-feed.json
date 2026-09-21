@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-21T17:46:14.466Z",
+  "last_updated": "2026-09-21T21:38:31.568Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.51",
-    "global_norm_sentiment": "-0.18"
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.25"
   },
   "timeline": [
-    {
-      "time": "2026-09-13T22:49:27.611Z",
-      "danger": 0.581,
-      "sentiment": -0.18,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.605,
-          "sentiment": -0.467
-        },
-        "OSINTdefender": {
-          "danger": 0.545,
-          "sentiment": -0.067
-        },
-        "irna_1313": {
-          "danger": 0.324,
-          "sentiment": -0.1
-        },
-        "sepah_pasdaran": {
-          "danger": 0.453,
-          "sentiment": -0.3
-        },
-        "almanarnews": {
-          "danger": 0.641,
-          "sentiment": 0.1
-        },
-        "C_Military1": {
-          "danger": 0.718,
-          "sentiment": -0.067
-        },
-        "almayadeen": {
-          "danger": 0.696,
-          "sentiment": -0.367
-        },
-        "QudsN": {
-          "danger": 0.875,
-          "sentiment": -0.4
-        }
-      }
-    },
     {
       "time": "2026-09-14T00:39:31.296Z",
       "danger": 0.613,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.3
         }
       }
+    },
+    {
+      "time": "2026-09-21T21:38:31.568Z",
+      "danger": 0.531,
+      "sentiment": -0.25,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.472,
+          "sentiment": -0.733
+        },
+        "OSINTdefender": {
+          "danger": 0.55,
+          "sentiment": -0.3
+        },
+        "irna_1313": {
+          "danger": 0.296,
+          "sentiment": 0
+        },
+        "sepah_pasdaran": {
+          "danger": 0.465,
+          "sentiment": -0.433
+        },
+        "almanarnews": {
+          "danger": 0.381,
+          "sentiment": 0.133
+        },
+        "C_Military1": {
+          "danger": 0.775,
+          "sentiment": -0.233
+        },
+        "almayadeen": {
+          "danger": 0.514,
+          "sentiment": -0.333
+        },
+        "QudsN": {
+          "danger": 0.909,
+          "sentiment": -0.433
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.4265128707494458
+      "raw_sentiment": -0.7333333333333333,
+      "knn_danger_metric": 0.4722857597440868
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 12,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.47258306337803746
+      "num_messages": 15,
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.2958581918161908
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.39032370315503057
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.46450921054417693
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.2,
-      "knn_danger_metric": 0.4950857539959975
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.3808342574424467
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.7971013250670785
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.7746761109181788
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.7333333333333333,
-      "knn_danger_metric": 0.33069244161142614
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.5135644283126168
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.6419869065214338
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.9085517725137124
     }
   },
   "semantic_logs": [
@@ -2331,6 +2331,27 @@
       "channel": "IDF",
       "text": "״אני קורא לאכולוסייה החרדית ולהנהגה החרדית לעודד כל פעם קצת יותר לגיוס. יש לנו מסלולים יוצאים מן הכלל, השתחררו מהם אנשים לא פחות חרדים ואזרחים טובים יותר למדינה. זה טוב לכולם״  On May 23, 2023 at 02:38PM Read more via Twitter @idfonline @idfonline",
       "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "כוחותינו פשטו במהלך יום הכיפורים על הכפר בדו - הכפר ממנו יצא המחבל שביצע את פיגוע הירי הרצחני בנווה צוף בערב כיפור.  עשרות מתושבי הכפר נעצרו ונחקרו.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "רצועת עזה:  1. הרוג בתקיפת כטב&quot;מ ישראלי היום באזור א-סכה במרכז ח&#39;אן יונס בדרום הרצועה.  2. מוקדם יותר היום נצפה נגמ&quot;ש רובוטי (מופעל מרחוק) כשהוא מסתובב סמוך לעזתיים באזור א-סנאפור בשכונת תפאח בעיר עזה (בד&quot;כ נגמ&quot;שים כאלה מניחים מטענים לפיצוץ מרחוק-ללא מגע יד אדם) - מצורף תיעוד.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "أبرز المواقف السياسية التي أعلنها السيد الحوثي، وآخر التطورات العسكرية والميدانية، مع مراسلنا حمود محمد شرف https://almanar.com.lb/article/1196657/?s=tg",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2372,64 +2393,43 @@
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#اليمن   أبرز ما جاء في كلمة قائد أنصار الله السيد عبدالملك الحوثي بمناسبة الذكرى الـ12 لثورة 21 سبتمبر:  - في أي مرحلة تصعيد تواجه الشعب الفلسطيني سنكون معه وبأكبر مما كنا عليه في طوفان الأقصى.  - أدعو شعبنا للاستمرار في التعبئة والسعي لإصلاح مؤسسات الدولة والتصدي للحصار ومواجهة العدوان وبناء القدرات العسكرية والأمنية.  #الاعلام_الحربي",
-      "absolute_sentiment": 1,
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: السيد عبد الملك الحوثي: مهما كانت التحديات والمعاناة شعبنا متمسك بحقوقه المشروعة كما بقضايا الأمة وفي مقدمتها القضية الفلسطينية",
-      "absolute_sentiment": 0,
+      "text": "فلسطين المحتلة: مراسل الميادين: غارة جوية إسرائيلية شرقي مدينة غزة",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: شهيدة برصاص قوات الاحتلال في حي التفاح شمال شرقي مدينة غزة",
+      "text": "فلسطين المحتلة: مراسل الميادين: غارة ثانية من طائرات الاحتلال على حي التفاح شمال شرقي مدينة غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: إصابة امرأة برصاص قوات الاحتلال الإسرائيلي قرب دوار أبو شرخ في جباليا شمالي قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "اليمن: وزارة الصحة في صنعاء: استشهاد وإصابة 5 مدنيين من أسرة واحدة بينهم 3 أطفال بغارات سعودية على الباطن بمديرية الحزم في الجوف",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مستشفى ثانٍ في غزة يقلّص خدماته بسبب نقص الوقود  https://qudsn.co/share/217695",
+      "text": "جانب من اقتحام قوات الاحتلال بلدة تقوع جنوب شرق مدينة بيت لحم.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "توغل روبوت مفخخ للاحتلال نحو مفترق &quot;السنافور&quot; شرق حي التفاح، شرق غزة.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "حصار متواصل لـ &quot;الرأس الأحمر&quot; بالأغوار الشمالية..   الاحتلال يعزل 47 عائلة ويضيّق عليها؛ بهدف التهجير.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "في يومين.. جيش الاحتلال يحقق ميدانيا مع أكثر من 100 فلسطيني   https://qudsn.co/share/217696",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🔸۹۱۷ حمله هوایی و موشکی عربستان به مناطق مختلف یمن  🔹سخنگوی نیروهای مسلح یمن در بیانیه‌ای از ۹۱۷ حمله هوایی و موشکی عربستان به مناطق مختلف این کشور خبر داد. #ایرنا_جهان   https://irna.ir/xjYj5q  @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9979808549976118
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 مقدمة نشرة الأخبار الرئيسية لقناة المنار الاثنين 21-09-2026  كتابة: علي حايك تقديم: بتول ايوب نعيم  لا شيء ينافسُ الحرائقَ والتفجيراتِ التي ينفذها الاحتلالُ الصهيونيُّ في جنوبِ لبنانِ، إلا حرائقُ الأسعارِ التي تلتهمُ الأسواقَ بكلِّ تشعباتِها على عمومِ الاراضيِ…",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9507556385021099
     }
   ]
 }
