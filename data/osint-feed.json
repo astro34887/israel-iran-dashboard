@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-21T05:50:09.153Z",
+  "last_updated": "2026-09-21T11:51:21.317Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.24"
+    "global_knn_danger": "0.56",
+    "global_norm_sentiment": "-0.23"
   },
   "timeline": [
-    {
-      "time": "2026-09-13T17:12:21.302Z",
-      "danger": 0.59,
-      "sentiment": -0.24,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.515,
-          "sentiment": -0.5
-        },
-        "OSINTdefender": {
-          "danger": 0.545,
-          "sentiment": -0.067
-        },
-        "irna_1313": {
-          "danger": 0.689,
-          "sentiment": -0.6
-        },
-        "sepah_pasdaran": {
-          "danger": 0.519,
-          "sentiment": -0.367
-        },
-        "almanarnews": {
-          "danger": 0.404,
-          "sentiment": 0.167
-        },
-        "C_Military1": {
-          "danger": 0.711,
-          "sentiment": 0.033
-        },
-        "almayadeen": {
-          "danger": 0.808,
-          "sentiment": -0.667
-        },
-        "QudsN": {
-          "danger": 0.759,
-          "sentiment": -0.267
-        }
-      }
-    },
     {
       "time": "2026-09-13T20:13:23.232Z",
       "danger": 0.532,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.1
         }
       }
+    },
+    {
+      "time": "2026-09-21T11:51:21.317Z",
+      "danger": 0.556,
+      "sentiment": -0.233,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.467,
+          "sentiment": -0.5
+        },
+        "OSINTdefender": {
+          "danger": 0.522,
+          "sentiment": -0.467
+        },
+        "irna_1313": {
+          "danger": 0.463,
+          "sentiment": -0.1
+        },
+        "sepah_pasdaran": {
+          "danger": 0.346,
+          "sentiment": -0.533
+        },
+        "almanarnews": {
+          "danger": 0.498,
+          "sentiment": -0.233
+        },
+        "C_Military1": {
+          "danger": 0.804,
+          "sentiment": -0.1
+        },
+        "almayadeen": {
+          "danger": 0.737,
+          "sentiment": -0.6
+        },
+        "QudsN": {
+          "danger": 0.775,
+          "sentiment": 0.333
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2285,44 +2285,44 @@
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.6347407125126586
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.5218185833970632
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.368722801438916
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.4630059676483261
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.42346464547777907
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.3458870881034384
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.5150250815981899
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.4981575993481385
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.6201621463606021
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.8043206709692219
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.9333333333333333,
-      "knn_danger_metric": 0.5441685795546766
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.7369297329759253
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.7003610908075751
+      "num_messages": 9,
+      "raw_sentiment": 0.3333333333333333,
+      "knn_danger_metric": 0.7753144008237131
     }
   },
   "semantic_logs": [
@@ -2348,9 +2348,9 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#اليمن   خطاب هام لرئيس المجلس السياسي الأعلى في اليمن مهدي المشاط بمناسبة العيد الثاني عشر لثورة 21 من سبتمبر المجيدة في تمام الساعة الثامنة مساءً.  #الاعلام_الحربي",
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸ساعت کاری جدید ادارات از اول مهر تا آخر سال اعلام شد: فعالیت از ۸ تا ۱۳  🔹 رئیس سازمان اداری و استخدامی کشور با صدور بخشنامه‌ای، ساعات کاری دستگاه‌های اجرایی را از اول مهرماه تا پایان سال جاری، از ساعت ۸ تا ۱۳ تعیین کرد.  🔹این بخشنامه با استناد به مصوبه ۲۰…",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
@@ -2362,73 +2362,73 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: وكالة &quot;سبأ&quot; في صنعاء: غارتان سعوديتان على مجمع مديرية المتون بمحافظة الجوف شمال شرق البلاد",
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   المتحدث باسم حرس الثورة الإسلامية:  الحرس الثورة الإسلامية، لا الآن ولا في أي وقت آخر، لم تكن له أي علاقة رسمية أو غير رسمية مع الولايات المتحدة، وهو أصلًا لا يدخل في مجال الدبلوماسية.  - الحرس هو الذراع الدفاعية والعسكرية لإيران والإسلام، وهو مجهز بالكامل وذو خبرة ومستعد تمامًا لأداء مهمته، للقتال ضد أي عدو، في أي مكان وبأي طريقة، لكنه لا يدخل في مجال الدبلوماسية.  - إذا وقع هجوم جديد، فستطرأ بالتأكيد تغييرات ملحوظة على دفاعنا وهجومنا المضاد. وتتمثل تلك التغييرات في تغيير جغرافيا الحرب، وتغيير الأسلحة والمعدات الحربية؛ وسندخل أسلحة جديدة بقدرات جديدة إلى المعركة، وسيندهش العالم.  - كما أن أهدافنا لم تعد بالضرورة هي الأهداف السابقة. لدينا أهداف جديدة لم تتعرض للهجوم بعد.  #الإعلام_الحرب��",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#اليمن   كلمة لقائد أنصار الله السيد عبدالملك بدرالدين الحوثي بمناسبة الذكرى الـ12 لثورة 21 سبتمبر عند الرابعة عصر اليوم.  #الاعلام_الحربي",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: وزارة الصحة في صنعاء: استشهاد وإصابة 7 مواطنين بغارات جوية سعودية على مديرية خب الشعف بمحافظة الجوف",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: قصف مدفعي وإطلاق نار مكثف من الدبابات الإسرائيلية في منطقة الشاكوش شمالي مدينة رفح جنوبي القطاع",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: وكالة سبأ في صنعاء: العدوان السعودي يقصف بعشرات الصواريخ عدداً من المديريات الحدودية الآهلة بالسكان في محافظة صعدة شمال البلاد",
+      "text": "بيان مشترك من &quot;CNN&quot; و&quot;MS NOW&quot; و&quot;POLITICO&quot; رداً على الرئيس ترامب",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "سوريا: وكالة سانا: انفجار في أحد مواقع الجيش العربي السوري بمحيط بلدة العيس جنوب حلب",
+      "text": "البيان: أبلغنا الحكومة هذا الصباح بأننا سنرفع دعوى قضائية اليوم لحماية حقوقنا المكفولة بموجب التعديل الأول للدستور",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تشن حملة مداهمات واعتقالات خلال اقتحامها المستمر  لبلدة &quot;بدّو&quot; شمال غرب القدس.",
+      "text": "بيان مشترك من &quot;CNN&quot; و&quot;MS NOW&quot; و&quot;POLITICO&quot;: بشكل مفاجئ ودون سابق إنذار سحب البيت الأبيض تراخيص صحافيينا لاعتراضه على تقاريرنا",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مدرعات الاحتلال تقتحم مدينة سلفيت",
-      "absolute_sentiment": 0.5,
+      "text": "لبنان: مراسل الميادين في الجنوب: غارتان من الطيران الحربي الإسرائيلي على بلدة دير سريان ووادي الحجير",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "عاجل| إطلاق نار من دبابات الاحتلال بالتزامن مع قصف مدفعي يستهدف مخيم البريج وسط قطاع غزة.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "ضرب وتنكيل وتخريب.. الاحتلال يقتحم منازل بدّو ويحتجز أكثر من 50 شابًا التفاصيل: https://qudsn.co/share/217681",
+      "text": "لبنان: مراسل الميادين في الجنوب: غارة استهدفت أطراف بلدة برعشيت",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اقتحام واسع ينفذه جيش الاحتلال في مدينة سلفيت",
-      "absolute_sentiment": 0.5,
+      "text": "لبنان: مراسل الميادين في الجنوب: قوات الاحتلال نفذت اليوم تفجيرين في بلدتي بليدا وعيترون",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: قوات الاحتلال نفذت تفجيرا في بلدة المنصوري",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "اليمن: مراسل الميادين: طائرات سعودية تشن 3 غارات على مديرية حَيْفان جنوبي شرق محافظة تعز جنوب غرب اليمن",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
   ]
