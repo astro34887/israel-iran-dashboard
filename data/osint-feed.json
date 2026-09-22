@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-22T10:52:44.375Z",
+  "last_updated": "2026-09-22T15:23:23.044Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.46",
-    "global_norm_sentiment": "-0.14"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.51",
+    "global_norm_sentiment": "-0.26"
   },
   "timeline": [
-    {
-      "time": "2026-09-14T17:33:17.905Z",
-      "danger": 0.533,
-      "sentiment": -0.32,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.522,
-          "sentiment": -0.5
-        },
-        "OSINTdefender": {
-          "danger": 0.488,
-          "sentiment": -0.467
-        },
-        "irna_1313": {
-          "danger": 0.258,
-          "sentiment": -0.167
-        },
-        "sepah_pasdaran": {
-          "danger": 0.596,
-          "sentiment": -0.367
-        },
-        "almanarnews": {
-          "danger": 0.503,
-          "sentiment": 0.167
-        },
-        "C_Military1": {
-          "danger": 0.769,
-          "sentiment": -0.4
-        },
-        "almayadeen": {
-          "danger": 0.609,
-          "sentiment": -0.633
-        },
-        "QudsN": {
-          "danger": 0.635,
-          "sentiment": -0.7
-        }
-      }
-    },
     {
       "time": "2026-09-14T21:22:37.771Z",
       "danger": 0.588,
@@ -2261,6 +2214,53 @@
           "sentiment": 0
         }
       }
+    },
+    {
+      "time": "2026-09-22T15:23:23.044Z",
+      "danger": 0.51,
+      "sentiment": -0.26,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.456,
+          "sentiment": -0.567
+        },
+        "OSINTdefender": {
+          "danger": 0.518,
+          "sentiment": -0.167
+        },
+        "irna_1313": {
+          "danger": 0.313,
+          "sentiment": -0.133
+        },
+        "sepah_pasdaran": {
+          "danger": 0.33,
+          "sentiment": -0.4
+        },
+        "almanarnews": {
+          "danger": 0.364,
+          "sentiment": -0.633
+        },
+        "C_Military1": {
+          "danger": 0.762,
+          "sentiment": 0.167
+        },
+        "almayadeen": {
+          "danger": 0.658,
+          "sentiment": -0.267
+        },
+        "QudsN": {
+          "danger": 0.744,
+          "sentiment": -0.467
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.5219051901912976
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.4562718945955004
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.38097111392949495
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.31275717872859266
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.4430715426756026
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.3301490953963404
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.2475374143475165
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.3644502221318066
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.7874893020127721
+      "raw_sentiment": 0.16666666666666666,
+      "knn_danger_metric": 0.7621085922787355
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.3112559349614598
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.657792157855675
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 5,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.48357765553645404
+      "num_messages": 15,
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.7440051304775769
     }
   },
   "semantic_logs": [
@@ -2336,36 +2336,8 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "התקיפה על צינור הנפט מזרח-מערב בסעודיה ממשיכה לשבש את יצוא הנפט מהממלכה - גם האירופאים נפגעים    העמסת הנפט בנמל ינבוע, אחד מנמלי היצוא המרכזיים של סעודיה בים האדום, הופסקה בעקבות השבתת הצינור.  במקביל, סעודיה הודיעה ללקוחות באירופה כי תבטל חלק ממשלוחי הנפט…",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "רויטרס: סעודיה פתחה מחדש את קו צינור הנפט מזרח-מערב לראשונה מאז שנפגע מתקיפות☝️.  אראמכו הסעודית נערכת לחידוש ייצוא הנפט דרך נמל ינבוע, לחופי הים האדום,  כבר היום.  ## קו צינור הנפט הסעודי מזרח  מערב, מסוגל להעביר כ 7 מיליון חביות מדי יום. זה מספר משמעותי, בקו עוקף הורמוז, שיכול לסייע בהורדת מחירי הנפט בעולם.  תגובה אחת",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "אמסטרדם: התור מחוץ לחנות פופ-אפ שמתמחה בחג&#39;אב.  תגובה אחת",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️ سخنگوی قوه‌قضائیه بقایای موشک آمریکاییِ اصابت‌کرده به مراسم عروسی در هرمزگان را به دوربین‌ها نشان داد &lrm;✅ @sepah_pasdaran",
+      "text": "🔥ל- 72 שעות בלבד: סלון פינתי עם רקליינר חשמלי ב־2,990 ₪  אירופלקס משיקה במכירה מוקדמת את ספת PIXEL החדשה, ספה פינתית נוחה ומפנקת עם שזלונג מרווח ורקליינר חשמלי.  ✅ מחיר מיוחד: 2,990 ₪ בלבד ✅ 30 יום ניסיון בבית ✅ בלעדי באתר ✅ מלאי מוגבל בהחלט  &rlm;בלעדי באתר בהזנת קוד קופון: PIXELABU  המכירה המוקדמת פתוחה ל־72 שעות בלבד או עד גמר המלאי.  &rlm;לרכישה מהירה &gt;&gt; https://l5k.me/3kwl0_#phnx  &rlm;בתוקף עד יום שישי (25.9.26) ב-16:00 או עד גמר המלאי | מינימום 20 יח&#39; במלאי | עלות הובלה והרכבה 390 ₪ או באיסוף עצמי בתיאום מראש | לרכישה באתר בלבד בהזנת קוד קופון PIXELABU | בכפוף לתקנון",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#اليمن   أبرز ما جاء في كلمة قائد أنصار الله السيد عبدالملك الحوثي بمناسبة الذكرى الـ12 لثورة 21 سبتمبر:  - في أي مرحلة تصعيد تواجه الشعب الفلسطيني سنكون معه وبأكبر مما كنا عليه في طوفان الأقصى.  - أدعو شعبنا للاستمرار في التعبئة والسعي لإصلاح مؤسسات الدولة والتصدي للحصار ومواجهة العدوان وبناء القدرات العسكرية والأمنية.  #الاعلام_الحربي",
-      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2378,29 +2350,78 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: إصابة بنيران الاحتلال جنوبي مدينة خان يونس",
+      "text": "إيران: قاليباف: ليعلم أعداؤنا أننا لن نبقى منتظرين ولن نستسلم أو نعطل البلاد وسنبقى صامدين حتى انتهاء التهديد",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "المملكة المتحدة: كوربين: قرار بريطانيا بمساعدة السعودية يثبت أنه لم يتم استخلاص أي دروس على الإطلاق",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: مدفعية الاحتلال الإسرائيلي تستهدف بلدة كفرتبنيت",
+      "text": "إيران: قاليباف: سنعمل حتما على رفع العقوبات بكل قوة وبلدنا يمتلك قوة ردع مستدامة",
       "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: شهيدان و 3 إصابات في الغارة الإسرائيلية التي استهدفت مجموعة مواطنين في محيط مدرسة مسقط بحي التفاح",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: قاليباف: ليعلم الرئيس الأميركي أنه يواجه شعباً مستقلاً وحضارة عريقة",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "الأردن: ملك الأردن: حذرت من مغبة ترك الصراع في فلسطين من دون حل وانتهاكات &quot;إسرائيل&quot; تعامل كأنها مؤقتة في ظل تغيير الوضع على الأرض",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "الأردن: ملك الأردن: الحكومة الإسرائيلية لا تطبق خطة ترامب وتحاول محو الوجود الفلسطيني وفرض واقع جديد في غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "الأردن: ملك الأردن: المستوطنات والعنف والنزوح عوامل تفرض تغييرا جذريا في الضفة الغربية وهي سياسة إسرائيلية يجب أن يواجهها العالم",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "وقفة أمام مقر الصليب الأحمر في نابلس، دعما لصمود الأسرى في سجون الاحتلال.",
-      "absolute_sentiment": 0.5,
+      "text": "قوات الاحتلال تعتقل المريض &quot;خالد حماد&quot; أثناء مروره عبر حاجز قلنديا، أثناء توجهه لتلقي جلسات العلاج الكيماوي لمرض السرطان في المستشفى.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "الاحتلال يحرق منازل في بلدة &quot;زوطر الشرقية&quot; جنوب لبنان، ومسيراته تراقب الأهالي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "الرابع منذ الصباح.. الاحتلال يصدر  أمرًا عسكريًا جديدًا يستهدف إزالة النباتات البرية واقتلاع الأشجار من نحو 99.79 دونمًا من أراضي قرية دير نظام  برام الله",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "تحذير إسرائيلي: أزمات داخلية تهدد مستقبل دولة الاحتلال  التفاصيل:   https://qudsn.co/share/217710",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2409,27 +2430,6 @@
       "text": "#إعلام_العدو   القناة 12 العبرية: في ظل التقارير التي تتحدث عن محاولات استئناف المفاوضات بين الولايات المتحدة وإيران، والتهديدات المتبادلة بين الرئيس ترامب وحرس الثورة، تستعد &quot;إسرائيل&quot; أيضاً لاحتمال تصعيد الموقف مع إيران. وتصف المؤسسة العسكرية هذه المرحلة من الأحداث بين واشنطن وطهران بأنها نقطة توتر بالغة.  #الإعلام_الحربي",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 0.9979853054910217
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 12 العبرية عن مصدر أمني إسرائيلي: &quot;الوضع حساس ومتقلب. لا نعرف إلى أين سيتطور. لا يبدو أن الإيرانيين مستعدون للتنازل، قد تخرج الأمور عن السيطرة&quot;.  #الإعلام_الحربي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.996238247963218
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 13 العبرية: من المتوقع أن يعقد رئيس الوزراء اليوم تقييمًا متعدد الساحات، عشية مغادرته للمشاركة في الجمعية العامة للأمم المتحدة. في الوقت الحالي، لا يُتوقع أن يعقد لقاءً مع الرئيس ترامب على هامش الجمعية العامة.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9957890513813449
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   إذاعة جيش العدو الإسرائيلي: في &quot;إسرائيل&quot; يتابعون تعاظم سلاح البحرية التركي في مجال الغواصات خلال السنوات الأخيرة، وهي عملية تعاظم واسعة تشمل زيادة كبيرة في أسطول الغواصات بواسطة غواصات جديدة ومتطورة من إنتاج ألمانيا - على غرار الغواصات التي تُنتج لـ&quot;إسرائيل&quot;.   وللمقارنة - تمتلك تركيا حاليًا 14 غواصة عاملة (ومن المتوقع أن تزيدها إلى 18 غواصة في السنوات المقبلة)، مقابل 5 غواصات إسرائيلية - من المتوقع أن تزيد قريبًا إلى 6 (من المتوقع أن تصل الغواصة السادسة إلى إسرائيل خلال الأيام القريبة جدًا).  #الإعلام_الحربي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.864917245493395
     }
   ]
 }
