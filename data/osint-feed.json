@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-21T21:38:31.568Z",
+  "last_updated": "2026-09-22T00:32:56.748Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.53",
-    "global_norm_sentiment": "-0.25"
+    "global_knn_danger": "0.54",
+    "global_norm_sentiment": "-0.28"
   },
   "timeline": [
-    {
-      "time": "2026-09-14T00:39:31.296Z",
-      "danger": 0.613,
-      "sentiment": -0.238,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.605,
-          "sentiment": -0.533
-        },
-        "OSINTdefender": {
-          "danger": 0.545,
-          "sentiment": -0.067
-        },
-        "irna_1313": {
-          "danger": 0.51,
-          "sentiment": -0.367
-        },
-        "sepah_pasdaran": {
-          "danger": 0.537,
-          "sentiment": -0.467
-        },
-        "almanarnews": {
-          "danger": 0.6,
-          "sentiment": -0.033
-        },
-        "C_Military1": {
-          "danger": 0.718,
-          "sentiment": -0.067
-        },
-        "almayadeen": {
-          "danger": 0.729,
-          "sentiment": -0.333
-        },
-        "QudsN": {
-          "danger": 0.932,
-          "sentiment": -0.346
-        }
-      }
-    },
     {
       "time": "2026-09-14T05:42:52.198Z",
       "danger": 0.568,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.433
         }
       }
+    },
+    {
+      "time": "2026-09-22T00:32:56.748Z",
+      "danger": 0.544,
+      "sentiment": -0.277,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.472,
+          "sentiment": -0.733
+        },
+        "OSINTdefender": {
+          "danger": 0.55,
+          "sentiment": -0.3
+        },
+        "irna_1313": {
+          "danger": 0.483,
+          "sentiment": 0.033
+        },
+        "sepah_pasdaran": {
+          "danger": 0.479,
+          "sentiment": -0.571
+        },
+        "almanarnews": {
+          "danger": 0.367,
+          "sentiment": -0.233
+        },
+        "C_Military1": {
+          "danger": 0.775,
+          "sentiment": -0.2
+        },
+        "almayadeen": {
+          "danger": 0.517,
+          "sentiment": -0.367
+        },
+        "QudsN": {
+          "danger": 0.842,
+          "sentiment": -0.267
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.2958581918161908
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.4834286424569069
     },
     "sepah_pasdaran": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.46450921054417693
+      "num_messages": 14,
+      "raw_sentiment": -0.5714285714285714,
+      "knn_danger_metric": 0.47866193029467624
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.3808342574424467
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.3669834301627376
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
+      "raw_sentiment": -0.2,
       "knn_danger_metric": 0.7746761109181788
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.5135644283126168
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.5172548601455201
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.9085517725137124
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.8422014295002401
     }
   },
   "semantic_logs": [
@@ -2345,6 +2345,13 @@
       "channel": "Israel_OSINT",
       "text": "רצועת עזה:  1. הרוג בתקיפת כטב&quot;מ ישראלי היום באזור א-סכה במרכז ח&#39;אן יונס בדרום הרצועה.  2. מוקדם יותר היום נצפה נגמ&quot;ש רובוטי (מופעל מרחוק) כשהוא מסתובב סמוך לעזתיים באזור א-סנאפור בשכונת תפאח בעיר עזה (בד&quot;כ נגמ&quot;שים כאלה מניחים מטענים לפיצוץ מרחוק-ללא מגע יד אדם) - מצורף תיעוד.  תגובה אחת",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "یازدهم رمضان یعنی فردای اعلام خبر شهادت رهبر معظم انقلاب بود که مرحوم آیت‌الله‌العظمی شبیری زنجانی، شهادت تأثرانگیز حضرت آقا اعلی‌الله‌مقامهم را اینگونه تسلیت گفتند:  بسم الله الرحمن الرحیم إِنّا لِلّهِ وَإِنّا إِلَیهِ راجِعُونَ  با تأثر عمیق، شهادت رهبری…",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2393,21 +2400,7 @@
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#اليمن   أبرز ما جاء في كلمة قائد أنصار الله السيد عبدالملك الحوثي بمناسبة الذكرى الـ12 لثورة 21 سبتمبر:  - في أي مرحلة تصعيد تواجه الشعب الفلسطيني سنكون معه وبأكبر مما كنا عليه في طوفان الأقصى.  - أدعو شعبنا للاستمرار في التعبئة والسعي لإصلاح مؤسسات الدولة والتصدي للحصار ومواجهة العدوان وبناء القدرات العسكرية والأمنية.  #الاعلام_الحربي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: غارة جوية إسرائيلية شرقي مدينة غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: غارة ثانية من طائرات الاحتلال على حي التفاح شمال شرقي مدينة غزة",
-      "absolute_sentiment": -1,
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2425,10 +2418,17 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "اليمن: وكالة &quot;سبأ&quot;: استشهاد 6 مواطنين بينهم طفلان وامرأة إثر غارات جوية سعودية على مديرية المخا على البحر الأحمر غرب محافظة تعز",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال بلدة تقوع جنوب شرق مدينة بيت لحم.",
-      "absolute_sentiment": 0.5,
+      "text": "غارة عنيفة شنتها طائرات الاحتلال شرقي حي التفاح، شرق مدينة غزة.",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
   ]
