@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-23T18:12:20.815Z",
+  "last_updated": "2026-09-23T21:59:51.058Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.15"
+    "global_norm_sentiment": "-0.25"
   },
   "timeline": [
-    {
-      "time": "2026-09-15T22:40:49.523Z",
-      "danger": 0.562,
-      "sentiment": -0.345,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.788,
-          "sentiment": -0.7
-        },
-        "OSINTdefender": {
-          "danger": 0.664,
-          "sentiment": 0.367
-        },
-        "irna_1313": {
-          "danger": 0.432,
-          "sentiment": -0.7
-        },
-        "sepah_pasdaran": {
-          "danger": 0.533,
-          "sentiment": -0.667
-        },
-        "almanarnews": {
-          "danger": 0.365,
-          "sentiment": -0.1
-        },
-        "C_Military1": {
-          "danger": 0.559,
-          "sentiment": -0.654
-        },
-        "almayadeen": {
-          "danger": 0.488,
-          "sentiment": -0.5
-        },
-        "QudsN": {
-          "danger": 0.84,
-          "sentiment": -0.367
-        }
-      }
-    },
     {
       "time": "2026-09-16T01:01:05.928Z",
       "danger": 0.546,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.433
         }
       }
+    },
+    {
+      "time": "2026-09-23T21:59:51.058Z",
+      "danger": 0.542,
+      "sentiment": -0.247,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.43,
+          "sentiment": -0.433
+        },
+        "OSINTdefender": {
+          "danger": 0.559,
+          "sentiment": -0.1
+        },
+        "irna_1313": {
+          "danger": 0.473,
+          "sentiment": -0.267
+        },
+        "sepah_pasdaran": {
+          "danger": 0.379,
+          "sentiment": -0.467
+        },
+        "almanarnews": {
+          "danger": 0.532,
+          "sentiment": 0.1
+        },
+        "C_Military1": {
+          "danger": 0.7,
+          "sentiment": -0.6
+        },
+        "almayadeen": {
+          "danger": 0.602,
+          "sentiment": -0.4
+        },
+        "QudsN": {
+          "danger": 0.795,
+          "sentiment": -0.133
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.6149587015688456
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.43037271159268536
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.5637897853083568
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.5587285823270584
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.30018494176921096
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.47267999345285244
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.32123872286627386
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.3785824070883857
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.6195171177310924
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.5320825927109616
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.7506807683831886
+      "knn_danger_metric": 0.7001245035333963
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.6624006708717598
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.6022920465435695
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.665511904194631
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.7952582256351578
     }
   },
   "semantic_logs": [
@@ -2334,38 +2334,31 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "ע&quot;פ מד&quot;א יש פצוע קשה מחוסר הכרה כבן 40. המחבל נוטרל.  תגובה אחת",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️&rlm;  قیمت جهانی نفت برنت با افزایش ۳٪ درصدی نسبت به روز گذشته به ۱۰۳ دلار رسید &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; افتتاح اولین پایگاه آموزش نظامی یگان های مردمی جانفدا با شلیک فرمانده بسیج &lrm;✅ ️ @sepah_pasdaran",
-      "absolute_sentiment": 1,
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "الجهاد الإسلامي تنعى الشهيد محمد سليمان وتبارك عملية الدهس غرب رام الله https://almanar.com.lb/article/1202097/?s=tg",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "📹 الخبير في الشؤون الإيرانية الدكتور محمد شمص يلخّص المشهد ويقرأ دلالات اللقاء الأميركي الإيراني في نيويورك. https://almanar.com.lb/article/1201977/?s=tg",
-      "absolute_sentiment": 1,
+      "text": "🔵 القائم بأعمال رئيس الوزراء اليمني العلامة محمد مفتاح للمسيرة:  - خضوع السلطات السابقة في اليمن للهيمنة والتبعية للخارج لم يسمح بنهضة علمية واقتصادية ولا باستقرار سياسي - مشكلة اليمن كانت في قبول النظام السابق بالخضوع للتبعية والوصاية الخارجية - لو اتجه النظام السابق لانتزاع السيادة فإن الشعب اليمني كان سيقف معه - قوى الهيمنة استهدفت اليمن لأنها كانت ترى أنه يملك عوامل النهضة والتأثير - ما حصل في العقود الماضية من السلطة كان عبثا دون تحقيق النهضة التي كان ينشدها اليمنيون - ثورة 21 سبتمبر كانت ضرورة لإيقاف العبث بحاضر اليمن ومستقبله - السعودية وضعت نفسها عدواً لكل تطلعات شعوب المنطقة وفي المقدمة الشعب اليمني",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "📹 أنيميشن يجسّد خطاب الرئيس الإيراني مسعود بزشكيان أمام الأمم المتحدة، مستذكراً أرواح شهداء مدرسة ميناب. https://almanar.com.lb/article/1201997/?s=tg",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "وزارة الاتصالات تدعو مشتركي شبكات الإنترنت غير المرخّصة إلى الانتقال لمزوّد مرخّص تفاديًا لانقطاع الخدمة https://almanar.com.lb/article/1202057/?s=tg",
-      "absolute_sentiment": 0,
+      "text": "🔵 اللواء ابراهيم: الجنوب اليوم هو مسؤولية الدولة اللبنانية ولا يجب ان يكون هناك دولة تنظر بتمييز لأي مواطن https://almanar.com.lb/article/1202432/?s=tg",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2385,50 +2378,57 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: طائب: جرى تنظيم فدائيي البلاد الذين أعلنوا استعدادهم للتعاون في المجال الدفاعي ضمن كتائب",
+      "text": "فلسطين المحتلة: مراسل الميادين في قطاع غزة: إطلاق نار مكثف من دبابات الاحتلال شمال شرقي مخيم البريج وسط القطاع",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: الهلال الأحمر الفلسطيني: إصابة طفل برصاص قوات الاحتلال خلال اقتحامها مدينة قلقيلية في الضفة الغربية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: اللواء عبد اللهي: القوات المسلحة الإيرانية بصوت واحد متّحدة في موقفها مع الشعب ورئيس الجمهورية",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: طائب: لدينا أكثر من 30 مليون فدائي وهذا الشعب منتصر في جميع المجالات",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسلة الميادين: قوات الاحتلال تقتحم بلدة بيت عور التحتا غرب رام الله و محيط منزل الشهيد محمود محمد سليمان منفذ عملية الدهس",
+      "text": "إيران: اللواء عبد اللهي: الثأر لدم إمامنا الشهيد وأطفال ميناب سيستمر",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: الهيئة الوطنية لحقوق الإنسان في صنعاء: ندين التصعيد الإجرامي للعدو السعودي مستهدفا المدنيين والمنازل والمدارس والمزارع",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: مقر القدس التابع للقوات البرية في حرس الثورة: استشهاد قائد مقر الشهيد سجاد سراوان العملياتي العميد حسين ظريفي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: مقر القدس: العميد حسين ظريفي استشهد خلال عملية التصدي للإرهابيين المرتزقة التابعين للعدو على خط المواجهة الأمامي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسلة الميادين: المستوطنون يشعلون النيران على أطراف منازل قرية برقة شرق رام الله في الضفة الغربية المحتلة",
+      "text": "اليمن: مراسل الميادين: غارة جوية سعودية على مديرية مقبنة في محافظة تعز جنوب غرب اليمن",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام قوات الاحتلال المستمر لمدينة قلقيلية.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "برفقة جرافة عسكرية.. قوات الاحتلال تدفع بتعزيزات عسكرية باتجاه مدينة قلقيلية.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام قوات الاحتلال المتواصل لقرية بيت امرين، شمال غرب نابلس.",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
   ]
