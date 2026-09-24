@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-24T11:01:12.577Z",
+  "last_updated": "2026-09-24T16:24:06.873Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.51",
-    "global_norm_sentiment": "-0.28"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.49",
+    "global_norm_sentiment": "-0.16"
   },
   "timeline": [
-    {
-      "time": "2026-09-16T17:55:33.112Z",
-      "danger": 0.526,
-      "sentiment": -0.069,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.609,
-          "sentiment": -0.267
-        },
-        "OSINTdefender": {
-          "danger": 0.583,
-          "sentiment": 0.367
-        },
-        "irna_1313": {
-          "danger": 0.568,
-          "sentiment": 0.1
-        },
-        "sepah_pasdaran": {
-          "danger": 0.441,
-          "sentiment": -0.3
-        },
-        "almanarnews": {
-          "danger": 0.47,
-          "sentiment": 0
-        },
-        "C_Military1": {
-          "danger": 0.624,
-          "sentiment": 0.143
-        },
-        "almayadeen": {
-          "danger": 0.497,
-          "sentiment": -0.367
-        },
-        "QudsN": {
-          "danger": 0.522,
-          "sentiment": -0.2
-        }
-      }
-    },
     {
       "time": "2026-09-16T20:49:43.198Z",
       "danger": 0.556,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.3
         }
       }
+    },
+    {
+      "time": "2026-09-24T16:24:06.873Z",
+      "danger": 0.493,
+      "sentiment": -0.155,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.511,
+          "sentiment": -0.633
+        },
+        "OSINTdefender": {
+          "danger": 0.584,
+          "sentiment": -0.2
+        },
+        "irna_1313": {
+          "danger": 0.333,
+          "sentiment": 0.45
+        },
+        "sepah_pasdaran": {
+          "danger": 0.378,
+          "sentiment": -0.036
+        },
+        "almanarnews": {
+          "danger": 0.505,
+          "sentiment": 0
+        },
+        "C_Military1": {
+          "danger": 0.729,
+          "sentiment": 0.067
+        },
+        "almayadeen": {
+          "danger": 0.504,
+          "sentiment": -0.533
+        },
+        "QudsN": {
+          "danger": 0.439,
+          "sentiment": -0.5
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.47214352431182693
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.5110600573192713
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.4392142115016645
+      "num_messages": 10,
+      "raw_sentiment": 0.45,
+      "knn_danger_metric": 0.332567268226727
     },
     "sepah_pasdaran": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.3418485812670591
+      "num_messages": 14,
+      "raw_sentiment": -0.03571428571428571,
+      "knn_danger_metric": 0.37797773940790164
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.4376009318194337
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.5045524356447265
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.7312676563550646
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.7286973688934913
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.5892752216145046
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.5043559407603705
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 10,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.5657137922620336
+      "num_messages": 13,
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.43934372485045997
     }
   },
   "semantic_logs": [
@@ -2334,30 +2334,16 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️&rlm; ویدیوی انصار‌الله از اصابت دقیق به چند خودروی زرهیِ عربستان، با استفاده از موشک ضد زره‌یِ ایرانیِ دهلاویه. &lrm;✅ @sepah_pasdaran",
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 قائد الحرس الثوري: &quot;لا نخشى الحرب&quot; نداءٌ مدوٍّ وحازم وصل صداه إلى مسامع العالم https://almanar.com.lb/article/1204337/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "🔵 &quot;حركة النجباء&quot; العراقية: قرار عدم استقبال طائرات الخطوط الجوية الايرانية سابقة خطيرة وانبطاح أمام قرارات المحتل الأمريكي https://almanar.com.lb/article/1203472/?s=tg",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   المتحدث باسم الخارجية الإيرانية إسماعيل بقائي:   - جرت أمس جولة تبادل رسائل وتوضيحها مع الولايات المتحدة عبر الوسيط القطري  - تبادل الرسائل استغرق ساعتين تم فيهما نقل شروطنا لإحياء التفاوض إلى الأميركيين  - جولة أمس لتبادل الرسائل جاءت في إطار المحادثات التي كانت تتم عبر الوسيط القطري بين إيران وأميركا في نيويورك  - شروطنا تتضمن وقف إجراءات أميركا العدوانية وحصارها وإنهاء الحرب على كل الجبهات.  - شروطنا تشمل تحرير أصولنا المجمدة وقبول مسار الملاحة بهرمز وفق اتفاقنا مع عمان  #الاعلام_الحربي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 52 غارةً جويةً وصاروخاً من خلال طائرات &quot;F15&quot; و &quot;تايفون&quot; أقلعت من قاعدتي خميس مشيط والطائف والعدوان الصاروخي انطلق من جيزان، استهدفت محافظات الحديدة وتعز والبيضاء ومأرب وصعدة وخلفت شهداء وجرحى بينهم نساء وأطفال ودماراً في المنشآت المدنية من شبكات اتصالات ومدارس وجسور وطرقات وغيرها.  ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا العزيز 988 غارةً وصاروخاً.  http://t.me/army21ye",
+      "text": "🔵 اعلام عبري: مقتل جنديين إسرائيليين عن طريق الخطأ في قطاع غزة https://almanar.com.lb/article/1204497/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2369,51 +2355,51 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "بيان مهم للقوا�� المسلحة اليمنية في تمام الساعة 5:50مساءً، بعد قليل.  http://t.me/army21ye",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: العميد فدوي: حرس الثورة لم يضيع حتى ساعة واحدة ودأب دائماً على زيادة طاقته وقدرته وسوف يستمر هذا المسار",
+      "text": "اليمن: القوات المسلحة: مستمرون في تأدية مهامنا بكل قوة وحزم بالرد على مصادر التهديد والرد على أي اعتداء واستهداف كل التحركات المعادية أينما كانت",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "أسعار خام برنت تصعد 4 دولارات للبرميل بعد إعلان القوات المسلحة اليمنية استهداف مواقع عسكرية سعودية في جيزان",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: شهيد وجرحى جرّاء استهداف طائرات الاحتلال مركبة في محيط المستشفى الأمريكي غربي بلدة الزوايدة وسط قطاع غزة",
-      "absolute_sentiment": -1,
+      "text": "لبنان: مراسل الميادين في الجنوب: قصف مدفعي إسرائيلي يستهدف بلدتي الخيام وميفدون",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
+      "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: مصاب جراء غارة من مسيرة إسرائيلية قرب مدرسة حيفا وسط مدينة خان يونس جنوبي قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: همتي: دول مختلفة أعادت فرض بعض القيود على أنشطة بنوك لا تجري منذ سنوات أي عمليات مصرفية مرتبطة بإيران إرضاء لأميركا",
+      "text": "مصدر في الإسعاف والطوارئ: شهيد و14 مصابا بغارة إسرائيلية استهدفت مركبة بحي الشيخ عجلين في مدينة غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال مدعومة بجرافة عسكرية تعاود اقتحام مدينة قلقيلية.",
+      "text": "منصة &quot;حدشوت بزمان&quot; العبرية: هبوط مروحية إجلاء طبية عسكرية في مستشفى &quot;برزيلاي&quot; بعسقلان قادمة من قطاع غزة.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "شهيد بقصف الاحتلال مركبة في الزوايدة وسط قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصابون في غارة من الاحتلال وسط مدينة خان يونس جنوب قطاع غزة",
+      "text": "منصات للمستوطنين: مقتل جنديين من جيش الاحتلال بانفجار مسيرة مفخخة بالخطأ في عدد من الجنود قرب حدود غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2425,11 +2411,25 @@
       "semantic_danger_knn": 0.9981676667530289
     },
     {
-      "channelId": "OSINTdefender",
-      "channel": "Global_OSINT",
-      "text": "#NK  North Korea has tested the Hwasongpho-11Ma-1, a solid-fueled short-range ballistic missile featuring a maneuverable hypersonic glide vehicle, which enhances its ability to evade missile defenses.   Subscribe to @OSINTdefender | 💬 Chat room",
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "🔸عصر امروز؛ همخوانی قطعه مورد تحسین رهبر شهید انقلاب توسط حاج صادق آهنگران در جوار مزار نورانی «آقای شهید ایران». ۱۴۰۵/۰۷/۰۲ @IRNA_1313",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9568396221900914
+      "semantic_danger_knn": 0.9973547420446702
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   وزير الخارجية الإيراني عباس عراقجي خلال لقائه نظيره الباكستاني:  - انتهاك الولايات المتحدة لمذكرة تفاهم إسلام آباد صعّد التوتر وانعدام الأمن في المنطقة وأمريكا مسؤولة عن استمرار تداعيات هذا الوضع.  - كما أكد وزير الخارجية الباكستاني اهتمام بلاده الخاص بالمساعدة في إرساء السلام والاستقرار في المنطقة.  #الإعلام_الحربي",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9970265829475246
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 12 العبرية: بسبب المتطلبات الأمنية، هبطت طائرة «جناح صهيون»، التي تقلّ نتنياهو، في مطار عسكري وبعيد في الولايات المتحدة الأمريكية.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9957890513813449
     }
   ]
 }
