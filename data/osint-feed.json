@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-24T20:14:49.414Z",
+  "last_updated": "2026-09-24T23:44:11.072Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.50",
-    "global_norm_sentiment": "-0.21"
+    "global_knn_danger": "0.55",
+    "global_norm_sentiment": "-0.17"
   },
   "timeline": [
-    {
-      "time": "2026-09-16T23:30:14.193Z",
-      "danger": 0.576,
-      "sentiment": -0.122,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.568,
-          "sentiment": -0.133
-        },
-        "OSINTdefender": {
-          "danger": 0.583,
-          "sentiment": 0.367
-        },
-        "irna_1313": {
-          "danger": 0.566,
-          "sentiment": -0.318
-        },
-        "sepah_pasdaran": {
-          "danger": 0.481,
-          "sentiment": -0.4
-        },
-        "almanarnews": {
-          "danger": 0.514,
-          "sentiment": -0.133
-        },
-        "C_Military1": {
-          "danger": 0.696,
-          "sentiment": 0
-        },
-        "almayadeen": {
-          "danger": 0.518,
-          "sentiment": 0.033
-        },
-        "QudsN": {
-          "danger": 0.888,
-          "sentiment": -0.5
-        }
-      }
-    },
     {
       "time": "2026-09-17T03:09:32.721Z",
       "danger": 0.537,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.767
         }
       }
+    },
+    {
+      "time": "2026-09-24T23:44:11.072Z",
+      "danger": 0.549,
+      "sentiment": -0.173,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.382,
+          "sentiment": -0.367
+        },
+        "OSINTdefender": {
+          "danger": 0.588,
+          "sentiment": -0.167
+        },
+        "irna_1313": {
+          "danger": 0.38,
+          "sentiment": 0.033
+        },
+        "sepah_pasdaran": {
+          "danger": 0.34,
+          "sentiment": -0.167
+        },
+        "almanarnews": {
+          "danger": 0.514,
+          "sentiment": -0.1
+        },
+        "C_Military1": {
+          "danger": 0.792,
+          "sentiment": 0.1
+        },
+        "almayadeen": {
+          "danger": 0.61,
+          "sentiment": -0.4
+        },
+        "QudsN": {
+          "danger": 0.936,
+          "sentiment": -0.533
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,32 +2279,32 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.5211782578338117
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.3819429737072112
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
+      "raw_sentiment": -0.16666666666666666,
       "knn_danger_metric": 0.5876855260376478
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 13,
-      "raw_sentiment": -0.2692307692307692,
-      "knn_danger_metric": 0.3430813765025788
+      "num_messages": 15,
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.38019210519575924
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.34364378299269926
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.33964325678170454
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.32201369773157407
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.5144062091050163
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2316,13 +2316,13 @@
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.6753060877016865
+      "knn_danger_metric": 0.6104355348672049
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.7666666666666667,
-      "knn_danger_metric": 0.50227017538041
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.9357300993932097
     }
   },
   "semantic_logs": [
@@ -2334,17 +2334,24 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "תם נאום נתניהו.  תגובה אחת",
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "الرئيس الإيراني مسعود بيزشكيان يلتقى في نيويورك نخبة من الباحثين في مراكز الابحاث",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 الحرس الثوري: رغم قوة اميركا البحرية فشلت في اعادة مضيق هرمز الى الوضع المنشود https://almanar.com.lb/article/1205057/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "סאמי אבו שחאדה, יו&quot;ר בל&quot;ד, לא נרגע מכך שיאיר גולן הצביע בעד פסילתו, ותוקף את גולן גם ב&quot;חוג בית&quot;.  תגובה אחת",
-      "absolute_sentiment": -1,
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "بالفيديو | جانب من اقتحام قوات الاحتلال حي عين اللوزة في بلدة سلوان جنوب المسجد الأقصى",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2371,41 +2378,6 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيمانويل ماكرون: سنرسل جنوداً ورادارات وأنظمة دفاعية لحماية موقع ينبع السعودي لا للدخول في أي نزاع",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: عضو المكتب السياسي لحركة أنصار الله محمد الفرح: باب المندب جزء من السيادة الوطنية اليمنية",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: محمد الفرح: استعادة السيطرة على باب المندب تمثل استعادة جزء من السيادة على ممر بحري يمني تاريخي واستراتيجي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: القوات المسلحة: رداً على العدوان السعودي نفذنا عمليتين عسكريتين نوعيتين الأولى استهدفت هدفاً حساساً في الرياض",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: القوات المسلحة: العملية الثانية استهدفت شركة أرامكو في ينبع بعدد من الصواريخ الباليستية والمجنحة والطائرات المسيّرة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "اليمن: القوات المسلحة: استمرار &quot;العدو السعودي&quot; في شن غاراته على شعبنا وبلدنا لن يثنينا عن ممارسة حقنا المشروع في الرد المباشر والمناسب على العدوان",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
@@ -2418,16 +2390,44 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "القناة &quot;12&quot; العبرية: قاعة الجمعية العامة للأمم المتحدة شبه فارغة خلال خطاب نتنياهو.",
+      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي يستهدف شمال غرب قطاع غزة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: العميد حسين محبي: السفن الأميركية ابتعدت نحو 400 كيلومتر عن مضيق هرمز ولا تزال متمركزة في البحرين وهذا انتصار كبير لإيران",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: إصابة عدد من المواطنين إثر قصف الاحتلال خيمة للنازحين في منطقة السوارحة ببلدة الزوايدة وسط القطاع",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية عابود شمال غرب رام الله.",
+      "text": "جانب من اقتحام قوات الاحتلال حي &quot;عين اللوزة&quot; في بلدة سلوان جنوب المسجد الأقصى",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مشاهد من اقتحام قوات الاحتلال لمدينة رام الله.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة علار شمال طولكرم",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     }
