@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-25T03:11:42.482Z",
+  "last_updated": "2026-09-25T09:19:27.483Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.53",
+    "global_knn_danger": "0.54",
     "global_norm_sentiment": "-0.20"
   },
   "timeline": [
-    {
-      "time": "2026-09-17T09:08:15.902Z",
-      "danger": 0.482,
-      "sentiment": -0.162,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.553,
-          "sentiment": -0.667
-        },
-        "OSINTdefender": {
-          "danger": 0.578,
-          "sentiment": 0.133
-        },
-        "irna_1313": {
-          "danger": 0.299,
-          "sentiment": -0.133
-        },
-        "sepah_pasdaran": {
-          "danger": 0.43,
-          "sentiment": -0.2
-        },
-        "almanarnews": {
-          "danger": 0.256,
-          "sentiment": -0.133
-        },
-        "C_Military1": {
-          "danger": 0.654,
-          "sentiment": -0.107
-        },
-        "almayadeen": {
-          "danger": 0.49,
-          "sentiment": -0.233
-        },
-        "QudsN": {
-          "danger": 0.606,
-          "sentiment": -0.143
-        }
-      }
-    },
     {
       "time": "2026-09-17T14:37:31.637Z",
       "danger": 0.528,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.367
         }
       }
+    },
+    {
+      "time": "2026-09-25T09:19:27.483Z",
+      "danger": 0.535,
+      "sentiment": -0.2,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.502,
+          "sentiment": -0.5
+        },
+        "OSINTdefender": {
+          "danger": 0.591,
+          "sentiment": -0.167
+        },
+        "irna_1313": {
+          "danger": 0.443,
+          "sentiment": -0.2
+        },
+        "sepah_pasdaran": {
+          "danger": 0.303,
+          "sentiment": -0.333
+        },
+        "almanarnews": {
+          "danger": 0.41,
+          "sentiment": -0.067
+        },
+        "C_Military1": {
+          "danger": 0.753,
+          "sentiment": -0.067
+        },
+        "almayadeen": {
+          "danger": 0.704,
+          "sentiment": -0.267
+        },
+        "QudsN": {
+          "danger": 0.697,
+          "sentiment": -0.267
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.3819429737072112
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.5016187170561601
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.5876855260376478
+      "knn_danger_metric": 0.5907514448398249
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.4434949979879564
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.44302148066789865
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.37896528829459464
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.3029734040298074
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.45115492882136726
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.41045206137092344
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.7915951608650118
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.753155603767648
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.42880958456576057
+      "knn_danger_metric": 0.7035403089512423
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.8825889141695673
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.6969433264425218
     }
   },
   "semantic_logs": [
@@ -2334,16 +2334,44 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 الحرس الثوري: رغم قوة اميركا البحرية فشلت في اعادة مضيق هرمز الى الوضع المنشود https://almanar.com.lb/article/1205057/?s=tg",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "דובר צה&quot;ל הודיע על נפילתם של שני לוחמי מילואים ברצועת עזה.  מצורפים שמות החללים:  - רס״ר (מיל׳) נדב קלי (Nadav Kali), בן 24 מהר חלוץ, לוחם בגדוד 7007 מחטיבה 16, נפל בקרב ברצועת עזה.  - רס״ר (מיל׳) אופק מועלם (Ofek Moalem), בן 23 מירושלים, לוחם בגדוד 7007 מחטיבה…",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "השניים נפלו אתמול אחה&quot;צ בתאונה מבצעית במסגרתה התפוצץ רחפן נפץ צה&quot;לי בתוך מוצב של צה&quot;ל.  שני הלוחמים הם מטיסי רחפנים ואחד הרחפנים שהטיסו נפל בשטח המוצב שלהם. השניים ניגשו אל הרחפן, שהתפוצץ בזמן שהרימו אותו. הם נפצעו באורח אנוש ומתו מפצעיהם מאוחר יותר.  צה&quot;ל הטיל איסור על שימוש ברחפנים מסוג זה עד להשלמת התחקיר בעניין.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️آتش زدن آدمک نتانیاهو در نیویورک  &rlm;🔹 معترضان حامی فلسطین در نزدیکی مقر سازمان ملل متحد در نیویورک، آدمک «بنیامین نتانیاهو» نخست‌وزیر رژیم صهیونیستی را به آتش کشیدند. &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "بالفيديو | جانب من اقتحام قوات الاحتلال حي عين اللوزة في بلدة سلوان جنوب المسجد الأقصى",
+      "text": "الوزير جابر ترأس اجتماع عمل موسّعاً بحث في تطوير التحصيل والخزينة والرقمنة ومعالجة التراكمات في وزارة المالية https://almanar.com.lb/article/1206047/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "📹 تقارير مصورة | الاعتداءات الإسرائيلية تتواصل جنوبًا والجيش يفتح طريق تولين – برج قلاوية https://almanar.com.lb/article/1206067/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "📹 تقارير مصورة | مقتل جنديين إسرائيليين في حادث عملياتي شمال غزة وآخر التطورات الميدانية في القطاع https://almanar.com.lb/article/1206127/?s=tg",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
@@ -2371,64 +2399,36 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: إصابة عدد من المواطنين إثر قصف الاحتلال خيمة للنازحين في منطقة السوارحة ببلدة الزوايدة وسط القطاع",
+      "text": "إيران: وزارة الخارجية: عراقتشي شدد لنظيره المصري على المسؤولية الملقاة على عاتق الدول لوقف الإبادة بحق الشعب الفلسطيني",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "الصين: شي جين بينغ: التفاهمات مع ترامب أضفت مضمونا جديدا على العلاقة الصينية-الأميركية البناءة القائمة على الاستقرار الاستراتيجي",
+      "text": "إيران: عراقتشي لنظيره المصري: القضية الفلسطينية هي أكبر أزمة إنسانية وأخلاقية في العالم المعاصر وجميع الدول ملزمة بمواجهة الاحتلال",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: عراقتشي لنظيره البريطاني: على بريطانيا وحكومات أوروبية أخرى تحمّل مسؤولية دورها في نشوء واستمرار كيان الاحتلال في غرب آسيا",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدتي مسلية وعجة، جنوب جنين.",
+      "text": "إيران: عراقتشي لنظيره البريطاني: الإصرار على التدخل في الشؤون الداخلية للدول واستخدام مفاهيم حقوق الإنسان كأداة أمر غير مقبول",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال بلدة قباطية جنوب جنين، ومداهمة عددًا من المنازل.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم عددًا من المنازل خلال اقتحام بلدتي بيت امين وعزبه سلمان، جنوب قلقيلية.",
+      "text": "إيران: عراقتشي لنظيره البريطاني: بريطانيا وسائر الدول مطالبة بمعاقبة مسؤولي &quot;إسرائيل&quot; على خلفية اتهامات بالإبادة الجماعية",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تداهم المنازل خلال اقتحامها المستمر لبلدة قباطية جنوب جنين",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "صرخة ممزوجة بدموع القهر .. فلسطيني من بيت ريما قضاء رام الله يرقب تدمير جرافات الاحتلال وتجريفها لأشجار الزيتون في أرضه",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية عوريف جنوب نابلس.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "تحركات مستمرة لآليات الاحتلال خلال اقتحام بلدة قباطية جنوب جنين، وسط حملة مداهمات واعتقالات",
-      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
   ]
