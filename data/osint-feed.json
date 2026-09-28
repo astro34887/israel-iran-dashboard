@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-27T23:34:39.211Z",
+  "last_updated": "2026-09-28T03:20:55.073Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.55",
-    "global_norm_sentiment": "-0.14"
+    "global_knn_danger": "0.52",
+    "global_norm_sentiment": "-0.21"
   },
   "timeline": [
-    {
-      "time": "2026-09-19T17:43:57.990Z",
-      "danger": 0.511,
-      "sentiment": -0.303,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.662,
-          "sentiment": -0.933
-        },
-        "OSINTdefender": {
-          "danger": 0.603,
-          "sentiment": -0.133
-        },
-        "irna_1313": {
-          "danger": 0.463,
-          "sentiment": -0.733
-        },
-        "sepah_pasdaran": {
-          "danger": 0.308,
-          "sentiment": -0.233
-        },
-        "almanarnews": {
-          "danger": 0.348,
-          "sentiment": 0.067
-        },
-        "C_Military1": {
-          "danger": 0.671,
-          "sentiment": -0.7
-        },
-        "almayadeen": {
-          "danger": 0.481,
-          "sentiment": -0.067
-        },
-        "QudsN": {
-          "danger": 0.624,
-          "sentiment": -0.133
-        }
-      }
-    },
     {
       "time": "2026-09-19T19:59:34.256Z",
       "danger": 0.499,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.333
         }
       }
+    },
+    {
+      "time": "2026-09-28T03:20:55.073Z",
+      "danger": 0.522,
+      "sentiment": -0.211,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.387,
+          "sentiment": -0.267
+        },
+        "OSINTdefender": {
+          "danger": 0.57,
+          "sentiment": -0.233
+        },
+        "irna_1313": {
+          "danger": 0.315,
+          "sentiment": -0.542
+        },
+        "sepah_pasdaran": {
+          "danger": 0.517,
+          "sentiment": -0.333
+        },
+        "almanarnews": {
+          "danger": 0.471,
+          "sentiment": -0.467
+        },
+        "C_Military1": {
+          "danger": 0.515,
+          "sentiment": 0.067
+        },
+        "almayadeen": {
+          "danger": 0.64,
+          "sentiment": 0.1
+        },
+        "QudsN": {
+          "danger": 0.854,
+          "sentiment": -0.3
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2290,21 +2290,21 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.4817816032094636
+      "num_messages": 12,
+      "raw_sentiment": -0.5416666666666666,
+      "knn_danger_metric": 0.3153950767822263
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.48920716198309866
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.5173234947249217
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.42253426441795483
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.47078396666678374
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.7502175009248317
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.6403027538774921
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.9612806030345694
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.8542744842468332
     }
   },
   "semantic_logs": [
@@ -2362,6 +2362,13 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 إعصار بولو يهدد سواحل جنوب كاليفورنيا بأمواج خطيرة وفيضانات وسط تحذير عاجل https://almanar.com.lb/article/1214247/?s=tg",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "🎥 فيديو كلمة حجة الإسلام والمسلمين سماحة الأمين العام لحزب الله الشيخ نعيم قاسم في الذكرى السنوية الثانية لشهادة سيد شهداء الأمة سماحة السيد حسن نصر الله وصفيه الهاشمي سماحة السيد هاشم صفي الدين 27-09-2026",
@@ -2392,20 +2399,6 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: إطلاق نار مكثف من آليات الاحتلال في مواصي مدينة رفح جنوبي قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: حماس: الفيديو الاستعراضي الذي نشره بن غفير وتضمن تهديداً بالقتل للأسير القائد حسن سلامة لن يفت من عزمه وعزم أسرانا",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "فلسطين المحتلة: حماس: فيديو بن غفير ينذر بجرائم قتل جديدة بحق أسرانا ضمن سياسة الاحتلال التي حولت السجون لساحات تصفية جسدية مباشرة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
@@ -2429,6 +2422,13 @@
       "channel": "Arab_Axis",
       "text": "إيران: حرس الثورة: نعتبر السيطرة وإدارة مضيق هرمز في خضم المعارك الحضارية والوجودية من ثمار الإيمان والاعتقاد بالنصر الإلهي",
       "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "اليمن: وكالة &quot;سبأ&quot;: عدوان سعودي بـ4 صواريخ يستهدف شرقي مدينة صعدة شمال البلاد",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
   ]
