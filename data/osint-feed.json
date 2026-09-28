@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-28T18:23:03.994Z",
+  "last_updated": "2026-09-28T23:38:54.488Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.50",
-    "global_norm_sentiment": "-0.17"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.48",
+    "global_norm_sentiment": "-0.28"
   },
   "timeline": [
-    {
-      "time": "2026-09-20T00:36:30.238Z",
-      "danger": 0.541,
-      "sentiment": -0.195,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.542,
-          "sentiment": -0.633
-        },
-        "OSINTdefender": {
-          "danger": 0.611,
-          "sentiment": -0.133
-        },
-        "irna_1313": {
-          "danger": 0.455,
-          "sentiment": -0.35
-        },
-        "sepah_pasdaran": {
-          "danger": 0.343,
-          "sentiment": -0.433
-        },
-        "almanarnews": {
-          "danger": 0.501,
-          "sentiment": 0.2
-        },
-        "C_Military1": {
-          "danger": 0.712,
-          "sentiment": -0.2
-        },
-        "almayadeen": {
-          "danger": 0.502,
-          "sentiment": -0.2
-        },
-        "QudsN": {
-          "danger": 0.797,
-          "sentiment": -0.067
-        }
-      }
-    },
     {
       "time": "2026-09-20T05:40:22.229Z",
       "danger": 0.533,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.357
         }
       }
+    },
+    {
+      "time": "2026-09-28T23:38:54.488Z",
+      "danger": 0.479,
+      "sentiment": -0.281,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.275,
+          "sentiment": -0.667
+        },
+        "OSINTdefender": {
+          "danger": 0.563,
+          "sentiment": -0.267
+        },
+        "irna_1313": {
+          "danger": 0.483,
+          "sentiment": -0.5
+        },
+        "sepah_pasdaran": {
+          "danger": 0.301,
+          "sentiment": 0.133
+        },
+        "almanarnews": {
+          "danger": 0.443,
+          "sentiment": -0.179
+        },
+        "C_Military1": {
+          "danger": 0.675,
+          "sentiment": -0.2
+        },
+        "almayadeen": {
+          "danger": 0.341,
+          "sentiment": -0.6
+        },
+        "QudsN": {
+          "danger": 0.763,
+          "sentiment": -0.367
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.6079568434920635
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.27486833826769846
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,21 +2290,21 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 11,
-      "raw_sentiment": 0.09090909090909091,
-      "knn_danger_metric": 0.5870026153714547
+      "num_messages": 13,
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.4833625054114567
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.5474684418178853
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.30078050255014255
     },
     "almanarnews": {
       "name": "Hezbollah",
-      "num_messages": 15,
-      "raw_sentiment": 0.23333333333333334,
-      "knn_danger_metric": 0.21687239049916804
+      "num_messages": 14,
+      "raw_sentiment": -0.17857142857142858,
+      "knn_danger_metric": 0.4431505218156563
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.29582489320384214
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.34134006852494275
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 14,
-      "raw_sentiment": -0.35714285714285715,
-      "knn_danger_metric": 0.5654636229842035
+      "num_messages": 15,
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.763267990146299
     }
   },
   "semantic_logs": [
@@ -2334,31 +2334,24 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "הנה הגיע הדיווח של דובר צה&quot;ל על חיסולו אתמול של שאדי אבו חצירה איש הכספים של חמאס ☝️  צה&quot;ל חיסל מחבל שלקח חלק בהעברת מיליוני שקלים לארגון הטרור חמאס  צה&quot;ל תקף אתמול (א&#39;) במרחב העיר עזה וחיסל את המחבל שאדי אבו חצירה, חלפן כספים מרכזי בזרוע הצבאית של חמאס.  המחבל הוביל את רשת החלפנות &quot;ג&#39;נבה&quot; אשר העבירה עשרות מיליוני שקלים בכספי חוץ לזרוע הצבאית של חמאס. כספים אלו משמשים למימון מחבלים, שיקום תשתיות צבאיות וקידום מתווי טרור נגד כוחותינו. במקביל, המחבל עסק בסחר ברצועה וניהל את חברת &quot;גרדנה פרופשיונאל&quot;, שסייעה לפעולותיו להעברת הכספים.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "למעלה מ15,000 מבקרים הגיעו כבר ביום הראשון של חול המועד לחוות ברחבי יהודה ושומרון ובקעת הירדן, ושברו שיא מבקרים ליום אחד&#33;  סיורים, סדנאות, פעילויות והמון משפחות שבאו לראות את ההיסטוריה בעיניים.  איזה כיף לראות את עם ישראל מגיע לחוות.❤️  מי שעוד לא הספיק להירשם…",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "הפלסטינים: &quot;1,792 מתנחלים פשטו על חצרות מסגד אלאקצא ביומו השלישי של חג הסוכות היהודי, באבטחת צבא הכיבוש&quot;  תגובה אחת",
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "نخستین باران پاییزی در گنبد جان یک جوان را گرفت  🔹جاری شدن سیلاب در رودخانه مرزی اترک براثر نخستین باران پاییزی، سبب غرق شدن یکی از اهالی شهر «کرند» از توابع بخش داشلی برون شهرستان گنبدکاووس شد.  https://irna.ir/xjYn2k #ایرنا_جهان",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️لحظه‌ای که کاپیتان ایرلند حاضر نشد با بازیکن رژیم صهیونیستی دست بدهد &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
+      "text": "&rlm; ️ دریادار سیاری: هم‌زمان با مصرف سلاح، سلاح تولید می‌کنیم  هرچقدر موشک و پهپاد شلیک می‌کنم جای آن را به‌سرعت پر می‌کنیم. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️اثر جدید کمال شرف، کاریکاتوریست یمنی در خصوص سفر نخست وزیر رژیم صهیونیستی به امارات متحده عربی &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2369,67 +2362,74 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: &quot;جيش&quot; الاحتلال نفذ تفجيراً في بلدة المنصوري جنوب لبنان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: مدفعية الاحتلال تعتدي على بلدة صربين في جنوب لبنان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم بلدة قباطية، جنوب جنين.",
+      "text": "لحظة إطلاق جيش الاحتلال الرصاص الحي، وإصابة شاب خلال اقتحام بلدة قباطية جنوب جنين.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم مدينة نابلس من حاجز عورتا.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام قوات الاحتلال المنطقة الشرقية بمدينة نابلس.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تحتجز عدداً من الشبان وتنكل بهم خلال اقتحام بلدة قباطية، جنوب جنين.",
+      "text": "جيش الاحتلال يدفع بتعزيزات عسكرية اتجاه المنطقة الشرقية في مدينة نابلس.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 13 العبرية:  بيان صادر عن رئيس الشاباك السابق، رونين بار: رئيس الشاباك السابق، رونين بار، يعتزم تقديم دعوى تشهير ضد بنيامين نتنياهو، ويطالب بالكشف عن شهادات ووثائق مرتبطة بالمعلومات التي نُقلت إلى رئيس الحكومة قبل السابع من أكتوبر.  يطالب بار بالكشف عن الوثائق وجدول اجتماعات نتنياهو مع المنظومة الأمنية وجهات أجنبية.  وسيستدعي للإدلاء بالشهادة أفراد مكتب نتنياهو ومساعدوه، الذين ساعدوه ويساعدونه في حملته التلاعبية.  شنّ رئيس الحكومة نتنياهو حملة تحريض منفلتة من عقالها ولا أساس لها من الواقع ضد رئيس الشاباك السابق.   وبعد أن رفض لمدة ثلاث سنوات الاعتراف بمسؤوليته ومنع الجمهور بكل وسيلة من تشكيل لجنة تحقيق رسمية، بدأ بنشر وثائق جزئية بطريقة تلاعبية ومخالفة لسياقها الحقيقي. والآن، عندما بدأت تظهر شهادات حول التحذيرات التي تلقاها قبل السابع من أكتوبر، يحاول تحويل الأنظار عنه من خلال توجيه الاتهامات إلى من حذّره في الوقت الحقيقي.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9982251507820393
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   سماحة آية الله السيد القائد مجتبى الخامنئي (دام ظله): اليوم، هناك من يعتبرنا القوة العظمى الرابعة في العالم. وبالطبع، هم يقولون ذلك استنادًا إلى الحسابات الدنيوية؛ لكن الحسابات الإلهية تعتبر البلد الذي يرى نفسه منتميًا إلى العترة الطاهرة، صلوات الله وسلامه عليهم أجمعين، والذي غالبية شعبه متعلّقون بأولئك العظماء، ولا يخافون من أجل إقامة الحق، القوة الأولى في العالم.  #الإعلام_الحربي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9978943081120252
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   سماحة آية الله السيد القائد مجتبى الخامنئي (دام ظله): هذه الأيام، فإن الأعداء وبسبب الضربات المؤلمة التي تلقوها من المقاتلين الشجعان وحماة مضيق هرمز، لا يتقدمون إلى ما بعد بحر العرب، وكلما خاطروا بتحمل هذا الخطر، ألحقوا الضرر بأنفسهم؛ وقريبًا سيُخلي بحر العرب نفسه منهم أيضًا.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9973829057881741
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "خبرگزاری واع: پرواز شرکت‌های عراقی از فرودگاه نجف به ایران از سرگرفته شد  🔹 خبرگزاری رسمی عراق (واع) اعلام کرد، شرکت هواپیمایی این کشور پروازهای بین نجف و فرودگاه‌های ایران را از سر گرفت. #ایرنا_جهان  https://irna.ir/xjYn2G @IRNA_1313",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9904567943036928
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام قوات الاحتلال المستمر لبلدة قباطية جنوب جنين",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل | الاحتلال يطلق صاروخاً اعتراضياً قرب الحدود اللبنانية الفلسطينية، دون تفعيل صافرات الإنذار.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9596045227592704
+      "text": "مصادر محلية: قوات الاحتلال تقتحم منطقة &quot;راس شحادة&quot; في بلدة عناتا شمال شرق القدس المحتلة",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل | جيش الاحتلال: أطلقنا صاروخاً اعتراضياً باتجاه &quot;هدف جوي مشبوه&quot; تم رصده في المنطقة التي تعمل بها قوات الجيش في جنوب لبنان، والتفاصيل قيد الفحص.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.9596045227592704
+      "text": "مصادر محلية: قوات الاحتلال تداهم منزلاً خلال اقتحام بلدة حبلة، جنوب قلقيلية.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   وسائل إعلام إسرائيلية: تقارير أولية عن تفعيل الدفاعات الجوية في الجليل الأعلى دون دوي صفارات الإنذار.  #الإعلام_الحربي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 0.956418427463877
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تداهم منزلاً خلال اقتحام بلدة عنبتا شرق طولكرم",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
     }
   ]
 }
