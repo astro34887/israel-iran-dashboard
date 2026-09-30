@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-09-30T18:48:10.497Z",
+  "last_updated": "2026-09-30T22:47:56.894Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.20"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.48",
+    "global_norm_sentiment": "-0.19"
   },
   "timeline": [
-    {
-      "time": "2026-09-21T11:51:21.317Z",
-      "danger": 0.556,
-      "sentiment": -0.233,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.467,
-          "sentiment": -0.5
-        },
-        "OSINTdefender": {
-          "danger": 0.522,
-          "sentiment": -0.467
-        },
-        "irna_1313": {
-          "danger": 0.463,
-          "sentiment": -0.1
-        },
-        "sepah_pasdaran": {
-          "danger": 0.346,
-          "sentiment": -0.533
-        },
-        "almanarnews": {
-          "danger": 0.498,
-          "sentiment": -0.233
-        },
-        "C_Military1": {
-          "danger": 0.804,
-          "sentiment": -0.1
-        },
-        "almayadeen": {
-          "danger": 0.737,
-          "sentiment": -0.6
-        },
-        "QudsN": {
-          "danger": 0.775,
-          "sentiment": 0.333
-        }
-      }
-    },
     {
       "time": "2026-09-21T17:46:14.466Z",
       "danger": 0.505,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.417
         }
       }
+    },
+    {
+      "time": "2026-09-30T22:47:56.894Z",
+      "danger": 0.484,
+      "sentiment": -0.187,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.576,
+          "sentiment": -0.6
+        },
+        "OSINTdefender": {
+          "danger": 0.558,
+          "sentiment": -0.233
+        },
+        "irna_1313": {
+          "danger": 0.552,
+          "sentiment": -0.4
+        },
+        "sepah_pasdaran": {
+          "danger": 0.186,
+          "sentiment": -0.533
+        },
+        "almanarnews": {
+          "danger": 0.474,
+          "sentiment": 0
+        },
+        "C_Military1": {
+          "danger": 0.635,
+          "sentiment": 0.333
+        },
+        "almayadeen": {
+          "danger": 0.25,
+          "sentiment": -0.033
+        },
+        "QudsN": {
+          "danger": 0.663,
+          "sentiment": -0.267
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.5275484251365584
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.5759648349654839
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.56381110515316
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.5521801768202478
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.4476800401737242
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.18637826693682175
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.465882658068287
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.4742436847596557
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": 0.3333333333333333,
-      "knn_danger_metric": 0.6346024363396167
+      "knn_danger_metric": 0.6346923155750321
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.3969642846036069
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.25038415221843635
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 12,
-      "raw_sentiment": -0.4166666666666667,
-      "knn_danger_metric": 0.6339562819608922
+      "num_messages": 15,
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.6626494252063968
     }
   },
   "semantic_logs": [
@@ -2336,49 +2336,28 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "המפגש של הגיבור עם ראש הממשלה",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "המפגש של הגיבור עם ראש הממשלה",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
       "text": "סוריה: פיצוץ פוטוגני של צינור הגז בדיר א-זור.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️ منابع عربی از وقوع انفجار در فرودگاه بین‌المللی دمشق خبر می‌دهند. &lrm;✅ @sepah_pasdaran",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "סוריה: פיצוץ בקו הגז ליד תחנת תשרין בדמשק - ליד שדה התעופה אלמזה.  זהו פיצוץ שני בתוך יומיים של קו גז בסוריה ☝️ הפיצוץ הקודם סווג כפעולת טרור.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️ منابع عربی از وقوع انفجار در فرودگاه بین‌المللی دمشق خبر می‌دهند. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️&rlm;#تکمیلی| انفجار خط گاز نیروگاه تشرین در حومه دمشق  منابع خبری از وقوع انفجار در خط لوله انتقال گاز به نیروگاه حرارتی «تشرین» در منطقه «حران العوامید» واقع در نزدیکی فرودگاه بین‌المللی دمشق خبر دادند. &lrm;✅ @sepah_pasdaran",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "עזה מגיעה לבריטניה   נייג&#39;ל פרג&#39; חבר הפרלמנט הבריטי וראש מפלגת UK Reform גילה בבריטניה את כוכב צעדות השיבה העזתי, אבו ודיע אלקצאצ (אחת הדמויות הצבעוניות שהיו בעזה בצעדות ☝️) - הוא דורש לגרשו.  כך כתב:  &quot;המהגר הבלתי חוקי הזה מתגורר ממש עכשיו בבית מגורים משותף…",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "الأجواء العامة في المهرجان الذي أُقيم في بغداد بمناسبة خروج القوات الأميركية من البلاد، نتابعها مع مراسلنا عادل الفياض https://almanar.com.lb/article/1222182/?s=tg",
+      "text": "بالفيديو | جانب من اقتحام قوات الاحتلال لبلدة بيت فجار جنوب بيت لحم",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
@@ -2392,37 +2371,30 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: &quot;جيش&quot; الاحتلال الإسرائيلي نفذ تفجيراً في بلدة حولا في قضاء مرجعيون",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: إبراهيم عزيزي: الحفاظ على القوة الوطنية وتعزيزها يتطلب مشاركة جميع قطاعات البلاد",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: &quot;جيش&quot; الاحتلال ينفذ عملية نسف شرقي مدينة غزة",
+      "text": "إيران: عراقتشي: إطلاق سراح &quot;الإرهابيين&quot; المفترضين العاملين لصالح دول أجنبية يقول كل شيء بحق",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم بلدة تقوع، جنوب شرق بيت لحم.",
+      "text": "مصادر محلية: قوة راجلة تابعة لجيش الاحتلال تقتحم بلدة كفل حارس، شمال سلفيت.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مشهد من اقتحام قوات الاحتلال لبلدة بيت فجار، جنوب بيت لحم.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "نصرالله، نصرت و فتح  🔹نصرت و فتح، همراهان دائمی او [جناب سیّد حسن نصرالله] بودند و بی‌تردید در طول کلّ تاریخ شامات تا کنون، پس از انبیاء و اوصیاء ایشان، رَجُلی به عظمت او در آن خطّه کهن سر بلند نکرده بود. رهبر معظم انقلاب ۶/مهر/۱۴۰۵  @IRNA_1313",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9973547420446702
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة سلواد شمال شرق رام الله.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
     },
     {
       "channelId": "C_Military1",
@@ -2430,6 +2402,34 @@
       "text": "#الجمهورية_الإسلامية   أمين المجلس الأعلى للأمن القومي الإيراني محسن رضائي: كما أن استضافة القواعد العسكرية الأمريكية لم تجلب لكم الأمن، فإن استضافة «جزار غزة» أيضا لن تكون لها عواقب حميدة.  تعلموا من الحرب الأخيرة، وكفّوا عن إشعال الحروب، وتوقفوا عن إطلاق الادعاءات الواهية بشأن الجزر الإيرانية.  #الإعلام_الحربي",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 0.9958018373673666
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 13 العبرية: يجري الآن اجتماع أمني برئاسة رئيس الوزراء، بمشاركة الجهات الأمنية وسلطات الطيران.  #الإعلام_الحربي",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.9957890513813449
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "حمله پهپادی به مقر گروهک‌های تجزیه طلب در شمال عراق  🔹منابع خبری از حمله پهپادی به مقر گروهک‌های تجزیه طلب در اقلیم کردستان عراق خبر دادند. #ایرنا_جهان  https://irna.ir/xjYnYw @IRNA_1313",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9945997903851443
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | مدفعية الاحتلال تقصف مناطق في شمال مخيم البريج، وسط قطاع غزة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9596045227592704
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | مدفعية الاحتلال تقصف شرق قرية المصدر، وسط قطاع غزة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9596045227592704
     }
   ]
 }
