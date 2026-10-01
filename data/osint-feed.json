@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-10-01T08:14:18.083Z",
+  "last_updated": "2026-10-01T15:57:46.859Z",
   "tension": {
-    "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.06"
+    "level": "CALM_CEASEFIRE",
+    "global_knn_danger": "0.45",
+    "global_norm_sentiment": "-0.12"
   },
   "timeline": [
-    {
-      "time": "2026-09-22T00:32:56.748Z",
-      "danger": 0.544,
-      "sentiment": -0.277,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.472,
-          "sentiment": -0.733
-        },
-        "OSINTdefender": {
-          "danger": 0.55,
-          "sentiment": -0.3
-        },
-        "irna_1313": {
-          "danger": 0.483,
-          "sentiment": 0.033
-        },
-        "sepah_pasdaran": {
-          "danger": 0.479,
-          "sentiment": -0.571
-        },
-        "almanarnews": {
-          "danger": 0.367,
-          "sentiment": -0.233
-        },
-        "C_Military1": {
-          "danger": 0.775,
-          "sentiment": -0.2
-        },
-        "almayadeen": {
-          "danger": 0.517,
-          "sentiment": -0.367
-        },
-        "QudsN": {
-          "danger": 0.842,
-          "sentiment": -0.267
-        }
-      }
-    },
     {
       "time": "2026-09-22T05:48:18.398Z",
       "danger": 0.535,
@@ -2261,6 +2214,53 @@
           "sentiment": 0
         }
       }
+    },
+    {
+      "time": "2026-10-01T15:57:46.859Z",
+      "danger": 0.452,
+      "sentiment": -0.12,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.479,
+          "sentiment": -0.367
+        },
+        "OSINTdefender": {
+          "danger": 0.556,
+          "sentiment": -0.233
+        },
+        "irna_1313": {
+          "danger": 0.36,
+          "sentiment": -0.533
+        },
+        "sepah_pasdaran": {
+          "danger": 0.457,
+          "sentiment": -0.067
+        },
+        "almanarnews": {
+          "danger": 0.522,
+          "sentiment": 0.071
+        },
+        "C_Military1": {
+          "danger": 0.671,
+          "sentiment": 0
+        },
+        "almayadeen": {
+          "danger": 0.143,
+          "sentiment": -0.4
+        },
+        "QudsN": {
+          "danger": 0.381,
+          "sentiment": 0.5
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.5660536083329354
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.4790085583265464
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 11,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.41460978508331797
+      "num_messages": 15,
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.3598474834597026
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.36666666666666664,
-      "knn_danger_metric": 0.500560620741188
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.4566624208012175
     },
     "almanarnews": {
       "name": "Hezbollah",
-      "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.5042952833012236
+      "num_messages": 14,
+      "raw_sentiment": 0.07142857142857142,
+      "knn_danger_metric": 0.5219718948263797
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.23333333333333334,
-      "knn_danger_metric": 0.6371032371840539
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.671405115379192
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.5664268598278217
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.14338279261445777
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.5264072673817046
+      "raw_sentiment": 0.5,
+      "knn_danger_metric": 0.3807000850279432
     }
   },
   "semantic_logs": [
@@ -2336,15 +2336,36 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "שגרירות הודו בערב הסעודית:   מצבו של הטייס ההודי הגיבור סמית מצ&#39;אר- יציב, הוא מאושפז בבית החולים בתבוכ. טרם נמסר עדכון מלא על מצבו הרפואי.  ##  איחולי החלמה אפשר לכתוב כאן👇החשבון של שגרירות הודו בסעודיה.  https://x.com/IndianEmbRiyadh/status/2105371177095225350  תגובה אחת",
+      "text": "ערוצים פלסטינים: &quot;יותר מ 8,000 מתנחלים פשטו על אלאקצא במהלך השבוע&quot;  הנה הפירוט: יום ראשון: 1,500 יום שני: 1,731 יום שלישי: 1,462 יום רביעי: 2,468 יום חמישי: 1,195  סה&quot;כ: 8,356  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "רגע לפני שסוכות נגמר והשגרה חוזרת – מגיע לכם להתפנק&#33; 🌿✨  המבצע הגדול של אירופלקס לקראת סיום, וזה הרגע לתפוס את מחירי החג המיוחדים של אירופלקס:  עד 43% הנחה על מיטות, מזרנים, סלונים, כורסאות ועוד&#33;  החג תכף מסתיים והמלאי מוגבל – אל תפספסו&#33; 💙  לצפייה במוצרים &gt;&gt; https://katzr.net/345044  בתוקף עד 1.10.26 | מינימום 324 יח&#39; במלאי מכל מוצר | תקף בסניפים בלבד | המחירים לפני ואחרי מופיעים בסניפים | בכפוף לתקנון",
+      "text": "המעיין ליד נווה צוף בו נרצח בערב כיפור נתנאל שוקרון ז&quot;ל - שוקק חיים היום.  עם ישראל חי 🇮🇱  תגובה אחת",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️&rlm; عملیات مشترک امروز نیروهای قرارگاه قدس سپاه یگان تکاوری پلیس و وزارت اطلاعات علیه یک خانه تیمی ۶ نفره تروریست ها در زاهدان &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️تصاویر منتشرشده نشان می‌دهد نیروهای وابسته به آل‌سعود در حال فرار از شهر تعز هستند. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 استدعاء السفير البريطاني إلى وزارة الخارجية الإيرانية https://almanar.com.lb/article/1224437/?s=tg",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2355,52 +2376,10 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: الشعب العراقي أثبت بصموده التاريخي أن الإرادة الوطنية هي أقوى سلاح في مواجهة أطماع المستكبرين",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "&quot;واشنطن بوست&quot;: في حال سيطرة الديمقراطيين على مجلسي الشيوخ والنواب سيصبح ترامب عملياً رئيساً في فترة انتقالية",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: مراسل الميادين: الطائرات السعودية تستهدف شبكة الاتصالات في مديرية مُنَبِّه الحدودية غربي محافظة صعدة شمال البلاد",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: الطيران الحربي الاسرائيلي اعتدى بغارة على بلدة المنصوري",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "بدء انسحاب قوات الاحتلال من المنطقة الشرقية بنابلس",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مئات المستوطنين يقتحمون مقام يوسف شرق نابلس بحماية الاحتلال  https://qudsn.co/share/217894",
+      "text": "مستوطنون بحماية قوات الاحتلال يسرقون ثمار الزيتون من أراضي المزارعين في سهل جبع شمال القدس المحتلة",
       "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قناة كان: الطيار الذي منع إسقاط طائرة فلاي دبي التي كانت بطريقها لتل أبيب هو هندي الجنسية",
-      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2427,9 +2406,30 @@
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   أمين المجلس الأعلى للأمن القومي الإيراني محسن رضائي: كما أن استضافة القواعد العسكرية الأمريكية لم تجلب لكم الأمن، فإن استضافة «جزار غزة» أيضا لن تكون لها عواقب حميدة.  تعلموا من الحرب الأخيرة، وكفّوا عن إشعال الحروب، وتوقفوا عن إطلاق الادعاءات الواهية بشأن الجزر الإيرانية.  #الإعلام_الحربي",
+      "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية: 5 جهات مختلفة في المؤسسة الأمنية الإسرائيلية، حتى وقت كتابة هذه السطور، تقول جميعها أن &quot;إسرائيل&quot; لا تملك ولم تكن لديها أي معلومات تربط الحادث بإيران، أو أي معلومات تحذيرية بشأن نية لاختطاف طائرة، وبالتأكيد ليس شيئًا أكثر تحديدًا.  &quot;قرأت الأقوال والتصريحات والتلميحات، وأرى الفوضى على الشبكة التي تقوم بها مختلف آلات إنتاج الأخبار الكاذبة&quot;، قال أحد المصادر. &quot;كل هذه الأمور غير معروفة أصلًا&quot;، أضاف، بمعنى أنها غير موجودة في المنظومة. بشكل عام، &quot;الآن ننتظر الحقائق&quot;، قال المصدر.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9976922097644287
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "📹 جنوب لبنان يحيي ذكرى السيدين الشهيدين.. مؤتمر علمائي بمشاركة أكثر من 300 عالم https://almanar.com.lb/article/1224377/?s=tg",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9958018373673666
+      "semantic_danger_knn": 0.9451672518425872
+    },
+    {
+      "channelId": "OSINTdefender",
+      "channel": "Global_OSINT",
+      "text": "#USA  The U.S. Department of Defense has authorized an additional &#036;52.3 million for L3Harris proximity fuzes designed to equip APKWS laser-guided rockets for counter-drone operations. This firm-fixed-price modification, announced by the U.S. Department of War, supplements a contract originally awarded by the Naval Surface Warfare Center Indian Head Division to L3Harris Fuzing and Ordnance Systems in late May. The work, to be executed in Cincinnati, Ohio, is scheduled for completion by November 2027. The official notice does not specify the quantity of fuzes included in this funding.  A proximity fuze detonates a warhead upon detecting a nearby target, thereby eliminating the need for a direct impact on small, fast-moving drones to ensure destruction. L3Harris designates this product as the Mechanical Proximity Fuze, or FALCO fuze, named after the Fixed Wing, Air Launched, Counter-Unmanned Aircraft Systems Ordnance program.   Subscribe to @OSINTdefender | 💬 Chat room",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.8503518061701582
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️&rlm; مشاور فرمانده نیروی هوافضای سپاه:  &rlm;🔹 یکی از چالش‌های ما، اصابت موشک بالستیک دوربرد به هدف متحرک بود که در چند روز گذشته محقق شد؛ موفقیت‌های بیشتری نیز در راه است. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 0.8362608674878645
     }
   ]
 }
