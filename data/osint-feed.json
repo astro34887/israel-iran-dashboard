@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-10-02T18:56:29.655Z",
+  "last_updated": "2026-10-02T22:48:54.110Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.57",
-    "global_norm_sentiment": "-0.10"
+    "global_knn_danger": "0.59",
+    "global_norm_sentiment": "-0.14"
   },
   "timeline": [
-    {
-      "time": "2026-09-23T01:12:04.217Z",
-      "danger": 0.522,
-      "sentiment": -0.285,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.338,
-          "sentiment": -0.833
-        },
-        "OSINTdefender": {
-          "danger": 0.564,
-          "sentiment": -0.267
-        },
-        "irna_1313": {
-          "danger": 0.367,
-          "sentiment": 0.167
-        },
-        "sepah_pasdaran": {
-          "danger": 0.257,
-          "sentiment": -0.533
-        },
-        "almanarnews": {
-          "danger": 0.509,
-          "sentiment": 0.267
-        },
-        "C_Military1": {
-          "danger": 0.813,
-          "sentiment": -0.367
-        },
-        "almayadeen": {
-          "danger": 0.448,
-          "sentiment": -0.8
-        },
-        "QudsN": {
-          "danger": 0.973,
-          "sentiment": -0.321
-        }
-      }
-    },
     {
       "time": "2026-09-23T07:15:08.516Z",
       "danger": 0.512,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.2
         }
       }
+    },
+    {
+      "time": "2026-10-02T22:48:54.110Z",
+      "danger": 0.586,
+      "sentiment": -0.141,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.58,
+          "sentiment": -0.4
+        },
+        "OSINTdefender": {
+          "danger": 0.604,
+          "sentiment": 0.067
+        },
+        "irna_1313": {
+          "danger": 0.496,
+          "sentiment": -0.367
+        },
+        "sepah_pasdaran": {
+          "danger": 0.422,
+          "sentiment": -0.533
+        },
+        "almanarnews": {
+          "danger": 0.392,
+          "sentiment": 0.286
+        },
+        "C_Military1": {
+          "danger": 0.717,
+          "sentiment": 0.3
+        },
+        "almayadeen": {
+          "danger": 0.769,
+          "sentiment": -0.533
+        },
+        "QudsN": {
+          "danger": 0.933,
+          "sentiment": -0.067
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.5574311082913244
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.5798904772042521
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 11,
-      "raw_sentiment": -0.6363636363636364,
-      "knn_danger_metric": 0.5865292309859451
+      "num_messages": 15,
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.49612334686875575
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.553438212898128
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.4217975991850624
     },
     "almanarnews": {
       "name": "Hezbollah",
-      "num_messages": 15,
-      "raw_sentiment": 0.2,
-      "knn_danger_metric": 0.5234873549178274
+      "num_messages": 14,
+      "raw_sentiment": 0.2857142857142857,
+      "knn_danger_metric": 0.3920668361231015
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.3333333333333333,
+      "raw_sentiment": 0.3,
       "knn_danger_metric": 0.7166907776011536
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.6
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.7688552126690742
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.5815533987576925
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.9333333333333333
     }
   },
   "semantic_logs": [
@@ -2337,7 +2337,7 @@
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
       "text": "מכירים מישהו שהחגים לא פשוטים עבורו מאז המלחמה? שלחו לו את המספר הזה.  הלומבולנס, יש עם מי לדבר גם בשמחת תורה. אוזן קשבת ותמיכה בגובה העיניים לאנשי כוחות הביטחון, לנכי צה״ל ולמשפחותיהם. אפשר לפנות גם כשלא קשה, וגם כשדואגים למישהו קרוב.  📞 02-6466466 | שיחה או וואטסאפ 24/7, גם בשבת ובחג, בישראל ובחו״ל. לשיחה עם מתנדב בוואטסאפ  לקראת ההקפות, בקשה מהלומבולנס: • לא למשוך לריקוד ולא לגעת במפתיע. • להשאיר מעברים ויציאות פנויים. • להציע להשתתף ולכבד גם סירוב. • לא ללטף כלב שירות ולא להסיח את דעתו. • לשים לב לעוצמת השירה ולמי שבוחר לעמוד בצד.  לקריאת האיגרת המלאה העבירו לרב ולגבאים בקהילה שלכם לפני החג.  שמרו את המספר ושתפו עם המשפחה, החברים מהשירות והקהילה.  הלומבולנס 🧡 מבית שיקום 🆙 לזכויות, מידע ועדכונים: הצטרפו לערוץ שיקום אפ בוואטסאפ",
-      "absolute_sentiment": 1,
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2348,23 +2348,23 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️مهروز ساعی: طلای تکواندوی بانوان در ناگویا حکم دو طلا را دارد &lrm;✅ @sepah_pasdaran",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "לא חייבים לחזור...  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; تصاویری از آتش‌سوزی‌ گسترده‌ای در مناطق مختلف شهر ریاض، پایتخت عربستان &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 1,
+      "text": "شلیک موشک بالستیک توسط کره شمالی به سمت دریای ژاپن   ستاد مشترک ارتش کره جنوبی از پرتاب یک موشک توسط پیونگ‌یانگ به سمت آب‌های دریای ژاپن خبر داد.  🔹 @sepah_pasdaran",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "📹 الحرس الثوري في ذكرى «الوعد الصادق 2»: انتهى عهد التهديد من دون كلفة https://almanar.com.lb/article/1227857/?s=tg",
+      "text": "بالفيديو | قوة راجلة من جيش الاحتلال تنتشر في أحياء بلدة قباطية جنوب جنين",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
@@ -2392,42 +2392,42 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: &quot;جيش&quot; الاحتلال ينفذ عملية نسف شرقي مدينة غزة",
+      "text": "فرانس برس: فصائل موالية للحكومة الأثيوبية تتبنى السيطرة على مطار عاصمة إقليم تيغراي",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "اليمن: مدير مكتب الميادين: أنباء عن استهداف القوات المسلحة اليمنية قيادات عسكرية سعودية وتحشيدات للقوات المدعومة منها في تعز",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: فاتن غطاس: وفقا لتوقعاتنا أن تحصل &quot;القائمة المشتركة&quot; على 10 مقاعد وأكثر في انتخابات &quot;الكنيست&quot;",
-      "absolute_sentiment": 1,
+      "text": "اليمن: الهيئة الوطنية لحقوق الإنسان في حكومة صنعاء: القوات السعودية ارتكبت جرائم حرب في منطقتي &quot;محلة&quot; و&quot;القهر حطاب&quot; غرب صعدة",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: فاتن غطاس: نعتبر هذه المعركة الانتخابية معركة وجود وتحدي على البقاء في وجه الفاشية واستمرار لنضال أهلنا",
-      "absolute_sentiment": 1,
+      "text": "اليمن: الهيئة الوطنية لحقوق الإنسان في صنعاء: ما يجري في صعدة ليس حادثاً عرضياً بل سياسة قتل ممنهجة ومستمرة تستهدف الإنسان اليمني",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: فاتن غطاس: نسمع أصوات أهل غزة والضفة وأي تغيير في الحكومة الإسرائيلية في مصلحتنا جميعاً",
-      "absolute_sentiment": 1,
+      "text": "لبنان: مراسل الميادين في الجنوب: &quot;جيش&quot; الاحتلال الإسرائيلي نفذ تفجيراً عنيفاً في أطراف بلدة برعشيت",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: هيئة مقاومة الجدار والاستيطان: 30 شهيداً برصاص المستوطنين في الضفة الغربية منذ بداية العام الحالي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: فاتن غطاس: لدينا فرصة حقيقة لطرد الفاشيين من الحكومة الإسرائيلية ولذلك على الناخبين التوجه للتصويت",
+      "text": "سوريا: مقتل 3 أشخاص وإصابة 7 آخرين بإطلاق نار على سيارة في رأس المعرة بالقلمون في ريف دمشق",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
