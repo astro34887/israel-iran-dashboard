@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-10-03T07:31:21.212Z",
+  "last_updated": "2026-10-03T12:59:53.824Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.58",
-    "global_norm_sentiment": "-0.20"
+    "global_norm_sentiment": "-0.10"
   },
   "timeline": [
-    {
-      "time": "2026-09-23T18:12:20.815Z",
-      "danger": 0.545,
-      "sentiment": -0.153,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.615,
-          "sentiment": -0.4
-        },
-        "OSINTdefender": {
-          "danger": 0.564,
-          "sentiment": -0.167
-        },
-        "irna_1313": {
-          "danger": 0.3,
-          "sentiment": 0.1
-        },
-        "sepah_pasdaran": {
-          "danger": 0.321,
-          "sentiment": -0.1
-        },
-        "almanarnews": {
-          "danger": 0.62,
-          "sentiment": 0.133
-        },
-        "C_Military1": {
-          "danger": 0.751,
-          "sentiment": -0.6
-        },
-        "almayadeen": {
-          "danger": 0.662,
-          "sentiment": 0.067
-        },
-        "QudsN": {
-          "danger": 0.666,
-          "sentiment": -0.433
-        }
-      }
-    },
     {
       "time": "2026-09-23T21:59:51.058Z",
       "danger": 0.542,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.433
         }
       }
+    },
+    {
+      "time": "2026-10-03T12:59:53.824Z",
+      "danger": 0.576,
+      "sentiment": -0.095,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.586,
+          "sentiment": -0.2
+        },
+        "OSINTdefender": {
+          "danger": 0.671,
+          "sentiment": 0.267
+        },
+        "irna_1313": {
+          "danger": 0.384,
+          "sentiment": 0.4
+        },
+        "sepah_pasdaran": {
+          "danger": 0.602,
+          "sentiment": -0.667
+        },
+        "almanarnews": {
+          "danger": 0.503,
+          "sentiment": -0.133
+        },
+        "C_Military1": {
+          "danger": 0.724,
+          "sentiment": 0.233
+        },
+        "almayadeen": {
+          "danger": 0.61,
+          "sentiment": -0.433
+        },
+        "QudsN": {
+          "danger": 0.729,
+          "sentiment": -0.286
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.5765284067155817
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.5864950718938066
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,20 +2291,20 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.475567247540664
+      "raw_sentiment": 0.4,
+      "knn_danger_metric": 0.383986155152561
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.5356394545896574
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.602375081237815
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.5789029811998312
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.5032320631287767
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.7333333333333333,
-      "knn_danger_metric": 0.6359796518963463
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.6095381767410538
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.6409472242966106
+      "num_messages": 14,
+      "raw_sentiment": -0.2857142857142857,
+      "knn_danger_metric": 0.7285365695902303
     }
   },
   "semantic_logs": [
@@ -2334,41 +2334,6 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "מכירים מישהו שהחגים לא פשוטים עבורו מאז המלחמה? שלחו לו את המספר הזה.  הלומבולנס, יש עם מי לדבר גם בשמחת תורה. אוזן קשבת ותמיכה בגובה העיניים לאנשי כוחות הביטחון, לנכי צה״ל ולמשפחותיהם. אפשר לפנות גם כשלא קשה, וגם כשדואגים למישהו קרוב.  📞 02-6466466 | שיחה או וואטסאפ 24/7, גם בשבת ובחג, בישראל ובחו״ל. לשיחה עם מתנדב בוואטסאפ  לקראת ההקפות, בקשה מהלומבולנס: • לא למשוך לריקוד ולא לגעת במפתיע. • להשאיר מעברים ויציאות פנויים. • להציע להשתתף ולכבד גם סירוב. • לא ללטף כלב שירות ולא להסיח את דעתו. • לשים לב לעוצמת השירה ולמי שבוחר לעמוד בצד.  לקריאת האיגרת המלאה העבירו לרב ולגבאים בקהילה שלכם לפני החג.  שמרו את המספר ושתפו עם המשפחה, החברים מהשירות והקהילה.  הלומבולנס 🧡 מבית שיקום 🆙 לזכויות, מידע ועדכונים: הצטרפו לערוץ שיקום אפ בוואטסאפ",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "הריאל האיראני מוסיף להיחלש היום לשפל חדש, ומשלים ירידה של כ 30% בחודש וחצי.  השער הנוכחי בשווקים בטהרן עומד כעת על 2.61 מיליון ריאל לדולר.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "ניסיון חיסול של בכיר הלילה בעזה   סמוך לשעה אחת וחצי אחר חצות תקפו מטוסי קרב של צה&quot;ל במספר פצצות את קומת הקרקע של בניין &quot;אלאצאלה&quot; בשכונת רמאל במערב העיר עזה.  כתוצאה מהתקיפה מדווחים ערוצים פלסטינים מזוהי על 5 הרוגים:  1. מאריא א-נג&#39;אר (נוצריה)  2. מיסאא&#39; אבראהים (אמה של מאריא).  3. ד&quot;ר יאסמין אלבובו 4. חלום אלבובו (אמה של ד&quot;ר יאסמין)  5. בלאל ח&#39;ליל עודה, בן 21.  אף אחד מהם לא מתאים לתיאור של בכיר שמצדיק תקיפה מסוג זה.   ע&quot;פ מקורות ישראלים יעד התקיפה היה עלי אלעאמודי, חבר הלשכה המדינית של חמאס המשמש כמחליפו של סנואר ברצועת עזה.   לא ברור עדיין אם נפגע בתקיפה.  מצורף תיעוד של המבנה שהותקף.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "شلیک موشک بالستیک توسط کره شمالی به سمت دریای ژاپن   ستاد مشترک ارتش کره جنوبی از پرتاب یک موشک توسط پیونگ‌یانگ به سمت آب‌های دریای ژاپن خبر داد.  🔹 @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; سردار بلالی: متناسب با نیاز عملیاتی در ساخت موشک نوآوری می‌کنیم &lrm;✅ ️@sepah_pasdaran",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
       "text": "&rlm; ️حمله هوایی رژیم سعودی به «تعز» یمن  &rlm;🔹 رسانه‌های یمنی از حمله جنگنده‌های رژیم سعودی به معبر شرقی جاده «جوله القصر» در شهرستان «صاله» در استان تعز خبر دادند. &lrm;✅ @sepah_pasdaran",
@@ -2376,23 +2341,9 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 السودان | الجيش السوداني يعلن استعادة المزروب في شمال كردفان وأسر مقاتلين أجانب مع الدعم السريع https://almanar.com.lb/article/1228542/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 اذربيجان | وزراء دفاع تركيا وأذربيجان وجورجيا يبحثون تعزيز التعاون الدفاعي وأمن جنوب القوقاز https://almanar.com.lb/article/1228577/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "قفزة بـ 65 ضعفاً في صادرات التفاح الإيراني إلى تركيا https://almanar.com.lb/article/1228682/?s=tg",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️#فوری |هم اکنون انفجار در ریاض .... &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2420,16 +2371,65 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: شهداء و مصابون من جراء استهداف طائرات الاحتلال شقة سكنية قرب دوار حيدر بحي الرمال غربي مدينة غزة",
+      "text": "اليمن: مراسل الميادين في صنعاء: المعارك في محافظة تعز تتركز في الناحية الشمالية والجنوبية والشرقية وفي ريف مدينة تعز",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "اليمن: غارات سعودية على جبل عنم في مديرية سحار في محافظة صعدة شمالي غرب اليمن",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: 3 شهداء من جراء استهداف طائرات الاحتلال شقة سكنية قرب دوار حيدر بحي الرمال غربي مدينة غزة",
+      "text": "اليمن: مدير مكتب الميادين في صنعاء: الغارات السعودية تركز على استهداف شبكات الاتصالات",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "اليمن: مدير مكتب الميادين في صنعاء: غارات سعودية بالصواريخ تستهدف محافظة صعدة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "اليمن: مدير مكتب الميادين في صنعاء: لم تورد وزارة الصحة أي تقارير حتى الآن عن خسائر بشرية في الغارات السعودية الأخيرة على صنعاء",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "اليمن: الصحة اليمنية في صنعاء: استهداف المستشفيات والمنشآت الصحية يُعد انتهاكاً صارخاً للقوانين الدولية والإنسانية",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل| مدفعية الاحتلال تستهدف أطراف قريتي معرية وعابدين في حوض اليرموك جنوب غربي سوريا.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "سوريّان يُفاجَآن بآليات لجيش الاحتلال تجوب قرية عابدين في ريف درعا",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 15 العبرية - يوسي يهوشع: يواصل الأمريكيون حشد القوات في المنطقة: حاملة الطائرات «روزفلت» في طريقها إلى الشرق الأوسط، وبالتوازي تغادر مجموعة «ماكين آيلاند» سان دييغو، وعلى متنها نحو 2,200 من مشاة البحرية ونحو 12 طائرة من طراز F-35B.  بالإضافة إلى ذلك، نقلت الولايات المتحدة بطاريتي باتريوت إضافيتين إلى السعودية وقطر لحماية منشآت النفط والغاز.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9986358496212903
     }
   ]
 }
