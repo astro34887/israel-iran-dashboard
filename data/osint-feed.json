@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-10-03T23:29:38.966Z",
+  "last_updated": "2026-10-04T04:03:52.250Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.60",
-    "global_norm_sentiment": "-0.20"
+    "global_knn_danger": "0.61",
+    "global_norm_sentiment": "-0.23"
   },
   "timeline": [
-    {
-      "time": "2026-09-24T11:01:12.577Z",
-      "danger": 0.511,
-      "sentiment": -0.277,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.472,
-          "sentiment": -0.533
-        },
-        "OSINTdefender": {
-          "danger": 0.584,
-          "sentiment": -0.2
-        },
-        "irna_1313": {
-          "danger": 0.439,
-          "sentiment": -0.4
-        },
-        "sepah_pasdaran": {
-          "danger": 0.342,
-          "sentiment": -0.333
-        },
-        "almanarnews": {
-          "danger": 0.438,
-          "sentiment": 0.167
-        },
-        "C_Military1": {
-          "danger": 0.731,
-          "sentiment": -0.367
-        },
-        "almayadeen": {
-          "danger": 0.589,
-          "sentiment": -0.633
-        },
-        "QudsN": {
-          "danger": 0.566,
-          "sentiment": -0.3
-        }
-      }
-    },
     {
       "time": "2026-09-24T16:24:06.873Z",
       "danger": 0.493,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.267
         }
       }
+    },
+    {
+      "time": "2026-10-04T04:03:52.250Z",
+      "danger": 0.607,
+      "sentiment": -0.233,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.519,
+          "sentiment": -0.367
+        },
+        "OSINTdefender": {
+          "danger": 0.692,
+          "sentiment": 0.367
+        },
+        "irna_1313": {
+          "danger": 0.496,
+          "sentiment": -0.5
+        },
+        "sepah_pasdaran": {
+          "danger": 0.554,
+          "sentiment": -0.433
+        },
+        "almanarnews": {
+          "danger": 0.521,
+          "sentiment": -0.467
+        },
+        "C_Military1": {
+          "danger": 0.687,
+          "sentiment": 0.167
+        },
+        "almayadeen": {
+          "danger": 0.801,
+          "sentiment": -0.5
+        },
+        "QudsN": {
+          "danger": 0.848,
+          "sentiment": -0.462
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,20 +2279,20 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.5860829848020164
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.5194163181353496
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.6963613464013716
+      "raw_sentiment": 0.36666666666666664,
+      "knn_danger_metric": 0.691716100735093
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.49592159560278426
+      "num_messages": 12,
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.4959611574501656
     },
     "sepah_pasdaran": {
       "name": "IRGC",
@@ -2303,8 +2303,8 @@
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.45973614849949956
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.5205520162084454
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2316,13 +2316,13 @@
       "name": "Arab_Axis",
       "num_messages": 15,
       "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.7604501762178676
+      "knn_danger_metric": 0.8008834787678853
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.854285056349378
+      "num_messages": 13,
+      "raw_sentiment": -0.46153846153846156,
+      "knn_danger_metric": 0.8478092179808596
     }
   },
   "semantic_logs": [
@@ -2336,15 +2336,8 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "ניסיון חיסול של בכיר הלילה בעזה   סמוך לשעה אחת וחצי אחר חצות תקפו מטוסי קרב של צה&quot;ל במספר פצצות את קומת הקרקע של בניין &quot;אלאצאלה&quot; בשכונת רמאל במערב העיר עזה.  כתוצאה מהתקיפה מדווחים ערוצים פלס��ינים מזוהי על 5 הרוגים:   1. מאריא א-נג&#39;אר (נוצריה)  2. מיסאא&#39;…",
+      "text": "ניסיון חיסול של בכיר הלילה בעזה   סמוך לשעה אחת וחצי אחר חצות תקפו מטוסי קרב של צה&quot;ל במספר פצצות את קומת הקרקע של בניין &quot;אלאצאלה&quot; בשכונת רמאל במערב העיר עזה.  כתוצאה מהתקיפה מדווחים ערוצים פלסטינים מזוהי על 5 הרוגים:   1. מאריא א-נג&#39;אר (נוצריה)  2. מיסאא&#39;…",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "תיעוד שנחשף לראשונה הערב לרגל יום השנה לחיסולו של צפי א-דין:  נסראללה וצפי א-דין - פטרוזיליה וכוסברה.  תגובה אחת",
-      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
@@ -2364,15 +2357,15 @@
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "بالفيديو | قوات الاحتلال تقتحم بلدة قباطية جنوب جنين",
-      "absolute_sentiment": 0.5,
+      "text": "🔵 البرازيل | 160 مليون ناخب يتحضرون لانتخابات عامّة الاحد وسط تنافس حاد بين مرشحي الرئاسة وتوقعات بالحسم في جولة ثانية https://almanar.com.lb/article/1230537/?s=tg",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "🔵 البرازيل | 160 مليون ناخب يتحضرون لانتخابات عامّة الاحد وسط تنافس حاد بين مرشحي الرئاسة وتوقعات بالحسم في جولة ثانية https://almanar.com.lb/article/1230537/?s=tg",
-      "absolute_sentiment": -1,
+      "text": "🔵 البرازيل | اختتام الاستعدادات قبيل انتخابات رئاسية حاسمة اليوم الأحد https://almanar.com.lb/article/1230717/?s=tg",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
@@ -2428,6 +2421,13 @@
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
       "text": "فلسطين المحتلة: مراسل الميادين: مصابون أحدهم بحالة حرجة إثر غارة إسرائيلية على حي الشيخ رضوان شمال غربي مدينة غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "اليمن: مراسل الميادين في صنعاء: الطائرات الحربية السعودية تشن غارتين على العاصمة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
