@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-10-04T22:16:09.331Z",
+  "last_updated": "2026-10-05T01:32:29.082Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.59",
-    "global_norm_sentiment": "-0.23"
+    "global_norm_sentiment": "-0.24"
   },
   "timeline": [
-    {
-      "time": "2026-09-25T09:19:27.483Z",
-      "danger": 0.535,
-      "sentiment": -0.2,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.502,
-          "sentiment": -0.5
-        },
-        "OSINTdefender": {
-          "danger": 0.591,
-          "sentiment": -0.167
-        },
-        "irna_1313": {
-          "danger": 0.443,
-          "sentiment": -0.2
-        },
-        "sepah_pasdaran": {
-          "danger": 0.303,
-          "sentiment": -0.333
-        },
-        "almanarnews": {
-          "danger": 0.41,
-          "sentiment": -0.067
-        },
-        "C_Military1": {
-          "danger": 0.753,
-          "sentiment": -0.067
-        },
-        "almayadeen": {
-          "danger": 0.704,
-          "sentiment": -0.267
-        },
-        "QudsN": {
-          "danger": 0.697,
-          "sentiment": -0.267
-        }
-      }
-    },
     {
       "time": "2026-09-25T14:57:29.301Z",
       "danger": 0.541,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.333
         }
       }
+    },
+    {
+      "time": "2026-10-05T01:32:29.082Z",
+      "danger": 0.589,
+      "sentiment": -0.244,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.667,
+          "sentiment": -0.5
+        },
+        "OSINTdefender": {
+          "danger": 0.655,
+          "sentiment": 0.2
+        },
+        "irna_1313": {
+          "danger": 0.439,
+          "sentiment": 0.222
+        },
+        "sepah_pasdaran": {
+          "danger": 0.364,
+          "sentiment": -0.6
+        },
+        "almanarnews": {
+          "danger": 0.538,
+          "sentiment": -0.233
+        },
+        "C_Military1": {
+          "danger": 0.743,
+          "sentiment": -0.5
+        },
+        "almayadeen": {
+          "danger": 0.572,
+          "sentiment": -0.667
+        },
+        "QudsN": {
+          "danger": 0.961,
+          "sentiment": -0.2
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2285,26 +2285,26 @@
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.6451435893340374
+      "raw_sentiment": 0.2,
+      "knn_danger_metric": 0.6549043150302327
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.6469646968985194
+      "num_messages": 9,
+      "raw_sentiment": 0.2222222222222222,
+      "knn_danger_metric": 0.43949134718461175
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.39705133821145566
+      "knn_danger_metric": 0.36371800487812234
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.23333333333333334,
-      "knn_danger_metric": 0.3271392326492372
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.5381485031251774
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.13333333333333333,
-      "knn_danger_metric": 0.766725178868116
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.5724487312167987
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.7715446854901166
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.9612806030345695
     }
   },
   "semantic_logs": [
@@ -2371,34 +2371,6 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: محافظ لحج في حكومة صنعاء أحمد جريب: لا خطر على الجنوب من صنعاء ومن يخوفهم يريد أن يزج بهم في معارك لا ناقة لهم فيها ولا جمل",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: محافظ لحج في حكومة صنعاء: نحذر أبناء المحافظات الجنوبية من التضخيم الإعلامي السعودي الذي يهوّل ويصور أن هذه التحركات تستهدفهم",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي على مشروع بيت لاهيا شمالي قطاع غزة",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في جنوب لبنان: مدفعية الاحتلال تستهدف أطراف بلدة ميفدون",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "لبنان: مراسل الميادين في الجنوب: مدفعية الاحتلال الإسرائيلي تستهدف بلدة المنصوري في قضاء صور",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
@@ -2425,10 +2397,38 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "البرازيل: موفد الميادين: بولسونارو حصل على 47.25% من الأصوات في مقابل 44.9% لدا سيلفا حتى هذه اللحظة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مدفعية الاحتلال تستهدف بشكل متقطع المناطق الشرقية لجباليا شمال قطاع غزة.",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة ميثلون جنوب جنين",
       "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تداهم أحد المنازل خلال اقتحام بلدة قوصين غرب نابلس.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تداهم المنازل خلال اقتحام بلدة ميثلون جنوب جنين.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية عوريف جنوب نابلس.",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
   ]
