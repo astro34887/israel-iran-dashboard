@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-10-05T01:32:29.082Z",
+  "last_updated": "2026-10-05T08:12:27.495Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.59",
-    "global_norm_sentiment": "-0.24"
+    "global_knn_danger": "0.54",
+    "global_norm_sentiment": "-0.28"
   },
   "timeline": [
-    {
-      "time": "2026-09-25T14:57:29.301Z",
-      "danger": 0.541,
-      "sentiment": -0.288,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.682,
-          "sentiment": -0.567
-        },
-        "OSINTdefender": {
-          "danger": 0.591,
-          "sentiment": -0.1
-        },
-        "irna_1313": {
-          "danger": 0.457,
-          "sentiment": -0.115
-        },
-        "sepah_pasdaran": {
-          "danger": 0.453,
-          "sentiment": -0.3
-        },
-        "almanarnews": {
-          "danger": 0.346,
-          "sentiment": -0.067
-        },
-        "C_Military1": {
-          "danger": 0.811,
-          "sentiment": -0.433
-        },
-        "almayadeen": {
-          "danger": 0.428,
-          "sentiment": -0.5
-        },
-        "QudsN": {
-          "danger": 0.69,
-          "sentiment": -0.633
-        }
-      }
-    },
     {
       "time": "2026-09-25T19:09:10.948Z",
       "danger": 0.499,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.2
         }
       }
+    },
+    {
+      "time": "2026-10-05T08:12:27.495Z",
+      "danger": 0.542,
+      "sentiment": -0.28,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.602,
+          "sentiment": -0.5
+        },
+        "OSINTdefender": {
+          "danger": 0.647,
+          "sentiment": 0.1
+        },
+        "irna_1313": {
+          "danger": 0.436,
+          "sentiment": -0.033
+        },
+        "sepah_pasdaran": {
+          "danger": 0.417,
+          "sentiment": -0.633
+        },
+        "almanarnews": {
+          "danger": 0.372,
+          "sentiment": -0.3
+        },
+        "C_Military1": {
+          "danger": 0.79,
+          "sentiment": -0.5
+        },
+        "almayadeen": {
+          "danger": 0.401,
+          "sentiment": -0.433
+        },
+        "QudsN": {
+          "danger": 0.806,
+          "sentiment": -0.333
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2280,49 +2280,49 @@
       "name": "Israel_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.6674033572485547
+      "knn_danger_metric": 0.6015990138984358
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0.2,
-      "knn_danger_metric": 0.6549043150302327
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.6467944258044177
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 9,
-      "raw_sentiment": 0.2222222222222222,
-      "knn_danger_metric": 0.43949134718461175
+      "num_messages": 15,
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.43554134125717975
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.36371800487812234
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.41674956579104333
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.5381485031251774
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.3716507161455856
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.7434395975164281
+      "knn_danger_metric": 0.7897299859194021
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.5724487312167987
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.4005458339149258
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.9612806030345695
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.8058426564611975
     }
   },
   "semantic_logs": [
@@ -2336,21 +2336,35 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "תמונות מיוחדות של מזכ&quot;ל חזבאללה נעים קאסם, שנחשפות לראשונה.  תגובה אחת",
+      "text": "כיצד הפך הנגב למחסן הנשק הלא חוקי הגדול שמתספק מליציות חמושות בתוך ישראל וארגוני טרור ביהודה שומרון ועזה?  חגי רזניק, מנכ״ל מכון ריפמן, מתארח בפודקאסט ״דעה לא פופולרית״ לשיחה על הואקום הריבוני בנגב, על הסכנה שעשויה להתפוצץ לנו בפנים במידה ויפרצו מהומות ״שומר חומות״ בצירי הנגב, ועל פתרונות השורש שמציע המכון לטיפול יסודי באיומים.   מוזמנים להאזין בלינקים או לחפש ״דעה לא פופולרית״ ביוטיוב ובכל אפליקציות הפודקאסטים.   יוטיוב &gt;&gt; https://bit.ly/DLP-Negev110  ספוטיפיי &gt;&gt; https://bit.ly/DLP-Negev-Sptfy",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "מצרים - אזור א-לוואא&#39; בקהיר - אזרח עירני עם אינסטינקטים טובים במיוחד מצליח לתפוס ילד שנפל מקומה גבוהה בבניין ונבלם על ידי חבל כביסה.  #טוב_שוער  תגובה אחת",
+      "text": "ספרד: ראש ממשלת ספרד, פדרו סאנצ&#39;ז (שונא ישראל מובהק) מכריז על בחירות בזק לפרלמנט הספרדי בתאריך 29.11 - זאת אחרי שממשלת המיעוט שהוא עומד בראשה נכשלה בהעברת חקיקה - אין לו רוב בפרלמנט.  זה מהלך מסוכן מבחינת סאנצ&#39;ז. סיכויו לזכות מחדש בכיסא אינם גבוהים - אך נראה…",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️مقامات دولت مزدوران یمنی پا به فرار گذاشتند  نیروهای انصارالله وارد خانه سلطان البرکانی، رئیس پارلمان خودخوانده دولت مزدوران وابسته به عربستان سعودی در استان تعز شدند،مسئولین دولت مزدور نیز بعد از محاصره تعز توسط انصارالله، پا به فرار گذاشته و به عربستان سعودی گریختند &lrm;✅ @sepah_pasdaran",
+      "text": "&rlm; ️&rlm; حمله تروریستی به واحد گشت انتظامی در بمپور  تروریست‌های مزدور دشمن به واحد گشت انتظامی در شهرستان بمپورِ سیستان‌وبلوچستان حمله کردند.  خبرهای اولیه از شهادت ۲ تن از رزمندگان دلالت دارد. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "☑️تصاویری هولناک از لحظات اولیه حمله هوایی سعودی‌ها به اطراف بیمارستان کودکان در صنعا  @sepah_pasdaran",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 فلسطين | إصابة طفل فلسطيني بجروح خطيرة برصاص الاحتلال في خانيونس جنوب غزة https://almanar.com.lb/article/1233277/?s=tg",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2371,63 +2385,49 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: مدفعية الاحتلال الإسرائيلي تستهدف بلدة المنصوري في قضاء صور",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: قصف مدفعي إسرائيلي يستهدف مخيم جباليا شمال القطاع",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "المملكة المتحدة: مراسل الميادين في لندن: القوات الجوية الأميركية تعلن سحب جميع قاذفاتها من قاعدة سلاح الجو الملكي البريطاني في فيرفورد",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "العقود الآجلة لخام برنت ترتفع دولاراً للبرميل عقب إعلان اليمن استهداف منشآت تابعة لأرامكو السعودية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "البرازيل: موفد الميادين: بولسونارو حصل على 47.25% من الأصوات في مقابل 44.9% لدا سيلفا حتى هذه اللحظة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة ميثلون جنوب جنين",
-      "absolute_sentiment": 0,
+      "text": "إيران: التلفزيون الإيراني: استشهاد شرطيين في هجوم إرهابي على دورية للشرطة في مدينة بمبور بمحافظة سيستان وبلوشستان",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تداهم أحد المنازل خلال اقتحام بلدة قوصين غرب نابلس.",
+      "text": "عاجل| طيران الاحتلال المسير يشن غارة قرب مفترق أبراج طيبة في مواصي خانيونس.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم المنازل خلال اقتحام بلدة ميثلون جنوب جنين.",
-      "absolute_sentiment": 0,
+      "text": "إصابة خطيرة جراء استهداف الاحتلال لمجموعة من الأهالي قرب بئر الوكالة جنوب شرق أبراج طيبة غربي خانيونس.",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية عوريف جنوب نابلس.",
+      "text": "تصعيد الاحتلال في الضفة.. شهيد واعتقالات واقتحامات وتشديد للحواجز  https://qudsn.co/share/218002",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تقتحم بلدة أوصرين جنوب نابلس وتلاحق المزارعين",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تعتقل الناشطة سمر حمد عقب مداهمة منزلها في مدينة رام الله.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
