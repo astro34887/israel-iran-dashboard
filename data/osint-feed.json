@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-10-05T23:39:39.947Z",
+  "last_updated": "2026-10-06T04:36:03.702Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.54",
+    "global_knn_danger": "0.52",
     "global_norm_sentiment": "-0.27"
   },
   "timeline": [
-    {
-      "time": "2026-09-26T03:15:30.904Z",
-      "danger": 0.549,
-      "sentiment": -0.338,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.526,
-          "sentiment": -0.367
-        },
-        "OSINTdefender": {
-          "danger": 0.549,
-          "sentiment": -0.4
-        },
-        "irna_1313": {
-          "danger": 0.549,
-          "sentiment": 0.091
-        },
-        "sepah_pasdaran": {
-          "danger": 0.32,
-          "sentiment": -0.8
-        },
-        "almanarnews": {
-          "danger": 0.391,
-          "sentiment": -0.033
-        },
-        "C_Military1": {
-          "danger": 0.791,
-          "sentiment": -0.233
-        },
-        "almayadeen": {
-          "danger": 0.591,
-          "sentiment": -0.8
-        },
-        "QudsN": {
-          "danger": 0.825,
-          "sentiment": -0.667
-        }
-      }
-    },
     {
       "time": "2026-09-26T09:01:56.528Z",
       "danger": 0.505,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.367
         }
       }
+    },
+    {
+      "time": "2026-10-06T04:36:03.702Z",
+      "danger": 0.523,
+      "sentiment": -0.266,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.379,
+          "sentiment": -0.233
+        },
+        "OSINTdefender": {
+          "danger": 0.612,
+          "sentiment": -0.067
+        },
+        "irna_1313": {
+          "danger": 0.398,
+          "sentiment": -0.773
+        },
+        "sepah_pasdaran": {
+          "danger": 0.3,
+          "sentiment": -0.7
+        },
+        "almanarnews": {
+          "danger": 0.434,
+          "sentiment": -0.2
+        },
+        "C_Military1": {
+          "danger": 0.707,
+          "sentiment": -0.267
+        },
+        "almayadeen": {
+          "danger": 0.673,
+          "sentiment": -0.433
+        },
+        "QudsN": {
+          "danger": 0.78,
+          "sentiment": 0.143
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.38501650510952096
+      "raw_sentiment": -0.23333333333333334,
+      "knn_danger_metric": 0.37930251373870766
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,9 +2290,9 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.5002179495552215
+      "num_messages": 11,
+      "raw_sentiment": -0.7727272727272727,
+      "knn_danger_metric": 0.39762020557427713
     },
     "sepah_pasdaran": {
       "name": "IRGC",
@@ -2303,26 +2303,26 @@
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.37838179915453274
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.4339029204157051
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.6845508875242017
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.7073569409387636
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.6972267800496402
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.6732662380944158
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.9429011525198234
+      "num_messages": 14,
+      "raw_sentiment": 0.14285714285714285,
+      "knn_danger_metric": 0.7803975775564476
     }
   },
   "semantic_logs": [
@@ -2348,13 +2348,6 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "מזרח העיר עזה, לפני זמן קצר.  העזתיים דיווחו מוקדם יותר היום על בריחת תושבים מאזור שכונת שג&#39;אעיה לאחר שלאזור הגיעו &quot;רובוטים ממולכדים&quot; של צה&quot;ל.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "بيان القوات المسلحة اليمنية سيكون في تمام الساعة 11:10م، بعد قليل.",
@@ -2365,34 +2358,6 @@
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "بيانٌ صادرٌ عن القواتِ المسلحةِ اليمنيةِ  بسمِ اللهِ الرحمنِ الرحيمِ قالَ تعالى: {فَمَنِ اعْتَدَى عَلَيْكُمْ فَاعْتَدُوا عَلَيْهِ بِمِثْلِ مَا اعْتَدَى عَلَيْكُمْ} صدقَ اللهُ العظيم  في إطارِ الردِّ على العدوانِ السعوديِّ على بلدِنا والذي شنَّ خلالَ الـ24 ساعةً الماضيةَ 60 غارةً جويةً وصاروخًا مستهدفًا بها العاصمةَ صنعاءَ ومحافظاتِ الجوفَ وتعزَ وحجةَ وصعدةَ ومأربَ، وخلَّفت شهداءَ وجرحى من المدنيينَ بينهم نساءٌ وأطفالٌ. ليبلغَ إجمالي غاراتِ العدوِّ السعوديِّ على بلدِنا منذُ بدءِ التصعيدِ 1576 غارةً جويةً وصاروخًا.  نفذتِ القواتُ المسلحةُ اليمنيةُ ثلاثَ عملياتٍ عسكريةٍ نوعيةٍ وذلك بعددٍ كبيرٍ من الصواريخِ الباليستيةِ والمجنحةِ والطائراتِ المسيرةِ الأولى استهدفت مطارَ الملكِ خالدٍ في الرياضِ وكانتِ الإصابةُ دقيقةً ومباشرةً بفضلِ اللهِ وأدت إلى تعطلِ حركةِ الملاحةِ فيهِ. والثانيةُ استهدفتْ مصفاةَ أرامكو في رابغَ، وكانتِ الإصابةُ دقيقةً ومباشرةً وأدتِ العمليةُ إلى اشتعالِ النيرانِ في الموقعِ المستهدفِ. فيما استهدفتِ العمليةُ الثالثةُ مطارَ أبها وقاعدةَ خميسِ مشيط ومعسكرَ عاكفة في عسير ومواقعَ حساسةً أخرى في نجرانَ وجيزانَ وكانتِ الإصاباتُ دقيقةً بفضلِ اللهِ.  تحذرُ القواتُ المسلحةُ كلَّ شركاتِ الطيرانِ العالميةِ التي تستخدمُ الأجواءَ السعوديةِ من مواصلةِ استمرارِ رحلاتِها الجويةِ لأنها أصبحتْ مسرحاً لعملياتِنا باستثناءِ الأجواءِ المقدسةِ لمكةَ المكرمةِ والمدينةِ المنورةِ ونخلي مسؤوليتَنا من تبعاتِ تجاهلِ هذا التحذيرِ.  تؤكد القواتُ المسلحةُ لكافةَ أبناءِ شعبِنا المؤمنِ العزيزِ الكريمِ الصامدِ المجاهدِ أنها تمتلكُ من القدراتِ والإمكاناتِ ما يجعلُها بعونِ اللهِ تعالى وبالتوكلِ عليهِ قادرةً على مواجهةِ هذا التصعيدِ العدوانيِّ.. وأنها أعدتِ العدةَ لمثلِ هذا اليومِ .. فالقولُ لميدانِ المعركةِ والكلمةُ لساحاتِ البطولةِ والجهادِ.  واللهُ حسبُنا ونعمَ الوكيلُ، نعمَ المولى ونعمَ النصيرُ.  عاشَ اليمنُ حراً عزيزاً مستقلاً والنصرُ لليمنِ ولكلِّ أحرارِ الأمةِ  صنعاءُ، 24 ربيع الثاني 1448هـ الموافقُ 5 أكتوبر 2026م.  صادرٌ عنِ القواتِ المسلحةِ اليمنية  http://t.me/army21ye",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: مدير مكتب الميادين في اليمن: قد نشهد في الساعات المقبلة زخما في العمق السعودي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في جنوب لبنان: الطيران الحربي الإسرائيلي شن 3 غارات استهدفت وادي السلوقي وأطراف بلدة محيبيب في قضاء مرجعيون",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: أحمد المؤيد: الأميركيون لم يغادروا المعركة من خلال مشاركة الطائرات الأميركية في الغارات والإحداثيات التي ترسلها للسعودية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: أحمد المؤيد: ما يحصل في السعودية مقامرة غير محسوبة العواقب والثمن على المملكة كبير جداً",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2425,10 +2390,45 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "اليمن: وكالة &quot;سبأ&quot; بصنعاء: استشهاد مواطن وإصابة آخر إثر قصف مدفعي سعودي على مديرية شدا الحدودية غربي محافظة صعدة شمال اليمن",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "&quot;رويترز&quot; عن عمدة موسكو: 650 مسيرة اوكرانية هاجمت مناطق متفرقة من العاصمة الروسية خلال الليل",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال بلدة كفر الديك غرب سلفيت",
+      "text": "جانب من اقتحام قوات الاحتلال المستمر لبلدة كفر قدوم شرق قلقيلية، وسط حملة مداهمات واعتقالات",
       "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام قوات الاحتلال مخيم بلاطة شرق نابلس، ومداهمة عددًا من المنازل",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تعتقل الشاب &quot;باسم مرشود&quot; عقب مداهمة منزله في مخيم بلاطة شرق نابلس.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "&quot;في مناطق كثيرة، وضع المزارع أصبح مثل الحرامي، يحاول التواري عن الأنظار في أرضه&quot;&#33;  من أقسى مواسم الزيتون منذ عقود طويلة، في ظل هجمة استيطانية مسعورة وقطاف مغمس بالدم وبالقهر",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     }
   ]
