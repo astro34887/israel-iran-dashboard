@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-10-14T00:05:28.114Z",
+  "last_updated": "2026-10-14T05:44:46.868Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.59",
-    "global_norm_sentiment": "-0.21"
+    "global_knn_danger": "0.57",
+    "global_norm_sentiment": "-0.14"
   },
   "timeline": [
-    {
-      "time": "2026-10-03T01:41:47.096Z",
-      "danger": 0.58,
-      "sentiment": -0.307,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.58,
-          "sentiment": -0.367
-        },
-        "OSINTdefender": {
-          "danger": 0.631,
-          "sentiment": 0.233
-        },
-        "irna_1313": {
-          "danger": 0.488,
-          "sentiment": -0.667
-        },
-        "sepah_pasdaran": {
-          "danger": 0.411,
-          "sentiment": -0.667
-        },
-        "almanarnews": {
-          "danger": 0.373,
-          "sentiment": -0.367
-        },
-        "C_Military1": {
-          "danger": 0.717,
-          "sentiment": 0.333
-        },
-        "almayadeen": {
-          "danger": 0.802,
-          "sentiment": -0.833
-        },
-        "QudsN": {
-          "danger": 0.848,
-          "sentiment": -0.6
-        }
-      }
-    },
     {
       "time": "2026-10-03T07:31:21.212Z",
       "danger": 0.579,
@@ -2257,6 +2210,53 @@
           "sentiment": -0.4
         }
       }
+    },
+    {
+      "time": "2026-10-14T05:44:46.868Z",
+      "danger": 0.57,
+      "sentiment": -0.139,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.447,
+          "sentiment": -0.5
+        },
+        "OSINTdefender": {
+          "danger": 0.629,
+          "sentiment": 0.167
+        },
+        "irna_1313": {
+          "danger": 0.427,
+          "sentiment": 0.143
+        },
+        "sepah_pasdaran": {
+          "danger": 0.509,
+          "sentiment": -0.4
+        },
+        "almanarnews": {
+          "danger": 0.624,
+          "sentiment": 0.033
+        },
+        "C_Military1": {
+          "danger": 0.748,
+          "sentiment": -0.4
+        },
+        "almayadeen": {
+          "danger": 0.729,
+          "sentiment": -0.467
+        },
+        "QudsN": {
+          "danger": 0.637,
+          "sentiment": 0.167
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2275,32 +2275,32 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.32063352135140516
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.44674116718776913
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
       "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.6371639736722269
+      "knn_danger_metric": 0.6290730669794454
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.4502493794106598
+      "num_messages": 14,
+      "raw_sentiment": 0.14285714285714285,
+      "knn_danger_metric": 0.4267842346889181
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.6153751482179719
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.5090479710114971
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.5383173828122523
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.6239348214578672
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2311,14 +2311,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.7625066293338602
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.7291732960005268
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.8551285723353722
+      "raw_sentiment": 0.16666666666666666,
+      "knn_danger_metric": 0.6367888836557898
     }
   },
   "semantic_logs": [
@@ -2330,10 +2330,10 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️موشک یمن بر فراز آسمان سعودی &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 1,
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "טורקיה: משטרת ארדואן השתלטה הבוקר על ערוץ הטלוויזיה Halk TV - הערוץ הכלכלי הפופולרי ביותר בטורקיה, המזוהה עם האופוזיציה.  שוטרים פשטו לפנות בוקר על משרדי הערוץ, השידור נקטע ומונה &quot;נאמן מטעם המשטר&quot; שמפקח על הערוץ.  החשד הרשמי לו טוענת המשטרה של ארדואן : הערות…",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2402,29 +2402,29 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي شرقي مدينة غزة",
-      "absolute_sentiment": -1,
+      "text": "اليمن: مدير مكتب الميادين في اليمن: أنباء تفيد بتقدم ميداني كبير للقوات المسلحة اليمنية في تعز لم يعلن عنه رسمياً",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: وكالة سبأ - صنعاء: استشهاد مدنيين اثنين وجرح آخرين بقصف مدفعي سعودي على قرى سكنية في مديرية شدا الحدودية غربي محافظة صعدة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: مدير مكتب الميادين في اليمن: أنباء تفيد بأن القوات المسلحة اليمنية بدأت الرد على العدوان السعودي الذي استهدف صنعاء",
+      "text": "لبنان: مراسل الميادين: مدفعية الاحتلال الإسرائيلي تستهدف أطراف بلدة ميفدون",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: مدير مكتب الميادين في اليمن: أنباء تفيد بتقدم ميداني كبير للقوات المسلحة اليمنية في تعز لم يعلن عنه رسمياً",
-      "absolute_sentiment": 0,
+      "text": "لبنان: مراسل الميادين: مدفعية الاحتلال الإسرائيلي تستهدف وادي الحجير في الجنوب",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "السعودية: &quot;واس&quot; عن مصدر مسؤول في وزارة الطاقة السعودية: استهداف مبنى إداري تابع لشركة أرامكو السعودية في الظهران من دون إصابات",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
   ]
