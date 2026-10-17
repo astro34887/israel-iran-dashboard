@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-10-16T22:27:06.105Z",
+  "last_updated": "2026-10-17T00:59:24.761Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.58",
+    "global_knn_danger": "0.57",
     "global_norm_sentiment": "-0.30"
   },
   "timeline": [
-    {
-      "time": "2026-10-06T11:43:42.462Z",
-      "danger": 0.562,
-      "sentiment": -0.275,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.674,
-          "sentiment": -0.533
-        },
-        "OSINTdefender": {
-          "danger": 0.612,
-          "sentiment": 0
-        },
-        "irna_1313": {
-          "danger": 0.562,
-          "sentiment": -0.346
-        },
-        "sepah_pasdaran": {
-          "danger": 0.391,
-          "sentiment": -0.467
-        },
-        "almanarnews": {
-          "danger": 0.381,
-          "sentiment": 0.067
-        },
-        "C_Military1": {
-          "danger": 0.613,
-          "sentiment": -0.333
-        },
-        "almayadeen": {
-          "danger": 0.671,
-          "sentiment": -0.767
-        },
-        "QudsN": {
-          "danger": 0.762,
-          "sentiment": -0.208
-        }
-      }
-    },
     {
       "time": "2026-10-06T17:50:25.019Z",
       "danger": 0.495,
@@ -2257,6 +2210,53 @@
           "sentiment": -0.267
         }
       }
+    },
+    {
+      "time": "2026-10-17T00:59:24.761Z",
+      "danger": 0.566,
+      "sentiment": -0.3,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.529,
+          "sentiment": -0.767
+        },
+        "OSINTdefender": {
+          "danger": 0.586,
+          "sentiment": 0.3
+        },
+        "irna_1313": {
+          "danger": 0.478,
+          "sentiment": -0.667
+        },
+        "sepah_pasdaran": {
+          "danger": 0.357,
+          "sentiment": -0.6
+        },
+        "almanarnews": {
+          "danger": 0.5,
+          "sentiment": 0
+        },
+        "C_Military1": {
+          "danger": 0.661,
+          "sentiment": -0.5
+        },
+        "almayadeen": {
+          "danger": 0.628,
+          "sentiment": -0.433
+        },
+        "QudsN": {
+          "danger": 0.967,
+          "sentiment": -0.167
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2281,26 +2281,26 @@
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0.2,
-      "knn_danger_metric": 0.5737925813662201
+      "raw_sentiment": 0.3,
+      "knn_danger_metric": 0.5855137112071006
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.5587876231231425
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.4778070791244069
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.3750243604465343
+      "knn_danger_metric": 0.35722379590718245
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": 0,
-      "knn_danger_metric": 0.5320354835878371
+      "knn_danger_metric": 0.5000306831895952
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2311,14 +2311,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.6234925470462233
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.6282691100408762
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.9612806030345694
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.9666666666666667
     }
   },
   "semantic_logs": [
@@ -2344,13 +2344,6 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 التعبئة التربوية في حزب الله في الجامعة الاميركية والجامعة اللبنانية الاميركية تبارك بفوز مرشحيها بانتخابات الجامعتين https://almanar.com.lb/article/1268137/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "#الجمهورية_الإسلامية   المتحدث باسم الجيش الإيراني العميد محمد أكرمي نيا:   - أؤكد أن قدراتنا في مجال الدفاع الجوي أصبحت أعلى مما كانت عليه خلال حرب رمضان، وقد أدخلنا معدات جديدة إلى منظومتنا القتالية.  - أسقطنا خلال الأسابيع الأخيرة عدة طائرات مسيّرة أمريكية، كما أعدّت قوات الدفاع الجوي خططًا عملياتية وتقنية جديدة ونفّذتها في إطار مقر قيادة الدفاع الجوي.  - تدرّبنا على تنفيذ عمليات مشتركة ومبتكرة، وعزّزنا تغطية الدفاع الجوي في أنحاء البلاد بشكل كبير مقارنة بالفترة التي سبقت الحرب.  - أجرينا خلال هذه الفترة مناورات مشتركة مع القوة الجوفضائية التابعة لحرس الثورة الإسلامية، بهدف تعزيز التنسيق بين الجانبين.  - ابتعدت السفن الحربية الأمريكية إلى مسافات تتجاوز 500 كيلومتر عن سواحل الخليج، وبفضل الخطط العملياتية التي يجري تنفيذها، ستُجبر خلال الأيام المقبلة على الابتعاد إلى مناطق أبعد.  #الاعلام_الحربي",
@@ -2361,20 +2354,6 @@
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 101 غارةً جويةً وصاروخاً استهدف بها الأعيان المدنية في العاصمة صنعاء ومحافظات الضالع وتعز والحديدة وذمار ومأرب وصعدة والجوف وعمران ولحج من خلال طائرات &quot;F-15&quot; و &quot;تايفون&quot; أقلعت من قاعدتي خميس مشيط والطائف والعدوان الصاروخي من نجران وخلفت شهداء وجرحى من المدنيين بينهم نساء وأطفال. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 2489 غارة جوية وصاروخا.   http://t.me/army21ye",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: قصف مدفعي إسرائيلي استهدف بلدة ميفدون",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: &quot;جيش&quot; الاحتلال ينفذ عملية نسف شرقي مدينة غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2407,24 +2386,45 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "كوريا الجنوبية: كوريا الشمالية أجرت تجربة على طوربيد جديد مزود بتقنيات ذكاء اصطناعي",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "اليمن: وكالة سبأ بصنعاء: غارة جوية سعودية تستهدف مديرية مَرّان جنوبي غرب محافظة صعدة شمال اليمن",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "جيش الاحتلال يفجر روبوتا مفخخا في حي التفاح شرقي مدينة غزة.",
+      "text": "من اقتحام قوات الاحتلال حي كتف الواد في مدينة أريحا.",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية فحمة جنوب غرب جنين، وتداهم منزلًا.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "في عملية النسف الثالثة.. قوات الاحتلال تفجر روبوتا مفخخا شرقي مدينة غزة.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة سيلة الظهر جنوب جنين.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية | قوات الاحتلال تقتحم بلدة ترمسعيا شمال رام الله، وتغلق بوابات مدخل البلدة بالاتجاهين.",
-      "absolute_sentiment": -1,
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية تل جنوب غرب نابلس.",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     }
   ]
