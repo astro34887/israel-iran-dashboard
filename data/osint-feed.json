@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-10-17T05:27:23.245Z",
+  "last_updated": "2026-10-17T10:04:20.625Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.56",
-    "global_norm_sentiment": "-0.25"
+    "global_knn_danger": "0.54",
+    "global_norm_sentiment": "-0.30"
   },
   "timeline": [
-    {
-      "time": "2026-10-06T22:14:20.819Z",
-      "danger": 0.53,
-      "sentiment": -0.227,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.377,
-          "sentiment": -0.533
-        },
-        "OSINTdefender": {
-          "danger": 0.572,
-          "sentiment": 0.267
-        },
-        "irna_1313": {
-          "danger": 0.48,
-          "sentiment": -0.767
-        },
-        "sepah_pasdaran": {
-          "danger": 0.618,
-          "sentiment": -0.633
-        },
-        "almanarnews": {
-          "danger": 0.418,
-          "sentiment": -0.067
-        },
-        "C_Military1": {
-          "danger": 0.562,
-          "sentiment": 0
-        },
-        "almayadeen": {
-          "danger": 0.435,
-          "sentiment": -0.3
-        },
-        "QudsN": {
-          "danger": 0.885,
-          "sentiment": -0.1
-        }
-      }
-    },
     {
       "time": "2026-10-07T02:01:38.699Z",
       "danger": 0.52,
@@ -2257,6 +2210,53 @@
           "sentiment": -0.033
         }
       }
+    },
+    {
+      "time": "2026-10-17T10:04:20.625Z",
+      "danger": 0.542,
+      "sentiment": -0.3,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.674,
+          "sentiment": -0.9
+        },
+        "OSINTdefender": {
+          "danger": 0.55,
+          "sentiment": 0.467
+        },
+        "irna_1313": {
+          "danger": 0.476,
+          "sentiment": -0.533
+        },
+        "sepah_pasdaran": {
+          "danger": 0.583,
+          "sentiment": -0.567
+        },
+        "almanarnews": {
+          "danger": 0.215,
+          "sentiment": 0.067
+        },
+        "C_Military1": {
+          "danger": 0.82,
+          "sentiment": -0.767
+        },
+        "almayadeen": {
+          "danger": 0.698,
+          "sentiment": -0.633
+        },
+        "QudsN": {
+          "danger": 0.459,
+          "sentiment": 0
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2275,50 +2275,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.7,
-      "knn_danger_metric": 0.5207367535362996
+      "raw_sentiment": -0.9,
+      "knn_danger_metric": 0.6738258582920328
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
       "raw_sentiment": 0.4666666666666667,
-      "knn_danger_metric": 0.5451934684587695
+      "knn_danger_metric": 0.5496190138457783
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.3934311250949711
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.47581548399041285
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.4254540165047023
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.5827434154137258
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.5634199004751188
+      "raw_sentiment": 0.06666666666666667,
+      "knn_danger_metric": 0.21472349334144117
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.7666666666666667,
-      "knn_danger_metric": 0.7968745406081887
+      "knn_danger_metric": 0.8199382480580172
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.6616024433742095
+      "raw_sentiment": -0.6333333333333333,
+      "knn_danger_metric": 0.6981409841198251
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.7096451444475732
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.4594311934302047
     }
   },
   "semantic_logs": [
@@ -2332,28 +2332,35 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "*שווא  תגובה אחת",
+      "text": "פלסטינים גנבו צאן מחווה בדרום הר חברון: הכותרת במעריב היא &quot;הטרור היהודי באיו&quot;ש&quot;  הלילה נגנבו מחווה ישראלית באזור סוסיא בדרום הר חברון כעשרות ראשי צאן. המתיישבים מחפשים אחר הצאן. חלק מהצאן אותר בכפרים פלסטינים - כפי הנראה העדר הגנוב פוצל לכמה אזורים.   ע&quot;פ…",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "עוד שאלה שמתעוררת לגבי עדות העיתונאית האמריקאית שנפגעה אתמול ליד הכפר אבו פלאח☝️: היא טוענת שבעטו בה במשך עשר דקות לפחות.  ## איפה התיעוד שבועטים בה במשך עשר דקות? היו שם כל כך הרבה עיתונאים בצד הפלסטיני ואף אחד לא הספיק לתעד עשר דקות של תקיפה? 8 דקות? 5 דקות?  זה לא תואם את מה שקרה בשטח.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "تمدید مهلت خوداظهاری افزایش کالابرگ تا ۲۷ مهر   سازمان هدفمندسازی یارانه‌ها:  🔹مهلت ثبت درخواست افزایش اعتبار کالابرگ تا ساعت ۲۴ روز دوشنبه ۲۷ مهرماه تمدید شد  🔹سرپرستان خانوار مشمول که پیامک اطلاع‌رسانی دریافت کرده‌اند، می‌توانند علاوه بر مراجعه به پنجره…",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️ تصویری از سرداران شهید حاجی زاده و رشید بعد از عملیات وعده صادق ۲  «روحشان شاد و یادشان گرامی💔» &lrm;☑️ @sepah_pasdaran",
-      "absolute_sentiment": 1,
+      "text": "&rlm; ️دستگیری عامل حمل اسلحه غیرمجاز در منطقه جردن تهران  &rlm;🔹 مرکز اطلاع‌رسانی پلیس تهران بزرگ از شناسایی و دستگیری فردی خبر داد که با هدف انتقام‌جویی، اقدام به تهیه و حمل سلاح گرم و تجهیزات غیرمجاز می‌کرد. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "أسعار الواردات الأميركية تسجّل أكبر زيادة سنوية منذ أكثر من 4 سنوات https://almanar.com.lb/article/1268842/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 ماليزيا | ضباب دخاني سام يخنق البلاد وإندونيسيا تتصدر أسباب تلوث الهواء في جنوب شرق آسيا https://almanar.com.lb/article/1268877/?s=tg",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️ سرپرست وزارت دفاع: موشک ایرانی معادله را تعیین می‌کند، نه بمب‌های آمریکا &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2379,51 +2386,44 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: محمد الفرح: أين كان مجلس الأمن عندما شنّت السعودية مئات الآلاف من الغارات على اليمن وقتلت النساء والأطفال ودمّرت المنازل",
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   القائم بأعمال وزارة الدفاع الايرانية العميد مجيد ابن الرضا:   لا أهمية لأسماء قنابلكم وأحجامها&#33;  قنابلكم ستنفجر في أماكن أخرى: في سمعتكم على المستوى العالمي، وفي الاقتصاد الأمريكي، وحتى في معادلاتكم الانتخابية&#33;  إن قوتنا الصاروخية هي التي غيّرت المعادلات، وأوصلتكم إلى مرحلة بات عليكم فيها أن تقولوا منذ الآن: «أمرك سيدي&#33;».  #الاعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: الفرح لمجلس الأمن: من يريد إثبات حياده فليبدأ بتحقيق دولي مستقل في جرائم العدوان والحصار على اليمن ومحاسبة المسؤولين عنها",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: وكالة &quot;سبأ&quot; بصنعاء: طيران النظام السعودي استهدف بـ3 غارات منطقة المساحين بمديرية الشمايتين جنوبي محافظة تعز جنوب غرب اليمن",
+      "text": "غزة: مراسل الميادين: شهيد بقصف من مسيرة إسرائيلية في محيط مدرسة دار الأرقم بحي التفاح شمال شرقي مدينة غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "كوريا الجنوبية: كوريا الشمالية أجرت تجربة على طوربيد جديد مزود بتقنيات ذكاء اصطناعي",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: وكالة سبأ بصنعاء: غارة جوية سعودية تستهدف مديرية مَرّان جنوبي غرب محافظة صعدة شمال اليمن",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: مراسل الميادين: أكثر من 20 شهيدا وجريحاً بينهم 3 أطفال في الاعتداءات السعودية الليلة الماضية على ذمار بقنابل عنقودية",
+      "text": "غزة: مراسل الميادين: شهيدان ومصابون من جراء استهداف طائرات الاحتلال خيمة تؤوي نازحين قرب مستوصف الحرية في حي التفاح شمال شرقي مدينة غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: مراسل الميادين: محافظة صعدة تعرضت الليلة الماضية لـ6 غارات جوية وهجمات صاروخية وقصف مدفعي استهدف مناطق سكنية",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: مصابون بينهم طفلة بحالة خطرة جراء قصف إسرائيلي على مدينة دير البلح وسط القطاع",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي شرقي قرية المصدر وسط قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: شهيد ومصابون من بينهم طفلة بحالة خطرة باستهداف مجموعة من الفلسطينيين في شارع البركة جنوبي مدينة دير البلح وسط قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
