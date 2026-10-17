@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-10-17T10:04:20.625Z",
+  "last_updated": "2026-10-17T14:02:04.261Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.30"
+    "global_knn_danger": "0.59",
+    "global_norm_sentiment": "-0.27"
   },
   "timeline": [
-    {
-      "time": "2026-10-07T02:01:38.699Z",
-      "danger": 0.52,
-      "sentiment": -0.247,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.311,
-          "sentiment": -0.5
-        },
-        "OSINTdefender": {
-          "danger": 0.57,
-          "sentiment": 0.367
-        },
-        "irna_1313": {
-          "danger": 0.376,
-          "sentiment": -0.633
-        },
-        "sepah_pasdaran": {
-          "danger": 0.533,
-          "sentiment": -0.633
-        },
-        "almanarnews": {
-          "danger": 0.463,
-          "sentiment": -0.167
-        },
-        "C_Military1": {
-          "danger": 0.562,
-          "sentiment": 0
-        },
-        "almayadeen": {
-          "danger": 0.628,
-          "sentiment": -0.733
-        },
-        "QudsN": {
-          "danger": 0.811,
-          "sentiment": -0.042
-        }
-      }
-    },
     {
       "time": "2026-10-07T09:42:38.675Z",
       "danger": 0.54,
@@ -2257,13 +2210,60 @@
           "sentiment": 0
         }
       }
+    },
+    {
+      "time": "2026-10-17T14:02:04.261Z",
+      "danger": 0.588,
+      "sentiment": -0.267,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.792,
+          "sentiment": -0.667
+        },
+        "OSINTdefender": {
+          "danger": 0.55,
+          "sentiment": 0.467
+        },
+        "irna_1313": {
+          "danger": 0.42,
+          "sentiment": -0.1
+        },
+        "sepah_pasdaran": {
+          "danger": 0.32,
+          "sentiment": -0.467
+        },
+        "almanarnews": {
+          "danger": 0.587,
+          "sentiment": 0.067
+        },
+        "C_Military1": {
+          "danger": 0.777,
+          "sentiment": -0.867
+        },
+        "almayadeen": {
+          "danger": 0.79,
+          "sentiment": -0.333
+        },
+        "QudsN": {
+          "danger": 0.694,
+          "sentiment": -0.6
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2275,8 +2275,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.9,
-      "knn_danger_metric": 0.6738258582920328
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.792202338775914
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2287,38 +2287,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.47581548399041285
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.4202752971726665
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.5827434154137258
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.32015541874712133
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.21472349334144117
+      "knn_danger_metric": 0.586667707471748
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.7666666666666667,
-      "knn_danger_metric": 0.8199382480580172
+      "raw_sentiment": -0.8666666666666667,
+      "knn_danger_metric": 0.7770599448868525
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.6981409841198251
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.7895367237285759
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.4594311934302047
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.693780259682385
     }
   },
   "semantic_logs": [
@@ -2332,42 +2332,63 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "פלסטינים גנבו צאן מחווה בדרום הר חברון: הכותרת במעריב היא &quot;הטרור היהודי באיו&quot;ש&quot;  הלילה נגנבו מחווה ישראלית באזור סוסיא בדרום הר חברון כעשרות ראשי צאן. המתיישבים מחפשים אחר הצאן. חלק מהצאן אותר בכפרים פלסטינים - כפי הנראה העדר הגנוב פוצל לכמה אזורים.   ע&quot;פ…",
+      "text": "4 הרוגים בשלוש תקיפות כטב&quot;מ ברצועת עזה מאז שעות הבוקר:  1. תקיפה באזור בית הספר פהד בשכונת תפאח בעיר עזה - הרוג אחד: מאג&#39;ד א-צבאע&#39;.   2. תקיפת כטב&quot;מ באזור אלמשאהרה בשכונת תפאח בעיר עזה - שני הרוגים: עבדאללה ג&#39;אבר ועמאד ג&#39;אבר.   3. תקיפת כטב&quot;מ ברחוב אלברכה בדיר אלבלח במרכז הרצועה - הרוג וארבעה פצועים.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "עוד שאלה שמתעוררת לגבי עדות העיתונאית האמריקאית שנפגעה אתמול ליד הכפר אבו פלאח☝️: היא טוענת שבעטו בה במשך עשר דקות לפחות.  ## איפה התיעוד שבועטים בה במשך עשר דקות? היו שם כל כך הרבה עיתונאים בצד הפלסטיני ואף אחד לא הספיק לתעד עשר דקות של תקיפה? 8 דקות? 5 דקות?  זה לא תואם את מה שקרה בשטח.",
+      "text": "הודעה מטעם ראש העדה הדרוזית השייח&#39; מופק טריף:  אמש פורסם וידאו של השייח בו מזכיר את החלטות מדינת ישראל והתערבותה להפסקת הטבח בדרוזים בסוריה. עמדה זו  של השייח&#39; נאמרה במספר הזדמנויות בשנה האחרונה, מעל כל במה ואין בה כל חדש. המדינה היחידה והעם היחידי שעמדו לצד…",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "4 הרוגים בשלוש תקיפות כטב&quot;מ ברצועת עזה מאז שעות הבוקר:  1. תקיפה באזור בית הספר פהד בשכונת תפאח בעיר עזה - הרוג אחד: מאג&#39;ד א-צבאע&#39;.   2. תקיפת כטב&quot;מ באזור אלמשאהרה בשכונת תפאח בעיר עזה - שני הרוגים: עבדאללה ג&#39;אבר ועמאד ג&#39;אבר.   3. תקיפת כטב&quot;מ ברחוב אלברכה…",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "تمدید مهلت خوداظهاری افزایش کالابرگ تا ۲۷ مهر   سازمان هدفمندسازی یارانه‌ها:  🔹مهلت ثبت درخواست افزایش اعتبار کالابرگ تا ساعت ۲۴ روز دوشنبه ۲۷ مهرماه تمدید شد  🔹سرپرستان خانوار مشمول که پیامک اطلاع‌رسانی دریافت کرده‌اند، می‌توانند علاوه بر مراجعه به پنجره…",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "הרוג חמישי ברצועה בתקיפה הרביעית מאז שעות הבוקר  ההרוג הוא עבד אלג&#39;ואד ג&#39;ודה, קצין בדרגה המקבילה לסא&quot;ל במשטרה הימית של חמאס. - הוא הותקף באזור המואצי של רפיח בדרום הרצועה.  תגובה אחת",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "צרפת: התחדשו &quot;מחאות התיכוניסטים&quot; בפריז.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️دستگیری عامل حمل اسلحه غیرمجاز در منطقه جردن تهران  &rlm;🔹 مرکز اطلاع‌رسانی پلیس تهران بزرگ از شناسایی و دستگیری فردی خبر داد که با هدف انتقام‌جویی، اقدام به تهیه و حمل سلاح گرم و تجهیزات غیرمجاز می‌کرد. &lrm;✅ @sepah_pasdaran",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "צרפת: התחדשו &quot;מחאות התיכוניסטים&quot; בפריז.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️ سرپرست وزارت دفاع: موشک ایرانی معادله را تعیین می‌کند، نه بمب‌های آمریکا &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
+      "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 101 غارةً جويةً وصاروخاً استهدف بها الأعيان المدنية في العاصمة صنعاء ومحافظات الضالع وتعز والحديدة وذمار ومأرب وصعدة والجوف وعمران ولحج من خلال طائرات &quot;F-15&quot; و &quot;تايفون&quot; أقلعت من قاعدتي خميس مشيط والطائف والعدوان الصاروخي من نجران وخلفت شهداء وجرحى من المدنيين بينهم نساء وأطفال. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 2489 غارة جوية وصاروخا.   http://t.me/army21ye",
+      "text": "🔴 عاجل | الرئيس الإيراني بشأن تحالف مكة بين السعودية وتركيا وباكستان: هذه خطوة إلى الأمام وينبغي للمسلمين أن يتحدوا ونحن مستعدون للمشاركة في هذه العملية",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "📹 نشرت وكالة رويترز صورًا للاحتجاجات التي شهدتها العاصمة الفرنسية باريس https://almanar.com.lb/article/1270442/?s=tg",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "صور من احتجاجات باريس اليوم",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2393,37 +2414,16 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "غزة: مراسل الميادين: شهيد بقصف من مسيرة إسرائيلية في محيط مدرسة دار الأرقم بحي التفاح شمال شرقي مدينة غزة",
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   القوة البحرية لحرس الثورة الإسلامية:  تعرّضت ناقلة نفط عملاقة ثانية صباح اليوم، تحمل أكثر من مليوني برميل من النفط الخام، لحادث أدّى إلى انفجار واندلاع حريق شديد، إثر اصطدامها بلغم بحري، بعدما حاولت عبور مضيق هرمز عبر مسار غير مصرح به حيث اندلع حريق هائل في غرفة المحركات وتوقفت الناقلة في مكانها.  حاولت الناقلة عبور مضيق هرمز بعد إطفاء جميع أنظمة تحديد المواقع والرادار، بهدف الخداع، وبدعم من الجيش الأمريكي الذي يمارس التهريب والإرهاب.  #الاعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "غزة: مراسل الميادين: شهيدان ومصابون من جراء استهداف طائرات الاحتلال خيمة تؤوي نازحين قرب مستوصف الحرية في حي التفاح شمال شرقي مدينة غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: مصابون بينهم طفلة بحالة خطرة جراء قصف إسرائيلي على مدينة دير البلح وسط القطاع",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي شرقي قرية المصدر وسط قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: شهيد ومصابون من بينهم طفلة بحالة خطرة باستهداف مجموعة من الفلسطينيين في شارع البركة جنوبي مدينة دير البلح وسط قطاع غزة",
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية   القوة البحرية لحرس الثورة الإسلامية:  تعرّضت ناقلة نفط عملاقة ثانية صباح اليوم، تحمل أكثر من مليوني برميل من النفط الخام، لحادث أدّى إلى انفجار واندلاع حريق شديد، إثر اصطدامها بلغم بحري، بعدما حاولت عبور مضيق هرمز عبر مسار غير مصرح به…",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
