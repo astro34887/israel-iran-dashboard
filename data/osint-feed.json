@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-10-20T22:02:27.088Z",
+  "last_updated": "2026-10-21T01:13:24.579Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.50",
-    "global_norm_sentiment": "-0.33"
+    "global_norm_sentiment": "-0.32"
   },
   "timeline": [
-    {
-      "time": "2026-10-12T00:10:05.483Z",
-      "danger": 0.577,
-      "sentiment": -0.283,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.626,
-          "sentiment": -0.367
-        },
-        "OSINTdefender": {
-          "danger": 0.561,
-          "sentiment": -0.1
-        },
-        "irna_1313": {
-          "danger": 0.365,
-          "sentiment": -0.033
-        },
-        "sepah_pasdaran": {
-          "danger": 0.602,
-          "sentiment": -0.733
-        },
-        "almanarnews": {
-          "danger": 0.578,
-          "sentiment": 0.167
-        },
-        "C_Military1": {
-          "danger": 0.679,
-          "sentiment": -0.4
-        },
-        "almayadeen": {
-          "danger": 0.516,
-          "sentiment": -0.433
-        },
-        "QudsN": {
-          "danger": 0.896,
-          "sentiment": -0.767
-        }
-      }
-    },
     {
       "time": "2026-10-12T06:53:59.585Z",
       "danger": 0.542,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.3
         }
       }
+    },
+    {
+      "time": "2026-10-21T01:13:24.579Z",
+      "danger": 0.504,
+      "sentiment": -0.323,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.539,
+          "sentiment": -0.4
+        },
+        "OSINTdefender": {
+          "danger": 0.61,
+          "sentiment": 0.067
+        },
+        "irna_1313": {
+          "danger": 0.496,
+          "sentiment": -0.467
+        },
+        "sepah_pasdaran": {
+          "danger": 0.325,
+          "sentiment": -0.867
+        },
+        "almanarnews": {
+          "danger": 0.234,
+          "sentiment": -0.367
+        },
+        "C_Military1": {
+          "danger": 0.704,
+          "sentiment": -0.3
+        },
+        "almayadeen": {
+          "danger": 0.257,
+          "sentiment": -0.767
+        },
+        "QudsN": {
+          "danger": 0.925,
+          "sentiment": 0
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,7 +2279,7 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
+      "raw_sentiment": -0.4,
       "knn_danger_metric": 0.5389106435145525
     },
     "OSINTdefender": {
@@ -2291,14 +2291,14 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.3700963329561485
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.4956253459012772
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.2726542568403053
+      "raw_sentiment": -0.8666666666666667,
+      "knn_danger_metric": 0.3251040079025297
     },
     "almanarnews": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.4300373037119405
+      "raw_sentiment": -0.7666666666666667,
+      "knn_danger_metric": 0.2569909765186821
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.8946139363679028
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.9252542378851875
     }
   },
   "semantic_logs": [
@@ -2350,20 +2350,6 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: المساوى: القوات المسلحة اليمنية طردت التحشيدات السعودية من تعز وفتحت الطرقات التي أُعلن إغلاقها في 2 أكتوبر",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: مراسل الميادين: 3 غارات جوية سعودية على منطقة النشمة بمديرية المعافر بمحافظة تعز جنوب غرب اليمن",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "لبنان: مراسل الميادين في الجنوب: مدفعية الاحتلال الإسرائيلي تستهدف وادي زبقين ومحيط كفرتبنيت",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
@@ -2371,63 +2357,77 @@
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم حي الطيرة في مدينة رام الله.",
+      "text": "مصادر محلية: قوات الاحتلال تعتقل 3 فلسطينيين خلال اقتحام بلدة كفردان غرب جنين، وهم:  - أحمد عابد - محمود عابد - سلطان عابد",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "قوات الاحتلال تداهم عددًا من المنازل خلال اقتحام مخيم الفوار، جنوب الخليل.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة سلواد شمال شرق رام الله.",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية بيت دجن شرق نابلس.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "تواصل قوات الاحتلال اقتحام بلدة سلواد شمال شرق رام الله، وسط حملة مداهمات واعتقالات واسعة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم مخيم عايدة شمال مدينة بيت لحم.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم مدينة يطا، جنوب الخليل.",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال الواسع لبلدة سلواد شمال شرق رام الله.",
+      "text": "جانب من اقتحام قوات الاحتلال مدينة نابلس.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تطلق قنابل إنارة في أجواء قرية رمانة، غرب جنين.",
+      "text": "مصادر محلية: قوات الاحتلال تشن حملة مداهمات واعتقالات، طالت غالبيتهم أسرى محررين، خلال اقتحام قرية بيت دجن شرق نابلس.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال المتواصل لبلدة سلواد شمال شرق رام الله، وسط حملة مداهمات واعتقالات",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تحتجز عددًا من أفراد الشرطة الفلسطينية عند دوار السرية في حي الطيرة وسط مدينة رام الله.",
+      "text": "جانب من اقتحام قوات الاحتلال المتواصل لمخيم الفوار، جنوب الخليل.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم بناية سكنية خلال اقتحام منطقة الكركفة في بيت لحم",
-      "absolute_sentiment": -1,
+      "text": "جانب من اقتحام قوات الاحتلال قرية بيت دجن شرق نابلس.",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مكتب إعلام الأسرى: الاحتلال يعتقل المريضة المُسنة &quot;آمال غازي الريفي&quot; وابنتها المرافقة لها أثناء عودتهما لغزة، عبر معبر رفح البري.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم مدينة دورا، جنوب الخليل.",
+      "text": "مصادر محلية: قوات الاحتلال تداهم أحد المنازل خلال اقتحام بلدة جَيّوس شمال شرق قلقيلية.",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     }
