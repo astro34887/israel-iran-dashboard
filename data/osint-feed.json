@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-10-21T12:47:26.511Z",
+  "last_updated": "2026-10-21T17:51:51.497Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.18"
+    "global_knn_danger": "0.55",
+    "global_norm_sentiment": "-0.29"
   },
   "timeline": [
-    {
-      "time": "2026-10-12T23:26:20.362Z",
-      "danger": 0.602,
-      "sentiment": -0.353,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.664,
-          "sentiment": -0.733
-        },
-        "OSINTdefender": {
-          "danger": 0.585,
-          "sentiment": 0.067
-        },
-        "irna_1313": {
-          "danger": 0.578,
-          "sentiment": -0.867
-        },
-        "sepah_pasdaran": {
-          "danger": 0.381,
-          "sentiment": -0.4
-        },
-        "almanarnews": {
-          "danger": 0.482,
-          "sentiment": -0.2
-        },
-        "C_Military1": {
-          "danger": 0.63,
-          "sentiment": -0.267
-        },
-        "almayadeen": {
-          "danger": 0.792,
-          "sentiment": -0.867
-        },
-        "QudsN": {
-          "danger": 0.959,
-          "sentiment": -0.133
-        }
-      }
-    },
     {
       "time": "2026-10-13T05:13:49.279Z",
       "danger": 0.544,
@@ -2261,13 +2214,60 @@
           "sentiment": 0.167
         }
       }
+    },
+    {
+      "time": "2026-10-21T17:51:51.497Z",
+      "danger": 0.553,
+      "sentiment": -0.287,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.608,
+          "sentiment": -0.333
+        },
+        "OSINTdefender": {
+          "danger": 0.622,
+          "sentiment": -0.167
+        },
+        "irna_1313": {
+          "danger": 0.487,
+          "sentiment": -0.267
+        },
+        "sepah_pasdaran": {
+          "danger": 0.489,
+          "sentiment": -0.467
+        },
+        "almanarnews": {
+          "danger": 0.463,
+          "sentiment": 0.1
+        },
+        "C_Military1": {
+          "danger": 0.686,
+          "sentiment": -0.667
+        },
+        "almayadeen": {
+          "danger": 0.561,
+          "sentiment": -0.4
+        },
+        "QudsN": {
+          "danger": 0.66,
+          "sentiment": -0.5
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2278,9 +2278,9 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 13,
-      "raw_sentiment": -0.46153846153846156,
-      "knn_danger_metric": 0.35927073760407396
+      "num_messages": 15,
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.6075066436105294
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.5907166518290837
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.4872026942344289
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.3977699398827
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.48879576539254654
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.5882866913427535
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.4633476297822127
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.6659103296522608
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.6859399508888484
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.5113246092366357
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.5609431143179839
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 12,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.5605808678182539
+      "num_messages": 15,
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.66033089625124
     }
   },
   "semantic_logs": [
@@ -2336,100 +2336,100 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "משטרת ישראל עצרה היום (סוף סוף) את אנדריי חרז&#39;נובסקי, הפעיל הרוסי האנטי ישראלי (מחזיק בת&quot;ז ישראלית מכוח חוק השבות) שתוקף את ישראל  בשטחי איו&quot;ש ומוציא דיבתה רעה ברשתות החברתיות.  הוא נעצר במהלך פרובוקציית מסיק ליד הכפר א-טיבה.  את הסרטונים המצורפים פרסם הפעיל האנרכיסט הזר ג&#39;ספר נת&#39;אניאל - שניהם &quot;העיתונאים&quot; שליוו את העיתונאית האמריקאית היידי לוין באירוע בכפר אבו פלאח ביום שישי האחרון.  תגובה אחת",
+      "text": "נתניהו בטקס סיום קורס קצינים:   &quot;אירן מנסה שוב לפצח את פצצות המוות (הגרעין). מוג&#39;תבא חמינאי החליט ללכת בדרך אביו, והוא שחרר את הנצרה&quot;  &quot;יש רק דרך אחת להסיר את האיום הזה: הפלת המשטר באירן&quot;",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "נתניהו בטקס סיום קורס קצינים:   &quot;אירן מנסה שוב לפצח את פצצות המוות (הגרעין). מוג&#39;תבא חמינאי החליט ללכת בדרך אביו, והוא שחרר את הנצרה&quot;  &quot;יש רק דרך אחת להסיר את האיום הזה: הפלת המשטר באירן&quot;",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "נשיא מצרים על הסיוע שתגיש מצרים לסעודיה במלחמתה נגד החות&#39;ים :   &quot;המאמץ הצבאי המצרי נועד להגן על שטחה של סעודיה ואינו כולל מתקפה על תימן.&quot;  תגובה אחת",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️&rlm; پرواز پهپاد نیروهای انصارالله یمن بر فراز فرودگاه الریان در شهر مکلا &lrm;✅ @sepah_pasdaran",
+      "text": "&rlm; ️&rlm;  شکارهای امروز ارتش یمن در استان مأرب &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️&rlm; آتش‌سوزی گسترده در یک کشتی در فاصله ۳۰ کیلومتری شهر صحار عمان &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "الوزير رجي يتسلّم من وفد حقوقي مذكرة حول الأسرى اللبنانيين في السجون الإسرائيلية ويعد بمتابعة الملف https://almanar.com.lb/article/1282352/?s=tg",
-      "absolute_sentiment": 0.5,
+      "text": "قائد الجيش بالنيابة يتفقد عددا من مراكز الجيش عند الحدود اللبنانية السورية https://almanar.com.lb/article/1283082/?s=tg",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
+      "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "وزارة الاقتصاد تواصل ملاحقة المخالفات: أكثر من ١٩ ألف كشف ميداني و١٬٠٢٢ محضر ضبط https://almanar.com.lb/article/1282367/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 وقفة للجنة التوجيه التربوي في الدوام المسائي أمام وزارة التربية للمطالبة بالعدول عن قرار إيقاف ٤٠٠ موجه عن العمل https://almanar.com.lb/article/1282497/?s=tg",
+      "text": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 62 غارةً جويةً استهدف بها الأعيان المدنية في العاصمة صنعاء ومحافظات مأرب وصعدة ولحج وتعز وذلك من خلال طائرات &quot;F-15&quot; أقلعت من قاعدة خميس مشيط وخلفت شهداء وجرحى بينهم نساء وأطفال. ليبلغ إجمالي غارات العدوان السعودي خلال 100&nbsp;منذ بدء التصعيد على بلدنا في الــ13 من يوليو الماضي 2855 غارةً جويةً وصاروخاً.  http://t.me/army21ye",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: العميد سريع: نحذر السعودية من استخدام المنشآت المدنية لأغراض عسكرية",
+      "text": "اليمن: حزام الأسد للميادين: نحن نلقي الحجة على النظام السعودي ونؤيد تشكيل لجنة للاطلاع على القضية وخلفياتها وما نتعرض له من عدوان",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: بزشكيان في منشور عبر منصة &quot;اكس&quot;: الحوار بلغة التهديدات والضغوط لا معنى له",
-      "absolute_sentiment": -1,
+      "text": "اليمن: حزام الأسد للميادين: أيدينا ممدودة للسلام وليحضر العالم ويطلع بنفسه ونحن على ثقة بأنه سيرى إجرام السعودية",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تعتقل الصحفي والناشط  الروسي &quot;أندريه خرزانوفسكي&quot; أثناء مشاركته مع وفد متضامنين في مساعدة الأهالي بقطف الزيتون في رام الله",
-      "absolute_sentiment": 0.5,
+      "text": "اليمن: حزام الأسد للميادين: لا تزال قواتنا في مرحلة التحضير قبل التصعيد الشامل",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "جرافة لجيش الاحتلال تواصل اقتلاع العشرات من أشجار الزيتون المثمرة في أراضي قرية مادما، جنوب نابلس.",
-      "absolute_sentiment": 0.5,
+      "text": "اليمن: وكالة &quot;سبأ&quot; بصنعاء: استشهاد امرأتين وإصابة 4 جراء قذيفة أطلقتها التحشيدات التابعة للسعودية على وادي حنش بمديرية التعزية غربي تعز",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مشاهد إضافية توثق اقتحام الاحتلال لمخيم بلاطة ومحيطه في نابلس.",
-      "absolute_sentiment": 0.5,
+      "text": "اليمن: وكالة &quot;سبأ&quot;: طيران النظام السعودي استهدف بغارتين شرقي مدينة صعدة شمال البلاد",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "منذ 17 يوماً.. المستوطنون يحاصرون منزل عائلة &quot;يوسف شناران&quot; وجيش الاحتلال يمنع الصحافة من الوصول للمكان في &quot;واد الرخيم&quot; جنوب الخليل.",
+      "text": "لبنان: مراسل الميادين في الجنوب: غارة إسرائيلية استهدفت وادي السلوقي لجهة أطراف شقرا",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   القناة 15 العبرية: أفادت صحيفة فايننشال تايمز بأن نتنياهو دفع نحو خطة لشنّ هجوم إسرائيلي واسع النطاق على إيران خلال عطلة نهاية الأسبوع في 10 تشرين الأول، شملت أيضًا المنشآت النووية والبنى التحتية للنظام، لكن الخطوة أُحبطت بسبب معارضة ترامب.  #الإعلام_الحربي",
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين في الجنوب: غارة إسرائيلية استهدفت بلدة حداثا",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9982348008673292
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "هيئة عمليات التجارة البحرية البريطانية: تلقينا بلاغًا عن حادث وقع على بعد 11 ميلًا بحريًا غرب بخاء، عُمان.  أفادت السلطات المحلية بأن ناقلة نفط تعرّضت للإصابة بقذيفة مجهولة، ما أدى إلى اندلاع حريق تم إخماده. والناقلة الآن راسية في المرسى.  أُفيد بأن جميع أفراد الطاقم بخير. ولم يُبلّغ عن أي تأثير بيئي في الوقت الحالي.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9971738898694222
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو  رئيس حزب &quot;يشار&quot; غادي ايزنكوت: لن أجلس في حكومة برئاسة نتنياهو، حتى بالتناوب. وإذا فعلت ذلك، فسجّلوا هذا المقطع وسأستقيل بعد ساعة.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9956483673244808
+      "semantic_danger_knn": 1
     }
   ]
 }
