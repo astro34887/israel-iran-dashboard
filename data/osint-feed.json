@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-10-22T11:03:44.568Z",
+  "last_updated": "2026-10-22T16:32:08.296Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.55",
-    "global_norm_sentiment": "-0.32"
+    "global_knn_danger": "0.58",
+    "global_norm_sentiment": "-0.35"
   },
   "timeline": [
-    {
-      "time": "2026-10-14T05:44:46.868Z",
-      "danger": 0.57,
-      "sentiment": -0.139,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.447,
-          "sentiment": -0.5
-        },
-        "OSINTdefender": {
-          "danger": 0.629,
-          "sentiment": 0.167
-        },
-        "irna_1313": {
-          "danger": 0.427,
-          "sentiment": 0.143
-        },
-        "sepah_pasdaran": {
-          "danger": 0.509,
-          "sentiment": -0.4
-        },
-        "almanarnews": {
-          "danger": 0.624,
-          "sentiment": 0.033
-        },
-        "C_Military1": {
-          "danger": 0.748,
-          "sentiment": -0.4
-        },
-        "almayadeen": {
-          "danger": 0.729,
-          "sentiment": -0.467
-        },
-        "QudsN": {
-          "danger": 0.637,
-          "sentiment": 0.167
-        }
-      }
-    },
     {
       "time": "2026-10-14T11:04:27.409Z",
       "danger": 0.569,
@@ -2261,6 +2214,53 @@
           "sentiment": 0.067
         }
       }
+    },
+    {
+      "time": "2026-10-22T16:32:08.296Z",
+      "danger": 0.575,
+      "sentiment": -0.347,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.676,
+          "sentiment": -0.367
+        },
+        "OSINTdefender": {
+          "danger": 0.63,
+          "sentiment": -0.133
+        },
+        "irna_1313": {
+          "danger": 0.442,
+          "sentiment": -0.267
+        },
+        "sepah_pasdaran": {
+          "danger": 0.575,
+          "sentiment": -0.567
+        },
+        "almanarnews": {
+          "danger": 0.493,
+          "sentiment": 0.133
+        },
+        "C_Military1": {
+          "danger": 0.68,
+          "sentiment": -0.5
+        },
+        "almayadeen": {
+          "danger": 0.539,
+          "sentiment": -0.833
+        },
+        "QudsN": {
+          "danger": 0.768,
+          "sentiment": -0.8
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.6789803155291183
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.6755074598251658
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2292,37 +2292,37 @@
       "name": "IRGC",
       "num_messages": 15,
       "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.46611834061945356
+      "knn_danger_metric": 0.44220034590769564
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.4751852432244139
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.5749322608076759
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.2031908694056954
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.4925265967014966
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.8188586362918734
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.6801713790125213
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.7684493046707318
+      "raw_sentiment": -0.8333333333333334,
+      "knn_danger_metric": 0.5387344500351535
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.4818052164857092
+      "raw_sentiment": -0.8,
+      "knn_danger_metric": 0.7675942400750083
     }
   },
   "semantic_logs": [
@@ -2336,36 +2336,57 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "משטרת ישראל עצרה היום (סוף סוף) את אנדריי חרז&#39;נובסקי, הפעיל הרוסי האנטי ישראלי (מחזיק בת&quot;ז ישראלית מכוח חוק השבות) שתוקף את ישראל  בשטחי איו&quot;ש ומוציא דיבתה רעה ברשתות החברתיות.  הוא נעצר במהלך פרובוקציית מסיק ליד הכפר א-טיבה.  את הסרטונים המצורפים פרסם הפעיל…",
+      "text": "המחוסל הטרי בתקיפת הרכב בשכונת תל אלהווא בעיר עזה ☝️הוא פואד אלע&#39;ולה.  ועכשיו לפיקנטריה:  לפני כשבועיים נחטף בידי פעילי חמאס הפעיל אבו המאם ג&#39;נדיה (שהוא ממתנגדי חמאס). העיתונאי העזתי חמזה אלמצרי, השוהה בטורקיה/מצרים פרסם לפני שבועיים את שמו של המחוסל הטרי פואד אלע&#39;ולה כאחד מפעילי חמאס שאחראים לחטיפה ואף ציין את המקום בו הוא מסתובב בעיר עזה.  היום, אחרי החיסול, מואשם חמזה אלמצרי בסיוע לשב&quot;כ הישראלי באיתורו של פואד אלע&#39;ולה - ובאחריות לחיסולו.  חמזה אלמצרי מכונה משת&quot;פ ו&quot;החגיגה בעיצומה&quot;.  חיסול אחד - אפקט רחב....   וְסִכְסַכְתִּ֤י מִצְרַ֙יִם֙ בְּמִצְרַ֔יִם וְנִלְחֲמ֥וּ אִישׁ־בְּאָחִ֖יו וְאִ֣ישׁ בְּרֵעֵ֑הוּ עִ֣יר בְּעִ֔יר מַמְלָכָ֖ה בְּמַמְלָכָֽה. (תרתי משמע).  תגובה אחת",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "הבכיר החות&#39;י מחמד אלבח&#39;יתי במסר לסעודיה:  &quot;פלישה קרקעית לשטח סעודיה נמצאת על השולחן.&quot;   ## אלבח&#39;תי מחויך מהרגיל ובמצב רוח טוב לנוכח הקריסה הסעודית אל מול מתקפות החות&#39;ים.  תגובה אחת",
+      "text": "אריאל בן 17 בלבד ונלחם ברגעים אלו על חייו. אחרי שהתגלה גידול ממאיר (סרטני) בראשו - הרופאים נותנים סיכוי אחרון להצלתו באמצעות ניתוח מורכב שנעשה בחו״ל ועלותו אסטרונומית  מגיע לאריאל לחיות את החיים🙏🏻בבקשה אל תשארו אדישים. תירמו, שתפו את הפוסט והתפללו לרפואת אריאל בן ירדנה אנו זקוקים להתגייסות ולב רחב של כל אחד ואחד&#33; https://campaign.matokmidvash.com/ariel/",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "יהודי צרפתי, בעל עסק בפריז:  היהודים צריכים לעזוב את צרפת במהירות האפשרית&#33;  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "הפרשן הלבנוני הנוצרי ג&#39;וזף אבו פצ&#39;ל, מרים לראש הממשלה נתניהו לקראת הבחירות:  &quot;הוא התרנגול של כל האזור&quot;  ## הסרטון באדיבות ערוץ מרד החליפים  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️گزارش‌ها از آتش‌سوزی مجدد در آرامکو حکایت دارد &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 1,
+      "text": "&rlm; ️ارتش یمن: ۴ عملیات منحصر به فرد علیه دشمن انجام دادیم   &rlm;🔹 نیروهای مسلح یمن، طی ۴۸ ساعت گذشته، ۴ عملیات نظامی منحصر به فرد با تعداد موشک بالستیک و پهپاد علیه رژیم سعودی انجام دادند. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️تصاویر منتشرشده از نگهداری غیرانسانی معترضان فرانسوی در سلول انفرادی حکایت دارد &lrm;✅ @sepah_pasdaran",
+      "text": "&rlm; ️ تجمع‌ها و تجهیزات سعودی در مأرب هدف پهپادهای یمن شدند &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
+      "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 62 غارةً جويةً استهدف بها الأعيان المدنية في العاصمة صنعاء ومحافظات مأرب وصعدة ولحج وتعز وذلك من خلال طائرات &quot;F-15&quot; أقلعت من قاعدة خميس مشيط وخلفت شهداء وجرحى بينهم نساء وأطفال. ليبلغ إجمالي غارات العدوان السعودي خلال 100&nbsp;منذ بدء التصعيد على بلدنا في الــ13 من يوليو الماضي 2855 غارةً جويةً وصاروخاً.  http://t.me/army21ye",
+      "text": "دخان أسود في سماء الرياض عقب هجمات يمنية استهدفت وزارة الدفاع ومواقع أخرى https://almanar.com.lb/article/1285847/?s=tg",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "الرئيس عون: التحديات التي تواجه المنطقة كبيرة جداً..وآمل الا يكون مسارها نحو التصعيد او الانفجار https://almanar.com.lb/article/1285837/?s=tg",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
@@ -2378,56 +2399,35 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: مراسل الميادين في اليمن: 3 غارات جوية سعودية تستهدف منطقة الصراري في مديرية صبر الموادم جنوبي شرق محافظة تعز",
+      "text": "اليمن: وكالة سبأ: غارة جوية سعودية استهدفت عزلة جارة بمديرية المسراخ في الريف الجنوبي لمحافظة تعز تسببت في نفوق عدد من المواشي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فرنسا: الرئيس الفرنسي ايمانويل ماكرون: فرنسا ستحظر في الأيام المقبلة الاحتجاجات التي لا تنظمها النقابات",
+      "text": "اليمن: وكالة &quot;سبأ&quot;: شن الطيران السعودي 3 غارات على مديريتي المسراخ والشمايتين بمحافظة تعز",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: إصابة طفلة بجراح خطيرة برصاص الاحتلال قرب دوار أبو حميد شرقي خان يونس جنوبي القطاع",
+      "text": "اليمن: وكالة &quot;سبأ&quot; بصنعاء: الطائرات السعودية تشن غارة ثالثة على عزلة المساحين بمديرية الشمايتين جنوب محافظة تعز",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: انفجار درون اسرائيلية على احد اسطح المنازل في بلدة ميفدون",
+      "text": "فلسطين المحتلة: حماس: ادعاءات &quot;يديعوت احرونوت&quot; جزء من حملة التحريض التي تقودها حكومة الاحتلال لتبرير حرب الإبادة المتواصلة ضد شعبنا الفلسطيني",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
+      "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: مصابون من جراء قصف إسرائيلي قرب مفترق الشؤون غربي مدينة خان يونس جنوبي القطاع",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: الاحتلال الاسرائيلي نفذ تفجيرا في بلدة بني حيان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: الاحتلال الاسرائيلي نفذ تفجيرا في بلدة مركبا",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: التلفزيون الايراني: المشاهد تبث للمرة الأولى وتعرض أحد الأنفاق تحت الأرض لخط إنتاج الطائرات المسيّرة القتالية الانتحارية",
+      "text": "نقل مصابين بينهم أطفال؛ جراء قصف الاحتلال قرب برج الشفاء في مدينة غزة.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
