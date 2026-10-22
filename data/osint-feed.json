@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-10-21T21:10:41.382Z",
+  "last_updated": "2026-10-22T00:23:46.051Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.58",
-    "global_norm_sentiment": "-0.34"
+    "global_knn_danger": "0.60",
+    "global_norm_sentiment": "-0.35"
   },
   "timeline": [
-    {
-      "time": "2026-10-13T13:26:56.595Z",
-      "danger": 0.588,
-      "sentiment": -0.2,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.536,
-          "sentiment": -0.867
-        },
-        "OSINTdefender": {
-          "danger": 0.604,
-          "sentiment": 0.167
-        },
-        "irna_1313": {
-          "danger": 0.625,
-          "sentiment": -0.333
-        },
-        "sepah_pasdaran": {
-          "danger": 0.537,
-          "sentiment": -0.633
-        },
-        "almanarnews": {
-          "danger": 0.416,
-          "sentiment": 0.033
-        },
-        "C_Military1": {
-          "danger": 0.752,
-          "sentiment": 0
-        },
-        "almayadeen": {
-          "danger": 0.756,
-          "sentiment": -0.2
-        },
-        "QudsN": {
-          "danger": 0.703,
-          "sentiment": 0
-        }
-      }
-    },
     {
       "time": "2026-10-13T20:01:51.880Z",
       "danger": 0.534,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.3
         }
       }
+    },
+    {
+      "time": "2026-10-22T00:23:46.051Z",
+      "danger": 0.601,
+      "sentiment": -0.347,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.494,
+          "sentiment": -0.7
+        },
+        "OSINTdefender": {
+          "danger": 0.661,
+          "sentiment": -0.033
+        },
+        "irna_1313": {
+          "danger": 0.483,
+          "sentiment": -0.467
+        },
+        "sepah_pasdaran": {
+          "danger": 0.499,
+          "sentiment": -0.767
+        },
+        "almanarnews": {
+          "danger": 0.538,
+          "sentiment": 0.033
+        },
+        "C_Military1": {
+          "danger": 0.869,
+          "sentiment": -0.667
+        },
+        "almayadeen": {
+          "danger": 0.609,
+          "sentiment": -0.133
+        },
+        "QudsN": {
+          "danger": 0.91,
+          "sentiment": -0.6
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,7 +2279,7 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
+      "raw_sentiment": -0.7,
       "knn_danger_metric": 0.4943275342319524
     },
     "OSINTdefender": {
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.3962788264874717
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.4831960657195268
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.537164930109073
+      "raw_sentiment": -0.7666666666666667,
+      "knn_danger_metric": 0.4990411709941838
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.6408784670892937
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.5384380395534744
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
+      "raw_sentiment": -0.6666666666666666,
       "knn_danger_metric": 0.8685716441882386
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.5359326635552029
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.6092658717121968
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.684664635643035
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.9102190506677388
     }
   },
   "semantic_logs": [
@@ -2337,20 +2337,6 @@
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
       "text": "נשיא מצרים על הסיוע שתגיש מצרים לסעודיה במלחמתה נגד החות&#39;ים :   &quot;המאמץ הצבאי המצרי נועד להגן על שטחה של סעודיה ואינו כולל מתקפה על תימן.&quot;  תגובה אחת",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️منابع عربی از حملۀ موشکی و پهپادی یمن به استان شرقیه عربستان خبر دادند. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️حمله نیروهای مسلح یمن به فرودگاهی در حضرموت   برخی منابع خبری از حمله مجدد نیروهای مسلح یمن به فرودگاه الریان در استان حضرموت یمن خبر می‌دهند. &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2362,17 +2348,10 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "الهيئة الوطنية لحقوق الإنسان تدين استشهاد 3 نساء وإصابة 3 أطفال وقصف بئر مياه في تعز https://almanar.com.lb/article/1283517/?s=tg",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️حملات پهپادی یمن به شرق عربستان سعودی  ائتلاف متجاوز سعودی بامداد پنجشنبه گفت که سامانه‌های پدافندی در استان شرقی با پهپادهای یمن درگیر شده‌اند.  سازمان هواپیمایی کشوری سعودی نیز در بیانیه‌ای اعلام کرد: «در حملهٔ شامگاه چهارشنبه به فرودگاه بین‌المللی ملک فهد، یک نفر جان باخت و هشت تن دیگر زخمی شدند». &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "📹 الأرض اللبنانية تتحول إلى محطة اقتراع لجنود الاحتلال https://almanar.com.lb/article/1283632/?s=tg",
-      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2380,6 +2359,13 @@
       "channel": "Hezbollah",
       "text": "البخيتي: نرحب بالدعوة الكريمة التي تقدم بها شيخ الأزهر لإنهاء الحروب والاختلافات https://almanar.com.lb/article/1283752/?s=tg",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "بالفيديو | جانب من اقتحام قوات الاحتلال لبلدة تقوع جنوب شرق بيت لحم",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2399,35 +2385,49 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: وكالة &quot;سبأ&quot;: الطائرات السعودية تستهدف بـ 3 غارات شبكة الاتصالات في مركز مديرية بَعْدان بمحافظة إب وسط البلاد",
-      "absolute_sentiment": -1,
+      "text": "إيران: فارس عن المسؤول الأمني: اندلاع حرب واسعة وتنفيذ اغتيالات يعني أن ضرب بنك الأهداف السياسية الأميركية والجهات المشاركة عمل مشروع",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: شهيدان ومصابون جراء غارة من طائرة مسيّرة إسرائيلية استهدفت دراجة كهربائية قرب مفترق الصناعة جنوب غربي مدينة غزة",
+      "text": "لبنان: مراسل الميادين: مدفعية الاحتلال الإسرائيلي تستهدف وادي زبقين",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "السعودية: الدفاع المدني السعودي يعلن مقتل شخص وإصابة ثمانية في هجوم على مطار الملك فهد في الدمام يوم الأربعاء",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال مع مستوطنين يمنعون المزارعين الفلسطينيين والمتضامنين الأجانب معهم من قطف الزيتون في أراض لبلدة ترمسعيا، شمال شرق رام الله.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تواصل اقتحام قرية رافات، غرب سلفيت.",
+      "text": "جانب من اقتحام قوات الاحتلال بلدة تقوع جنوب شرق بيت لحم.",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم بناية سكنية خلال اقتحام بلدة السيلة الحارثية غرب جنين.",
+      "text": "مجدداً.. جيش الاحتلال ينسف مباني سكنية في المناطق الشرقية من مدينة غزة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية عورتا جنوب نابلس.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تطلق قنابل إنارة خلال اقتحام بلدة بلعا شمال طولكرم.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
