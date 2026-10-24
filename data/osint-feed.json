@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-10-24T20:07:54.034Z",
+  "last_updated": "2026-10-24T22:50:45.578Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.56",
-    "global_norm_sentiment": "-0.18"
+    "global_knn_danger": "0.59",
+    "global_norm_sentiment": "-0.33"
   },
   "timeline": [
-    {
-      "time": "2026-10-16T19:14:33.563Z",
-      "danger": 0.574,
-      "sentiment": -0.343,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.546,
-          "sentiment": -0.667
-        },
-        "OSINTdefender": {
-          "danger": 0.574,
-          "sentiment": 0.2
-        },
-        "irna_1313": {
-          "danger": 0.595,
-          "sentiment": -0.667
-        },
-        "sepah_pasdaran": {
-          "danger": 0.497,
-          "sentiment": -0.7
-        },
-        "almanarnews": {
-          "danger": 0.532,
-          "sentiment": -0.133
-        },
-        "C_Military1": {
-          "danger": 0.685,
-          "sentiment": -0.4
-        },
-        "almayadeen": {
-          "danger": 0.506,
-          "sentiment": -0.567
-        },
-        "QudsN": {
-          "danger": 0.852,
-          "sentiment": -0.333
-        }
-      }
-    },
     {
       "time": "2026-10-16T22:27:06.105Z",
       "danger": 0.576,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.3
         }
       }
+    },
+    {
+      "time": "2026-10-24T22:50:45.578Z",
+      "danger": 0.59,
+      "sentiment": -0.327,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.467,
+          "sentiment": -0.467
+        },
+        "OSINTdefender": {
+          "danger": 0.671,
+          "sentiment": 0.367
+        },
+        "irna_1313": {
+          "danger": 0.47,
+          "sentiment": -0.8
+        },
+        "sepah_pasdaran": {
+          "danger": 0.488,
+          "sentiment": -0.433
+        },
+        "almanarnews": {
+          "danger": 0.503,
+          "sentiment": -0.4
+        },
+        "C_Military1": {
+          "danger": 0.725,
+          "sentiment": -0.033
+        },
+        "almayadeen": {
+          "danger": 0.631,
+          "sentiment": -0.767
+        },
+        "QudsN": {
+          "danger": 0.997,
+          "sentiment": -0.567
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,8 +2279,8 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.5338973631331073
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.46723069646644066
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2291,38 +2291,38 @@
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.4469784667460328
+      "raw_sentiment": -0.8,
+      "knn_danger_metric": 0.47018091911304033
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.44584542221392787
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.48756966696379644
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.4381850098969453
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.5033417109962147
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.06666666666666667,
-      "knn_danger_metric": 0.7226358242900079
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.7248452768278063
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.5316772491228281
+      "raw_sentiment": -0.7666666666666667,
+      "knn_danger_metric": 0.630960550624016
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.8158511825658437
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.9973069681839514
     }
   },
   "semantic_logs": [
@@ -2337,13 +2337,6 @@
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
       "text": "העלאת רמת השיח הפוליטי בישראל - עמדת מפלגת הנדל זליכה ב 4 הסוגיות האזרחיות 👆   תקציר:   יוקר המחיה - טיפול ביוקר המחיה באמצעות ביטול מיידי של כל המכסים ומכסות הייבוא על מזון ומוצרי צריכה. פירוק כל מועצות הייצור. איסור הסכמי בלעדיות. יבואן בלעדי יוגדר מונופול. הפחתת מע&quot;מ באחוז אחד כל שנה. הפחתת מס ההכנסה לתקרה מקסימלית של 40%. ביטול מס יסף. ביטול חוק הרווחים הכלואים.   חינוך - הפחתת מספר שעות לימוד והקטנת כיתות. בניית 20 אלף כיתות לימוד עם חברות פרטיות. מתן אוטונומיה למנהלי בתי הספר. חינוך פיננסי מהיסודי ועד התיכון. סבסוד מעונות יום. חיזוק חינוך טכנולוגי.   גיוס חרדים - חובת שירות לכל אזרח ישראלי בגיל 18 ללא פטורים נרחבים - שירות צבאי או שירות לאומי (כולל בחברה הערבית). יצירת מסלולים מותאמים לחרדים. סנקציות אישיות מיידיות והטבות למשרתים.   מערכת המשפט - בעד רפורמה מאוזנת בהסכמה רחבה.  הגבלת סמכויות בג&quot;ץ בפסילת חוקי הכנסת. הכנסת תוכל להתגבר על פסילה ברוב של 72 ח&quot;כים. שינוי הרכב הוועדה לבחירת שופטים - לא לשימור המועדון הסגור הקיים ולא השתלטות ממשלתית מלאה. חלק מהיועצים המשפטיים יהפכו למשרות אמון.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "אחרי צרפת, איטליה ובלגיה, גם ספרד מצטרפת לגל המהומות:  פורעים אנרכיסטים משחיתים רכוש בכיכר קטלוניה בברצלונה.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2383,53 +2376,60 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: العميد يحيى سريع: هذه الأكاذيب لم تعد تنطلي على أحد فعملياتنا تستهدف منشآت نفطية وقواعد عسكرية سعودية ونعلن عنها في حينها",
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "تجدد القوات المسلحة اليمنية تحذيرها لجميع شركات الطيران العالمية والإقليمية والمحلية والموظفين والمسافرين من السفر عبر مطار خالد في الرياض لأنه غير آمن كونه هدفاً عسكرياً لقواتنا. ويتحمل النظام السعودي تبعات أي تشغيل للمطار وما سيترتب على ذلك لأن القوات المسلحة ستواصل عملياتها باتجاهه ولن يكون آمنا أبداً.   http://t.me/army21ye",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: استشهاد طفلة متأثرة بإصابتها برصاص قوات الاحتلال في دير البلح وسط القطاع",
-      "absolute_sentiment": -1,
+      "text": "اليمن: القوات المسلحة: يتحمل النظام السعودي تبعات أي تشغيل للمطار وما سيترتب على ذلك لأن قواتنا ستواصل عملياتها باتجاهه ولن يكون آمنا أبداً",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تنفذ عمليتي نسف شرق مخيم جباليا، شمال قطاع غزة.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "الاحتلال ينفذ عملية نسف بالمتفجرات في محيط نادي بيت لاهيا، شمال قطاع غزة.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "صحيفة &quot;هآرتس&quot;:  - مجموعة &quot;حنظلة&quot; المكونة من قراصنة انترنت إيرانيين كشفوا هوية قائد وحدة &quot;يهلوم&quot; بجيش الاحتلال ونشروا صورته مع عائلته، وحتى نشروا جدول اعماله.  - نشر القراصنة أيضا بيانات عرضوا حياة ضباط للخطر.  - جيش الاحتلال علق أن &quot; المسألة تخضع لتحقيق وفحص دقيق من جميع الجهات المختصة&quot;.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عدوان متواصل..  جيش الاحتلال يدفع بتعزيزات إضافية لقواته بمنطقة &quot;عين دير بحة&quot; في مدينة الخليل.",
+      "text": "وسائل إعلام إسرائيليّة: &quot;القناة 12&quot;: إغلاق شامل للضفة الغربية يوم الانتخابات واستمرار الطوق على الخليل وحلحول",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية: يتبقى ثلاثة أيام على توجه نحو 7.3 مليون إسرائيلي مؤهل للتصويت إلى صناديق الاقتراع، في ظل استطلاعات رأي تشير إلى عدم امتلاك أي من الحزبين القدرة على تشكيل حكومة، ما قد يجعل إعادة الانتخابات ضرورة.  وتشير معظم الاستطلاعات، سواء المنشورة عبر القنوات التلفزيونية الرئيسية أو التي أجرتها الأحزاب، إلى هذا الاحتمال، مع الإشارة إلى أن تغيّرات جوهرية قد تطرأ على النتائج تبعًا لنسبة المشاركة، وحجم الأصوات التي قد تخسرها الأحزاب التي لا تتجاوز العتبة الانتخابية، فضلًا عن أي تطورات في اللحظات الأخيرة أو تراجع قادة الأحزاب عن تصريحاتهم والتزاماتهم، كما حدث في الماضي.  #الإعلام_الحربي",
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: إطلاق نار مكثف من آليات الاحتلال الإسرائيلي جنوبي مدينة خان يونس جنوبي القطاع",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9992405211060941
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسلة الميادين: قوات الاحتلال الإسرائيلي تنفذ اقتحاما واسعا لبلدة السموع جنوبي الخليل",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "هل يكون نتنياهو آخر رؤساء حكومات الاحتلال؟ نهاية الرجل أم نهاية مرحلة؟  qudsn.co/share/218439",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تداهم منازل أسرى محررين خلال اقتحام بلدة السيلة الحارثية غرب جنين.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تطلق قنابل إنارة في أجواء المناطق الشمالية الغربية لمدينة نابلس",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
     }
   ]
 }
