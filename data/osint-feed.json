@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-10-25T05:36:54.619Z",
+  "last_updated": "2026-10-25T10:36:45.043Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.57",
+    "global_knn_danger": "0.55",
     "global_norm_sentiment": "-0.15"
   },
   "timeline": [
-    {
-      "time": "2026-10-17T05:27:23.245Z",
-      "danger": 0.557,
-      "sentiment": -0.253,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.521,
-          "sentiment": -0.7
-        },
-        "OSINTdefender": {
-          "danger": 0.545,
-          "sentiment": 0.467
-        },
-        "irna_1313": {
-          "danger": 0.393,
-          "sentiment": -0.1
-        },
-        "sepah_pasdaran": {
-          "danger": 0.425,
-          "sentiment": -0.6
-        },
-        "almanarnews": {
-          "danger": 0.563,
-          "sentiment": -0.1
-        },
-        "C_Military1": {
-          "danger": 0.797,
-          "sentiment": -0.767
-        },
-        "almayadeen": {
-          "danger": 0.662,
-          "sentiment": -0.567
-        },
-        "QudsN": {
-          "danger": 0.71,
-          "sentiment": -0.033
-        }
-      }
-    },
     {
       "time": "2026-10-17T10:04:20.625Z",
       "danger": 0.542,
@@ -2261,13 +2214,60 @@
           "sentiment": 0.133
         }
       }
+    },
+    {
+      "time": "2026-10-25T10:36:45.043Z",
+      "danger": 0.55,
+      "sentiment": -0.153,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.621,
+          "sentiment": -0.346
+        },
+        "OSINTdefender": {
+          "danger": 0.671,
+          "sentiment": 0.367
+        },
+        "irna_1313": {
+          "danger": 0.369,
+          "sentiment": 0.042
+        },
+        "sepah_pasdaran": {
+          "danger": 0.436,
+          "sentiment": -0.567
+        },
+        "almanarnews": {
+          "danger": 0.252,
+          "sentiment": 0.1
+        },
+        "C_Military1": {
+          "danger": 0.671,
+          "sentiment": 0.1
+        },
+        "almayadeen": {
+          "danger": 0.803,
+          "sentiment": -0.7
+        },
+        "QudsN": {
+          "danger": 0.724,
+          "sentiment": -0.357
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2278,9 +2278,9 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.44963477556982967
+      "num_messages": 13,
+      "raw_sentiment": -0.34615384615384615,
+      "knn_danger_metric": 0.621155594517104
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
@@ -2290,39 +2290,39 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 14,
-      "raw_sentiment": -0.07142857142857142,
-      "knn_danger_metric": 0.4031358944172377
+      "num_messages": 12,
+      "raw_sentiment": 0.041666666666666664,
+      "knn_danger_metric": 0.36907394257070725
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.5432566067910022
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.435888016243574
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.5204332646704332
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.2523439376395482
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.7248452768278063
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.6707759320138126
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.6951847796777149
+      "raw_sentiment": -0.7,
+      "knn_danger_metric": 0.8031170396593926
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": 0.13333333333333333,
-      "knn_danger_metric": 0.7644325726260182
+      "num_messages": 14,
+      "raw_sentiment": -0.35714285714285715,
+      "knn_danger_metric": 0.7243539722653934
     }
   },
   "semantic_logs": [
@@ -2334,9 +2334,16 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "8 נקודות יישוב חדשות עולות על הקרקע בעקבות הפיגוע בחברון ביום שישי  ע&quot;פ החלטת מועצת הר חברון, בעקבות הפיגוע, עלו לקרקע 6 חוות חדשות והתקבל אישור להעלות שני ישובים, בסה״כ 8 נקודות התיישבות חדשות.  החוות מתואמות עם הגורמים הרלוונטיים ומוקמות בשטחי C.   אתם מוזמנים לסייע בהקמה ולחזק את החוות הללו 👇  https://givechak.co.il/yehuda1?ref=rz  תגובה אחת",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️ساعاتی پیش دفاع مدنی عربستان سعودی از به‌صدا درآمدن آژیر هشدار در شهر ریاض خبر داد. &lrm;✅ @sepah_pasdaran",
+      "text": "&rlm; ️#فو��ی |انفجارهای شدید شهر جازان عربستان را لرزاند  &rlm;🔹 گزارش‌ها از وقوع انفجارهای شدید در شهر جازان در جنوب غربی عربستان سعودی خبر می‌دهد. &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2378,56 +2385,49 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: &quot;جيش&quot; الاحتلال ينفذ عمليات نسف شرق مدينة غزة",
+      "text": "لبنان: مراسل الميادين في الجنوب: قصف مدفعي إسرائيلي استهدف أطراف بلدة برعشيت",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: مراسل الميادين:4 غارات سعودية على مدينة التربة المركز الإداري لمديرية الشمايتين جنوبي محافظة تعز جنوب غرب اليمن",
+      "text": "إيران: قاليباف: تورط الأميركيون في مستنقع بسبب سوء تقديراتهم وعليهم اتخاذ الإجراءات اللازمة لإنقاذ أنفسهم",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: إطلاق نار مكثف من آليات الاحتلال شمال شرقي مدينة خان يونس جنوبي قطاع غزة",
+      "text": "فلسطين المحتلة: مراسل الميادين: إصابة شخص برصاص &quot;جيش&quot; الاحتلال في منطقة الفالوجا بجباليا شمالي قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "وسائل إعلام إسرائيليّة: &quot;هآرتس&quot;: بعد كلام نتنياهو المتهور عن عقوبات محتملة على المصارف الاسرائيلية الاساس الاقتصادي مهدد بالانهيار والبنوك تشعر بالذعر",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مصادر محلية: قوات الاحتلال تداهم عددًا من المنازل خلال اقتحام بلدة دير سامت غرب الخليل بالضفة الغربية المحتلة",
+      "text": "فلسطين المحتلة: مراسل الميادين: شهيد جراء غارة من طائرة مسيّرة إسرائيلية في منطقة المزرعة شرقي دير البلح وسط قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مصادر محلية: قوات الاحتلال تداهم عدداً من المنازل خلال اقتحام بلدة دير سامت غرب الخليل بالضفة الغربية",
-      "absolute_sentiment": -1,
+      "text": "اليمن: مراسل الميادين: غارة جوية سعودية تستهدف منطقة الأثاوِر جنوبي محافظة تعز جنوب غرب البلاد",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "جانب من اقتحام قوات الاحتلال شارع السلام في مدينة الخليل، ومداهمة بناية سكنية",
-      "absolute_sentiment": 0.5,
+      "text": "فلسطين المحتلة: مراسل الميادين: مسيّرة إسرائيلية تلقي قنابل في محيط دوار الجرن في جباليا شمالي قطاع غزة",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تصادر دراجة نارية خلال اقتحامها الواسع لمدينة الخليل.",
+      "text": "فلسطين المحتلة: مراسل الميادين: مصابون بعضهم بحالة خطرة جراء استهداف طائرة مسيّرة إسرائيلية مجموعة من المواطنين في محيط مستشفى حمد شمال غربي مدينة غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
