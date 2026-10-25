@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-10-25T10:36:45.043Z",
+  "last_updated": "2026-10-25T14:45:13.098Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.55",
-    "global_norm_sentiment": "-0.15"
+    "global_knn_danger": "0.59",
+    "global_norm_sentiment": "-0.09"
   },
   "timeline": [
-    {
-      "time": "2026-10-17T10:04:20.625Z",
-      "danger": 0.542,
-      "sentiment": -0.3,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.674,
-          "sentiment": -0.9
-        },
-        "OSINTdefender": {
-          "danger": 0.55,
-          "sentiment": 0.467
-        },
-        "irna_1313": {
-          "danger": 0.476,
-          "sentiment": -0.533
-        },
-        "sepah_pasdaran": {
-          "danger": 0.583,
-          "sentiment": -0.567
-        },
-        "almanarnews": {
-          "danger": 0.215,
-          "sentiment": 0.067
-        },
-        "C_Military1": {
-          "danger": 0.82,
-          "sentiment": -0.767
-        },
-        "almayadeen": {
-          "danger": 0.698,
-          "sentiment": -0.633
-        },
-        "QudsN": {
-          "danger": 0.459,
-          "sentiment": 0
-        }
-      }
-    },
     {
       "time": "2026-10-17T14:02:04.261Z",
       "danger": 0.588,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.357
         }
       }
+    },
+    {
+      "time": "2026-10-25T14:45:13.098Z",
+      "danger": 0.594,
+      "sentiment": -0.093,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.695,
+          "sentiment": -0.467
+        },
+        "OSINTdefender": {
+          "danger": 0.682,
+          "sentiment": 0.5
+        },
+        "irna_1313": {
+          "danger": 0.499,
+          "sentiment": -0.433
+        },
+        "sepah_pasdaran": {
+          "danger": 0.487,
+          "sentiment": -0.033
+        },
+        "almanarnews": {
+          "danger": 0.539,
+          "sentiment": 0.1
+        },
+        "C_Military1": {
+          "danger": 0.671,
+          "sentiment": 0.1
+        },
+        "almayadeen": {
+          "danger": 0.866,
+          "sentiment": -0.667
+        },
+        "QudsN": {
+          "danger": 0.556,
+          "sentiment": 0.1
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2278,33 +2278,33 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 13,
-      "raw_sentiment": -0.34615384615384615,
-      "knn_danger_metric": 0.621155594517104
+      "num_messages": 15,
+      "raw_sentiment": -0.4666666666666667,
+      "knn_danger_metric": 0.6949877068339452
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0.36666666666666664,
-      "knn_danger_metric": 0.6709856248345528
+      "raw_sentiment": 0.5,
+      "knn_danger_metric": 0.6820917809518069
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 12,
-      "raw_sentiment": 0.041666666666666664,
-      "knn_danger_metric": 0.36907394257070725
+      "num_messages": 15,
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.4987925625153065
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.435888016243574
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.48669983849078946
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": 0.1,
-      "knn_danger_metric": 0.2523439376395482
+      "knn_danger_metric": 0.5392985460829259
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.7,
-      "knn_danger_metric": 0.8031170396593926
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.8661243767133749
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 14,
-      "raw_sentiment": -0.35714285714285715,
-      "knn_danger_metric": 0.7243539722653934
+      "num_messages": 15,
+      "raw_sentiment": 0.1,
+      "knn_danger_metric": 0.5559339356831288
     }
   },
   "semantic_logs": [
@@ -2336,15 +2336,50 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "8 נקודות יישוב חדשות עולות על הקרקע בעקבות הפיגוע בחברון ביום שישי  ע&quot;פ החלטת מועצת הר חברון, בעקבות הפיגוע, עלו לקרקע 6 חוות חדשות והתקבל אישור להעלות שני ישובים, בסה״כ 8 נקודות התיישבות חדשות.  החוות מתואמות עם הגורמים הרלוונטיים ומוקמות בשטחי C.   אתם מוזמנים לסייע בהקמה ולחזק את החוות הללו 👇  https://givechak.co.il/yehuda1?ref=rz  תגובה אחת",
-      "absolute_sentiment": 0.5,
+      "text": "4 הרוגים בארבע תקיפות ברצועת עזה מאז שעות הבוקר   1. מספר פצועים, חלקם באורח קשה, בתקיפה באזור האוניברסיטה האסלאמית בעיר עזה.   2. הרוג בתקיפת כטב&quot;ם באזור אלמזרעה, ממזרח לדיר אלבלח שבמרכז רצועת עזה. ההרוג הוא חמדאן סלמאן אבו עמרה.   3.&nbsp; הרוג וכמה פצועים, חלקם באורח קשה, בתקיפת כטב&quot;מ ברחוב א-רשיד, סמוך לבית החולים חמד שבצפון רצועת עזה. ההרוג הוא פוזי סאלם א-סוארכה.   4. שני הרוגים וארבעה פצועים מהם אחד במצב קשה, בתקיפה באזור כלא אצדאא&#39; בח&#39;אן יונס. ההרוגים הם עלאא&#39; אבו זאיד ונביל אבו זאיד.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "4 הרוגים בארבע תקיפות ברצועת עזה מאז שעות הבוקר   1. מספר פצועים, חלקם באורח קשה, בתקיפה באזור האוניברסיטה האסלאמית בעיר עזה.   2. הרוג בתקיפת כטב&quot;ם באזור אלמזרעה, ממזרח לדיר אלבלח שבמרכז רצועת עזה. ההרוג הוא חמדאן סלמאן אבו עמרה.   3.&nbsp; הרוג וכמה פצועים, חלקם…",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "כטב&quot;מ ישראלי תקף לפני זמן קצר את נקודת הביטחון של שוטרי חמאס באזור האונ&#39; האסלאמית בעזה, אותה נקודה שהותקפה הבוקר ☝️.  הפעם יש 3 הרוגים בתקיפה.  שמות ההרוגים: סאמי בארוד  אשרף דחלאן  שאדי אבו עטאיא   סה&quot;כ 7 הרוגים בחמש תקיפות ברצועת מאז שעות הבוקר.   תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "כטב&quot;מ ישראלי תקף לפני זמן קצר את נקודת הביטחון של שוטרי חמאס באזור האונ&#39; האסלאמית בעזה, אותה נקודה שהותקפה הבוקר ☝️.  הפעם יש 3 הרוגים בתקיפה.  שמות ההרוגים: סאמי בארוד  אשרף דחלאן  שאדי אבו עטאיא   סה&quot;כ 7 הרוגים בחמש תקיפות ברצועת מאז שעות הבוקר.   תגובה…",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "חוויית השינה של מלונות היוקרה — עכשיו אצלכם בבית&#33; 🛏️✨  הגיע הזמן לשדרג את הלילות שלכם עם מזרן Hyatt מבית Sealy, המזרן הרשמי של סוויטות מלונות Hyatt.  🎁 רוכשים את המזרן ב־6,732 ₪ ומקבלים מיטת Detroit מעוצבת עם ארגז מצעים בשווי 4,660 ₪ במתנה&#33;  יותר סטייל, יותר פינוק וחדר שינה אחד שפשוט כיף להיכנס אליו בכל ערב.  הפכו את חדר השינה שלכם לסוויטה פרטית.  לפרטים נוספים ולרכישה &gt;&gt; https://katzr.net/9b4385",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️#فو��ی |انفجارهای شدید شهر جازان عربستان را لرزاند  &rlm;🔹 گزارش‌ها از وقوع انفجارهای شدید در شهر جازان در جنوب غربی عربستان سعودی خبر می‌دهد. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
+      "text": "&rlm; ️ سهرابی دومین فینالیست امروز کشتی فرنگی  &rlm;🔹 دانیال سهرابی در نیمه‌نهایی وزن ۷۲ کیلوگرم مسابقات کشتی فرنگی قهرمانی جهان با نتیجه ۹ بر صفر مقابل مینگیان گوریاف از روسیه به پیروزی رسید و راهی فینال شد. &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "📹 الاحتلال يهجّر أكثر من ألفي فلسطيني من الخليل ويواصل تصعيده في الضفة الغربية https://almanar.com.lb/article/1294247/?s=tg",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2385,20 +2420,6 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: قصف مدفعي إسرائيلي استهدف أطراف بلدة برعشيت",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: قاليباف: تورط الأميركيون في مستنقع بسبب سوء تقديراتهم وعليهم اتخاذ الإجراءات اللازمة لإنقاذ أنفسهم",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "فلسطين المحتلة: مراسل الميادين: إصابة شخص برصاص &quot;جيش&quot; الاحتلال في منطقة الفالوجا بجباليا شمالي قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
@@ -2407,27 +2428,6 @@
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
       "text": "فلسطين المحتلة: مراسل الميادين: شهيد جراء غارة من طائرة مسيّرة إسرائيلية في منطقة المزرعة شرقي دير البلح وسط قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: مراسل الميادين: غارة جوية سعودية تستهدف منطقة الأثاوِر جنوبي محافظة تعز جنوب غرب البلاد",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: مسيّرة إسرائيلية تلقي قنابل في محيط دوار الجرن في جباليا شمالي قطاع غزة",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: مصابون بعضهم بحالة خطرة جراء استهداف طائرة مسيّرة إسرائيلية مجموعة من المواطنين في محيط مستشفى حمد شمال غربي مدينة غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
