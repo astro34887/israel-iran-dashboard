@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-10-25T21:22:30.123Z",
+  "last_updated": "2026-10-25T23:44:50.782Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.57",
-    "global_norm_sentiment": "-0.12"
+    "global_knn_danger": "0.58",
+    "global_norm_sentiment": "-0.25"
   },
   "timeline": [
-    {
-      "time": "2026-10-17T20:01:09.884Z",
-      "danger": 0.504,
-      "sentiment": -0.29,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.472,
-          "sentiment": -0.567
-        },
-        "OSINTdefender": {
-          "danger": 0.539,
-          "sentiment": 0.333
-        },
-        "irna_1313": {
-          "danger": 0.357,
-          "sentiment": -0.5
-        },
-        "sepah_pasdaran": {
-          "danger": 0.384,
-          "sentiment": -0.567
-        },
-        "almanarnews": {
-          "danger": 0.213,
-          "sentiment": 0.233
-        },
-        "C_Military1": {
-          "danger": 0.705,
-          "sentiment": -0.733
-        },
-        "almayadeen": {
-          "danger": 0.569,
-          "sentiment": -0.267
-        },
-        "QudsN": {
-          "danger": 0.847,
-          "sentiment": -0.7
-        }
-      }
-    },
     {
       "time": "2026-10-17T22:50:32.960Z",
       "danger": 0.504,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.2
         }
       }
+    },
+    {
+      "time": "2026-10-25T23:44:50.782Z",
+      "danger": 0.582,
+      "sentiment": -0.252,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.572,
+          "sentiment": -0.5
+        },
+        "OSINTdefender": {
+          "danger": 0.735,
+          "sentiment": 0.4
+        },
+        "irna_1313": {
+          "danger": 0.637,
+          "sentiment": -0.455
+        },
+        "sepah_pasdaran": {
+          "danger": 0.313,
+          "sentiment": -0.567
+        },
+        "almanarnews": {
+          "danger": 0.477,
+          "sentiment": -0.1
+        },
+        "C_Military1": {
+          "danger": 0.705,
+          "sentiment": 0.1
+        },
+        "almayadeen": {
+          "danger": 0.599,
+          "sentiment": -1
+        },
+        "QudsN": {
+          "danger": 0.835,
+          "sentiment": -0.269
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2290,21 +2290,21 @@
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.5066412828101163
+      "num_messages": 11,
+      "raw_sentiment": -0.45454545454545453,
+      "knn_danger_metric": 0.6373492047714744
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.3472028255803417
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.31297829085775153
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.4448470396879103
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.4771854243298174
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.6640442881384357
+      "raw_sentiment": -1,
+      "knn_danger_metric": 0.5990554431002076
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.7866714149306462
+      "num_messages": 13,
+      "raw_sentiment": -0.2692307692307692,
+      "knn_danger_metric": 0.8348552176462498
     }
   },
   "semantic_logs": [
@@ -2345,6 +2345,13 @@
       "channel": "Israel_OSINT",
       "text": "עיראק: סדרת פיצוצים בבסיס/מחסן אמל&quot;ח של ארגון הגג של המיליציות השיעיות - אלחשד א-שעבי. יש נפגעים.  יש דיווחים לא רשמיים בערוצים המזוהים עם מיליציות אלו על כך שמדובר בתקיפה של מטוס אויב - אין אישור רשמי לכך  תגובה אחת",
       "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "بالصورة والفيديو | قوات الاحتلال تستنفر في محيط مفترق تقوع جنوب شرق بيت لحم عقب تعرض مركبة مستوطنين لإطلاق نار في المنطقة",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2371,41 +2378,6 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: التلفزيون الإيراني: استخبارات حرس الثورة تلقي القبض على عدد من العملاء في محافظة هرمزغان",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: القوات المسلحة: نفذنا 3 عمليات عسكرية نوعية بعشرات الصواريخ الباليستية رداً على العدوان السعودي ومجازره بحق شعبنا",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: القوات المسلحة: العملية الأولى استهدفت مطار خالد الدولي في الرياض وحققت هدفها بنجاح",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: القوات المسلحة: العملية الثانية استهدفت مرابض الطائرات ومخازن التذخيرة ومراكز التحكم بالطائرات المسيرة ومواقع مهمة في قاعدة خميس مشيط وكانت الإصابات دقيقة ومباشرة",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: القوات المسلحة: العملية الثالثة استهدفت القاعدة البحرية الجنوبية لقوات حرس الحدود بجيزان وكانت الإصابة دقيقة وخلفت قتلى وجرحى من جنود وضباط سعوديين",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
       "text": "فلسطين المحتلة: مراسل الميادين في غزة: مصاب برصاص &quot;جيش&quot; الاحتلال شرقي مخيم المغازي وسط القطاع",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
@@ -2418,17 +2390,45 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "القناة 14 العبرية: طلب رئيس أركان الاحتلال زامير من المستوى السياسي: موقفنا هو إنهاء عملية «زئير يهودا» في الخليل، ولا نرى أن من الصواب مواصلتها.   وردّ نتنياهو وكاتس بأنه يجب مواصلة العملية وبوتيرة أشد.",
+      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي شرقي مدينة خان يونس جنوبي قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: إطلاق نار مكثف من آليات الاحتلال شرقي مدينة حمد شمالي خان يونس جنوبي قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل| مدفعية الاحتلال تستهدف شرق مخيم المغازي وسط قطاع غزة.",
-      "absolute_sentiment": 0.5,
+      "text": "قوات الاحتلال تنكل بشاب عند دوار الجلدة في مدينة الخليل.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تطلق قنابل إنارة في أجواء منطقة &quot;كرم الخطيب&quot; غرب بلدة تقوع جنوب شرق بيت لحم.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "انتشار قوات الاحتلال في موقع إطلاق النار الذي استهدف مركبة مستوطنين قرب مفترق تقوع، جنوب شرق بيت لحم.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تداهم منزلاً خلال اقتحام قرية عموريا جنوب نابلس.",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
   ]
