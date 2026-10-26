@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-10-25T23:44:50.782Z",
+  "last_updated": "2026-10-26T02:57:37.837Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.58",
-    "global_norm_sentiment": "-0.25"
+    "global_knn_danger": "0.53",
+    "global_norm_sentiment": "-0.19"
   },
   "timeline": [
-    {
-      "time": "2026-10-17T22:50:32.960Z",
-      "danger": 0.504,
-      "sentiment": -0.3,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.303,
-          "sentiment": -0.467
-        },
-        "OSINTdefender": {
-          "danger": 0.539,
-          "sentiment": 0.333
-        },
-        "irna_1313": {
-          "danger": 0.364,
-          "sentiment": -0.5
-        },
-        "sepah_pasdaran": {
-          "danger": 0.387,
-          "sentiment": -0.567
-        },
-        "almanarnews": {
-          "danger": 0.514,
-          "sentiment": -0.5
-        },
-        "C_Military1": {
-          "danger": 0.706,
-          "sentiment": -0.6
-        },
-        "almayadeen": {
-          "danger": 0.47,
-          "sentiment": -0.367
-        },
-        "QudsN": {
-          "danger": 0.81,
-          "sentiment": -0.167
-        }
-      }
-    },
     {
       "time": "2026-10-18T00:35:27.432Z",
       "danger": 0.498,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.269
         }
       }
+    },
+    {
+      "time": "2026-10-26T02:57:37.837Z",
+      "danger": 0.534,
+      "sentiment": -0.193,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.572,
+          "sentiment": -0.467
+        },
+        "OSINTdefender": {
+          "danger": 0.72,
+          "sentiment": 0.3
+        },
+        "irna_1313": {
+          "danger": 0.517,
+          "sentiment": -0.5
+        },
+        "sepah_pasdaran": {
+          "danger": 0.313,
+          "sentiment": -0.567
+        },
+        "almanarnews": {
+          "danger": 0.468,
+          "sentiment": -0.2
+        },
+        "C_Military1": {
+          "danger": 0.705,
+          "sentiment": 0.1
+        },
+        "almayadeen": {
+          "danger": 0.38,
+          "sentiment": -0.4
+        },
+        "QudsN": {
+          "danger": 0.72,
+          "sentiment": -0.067
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,20 +2279,20 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
+      "raw_sentiment": -0.4666666666666667,
       "knn_danger_metric": 0.5720004849865307
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0.4,
-      "knn_danger_metric": 0.7345888792008103
+      "raw_sentiment": 0.3,
+      "knn_danger_metric": 0.7198919797624868
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 11,
-      "raw_sentiment": -0.45454545454545453,
-      "knn_danger_metric": 0.6373492047714744
+      "num_messages": 7,
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.5173728190032881
     },
     "sepah_pasdaran": {
       "name": "IRGC",
@@ -2303,8 +2303,8 @@
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.4771854243298174
+      "raw_sentiment": -0.2,
+      "knn_danger_metric": 0.4677869124543513
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -1,
-      "knn_danger_metric": 0.5990554431002076
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.38014673222863443
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 13,
-      "raw_sentiment": -0.2692307692307692,
-      "knn_danger_metric": 0.8348552176462498
+      "num_messages": 15,
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.7198178689521197
     }
   },
   "semantic_logs": [
@@ -2378,58 +2378,58 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: مصاب برصاص &quot;جيش&quot; الاحتلال شرقي مخيم المغازي وسط القطاع",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: وكالة سبأ بصنعاء: الطيران السعودي يشن 6 غارات على الناحية الشرقية لمدينة صعدة شمالي البلاد",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي شرقي مدينة خان يونس جنوبي قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: إطلاق نار مكثف من آليات الاحتلال شرقي مدينة حمد شمالي خان يونس جنوبي قطاع غزة",
-      "absolute_sentiment": -1,
+      "text": "البرازيل: لولا دا سيلفا: سنغيّر طريقة إدارة البلاد وسنجعل الشعب يشارك بشكل أكبر في عملية صنع القرار",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تنكل بشاب عند دوار الجلدة في مدينة الخليل.",
-      "absolute_sentiment": -1,
+      "text": "جيش الاحتلال يواصل إغلاق حاجز بيت فوريك شرق مدينة نابلس.",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تطلق قنابل إنارة في أجواء منطقة &quot;كرم الخطيب&quot; غرب بلدة تقوع جنوب شرق بيت لحم.",
-      "absolute_sentiment": -1,
+      "text": "مصادر محلية: قوة راجلة تابعة لجيش الاحتلال تقتحم بلدة رمانة، غرب جنين.",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "انتشار قوات الاحتلال في موقع إطلاق النار الذي استهدف مركبة مستوطنين قرب مفترق تقوع، جنوب شرق بيت لحم.",
-      "absolute_sentiment": -1,
+      "text": "مصادر محلية: قوات الاحتلال تداهم منزلاً خلال اقتحام المنطقة الجنوبية في مدينة الخليل",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم منزلاً خلال اقتحام قرية عموريا جنوب نابلس.",
-      "absolute_sentiment": -1,
+      "text": "جانب من اقتحام قوات الاحتلال منطقة الشعابة في الخليل، ومداهمة عدد من المنازل",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   القناة 12 العبرية:   مواجهة غير مسبوقة بين نتنياهو وزامير بسبب إيران قبيل الانتخابات.   تصاعد مواجهة غير مسبوقة بين رئيس الوزراء بنيامين نتنياهو ورئيس الأركان إيال زامير، على خلفية الملف الإيراني، وسط مخاوف عسكرية من أن تقود تحركات المستوى السياسي إلى سوء تقدير قد يشعل مواجهة خاطفة مع إيران في توقيت بالغ الحساسية، قبيل الانتخابات الإسرائيلية.  وبحسب مصادر أمنية، فإن العملية المطروحة قد تؤدي إلى مواجهة سريعة مع إيران، محذّرة من تداعيات أي حسابات خاطئة في ظل الظروف الراهنة.  كما أفادت مصادر مطّلعة بوجود مخاوف داخل المستوى العسكري من محاولة استغلال الملف الإيراني لتحقيق مكاسب سياسية، وهي اتهامات ينفيها مسؤولون سياسيون بشدة، واصفين إياها بأنها «كذب صريح».  ووفقًا للتقرير، تلقّى زامير خلال الأيام الأخيرة توجيهات من المستوى السياسي، لكنه طلب عقد نقاش معمّق قبل تنفيذها، كما طالب بوثائق قانونية موقّعة من المستوى السياسي تؤكد الأساس القانوني للخطوة المطروحة.  ونقلت المصادر أن التوتر بلغ مستوى لافتًا خلال نقاش عُقد اليوم أثناء زيارة إلى قاعدة بلماخيم، حيث سادت أجواء شديدة التوتر.  وفي تعليق لافت، قال مسؤول أمني رفيع إن «التاريخ لن ينسى الدور الذي أدّاه زامير خلال الأيام الأخيرة».  وتأتي هذه التطورات في ظل حساسية الملف الإيراني، وقبيل الانتخابات الإسرائيلية، فيما خضعت جميع تفاصيل التقرير لموافقة الرقابة العسكرية الإسرائيلية.  #الإعلام_الحربي",
+      "absolute_sentiment": -0.5,
+      "semantic_danger_knn": 0.9992436324309596
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صحيفة إسرائيل اليوم العبرية: نقلت مصلحة السجون الإسرائيلية ثمانية أسرى أمنيين فلسطينيين إلى الزنازين الانفرادية، بعد إعدادهم كعكة مرتجلة احتفالاً بنهاية ولاية وزير الأمن القومي إيتامار بن غفير.  وعُثر على الكعكة، التي أُعدّت من مواد غذائية وُزّعت على الأسرى، داخل إحدى الزنازين خلال نشاط لحراس السجن. وكشف التحقيق في الحادثة أن الأسرى الثمانية أعدّوا الكعكة احتفالاً بتغيير الحكومة وتعيين بديل لبن غفير.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9979630785221282
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "عاجل | آليات الاحتلال تطلق نيرانها شمالي مخيم البريج وسط قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9596045227592704
     }
   ]
 }
