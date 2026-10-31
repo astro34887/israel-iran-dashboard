@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-10-31T14:17:30.210Z",
+  "last_updated": "2026-10-31T19:02:23.416Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.08"
+    "global_knn_danger": "0.55",
+    "global_norm_sentiment": "-0.14"
   },
   "timeline": [
-    {
-      "time": "2026-10-22T11:03:44.568Z",
-      "danger": 0.547,
-      "sentiment": -0.32,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.679,
-          "sentiment": -0.6
-        },
-        "OSINTdefender": {
-          "danger": 0.63,
-          "sentiment": -0.133
-        },
-        "irna_1313": {
-          "danger": 0.466,
-          "sentiment": -0.267
-        },
-        "sepah_pasdaran": {
-          "danger": 0.475,
-          "sentiment": -0.667
-        },
-        "almanarnews": {
-          "danger": 0.203,
-          "sentiment": -0.2
-        },
-        "C_Military1": {
-          "danger": 0.819,
-          "sentiment": -0.667
-        },
-        "almayadeen": {
-          "danger": 0.768,
-          "sentiment": -0.6
-        },
-        "QudsN": {
-          "danger": 0.482,
-          "sentiment": 0.067
-        }
-      }
-    },
     {
       "time": "2026-10-22T16:32:08.296Z",
       "danger": 0.575,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.7
         }
       }
+    },
+    {
+      "time": "2026-10-31T19:02:23.416Z",
+      "danger": 0.55,
+      "sentiment": -0.14,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.575,
+          "sentiment": -0.7
+        },
+        "OSINTdefender": {
+          "danger": 0.614,
+          "sentiment": -0.233
+        },
+        "irna_1313": {
+          "danger": 0.406,
+          "sentiment": -0.033
+        },
+        "sepah_pasdaran": {
+          "danger": 0.377,
+          "sentiment": -0.767
+        },
+        "almanarnews": {
+          "danger": 0.557,
+          "sentiment": 0.267
+        },
+        "C_Military1": {
+          "danger": 0.732,
+          "sentiment": 0.333
+        },
+        "almayadeen": {
+          "danger": 0.664,
+          "sentiment": -0.333
+        },
+        "QudsN": {
+          "danger": 0.621,
+          "sentiment": 0.2
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2278,51 +2278,51 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 14,
-      "raw_sentiment": -0.35714285714285715,
-      "knn_danger_metric": 0.5773272771548166
+      "num_messages": 15,
+      "raw_sentiment": -0.7,
+      "knn_danger_metric": 0.574637704569907
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
       "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.6231045135173702
+      "knn_danger_metric": 0.6139030303787097
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.16666666666666666,
-      "knn_danger_metric": 0.4673099977757719
+      "raw_sentiment": -0.03333333333333333,
+      "knn_danger_metric": 0.40625224892295625
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0.3,
-      "knn_danger_metric": 0.5105173387711966
+      "raw_sentiment": -0.7666666666666667,
+      "knn_danger_metric": 0.37742750362829974
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.03333333333333333,
-      "knn_danger_metric": 0.4009764894720169
+      "raw_sentiment": 0.26666666666666666,
+      "knn_danger_metric": 0.55658727597808
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.36666666666666664,
-      "knn_danger_metric": 0.6848850421353063
+      "raw_sentiment": 0.3333333333333333,
+      "knn_danger_metric": 0.7324523579954448
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.46217180091390736
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.6636094432530337
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.7,
-      "knn_danger_metric": 0.7304466725366271
+      "raw_sentiment": 0.2,
+      "knn_danger_metric": 0.6206013199518849
     }
   },
   "semantic_logs": [
@@ -2336,72 +2336,93 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "&quot;אפקט הפרפר&quot; על שם יחיא סנואר...  תגובה אחת",
-      "absolute_sentiment": 0,
+      "text": "מהומות סופ&quot;ש בצרפת: מארסיי וליון.  תגובה אחת",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "דרום לבנון: תיעוד רגעי הפיצוץ של רחפן נפץ ישראלי מעל מבנה בכפר מיפדון, לפני שעה קלה.  המטרה, ע&quot;פ מקורות לבנוניים היא אנטנות שידור ואינטרנט.   תגובה אחת",
-      "absolute_sentiment": 0,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "irna_1313",
-      "channel": "IRGC",
-      "text": "🎥«خبرگردی» ۹ آبان؛ در دیدار فرماندهان ارشد نظامی با رهبر انقلاب چه گذشت؟ &nbsp; 🔹در بسته خبری امروز، ابتدا دیدار فرماندهان ارشد نیروهای مسلح با رهبر انقلاب را تشریح کردیم . آخرین مدال کشتی‌گیران آزادکار، هشدار بارندگی در سراسر کشور، تکذیب خبر غیرفعال شدن کارت‌های…",
+      "text": "מהומות הסופ&quot;ש בהמבורג, גרמניה.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️ خودروهای نظامی مزدوران سعودی طعمۀ پهپاد رجوم یمنی‌ها می‌شود &lrm;✅ @sepah_pasdaran",
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "פריז: שוטר עולה באש אחרי שהושלך לעברו בקבוק תבערה.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "פריז: שוטר עולה באש אחרי שהושלך לעברו בקבוק תבערה.  תגובה אחת",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "وزارة الأشغال: معالجة ملف كهرباء مطار بيروت والالتزام بتسديد المستحقات https://almanar.com.lb/article/1311857/?s=tg",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 66 غارةً جويةً وصاروخاً استهدف بها الأعيان المدنية في العاصمة صنعاء ومحافظات الجوف وتعز وصعدة وحجة ولحج من خلال طائرات &quot;F-15&quot; و &quot;تايفون&quot; أقلعت من قاعدتي خميس مشيط والطائف والعدوان الصاروخي من نجران، وخلفت شهداء وجرحى بينهم نساء وأطفال. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 3755 غارةً جويةً وصاروخاً.  http://t.me/army21ye",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: اللواء عبد اللهي: سيكون ردنا فورياً ومؤثراً ومن دون أي قيود جغرافية",
+      "text": "إيران: رضائي: لم يُتخذ في الحكومة قرار جديد بشأن تغيير العقيدة النووية",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: شهيد ومصابون جراء قصف من مسيّرة إسرائيلية قرب أبراج طيبة غربي مدينة خان يونس جنوبي قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تغلق طرقا فرعية في منطقة عين دير بحة في الخليل",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "عاجل| قوة الاحتلال تقتحم بلدة قباطية جنوب جنين",
+      "text": "إيران: رضائي: هناك نقاش حول ما إذا كنا سنُبقي على العقيدة النووية السابقة في حال اندلاع الحرب مجدداً",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "تكاتف أصحاب الشاحنات لإخلاء منشأة تجارية هددها الاحتلال بالهدم في مدينة الخليل.",
+      "text": "لبنان: مراسل الميادين في الجنوب: قوات الاحتلال نفذت تفجيراً في أطراف بلدة برعشيت في قضاء بنت جبيل",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي مكثف يستهدف شرقي مدينة خان يونس جنوبي قطاع غزة",
       "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: رضائي: لم يطرح في الاجتماع الرباعي موضوع &quot;اتفاق مكة&quot; ولا قضية اليمن بل انصب الحديث على كيفية صياغة الترتيبات المستقبلية للمنطقة",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "أسيرات ضحايا منشورات الفيسبوك لدى الاحتلال&#33;  🎙  شاهد الحلقة مع المحامي &quot;حسن عبادي&quot; عبر منصة&quot;شرفات&quot;:  https://youtu.be/L4Gstw3FJ4c",
-      "absolute_sentiment": -1,
+      "text": "قوات الاحتلال تنصب حاجزاً وتعيق مرور المركبات في قرية الناقورة، شمال غرب نابلس.",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية     أمين المجلس الأعلى للأمن القومي الإيراني اللواء محسن رضائي:   - صمود إيران والهزيمة التي ألحقتها بأميركا دفعت دول المنطقة إلى التفكير في إنشاء هيكل أمني جديد  - وزير الدفاع السعودي قال لي إن &quot;إسرائيل&quot; ستتجه بعد إيران إلى تركيا ثم إلى السعودية  - ممثلو الدول الذين قدموا إلى طهران كانوا يسعون إلى تحديد ملامح الهيكل الأمني الجديد  - الدول تحدثت بحزم ضد &quot;إسرائيل&quot; خلال الاجتماع الرباعي في طهران  - لم يطرح في الاجتماع الرباعي موضوع &quot;اتفاق مكة&quot; ولا قضية اليمن بل انصب الحديث على كيفية صياغة الترتيبات المستقبلية للمنطقة  - إيران تؤكد ضرورة خروج القوى الأجنبية واضطلاع دول المنطقة نفسها بالحفاظ على أمنها  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9996153582324467
     },
     {
       "channelId": "C_Military1",
@@ -2409,27 +2430,6 @@
       "text": "#الجمهورية_الإسلامية   سماحة آية الله السيد القائد مجتبى الخامنئي (دام ظله): يجب تحديث بنك الأهداف على نحو يتيح وضع مختلف أنواع الأصول المادية وغير المادية للعدو الأميركي-الصهيوني في مرمى نيران القوات المسلحة.  #الإعلام_الحربي",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 0.9974419839050702
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   رئيس هيئة الأركان العامة للقوات المسلحة الإيرانية: نعلن أن القوات المسلحة الإيرانية المقتدرة، امتثالًا لأوامر القائد الأعلى للقوات المسلحة وإمام المجتمع الإسلامي، مستعدة للدفاع عن البلاد والشعب الإيراني الشريف، ولمواجهة الأعداء الأميركيين والصهاينة بقوة وشدة ومن دون قيود جغرافية، باستخدام المعدات والتقنيات الحديثة والمتطورة، وستعمل بالتأكيد على تعزيز هذه الاستعدادات يومًا بعد يوم.  #الإعلام_الحربي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9954409552297614
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "بعد قليل سيتم نشر توجيهات وأوامر هامة للإمام القائد السيد مجتبى الخامنئي خلال لقاء قادة القوات المسلحة الإيرانية.  #الإعلام_الحربي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.9954011503354027
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية  سماحة آية الله السيد القائد مجتبى الخامنئي (دام ظله): يجب أن يُواجَه كل مستوى من مستويات التهديد، أيًّا كان نوعه، بردّ فوري وفاعل، ومن دون أي قيود جغرافية.  #الإعلام_الحربي",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 0.983843818521641
     }
   ]
 }
