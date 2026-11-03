@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-11-03T15:46:18.851Z",
+  "last_updated": "2026-11-03T21:28:09.369Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.27"
+    "global_knn_danger": "0.54",
+    "global_norm_sentiment": "-0.34"
   },
   "timeline": [
-    {
-      "time": "2026-10-24T14:12:55.964Z",
-      "danger": 0.512,
-      "sentiment": -0.118,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.676,
-          "sentiment": -0.25
-        },
-        "OSINTdefender": {
-          "danger": 0.569,
-          "sentiment": 0.333
-        },
-        "irna_1313": {
-          "danger": 0.411,
-          "sentiment": -0.067
-        },
-        "sepah_pasdaran": {
-          "danger": 0.316,
-          "sentiment": -0.567
-        },
-        "almanarnews": {
-          "danger": 0.465,
-          "sentiment": 0.067
-        },
-        "C_Military1": {
-          "danger": 0.729,
-          "sentiment": -0.467
-        },
-        "almayadeen": {
-          "danger": 0.344,
-          "sentiment": -0.067
-        },
-        "QudsN": {
-          "danger": 0.66,
-          "sentiment": 0
-        }
-      }
-    },
     {
       "time": "2026-10-24T17:47:17.150Z",
       "danger": 0.561,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.357
         }
       }
+    },
+    {
+      "time": "2026-11-03T21:28:09.369Z",
+      "danger": 0.538,
+      "sentiment": -0.34,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.583,
+          "sentiment": -0.3
+        },
+        "OSINTdefender": {
+          "danger": 0.505,
+          "sentiment": -0.567
+        },
+        "irna_1313": {
+          "danger": 0.487,
+          "sentiment": -0.533
+        },
+        "sepah_pasdaran": {
+          "danger": 0.406,
+          "sentiment": -0.367
+        },
+        "almanarnews": {
+          "danger": 0.472,
+          "sentiment": -0.067
+        },
+        "C_Military1": {
+          "danger": 0.887,
+          "sentiment": -0.5
+        },
+        "almayadeen": {
+          "danger": 0.456,
+          "sentiment": -0.667
+        },
+        "QudsN": {
+          "danger": 0.632,
+          "sentiment": -0.267
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.7,
-      "knn_danger_metric": 0.5160625377204867
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.5826202285361873
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.6096562515727897
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.5052237016537046
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.44392044161720595
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.4867321241871243
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.3508245276798778
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.4060620012413111
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.5086648501093735
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.4721220500002417
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.6437921189382324
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.8866119742029123
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.4817505734558939
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.45632795285297406
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 14,
-      "raw_sentiment": -0.35714285714285715,
-      "knn_danger_metric": 0.6656889723564563
+      "num_messages": 15,
+      "raw_sentiment": -0.26666666666666666,
+      "knn_danger_metric": 0.6315611897770609
     }
   },
   "semantic_logs": [
@@ -2336,35 +2336,28 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "שלט חוצות בכיכר המהפכה בטהרן:  We will kill Trump  תגובה אחת",
+      "text": "דרום קוריאה: מה הסיפור של ארדואן ואחיזות הידיים המוזרות? פטיש?  חשבון סיני מוביל ברשתות החברתיות טוען שהוא מתקשה ללכת ללא תמיכה.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "שלט חוצות בכיכר המהפכה בטהרן:  We will kill Trump  תגובה אחת",
+      "text": "מתי בפעם האחרונה עצרתם הכול ופשוט הייתם ביחד? ❤️  בלי מרוץ החיים, בלי מטלות ובלי הסחות דעת. רק אתם, הילדים, החוויות והזמן המשפחתי שכל כך חסר בשגרה.  🌟 משפחנוכה באילת עם אל ארצי - הרבה יותר מחופשה&#33; 🏖️ חוויות בלתי נשכחות לילדים 👨‍👩‍👧‍👦 זמן איכות אמיתי לכל המשפחה 🥾 טיולים, פעילויות ורגעים של ביחד ❤️ הופעות מעולות, שיחות ומפגשים ✡️ תפילות, שיעורים וכשרויות מהודרות  עוד לא הזמנתם חדר? - כל עוד הנר דולק אפשר לתקן  🔥נותרו חדרים אחרונים&#33;  להזמנות ולפרטים &gt;&gt; https://katzr.net/4b8f3b 0535405363",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "فرودگاه دوحه قطر دیشب صحنه خروج بی‌سابقه و دسته‌جمعی مهاجران شد&#33;   ☑️@sepah_pasdaran",
-      "absolute_sentiment": -1,
+      "text": "&rlm; ️تصاویری از سرنگونی یک فروند پهپاد در حومه میناب &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "فعالية علمية في الجامعة الأميركية تبحث تطوير رعاية مرضى هشاشة العظام وتطبيق الإرشادات وطنياً https://almanar.com.lb/article/1320172/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "📹 مواكبة لأبرز المستجدات والتطورات الميدانية من جنوب لبنان، مع مراسلنا علي شبيب https://almanar.com.lb/article/1320272/?s=tg",
+      "text": "📹 الجبهة القومية تنفّذ اعتصامًا أمام وزارة الطاقة للمطالبة بالحقوق المعيشية https://almanar.com.lb/article/1320987/?s=tg",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
@@ -2376,46 +2369,60 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: الجنرال رضائي: على الجانب الأميركي أن يجيب عن الشروط الإيرانية السبعة بصورة كاملة وصريحة",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين في غزة: استشهاد طفلة وإصابة آخرين من جراء غارة جوية إسرائيلية استهدفت محيط منتزه البلدية بمدينة غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: بقائي: يتواصل تبادل الرسائل عبر الوسطاء بالتزامن مع بلوغ الاستعداد للدفاع والردّ الحاسم على أي اعتداء أعلى مستوياته الممكنة",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "مشهد من اقتحام قوات الاحتلال لمخيم الدهيشة، في بيت لحم.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم قرية أم صفا، شمال غرب رام الله.",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   العلاقات العامة للقوة البحرية في حرس الثورة الاسلامية:  منذ الساعات الأولى من فجر اليوم وحتى الآن، تعرّضت ثلاث ناقلات نفط مخالفة لانفجارات وحرائق شديدة في المسار غير المسموح به في مضيق هرمز، لدرجة أن الصيادين في القسم الشرقي من المضيق عاشوا ليلة مضيئة. انفجرت هذه الناقلات نتيجة اصطدامها بألغام بحرية، بسبب إطفائها أنظمة الملاحة والتعريف الخاصة بها وعبورها المسارات غير المسموح بها في مضيق هرمز، وتُركت على السواحل الجنوبية للمضيق وهي لا تزال تحترق.  أعلنت القوة البحرية في حرس الثورة أن القواعد الإيرانية الخاصة بمضيق هرمز أُبلغت مراراً إلى جميع السفن عبر المحطات الإذاعية والبيانات الصادرة عن القوة البحرية في الحرس الثوري، وأن عصيان هذه القواعد وتجاهلها من قبل السفن، ومرافقتها للجيش الأمريكي المعتدي لعبور المسارات غير المسموح بها في مضيق هرمز، سيؤدي إلى وقوع حوادث من هذا النوع.  إن واقع الوضع في مضيق هرمز هو ما تشاهدونه، وليس ما يعلنه قائد «سنتكوم» الإرهابي باستخدام صور أرشيفية في الفضاء الافتراضي.  #الإعلام_الحربي",
+      "text": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 93&nbsp;غارة جوية&nbsp;استهدف بها الأعيان المدنية في العاصمة صنعاء ومحافظات الجوف وتعز وصعدة ومأرب وعمران ولحج وحجة وذلك من خلال طائرات &quot;F-15&quot; و &quot;تايفون&quot; أقلعت من قاعدتي خميس مشيط والطائف وخلفت عدداً كبيراً من الشهداء والجرحى من المدنيين بينهم نساء وأطفال. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 4032 غارةً جويةً وصاروخاً.  http://t.me/army21ye",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: &quot;تسنيم&quot;: أنباء عن سماع أصوات إطلاق نار في بندر عباس وميناء سيريك باتجاه السفن المخالفة في مضيق هرمز",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9986721562881984
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: إيجئي: لا يمكننا الوثوق بالقوى المستكبرة والعقوبات الشاملة والقصف العسكري لم يحققا للأعداء مبتغاهم",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "وسائل إعلام إسرائيليّة: &quot;القناة 12&quot;: تحاول الجهات الإسرائيلية فهم ما إذا كان ترامب يعني وقفاً للمساعدات أم تغييراً تدريجياً بنموذج التعاون الأمني",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "مركز عمليات التجارة البحرية البريطانية: تلقي بلاغ عن حادث على بعد 14 ميلاً بحرياً شمال شرق ليما العمانية",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "753 خرقاً خلال أكتوبر الماضي.. الاحتلال يواصل استهداف غزة ويقيّد دخول المساعدات  qudsn.co/share/218651",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تطلق قنابل الغاز خلال اقتحام بلدة عزون، شرق قلقيلية.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "فلسطينيون يتفقدون خيمة تؤوي نازحين، عقب قصفها من قبل طيران الاحتلال في محيط منتزه البلدية وسط مدينة غزة.",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
     },
     {
       "channelId": "C_Military1",
@@ -2423,13 +2430,6 @@
       "text": "#إعلام_العدو   مراسلة القناة 13 العبرية: اكثر ما يثير القلق من إعلان ترامب عن وقف المساعدات إلى &quot;إسرائيل&quot; أنه جاء في يوم الانتخابات ما يعني أن ترامب يريد من هذا التصريح أن يكون شعبويًا ما يفسر تدني مكانة &quot;إسرائيل&quot; في المجتمع الأمريكي.  #الإعلام_الحربي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 0.9986358496212904
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   أمين المجلس الأعلى للأمن القومي اللواء محسن رضائي:   إن الرد الأمريكي على حقوق إيران ومطالبها لم يكن مقنعاً، وعليهم الرد بشكل كامل وصريح على شروط إيران السبعة وتنفيذها؛ عندها فقط سيُفتح مضيق هرمز.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.998583952312496
     }
   ]
 }
