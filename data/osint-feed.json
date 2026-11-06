@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-11-06T07:37:24.624Z",
+  "last_updated": "2026-11-06T15:38:22.177Z",
   "tension": {
-    "level": "CALM_CEASEFIRE",
-    "global_knn_danger": "0.49",
-    "global_norm_sentiment": "-0.27"
+    "level": "ESCALATING",
+    "global_knn_danger": "0.55",
+    "global_norm_sentiment": "-0.24"
   },
   "timeline": [
-    {
-      "time": "2026-10-25T23:44:50.782Z",
-      "danger": 0.582,
-      "sentiment": -0.252,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.572,
-          "sentiment": -0.5
-        },
-        "OSINTdefender": {
-          "danger": 0.735,
-          "sentiment": 0.4
-        },
-        "irna_1313": {
-          "danger": 0.637,
-          "sentiment": -0.455
-        },
-        "sepah_pasdaran": {
-          "danger": 0.313,
-          "sentiment": -0.567
-        },
-        "almanarnews": {
-          "danger": 0.477,
-          "sentiment": -0.1
-        },
-        "C_Military1": {
-          "danger": 0.705,
-          "sentiment": 0.1
-        },
-        "almayadeen": {
-          "danger": 0.599,
-          "sentiment": -1
-        },
-        "QudsN": {
-          "danger": 0.835,
-          "sentiment": -0.269
-        }
-      }
-    },
     {
       "time": "2026-10-26T02:57:37.837Z",
       "danger": 0.534,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.107
         }
       }
+    },
+    {
+      "time": "2026-11-06T15:38:22.177Z",
+      "danger": 0.548,
+      "sentiment": -0.237,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.502,
+          "sentiment": -0.667
+        },
+        "OSINTdefender": {
+          "danger": 0.504,
+          "sentiment": 0.267
+        },
+        "irna_1313": {
+          "danger": 0.584,
+          "sentiment": -0.3
+        },
+        "sepah_pasdaran": {
+          "danger": 0.416,
+          "sentiment": -0.5
+        },
+        "almanarnews": {
+          "danger": 0.465,
+          "sentiment": 0.267
+        },
+        "C_Military1": {
+          "danger": 0.585,
+          "sentiment": -0.4
+        },
+        "almayadeen": {
+          "danger": 0.69,
+          "sentiment": -0.5
+        },
+        "QudsN": {
+          "danger": 0.785,
+          "sentiment": -0.375
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.32527117210410694
+      "raw_sentiment": -0.6666666666666666,
+      "knn_danger_metric": 0.5021461946515458
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0.2,
-      "knn_danger_metric": 0.5020123869483878
+      "raw_sentiment": 0.26666666666666666,
+      "knn_danger_metric": 0.504154521257932
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.4123539966993698
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.5837171894333423
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.37417202525671134
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.41580100005310505
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.3800501520075221
+      "raw_sentiment": 0.26666666666666666,
+      "knn_danger_metric": 0.46475864533686284
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
       "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.661226318995751
+      "knn_danger_metric": 0.5847137435749475
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.626280180847293
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.6898858572986699
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 14,
-      "raw_sentiment": -0.10714285714285714,
-      "knn_danger_metric": 0.7179292771001503
+      "num_messages": 8,
+      "raw_sentiment": -0.375,
+      "knn_danger_metric": 0.7854427968208146
     }
   },
   "semantic_logs": [
@@ -2334,102 +2334,102 @@
       "semantic_danger_knn": 1
     },
     {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "3 הרוגים בשלוש תקיפות של צה&quot;ל ברצועת עזה מאז שעות הבוקר   ● הרוג בתקיפת כטב&quot;מ באזור חברת החשמל במחנה הפליטים נציראת במרכז הרצועה. ההרוג הוא צ&#39;יאא&#39; אבו א-רוס.  ● הרוג ופצוע בתקיפת כטב&quot;מ על אוהל סמוך לצומת א-צנאעה במערב ח&#39;אן יונס. ההרוג הוא מחמד כאמל קדיח. …",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️#فوری|  شلیک دو موشک کروز به سوی کشتی های متخلف &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
+      "text": "&rlm; ️تسلط نیروهای مسلح یمن بر ارتفاعات مشرف بر باب‌المندب &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "عبد الرحمن السيد: لا ينبغي استخدام الضرائب الأمريكية لتمويل القنابل والدبابات الإسرائيلية https://almanar.com.lb/article/1328262/?s=tg",
-      "absolute_sentiment": -1,
+      "text": "📹 بري يبحث التطورات السياسية والميدانية مع سفيرة الاتحاد الأوروبي ويتابع ملفات الأشغال والجالية اللبنانية في ساحل العاج https://almanar.com.lb/article/1329467/?s=tg",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
+      "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 61 غارةً جويةً استهدف بها الأعيان المدنية في العاصمة صنعاء ومحافظات الجوف وتعز وصعدة ومأرب ولحج والضالع وإب والحديدة وحجة من خلال طائرات &quot;F-15&quot; و &quot;تايفون&quot; مرتكباً عدداً من الجرائم ومخلفاً عشرات الشهداء والجرحى من المدنيين جلهم من النساء والأطفال.  ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 4197 غارة جوية وصاروخا.  http://t.me/army21ye",
-      "absolute_sentiment": -1,
+      "text": "📹 كمال الخير ينتقد أداء الدولة تجاه الاعتداءات الإسرائيلية ويدعو إلى حماية الجنوب https://almanar.com.lb/article/1329537/?s=tg",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: مدفعية الاحتلال الاسرائيلي استهدفت وادي زبقين واطراف برعشيت جنوبي لبنان",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: وزارة الصحة في صنعاء: 9 شهداء بينهم 3 أطفال و14 جريحاً بينهم طفل من جراء الهجمات السعودية خلال الـ24 ساعة الماضية",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: غارة جوية سعودية تستهدف منطقة الجعملة بمديرية مَجْز في محافظة صعدة شمالي البلاد",
+      "text": "اليمن: الإعلام الحربي: سيطرت القوات المسلحة في عملية جبال كهبوب على مواقع مطلة على بقية مواقع تحشيدات السعودية",
       "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: مراسل الميادين: أنباء عن شهداء وجرحى باستهداف الطائرات السعودية سوقاً شعبية في الوازِعية غربي محافظة تعز جنوب غرب البلاد",
+      "text": "اليمن: الإعلام الحربي: المواقع التي جرى تطهيرها كانت تضم 4 ألوية من &quot;قوات العمالقة&quot; حشدتها السعودية بقيادة الضابط بدر الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "اليمن: الإعلام الحربي: تكتسب جبال كهبوب أهمية استراتيجية لإشرافها على باب المندب ومناطق واسعة من مديريتي ذباب والمضاربة",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: شهيد متأثراً بإصابته في استهداف قبل أيام عدّة في منطقة البلاخية في مخيم الشاطئ غربي مدينة غزة",
+      "text": "إيران: العلاقات العامة في حرس الثورة: الدفاعات الجوية الإيرانية أسقطت مسيرة أميركية من طراز MQ-1 في أجواء جزيرة قشم",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: مراسل الميادين: غارة جوية سعودية تستهدف مديرية حَيْس غرب اليمن",
-      "absolute_sentiment": 0,
+      "text": "اليمن: صحة صنعاء: 30 شهيدا مدنيا و8 جرحى في حصيلة غير نهائية لاستهداف الطائرات السعودية سوقا شعبية بمديرية الوازعية غربي محافظة تعز",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تطلق قنابل الغاز تجاه الأهالي في سوق الحلال بمدينة الخليل",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: استشهاد طفل برصاص قوات الاحتلال الإسرائيلي قرب بئر 19 في مواصي مدينة خان يونس جنوبي القطاع",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم قرية المغير شمال شرق رام الله",
-      "absolute_sentiment": 0.5,
+      "text": "قوات الاحتلال تعتقل المصور الصحفي &quot;مصعب شاور&quot; أثناء تغطيته تجريف قوات الاحتلال للأراضي في بيت عوا، غرب الخليل.",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم بلدة تقوع جنوب شرق بيت لحم.",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "QudsN",
-      "channel": "Arab_Axis",
-      "text": "صلاة فجر اليوم الجمعة في المصلى القبلي بالمسجد الأقصى المبارك يؤمها الشيخ يوسف أبو سنينة",
+      "text": "ركام المنزل الذي فجره الاحتلال في بلدة &quot;زوطر الغربية&quot; جنوب لبنان، الليلة الماضية.",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تحتجز عددا من المتضامنين الأجانب خلال مساعدتهم للأهالي في قطف الزيتون بأراضي بلدة كفر نعمة غرب رام الله.",
-      "absolute_sentiment": 0,
+      "text": "قوات الاحتلال تهدم ثلاثة مساكن في قرية فروش بيت دجن، بالأغوار الوسطى.",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#إعلام_العدو   صحيفة إسرائيل اليوم العبرية - يوآف ليمور: مسؤول إسرائيلي رفيع، طُلب منه هذا الأسبوع التعليق على نتائج انتخابات التجديد النصفي، قدّم قراءة لافتة، إذ قال إن الحرب على إيران كان يُفترض أن تؤدي إلى إسقاط النظام في طهران، لكنها بدلاً من ذلك أسقطت الإدارة في واشنطن.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9986256955089235
     }
   ]
 }
