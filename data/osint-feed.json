@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-11-06T21:14:53.907Z",
+  "last_updated": "2026-11-07T01:34:08.538Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.20"
+    "global_knn_danger": "0.55",
+    "global_norm_sentiment": "-0.25"
   },
   "timeline": [
-    {
-      "time": "2026-10-26T08:36:34.748Z",
-      "danger": 0.549,
-      "sentiment": -0.103,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.47,
-          "sentiment": -0.533
-        },
-        "OSINTdefender": {
-          "danger": 0.716,
-          "sentiment": 0.3
-        },
-        "irna_1313": {
-          "danger": 0.547,
-          "sentiment": -0.1
-        },
-        "sepah_pasdaran": {
-          "danger": 0.542,
-          "sentiment": -0.067
-        },
-        "almanarnews": {
-          "danger": 0.363,
-          "sentiment": 0.133
-        },
-        "C_Military1": {
-          "danger": 0.792,
-          "sentiment": -0.367
-        },
-        "almayadeen": {
-          "danger": 0.443,
-          "sentiment": 0
-        },
-        "QudsN": {
-          "danger": 0.664,
-          "sentiment": -0.231
-        }
-      }
-    },
     {
       "time": "2026-10-26T15:47:25.293Z",
       "danger": 0.533,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.267
         }
       }
+    },
+    {
+      "time": "2026-11-07T01:34:08.538Z",
+      "danger": 0.551,
+      "sentiment": -0.247,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.516,
+          "sentiment": -0.367
+        },
+        "OSINTdefender": {
+          "danger": 0.594,
+          "sentiment": 0.3
+        },
+        "irna_1313": {
+          "danger": 0.466,
+          "sentiment": -0.567
+        },
+        "sepah_pasdaran": {
+          "danger": 0.48,
+          "sentiment": -0.367
+        },
+        "almanarnews": {
+          "danger": 0.444,
+          "sentiment": -0.433
+        },
+        "C_Military1": {
+          "danger": 0.574,
+          "sentiment": -0.233
+        },
+        "almayadeen": {
+          "danger": 0.679,
+          "sentiment": -0.367
+        },
+        "QudsN": {
+          "danger": 0.81,
+          "sentiment": -0.3
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2285,26 +2285,26 @@
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": 0.23333333333333334,
-      "knn_danger_metric": 0.504154521257932
+      "raw_sentiment": 0.3,
+      "knn_danger_metric": 0.5937211432884765
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 14,
-      "raw_sentiment": -0.7857142857142857,
-      "knn_danger_metric": 0.6120590633188076
+      "num_messages": 15,
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.46630579921980986
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.43333333333333335,
-      "knn_danger_metric": 0.36853113729934395
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.48035812015527407
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.2,
-      "knn_danger_metric": 0.37811733339607595
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.4437873268951391
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": 0.2,
-      "knn_danger_metric": 0.6336637526152603
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.6791350324348715
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.652634944271874
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.8104758615080223
     }
   },
   "semantic_logs": [
@@ -2348,23 +2348,16 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️منابع عربی از حملۀ پهپادی به ریاض پایتخت عربستان خبر می‌دهند. &lrm;✅ @sepah_pasdaran",
+      "channelId": "almanarnews",
+      "channel": "Hezbollah",
+      "text": "🔵 الحرس الثوري الإيراني يوجه رداً لاذعاً لقائد القيادة المركزية الأمريكية https://almanar.com.lb/article/1330207/?s=tg",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️#فوری | شهادت رزمنده مازندرانی در جبهه جنوب  &rlm;🔹 بزرگ‌مرد دیگر از لشکر ۲۵ کربلا از دودانگه ساری به همرزمان شهید پیوست.  &rlm;🔹 فرزند دلاور دودانگه و همرزم شهید رامین رمضانی، برادر بسیجی آقا مهدی محمدزاده شهادت یافت. &rlm;🔹 شهید مهدی محمدزاده، بسیجی مجاهد جمعی‌گردان امام حسین ساری، پس از سال‌ها مجاهدت در سنگر بسیج، در ایام شهادت حضرت زهرا (س) در منطقه عملیاتی جنوب به شهادت رسید.  جمعه، ۱۵ آبان ۱۴۰۵. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "📹 الاعتداءات والخروقات الإسرائيلية تتواصل في جنوب لبنان، مراسلنا علي شبيب ينقل صورة المشهد من هناك https://almanar.com.lb/article/1329917/?s=tg",
+      "text": "🔵 نيوزيلندا | بدء الاقتراع في اليوم الأخير من الانتخابات العامة وسط منافسة حادة بين التحالف الحاكم وحزب العمال https://almanar.com.lb/article/1330262/?s=tg",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
@@ -2373,41 +2366,6 @@
       "channel": "Hezbollah",
       "text": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 67 غارةً جويةً وصاروخاً استهدف بها الأعيان المدنية في محافظات تعز ولحج وصعدة والجوف ومأرب وذلك من خلال طائرات &quot;F-15&quot; و &quot;تايفون&quot; أقلعت من قاعدتي خميس مشيط والطائف والعدوان الصاروخي من نجران وخلفت عشرات الشهداء والجرحى من المدنيين.  ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 4264 غارة جوية وصاروخاً.  http://t.me/army21ye",
       "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: قصف مدفعي للاحتلال الإسرائيلي استهدف أطراف بلدة ميفدون",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: مسيرة إسرائيلية تلقي قنبلة شرقي مخيم البريج وسط قطاع غزة",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: إطلاق نار مكثف من آليات الاحتلال شرق مدينة حمد شمالي مدينة خان يونس جنوبي قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: حزب المؤتمر الشعبي العام اليمني: ندين استهداف طائرات العدوان السعودي لسوق شعبية في الوازعية ما أسفر عن شهداء وجرحى",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: حزب المؤتمر الشعبي العام اليمني: استهداف الأسواق والتجمعات السكانية والمنشآت المدنية جرائم حرب وجرائم ضد الإنسانية",
-      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
@@ -2429,6 +2387,48 @@
       "channel": "Arab_Axis",
       "text": "إيران: العميد محمد أكرمي نيا: القواعد والمصالح الأميركية خارج منطقة غرب آسيا والخليج تقع أيضاً في مرمى نيران مسيّراتنا وصواريخنا",
       "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "لبنان: مراسل الميادين: قصف مدفعي إسرائيلي اعتدى على بلدة حداثا ووادي زبقين جنوبي لبنان",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "الباراغواي: مجلس الشيوخ الباراغواياني يوافق على عزل الرئيس سانتياغو بينيا بواقع 44 صوتاً لصالح العزل وامتناع صوت واحد",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: الجيش الإيراني: أسقطنا مسيرة أميركية من طراز &quot;إم.كيو-9&quot; فوق جزيرة قشم",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "الباراغواي: الشرطة تلقي القبض على الرئيس السابق سانتياغو بينيا بعد عزله من منصبه",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم سكنات النازحين من مخيم جنين في الجامعة العربية الأمريكية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية:  قوات الاحتلال تقتحم مخيم الأمعري في مدينة رام الله",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
   ]
