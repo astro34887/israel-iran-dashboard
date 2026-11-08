@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-11-08T17:32:45.288Z",
+  "last_updated": "2026-11-08T21:37:42.703Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.52",
-    "global_norm_sentiment": "-0.26"
+    "global_norm_sentiment": "-0.34"
   },
   "timeline": [
-    {
-      "time": "2026-10-28T00:56:06.859Z",
-      "danger": 0.561,
-      "sentiment": -0.425,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.711,
-          "sentiment": -0.467
-        },
-        "OSINTdefender": {
-          "danger": 0.581,
-          "sentiment": -0.033
-        },
-        "irna_1313": {
-          "danger": 0.444,
-          "sentiment": -0.633
-        },
-        "sepah_pasdaran": {
-          "danger": 0.312,
-          "sentiment": -0.533
-        },
-        "almanarnews": {
-          "danger": 0.278,
-          "sentiment": -0.067
-        },
-        "C_Military1": {
-          "danger": 0.961,
-          "sentiment": -0.867
-        },
-        "almayadeen": {
-          "danger": 0.48,
-          "sentiment": -0.7
-        },
-        "QudsN": {
-          "danger": 0.896,
-          "sentiment": -0.818
-        }
-      }
-    },
     {
       "time": "2026-10-28T06:36:49.930Z",
       "danger": 0.52,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.167
         }
       }
+    },
+    {
+      "time": "2026-11-08T21:37:42.703Z",
+      "danger": 0.523,
+      "sentiment": -0.337,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.3
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.416,
+          "sentiment": -0.333
+        },
+        "OSINTdefender": {
+          "danger": 0.539,
+          "sentiment": -0.4
+        },
+        "irna_1313": {
+          "danger": 0.452,
+          "sentiment": -0.567
+        },
+        "sepah_pasdaran": {
+          "danger": 0.513,
+          "sentiment": -0.567
+        },
+        "almanarnews": {
+          "danger": 0.343,
+          "sentiment": 0
+        },
+        "C_Military1": {
+          "danger": 0.835,
+          "sentiment": -0.4
+        },
+        "almayadeen": {
+          "danger": 0.561,
+          "sentiment": -0.8
+        },
+        "QudsN": {
+          "danger": 0.617,
+          "sentiment": -0.167
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
+      "raw_sentiment": -0.3,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,32 +2279,32 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.38417083871208146
+      "raw_sentiment": -0.3333333333333333,
+      "knn_danger_metric": 0.4159477578236518
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.26666666666666666,
-      "knn_danger_metric": 0.5521938343896193
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.5393694982682017
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.4807988110011398
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.4521383898493323
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5,
-      "knn_danger_metric": 0.5435336053261044
+      "raw_sentiment": -0.5666666666666667,
+      "knn_danger_metric": 0.5134993118107086
     },
     "almanarnews": {
       "name": "Hezbollah",
-      "num_messages": 11,
-      "raw_sentiment": 0.18181818181818182,
-      "knn_danger_metric": 0.3772292258515972
+      "num_messages": 15,
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.34316224099655457
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.5013110361647497
+      "raw_sentiment": -0.8,
+      "knn_danger_metric": 0.5613839670039076
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
+      "num_messages": 12,
       "raw_sentiment": -0.16666666666666666,
-      "knn_danger_metric": 0.5444980564808015
+      "knn_danger_metric": 0.6170663703695382
     }
   },
   "semantic_logs": [
@@ -2334,23 +2334,23 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "העזתיים מדווחים על שני הרוגים בתקיפת כטב&quot;מ ישראלי בשני טילים ליד מאהל במואצי של ח&#39;אן יונס בדרום הרצועה.  חיסול בשקיעה....  תגובה אחת",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️پوستر کنایه‌آمیز رسانه رهبر انقلاب خطاب به آمریکا و امارات &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; تصویری جدید از خسارت‌ وارده به ساختمان آرامکو در ریاض در پی حمله موشکی یمن &lrm;✅ ️@sepah_pasdaran",
-      "absolute_sentiment": 1,
+      "text": "&rlm; ️#فوری | شلیک ٣ موشک کروز ضدکشتی از جنوب کشور / اهداف احتمالى نفتکش‌های متخلف هستند &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️فعال شدن آژیرهای هشدار در شهرک‌های مجاور غزه  رسانه‌های عبری از فعال شدن آژیرهای خطر در شهرک صهیونیست‌نشین «نیر عوز» واقع در مجاورت و نزدیکی غزه خبر دادند. &lrm;✅ @sepah_pasdaran",
+      "text": "&rlm; ️ حمله مجدد به میدان گازی کورمور در اقلیم کردستان عراق &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2385,51 +2385,51 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: القوات البحرية في الجيش الإيراني: قبل ظهر اليوم اندلع حريق في ناقلة نفط مخالفة بعد اصطدامها بلغم بحري شرقي مضيق هرمز",
+      "text": "فلسطين المحتلة: مراسل الميادين: 5 وفيات هم 4 أطفال وسيدة إثر انهيار رملي على خيام النازحين في دير البلح وسط قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: عراقتشي لواشنطن: إذا اخترتم الحرب فستواجهون محاربينا المتأهبين والمتمرسين في المعارك الذين سيصبون عليكم جحيماً لا يطاق",
+      "text": "فلسطين المحتلة: مراسلة الميادين: إطلاق نار على مركبة فلسطينية قرب مستوطنة معاليه أدوميم شرقي القدس المحتلة بذريعة محاولة تنفيذ عملية دهس",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: &quot;تسنيم&quot;: عدوان أميركي على جزيرة قشم اقتصر على سقوط مقذوف في الجزيرة من دون ورود تقارير عن استهداف مناطق أخرى في محافظة هرمزغان",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تغلق حاجز المربعة جنوب غرب نابلس",
+      "text": "عاجل| الهلال الأحمر: طواقمتا تتعامل مع إصابة طفل بالرصاص الحي بالصدر خلال اقتحام لقوات الاحتلال لبلدة الزبابدة في جنين.",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "متابعة| إصابتان إحداها خطيرة برصاص الاحتلال في بلدة الزبابدة بجنين.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "عاجل| وزارة الصحة المصرية: 7 وفيات و112 مصابا في حادث قطار العياط بمحافظة الجيزة.",
+      "text": "عاجل| مصادر محلية: رصاص آليات الاحتلال الثقيلة يصيب خيام ومنازل الأهالي قي مناطق وسط وشرق مدينة دير البلح وسط قطاع غزة.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية بورين جنوب نابلس",
+      "text": "عاجل| مراسلنا: إطلاق نار كثيف من آليات الاحتلال تجاه منازل وخيام الأهالي بالقرب من &quot;الخط الأصفر&quot; بمخيم جباليا شمال قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#إعلام_العدو   صحيفة يديعوت أحرونوت العبرية: رفعت بلدية بات يام، إحدى ضواحي تل أبيب، دعوى قضائية ضد إيران تطالب فيها بتعويض قدره 250 مليون شيكل عن الأضرار الناجمة عن الضربة الإيرانية في حزيران/يونيو 2025، التي أسفرت عن مقتل 9 أشخاص وإصابة 178 آخرين، وألحقت أضراراً بـ160 مبنى.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9971059803222341
-    },
-    {
-      "channelId": "C_Military1",
-      "channel": "Hezbollah",
-      "text": "#الجمهورية_الإسلامية   العلاقات العامة للقوة البحرية في الجيش الإيراني:  قبل ظهر اليوم، اندلع حريق في ناقلة نفط مخالفة، إثر اصطدامها بلغم بحري شرق مضيق هرمز، بعدما عطّلت أنظمة التعريف الخاصة بها وكانت تبحر في منطقة محظورة.  سيبقى مضيق هرمز مغلقًا أمام السفن المخالفة إلى حين زوال أي تهديد.  #الإعلام_الحربي",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 0.9958018373673665
     }
   ]
 }
