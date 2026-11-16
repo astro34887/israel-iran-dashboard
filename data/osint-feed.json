@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-11-15T20:46:19.414Z",
+  "last_updated": "2026-11-16T00:40:46.964Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.54",
+    "global_knn_danger": "0.55",
     "global_norm_sentiment": "-0.23"
   },
   "timeline": [
-    {
-      "time": "2026-11-03T07:30:32.004Z",
-      "danger": 0.495,
-      "sentiment": -0.217,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.522,
-          "sentiment": -0.4
-        },
-        "OSINTdefender": {
-          "danger": 0.641,
-          "sentiment": -0.2
-        },
-        "irna_1313": {
-          "danger": 0.259,
-          "sentiment": -0.267
-        },
-        "sepah_pasdaran": {
-          "danger": 0.337,
-          "sentiment": -0.533
-        },
-        "almanarnews": {
-          "danger": 0.502,
-          "sentiment": -0.167
-        },
-        "C_Military1": {
-          "danger": 0.674,
-          "sentiment": -0.167
-        },
-        "almayadeen": {
-          "danger": 0.424,
-          "sentiment": 0.233
-        },
-        "QudsN": {
-          "danger": 0.645,
-          "sentiment": -0.5
-        }
-      }
-    },
     {
       "time": "2026-11-03T15:46:18.851Z",
       "danger": 0.517,
@@ -2261,13 +2214,60 @@
           "sentiment": 0.267
         }
       }
+    },
+    {
+      "time": "2026-11-16T00:40:46.964Z",
+      "danger": 0.554,
+      "sentiment": -0.233,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.512,
+          "sentiment": -0.367
+        },
+        "OSINTdefender": {
+          "danger": 0.507,
+          "sentiment": -0.333
+        },
+        "irna_1313": {
+          "danger": 0.379,
+          "sentiment": -0.1
+        },
+        "sepah_pasdaran": {
+          "danger": 0.419,
+          "sentiment": -0.533
+        },
+        "almanarnews": {
+          "danger": 0.467,
+          "sentiment": 0
+        },
+        "C_Military1": {
+          "danger": 0.725,
+          "sentiment": -0.133
+        },
+        "almayadeen": {
+          "danger": 0.754,
+          "sentiment": -0.5
+        },
+        "QudsN": {
+          "danger": 0.823,
+          "sentiment": -0.192
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,32 +2279,32 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.6090935968571238
+      "raw_sentiment": -0.36666666666666664,
+      "knn_danger_metric": 0.5120747672796668
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.5067710618686735
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5333333333333333,
-      "knn_danger_metric": 0.5679766249510262
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.37904920681415405
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.4,
-      "knn_danger_metric": 0.29076676846851074
+      "raw_sentiment": -0.5333333333333333,
+      "knn_danger_metric": 0.4187895308570717
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.5703870325187858
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.46742527356722235
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.4666666666666667,
-      "knn_danger_metric": 0.6426021514278951
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.7537304926382086
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 15,
-      "raw_sentiment": 0.26666666666666666,
-      "knn_danger_metric": 0.5078750897800918
+      "num_messages": 13,
+      "raw_sentiment": -0.19230769230769232,
+      "knn_danger_metric": 0.8227151897018371
     }
   },
   "semantic_logs": [
@@ -2350,13 +2350,6 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "אחד ההרוגים בתקיפת הכטב&quot;מ על נקודת משטרת חמאס ברפיח הערב☝️. שמו אחמד עאבדין -שוטר חמאסניק.  תגובה אחת",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
       "text": "נשיא אוקראינה זלנסקי: השבתנו 55% מיכולת זיקוק הנפט של רוסיה. זוהי תגובה לגיטימית לסירובה להפחית את ההסלמה ולמתקפותיה על תשתיות האנרגיה.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
@@ -2364,21 +2357,14 @@
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "جولة ميدانية للإعلام الحربي اليمني في مواقع طرد التحشيدات السعودية بأطراف ذوباب ومحيط باب المندب https://almanar.com.lb/article/1357992/?s=tg",
-      "absolute_sentiment": 0.5,
+      "text": "🔍 أسبوع من الرصد والتحقّق&#33;  من الاثنين 9 حتى السبت 14 تشرين الثاني 2026، رصدت منصة «فلتر» مجموعة من الأخبار والادعاءات المتداولة، وكشفت ما تضمّنته من معلومات غير صحيحة وتضليل وتهويل إعلامي.  إليكم حصيلة الأسبوع بالأرقام.  https://chat.whatsapp.com/CPk2PyjtfYPCe8lvQ8E60f?mode=gi_t",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "C_Military1",
       "channel": "Hezbollah",
       "text": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 75 غارةً جويةً وصاروخاً استهدف بها الأعيان المدنية في محافظات صعدة وتعز ولحج والجوف ومأرب وذلك من خلال طائرات &quot;F-15&quot; و &quot;تايفون&quot; أقلعت من قاعدتي خميس مشيط والطائف، والعدوان الصاروخي من نجران وخلفت شهداء وجرحى من المدنيين. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 5095 غارة جوية وصاروخا.  http://t.me/army21ye",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "إيران: غريب آبادي: قد يكون هدف الوكالة من طلب زيارة المواقع النووية الإيرانية المتضررة هو التحقق من مدى فاعلية الأسلحة الأميركية",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
@@ -2418,17 +2404,31 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "قوات الاحتلال تقتحم مدينة البيرة وسط الضفة",
-      "absolute_sentiment": 0.5,
+      "text": "مراسل الميادين: غارتان سعوديتان تستهدفان مبنى مصلحة الهجرة والجوازات في مدينة صعدة شمال اليمن",
+      "absolute_sentiment": 0,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "غزة الحزن والألم.. جنائز مؤجلة تحت ركام البيوت التي قصفها الاحتلال وارتكب فيها أبشع الجرائم والمجازر.",
-      "absolute_sentiment": 1,
+      "text": "لبنان: مراسل الميادين: مدفعية الاحتلال الاسرائيلي تستهدف بلدة كفرتبنيت جنوب البلاد",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: إطلاق نار من آليات الاحتلال شرقي مدينة خان يونس جنوبي قطاع غزة",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: إطلاق نار من آليات الاحتلال باتجاه منازل المواطنين شرقي حي التفاح شرقي مدينة غزة",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
   ]
