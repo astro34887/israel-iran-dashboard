@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-11-19T18:48:26.453Z",
+  "last_updated": "2026-11-20T00:59:46.040Z",
   "tension": {
     "level": "ESCALATING",
-    "global_knn_danger": "0.57",
-    "global_norm_sentiment": "-0.22"
+    "global_knn_danger": "0.54",
+    "global_norm_sentiment": "-0.35"
   },
   "timeline": [
-    {
-      "time": "2026-11-06T15:38:22.177Z",
-      "danger": 0.548,
-      "sentiment": -0.237,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.502,
-          "sentiment": -0.667
-        },
-        "OSINTdefender": {
-          "danger": 0.504,
-          "sentiment": 0.267
-        },
-        "irna_1313": {
-          "danger": 0.584,
-          "sentiment": -0.3
-        },
-        "sepah_pasdaran": {
-          "danger": 0.416,
-          "sentiment": -0.5
-        },
-        "almanarnews": {
-          "danger": 0.465,
-          "sentiment": 0.267
-        },
-        "C_Military1": {
-          "danger": 0.585,
-          "sentiment": -0.4
-        },
-        "almayadeen": {
-          "danger": 0.69,
-          "sentiment": -0.5
-        },
-        "QudsN": {
-          "danger": 0.785,
-          "sentiment": -0.375
-        }
-      }
-    },
     {
       "time": "2026-11-06T21:14:53.907Z",
       "danger": 0.519,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.567
         }
       }
+    },
+    {
+      "time": "2026-11-20T00:59:46.040Z",
+      "danger": 0.545,
+      "sentiment": -0.349,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.579,
+          "sentiment": -0.6
+        },
+        "OSINTdefender": {
+          "danger": 0.72,
+          "sentiment": 0.033
+        },
+        "irna_1313": {
+          "danger": 0.352,
+          "sentiment": -0.767
+        },
+        "sepah_pasdaran": {
+          "danger": 0.228,
+          "sentiment": -0.133
+        },
+        "almanarnews": {
+          "danger": 0.343,
+          "sentiment": -0.1
+        },
+        "C_Military1": {
+          "danger": 0.723,
+          "sentiment": -0.321
+        },
+        "almayadeen": {
+          "danger": 0.609,
+          "sentiment": -0.733
+        },
+        "QudsN": {
+          "danger": 0.942,
+          "sentiment": -0.7
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2279,50 +2279,50 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.36666666666666664,
-      "knn_danger_metric": 0.4416009862006388
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.5794072237886596
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.1,
-      "knn_danger_metric": 0.6817834939053387
+      "raw_sentiment": 0.03333333333333333,
+      "knn_danger_metric": 0.7199644479188001
     },
     "irna_1313": {
       "name": "IRGC",
-      "num_messages": 7,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.6014721132032248
+      "num_messages": 15,
+      "raw_sentiment": -0.7666666666666667,
+      "knn_danger_metric": 0.3521274830426702
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.38588010860662314
+      "raw_sentiment": -0.13333333333333333,
+      "knn_danger_metric": 0.22836740667908947
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.2,
-      "knn_danger_metric": 0.6260668163157289
+      "raw_sentiment": -0.1,
+      "knn_danger_metric": 0.34330143229117127
     },
     "C_Military1": {
       "name": "Hezbollah",
-      "num_messages": 12,
-      "raw_sentiment": -0.2916666666666667,
-      "knn_danger_metric": 0.7162100753062074
+      "num_messages": 14,
+      "raw_sentiment": -0.32142857142857145,
+      "knn_danger_metric": 0.7232949591074261
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.6095875427135533
+      "raw_sentiment": -0.7333333333333333,
+      "knn_danger_metric": 0.6085799076838667
     },
     "QudsN": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.7070980119895486
+      "raw_sentiment": -0.7,
+      "knn_danger_metric": 0.942434117260898
     }
   },
   "semantic_logs": [
@@ -2334,37 +2334,23 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️پهپادهای نسل جدیدی داریم که فعلا قصد رونمایی از آن را نداریم  پهپادهای شاهد فناوری ۱۰ سال پیش ما هستند. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": 1,
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "&quot;חטיפת&quot; קצין חמאס אתמול לפנות בוקר בדרום הרצועה☝️  מקורות עזתיים מפרסמים את תמונתו של צברי עבד אלעאל, קצין משטרת חמאס (בדרגה המקבילה לנצ&quot;מ) כשהוא אזוק על ספה - הוא כנראה מבלה עכשיו בחקירות אצל ע&#39;סאן א-דהיני, העומד בראש המיליציות המתנגדות לחמאס בדרום הרצועה.…",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "abualiexpress",
+      "channel": "Israel_OSINT",
+      "text": "מקורות עזתיים מדווחים היום שצברי עבד אלעאל הקצין הבכיר במשטרת חמאס (דרגה המקבילה לנצ&quot;מ) ש&quot;נחטף&quot; באמצע אוג&#39;☝️ על ידי המיליציות המתנגדות לחמאס ברפיח ועבר אצלם חקירות - מת בכלא. הוא תועד בחיים אחרי ש&quot;נחטף&quot; (מצורף).   הוא לא צפוי להשתחרר בעסקה הבאה.",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "صاروخ «قدر» وإنجازات أخرى في مجال الصناعات الجوية للحرس الثوري الإيراني تُعرض في حديقة شهداء كلستان بأصفهان",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "المصارع الإيراني أمير حسين زارع يهدي ميدالياته الذهبية إلى متحف العتبة الرضوية المقدسة https://almanar.com.lb/article/1371982/?s=tg",
-      "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "مراسم تلاوة أمر اليوم في وزارة الدفاع وسائر الوحدات العسكرية لمناسبة الاستقلال https://almanar.com.lb/article/1372127/?s=tg",
-      "absolute_sentiment": 0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "تلاوة أمر اليوم بمناسبة الذكرى الثالثة والثمانين للاستقلال https://almanar.com.lb/article/1372122/?s=tg",
+      "text": "🔵 ألمانيا | روته: سنواصل دعم أوكرانيا عسكرياً ما دامت الحرب مستمرة https://almanar.com.lb/article/1372702/?s=tg",
       "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
@@ -2385,50 +2371,64 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: سريع: العملية الأولى استهدفت المركز المالي في مدينة الملك عبدالله الاقتصادية فجر اليوم بالرياض مع معاودة استهدافه مساء اليوم",
+      "text": "اليمن: وكالة سبأ بصنعاء: غارة جوية سعودية تستهدف قرية المُعَيْنَة بمديرية المِسْرَاخ جنوبي محافظة تعز جنوب غرب البلاد",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: سريع: العملية الثانية استهدفت شركة الصدف للبتروكيماويات في الجبيل بالمنطقة الشرقية وكانت الإصابة مباشرة",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: سريع: العملية الثالثة استهدفت قاعدة خميس مشيط الجوية وخلفت أضراراً كبيرة في المواقع المستهدفة",
+      "text": "لبنان: مراسل الميادين: &quot;جيش&quot; الاحتلال الإسرائيلي يلقي قنابل مضيئة في أجواء مرتفع الدبشة جنوب البلاد",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "اليمن: سريع: العملية الرابعة استهدفت مطار خالد الدولي بالرياض وكانت الإصابة مباشرة",
+      "text": "فلسطين المحتلة: مراسل الميادين: قصف مدفعي إسرائيلي يستهدف شرقي مدينة غزة",
+      "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين: إطلاق نار من آليات الاحتلال شمال شرقي مخيم البريج وسط قطاع غزة",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: وزارة الخارجية: ندين بشدة جرائم الكيان الصهيوني بحق الشعب الفلسطيني في قطاع غزة",
+      "text": "اليمن: وزارة الصحة في صنعاء: 19 شهيداً و4 جرحى معظمهم من النساء والأطفال حصيلة استهداف الطائرات السعودية لقارب مدني",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: وزارة الخارجية: ندين بشدة الأعمال الإرهابية التي يرتكبها المستوطنون الصهاينة بحق الفلسطينيين في الضفة الغربية",
+      "text": "اليمن: مراسل الميادين في صنعاء: غارتان سعوديتان تستهدفان مديرية الشمايتين جنوبي محافظة تعز جنوب غرب اليمن",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "مشاهد من اقتحام قوات الاحتلال بلدة &quot;بيت فجار&quot; جنوب بيت لحم، وإطلاقها قتابل الصوت والغاز.",
+      "text": "متابعة | قوات الاحتلال تداهم أحد المنازل خلال اقتحام مدينة قلقيلية.",
       "absolute_sentiment": 0.5,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "جانب من اقتحام قوات الاحتلال مدينة قلقيلية",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم قرية كفر قليل، وشارع القدس شرقي مدينة نابلس، من حاجز حوارة.",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     }
   ]
