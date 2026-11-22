@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-11-22T00:53:23.889Z",
+  "last_updated": "2026-11-22T07:42:58.669Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.56",
-    "global_norm_sentiment": "-0.18"
+    "global_norm_sentiment": "-0.15"
   },
   "timeline": [
-    {
-      "time": "2026-11-08T11:39:39.961Z",
-      "danger": 0.486,
-      "sentiment": -0.217,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.3
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.41,
-          "sentiment": -0.4
-        },
-        "OSINTdefender": {
-          "danger": 0.574,
-          "sentiment": 0
-        },
-        "irna_1313": {
-          "danger": 0.289,
-          "sentiment": -0.267
-        },
-        "sepah_pasdaran": {
-          "danger": 0.449,
-          "sentiment": -0.267
-        },
-        "almanarnews": {
-          "danger": 0.339,
-          "sentiment": -0.133
-        },
-        "C_Military1": {
-          "danger": 0.748,
-          "sentiment": -0.633
-        },
-        "almayadeen": {
-          "danger": 0.712,
-          "sentiment": -0.333
-        },
-        "QudsN": {
-          "danger": 0.39,
-          "sentiment": 0
-        }
-      }
-    },
     {
       "time": "2026-11-08T17:32:45.288Z",
       "danger": 0.517,
@@ -2261,13 +2214,60 @@
           "sentiment": -0.107
         }
       }
+    },
+    {
+      "time": "2026-11-22T07:42:58.669Z",
+      "danger": 0.563,
+      "sentiment": -0.145,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.49,
+          "sentiment": -0.3
+        },
+        "OSINTdefender": {
+          "danger": 0.615,
+          "sentiment": 0.133
+        },
+        "irna_1313": {
+          "danger": 0.562,
+          "sentiment": -0.4
+        },
+        "sepah_pasdaran": {
+          "danger": 0.424,
+          "sentiment": -0.3
+        },
+        "almanarnews": {
+          "danger": 0.567,
+          "sentiment": -0.167
+        },
+        "C_Military1": {
+          "danger": 0.56,
+          "sentiment": 0.133
+        },
+        "almayadeen": {
+          "danger": 0.667,
+          "sentiment": -0.433
+        },
+        "QudsN": {
+          "danger": 0.794,
+          "sentiment": 0.045
+        }
+      }
     }
   ],
   "channel_data": {
     "idfonline": {
       "name": "IDF",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
+      "raw_sentiment": -0.3333333333333333,
       "knn_danger_metric": 0.4495848927539366
     },
     "israeldefenseforces": {
@@ -2279,32 +2279,32 @@
     "abualiexpress": {
       "name": "Israel_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.42773974874040416
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.4898378720832174
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.23333333333333334,
-      "knn_danger_metric": 0.5956746067355784
+      "raw_sentiment": 0.13333333333333333,
+      "knn_danger_metric": 0.6145258595056707
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": 0,
-      "knn_danger_metric": 0.5031838745759856
+      "raw_sentiment": -0.4,
+      "knn_danger_metric": 0.5622453345986966
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.4990182688026738
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.42449740128151187
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.06666666666666667,
-      "knn_danger_metric": 0.43625630437516527
+      "raw_sentiment": -0.16666666666666666,
+      "knn_danger_metric": 0.5671902769573978
     },
     "C_Military1": {
       "name": "Hezbollah",
@@ -2315,14 +2315,14 @@
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.5666666666666667,
-      "knn_danger_metric": 0.758570058063888
+      "raw_sentiment": -0.43333333333333335,
+      "knn_danger_metric": 0.6667471898840415
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 14,
-      "raw_sentiment": -0.10714285714285714,
-      "knn_danger_metric": 0.8891088626504594
+      "num_messages": 11,
+      "raw_sentiment": 0.045454545454545456,
+      "knn_danger_metric": 0.7942642516111286
     }
   },
   "semantic_logs": [
@@ -2334,38 +2334,10 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "abualiexpress",
-      "channel": "Israel_OSINT",
-      "text": "העיתונאי מחמד מג&#39;אדלה מדווח:   בתגובה לדבריו האחרונים של ליברמן, ששלל הקמת ממשלה בהסתמך על המפלגות הערביות:  ברשימה המשותפת מבהירים: למחנה השינוי לא יהיו אפשרויות אחרות, והוא ייאלץ להסתמך על רשת ביטחון של הרשימה המשותפת.  ברע&quot;מ אומרים: ממשלה בראשות איזנקוט תקום למרות הצהרות כאלה ואחרות שנשמעות פה ושם. עדיין לא הגענו לנקודת האל-חזור.  תגובה אחת",
-      "absolute_sentiment": -0.5,
-      "semantic_danger_knn": 1
-    },
-    {
       "channelId": "sepah_pasdaran",
       "channel": "IRGC",
-      "text": "&rlm; ️‌ منابع عربی از وقوع مجدد انفجار در بحرین خبر می‌دهند. &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️فعال شدن آژیر هشدار در شهر جده عربستان سعودی &lrm;✅ @sepah_pasdaran",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "sepah_pasdaran",
-      "channel": "IRGC",
-      "text": "&rlm; ️دو زمین‌لرزهٔ ۴.۳ و ۳.۶ ریشتری دیگر بامداد امروز شهرستان خوی در استان آذربایجان غربی را لرزاند. &lrm;✅ @sepah_pasdaran",
+      "text": "&rlm; ️تصاویری از حمله بامدادی رژیم سعودی به مناطق مسکونی در صنعاء &lrm;✅ @sepah_pasdaran",
       "absolute_sentiment": 1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almanarnews",
-      "channel": "Hezbollah",
-      "text": "🔵 المكسيك | مقتل 7 مشتبه بهم و4 جنود في عملية ضد منظمة إجرامية بالمكسيك واعتقال قيادات بارزة https://almanar.com.lb/article/1379492/?s=tg",
-      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2385,51 +2357,79 @@
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: استهدف مقاتلو القوة الجو فضائية قبل قليل مواقع الجيش الأميركي في قاعدتي الرفاع وعوالي في البحرين",
+      "text": "اليمن: مراسل الميادين: سلسلة غارات جوية شنتها السعودية خلال ساعات الفجر استهدفت مناطق متفرقة في صنعاء",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: منذ فجر اليوم لم تحقق عمليات المرافقة المكلفة والتغطية الجوية التي ينفذها الجيش الأميركي الأهداف التي تنشدها",
+      "text": "اليمن: مراسل الميادين: 5 غارات استهدفت مواقع في جبل عطان جنوب غرب العاصمة صنعاء",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة: تكبدت معدات الجيش الأميركي والقطع البحرية التي يوفر لها الحماية خسائر فادحة في البحر والجو",
+      "text": "اليمن: مراسل الميادين: الغارات السعودية تركزت على أبراج الاتصالات بعدة محافظات كما استهدفت 3 غارات مطار الحديدة الدولي",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
+      "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "إيران: حرس الثورة:إثر انتهاك المجال الجوي من طائرتين مسيّرتين من طرازي MQ-1 QوM-9 استهدفت قوة الجوفضاء الموقعين المذكورين في البحرين",
+      "text": "مصادر محلية: قوات الاحتلال تقتحم بلدة زيتا شمال طولكرم.",
+      "absolute_sentiment": 0,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "صلاة فجر اليوم في المصلى القبلي بالمسجد الأقصى المبارك.",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "QudsN",
+      "channel": "Arab_Axis",
+      "text": "الاحتلال يشن حملة اقتحامات واعتقالات في الضفة  qudsn.co/share/218988",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
+      "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: مصابون أحدهم بحالة حرجة جراء قصف من طائرة مسيّرة إسرائيلية على مخيم الدوحة للنازحين غربي خان يونس جنوبي قطاع غزة",
+      "text": "قوات الاحتلال تصادر مركبات في بلدة ديرسامت غرب دورا.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
+      "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "إيران: تسنيم: تقارير أولية عن وقوع هجوم واصطدام طائرة مسيرة بقاعدة الصخير الجوية التي تضم مروحيات وطائرات تجسس أميركية في البحرين",
-      "absolute_sentiment": 0.5,
+      "text": "الاحتلال يهدم منشآت سكنية وحظائر حيوانات في خربة سمرة بالأغوار الشمالية",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
+      "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: إطلاق نار مكثف من آليات الاحتلال شمالي غربي مدينة رفح جنوبي قطاع غزة",
+      "text": "الاحتلال ينفذ عمليات هدم لمنشآت في خربة سمرة بالأغوار الشمالية.",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "#الجمهورية_الإسلامية    صادر عن العلاقات العامة للقوة البحرية التابعة للجيش الإيراني:   قبل ظهر اليوم، تعرّضت ناقلة نفط مخالفة لحريق، بعدما دخلت المنطقة المحظورة شرق مضيق هرمز، رغم التحذيرات المعلنة ومتطلبات الملاحة البحرية، وذلك عقب إطفائها أنظمة التعريف والملاحة واصطدامها بلغم بحري.   نحذّر مالكي ناقلات النفط والقائمين على تشغيلها من أن الملاحة في المناطق المحظورة والنطاقات المحددة تشكّل تهديداً خطيراً لحياة أفراد الطواقم وسلامة السفن.   تقع مسؤولية أي حادث ناجم عن تجاهل التحذيرات والقيود البحرية على عاتق مالكي السفن ومشغّليها.  #الإعلام_الحربي",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 0.9957041576612946
+    },
+    {
+      "channelId": "irna_1313",
+      "channel": "IRGC",
+      "text": "اهدای نشان حافظ به برگزیدگان تئاتر و موسیقی/از آوازخوانی سالارعقیلی تا بزرگداشت حسن معجونی  🔹چهارمین جشن تئاتر و موسیقی حافظ با حضور اهالی تئاتر و موسیقی در ایران مال برگزار شد.  فهرست برگزیدگان بخش موسیقی و تئاتر را در لینک زیر بخوانید:  https://irna.ir/xjYNnB @IRNA_1313",
+      "absolute_sentiment": 1,
+      "semantic_danger_knn": 0.9904567943036928
     }
   ]
 }
