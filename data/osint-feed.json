@@ -1,58 +1,11 @@
 {
-  "last_updated": "2026-11-27T06:27:51.231Z",
+  "last_updated": "2026-11-27T17:10:38.656Z",
   "tension": {
     "level": "ESCALATING",
     "global_knn_danger": "0.54",
-    "global_norm_sentiment": "-0.34"
+    "global_norm_sentiment": "-0.21"
   },
   "timeline": [
-    {
-      "time": "2026-11-12T09:11:32.344Z",
-      "danger": 0.528,
-      "sentiment": -0.235,
-      "channels": {
-        "idfonline": {
-          "danger": 0.45,
-          "sentiment": -0.333
-        },
-        "israeldefenseforces": {
-          "danger": 0.5,
-          "sentiment": 0.167
-        },
-        "abualiexpress": {
-          "danger": 0.658,
-          "sentiment": -0.733
-        },
-        "OSINTdefender": {
-          "danger": 0.569,
-          "sentiment": -0.2
-        },
-        "irna_1313": {
-          "danger": 0.508,
-          "sentiment": -0.167
-        },
-        "sepah_pasdaran": {
-          "danger": 0.386,
-          "sentiment": -0.233
-        },
-        "almanarnews": {
-          "danger": 0.516,
-          "sentiment": -0.367
-        },
-        "C_Military1": {
-          "danger": 0.623,
-          "sentiment": -0.033
-        },
-        "almayadeen": {
-          "danger": 0.459,
-          "sentiment": -0.2
-        },
-        "QudsN": {
-          "danger": 0.613,
-          "sentiment": -0.25
-        }
-      }
-    },
     {
       "time": "2026-11-12T17:52:49.350Z",
       "danger": 0.569,
@@ -2261,6 +2214,53 @@
           "sentiment": -0.357
         }
       }
+    },
+    {
+      "time": "2026-11-27T17:10:38.656Z",
+      "danger": 0.54,
+      "sentiment": -0.21,
+      "channels": {
+        "idfonline": {
+          "danger": 0.45,
+          "sentiment": -0.333
+        },
+        "israeldefenseforces": {
+          "danger": 0.5,
+          "sentiment": 0.167
+        },
+        "abualiexpress": {
+          "danger": 0.58,
+          "sentiment": -0.6
+        },
+        "OSINTdefender": {
+          "danger": 0.47,
+          "sentiment": -0.5
+        },
+        "irna_1313": {
+          "danger": 0.462,
+          "sentiment": 0.2
+        },
+        "sepah_pasdaran": {
+          "danger": 0.461,
+          "sentiment": -0.067
+        },
+        "almanarnews": {
+          "danger": 0.343,
+          "sentiment": -0.067
+        },
+        "C_Military1": {
+          "danger": 0.61,
+          "sentiment": 0
+        },
+        "almayadeen": {
+          "danger": 0.694,
+          "sentiment": -0.6
+        },
+        "QudsN": {
+          "danger": 0.828,
+          "sentiment": -0.3
+        }
+      }
     }
   ],
   "channel_data": {
@@ -2278,51 +2278,51 @@
     },
     "abualiexpress": {
       "name": "Israel_OSINT",
-      "num_messages": 10,
-      "raw_sentiment": -0.35,
-      "knn_danger_metric": 0.4535218382120476
+      "num_messages": 15,
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.5802122037050207
     },
     "OSINTdefender": {
       "name": "Global_OSINT",
       "num_messages": 15,
-      "raw_sentiment": -0.6,
-      "knn_danger_metric": 0.4673317955498784
+      "raw_sentiment": -0.5,
+      "knn_danger_metric": 0.47005687781413574
     },
     "irna_1313": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.3,
-      "knn_danger_metric": 0.5841417535915253
+      "raw_sentiment": 0.2,
+      "knn_danger_metric": 0.4615152370545177
     },
     "sepah_pasdaran": {
       "name": "IRGC",
       "num_messages": 15,
-      "raw_sentiment": -0.6333333333333333,
-      "knn_danger_metric": 0.4008774079327928
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.46145656374037664
     },
     "almanarnews": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": -0.3333333333333333,
-      "knn_danger_metric": 0.43645978827595866
+      "raw_sentiment": -0.06666666666666667,
+      "knn_danger_metric": 0.3427270234417154
     },
     "C_Military1": {
       "name": "Hezbollah",
       "num_messages": 15,
-      "raw_sentiment": 0.03333333333333333,
-      "knn_danger_metric": 0.7914806403215269
+      "raw_sentiment": 0,
+      "knn_danger_metric": 0.6098217198514253
     },
     "almayadeen": {
       "name": "Arab_Axis",
       "num_messages": 15,
-      "raw_sentiment": -0.6666666666666666,
-      "knn_danger_metric": 0.687294177437002
+      "raw_sentiment": -0.6,
+      "knn_danger_metric": 0.6943471625088424
     },
     "QudsN": {
       "name": "Arab_Axis",
-      "num_messages": 14,
-      "raw_sentiment": -0.35714285714285715,
-      "knn_danger_metric": 0.6437455802311554
+      "num_messages": 15,
+      "raw_sentiment": -0.3,
+      "knn_danger_metric": 0.8275675359024686
     }
   },
   "semantic_logs": [
@@ -2336,22 +2336,29 @@
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "תיעוד של אזור ג&#39;באליא בצפון הרצועה מתאריך 30  בינואר 2025 שפרסם לפני ימים אחדים הצלם העזתי מחמד אבו סמרה.",
-      "absolute_sentiment": -1,
+      "text": "תמונת היום של נאס&quot;א: עין קוסמית בשמי ברזיל  נאס&quot;א פרסמה אתמול תמונה מרהיבה של שביל החלב מעל דיונות החול הלבנות והלגונות של הפארק הלאומי לנסויס מרניינסס בברזיל. התמונה צולמה בחודש יולי באמצעות עדשה רחבת זווית, היוצרת מראה של קשת גלקטית המשתלבת בקווי המתאר של הלגונה ויוצרת אשליה של עין קוסמית ענקית, שחציה בחלל וחציה על פני כדור הארץ.  קרדיט צילם: איגנסיו פרננדס.  תגובה אחת",
+      "absolute_sentiment": -0.5,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "abualiexpress",
       "channel": "Israel_OSINT",
-      "text": "רצועת עזה בשעתיים האחרונות:  שתי התרעות פינוי למתחמים בשכונות תפאח ושג&#39;אעיה בעיר עזה שלוו במספר תקיפות על כל אחד מהאתרים שפונו.  בנוסף - הרוג ופצוע בתקיפת כטב&quot;מ לפני זמן קצר במואצי של ח&#39;אן יונס בדרום הרצועה.",
+      "text": "אינדונזיה, המדינה עם כמות המוסלמים הגדולה בעולם הודיעה רשמית כי היא מסרבת להצטרף ל&quot;ברית מכה&quot; בה חברות טורקיה, סעודיה ופקיסטן.  תגובה אחת",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "C_Military1",
+      "channelId": "sepah_pasdaran",
+      "channel": "IRGC",
+      "text": "&rlm; ️نفوذ صهیونیست ها در سفره لبنانی ها/ عرضه شکلات‌های کیندر ساخت رژیم صهیونیستی در بیروت&#33; &lrm;✅ @sepah_pasdaran",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almanarnews",
       "channel": "Hezbollah",
-      "text": "بيانٌ صادرٌ عن القواتِ المسلحةِ اليمنيةِ  بسمِ اللهِ الرحمنِ الرحيمِ قالَ تعالى: {فَمَنِ اعْتَدَى عَلَيْكُمْ فَاعْتَدُوا عَلَيْهِ بِمِثْلِ مَا اعْتَدَى عَلَيْكُمْ} صدقَ اللهُ العظيم  في إطارِ الردِّ على العدوانِ السعوديِّ الغاشمِ على بلدِنا وردًّا على استهدافِهِ لميناءِ الحديدةِ وتثبيتًا لمعادلةِ الميناءِ بالموانئِ. نفذتِ القواتُ المسلحةُ اليمنيةُ بعونِ اللهِ تعالى عمليتينِ عسكريتينِ نوعيتينِ: العمليةُ الأولى استهدفت ميناءَ جدةَ وكانتِ الإصابةُ دقيقةً بفضلِ اللهِ. والعمليةُ الأخرى استهدفت ميناءَ جيزانَ وكانتِ الإصابةُ مباشرةً بفضلِ اللهِ. وقد أسفرتِ العمليتانِ عن أضرارٍ في المواقعِ المستهدفةِ. إنَّ القواتِ المسلحةَ اليمنيةَ تؤكدُ للعدوِّ السعوديِّ المجرمِ أنها لن تترددَ في الردِّ المباشرِ والفوريِّ على أيِّ عدوانٍ يستهدفُ ميناءَ الحديدةِ وأنها مستمرةٌ في تثبيتِ معادلاتِ الردعِ مهما كانتِ النتائجُ والعواقبُ متوكلةً في ذلكَ على اللهِ ومعتمدةً عليهِ ومسنودةً بشعبِ الإيمانِ والحكمةِ. مستمرونَ في عملياتِنا العسكريةِ النوعيةِ باتجاهِ العمقِ السعوديِّ وفي فرضِ معادلةِ الحصارِ بالحصارِ والتصعيدِ بالتصعيدِ واستهدافِ التحشيداتِ التابعةِ للعدوِّ السعوديِّ وضباطِهِ حتى وقفِ العدوانِ وإنهاءِ الحصارِ عن بلدِنا العزيزِ.  واللهُ حسبُنا ونعمَ الوكيلُ، نعمَ المولى ونعمَ النصيرُ  عاشَ اليمنُ حراً عزيزاً مستقلاً، والنصرُ لليمنِ ولكلِّ أحرارِ الأمةِ  صنعاءُ 16 جمادى الآخرة 1448هـ الموافقُ 25 نوفمبر 2026م.  صادرٌ عنِ القواتِ المسلحةِ اليمنيةِ  http://t.me/army21ye",
-      "absolute_sentiment": 1,
+      "text": "فرنسا وبلغاريا تدينان أعمال العنف بين جماهير مرسيليا وليفسكي صوفيا وإصابة 11 مشجعًا https://almanar.com.lb/article/1397632/?s=tg",
+      "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
@@ -2362,73 +2369,66 @@
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين: الطيران الحربي الإسرائيلي شن غارات استهدفت مرتفعات في محيط مشغرة ومرتفع الجبور وتومات نيحا",
-      "absolute_sentiment": -1,
+      "channelId": "C_Military1",
+      "channel": "Hezbollah",
+      "text": "🎥 فيديو رسالة الأمين العام لحزب الله سماحة الشيخ نعيم قاسم إلى شباب التعبئة 27-11-2026",
+      "absolute_sentiment": 1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: قوات الاحتلال الإسرائيلي تقتحم بلدة كوبر شمال غرب رام الله وتشن حملة اعتقالات فيها",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: مصابان جراء غارة من طائرة مسيّرة إسرائيلية على محيط المستشفى البريطاني في منطقة المواصي غربي مدينة خان يونس جنوبي قطاع غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "فلسطين المحتلة: مراسل الميادين: مصابون جراء قصف طائرات الاحتلال شقة سكنية غربي مدينة غزة",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "وكالة سبأ بصنعاء: الطيران السعودي شن 3 غارات على مديرية المخا وغارة رابعة على مديرية الشمايتين في محافظة تعز",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "اليمن: وكالة سبأ بصنعاء: استشهاد 11 مواطناً جلهم أطفال بغارة جوية سعودية استهدفت مبنى سكنياً بمدينة التربة جنوبي محافظة تعز",
-      "absolute_sentiment": -1,
-      "semantic_danger_knn": 1
-    },
-    {
-      "channelId": "almayadeen",
-      "channel": "Arab_Axis",
-      "text": "لبنان: مراسل الميادين في الجنوب: مدفعية الاحتلال الاسرائيلي تستهدف بالقذائف الفوسفورية بلدة أرنون",
+      "text": "لبنان: مراسل الميادين في جنوب لبنان: الاحتلال الإسرائيلي ينفذ تفجيراً جديداً في بلدة القنطرة",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "انتشار قوة راجلة تابعة لجيش الاحتلال خلال  اقتحام مخيم بلاطة شرق نابلس.",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: شهيد ومصابون من جراء استهداف مسيّرة إسرائيلية مركبة في بئر النعجة غرب مخيم جباليا شمالي القطاع",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "فلسطين المحتلة: مراسل الميادين في غزة: شهيدان في قصف إسرائيلي استهدف مواصي رفح في جنوب القطاع",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "اليمن: وكالة &quot;سبأ&quot; بصنعاء: الطيران السعودي شن 12 غارة على مديرية سحار بمحافظة صعدة شمال اليمن",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "اليمن: وكالة &quot;سبأ&quot; بصنعاء: الطيران السعودي شن 20 غارة منذ صباح اليوم على مديرية سحار بمحافظة صعدة شمال اليمن",
+      "absolute_sentiment": -1,
+      "semantic_danger_knn": 1
+    },
+    {
+      "channelId": "almayadeen",
+      "channel": "Arab_Axis",
+      "text": "إيران: مستشار قائد الثورة والجمهورية محمد مخبر: لن نفتح مضيق هرمز ولن نسمح باستمرار الحصار",
       "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     },
     {
-      "channelId": "QudsN",
+      "channelId": "almayadeen",
       "channel": "Arab_Axis",
-      "text": "مصادر محلية: قوات الاحتلال تداهم عددًا من المنازل خلال اقتحام مخيم بلاطة شرق نابلس.",
+      "text": "اليمن: وكالة &quot;سبأ&quot; بصنعاء: غارتان سعوديتان تستهدفان مديرية صالة شرقي مدينة تعز جنوبي غرب اليمن",
       "absolute_sentiment": -1,
       "semantic_danger_knn": 1
     },
     {
       "channelId": "QudsN",
       "channel": "Arab_Axis",
-      "text": "&quot;الأفضل أن تنفجر عبوة ناسفة بالفلسطيني المعتقل بدلاً من الجنود الإسرائيليين&quot;..  اعترافات خطيرة لجنود الاحتلال بشأن استخدام المدنيين كدروع بشرية في قطاع غزة.",
-      "absolute_sentiment": -1,
+      "text": "مركز معطى يوثق 1455 انتهاكاً لقوات الاحتلال والمستوطنين في الضفة الغربية خلال أسبوع، شملت اعتقالات واقتحامات وإغلاقات واعتداءات  qudsn.co/share/219098",
+      "absolute_sentiment": 0.5,
       "semantic_danger_knn": 1
     }
   ]
